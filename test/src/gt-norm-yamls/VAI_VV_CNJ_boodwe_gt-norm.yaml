@@ -1,0 +1,113 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VAI+Cnj+Pos+Neu - VV - boodwe :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	persnum prt     dub
+     
+     #Values from slots numbered: 2
+     boodwe+VAI+Cnj+Pos+Neu+1Sg: boodweyaanh
+     boodwe+VAI+Cnj+Pos+Neu+2Sg: boodweyan #yin could be result of y (change c1 to y1?) ... cf below
+     boodwe+VAI+Cnj+Pos+Neu+3Sg: boodwed
+     boodwe+VAI+Cnj+Pos+Neu+4: boodwenid
+     boodwe+VAI+Cnj+Pos+Neu+X: boodweng
+     boodwe+VAI+Cnj+Pos+Neu+1Pl: boodweyaang
+     boodwe+VAI+Cnj+Pos+Neu+21Pl: boodweyang #ying could be result of y (change c1 to y1?) ... cf below
+     boodwe+VAI+Cnj+Pos+Neu+2Pl: boodweyeg
+     boodwe+VAI+Cnj+Pos+Neu+3Pl: boodwewaad
+     
+     #Values from slots numbered: 2, 3
+     boodwe+VAI+Cnj+Pos+Prt+1Sg: boodweyaambaanh
+     boodwe+VAI+Cnj+Pos+Prt+2Sg: boodweymba #cons 
+     #boodwe+VAI+Cnj+Pos+Prt+2Sg: boodweyamba #book #no yin, pretty sure yamba is produced -VR
+     boodwe+VAI+Cnj+Pos+Prt+3Sg: boodwepa
+     boodwe+VAI+Cnj+Pos+Prt+4: boodwenpa
+     boodwe+VAI+Cnj+Pos+Prt+X: boodwengba
+     boodwe+VAI+Cnj+Pos+Prt+1Pl: boodweyaangba
+     boodwe+VAI+Cnj+Pos+Prt+21Pl: boodweyngoba #cons, giba might be expected
+     #boodwe+VAI+Cnj+Pos+Prt+21Pl: boodweyngba #book #no ying
+     boodwe+VAI+Cnj+Pos+Prt+2Pl: boodweyegba
+     boodwe+VAI+Cnj+Pos+Prt+3Pl: boodwewaapa
+     
+     #Values from slots numbered: 2, 4 #this is supposed to be changed conjunct: e-, bwaadwe
+     boodwe+VAI+Cnj+Pos+Dub+1Sg: boodwewaane
+     boodwe+VAI+Cnj+Pos+Dub+2Sg: boodwewne #cons
+     #boodwe+VAI+Cnj+Pos+Dub+2Sg: boodwewane #book
+     boodwe+VAI+Cnj+Pos+Dub+3Sg: boodwegwenh
+     boodwe+VAI+Cnj+Pos+Dub+4: boodwengwenh
+     boodwe+VAI+Cnj+Pos+Dub+X: boodwengwenh
+     boodwe+VAI+Cnj+Pos+Dub+1Pl: boodwewaange
+     boodwe+VAI+Cnj+Pos+Dub+21Pl: boodwewngwe #no coda w-del in model
+     #boodwe+VAI+Cnj+Pos+Dub+21Pl: boodwengwe #book 
+     boodwe+VAI+Cnj+Pos+Dub+2Pl: boodwewegwe
+     boodwe+VAI+Cnj+Pos+Dub+3Pl: boodwewaagwenh
+     
+     #Values from slots numbered: 2, 3, 4 
+     boodwe+VAI+Cnj+Pos+Prt+Dub+1Sg: boodwewaambaane
+     boodwe+VAI+Cnj+Pos+Prt+Dub+2Sg: boodwewmbane
+     boodwe+VAI+Cnj+Pos+Prt+Dub+3Sg: boodwegbane
+     boodwe+VAI+Cnj+Pos+Prt+Dub+4: boodwengobne
+     boodwe+VAI+Cnj+Pos+Prt+Dub+X: boodwengbane
+     boodwe+VAI+Cnj+Pos+Prt+Dub+1Pl: boodwewaangbane
+     boodwe+VAI+Cnj+Pos+Prt+Dub+21Pl: boodwewngobne #cons #no coda w-del
+     #boodwe+VAI+Cnj+Pos+Prt+Dub+21Pl: boodwewngobane #book #no coda w-del (w-del opt-VR)
+     boodwe+VAI+Cnj+Pos+Prt+Dub+2Pl: boodwewegbane
+     boodwe+VAI+Cnj+Pos+Prt+Dub+3Pl: boodwewaagbane
+     
+     #Values from slots numbered: 1, 2
+     boodwe+VAI+Cnj+Neg+Neu+1Sg: boodweswaanh
+     boodwe+VAI+Cnj+Neg+Neu+2Sg: boodweswan 
+     boodwe+VAI+Cnj+Neg+Neu+3Sg: boodwesig 
+     boodwe+VAI+Cnj+Neg+Neu+4: boodwesnid #also snig
+     boodwe+VAI+Cnj+Neg+Neu+X: boodwesing
+     boodwe+VAI+Cnj+Neg+Neu+1Pl: boodweswaang
+     boodwe+VAI+Cnj+Neg+Neu+21Pl: boodweswang 
+     boodwe+VAI+Cnj+Neg+Neu+2Pl: boodwesweg
+     boodwe+VAI+Cnj+Neg+Neu+3Pl: boodwesgwaa
+     
+     #Values from slots numbered: 1, 2, 3 #sii forms extrapolated conservatively
+     boodwe+VAI+Cnj+Neg+Prt+1Sg:      [boodweswaambaanh, boodwesiiwaambaanh]
+     boodwe+VAI+Cnj+Neg+Prt+2Sg:      [boodweswamba    , boodwesiiwmba ]
+     boodwe+VAI+Cnj+Neg+Prt+3Sg:      [boodwespa       , boodwesiipa] #book only sii (possibly accidental gap -VR)
+     boodwe+VAI+Cnj+Neg+Prt+4:    [boodwesnipa     , boodwesiinpa] #book only sii (ditto)
+     boodwe+VAI+Cnj+Neg+Prt+X:      [boodwesngiba    , boodwesiingba] #book only sii (ditto)
+     boodwe+VAI+Cnj+Neg+Prt+1Pl:   [boodweswaangba  , boodwesiiwaangba]
+     boodwe+VAI+Cnj+Neg+Prt+21Pl: [boodweswangba   , boodwesiiwngoba ]
+     boodwe+VAI+Cnj+Neg+Prt+2Pl:   [boodweswegba    , boodwesiiwegba]
+     boodwe+VAI+Cnj+Neg+Prt+3Pl:   [boodweswaapa    , boodwesiiwaapa]
+     
+     #Values from slots numbered: 1, 2, 4 #this is supposed to be changed conjunct??
+     boodwe+VAI+Cnj+Neg+Dub+1Sg:          [boodweswaane    ,  boodwesiiwaane]
+     boodwe+VAI+Cnj+Neg+Dub+2Sg:          [boodweswane     ,  boodwesiiwne]
+     boodwe+VAI+Cnj+Neg+Dub+3Sg:          [boodwesgwenh    ,  boodwesiigwenh]
+     boodwe+VAI+Cnj+Neg+Dub+4:        [boodwesnigwenh  ,  boodwesiingwenh]
+     boodwe+VAI+Cnj+Neg+Dub+X:          [boodwesngwenh   ,  boodwesiingwenh]
+     boodwe+VAI+Cnj+Neg+Dub+1Pl:       [boodweswaange   ,  boodwesiiwaange]
+     boodwe+VAI+Cnj+Neg+Dub+21Pl:     [boodweswangwe   ,  boodwesiiwngwe ]
+     boodwe+VAI+Cnj+Neg+Dub+2Pl:       [boodweswegwe    ,  boodwesiiwegwe]
+     boodwe+VAI+Cnj+Neg+Dub+3Pl:       [boodweswaagwenh ,  boodwesiiwaagwenh]
+     
+     #Values from slots numbered: 1, 2, 3, 4 
+     boodwe+VAI+Cnj+Neg+Prt+Dub+1Sg:      [boodweswaambaane, boodwesiiwaambaane]
+     boodwe+VAI+Cnj+Neg+Prt+Dub+2Sg:      [boodweswambne   , boodwesiiwmbane] #cons
+     #boodwe+VAI+Cnj+Neg+Prt+Dub+2Sg:      [boodweswmbane   , boodwesiiwmbane] #book (typo? -VR)
+     boodwe+VAI+Cnj+Neg+Prt+Dub+3Sg:      [boodwesgobne    , boodwesiigbane]
+     boodwe+VAI+Cnj+Neg+Prt+Dub+4:    [boodwesnigbane  , boodwesiingobne] #cons
+     #boodwe+VAI+Cnj+Neg+Prt+Dub+4:    [boodwesngbane  , boodwesiingobne] #book (typo? -VR)
+     boodwe+VAI+Cnj+Neg+Prt+Dub+X:      [boodwesngobne   , boodwesiingbane] #expected
+     #boodwe+VAI+Cnj+Neg+Prt+Dub+X:      [boodwesngibne   , boodwesiingbane] #book (actually attested in Western dialects (nichols 1980)
+     boodwe+VAI+Cnj+Neg+Prt+Dub+1Pl:   [boodweswaangbane, boodwesiiwaangbane]
+     boodwe+VAI+Cnj+Neg+Prt+Dub+21Pl: [boodweswangbane , boodwesiiwngobne ] #book ne -> nn, gibne might happen too
+     boodwe+VAI+Cnj+Neg+Prt+Dub+2Pl:   [boodweswegbane  , boodwesiiwegbane]
+     boodwe+VAI+Cnj+Neg+Prt+Dub+3Pl:   [boodweswaagbane , boodwesiiwaagbane]
+     

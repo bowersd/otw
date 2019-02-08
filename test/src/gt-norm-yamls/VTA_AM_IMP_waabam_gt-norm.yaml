@@ -1,0 +1,49 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VTA+Imp - AM - waabmaa :
+     
+  #Template Key
+  #NO TEMPLATE
+     waabmaa+VTA+Imp+Imm+2Sg+1SgO: waabmishin  #2sg v 1sg
+     waabmaa+VTA+Imp+Imm+2Sg+1PlO: waabmishnaang  #2sg v 1pl
+     waabmaa+VTA+Imp+Imm+2Pl+1PlO: waabmishnaang  #2pl v 1pl !2v1pl ambig elsewhere...
+     waabmaa+VTA+Imp+Imm+2Pl+1SgO: waabmishik  #2pl v 1sg 
+     waabmaa+VTA+Imp+Imm+2Sg+3SgO: waabam  #2sg v 3sg 
+     waabmaa+VTA+Imp+Imm+2Sg+3SgO: waabmin  #2sg v 3sg 
+     waabmaa+VTA+Imp+Imm+2Sg+3PlO: waabam  #2sg v 3pl 
+     waabmaa+VTA+Imp+Imm+2Sg+3PlO: waabmin  #2sg v 3pl 
+     waabmaa+VTA+Imp+Imm+21Pl+3SgO: waabmaadaa  #21pl v 3sg 
+     waabmaa+VTA+Imp+Imm+21Pl+3PlO: waabmimiinaadaanik  #21pl v 3pl 
+     waabmaa+VTA+Imp+Imm+2Pl+3SgO: waabmik     #2pl v 3sg 
+     waabmaa+VTA+Imp+Imm+2Pl+3PlO: waabmik  #2pl v 3pl 
+
+     waabmaa+VTA+Imp+Del+2Sg+1SgO: waabmishkan  #2sg v 1sg
+     #waabmaa+VTA+Imp+Del+2Sg+1PlO: UNKNOWN  #2sg v 1pl
+     #waabmaa+VTA+Imp+Del+2Pl+1PlO: UNKNOWN  #2pl v 1pl !2v1pl ambig elsewhere...
+     waabmaa+VTA+Imp+Del+2Pl+1SgO: waabmishiikek  #2pl v 1sg 
+     waabmaa+VTA+Imp+Del+2Sg+3SgO: waabmaakan  #2sg v 3sg 
+     waabmaa+VTA+Imp+Del+2Sg+3PlO: waabmaakan  #2sg v 3pl 
+     #waabmaa+VTA+Imp+Del+21Pl+3SgO: UNKNOWN  #21pl v 3sg 
+     #waabmaa+VTA+Imp+Del+21Pl+3PlO: UNKNOWN  #21pl v 3pl 
+     waabmaa+VTA+Imp+Del+2Pl+3SgO: waabmaakek     #2pl v 3sg 
+     waabmaa+VTA+Imp+Del+2Pl+3PlO: waabmimiinaakek  #2pl v 3pl 
+
+     waabmaa+VTA+Imp+Neg+2Sg+1SgO: waabmishke  #2sg v 1sg
+     #waabmaa+VTA+Imp+Neg+2Sg+1PlO: UNKNOWN  #2sg v 1pl
+     #waabmaa+VTA+Imp+Neg+2Pl+1PlO: UNKNOWN  #2pl v 1pl !2v1pl ambig elsewhere...
+     waabmaa+VTA+Imp+Neg+2Pl+1SgO: waabmishkego  #2pl v 1sg 
+     waabmaa+VTA+Imp+Neg+2Sg+3SgO: waabmaake  #2sg v 3sg 
+     waabmaa+VTA+Imp+Neg+2Sg+3PlO: waabmaake  #2sg v 3pl 
+     waabmaa+VTA+Imp+Neg+21Pl+3SgO: waabmaasiidaa  #21pl v 3sg 
+     waabmaa+VTA+Imp+Neg+21Pl+3+PlO: waabmaasiidaanig  #21pl v 3pl 
+     #waabmaa+VTA+Imp+Neg+2Pl+3SgO: UNKNOWN     #2pl v 3sg 
+     #waabmaa+VTA+Imp+Neg+2Pl+3PlSgO: UNKNOWN  #2pl v 3pl 

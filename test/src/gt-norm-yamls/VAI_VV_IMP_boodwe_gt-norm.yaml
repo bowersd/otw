@@ -1,0 +1,26 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VAI+Imp - VV - boodwe :
+     
+  #Template Key
+  #NO TEMPLATE
+     
+     #Values from slots numbered: 2
+     boodwe+VAI+Imp+Imm+2Sg: boodwen
+     boodwe+VAI+Imp+Imm+2Pl: boodweg
+     boodwe+VAI+Imp+Imm+21Pl: boodwedaa
+     boodwe+VAI+Imp+Del+2Sg: boodwekan
+     #boodwe+VAI+Imp+Del+21Pl: UNKNOWN
+     boodwe+VAI+Imp+Del+2Pl: boodwekeg
+     boodwe+VAI+Imp+Neg+2Sg: boodweke
+     boodwe+VAI+Imp+Neg+2Pl: boodwekego
+     boodwe+VAI+Imp+Neg+21Pl: boodwesiidaa

@@ -1,0 +1,688 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  NA - CW - jooweshk :
+    
+  #Template Key
+  #1	2	3	4	5	6	7
+  #per	dim	the	pej	pos	mod	num
+     
+     #Isolation form
+     jooweshk+NA+Sg: jooweshk
+     
+     #Values from slots numbered: 1
+     jooweshk+NA+Sg+Px1Sg: [njooweshk, njooweshkom]
+     jooweshk+NA+Sg+Px2Sg: [gjooweshk, gjooweshkom]
+     jooweshk+NA+Sg+PxX: [jooweshk, jooweshkom]
+     
+     #Values from slots numbered: 2
+     jooweshk+NA+Con+Sg: jooweshkoonh
+     jooweshk+NA+Dim+Sg: jooweshkoons
+     
+     
+     #Values from slots numbered: 4
+     jooweshk+NA+Pej+Sg: jooweshkosh
+     
+     
+     #Values from slots numbered: 6
+     jooweshk+NA+Prt+Sg: jooweshkba
+     jooweshk+NA+Voc+Pl: jooweshkdig
+     
+     #Values from slots numbered: 7
+     jooweshk+NA+Obv: jooweshkon
+     jooweshk+NA+Loc: jooweshkong
+     jooweshk+NA+Pl: jooweshkog
+     
+     #Values from slots numbered: [1, 2]
+     jooweshk+NA+Con+Sg+Px1Sg: [njooweshkoonh, njooweshkoonyim]
+     jooweshk+NA+Dim+Sg+Px1Sg: [njooweshkoons, njooweshkoonsim]
+     jooweshk+NA+Con+Sg+Px2Sg: [gjooweshkoonh, gjooweshkoonyim]
+     jooweshk+NA+Dim+Sg+Px2Sg: [gjooweshkoons, gjooweshkoonsim]
+     jooweshk+NA+Con+Sg+PxX: [jooweshkoonh, jooweshkoonyim]
+     jooweshk+NA+Dim+Sg+PxX: [jooweshkoons, jooweshkoonsim]
+     
+     #Values from slots numbered: [1, 3]
+     
+     #Values from slots numbered: [1, 4]
+     jooweshk+NA+Pej+Sg+Px1Sg: [njooweshkosh, njooweshkmish]
+     jooweshk+NA+Pej+Sg+Px2Sg: [gjooweshkosh, gjooweshkmish]
+     jooweshk+NA+Pej+Sg+PxX: [jooweshkosh, jooweshkmish]
+    
+     #Values from slots numbered: [1, 5]
+     jooweshk+NA+Sg+Px1Pl: [njooweshknaa, njooweshkminaa]
+     jooweshk+NA+Sg+Px21Pl: [gjooweshknaa, gjooweshkminaa]
+     jooweshk+NA+Sg+Px2Pl: [gjooweshkwaa, gjooweshkmiwaa]
+     jooweshk+NA+Sg+Px4: [jooweshkni, jooweshkmini]
+     
+     
+     #Values from slots numbered: [1, 6]
+     jooweshk+NA+Prt+Sg+Px1Sg: [njooweshkba, njooweshkmiba]
+     jooweshk+NA+Voc+Pl+Px1Sg: [njooweshkdig, njooweshkmidig]
+     jooweshk+NA+Prt+Sg+Px2Sg: [gjooweshkba, gjooweshkmiba]
+     jooweshk+NA+Voc+Pl+Px2Sg: [gjooweshkdig, gjooweshkmidig]
+     jooweshk+NA+Prt+Sg+PxX: [jooweshkba, jooweshkmiba]
+     jooweshk+NA+Voc+Pl+PxX: [jooweshkdig, jooweshkmidig]
+     
+     #Values from slots numbered: [1, 7]
+     jooweshk+NA+Obv+Px1Sg: [njooweshkon, njooweshkman]
+     jooweshk+NA+Loc+Px1Sg: [njooweshkong, njooweshkming]
+     jooweshk+NA+Pl+Px1Sg: [njooweshkog, njooweshkmag]
+     jooweshk+NA+Obv+Px2Sg: [gjooweshkon, gjooweshkman]
+     jooweshk+NA+Loc+Px2Sg: [gjooweshkong, gjooweshkming]
+     jooweshk+NA+Pl+Px2Sg: [gjooweshkog, gjooweshkmag]
+     jooweshk+NA+Obv+Px3Sg: [jooweshkon, jooweshkman]
+     jooweshk+NA+Loc+Px3Sg: [jooweshkong, jooweshkming]
+     jooweshk+NA+Obv+PxX: [jooweshkon, jooweshkman]
+     jooweshk+NA+Loc+PxX: [jooweshkong, jooweshkming]
+     jooweshk+NA+Pl+PxX: [jooweshkog, jooweshkmag]
+     
+     
+     #Values from slots numbered: [2, 4]
+     jooweshk+NA+Con+Pej+Sg: jooweshkoonyish
+     jooweshk+NA+Dim+Pej+Sg: jooweshkoonsish
+     
+     
+     #Values from slots numbered: [2, 6]
+     jooweshk+NA+Con+Prt+Sg: jooweshkoonyba
+     jooweshk+NA+Con+Voc+Pl: jooweshkoonydig
+     jooweshk+NA+Dim+Prt+Sg: jooweshkoonsba
+     jooweshk+NA+Dim+Voc+Pl: jooweshkoonsdig
+     
+     #Values from slots numbered: [2, 7]
+     jooweshk+NA+Con+Obv: jooweshkoonyin
+     jooweshk+NA+Con+Loc: jooweshkoonying
+     jooweshk+NA+Con+Pl: jooweshkoonyig
+     jooweshk+NA+Dim+Obv: jooweshkoonsan
+     jooweshk+NA+Dim+Loc: jooweshkoonsing
+     jooweshk+NA+Dim+Pl: jooweshkoonsag
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: [4, 6]
+     jooweshk+NA+Pej+Prt+Sg: jooweshkshiba
+     jooweshk+NA+Pej+Voc+Pl: jooweshkshidig
+     
+     #Values from slots numbered: [4, 7]
+     jooweshk+NA+Pej+Obv: jooweshkshan
+     jooweshk+NA+Pej+Loc: jooweshkshing
+     jooweshk+NA+Pej+Pl: jooweshkshag
+     
+     
+     
+     #Values from slots numbered: [6, 7]
+     jooweshk+NA+Prt+Obv: jooweshkbaniin
+     jooweshk+NA+Prt+Loc: jooweshkbaniing
+     jooweshk+NA+Prt+Pl: jooweshkbaniig
+     
+     #Values from slots numbered: [1, 2, 3]
+     
+     #Values from slots numbered: [1, 2, 4]
+     jooweshk+NA+Con+Pej+Sg+Px1Sg: [njooweshkoonyish, njooweshkoonymish]
+     jooweshk+NA+Dim+Pej+Sg+Px1Sg: [njooweshkoonsish, njooweshkoonsmish]
+     jooweshk+NA+Con+Pej+Sg+Px2Sg: [gjooweshkoonyish, gjooweshkoonymish]
+     jooweshk+NA+Dim+Pej+Sg+Px2Sg: [gjooweshkoonsish, gjooweshkoonsmish]
+     jooweshk+NA+Con+Pej+Sg+PxX: [jooweshkoonyish, jooweshkoonymish]
+     jooweshk+NA+Dim+Pej+Sg+PxX: [jooweshkoonsish, jooweshkoonsmish]
+     
+     #Values from slots numbered: [1, 2, 5]
+     jooweshk+NA+Con+Sg+Px1Pl: [njooweshkoonynaa, njooweshkoonyminaa]
+     jooweshk+NA+Dim+Sg+Px1Pl: [njooweshkoonsnaa, njooweshkoonsminaa]
+     jooweshk+NA+Con+Sg+Px21Pl: [gjooweshkoonynaa, gjooweshkoonyminaa]
+     jooweshk+NA+Con+Sg+Px2Pl: [gjooweshkoonywaa, gjooweshkoonymiwaa]
+     jooweshk+NA+Dim+Sg+Px21Pl: [gjooweshkoonsnaa, gjooweshkoonsminaa]
+     jooweshk+NA+Dim+Sg+Px2Pl: [gjooweshkoonswaa, gjooweshkoonsmiwaa]
+     jooweshk+NA+Con+Sg+Px4: [jooweshkoonyni, jooweshkoonymini]
+     jooweshk+NA+Dim+Sg+Px4: [jooweshkoonsni, jooweshkoonsmini]
+     
+     #Values from slots numbered: [1, 2, 6]
+     jooweshk+NA+Con+Prt+Sg+Px1Sg: [njooweshkoonyba, njooweshkoonymiba]
+     jooweshk+NA+Con+Voc+Pl+Px1Sg: [njooweshkoonydig, njooweshkoonymidig]
+     jooweshk+NA+Dim+Prt+Sg+Px1Sg: [njooweshkoonsba, njooweshkoonsmiba]
+     jooweshk+NA+Dim+Voc+Pl+Px1Sg: [njooweshkoonsdig, njooweshkoonsmidig]
+     jooweshk+NA+Con+Prt+Sg+Px2Sg: [gjooweshkoonyba, gjooweshkoonymiba]
+     jooweshk+NA+Con+Voc+Pl+Px2Sg: [gjooweshkoonydig, gjooweshkoonymidig]
+     jooweshk+NA+Dim+Prt+Sg+Px2Sg: [gjooweshkoonsba, gjooweshkoonsmiba]
+     jooweshk+NA+Dim+Voc+Pl+Px2Sg: [gjooweshkoonsdig, gjooweshkoonsmidig]
+     jooweshk+NA+Con+Prt+Sg+PxX: [jooweshkoonyba, jooweshkoonymiba]
+     jooweshk+NA+Con+Voc+Pl+PxX: [jooweshkoonydig, jooweshkoonymidig]
+     jooweshk+NA+Dim+Prt+Sg+PxX: [jooweshkoonsba, jooweshkoonsmiba]
+     jooweshk+NA+Dim+Voc+Pl+PxX: [jooweshkoonsdig, jooweshkoonsmidig]
+     
+     #Values from slots numbered: [1, 2, 7]
+     jooweshk+NA+Con+Obv+Px1Sg: [njooweshkoonyin, njooweshkoonyman]
+     jooweshk+NA+Con+Loc+Px1Sg: [njooweshkoonying, njooweshkoonyming]
+     jooweshk+NA+Con+Pl+Px1Sg: [njooweshkoonyig, njooweshkoonymag]
+     jooweshk+NA+Dim+Obv+Px1Sg: [njooweshkoonsan, njooweshkoonsman]
+     jooweshk+NA+Dim+Loc+Px1Sg: [njooweshkoonsing, njooweshkoonsming]
+     jooweshk+NA+Dim+Pl+Px1Sg: [njooweshkoonsag, njooweshkoonsmag]
+     jooweshk+NA+Con+Obv+Px2Sg: [gjooweshkoonyin, gjooweshkoonyman]
+     jooweshk+NA+Con+Loc+Px2Sg: [gjooweshkoonying, gjooweshkoonyming]
+     jooweshk+NA+Con+Pl+Px2Sg: [gjooweshkoonyig, gjooweshkoonymag]
+     jooweshk+NA+Dim+Obv+Px2Sg: [gjooweshkoonsan, gjooweshkoonsman]
+     jooweshk+NA+Dim+Loc+Px2Sg: [gjooweshkoonsing, gjooweshkoonsming]
+     jooweshk+NA+Dim+Pl+Px2Sg: [gjooweshkoonsag, gjooweshkoonsmag]
+     jooweshk+NA+Con+Obv+Px3Sg: [jooweshkoonyin, jooweshkoonyman]
+     jooweshk+NA+Con+Loc+Px3Sg: [jooweshkoonying, jooweshkoonyming]
+     jooweshk+NA+Dim+Obv+Px3Sg: [jooweshkoonsan, jooweshkoonsman]
+     jooweshk+NA+Dim+Loc+Px3Sg: [jooweshkoonsing, jooweshkoonsming]
+     jooweshk+NA+Con+Obv+PxX: [jooweshkoonyin, jooweshkoonyman]
+     jooweshk+NA+Con+Loc+PxX: [jooweshkoonying, jooweshkoonyming]
+     jooweshk+NA+Con+Pl+PxX: [jooweshkoonyig, jooweshkoonymag]
+     jooweshk+NA+Dim+Obv+PxX: [jooweshkoonsan, jooweshkoonsman]
+     jooweshk+NA+Dim+Loc+PxX: [jooweshkoonsing, jooweshkoonsming]
+     jooweshk+NA+Dim+Pl+PxX: [jooweshkoonsag, jooweshkoonsmag]
+     
+     #Values from slots numbered: [1, 3, 4]
+     
+     #Values from slots numbered: [1, 3, 5]
+     
+     #Values from slots numbered: [1, 3, 6]
+     
+     #Values from slots numbered: [1, 3, 7]
+     
+     #Values from slots numbered: [1, 4, 5]
+     jooweshk+NA+Pej+Sg+Px1Pl: [njooweshkshinaa, njooweshkmishnaa]
+     jooweshk+NA+Pej+Sg+Px21Pl: [gjooweshkshinaa, gjooweshkmishnaa]
+     jooweshk+NA+Pej+Sg+Px2Pl: [gjooweshkshiwaa, gjooweshkmishwaa]
+     jooweshk+NA+Pej+Sg+Px4: [jooweshkshini, jooweshkmishni]
+     
+     #Values from slots numbered: [1, 4, 6]
+     jooweshk+NA+Pej+Prt+Sg+Px1Sg: [njooweshkshiba, njooweshkmishba]
+     jooweshk+NA+Pej+Voc+Pl+Px1Sg: [njooweshkshidig, njooweshkmishdig]
+     jooweshk+NA+Pej+Prt+Sg+Px2Sg: [gjooweshkshiba, gjooweshkmishba]
+     jooweshk+NA+Pej+Voc+Pl+Px2Sg: [gjooweshkshidig, gjooweshkmishdig]
+     jooweshk+NA+Pej+Prt+Sg+PxX: [jooweshkshiba, jooweshkmishba]
+     jooweshk+NA+Pej+Voc+Pl+PxX: [jooweshkshidig, jooweshkmishdig]
+     
+     #Values from slots numbered: [1, 4, 7]
+     jooweshk+NA+Pej+Obv+Px1Sg: [njooweshkshan, njooweshkmishan]
+     jooweshk+NA+Pej+Loc+Px1Sg: [njooweshkshing, njooweshkmishing]
+     jooweshk+NA+Pej+Pl+Px1Sg: [njooweshkshag, njooweshkmishag]
+     jooweshk+NA+Pej+Obv+Px2Sg: [gjooweshkshan, gjooweshkmishan]
+     jooweshk+NA+Pej+Loc+Px2Sg: [gjooweshkshing, gjooweshkmishing]
+     jooweshk+NA+Pej+Pl+Px2Sg: [gjooweshkshag, gjooweshkmishag]
+     jooweshk+NA+Pej+Obv+Px3Sg: [jooweshkshan, jooweshkmishan]
+     jooweshk+NA+Pej+Loc+Px3Sg: [jooweshkshing, jooweshkmishing]
+     jooweshk+NA+Pej+Obv+PxX: [jooweshkshan, jooweshkmishan]
+     jooweshk+NA+Pej+Loc+PxX: [jooweshkshing, jooweshkmishing]
+     jooweshk+NA+Pej+Pl+PxX: [jooweshkshag, jooweshkmishag]
+     
+     #Values from slots numbered: [1, 5, 6]
+     jooweshk+NA+Prt+Sg+Px1Pl: [njooweshknaanba, njooweshkminaanba]
+     jooweshk+NA+Voc+Pl+Px1Pl: [njooweshknaandig, njooweshkminaandig]
+     jooweshk+NA+Prt+Sg+Px21Pl: [gjooweshknaanba, gjooweshkminaanba]
+     jooweshk+NA+Voc+Pl+Px21Pl: [gjooweshknaandig, gjooweshkminaandig]
+     jooweshk+NA+Prt+Sg+Px2Pl: [gjooweshkwaaba, gjooweshkmiwaaba]
+     jooweshk+NA+Voc+Pl+Px2Pl: [gjooweshkwaadig, gjooweshkmiwaadig]
+     jooweshk+NA+Prt+Sg+Px4: [jooweshkniwba, jooweshkminwiba]
+     
+     #Values from slots numbered: [1, 5, 7]
+     jooweshk+NA+Obv+Px1Pl: [njooweshknaanin, njooweshkminaanin]
+     jooweshk+NA+Loc+Px1Pl: [njooweshknaaning, njooweshkminaaning]
+     jooweshk+NA+Pl+Px1Pl: [njooweshknaanig, njooweshkminaanig]
+     jooweshk+NA+Obv+Px21Pl: [gjooweshknaanin, gjooweshkminaanin]
+     jooweshk+NA+Loc+Px21Pl: [gjooweshknaaning, gjooweshkminaaning]
+     jooweshk+NA+Pl+Px21Pl: [gjooweshknaanig, gjooweshkminaanig]
+     jooweshk+NA+Obv+Px2Pl: [gjooweshkwaan, gjooweshkmiwaan]
+     jooweshk+NA+Loc+Px2Pl: [gjooweshkwaang, gjooweshkmiwaang]
+     jooweshk+NA+Pl+Px2Pl: [gjooweshkwaag, gjooweshkmiwaag]
+     jooweshk+NA+Obv+Px3Pl: [jooweshkwaan, jooweshkmiwaan]
+     jooweshk+NA+Loc+Px3Pl: [jooweshkwaang, jooweshkmiwaang]
+     jooweshk+NA+Obv+Px4: [jooweshkniwan, jooweshkminwan]
+     jooweshk+NA+Loc+Px4: [jooweshkniing, jooweshkminiing]
+     
+     #Values from slots numbered: [1, 6, 7]
+     jooweshk+NA+Prt+Obv+Px1Sg: [njooweshkbaniin, njooweshkmibniin]
+     jooweshk+NA+Prt+Loc+Px1Sg: [njooweshkbaniing, njooweshkmibniing]
+     jooweshk+NA+Prt+Pl+Px1Sg: [njooweshkbaniig, njooweshkmibniig]
+     jooweshk+NA+Prt+Obv+Px2Sg: [gjooweshkbaniin, gjooweshkmibniin]
+     jooweshk+NA+Prt+Loc+Px2Sg: [gjooweshkbaniing, gjooweshkmibniing]
+     jooweshk+NA+Prt+Pl+Px2Sg: [gjooweshkbaniig, gjooweshkmibniig]
+     jooweshk+NA+Prt+Obv+Px3Sg: [jooweshkbaniin, jooweshkmibniin]
+     jooweshk+NA+Prt+Loc+Px3Sg: [jooweshkbaniing, jooweshkmibniing]
+     jooweshk+NA+Prt+Obv+PxX: [jooweshkbaniin, jooweshkmibniin]
+     jooweshk+NA+Prt+Loc+PxX: [jooweshkbaniing, jooweshkmibniing]
+     jooweshk+NA+Prt+Pl+PxX: [jooweshkbaniig, jooweshkmibniig]
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: [2, 4, 6]
+     jooweshk+NA+Con+Pej+Prt+Sg: jooweshkoonyshiba
+     jooweshk+NA+Con+Pej+Voc+Pl: jooweshkoonyshidig
+     jooweshk+NA+Dim+Pej+Prt+Sg: jooweshkoonsshiba
+     jooweshk+NA+Dim+Pej+Voc+Pl: jooweshkoonsshidig
+     
+     #Values from slots numbered: [2, 4, 7]
+     jooweshk+NA+Con+Pej+Obv: jooweshkoonyshan
+     jooweshk+NA+Con+Pej+Loc: jooweshkoonyshing
+     jooweshk+NA+Con+Pej+Pl: jooweshkoonyshag
+     jooweshk+NA+Dim+Pej+Obv: jooweshkoonsshan
+     jooweshk+NA+Dim+Pej+Loc: jooweshkoonsshing
+     jooweshk+NA+Dim+Pej+Pl: jooweshkoonsshag
+     
+     
+     
+     #Values from slots numbered: [2, 6, 7]
+     jooweshk+NA+Con+Prt+Obv: jooweshkoonybaniin
+     jooweshk+NA+Con+Prt+Loc: jooweshkoonybaniing
+     jooweshk+NA+Con+Prt+Pl: jooweshkoonybaniig
+     jooweshk+NA+Dim+Prt+Obv: jooweshkoonsbaniin
+     jooweshk+NA+Dim+Prt+Loc: jooweshkoonsbaniing
+     jooweshk+NA+Dim+Prt+Pl: jooweshkoonsbaniig
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: [4, 6, 7]
+     jooweshk+NA+Pej+Prt+Obv: jooweshkshibniin
+     jooweshk+NA+Pej+Prt+Loc: jooweshkshibniing
+     jooweshk+NA+Pej+Prt+Pl: jooweshkshibniig
+     
+     
+     #Values from slots numbered: [1, 2, 3, 4]
+     
+     #Values from slots numbered: [1, 2, 3, 5]
+     
+     #Values from slots numbered: [1, 2, 3, 6]
+     
+     #Values from slots numbered: [1, 2, 3, 7]
+     
+     #Values from slots numbered: [1, 2, 4, 5]
+     jooweshk+NA+Con+Pej+Sg+Px1Pl: [njooweshkoonyshinaa, njooweshkoonymishnaa]
+     jooweshk+NA+Dim+Pej+Sg+Px1Pl: [njooweshkoonsshinaa, njooweshkoonsmishnaa]
+     jooweshk+NA+Con+Pej+Sg+Px21Pl: [gjooweshkoonyshinaa, gjooweshkoonymishnaa]
+     jooweshk+NA+Con+Pej+Sg+Px2Pl: [gjooweshkoonyshiwaa, gjooweshkoonymishwaa]
+     jooweshk+NA+Dim+Pej+Sg+Px21Pl: [gjooweshkoonsshinaa, gjooweshkoonsmishnaa]
+     jooweshk+NA+Dim+Pej+Sg+Px2Pl: [gjooweshkoonsshiwaa, gjooweshkoonsmishwaa]
+     jooweshk+NA+Con+Pej+Sg+Px4: [jooweshkoonyshini, jooweshkoonymishni]
+     jooweshk+NA+Dim+Pej+Sg+Px4: [jooweshkoonsshini, jooweshkoonsmishni]
+     
+     #Values from slots numbered: [1, 2, 4, 6]
+     jooweshk+NA+Con+Pej+Prt+Sg+Px1Sg: [njooweshkoonyshiba, njooweshkoonymishba]
+     jooweshk+NA+Con+Pej+Voc+Pl+Px1Sg: [njooweshkoonyshidig, njooweshkoonymishdig]
+     jooweshk+NA+Dim+Pej+Prt+Sg+Px1Sg: [njooweshkoonsshiba, njooweshkoonsmishba]
+     jooweshk+NA+Dim+Pej+Voc+Pl+Px1Sg: [njooweshkoonsshidig, njooweshkoonsmishdig]
+     jooweshk+NA+Con+Pej+Prt+Sg+Px2Sg: [gjooweshkoonyshiba, gjooweshkoonymishba]
+     jooweshk+NA+Con+Pej+Voc+Pl+Px2Sg: [gjooweshkoonyshidig, gjooweshkoonymishdig]
+     jooweshk+NA+Dim+Pej+Prt+Sg+Px2Sg: [gjooweshkoonsshiba, gjooweshkoonsmishba]
+     jooweshk+NA+Dim+Pej+Voc+Pl+Px2Sg: [gjooweshkoonsshidig, gjooweshkoonsmishdig]
+     jooweshk+NA+Con+Pej+Prt+Sg+PxX: [jooweshkoonyshiba, jooweshkoonymishba]
+     jooweshk+NA+Con+Pej+Voc+Pl+PxX: [jooweshkoonyshidig, jooweshkoonymishdig]
+     jooweshk+NA+Dim+Pej+Prt+Sg+PxX: [jooweshkoonsshiba, jooweshkoonsmishba]
+     jooweshk+NA+Dim+Pej+Voc+Pl+PxX: [jooweshkoonsshidig, jooweshkoonsmishdig]
+     
+     #Values from slots numbered: [1, 2, 4, 7]
+     jooweshk+NA+Con+Pej+Obv+Px1Sg: [njooweshkoonyshan, njooweshkoonymishan]
+     jooweshk+NA+Con+Pej+Loc+Px1Sg: [njooweshkoonyshing, njooweshkoonymishing]
+     jooweshk+NA+Con+Pej+Pl+Px1Sg: [njooweshkoonyshag, njooweshkoonymishag]
+     jooweshk+NA+Dim+Pej+Obv+Px1Sg: [njooweshkoonsshan, njooweshkoonsmishan]
+     jooweshk+NA+Dim+Pej+Loc+Px1Sg: [njooweshkoonsshing, njooweshkoonsmishing]
+     jooweshk+NA+Dim+Pej+Pl+Px1Sg: [njooweshkoonsshag, njooweshkoonsmishag]
+     jooweshk+NA+Con+Pej+Obv+Px2Sg: [gjooweshkoonyshan, gjooweshkoonymishan]
+     jooweshk+NA+Con+Pej+Loc+Px2Sg: [gjooweshkoonyshing, gjooweshkoonymishing]
+     jooweshk+NA+Con+Pej+Pl+Px2Sg: [gjooweshkoonyshag, gjooweshkoonymishag]
+     jooweshk+NA+Dim+Pej+Obv+Px2Sg: [gjooweshkoonsshan, gjooweshkoonsmishan]
+     jooweshk+NA+Dim+Pej+Loc+Px2Sg: [gjooweshkoonsshing, gjooweshkoonsmishing]
+     jooweshk+NA+Dim+Pej+Pl+Px2Sg: [gjooweshkoonsshag, gjooweshkoonsmishag]
+     jooweshk+NA+Con+Pej+Obv+Px3Sg: [jooweshkoonyshan, jooweshkoonymishan]
+     jooweshk+NA+Con+Pej+Loc+Px3Sg: [jooweshkoonyshing, jooweshkoonymishing]
+     jooweshk+NA+Dim+Pej+Obv+Px3Sg: [jooweshkoonsshan, jooweshkoonsmishan]
+     jooweshk+NA+Dim+Pej+Loc+Px3Sg: [jooweshkoonsshing, jooweshkoonsmishing]
+     jooweshk+NA+Con+Pej+Obv+PxX: [jooweshkoonyshan, jooweshkoonymishan]
+     jooweshk+NA+Con+Pej+Loc+PxX: [jooweshkoonyshing, jooweshkoonymishing]
+     jooweshk+NA+Con+Pej+Pl+PxX: [jooweshkoonyshag, jooweshkoonymishag]
+     jooweshk+NA+Dim+Pej+Obv+PxX: [jooweshkoonsshan, jooweshkoonsmishan]
+     jooweshk+NA+Dim+Pej+Loc+PxX: [jooweshkoonsshing, jooweshkoonsmishing]
+     jooweshk+NA+Dim+Pej+Pl+PxX: [jooweshkoonsshag, jooweshkoonsmishag]
+     
+     #Values from slots numbered: [1, 2, 5, 6]
+     jooweshk+NA+Con+Prt+Sg+Px1Pl: [njooweshkoonynaanba, njooweshkoonyminaanba]
+     jooweshk+NA+Con+Voc+Pl+Px1Pl: [njooweshkoonynaandig, njooweshkoonyminaandig]
+     jooweshk+NA+Dim+Prt+Sg+Px1Pl: [njooweshkoonsnaanba, njooweshkoonsminaanba]
+     jooweshk+NA+Dim+Voc+Pl+Px1Pl: [njooweshkoonsnaandig, njooweshkoonsminaandig]
+     jooweshk+NA+Con+Prt+Sg+Px21Pl: [gjooweshkoonynaanba, gjooweshkoonyminaanba]
+     jooweshk+NA+Con+Voc+Pl+Px21Pl: [gjooweshkoonynaandig, gjooweshkoonyminaandig]
+     jooweshk+NA+Con+Prt+Sg+Px2Pl: [gjooweshkoonywaaba, gjooweshkoonymiwaaba]
+     jooweshk+NA+Con+Voc+Pl+Px2Pl: [gjooweshkoonywaadig, gjooweshkoonymiwaadig]
+     jooweshk+NA+Dim+Prt+Sg+Px21Pl: [gjooweshkoonsnaanba, gjooweshkoonsminaanba]
+     jooweshk+NA+Dim+Voc+Pl+Px21Pl: [gjooweshkoonsnaandig, gjooweshkoonsminaandig]
+     jooweshk+NA+Dim+Prt+Sg+Px2Pl: [gjooweshkoonswaaba, gjooweshkoonsmiwaaba]
+     jooweshk+NA+Dim+Voc+Pl+Px2Pl: [gjooweshkoonswaadig, gjooweshkoonsmiwaadig]
+     jooweshk+NA+Con+Prt+Sg+Px4: [jooweshkoonyniwba, jooweshkoonyminwiba]
+     jooweshk+NA+Dim+Prt+Sg+Px4: [jooweshkoonsniwba, jooweshkoonsminwiba]
+     
+     #Values from slots numbered: [1, 2, 5, 7]
+     jooweshk+NA+Con+Obv+Px1Pl: [njooweshkoonynaanin, njooweshkoonyminaanin]
+     jooweshk+NA+Con+Loc+Px1Pl: [njooweshkoonynaaning, njooweshkoonyminaaning]
+     jooweshk+NA+Con+Pl+Px1Pl: [njooweshkoonynaanig, njooweshkoonyminaanig]
+     jooweshk+NA+Dim+Obv+Px1Pl: [njooweshkoonsnaanin, njooweshkoonsminaanin]
+     jooweshk+NA+Dim+Loc+Px1Pl: [njooweshkoonsnaaning, njooweshkoonsminaaning]
+     jooweshk+NA+Dim+Pl+Px1Pl: [njooweshkoonsnaanig, njooweshkoonsminaanig]
+     jooweshk+NA+Con+Obv+Px21Pl: [gjooweshkoonynaanin, gjooweshkoonyminaanin]
+     jooweshk+NA+Con+Loc+Px21Pl: [gjooweshkoonynaaning, gjooweshkoonyminaaning]
+     jooweshk+NA+Con+Pl+Px21Pl: [gjooweshkoonynaanig, gjooweshkoonyminaanig]
+     jooweshk+NA+Con+Obv+Px2Pl: [gjooweshkoonywaan, gjooweshkoonymiwaan]
+     jooweshk+NA+Con+Loc+Px2Pl: [gjooweshkoonywaang, gjooweshkoonymiwaang]
+     jooweshk+NA+Con+Pl+Px2Pl: [gjooweshkoonywaag, gjooweshkoonymiwaag]
+     jooweshk+NA+Dim+Obv+Px21Pl: [gjooweshkoonsnaanin, gjooweshkoonsminaanin]
+     jooweshk+NA+Dim+Loc+Px21Pl: [gjooweshkoonsnaaning, gjooweshkoonsminaaning]
+     jooweshk+NA+Dim+Pl+Px21Pl: [gjooweshkoonsnaanig, gjooweshkoonsminaanig]
+     jooweshk+NA+Dim+Obv+Px2Pl: [gjooweshkoonswaan, gjooweshkoonsmiwaan]
+     jooweshk+NA+Dim+Loc+Px2Pl: [gjooweshkoonswaang, gjooweshkoonsmiwaang]
+     jooweshk+NA+Dim+Pl+Px2Pl: [gjooweshkoonswaag, gjooweshkoonsmiwaag]
+     jooweshk+NA+Con+Obv+Px3Pl: [jooweshkoonywaan, jooweshkoonymiwaan]
+     jooweshk+NA+Con+Loc+Px3Pl: [jooweshkoonywaang, jooweshkoonymiwaang]
+     jooweshk+NA+Con+Obv+Px4: [jooweshkoonyniwan, jooweshkoonyminwan]
+     jooweshk+NA+Con+Loc+Px4: [jooweshkoonyniing, jooweshkoonyminiing]
+     jooweshk+NA+Dim+Obv+Px3Pl: [jooweshkoonswaan, jooweshkoonsmiwaan]
+     jooweshk+NA+Dim+Loc+Px3Pl: [jooweshkoonswaang, jooweshkoonsmiwaang]
+     jooweshk+NA+Dim+Obv+Px4: [jooweshkoonsniwan, jooweshkoonsminwan]
+     jooweshk+NA+Dim+Loc+Px4: [jooweshkoonsniing, jooweshkoonsminiing]
+     
+     #Values from slots numbered: [1, 2, 6, 7]
+     jooweshk+NA+Con+Prt+Obv+Px1Sg: [njooweshkoonybaniin, njooweshkoonymibniin]
+     jooweshk+NA+Con+Prt+Loc+Px1Sg: [njooweshkoonybaniing, njooweshkoonymibniing]
+     jooweshk+NA+Con+Prt+Pl+Px1Sg: [njooweshkoonybaniig, njooweshkoonymibniig]
+     jooweshk+NA+Dim+Prt+Obv+Px1Sg: [njooweshkoonsbaniin, njooweshkoonsmibniin]
+     jooweshk+NA+Dim+Prt+Loc+Px1Sg: [njooweshkoonsbaniing, njooweshkoonsmibniing]
+     jooweshk+NA+Dim+Prt+Pl+Px1Sg: [njooweshkoonsbaniig, njooweshkoonsmibniig]
+     jooweshk+NA+Con+Prt+Obv+Px2Sg: [gjooweshkoonybaniin, gjooweshkoonymibniin]
+     jooweshk+NA+Con+Prt+Loc+Px2Sg: [gjooweshkoonybaniing, gjooweshkoonymibniing]
+     jooweshk+NA+Con+Prt+Pl+Px2Sg: [gjooweshkoonybaniig, gjooweshkoonymibniig]
+     jooweshk+NA+Dim+Prt+Obv+Px2Sg: [gjooweshkoonsbaniin, gjooweshkoonsmibniin]
+     jooweshk+NA+Dim+Prt+Loc+Px2Sg: [gjooweshkoonsbaniing, gjooweshkoonsmibniing]
+     jooweshk+NA+Dim+Prt+Pl+Px2Sg: [gjooweshkoonsbaniig, gjooweshkoonsmibniig]
+     jooweshk+NA+Con+Prt+Obv+Px3Sg: [jooweshkoonybaniin, jooweshkoonymibniin]
+     jooweshk+NA+Con+Prt+Loc+Px3Sg: [jooweshkoonybaniing, jooweshkoonymibniing]
+     jooweshk+NA+Dim+Prt+Obv+Px3Sg: [jooweshkoonsbaniin, jooweshkoonsmibniin]
+     jooweshk+NA+Dim+Prt+Loc+Px3Sg: [jooweshkoonsbaniing, jooweshkoonsmibniing]
+     jooweshk+NA+Con+Prt+Obv+PxX: [jooweshkoonybaniin, jooweshkoonymibniin]
+     jooweshk+NA+Con+Prt+Loc+PxX: [jooweshkoonybaniing, jooweshkoonymibniing]
+     jooweshk+NA+Con+Prt+Pl+PxX: [jooweshkoonybaniig, jooweshkoonymibniig]
+     jooweshk+NA+Dim+Prt+Obv+PxX: [jooweshkoonsbaniin, jooweshkoonsmibniin]
+     jooweshk+NA+Dim+Prt+Loc+PxX: [jooweshkoonsbaniing, jooweshkoonsmibniing]
+     jooweshk+NA+Dim+Prt+Pl+PxX: [jooweshkoonsbaniig, jooweshkoonsmibniig]
+     
+     #Values from slots numbered: [1, 3, 4, 5]
+     
+     #Values from slots numbered: [1, 3, 4, 6]
+     
+     #Values from slots numbered: [1, 3, 4, 7]
+     
+     #Values from slots numbered: [1, 3, 5, 6]
+     
+     #Values from slots numbered: [1, 3, 5, 7]
+     
+     #Values from slots numbered: [1, 3, 6, 7]
+     
+     #Values from slots numbered: [1, 4, 5, 6]
+     jooweshk+NA+Pej+Prt+Sg+Px1Pl: [njooweshkshinaanba, njooweshkmishnaanba]
+     jooweshk+NA+Pej+Voc+Pl+Px1Pl: [njooweshkshinaandig, njooweshkmishnaandig]
+     jooweshk+NA+Pej+Prt+Sg+Px21Pl: [gjooweshkshinaanba, gjooweshkmishnaanba]
+     jooweshk+NA+Pej+Voc+Pl+Px21Pl: [gjooweshkshinaandig, gjooweshkmishnaandig]
+     jooweshk+NA+Pej+Prt+Sg+Px2Pl: [gjooweshkshiwaaba, gjooweshkmishwaaba]
+     jooweshk+NA+Pej+Voc+Pl+Px2Pl: [gjooweshkshiwaadig, gjooweshkmishwaadig]
+     jooweshk+NA+Pej+Prt+Sg+Px4: [jooweshkshinwiba, jooweshkmishniwba]
+     
+     #Values from slots numbered: [1, 4, 5, 7]
+     jooweshk+NA+Pej+Obv+Px1Pl: [njooweshkshinaanin, njooweshkmishnaanin]
+     jooweshk+NA+Pej+Loc+Px1Pl: [njooweshkshinaaning, njooweshkmishnaaning]
+     jooweshk+NA+Pej+Pl+Px1Pl: [njooweshkshinaanig, njooweshkmishnaanig]
+     jooweshk+NA+Pej+Obv+Px21Pl: [gjooweshkshinaanin, gjooweshkmishnaanin]
+     jooweshk+NA+Pej+Loc+Px21Pl: [gjooweshkshinaaning, gjooweshkmishnaaning]
+     jooweshk+NA+Pej+Pl+Px21Pl: [gjooweshkshinaanig, gjooweshkmishnaanig]
+     jooweshk+NA+Pej+Obv+Px2Pl: [gjooweshkshiwaan, gjooweshkmishwaan]
+     jooweshk+NA+Pej+Loc+Px2Pl: [gjooweshkshiwaang, gjooweshkmishwaang]
+     jooweshk+NA+Pej+Pl+Px2Pl: [gjooweshkshiwaag, gjooweshkmishwaag]
+     jooweshk+NA+Pej+Obv+Px3Pl: [jooweshkshiwaan, jooweshkmishwaan]
+     jooweshk+NA+Pej+Loc+Px3Pl: [jooweshkshiwaang, jooweshkmishwaang]
+     jooweshk+NA+Pej+Obv+Px4: [jooweshkshinwan, jooweshkmishniwan]
+     jooweshk+NA+Pej+Loc+Px4: [jooweshkshiniing, jooweshkmishniing]
+     
+     #Values from slots numbered: [1, 4, 6, 7]
+     jooweshk+NA+Pej+Prt+Obv+Px1Sg: [njooweshkshibniin, njooweshkmishbaniin]
+     jooweshk+NA+Pej+Prt+Loc+Px1Sg: [njooweshkshibniing, njooweshkmishbaniing]
+     jooweshk+NA+Pej+Prt+Pl+Px1Sg: [njooweshkshibniig, njooweshkmishbaniig]
+     jooweshk+NA+Pej+Prt+Obv+Px2Sg: [gjooweshkshibniin, gjooweshkmishbaniin]
+     jooweshk+NA+Pej+Prt+Loc+Px2Sg: [gjooweshkshibniing, gjooweshkmishbaniing]
+     jooweshk+NA+Pej+Prt+Pl+Px2Sg: [gjooweshkshibniig, gjooweshkmishbaniig]
+     jooweshk+NA+Pej+Prt+Obv+Px3Sg: [jooweshkshibniin, jooweshkmishbaniin]
+     jooweshk+NA+Pej+Prt+Loc+Px3Sg: [jooweshkshibniing, jooweshkmishbaniing]
+     jooweshk+NA+Pej+Prt+Obv+PxX: [jooweshkshibniin, jooweshkmishbaniin]
+     jooweshk+NA+Pej+Prt+Loc+PxX: [jooweshkshibniing, jooweshkmishbaniing]
+     jooweshk+NA+Pej+Prt+Pl+PxX: [jooweshkshibniig, jooweshkmishbaniig]
+     
+     #Values from slots numbered: [1, 5, 6, 7]
+     jooweshk+NA+Prt+Obv+Px1Pl: [njooweshknaanbaniin, njooweshkminaanbaniin]
+     jooweshk+NA+Prt+Loc+Px1Pl: [njooweshknaanbaniing, njooweshkminaanbaniing]
+     jooweshk+NA+Prt+Pl+Px1Pl: [njooweshknaanbaniig, njooweshkminaanbaniig]
+     jooweshk+NA+Prt+Obv+Px21Pl: [gjooweshknaanbaniin, gjooweshkminaanbaniin]
+     jooweshk+NA+Prt+Loc+Px21Pl: [gjooweshknaanbaniing, gjooweshkminaanbaniing]
+     jooweshk+NA+Prt+Pl+Px21Pl: [gjooweshknaanbaniig, gjooweshkminaanbaniig]
+     jooweshk+NA+Prt+Obv+Px2Pl: [gjooweshkwaabniin, gjooweshkmiwaabniin]
+     jooweshk+NA+Prt+Loc+Px2Pl: [gjooweshkwaabniing, gjooweshkmiwaabniing]
+     jooweshk+NA+Prt+Pl+Px2Pl: [gjooweshkwaabniig, gjooweshkmiwaabniig]
+     jooweshk+NA+Prt+Obv+Px3Pl: [jooweshkwaabniin, jooweshkmiwaabniin]
+     jooweshk+NA+Prt+Loc+Px3Pl: [jooweshkwaabniing, jooweshkmiwaabniing]
+     jooweshk+NA+Prt+Obv+Px4: [jooweshkniwbaniin, jooweshkminwibniin]
+     jooweshk+NA+Prt+Loc+Px4: [jooweshkniwbaniing, jooweshkminwibniing]
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: [2, 4, 6, 7]
+     jooweshk+NA+Con+Pej+Prt+Obv: jooweshkoonyshibniin
+     jooweshk+NA+Con+Pej+Prt+Loc: jooweshkoonyshibniing
+     jooweshk+NA+Con+Pej+Prt+Pl: jooweshkoonyshibniig
+     jooweshk+NA+Dim+Pej+Prt+Obv: jooweshkoonsshibniin
+     jooweshk+NA+Dim+Pej+Prt+Loc: jooweshkoonsshibniing
+     jooweshk+NA+Dim+Pej+Prt+Pl: jooweshkoonsshibniig
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: [1, 2, 3, 4, 5]
+     
+     #Values from slots numbered: [1, 2, 3, 4, 6]
+     
+     #Values from slots numbered: [1, 2, 3, 4, 7]
+     
+     #Values from slots numbered: [1, 2, 3, 5, 6]
+     
+     #Values from slots numbered: [1, 2, 3, 5, 7]
+     
+     #Values from slots numbered: [1, 2, 3, 6, 7]
+     
+     #Values from slots numbered: [1, 2, 4, 5, 6]
+     jooweshk+NA+Con+Pej+Prt+Sg+Px1Pl: [njooweshkoonyshinaanba, njooweshkoonymishnaanba]
+     jooweshk+NA+Con+Pej+Voc+Pl+Px1Pl: [njooweshkoonyshinaandig, njooweshkoonymishnaandig]
+     jooweshk+NA+Dim+Pej+Prt+Sg+Px1Pl: [njooweshkoonsshinaanba, njooweshkoonsmishnaanba]
+     jooweshk+NA+Dim+Pej+Voc+Pl+Px1Pl: [njooweshkoonsshinaandig, njooweshkoonsmishnaandig]
+     jooweshk+NA+Con+Pej+Prt+Sg+Px21Pl: [gjooweshkoonyshinaanba, gjooweshkoonymishnaanba]
+     jooweshk+NA+Con+Pej+Voc+Pl+Px21Pl: [gjooweshkoonyshinaandig, gjooweshkoonymishnaandig]
+     jooweshk+NA+Con+Pej+Prt+Sg+Px2Pl: [gjooweshkoonyshiwaaba, gjooweshkoonymishwaaba]
+     jooweshk+NA+Con+Pej+Voc+Pl+Px2Pl: [gjooweshkoonyshiwaadig, gjooweshkoonymishwaadig]
+     jooweshk+NA+Dim+Pej+Prt+Sg+Px21Pl: [gjooweshkoonsshinaanba, gjooweshkoonsmishnaanba]
+     jooweshk+NA+Dim+Pej+Voc+Pl+Px21Pl: [gjooweshkoonsshinaandig, gjooweshkoonsmishnaandig]
+     jooweshk+NA+Dim+Pej+Prt+Sg+Px2Pl: [gjooweshkoonsshiwaaba, gjooweshkoonsmishwaaba]
+     jooweshk+NA+Dim+Pej+Voc+Pl+Px2Pl: [gjooweshkoonsshiwaadig, gjooweshkoonsmishwaadig]
+     jooweshk+NA+Con+Pej+Prt+Sg+Px4: [jooweshkoonyshinwiba, jooweshkoonymishniwba]
+     jooweshk+NA+Dim+Pej+Prt+Sg+Px4: [jooweshkoonsshinwiba, jooweshkoonsmishniwba]
+     
+     #Values from slots numbered: [1, 2, 4, 5, 7]
+     jooweshk+NA+Con+Pej+Obv+Px1Pl: [njooweshkoonyshinaanin, njooweshkoonymishnaanin]
+     jooweshk+NA+Con+Pej+Loc+Px1Pl: [njooweshkoonyshinaaning, njooweshkoonymishnaaning]
+     jooweshk+NA+Con+Pej+Pl+Px1Pl: [njooweshkoonyshinaanig, njooweshkoonymishnaanig]
+     jooweshk+NA+Dim+Pej+Obv+Px1Pl: [njooweshkoonsshinaanin, njooweshkoonsmishnaanin]
+     jooweshk+NA+Dim+Pej+Loc+Px1Pl: [njooweshkoonsshinaaning, njooweshkoonsmishnaaning]
+     jooweshk+NA+Dim+Pej+Pl+Px1Pl: [njooweshkoonsshinaanig, njooweshkoonsmishnaanig]
+     jooweshk+NA+Con+Pej+Obv+Px21Pl: [gjooweshkoonyshinaanin, gjooweshkoonymishnaanin]
+     jooweshk+NA+Con+Pej+Loc+Px21Pl: [gjooweshkoonyshinaaning, gjooweshkoonymishnaaning]
+     jooweshk+NA+Con+Pej+Pl+Px21Pl: [gjooweshkoonyshinaanig, gjooweshkoonymishnaanig]
+     jooweshk+NA+Con+Pej+Obv+Px2Pl: [gjooweshkoonyshiwaan, gjooweshkoonymishwaan]
+     jooweshk+NA+Con+Pej+Loc+Px2Pl: [gjooweshkoonyshiwaang, gjooweshkoonymishwaang]
+     jooweshk+NA+Con+Pej+Pl+Px2Pl: [gjooweshkoonyshiwaag, gjooweshkoonymishwaag]
+     jooweshk+NA+Dim+Pej+Obv+Px21Pl: [gjooweshkoonsshinaanin, gjooweshkoonsmishnaanin]
+     jooweshk+NA+Dim+Pej+Loc+Px21Pl: [gjooweshkoonsshinaaning, gjooweshkoonsmishnaaning]
+     jooweshk+NA+Dim+Pej+Pl+Px21Pl: [gjooweshkoonsshinaanig, gjooweshkoonsmishnaanig]
+     jooweshk+NA+Dim+Pej+Obv+Px2Pl: [gjooweshkoonsshiwaan, gjooweshkoonsmishwaan]
+     jooweshk+NA+Dim+Pej+Loc+Px2Pl: [gjooweshkoonsshiwaang, gjooweshkoonsmishwaang]
+     jooweshk+NA+Dim+Pej+Pl+Px2Pl: [gjooweshkoonsshiwaag, gjooweshkoonsmishwaag]
+     jooweshk+NA+Con+Pej+Obv+Px3Pl: [jooweshkoonyshiwaan, jooweshkoonymishwaan]
+     jooweshk+NA+Con+Pej+Loc+Px3Pl: [jooweshkoonyshiwaang, jooweshkoonymishwaang]
+     jooweshk+NA+Con+Pej+Obv+Px4: [jooweshkoonyshinwan, jooweshkoonymishniwan]
+     jooweshk+NA+Con+Pej+Loc+Px4: [jooweshkoonyshiniing, jooweshkoonymishniing]
+     jooweshk+NA+Dim+Pej+Obv+Px3Pl: [jooweshkoonsshiwaan, jooweshkoonsmishwaan]
+     jooweshk+NA+Dim+Pej+Loc+Px3Pl: [jooweshkoonsshiwaang, jooweshkoonsmishwaang]
+     jooweshk+NA+Dim+Pej+Obv+Px4: [jooweshkoonsshinwan, jooweshkoonsmishniwan]
+     jooweshk+NA+Dim+Pej+Loc+Px4: [jooweshkoonsshiniing, jooweshkoonsmishniing]
+     
+     #Values from slots numbered: [1, 2, 4, 6, 7]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px1Sg: [njooweshkoonyshibniin, njooweshkoonymishbaniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px1Sg: [njooweshkoonyshibniing, njooweshkoonymishbaniing]
+     jooweshk+NA+Con+Pej+Prt+Pl+Px1Sg: [njooweshkoonyshibniig, njooweshkoonymishbaniig]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px1Sg: [njooweshkoonsshibniin, njooweshkoonsmishbaniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px1Sg: [njooweshkoonsshibniing, njooweshkoonsmishbaniing]
+     jooweshk+NA+Dim+Pej+Prt+Pl+Px1Sg: [njooweshkoonsshibniig, njooweshkoonsmishbaniig]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px2Sg: [gjooweshkoonyshibniin, gjooweshkoonymishbaniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px2Sg: [gjooweshkoonyshibniing, gjooweshkoonymishbaniing]
+     jooweshk+NA+Con+Pej+Prt+Pl+Px2Sg: [gjooweshkoonyshibniig, gjooweshkoonymishbaniig]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px2Sg: [gjooweshkoonsshibniin, gjooweshkoonsmishbaniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px2Sg: [gjooweshkoonsshibniing, gjooweshkoonsmishbaniing]
+     jooweshk+NA+Dim+Pej+Prt+Pl+Px2Sg: [gjooweshkoonsshibniig, gjooweshkoonsmishbaniig]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px3Sg: [jooweshkoonyshibniin, jooweshkoonymishbaniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px3Sg: [jooweshkoonyshibniing, jooweshkoonymishbaniing]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px3Sg: [jooweshkoonsshibniin, jooweshkoonsmishbaniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px3Sg: [jooweshkoonsshibniing, jooweshkoonsmishbaniing]
+     jooweshk+NA+Con+Pej+Prt+Obv+PxX: [jooweshkoonyshibniin, jooweshkoonymishbaniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+PxX: [jooweshkoonyshibniing, jooweshkoonymishbaniing]
+     jooweshk+NA+Con+Pej+Prt+Pl+PxX: [jooweshkoonyshibniig, jooweshkoonymishbaniig]
+     jooweshk+NA+Dim+Pej+Prt+Obv+PxX: [jooweshkoonsshibniin, jooweshkoonsmishbaniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+PxX: [jooweshkoonsshibniing, jooweshkoonsmishbaniing]
+     jooweshk+NA+Dim+Pej+Prt+Pl+PxX: [jooweshkoonsshibniig, jooweshkoonsmishbaniig]
+     
+     #Values from slots numbered: [1, 2, 5, 6, 7]
+     jooweshk+NA+Con+Prt+Obv+Px1Pl: [njooweshkoonynaanbaniin, njooweshkoonyminaanbaniin]
+     jooweshk+NA+Con+Prt+Loc+Px1Pl: [njooweshkoonynaanbaniing, njooweshkoonyminaanbaniing]
+     jooweshk+NA+Con+Prt+Pl+Px1Pl: [njooweshkoonynaanbaniig, njooweshkoonyminaanbaniig]
+     jooweshk+NA+Dim+Prt+Obv+Px1Pl: [njooweshkoonsnaanbaniin, njooweshkoonsminaanbaniin]
+     jooweshk+NA+Dim+Prt+Loc+Px1Pl: [njooweshkoonsnaanbaniing, njooweshkoonsminaanbaniing]
+     jooweshk+NA+Dim+Prt+Pl+Px1Pl: [njooweshkoonsnaanbaniig, njooweshkoonsminaanbaniig]
+     jooweshk+NA+Con+Prt+Obv+Px21Pl: [gjooweshkoonynaanbaniin, gjooweshkoonyminaanbaniin]
+     jooweshk+NA+Con+Prt+Loc+Px21Pl: [gjooweshkoonynaanbaniing, gjooweshkoonyminaanbaniing]
+     jooweshk+NA+Con+Prt+Pl+Px21Pl: [gjooweshkoonynaanbaniig, gjooweshkoonyminaanbaniig]
+     jooweshk+NA+Con+Prt+Obv+Px2Pl: [gjooweshkoonywaabniin, gjooweshkoonymiwaabniin]
+     jooweshk+NA+Con+Prt+Loc+Px2Pl: [gjooweshkoonywaabniing, gjooweshkoonymiwaabniing]
+     jooweshk+NA+Con+Prt+Pl+Px2Pl: [gjooweshkoonywaabniig, gjooweshkoonymiwaabniig]
+     jooweshk+NA+Dim+Prt+Obv+Px21Pl: [gjooweshkoonsnaanbaniin, gjooweshkoonsminaanbaniin]
+     jooweshk+NA+Dim+Prt+Loc+Px21Pl: [gjooweshkoonsnaanbaniing, gjooweshkoonsminaanbaniing]
+     jooweshk+NA+Dim+Prt+Pl+Px21Pl: [gjooweshkoonsnaanbaniig, gjooweshkoonsminaanbaniig]
+     jooweshk+NA+Dim+Prt+Obv+Px2Pl: [gjooweshkoonswaabniin, gjooweshkoonsmiwaabniin]
+     jooweshk+NA+Dim+Prt+Loc+Px2Pl: [gjooweshkoonswaabniing, gjooweshkoonsmiwaabniing]
+     jooweshk+NA+Dim+Prt+Pl+Px2Pl: [gjooweshkoonswaabniig, gjooweshkoonsmiwaabniig]
+     jooweshk+NA+Con+Prt+Obv+Px3Pl: [jooweshkoonywaabniin, jooweshkoonymiwaabniin]
+     jooweshk+NA+Con+Prt+Loc+Px3Pl: [jooweshkoonywaabniing, jooweshkoonymiwaabniing]
+     jooweshk+NA+Con+Prt+Obv+Px4: [jooweshkoonyniwbaniin, jooweshkoonyminwibniin]
+     jooweshk+NA+Con+Prt+Loc+Px4: [jooweshkoonyniwbaniing, jooweshkoonyminwibniing]
+     jooweshk+NA+Dim+Prt+Obv+Px3Pl: [jooweshkoonswaabniin, jooweshkoonsmiwaabniin]
+     jooweshk+NA+Dim+Prt+Loc+Px3Pl: [jooweshkoonswaabniing, jooweshkoonsmiwaabniing]
+     jooweshk+NA+Dim+Prt+Obv+Px4: [jooweshkoonsniwbaniin, jooweshkoonsminwibniin]
+     jooweshk+NA+Dim+Prt+Loc+Px4: [jooweshkoonsniwbaniing, jooweshkoonsminwibniing]
+     
+     #Values from slots numbered: [1, 3, 4, 5, 6]
+     
+     #Values from slots numbered: [1, 3, 4, 5, 7]
+     
+     #Values from slots numbered: [1, 3, 4, 6, 7]
+     
+     #Values from slots numbered: [1, 3, 5, 6, 7]
+     
+     #Values from slots numbered: [1, 4, 5, 6, 7]
+     jooweshk+NA+Pej+Prt+Obv+Px1Pl: [njooweshkshinaanbaniin, njooweshkmishnaanbaniin]
+     jooweshk+NA+Pej+Prt+Loc+Px1Pl: [njooweshkshinaanbaniing, njooweshkmishnaanbaniing]
+     jooweshk+NA+Pej+Prt+Pl+Px1Pl: [njooweshkshinaanbaniig, njooweshkmishnaanbaniig]
+     jooweshk+NA+Pej+Prt+Obv+Px21Pl: [gjooweshkshinaanbaniin, gjooweshkmishnaanbaniin]
+     jooweshk+NA+Pej+Prt+Loc+Px21Pl: [gjooweshkshinaanbaniing, gjooweshkmishnaanbaniing]
+     jooweshk+NA+Pej+Prt+Pl+Px21Pl: [gjooweshkshinaanbaniig, gjooweshkmishnaanbaniig]
+     jooweshk+NA+Pej+Prt+Obv+Px2Pl: [gjooweshkshiwaabniin, gjooweshkmishwaabniin]
+     jooweshk+NA+Pej+Prt+Loc+Px2Pl: [gjooweshkshiwaabniing, gjooweshkmishwaabniing]
+     jooweshk+NA+Pej+Prt+Pl+Px2Pl: [gjooweshkshiwaabniig, gjooweshkmishwaabniig]
+     jooweshk+NA+Pej+Prt+Obv+Px3Pl: [jooweshkshiwaabniin, jooweshkmishwaabniin]
+     jooweshk+NA+Pej+Prt+Loc+Px3Pl: [jooweshkshiwaabniing, jooweshkmishwaabniing]
+     jooweshk+NA+Pej+Prt+Obv+Px4: [jooweshkshinwibniin, jooweshkmishniwbaniin]
+     jooweshk+NA+Pej+Prt+Loc+Px4: [jooweshkshinwibniing, jooweshkmishniwbaniing]
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: [1, 2, 3, 4, 5, 6]
+     
+     #Values from slots numbered: [1, 2, 3, 4, 5, 7]
+     
+     #Values from slots numbered: [1, 2, 3, 4, 6, 7]
+     
+     #Values from slots numbered: [1, 2, 3, 5, 6, 7]
+     
+     #Values from slots numbered: [1, 2, 4, 5, 6, 7]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px1Pl: [njooweshkoonyshinaanbaniin, njooweshkoonymishnaanbaniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px1Pl: [njooweshkoonyshinaanbaniing, njooweshkoonymishnaanbaniing]
+     jooweshk+NA+Con+Pej+Prt+Pl+Px1Pl: [njooweshkoonyshinaanbaniig, njooweshkoonymishnaanbaniig]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px1Pl: [njooweshkoonsshinaanbaniin, njooweshkoonsmishnaanbaniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px1Pl: [njooweshkoonsshinaanbaniing, njooweshkoonsmishnaanbaniing]
+     jooweshk+NA+Dim+Pej+Prt+Pl+Px1Pl: [njooweshkoonsshinaanbaniig, njooweshkoonsmishnaanbaniig]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px21Pl: [gjooweshkoonyshinaanbaniin, gjooweshkoonymishnaanbaniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px21Pl: [gjooweshkoonyshinaanbaniing, gjooweshkoonymishnaanbaniing]
+     jooweshk+NA+Con+Pej+Prt+Pl+Px21Pl: [gjooweshkoonyshinaanbaniig, gjooweshkoonymishnaanbaniig]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px2Pl: [gjooweshkoonyshiwaabniin, gjooweshkoonymishwaabniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px2Pl: [gjooweshkoonyshiwaabniing, gjooweshkoonymishwaabniing]
+     jooweshk+NA+Con+Pej+Prt+Pl+Px2Pl: [gjooweshkoonyshiwaabniig, gjooweshkoonymishwaabniig]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px21Pl: [gjooweshkoonsshinaanbaniin, gjooweshkoonsmishnaanbaniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px21Pl: [gjooweshkoonsshinaanbaniing, gjooweshkoonsmishnaanbaniing]
+     jooweshk+NA+Dim+Pej+Prt+Pl+Px21Pl: [gjooweshkoonsshinaanbaniig, gjooweshkoonsmishnaanbaniig]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px2Pl: [gjooweshkoonsshiwaabniin, gjooweshkoonsmishwaabniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px2Pl: [gjooweshkoonsshiwaabniing, gjooweshkoonsmishwaabniing]
+     jooweshk+NA+Dim+Pej+Prt+Pl+Px2Pl: [gjooweshkoonsshiwaabniig, gjooweshkoonsmishwaabniig]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px3Pl: [jooweshkoonyshiwaabniin, jooweshkoonymishwaabniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px3Pl: [jooweshkoonyshiwaabniing, jooweshkoonymishwaabniing]
+     jooweshk+NA+Con+Pej+Prt+Obv+Px4: [jooweshkoonyshinwibniin, jooweshkoonymishniwbaniin]
+     jooweshk+NA+Con+Pej+Prt+Loc+Px4: [jooweshkoonyshinwibniing, jooweshkoonymishniwbaniing]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px3Pl: [jooweshkoonsshiwaabniin, jooweshkoonsmishwaabniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px3Pl: [jooweshkoonsshiwaabniing, jooweshkoonsmishwaabniing]
+     jooweshk+NA+Dim+Pej+Prt+Obv+Px4: [jooweshkoonsshinwibniin, jooweshkoonsmishniwbaniin]
+     jooweshk+NA+Dim+Pej+Prt+Loc+Px4: [jooweshkoonsshinwibniing, jooweshkoonsmishniwbaniing]
+     
+     #Values from slots numbered: [1, 3, 4, 5, 6, 7]
+     
+     
+     #Values from slots numbered: [1, 2, 3, 4, 5, 6, 7]
+     

@@ -1,0 +1,125 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VAI - VV - boodwe :
+     
+  #Template Key
+  #1	2	3	4   5
+  #per	neg     num     mod periph
+     
+     #this is pulled from book (p 232)
+     #Values from slots numbered: 1
+     boodwe+VAI+Ind+Pos+Neu+1Sg: nboodwe
+     boodwe+VAI+Ind+Pos+Neu+2Sg: gboodwe
+
+     #Values from slots numbered: 3
+     boodwe+VAI+Ind+Pos+Neu+3Sg: boodwe
+     boodwe+VAI+Ind+Pos+Neu+X: boodwem
+
+     #Values from slots numbered 1, 3
+     boodwe+VAI+Ind+Pos+Neu+1Pl: nboodwemi
+     boodwe+VAI+Ind+Pos+Neu+21Pl: gboodwemi
+     boodwe+VAI+Ind+Pos+Neu+2Pl: gboodwem
+     
+     #Values from slots numbered: 3, 5
+     boodwe+VAI+Ind+Pos+Neu+4: boodwewan
+     boodwe+VAI+Ind+Pos+Neu+3Pl: boodwewag
+
+     #Values from slots numbered: 1, 4
+     boodwe+VAI+Ind+Pos+Prt+1Sg: nboodwenaaba
+     boodwe+VAI+Ind+Pos+Prt+2Sg: gboodwenaaba
+     boodwe+VAI+Ind+Pos+Dub+1Sg: nboodwenaadig
+     boodwe+VAI+Ind+Pos+Dub+2Sg: gboodwenaadig
+
+     #Values from slots numbered: 3, 4
+     boodwe+VAI+Ind+Pos+Prt+3Sg: boodwewba #w-del-less
+     #boodwe+VAI+Ind+Pos+Prt+3Sg: boodweba #book
+     boodwe+VAI+Ind+Pos+Dub+3Sg: boodwewdig #w-del-less
+     #boodwe+VAI+Ind+Pos+Prt+3Sg: boodwedig #book
+     boodwe+VAI+Ind+Pos+Prt+X: boodwemba 
+     boodwe+VAI+Ind+Pos+Dub+X: boodwemdig
+     boodwe+VAI+Ind+Pos+Prt+Dub+3Sg: boodwewgoba #cons assumption -w '3' still present
+     #boodwe+VAI+Ind+Pos+Prt+Dub+3Sg: boodwegba #book
+     boodwe+VAI+Ind+Pos+Prt+Dub+4: boodwen'goba #'
+     boodwe+VAI+Ind+Pos+Prt+Dub+3Pl: boodwewaagba
+     boodwe+VAI+Ind+Pos+Prt+Dub+X: boodwemgoba
+
+     #Values from slots numbered 1, 3, 4
+     boodwe+VAI+Ind+Pos+Prt+1Pl: nboodwemnaaba
+     boodwe+VAI+Ind+Pos+Prt+21Pl: gboodwemnaaba
+     boodwe+VAI+Ind+Pos+Prt+2Pl: gboodwemwaaba
+     boodwe+VAI+Ind+Pos+Dub+1Pl: nboodwemnaadig
+     boodwe+VAI+Ind+Pos+Dub+21Pl: gboodwemnaadig
+     boodwe+VAI+Ind+Pos+Dub+2Pl: gboodwemwaadig
+     
+     #Values from slots numbered: 3, 4, 5
+     boodwe+VAI+Ind+Pos+Prt+4: boodwewbaniin #cons (w-del-less)
+     #boodwe+VAI+Ind+Pos+Prt+4: boodwebniin   #book
+     boodwe+VAI+Ind+Pos+Prt+3Pl: boodwewbaniig #cons (w-del-less)
+     #boodwe+VAI+Ind+Pos+Prt+3Pl: boodwebniig  #book
+     boodwe+VAI+Ind+Pos+Dub+4: boodwewdigenan #cons (w-del-less)
+     #boodwe+VAI+Ind+Pos+Dub+4: boodwedgenan   #book
+     boodwe+VAI+Ind+Pos+Dub+3Pl: boodwewdigenag #cons (w-del-less)
+     #boodwe+VAI+Ind+Pos+Dub+3Pl: boodwedgenag  #book
+
+     #Values from slots numbered: 1, 2
+     boodwe+VAI+Ind+Neg+Neu+1Sg: nboodwesii
+     boodwe+VAI+Ind+Neg+Neu+2Sg: gboodwesii
+
+     #Values from slots numbered: 2, 3
+     boodwe+VAI+Ind+Neg+Neu+3Sg: boodwesii
+     boodwe+VAI+Ind+Neg+Neu+X: boodwesiim
+
+     #Values from slots numbered 1, 2, 3
+     boodwe+VAI+Ind+Neg+Neu+1Pl: nboodwesiimi
+     boodwe+VAI+Ind+Neg+Neu+21Pl: gboodwesiimi
+     boodwe+VAI+Ind+Neg+Neu+2Pl: gboodwesiim
+     
+     #Values from slots numbered: 3, 2, 5
+     boodwe+VAI+Ind+Neg+Neu+4: boodwesiiwan
+     boodwe+VAI+Ind+Neg+Neu+3Pl: boodwesiiwag
+
+     #Values from slots numbered: 1, 2, 4
+     boodwe+VAI+Ind+Neg+Prt+1Sg: nboodwesiinaaba
+     boodwe+VAI+Ind+Neg+Prt+2Sg: gboodwesiinaaba
+     boodwe+VAI+Ind+Neg+Dub+1Sg: nboodwesiinaadig
+     boodwe+VAI+Ind+Neg+Dub+2Sg: gboodwesiinaadig
+
+     #Values from slots numbered: 2, 3, 4
+     boodwe+VAI+Ind+Neg+Prt+3Sg: boodwesiiwba #w-del-less
+     #boodwe+VAI+Ind+Neg+Prt+3Sg: boodwesiiba #book
+     boodwe+VAI+Ind+Neg+Dub+3Sg: boodwesiiwdig #w-del-less
+     #boodwe+VAI+Ind+Neg+Prt+3Sg: boodwesiidig #book
+     boodwe+VAI+Ind+Neg+Prt+X: boodwesiimba 
+     boodwe+VAI+Ind+Neg+Dub+X: boodwesiimdig
+     boodwe+VAI+Ind+Neg+Prt+Dub+3Sg: boodwesiiwgoba #cons assumption of -w `3' being present
+     #boodwe+VAI+Ind+Neg+Prt+Dub+3Sg: boodwesiigba #book
+     boodwe+VAI+Ind+Neg+Prt+Dub+4: boodwesiin'goba #'
+     boodwe+VAI+Ind+Neg+Prt+Dub+3Pl: boodwesiiwaagba
+     boodwe+VAI+Ind+Neg+Prt+Dub+X: boodwesiimgoba
+
+     #Values from slots numbered 1, 2, 3, 4
+     boodwe+VAI+Ind+Neg+Prt+1Pl: nboodwesiimnaaba
+     boodwe+VAI+Ind+Neg+Prt+21Pl: gboodwesiimnaaba
+     boodwe+VAI+Ind+Neg+Prt+2Pl: gboodwesiimwaaba
+     boodwe+VAI+Ind+Neg+Dub+1Pl: nboodwesiimnaadig
+     boodwe+VAI+Ind+Neg+Dub+21Pl: gboodwesiimnaadig
+     boodwe+VAI+Ind+Neg+Dub+2Pl: gboodwesiimwaadig
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     boodwe+VAI+Ind+Neg+Prt+4: boodwesiiwbaniin #cons (w-del-less)
+     #boodwe+VAI+Ind+Neg+Prt+4: boodwesiibniin   #book
+     boodwe+VAI+Ind+Neg+Prt+3Pl: boodwesiiwbaniig #cons (w-del-less)
+     #boodwe+VAI+Ind+Neg+Prt+3Pl: boodwesiibniig  #book
+     boodwe+VAI+Ind+Neg+Dub+4: boodwesiiwdigenan #cons (w-del-less)
+     #boodwe+VAI+Ind+Neg+Dub+4: boodwesiidgenan   #book
+     boodwe+VAI+Ind+Neg+Dub+3Pl: boodwesiiwdigenag #cons (w-del-less)
+     #boodwe+VAI+Ind+Neg+Dub+3Pl: boodwesiidgenag  #book

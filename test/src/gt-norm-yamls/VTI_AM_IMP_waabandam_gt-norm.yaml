@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VTA+Imp - am - waabndam :
+     
+  #Template Key
+  #NO TEMPLATE
+     
+     #immediate forms eat the -am theme!
+     #negative forms keeping n# ... lost in VAI
+     waabndaan+VTI+Imp+Imm+2Sg+0SgO: waabndan
+     waabndaan+VTI+Imp+Imm+2Pl+0SgO: waabndamok
+     waabndaan+VTI+Imp+Imm+21Pl+0SgO: waabndaa
+     waabndaan+VTI+Imp+Imm+21Pl+0Pl: waabndaanin
+     waabndaan+VTI+Imp+Del+2Sg+0SgO: waabndamookan
+     waabndaan+VTI+Imp+Del+2Pl+0SgO: waabndamookeg
+     waabndaan+VTI+Imp+Del+21Pl+0SgO: waabndamookang
+     waabndaan+VTI+Imp+Neg+2Sg+0SgO: waabndamngen #cons
+     #waabndaan+VTI+Imp+Neg+2Sg+0SgO: waabndamangen #book
+     waabndaan+VTI+Imp+Neg+2Pl+0SgO: waabndamngegon #cons
+     #waabndaan+VTI+Imp+Neg+2Pl+0SgO: waabndamangegon #book
+     waabndaan+VTI+Imp+Neg+21Pl+0SgO: waabndanziidaa
+     waabndaan+VTI+Imp+Neg+21Pl+0PlO: waabndanziidaanin #book indicates suff is -daanin, but gives exe of waabndanziidaanin
