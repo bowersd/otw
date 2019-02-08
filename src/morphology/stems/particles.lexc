@@ -1,0 +1,138 @@
+LEXICON PCL
+CJ ;
+IJ ;
+PT ;
+
+LEXICON CJ
+giishpin:giishpin    CJ_TAG    " 1 if;  2 or else, otherwise" ; !Rand key:n73023754109n
+giishpine:giishpine    CJ_TAG    " 1 if" ; !Rand key:n73023754407n
+gye:gaye    CJ_TAG    " 1 and (coordinating);  2 also, as well, in addition, too (additive);  3 and then... (narrative sequencing);  4 as for, for one's part, with regard to..." ; !Rand key:n73032325988n
+mii'sh:mii-sh    CJ_TAG    " 1 and so, so, then, so then" ; !Rand key:n73036925045n
+shi:ashi    CJ_TAG    " 1 and (with numbers)" ; !Rand key:n73031386177n
+gjiishpin:gijiishpin    CJ_TAG    " 1 if" ; !Rand key:n20114115-1-41n
+jibwaa:Vv1jibwaa    CJ_TAG    " 1 before, at a time preceding (some other event or state)" ; !Rand key:n2011439-57-22n
+
+LEXICON CJ_TAG
++Conj:0 CLOSED_PROTECTION ;
+
+LEXICON IJ
+wis:awis    IJ_TAG    " 1 Scat! Shoo!" ; !Rand key:n73072076663n
+yaa:yaa    IJ_TAG    " 1 Oh, my!" ; !Rand key:n73032179369n
+yoonh:yoonh    IJ_TAG    " 1 Oh!" ; !Rand key:n73072242576n
+zegaatkamik:zegaatakamig    IJ_TAG    " 1 How frightful!" ; !Rand key:n73034214322n
+taataahaa:taataahaa    IJ_TAG    " 1 holy, holy cow, holy jeez, holy moly, jeez, for goodness sakes" ; !Rand key:n20106918-12-58n
+aaw:aaw    IJ_TAG    " 1 well!, oh!, come now!" ; !Rand key:n201132519-1-32n
+aayaa:aayaa    IJ_TAG    " 1 please!" ; !Rand key:n201132519-18-20n
+ambe:ambe    IJ_TAG    " 1 come on!, well!" ; !Rand key:n201132519-50-0n
+Mbingo:imbingo    IJ_TAG    " 1 Bingo!" ; !Rand key:n201132916-22-25n !vowel added to avoid mbngo
+nahaaw:nahaaw    IJ_TAG    " 1 okay (assent)" ; !Rand key:n2011499-25-34n
+ggwaansagaadkamik:gagwaanisagaadakamig    IJ_TAG    " 1 how terrible!; that's drastic!; that's terrible!" ; !Rand key:n73042853319n
+giisaach:giisaaj    IJ_TAG    " 1 too bad, unfortunate" ; !Rand key:n73102085904n
+giiwsaatkamik:giiwasaadakamik    IJ_TAG    " 1 how unfortunate!; too bad!" ; !Rand key:n73024138978n
+goopdaadkamik:goopadaadakamig    IJ_TAG    " 1 It's deplorable." ; !Rand key:n73102079545n
+gwekwaatkamik:gwekwaatakamig    IJ_TAG    " 1 for sure, in all certainty" ; !Rand key:n73041528402n
+haaw:haaw    IJ_TAG    " 1 Okay, very well then, all right" ; !Rand key:n73032447769n
+hanshge:hanshge    IJ_TAG    " 1 Go ahead." ; !Rand key:n73032447856n
+hawn:hawn    IJ_TAG    " 1 Fire!;  2 Go!" ; !Rand key:n73032447904n
+kaa:kaa    IJ_TAG    " 1 No!" ; !Rand key:n72915858899n
+kaawiin:kaawiin    IJ_TAG    " 1 no" ; !Rand key:n73045311639n
+kawe:akawe    IJ_TAG    " 1 Hang on a second!, Hold it!, Wait a minute!" ; !Rand key:n71428957302n
+maajii:maajii    IJ_TAG    " 1 Jeez! (of engines, motors)" ; !Rand key:n71429138949n
+maamkaadkamik:maamakaadakamig    IJ_TAG    " 1 it's amazing, it's ludicrous" ; !Rand key:n71429151630n
+mba:Vv1mba    IJ_TAG    " 1 There!" ; !Rand key:n73032751774n
+memdage:memdage    IJ_TAG    " 1 Ever! Jeez! (remarking on something seen as needlessly excessive)" ; !Rand key:n71429561645n
+memdage:memindage    IJ_TAG    " 1 Ever! Jeez! (remarking on something seen as needlessly excessive)" ; !Rand key:n71429561645n
+memoon:memoon    IJ_TAG    " 1 Go to sleep!" ; !Rand key:n71429640432n
+men'saadkamik:menisaadakamig    IJ_TAG    " 1 Shame on you!" ; !Rand key:n71429964817n
+miigwech:miigwech    IJ_TAG    " 1 thank you!, thanks!" ; !Rand key:n71429656075n
+mnanish:minanish    IJ_TAG    " 1 it's a good thing that..." ; !Rand key:n73033214524n
+mnik:minik    IJ_TAG    " 1 Enough." ; !Rand key:n73097853324n
+mooshk'om:mooshkahom    IJ_TAG    " 1 call of the American bittern" ; !Rand key:n71430359081n
+moowich:moowich    IJ_TAG    " 1 Oh, crap! Shit!" ; !Rand key:n71430362013n
+na:na    IJ_TAG    " 1 Sh!, Listen!" ; !Rand key:n71430657199n
+naanaa:naanaa    IJ_TAG    " 1 Be careful! (general warning), Come on! (encouragement)" ; !Rand key:n71431052859n
+naasanaa:naasanaa    IJ_TAG    " 1 I give up;  2 Be careful!, Look out!" ; !Rand key:n71431145922n
+nagsha:nagosha    IJ_TAG    " 1 Look!" ; !Rand key:n71431153112n
+ngoji:ningoji    IJ_TAG    " 1 Get away [from someplace]!, Get out of the way!, Get out of here!" ; !Rand key:n73098747977n
+ni:ni    IJ_TAG    " 1 [see na]" ; !Rand key:n71431661160n
+niinaa:niinaa    IJ_TAG    " 1 well" ; !Rand key:n71431764765n
+niisaadkamik:niisaadakamig    IJ_TAG    " 1 How unfortunate, That's too bad" ; !Rand key:n71431766173n
+nishke:nishke    IJ_TAG    " 1 Look! (directing attention to something in sight);  2 See, I told you so!" ; !Rand key:n73033752633n
+oonh:oonh    IJ_TAG    " 1 Oh!" ; !Rand key:n71435146531n
+ooshtibi:ooshtibi    IJ_TAG    " 1 then" ; !Rand key:n73033847857n
+shtaahaa:shtaahaa    IJ_TAG    " 1 holy, holy cow, holy jeez, holy moly, jeez" ; !Rand key:n73034013400n
+shtaataahaa:shtaataahaa    IJ_TAG    " 1 holy, holy cow, holy jees, holy moly, jeez" ; !Rand key:n73034013552n
+sigam:sigam    IJ_TAG    " 1 Sic'em. Attack!" ; !Rand key:n73024357704n
+taayaa:taayaa    IJ_TAG    " 1 Holy smokes!, oops;  2 Hey, you!, You bugger! (expr of anger)" ; !Rand key:n73071454954n
+waataawaa:waataawaa    IJ_TAG    " 1 Well, what do we have here!, Well, who do we have here!" ; !Rand key:n73034030914n
+washtibi:washtibi    IJ_TAG    " 1 [see ooshtibi]" ; !Rand key:n73034126381n
+weyiiban:weyiiban    IJ_TAG    " 1 by all means" ; !Rand key:n72973065420n
+wii:wii     IJ_TAG    " 1 darn!, shit!; no way!" ; !Rand key:n72915552121n
+bni:bani    IJ_TAG    " 1 Do it! Get going!" ; !Rand key:n72978964166n
+boozhoo:boozhoo    IJ_TAG    " 1 Hello. Greetings!" ; !Rand key:n72980960649n
+dga:daga    IJ_TAG    " 1 Come on!" ; !Rand key:n73004654473n
+egaach:egaaj    IJ_TAG    " 1 Take it easy!" ; !Rand key:n73015358280n
+endgo:endago    IJ_TAG    " 1 isn't it so?" ; !Rand key:n73015757850n
+engaach:enVv1gaach    IJ_TAG    " 1 Slow down! Take it easy!" ; !Rand key:n73102084135n
+enh:enh    IJ_TAG    " 1 yes" ; !Rand key:n73015754847n
+eyoonh:eyoonh    IJ_TAG    " 1 Oh!" ; !Rand key:n73015879377n
+gaawiin:gaawiin    IJ_TAG    " 1 no" ; !Rand key:n73016753768n
+gchi-gaanwapii:gichi-gaanwapii    IJ_TAG    " 1 my, the hour is late! " ; !Rand key:n73019341338n
+gdoombiigis:gidoombiigiz    IJ_TAG    " 1 Shut up!" ; !Rand key:n73090210204n
+geget:geget    IJ_TAG    " 1 of course; that's so true" ; !Rand key:n73019736790n
+gegeti:gegeti    IJ_TAG    " 1 Of course, It's true." ; !Rand key:n73019737354n
+aambe:aambe    IJ_TAG    " 1 let's leave [now], let's get going [now]" ; !Rand key:n72972563306n
+aanii:aanii    IJ_TAG    " 1 Hi!, Hello!" ; !Rand key:n72973061357n
+aanii:aanii    IJ_TAG    " 1 well?" ; !Rand key:n72973061361n
+aaniin:aaniin    IJ_TAG    " 1 [see aanii]" ; !Rand key:n7297245644n
+aaniinde:aaniinde    IJ_TAG    " 1 of course, naturally" ; !Rand key:n72973748506n
+aaniish:aaniish    IJ_TAG    " 1 Hey!, What are you doing!? ;  2 well" ; !Rand key:n72973361741n
+aashiij-maajii:aashiij-maajii    IJ_TAG    " 1 Oh dear! Oh my goodness! " ; !Rand key:n72973756180n
+aashwii-zhmaajii:aashwii-zhmaajii    IJ_TAG    " 1 [see aashiij-maajii]" ; !Rand key:n72973761341n
+aasnaa:aasVv1naa    IJ_TAG    " 1 hey! (indicating affirmation);  2 hey, look out! (indicating disapproval or cautionary concern)" ; !Rand key:n72973860384n
+aawnsa:aawVv1nsa    IJ_TAG    " 1 let's [do something]" ; !Rand key:n72974059047n
+ambegish:ambegish    IJ_TAG    " 1 hope that..., may it be that..." ; !Rand key:n72974456500n
+baapnizwaagan:baapiniziwaagan    IJ_TAG    " 1 Oh boy! Oh dear!" ; !Rand key:n72975248666n
+bekaa:bekaa    IJ_TAG    " 1 Hang on! Just a minute! Wait! Wait a minute! Wait a second!" ; !Rand key:n72976548739n
+biidii:biidii    IJ_TAG    " 1 Here, chickie!" ; !Rand key:n72976951215n
+biingeyaadkamik:biingeyaadakamig    IJ_TAG    " 1 Oh my goodness! " ; !Rand key:n72973065549n
+bna:bina    IJ_TAG    " 1 Come on!  Okay then!;  2 please!" ; !Rand key:n72976561974n
+bnagsha:binagosha    IJ_TAG    " 1 Look!" ; !Rand key:n72977450737n
+
+LEXICON IJ_TAG
++Interj:0 CLOSED_PROTECTION ;
+
+LEXICON PT
+aa:aa    PT_TAG    " 1 well; let's!, come on!;  2 oh!, well!" ; !Rand key:n7291535717n
+aakaa:aakaa    PT_TAG    " 1 of all (the) places, of all things" ; !Rand key:n72973060059n
+aanshge:aanshige    PT_TAG    " 1 go ahead [and do something]!" ; !Rand key:n72973451580n
+bna:bina    PT_TAG    " 1 Look!" ; !Rand key:n72977243698n
+dewe:dewe    PT_TAG    " 1 [sense missing]" ; !Rand key:n73101884541n
+ehenh:ehenh    PT_TAG    " 1 yes" ; !Rand key:n73015754722n
+gewe:gewe    PT_TAG    " 1 and, also, as well" ; !Rand key:n73019738423n
+gsha:gosha    PT_TAG    " 1 (strong expression of impatience);  2 (indicating strong affirmation)" ; !Rand key:n73030510232n
+kaa:kaa    PT_TAG    " 1 no" ; !Rand key:n73028443562n
+kogaan:ikogaan    PT_TAG    " 1 Get lost! Go away!" ; !Rand key:n71428979127n
+manj:amanj    PT_TAG    " 1 [see minj]" ; !Rand key:n7309023029n
+minj:aminj    PT_TAG    " 1 however it may be, whenever, wonder how, wonder when" ; !Rand key:n71429344450n
+mninaak:mVv1ninaak    PT_TAG    " 1 No way! any way, not that bad, not to that extreme" ; !Rand key:n72915857809n
+na:na    PT_TAG    " 1 {particle marking yes/no questions}" ; !Rand key:n71430657090n
+naa:naa    PT_TAG    " 1 emphatic;  2 eh? (as in Canadian English, inviting assent)" ; !Rand key:n71430657300n
+naash:naash    PT_TAG    " 1 [see nnaash]" ; !Rand key:n73098533572n
+nangna:nangVo1na    PT_TAG    " 1 Oh! [in sudden realization]" ; !Rand key:n73033613590n
+nangna:nangona    PT_TAG    " 1 Oh! [in sudden realization]" ; !Rand key:n73033613590n
+nji:onji    PT_TAG    " 1 because of, on account of, why;  2 from [a certain point in time or space]" ; !Rand key:n71433040244n
+nmanj:namanj    PT_TAG    " 1 however it may be, whatever, whenever, I don't know [how], I wonder [how], I wonder [when]" ; !Rand key:n71433644056n
+nnaash:ninaash    PT_TAG    " 1 (exp of impatience about something awaited)" ; !Rand key:n73098533637n
+se:se    PT_TAG    " 1 Yuck!" ; !Rand key:n730313833n
+shwii:shwii    PT_TAG    " 1 but, though" ; !Rand key:n73071454021n
+was:awas    PT_TAG    " 1 Scat! Shoo! Go away!" ; !Rand key:n7303279059n
+!these end immediately because they are too short to undergo apocope, and so can't pick up protective w
+sa+Ipc:sa    #    " 1 so, so then, well" ; !Rand key:n73031277207n
+go+Ipc:gVo1    #    " 1 indeed;  2 it's up to (with personal pronoun), it depends on (with personal pronoun)" ; !Rand key:n2010123111-11-13n
+go+Ipc:go    #    " 1 indeed;  2 it's up to (with personal pronoun), it depends on (with personal pronoun)" ; !Rand key:n2010123111-11-13n
+gwa+Ipc:gwa    #    " 1 [see go]" ; !Rand key:n2010123111-11-47n
+
+LEXICON PT_TAG
++Ipc:0 CLOSED_PROTECTION ;
+

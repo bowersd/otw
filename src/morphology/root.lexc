@@ -1,0 +1,518 @@
+! Divvun & Giellatekno - open source grammars for Ojibwe language
+! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ========================================================================== !
+!!            !!!Ojibwe morphological analyser                      !
+! ========================================================================== !
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
+ 
+!todo: make sure LowPerson.X is not an option
+Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+
+!####
+!#Abstract features (not associated with a particular morpheme)
+!####
+
+!Verb Major Class
++V
++VAI +VII +VTI +VTA ! could be V+II etc.
++VAIO
+
+!Verb Order
++Cnj +Imp ! (Ind for abstract mode only?)
++Pcp !(participles)
+!####
+!#Concrete features (associated with a particular morpheme)
+!####
+
+!Simple Person
+1+ 2+ 3+ X+   !prefixes, last is only used on nouns
++1 +2 +3 +X       !suffixes, if used, occur in Local Person Number slot
++%0          !not really a person, but inanimates sometimes trigger special agreement
+
+!! Verb Negation
++Neg  
+!opposed by +Pos in "abstract" mode, but +Pos plays no role in core transducer
+
+!! Local Person Number
+
+!these may be preceded by number to make +2+Pl, +3+4, etc
+!could be good to bring back +2Pl et al
++Pl +4
+
+!Mood
++Prt +Dub ! abs: Prt, Neu
++Voc  !only nouns, though form is quite like dub
+
+!Non-Local Person Number/Obviation
+!+3Obv +3Pl  ! verbs 4? (no 5) Does one indicate ambiguity explicitly or not: 4Sg/Pl?
+!+0Sg +0Pl   ! verbs
++Loc !Nouns (other periph suffs (Pl, Obv) immediately above)
+
+!VTA features (used in deciding theme sign)
++ThmDir  !aa        (3rd obj) 
++Thm2    !i         (1st obj, 2 sub) 
++Thm1Pl  !igoo      (2nd obj, 1.pl sub) 
++Thm1Sg  !in        (2nd obj, 1.sg sub) 
+!+ThmNeg  !isinoon   (2nd obj, 1.sg sub, neg)... broken into +Thm1Sg +Neg :D
++ThmInv  !igo       (pre=obj, 0/3 sub) 
++ThmPas  !igoo, aa, ind  (passive)
+!conjunct order theme signs
++Thm1   !i     1 obj 
++Thm2a  !inin  2 obj (non-3 sub)
++Thm2b  !ik    2 obj (3 sub)
+!+Thm1Pl !igoo  2 obj, 1pl sub
++ThmNul !0     3 obj (non-3 sub)
+!+ThmDir !aa    3 obj (3 sub, aka 3 v 3')
+!+ThmInv !igo       0 sub (no num), 3' v 3sg
+
+!Noun tags
++N
++NA +NI +NAD +NID 
++Con 
++Dim 
++Pej
+!Possessive theme (plays no role in analysis mode)
++ThmPos
+!##Conjunct order tags
+
+!Verb Other Person/Number combinations (conjunct order crosses person with number)
+!+1Sg +2Sg +3Sg
+
+!! Imperative order tags
++Imm 
++Del 
+!+Proh !+Neg now
+
+!Closed class tags
++Conj !conjunctions
++Interj !interjections
++Num    !numerals
++Pron   !pronouns
++Ipc    !(independent) particles (some might be interjections)
++Qnt    !quantifiers
++Adv    !adverbials
+
+! Preverbs/Prenouns
+
+PV/CCNJ+ !changed conjunct (also ref'd in phonology)
+PV/bwaa+
+PV/e+
+PV/a+
+PV/gaa+
+PV/gaa+
+PV/daa+
+PV/gii+
+PV/da+
+PV/ga+
+PV/wii+
+PV/daa+
+PV/gii+
+PV/zaagji+
+PV/biindge+
+PV/bskaabii+
+PV/aazhda+
+PV/mbi+
+PV/bi+
+PV/biiji+
+PV/ani+
+PV/bimi+
+PV/bibaa+
+PV/babaa+
+PV/baa+
+PV/awa+
+PV/oo+
+PV/wi+
+PV/ako+
+PV/apiichi+
+PV/izhi+
+PV/onji+
+PV/dazhi+
+PV/daso+
+PV/ntami+
+PV/aanawii+
+PV/bgami+
+PV/ekwaa+
+PV/endso+
+PV/epiichi+
+PV/gaagge+
+PV/giizhi+
+PV/gji+
+PV/jaagi+
+PV/megwaaji+
+PV/mmendaaji+
+PV/n'kawe+
+PV/ke+
+PV/dede+
+PV/aazhoo+
+PV/booni+
+PV/de+
+PV/gagwe+
+PV/gagweji+
+PV/kweji+
+PV/akawe+
+PV/maajii+
+PV/nanda+
+PV/nando+
+! PV/nanda+
+! PV/nando+
+PV/noonde+
+PV/nitaa+
+PV/ishkwaa+
+PV/webi+
+PV/oshki+
+PV/o+
+PV/waanji+
+PV/nshinaaji+
+PV/niibaa+
+PV/zaami+
+PV/zaami+
+PV/zhki+
+PV/npaaji+
+PV/mchi+
+PV/ndami+
+PV/nboodewi+
+PV/mziwe+
+PV/mde+
+PV/mchiwe+
+PV/gweki+
+PV/gwiini+
+PV/gnaaj+
+PV/aakwi+
+PV/aan'ke+
+PV/aanji+
+PV/aanooji+
+PV/baashji+
+PV/bgwaji+
+PV/bgoji+
+PV/bzaani+
+PV/dami+
+PV/dami+
+PV/gchitwaa+
+PV/niboodwewi+
+PV/ginibi+
+PV/aana+
+PV/aano+
+PV/aabaji+
+PV/aapaji+
+PV/baakaji+
+PV/bichi+
+PV/bizaani+
+PV/dago+
+PV/gichi+
+PV/gagiibaaji+
+PV/gagwetaani+
+PV/gimooji+
+PV/giimooji+
+PV/maamiiko+
+PV/maamwi+
+PV/mamaandaa+
+PV/maandaa+
+PV/niizaani+
+PV/nipaaj+
+PV/wiiji+
+PV/wiinge+
+PV/maanaaji+
+PV/maji+
+PV/mino+
+PV/aabita+
+PV/nigo+
+PV/niizho+
+PV/niso+
+PV/niiwoo+
+PV/niiyoo+
+PV/naano+
+PV/nigodwaaso+
+PN/aabta+
+PN/baapaagi+
+PN/baate+
+PN/bbashko+
+PN/bgoji+
+PN/biinji+
+PN/dbik+
+PN/de+
+PN/gaadi+
+PN/gbe+
+PN/gchi+
+PN/gchitwaa+
+PN/gdagi+
+PN/gete+
+PN/ggashki+
+PN/giimooji+
+PN/giji+
+PN/gnaaj+
+PN/jiigi+
+PN/maapiitaa+
+PN/mandaago+
+PN/megwe+
+PN/mji+
+PN/mkade+
+PN/mshi+
+PN/msko+
+PN/myagi+
+PN/naami+
+PN/naano+
+PN/ngo+
+PN/niiji+
+PN/niizhoo+
+PN/nso+
+PN/nwiiji+
+PN/shki+
+PN/waawye+
+PN/wenda+
+PN/yekwaa+
+PN/zaaw+
+PN/zaaw+
+PN/aagwi+
+PN/da+
+PN/doo+
+PN/dso+
+PN/endso+
+PN/ge+
+PN/baashji+
+PN/bbooni+
+PN/bganji+
+
+!! Punctuation
+
++CLB    !!= * @CODE@ = punctuation tag
++PUNCT  !!= * @CODE@ = punctuation tag
++LEFT   !!= * @CODE@ = punctuation tag
++RIGHT  !!= * @CODE@ = punctuation tag
+
+
+!####
+!#Special symbols for phonology
+!###
+a1  !aang (loc)
+i1  !iig
+i2  !palatalizing i
+e1  !coalescable e
+o1  !oog
+w1  !kwag/kog
+w2  !wag, deletes before nasals
+w3  !hiatus breaker for VAI conjunct negatives
+w4  !fairly complex w for VAI dubitatives
+        !triggers nasalization when adjacent to dub
+        !d1w4 -> g
+        !d1w4b -> gob
+        !counts as C for [a] epenthesis 
+        !surfaces as w pre-vocalically
+        !... (?)
+w5  !VAI independent order 3 infl
+y1  !a->i, (d?) (d1) ->j
+
+s1  !palatalizing s
+m1  !compensatory lengthening m
+n1  !palatalizing n
+n2  !deleting n#
+n3  !deleting n\# (negative morpheme)
+n4  !n that does not trigger m1 comp len
+
+d1  !special seg in 3/X for VAI CNJ, nd1 -> ng, nd1b1 -> ngib, d1b1 -> p, (n)d1w4b1 -> gob, d1w4 -> gw
+d2  !a highly deletable d that ends many viis
+c1  !abstract connective for negation, conjuncts
+    !s->z / c1 _
+    ![..] -> y / V c1 _ V
+b1  !b to trigger nasal place assimilation (conjunct order)
+    !avoid general assimilation, because in other areas lang breaks up clusters rather than assimilating. Could probably hack it with general assimilation, but staying safe
+        ! m>b -> mib in nouns
+X2  !'segment' to allow special phonology in ccnjs
+!Valentine's special character analogs
+Va1 !a <- o (å)
+Vi1 !a <- i (í) (dialect comparison)
+Vo1 !o~wa   (ó)
+Vo2 !a <- o (ö) (dialect comparison) 
+Vv1 !       (ø) unrecovered short vowel 
+
+!####
+!#Person Flags (person indicated by prefixes)
+!####
+
+!## setting flags
+!X needed?
+@P.Person.1@
+@P.Person.2@
+@P.Person.3@
+@P.Person.X@
+
+@N.Person.1@
+@N.Person.2@
+@N.Person.3@
+@N.Person.X@
+
+!## checking flags
+@D.Person.1@
+@D.Person.2@
+@D.Person.3@
+@D.Person.X@
+@D.Person@
+
+@R.Person.1@
+@R.Person.2@
+@R.Person.3@
+@R.Person.X@
+@R.Person@
+
+!####
+!#3 periph flags (pl, obv redundantly marked in participles)
+!####
+
+!##setting flags
+@P.3Num.Obv@
+@P.3Num.Pl@
+@P.3Num.InanPl@
+
+!## checking flags
+@R.3Num.Obv@
+@R.3Num.Pl@
+@R.3Num.InanPl@
+
+!####
+!#Animacy flags (animacy is inherent to nouns)
+!####
+
+!## setting flags
+@P.Animate.%0@
+@P.Animate.1@
+
+!## checking flags
+@D.Animate.%0@
+@D.Animate.1@
+@D.Animate@
+
+@R.Animate.%0@
+@R.Animate.1@
+@R.Animate@
+!style on default flag options to include
+
+!####
+!#Passive Flag (3rd person passives must be marked as such to avoid permitting +X marking)
+!####
+
+!## setting flags
+@P.Passive.1@
+
+!## checking flags
+!permitting full D and trimmed D ... style?
+@D.Passive.1@
+@D.Passive@
+
+@R.Passive.1@
+@R.Passive@
+
+!####
+!#Theme flags 
+!####
+!set
+@P.Theme.Inv@
+
+!get
+@D.Theme.Inv@
+@D.Theme@
+
+@R.Theme.Inv@
+@R.Theme@
+
+!####
+!#Negation flag
+!####
+
+!set
+@P.Negation.1@
+
+!get
+@D.Negation@
+@D.Negation.1@
+@R.Negation@
+@R.Negation.1@
+
+!####
+!#Inanimate flag (verbs (VTA!) with inanimate subjects)
+!####
+
+!set
+@P.Inanimate.1@
+
+!get
+@D.Inanimate.1@
+@D.Inanimate@
+
+@R.Inanimate.1@
+@R.Inanimate@
+
+!####
+!#Mode flags (VTA conjunct has surprising mode behavior, might consider using these there)
+!####
+
+!set
+@P.Mode.Yes@ !both modes
+@P.Mode.Prt@
+@P.Mode.Dub@
+@N.Mode.Dub@ !vta cnj null theme incompatible with dub
+@N.Mode.Prt@ !vii cnj non-obviative incompatible with prt
+
+!unify
+@U.Mode.Dub@
+@U.Mode.Prt@
+@U.Mode.Yes@
+!get
+@D.Mode.Prt@
+@D.Mode.Dub@
+@D.Mode@
+
+@R.Mode.Prt@
+@R.Mode.Dub@
+@R.Mode@
+
+
+!####
+!#Order flags 
+!####
+!set
+@P.Order.Cnj@
+
+!get
+@D.Order.Cnj@
+@D.Order@
+
+@R.Order.Cnj@
+@R.Order@
+
+!####
+!#Order flags 
+!####
+!set
+@P.Ccnj.Yes@
+
+!get
+@R.Ccnj.Yes@
+@R.Ccnj@
+
+@D.Ccnj.Yes@
+@D.Ccnj@
+
+LEXICON Root !!= @CODE@ points to the other lexica
+! Note that whenever a new part of speech, and a new file (like propernouns, etc.)
+! is added, it must be specified in the src/morphology/Makefile.am
+    !V_PREFIXES ;
+    !N_PREFIXES ;
+    PREFIXES ; 
+    NM ; !numerals
+    QNT ; !quantifiers
+    PCL ; !particles
+    PA ; !(pre-)adverbs
+    PR ; !pronouns
+    Punctuation ;
+

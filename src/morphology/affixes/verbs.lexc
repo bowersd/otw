@@ -1,0 +1,2061 @@
+!todo: 
+    !VII
+    !   indep: negation
+    !VTA 
+    !   write up description of how theme-sign, number, peripheral slots are interacting
+    !plural subject only
+    !obligatory inverse
+    !participles (VTI, VII)
+    !confirm ccnj for cnj dub
+    !iteratives
+    !dependent nouns (not much to it, just require prefixes for some stems) -> think this is done
+
+
+!#####
+!{Bibliography info
+!#####
+
+!Not yet entered
+
+!#####
+!{Commence work
+!#####
+
+!does all verbal inflection need to be in this file, or can I split it up a bit?
+    !yes, you add the new files to morphology/Makefile.am (around line 24)
+
+!Continuation lexicon after PREFIXES is in ../stems/
+!This almost certainly is going to be revised
+!../stems/verbs.lexc will have internal divisions
+!furthermore, why shouldn't person prefixes be common between nouns and verbs?
+
+!#####
+!{Prefixes
+!#####
+!moved to personprefixes.lexc
+!LEXICON V_PREFIXES
+!1+:ni%<   V_FIRST_PERSON_SET ;
+!2+:gi%<   V_SECOND_PERSON_SET ;
+!3+:o%<   V_THIRD_PERSON_SET ;
+!        V_PREVERBS_SUBORDINATOR ; 
+!!Add alignment recs to style
+!
+!!style question: PERSON spelled out here and in flags
+!!but some sublexicon titles have PERS
+!
+!!_FLAG -> _SET
+!LEXICON V_FIRST_PERSON_SET !add _SET to style
+!@P.Person.1@  V_PREVERBS_SUBORDINATOR ;
+!@P.Person.1@  V_PERSON_EXTENDED ;
+!
+!LEXICON V_SECOND_PERSON_SET 
+!@P.Person.2@  V_PREVERBS_SUBORDINATOR ;
+!@P.Person.2@  V_PERSON_EXTENDED ;
+!
+!LEXICON V_THIRD_PERSON_SET 
+!@P.Person.3@  V_PREVERBS_SUBORDINATOR ;
+!@P.Person.3@  V_PERSON_EXTENDED ;
+!
+!LEXICON V_PERSON_EXTENDED
+!!need boundary to stop vowel coalescence across prefix-stem boundary
+!0:da%*    V_PERSON_EXTENDED_HYPHEN ; 
+!0:di%*    V_PERSON_EXTENDED_HYPHEN ; 
+!0:doo%*    V_PERSON_EXTENDED_HYPHEN ; 
+!
+!LEXICON V_PERSON_EXTENDED_HYPHEN
+!0:-     VERBS ;
+!        VERBS ;
+!
+LEXICON V_PREVERBS_SUBORDINATOR
+!{ unsure of position
+PV/ji+bwaa+:ji-bwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Rand key:n20114310-3-12n
+PV/CCNJ+:PV/CCNJ+   V_PREVERBS_CCNJ_SET ; !changed conjunct trigger (should it precede this slot?)
+!}
+PV/e+:e-    V_PREVERBS_CCNJ_SET " 1  <i>historically, the changed form of the preverb <nish>a-</nish>, but its function has broadened in modern usage.</i>"; !This is in competition with initial change. Rhodes 1996:4 indicates that initial change still dominates for participles
+PV/a+:a-   V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 where;  2 when;  3 which, that which"; !does this just syncopate to nothing?
+!NO LONGER MUST BE LISTED PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 the changed form of the past tense preverb <nish>gii-</nish>";
+PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET "that" ;!formerly changed form of gii, has life of own now 
+        V_PREVERBS_TENSE ;
+LEXICON THMINV_NEG_SIW_LOC_SPECIAL_PCP
+    # ;
+    VTA_CNJ_PCP_INAN_PL ; 
+
+
+LEXICON V_PREVERBS_CCNJ_SET
+@P.Ccnj.Yes@    V_PREVERBS_SUBORDINATOR_ORDER_SET ;
+
+LEXICON V_PREVERBS_SUBORDINATOR_ORDER_SET
+@P.Order.Cnj@   V_PREVERBS_TENSE ;
+
+LEXICON V_PREVERBS_TENSE
+!check Valentine ch 16 for more
+!{attention!
+PV/daa+gii+:daa-gii-    V_PREVERBS_DIRECTION    " 1 would, would have; could; should; can" ; !Rand key:n201012716-46-13n
+!}
+PV/wii+:wii-   V_PREVERBS_DIRECTION " 1 going to [do something], want to [do something], intend [to do something], in order to [do something];  2 future tense, in the future;  3 be in need of (non-living things);  4 please;  5 seeking to [do something];  6 in order to [do something]"; 
+PV/gii+:gii-   V_PREVERBS_DIRECTION " 1 [past tense]";
+PV/gii+:gii-   V_PREVERBS_DIRECTION " 1 would, could"; !no changed form
+            V_PREVERBS_TENSE_IRREG_MODE_GET ;
+            V_PREVERBS_DIRECTION ;
+
+LEXICON V_PREVERBS_TENSE_IRREG_MODE_GET
+@D.Order@           V_PREVERBS_TENSE_IRREG_MODE_INDEP ;!use [RD].Order/Ccnj... elsewhere, since there is only one value of order, these are equivalent
+@P.Order.Cnj@@D.Ccnj@   V_PREVERBS_TENSE_IRREG_MODE_CNJ ; 
+@P.Order.Cnj@@R.Ccnj@   V_PREVERBS_TENSE_IRREG_MODE_CCNJ ;
+
+LEXICON V_PREVERBS_TENSE_IRREG_MODE_INDEP
+PV/da+:da-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
+PV/ga+:ga-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
+PV/daa+:daa-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
+
+LEXICON V_PREVERBS_TENSE_IRREG_MODE_CNJ
+PV/da+:ji-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
+PV/ga+:ji-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
+PV/daa+:da-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
+PV/daa+:ji-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
+
+LEXICON V_PREVERBS_TENSE_IRREG_MODE_CCNJ !all of these undergo ccnj -> ge
+PV/da+:ga-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
+PV/ga+:ga-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
+PV/daa+:ga-    V_PREVERBS_DIRECTION " 1 can, could, ought, should, would";
+
+LEXICON V_PREVERBS_DIRECTION
+!{ uncertain of position
+PV/zaagji+:zaagiji-    V_PREVERBS_RELATIVE    " 1 out of [a place], outside" ; !Rand key:n72972574762n
+PV/biindge+:biindige-    V_PREVERBS_RELATIVE    " 1 used to indicate action that involves entering a building or room" ; !Rand key:n2010113022-28-53n
+PV/bskaabii+:biskaabii-    V_PREVERBS_RELATIVE    " 1 go back, return" ; !Rand key:n201132712-36-52n
+PV/aazhda+:aazhVv1da-    V_PREVERBS_RELATIVE    " 1 from one to another" ; !Rand key:n72974064109n
+PV/mbi+:ombi-    V_PREVERBS_RELATIVE    " 1 go up [in doing something]" ; !Rand key:n71429448810n
+!}
+PV/biiji+:biiji-  V_PREVERBS_RELATIVE " 1 towards this direction, [towards] this way"; !come in direction
+PV/ani+:ani-      V_PREVERBS_RELATIVE " 1 [do something] as one goes away, go away and [do something], go away, on one's way out, [doing something];  2 as time goes on, as time passes, in the course of time;  3 in the future";
+PV/bimi+:bimi-    V_PREVERBS_RELATIVE " 1 come by [and do something], go by [and do something], go by [doing something];  2 in the course of time, as time goes on, in time, through time;  3 going along [doing something], going about [doing something], going about [in the course of one's activities];  4 get around to [doing something]"; !aimless
+PV/bibaa+:bibaa-   V_PREVERBS_RELATIVE " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
+PV/babaa+:babaa-   V_PREVERBS_RELATIVE " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
+PV/baa+:baa-   V_PREVERBS_RELATIVE " 1 around, about, out and about"; !circumference, exhaustive?
+PV/awa+:awa-     V_PREVERBS_RELATIVE " 1 go and [do sth.]";
+PV/oo+:oo-     V_PREVERBS_RELATIVE " 1 go [do something], go and [do something]";
+PV/wi+:wi-     V_PREVERBS_RELATIVE " 1 go and [do something], go [do something]";
+                V_PREVERBS_DIRECTION_IRREGULAR_GET ;
+            V_PREVERBS_RELATIVE    ;
+
+LEXICON V_PREVERBS_DIRECTION_IRREGULAR_GET
+@D.Ccnj@   V_PREVERBS_DIRECTION_IRREGULAR_INDEP ;
+@R.Ccnj@   V_PREVERBS_DIRECTION_IRREGULAR_CCNJ ;
+
+LEXICON V_PREVERBS_DIRECTION_IRREGULAR_INDEP
+PV/bi+:abi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+
+LEXICON V_PREVERBS_DIRECTION_IRREGULAR_CCNJ
+PV/bi+:abi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+PV/bi+:X2bi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+
+LEXICON V_PREVERBS_RELATIVE
+!{unsure of position
+PV/bwaa+:bwaa-  V_PREVERBS_RELATIVE_ORDER_SET " 1 lest, not, so that not"; !Valentine 2001 unclear on ordering, while requires conjunct like subordinators, may be preceded by e-, may also be preceded by wii-... semantics definitely not compatible with direction
+!}
+PV/ako+:ako-  V_PREVERBS_ASPECT " 1 since, from such point in time;  2 as far as [a certain point];  3 [for] a long time, as long as";
+PV/apiichi+:apiichi-  V_PREVERBS_ASPECT " 1 to a certain degree, to a certain extent, to such a degree, to such an extent, how, to what extent, so;  2 in the process of..., while";
+PV/izhi+:izhi-  V_PREVERBS_ASPECT " 1 as [another], like a certain thing;  2 to a certain place, towards a certain place, in a certain direction;  3 how [to do something], in a certain manner, way [of doing something], thus (in such way), and so;  4 go ahead without preparation, go ahead despite not being ready";
+PV/onji+:onji-  V_PREVERBS_ASPECT " 1 at a certain place, from a certain place, from a certain point, where;  2 why;  3 have (in the sense of the English perfect tense)";
+!wnji-:onji    V_PREVERBS_ASPECT    " 1 [see nji-]" ; !Rand key:n73072141838n
+PV/dazhi+:dazhi-   V_PREVERBS_ASPECT " 1 at a certain place, where";
+PV/daso+:daso-     V_PREVERBS_ASPECT " 1 each, every"; 
+            V_PREVERBS_ASPECT ;
+
+LEXICON V_PREVERBS_RELATIVE_ORDER_SET
+@P.Order.Cnj@   V_PREVERBS_ASPECT ;
+
+LEXICON V_PREVERBS_ASPECT
+!{ uncertain of position
+PV/ntami+:nitami-    V_PREVERBS_MANNER    " 1 first [before others, i.e., relative position in a sequence]" ; !Rand key:n73099772452n
+PV/aanawii+:aanawii-    V_PREVERBS_MANNER    " 1 even though, despite;  2 try to..." ; !Rand key:n201012516-47-22n
+PV/bgami+:bagami-    V_PREVERBS_MANNER    " 1 become, commence, arrive" ; !Rand key:n201132615-13-29n
+PV/ekwaa+:ekwaa-    V_PREVERBS_MANNER    " 1 finish" ; !Rand key:n73024180454n
+PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n
+PV/epiichi+:epiichi-    V_PREVERBS_MANNER    " 1 while" ; !Rand key:n72972557481n
+PV/gaagge+:gaagige-    V_PREVERBS_MANNER    " 1 forever, for all time" ; !Rand key:n73016041873n
+PV/giizhi+:giizhi-    V_PREVERBS_MANNER    " 1 finish [doing something]" ; !Rand key:n73024238614n
+PV/gji+:goji-    V_PREVERBS_MANNER    " 1 try [to do something]" ; !Rand key:n73024559959n
+PV/jaagi+:jaagi-    V_PREVERBS_MANNER    " 1 all, completely [gone]" ; !Rand key:n73028052357n
+PV/megwaaji+:megwaaji-    V_PREVERBS_MANNER    " 1 in the middle [of doing something], in the process of [doing something]" ; !Rand key:n71429845986n
+PV/mmendaaji+:mamendaaji-    V_PREVERBS_MANNER    " 1 want to do more of something" ; !Rand key:n73045650324n
+PV/n'kawe+:nakawe-    V_PREVERBS_MANNER    " 1 [do something] first [before doing something else], interrupt what one is doing [to do something]" ; !Rand key:n71433050533n
+PV/ke+:ke-    V_PREVERBS_MANNER    " 1 do something first [before doing something else], do something first [before resuming another activity]" ; !Rand key:n2011448-22-2n
+PV/dede+:dede-    V_PREVERBS_MANNER    " 1 enough" ; !Rand key:n201132719-28-57n
+!}
+PV/aazhoo+:aazhoo- V_PREVERBS_MANNER " 1 next [period of time]";
+PV/booni+:booni-    V_PREVERBS_MANNER " 1 quit [doing sth.], stop [doing sth.]";
+PV/de+:dX2e-       V_PREVERBS_MANNER " 1 fair (amount), moderate (amount)"; !contains blocker to stop dye when ccnj
+PV/gagwe+:gagwe- V_PREVERBS_MANNER " 1 try to [do something]";
+PV/gagweji+:gagweji-   V_PREVERBS_MANNER " 1 try to [do something], try and [do something], try [doing something]";
+PV/kweji+:gagweji-    V_PREVERBS_MANNER    " 1 [see ggweji-]" ; !Rand key:n73032725062n
+PV/akawe+:akawe-   V_PREVERBS_MANNER " 1 do something first [before doing something else], do something first [before resuming another activity]";
+PV/maajii+:maajii-  V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
+PV/nanda+:nanda-  V_PREVERBS_MANNER " 1 look [to do something], seek [to do something], in the hope of [something happening]";
+PV/nando+:nando-  V_PREVERBS_MANNER " 1 [see nda-]";
+!PV/nanda+:nda-    V_PREVERBS_MANNER    " 1 look [to do something], seek [to do something], in the hope of [something happening]" ; !Rand key:n71431357611n
+!PV/nando+:ndo-    V_PREVERBS_MANNER    " 1 [see nda-]" ; !Rand key:n71431444116n
+PV/noonde+:noonde-  V_PREVERBS_MANNER " 1 before a goal is reached, in the attempt of something, before something was to happen, prematurely, unexpectedly";
+PV/nitaa+:nitaa-    V_PREVERBS_MANNER " 1 be good at [something], do something well;  2 be prone to something, be inclined to do something, [do something] often;  3 know how to do something, be able to do something, can do something";
+PV/ishkwaa+:ishkwaa-  V_PREVERBS_MANNER " 1 after [doing something];  2 finish [doing something], quit [doing something], end [be over]";
+PV/webi+:webi-    V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
+PV/oshki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
+            V_PREVERBS_MANNER    ;
+
+LEXICON V_PREVERBS_MANNER
+!{ uncertain of position
+PV/o+:o-    VERBS    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n
+PV/waanji+:waanji-    VERBS    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
+PV/nshinaaji+:nishinaaji-    VERBS    " 1 devastatingly" ; !Rand key:n73099738407n
+PV/niibaa+:niibaa-    VERBS    " 1 at night" ; !Rand key:n71431746367n
+PV/zaami+:ozaami-    VERBS    " 1 excessively, overly, too" ; !Rand key:n72977659543n
+PV/zaami+:zaami-    VERBS    " 1 excessively, overly, too" ; !Rand key:n72977659543n
+PV/zhki+:zhaki-    VERBS    " 1 damp" ; !Rand key:n73072872654n
+PV/npaaji+:nipaaji-    VERBS    " 1 mistakenly, incorrectly" ; !Rand key:n201012717-15-45n
+PV/mchi+:michi-    VERBS    " 1 bare, plain, in the basic and simple manner" ; !Rand key:n20114817-49-43n
+PV/ndami+:ondami-    VERBS    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989348365n
+PV/nboodewi+:niboodewi-    VERBS    " 1 forlorn, lonely" ; !Rand key:n71431348823n
+PV/mziwe+:miziwe-    VERBS    " 1 all in one unit, in a whole unit, whole" ; !Rand key:n73033330521n
+PV/mde+:mVi1de-    VERBS    " 1 in the distance" ; !Rand key:n71429470804n
+PV/mchiwe+:mVv1chiwe-    VERBS    " 1 instead;  2 by hand, from scratch, without mechanical aid" ; !Rand key:n71429457095n
+PV/gweki+:gweki-    VERBS    " 1 change" ; !Rand key:n73031713691n
+PV/gwiini+:gwiini-    VERBS    " 1 aimlessly, confusedly, indecisively, unsure of;  2 be unable to think of something [to do]" ; !Rand key:n71429248194n
+PV/gnaaj+:gVo1naaj-    VERBS    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029776n
+PV/aakwi+:aakawi-    VERBS    " 1 frequently, regularly" ; !Rand key:n72976564856n
+PV/aan'ke+:aanike-    VERBS    " 1 in succession, in turn" ; !Rand key:n7297341155n
+PV/aanji+:aanji-    VERBS    " 1 over again" ; !Rand key:n72973362179n
+PV/aanooji+:aanooji-    VERBS    " 1 dreadfully" ; !Rand key:n73045823524n
+PV/baashji+:baashiji-    VERBS    " 1 over, to an excessive degree" ; !Rand key:n72915857109n
+PV/bgwaji+:bagwaji-    VERBS    " 1 [see bgoji-]" ; !Rand key:n72976865281n
+PV/bgoji+:bagoji-    VERBS    " 1 wild" ; !Rand key:n72976865281n
+PV/bzaani+:bizaani-    VERBS    " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil" ; !Rand key:n72985145321n
+PV/dami+:ondami-    VERBS    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+PV/dami+:odami-    VERBS    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+PV/gchitwaa+:gichitwaa-    VERBS    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
+!}
+PV/niboodwewi+:niboodwewi- VERBS " 1 embarassedly" ;
+PV/ginibi+:ginibi- VERBS " 1 quickly" ;
+PV/aana+:aana-   VERBS " 1 in vain, to no avail" ; !Rand key:n72973263339n
+PV/aano+:aano-   VERBS " 1 [see aana-]"; !Valentine 2001 doesn't specify slot
+PV/aana+:X2aana-   VERBS " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
+PV/aano+:X2aano-   VERBS " 1 [see aana-]"; !optional blocker to stop ccnj yaano!Valentine 2001 doesn't specify slot
+PV/aabaji+:aabaji- VERBS " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
+PV/aapaji+:aapaji- VERBS " 1 very;  2 completely, entirely, fully";
+PV/baakaji+:baakaji- VERBS " 1 irreversible, irreversibly";
+PV/bichi+:bichi- VERBS " 1 accidentally, by mistake";
+PV/bizaani+:bizaani- VERBS " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil";
+PV/dago+:dago- VERBS " 1 along [with others], among [others], together [with others], with";
+PV/gichi+:gichi- VERBS " 1 much, lots, extremely, great (in degree), very, hard (in sense of being extreme)";
+PV/gagiibaaji+:gagiibaaji- VERBS " 1 badly, foolishly";
+PV/gagwetaani+:gagwetaani- VERBS " 1 exceedingly, extremely, awfully, so, terribly";
+PV/gimooji+:gimooji- VERBS " 1 covertly, secretly, sneakily, stealthily, on the sly";
+PV/giimooji+:giimooji- VERBS " 1 covertly, secretly, sneakily, stealthily, on the sly";
+PV/maamiiko+:maamiiko- VERBS " 1 amazingly, remarkably";
+PV/maamwi+:maamwi- VERBS " 1 all, all together, among them all";
+PV/mamaandaa+:mamaandaa- VERBS " 1 amazing, incredible, miraculously";
+PV/maandaa+:mamaandaa-   VERBS    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
+PV/niizaani+:niizaani- VERBS " 1 dangerous";
+PV/nipaaj+:nipaaj- VERBS " 1 incorrectly, the wrong way";
+PV/wiiji+:wiiji- VERBS " 1 with";
+PV/wiinge+:wiinge- VERBS " 1 completely, entirely, thoroughly";
+PV/maanaaji+:maanaaji- VERBS " 1 bad, evil, harmful, wrong";
+PV/maji+:maji- VERBS " 1 badly, evilly";
+PV/mino+:mino- VERBS " 1 good, well;  2 nice, pleasant";
+PV/aabita+:aabita- VERBS " 1 half, halfway; mid, midway";
+PV/nigo+:nigo- VERBS " 1 one";
+PV/niizho+:niizho- VERBS " 1 two"; 
+PV/niso+:niso- VERBS " 1 three"; 
+PV/niiwoo+:niiwoo- VERBS " 1 four"; 
+PV/niiyoo+:niiyoo- VERBS " 1 four" ; 
+PV/naano+:naano- VERBS " 1 five"; 
+PV/nigodwaaso+:nigodwaaso- VERBS " 1 six"; 
+            VERBS    ;
+
+!{ VAIO
+!VAIO description in Valentine 2001 is incomplete (p 243) (no prt dub, no mode for neg, positive pcps but no conjunct)
+!no passives
+!recommended strategy for tag abstraction: open up object position for 3/0, fill subject position with remainder (don't fret about lack of theme sign)
+LEXICON VAIO_ORDERS_GET
+@D.Order.Cnj@@R.Person@ VAIO_INDEP_NEG ; 
+@D.Person@    VAIO_NON_INDEP_GET ;
+
+LEXICON VAIO_NON_INDEP_GET 
+@D.Order.Cnj@   VAIO_IMPER_TAG ;
++Cnj:c1         VAI_CNJ_NEG ; !c1 handles stem-suffix specific adjustments
+!vai cnj seems to be identical to VAIO cnj
+!note: particples in VAIOs suggest /egw/, /angw/ for 2pl, 21pl (-og, -on periph suffs)
+!this is already implemented from the looks of it :D
+!might need to change it to w1 to get [o] in periphs
+
+!{Imperative order
+LEXICON VAIO_IMPER_TAG
++Imp:0 VAIO_IMPER_NEG ;
+
+LEXICON VAIO_IMPER_NEG
+            VAI_IMPER ;
++Neg:sii    VAIO_IMPER_NEG_DAA ; !only deviation from VAI_IMPER is (sii)daa[nig|nin]
+            VAIO_IMPER_NEG_DAA ;
+
+LEXICON VAIO_IMPER_NEG_DAA
++2+1+Pl:daany1 VAIO_IMPER_NEG_DAA_PERIPH ; 
+
+LEXICON VAIO_IMPER_NEG_DAA_PERIPH
++3+Pl:%>ag # ; 
++%0+Pl:%>an # ; 
+!}Imperative order end
+
+!{Independent order
+LEXICON VAIO_INDEP_NEG
++Neg:sii    VAIO_INDEP_PRENUM ; 
+            VAIO_INDEP_PRENUM ; 
+
+LEXICON VAIO_INDEP_PRENUM
+0:n     VAIO_INDEP_SG_PREMODE ;
+        VAIO_INDEP_PL_NUM_GET ;
+
+LEXICON VAIO_INDEP_PL_NUM_GET
+@D.Person.1@    VAIO_INDEP_PL_ILESS ;
+@D.Person.3@    VAIO_INDEP_PL_IFULL ;
+
+LEXICON VAIO_INDEP_PL_IFULL
++1+Pl:naan2y1   VAIO_INDEP_PERIPH_GET ;
++1+Pl:minaa   VAIO_INDEP_MODE ;
+
+LEXICON VAIO_INDEP_PL_ILESS
++2+Pl:naawaa     VAIO_INDEP_PERIPH_GET ;
+
+LEXICON VAIO_INDEP_SG_PREMODE
+0:aa    VAIO_INDEP_MODE ;
+        VAIO_INDEP_PERIPH_GET ;
+
+LEXICON VAIO_INDEP_MODE
++Prt:ban2i1 VAIO_INDEP_PERIPH_GET ;
++Dub:dig VAIO_INDEP_DUB_PRE_PERIPH ;
+
+LEXICON VAIO_INDEP_DUB_PRE_PERIPH
+# ; !interp ...
+0:en VAIO_INDEP_PERIPH_GET ; !interp ...
+
+LEXICON VAIO_INDEP_PERIPH_GET
+@D.Person.3@    VAIO_INDEP_PERIPH_3PL ;
+@R.Person.3@    VAIO_INDEP_PERIPH_3OBV ;
+                VAIO_INDEP_PERIPH ;
+
+LEXICON VAIO_INDEP_PERIPH
++%0:0   # ;
++%0+Pl:%>an   # ;
+
+LEXICON VAIO_INDEP_PERIPH_3OBV
++3+4:%>an # ;
+
+LEXICON VAIO_INDEP_PERIPH_3PL
++3:%>an   # ;
++3+Pl:%>ag   # ;
+!}Independent order end
+!} VAIO end
+
+!#####
+!{VAI Morphological sub-classes 
+!#####
+
+!looking like gateway but not labeled as such, stems will have to be edited too
+
+LEXICON VAI_ORDERS_GET
+@D.Order.Cnj@ VAI_INDEP_NEG ; !1,2, no 3 pre for vai indep, 3 checked in stems/verbs
+@D.Person@    VAI_NON_INDEP_GET ;
+
+LEXICON VAI_NON_INDEP_GET 
+@D.Order.Cnj@   VAI_IMPER_TAG ;
++Cnj:c1   VAI_CNJ_NEG ; !c1 handles stem-suffix specific adjustments
+
+LEXICON VAI_IMPER_TAG
++Imp:0    VAI_IMPER ;
+
+!#####
+!{VAI Independent suffixes
+!#####
+
+!{negative slot 
+LEXICON VAI_INDEP_NEG 
++Neg:c1sii    VAI_INDEP_NEG_GET ; !c1 triggers s -> z / n _
+            VAI_INDEP_NEG_GET ;
+
+LEXICON VAI_INDEP_NEG_GET
+@R.Person@      VAI_INDEP_1_OR_2_GATEWAY ;  
+@R.Person@      # ; 
+@R.Person.2@    VAI_INDEP_2_PL ;
+@D.Person@      VAI_INDEP_3_OR_X_GATEWAY ; ! SNM: Used to be: VAI_INDEP_3_OR_X_GATEWAY_2, but this lexicon does not exist.
+!DAB:Good catch! curious that this hung around for so long.
+!} neg end
+
+!{number slot 
+LEXICON VAI_INDEP_1_OR_2_GATEWAY 
++1+Pl:min2   VAI_INDEP_NUMBER ;
+0:naa       VAI_INDEP_LOCAL_MODE ;
+
+LEXICON VAI_INDEP_2_PL
++2+Pl:mw    VAI_INDEP_NUMBER ;
+
+LEXICON VAI_INDEP_NUMBER
+0:aa        VAI_INDEP_LOCAL_MODE ;
+    # ;
+
+LEXICON VAI_INDEP_3_OR_X_GATEWAY
++3+4:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3+2+Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;!(should translate to +3Pl)
++3:w5       VAI_INDEP_3 ;
++X:m        VAI_INDEP_X_GATEWAY ;
+
+LEXICON VAI_INDEP_X_GATEWAY 
+ !bizarre change in epenthetic vowels
+        VAI_INDEP_X_NO_NEG ;
+        VAI_INDEP_X_NEG ;
+        # ;
+
+LEXICON VAI_INDEP_3
+!+3+Pl:ag  # ;
+!+3+4:an # ;
+!+2+Pl:aa  VAI_INDEP_NUM_MARKED_PRT_DUB ; !technically, its +2+Pl:waa 
+    # ; !figured ability to stop here made sublex part of number, not periph/mood
+     VAI_INDEP_3_MODE ;
+
+LEXICON VAI_INDEP_X_NO_NEG 
+0:i     VAI_INDEP_X_NO_NEG_DUB_PRT_DUB ;
+0:a     VAI_INDEP_X_NO_NEG_PRT ;
+
+LEXICON VAI_INDEP_X_NEG 
+0:i     VAI_INDEP_X_NEG_MODE ;
+
+!} num end
+
+!{mode slot 
+LEXICON VAI_INDEP_LOCAL_MODE
++Prt:ban2i1 # ;
++Dub:dig # ;
+
+LEXICON VAI_INDEP_NUM_MARKED_PRT_DUB
++Prt+Dub:goban2i1 # ;
+
+LEXICON VAI_INDEP_3_MODE
++Prt:%>ban2i1    VAI_INDEP_3_PRT_PERIPH ;
++Dub:%>dig    VAI_INDEP_3_DUB_PERIPH ;
++Prt+Dub:%>goban2i1 # ;
+                VAI_INDEP_3_PRT_PERIPH ;
+
+LEXICON VAI_INDEP_X_NO_NEG_DUB_PRT_DUB
++Dub:dig # ;
++Prt+Dub:goban2i1 # ;
+
+LEXICON VAI_INDEP_X_NO_NEG_PRT
++Prt:ban2i1 # ;
+
+LEXICON VAI_INDEP_X_NEG_MODE
++Dub:dig # ;
++Prt:ban2i1 # ;
++Prt+Dub:goban2i1 # ;
+!} mode end
+
+!{periph slot (such as has not been cannibalized by earlier slots) 
+LEXICON VAI_INDEP_3_PRT_PERIPH 
+        VAI_INDEP_3_MODE_PERIPH ;
+        # ;
+
+LEXICON VAI_INDEP_3_DUB_PERIPH 
+0:en    VAI_INDEP_3_MODE_PERIPH ;
+        # ;
+
+LEXICON VAI_INDEP_3_MODE_PERIPH
++3+4:%>an # ;
++3+Pl:%>ag  # ;
+
+
+!} periph end
+!} indep end
+
+!#####
+!{VAI Conjunct suffixes
+!#####
+
+!Conjunct order
+!See Valentine  2001:222, 236-237
+!ibid 236-237 lacks nasal-final examples
+
+!Insert schematic template here (also update style guide)
+
+!stem-suffix interactions to be result of c1 in context:
+!nc1si -> nzi 
+!nc1[C] -> naC
+!Vc1V -> VyV
+
+!{Conjunct Order 
+!{negative slot 
+LEXICON VAI_CNJ_NEG 
++Neg:0        VAI_CNJ_NEG_SET ;
+                VAI_CNJ_PERSNUM ;
+@D.Passive@     VAI_CNJ_IRREG_NEG ; !this is a mite local for using a flag
+
+LEXICON VAI_CNJ_IRREG_NEG
++Neg+3+Pl:%>si%>gwaa  # ; 
+
+LEXICON VAI_CNJ_NEG_SET
+@P.Negation.1@  VAI_CNJ_NEG_SPELLOUT ;
+
+LEXICON VAI_CNJ_NEG_SPELLOUT
+0:%>siiw3        VAI_CNJ_MODE_SET ;
+0:%>siw3         VAI_CNJ_PERSNUM ;
+
+LEXICON VAI_CNJ_MODE_SET 
+@P.Mode.Yes@    VAI_CNJ_PERSNUM ; !This breaks from 0/1 for off/on
+!} neg end
+
+!{ persnum 
+
+LEXICON VAI_CNJ_PERSNUM
+@D.Passive@    VAI_CNJ_3 ; !no passive takes 'regular' 3
+@R.Person@    VAI_PASSIVE_3 ; !passive 3 (no non-passive has a person flag)
+@D.Person@    VAI_CNJ_DUB_EARLY_A ; !local passives are regular, non-passives pass
+
+LEXICON VAI_CNJ_DUB_EARLY_A
+0:w4    VAI_CNJ_DUB_SET_A ;
+        VAI_CNJ_NOT_3 ;
+
+LEXICON VAI_CNJ_DUB_SET_A
+@P.Mode.Dub@    VAI_CNJ_NOT_3 ;
+
+LEXICON VAI_CNJ_NOT_3
++1:%>aan       VAI_CNJ_PRT_1 ; !breaking morpheme over continuation lexica. have pret cnj "b" trigger assimilation, sometimes nasalize V
++2:%>an        VAI_CNJ_MODE_GET ; !ditto re assimilation: are there cases were nas-obs isn't modified to be homorganic?
++1+Pl:%>aang      VAI_CNJ_MODE_GET ;
++2+1+Pl:%>angw         VAI_CNJ_MODE_GET ;
++2+Pl:%>egw       VAI_CNJ_MODE_GET ;
+
+LEXICON VAI_CNJ_3 
++3:%>d1               VAI_CNJ_NO_MODE_3PL_GATEWAY ; !d1 phon in root.lexc
++3+Pl:%>waad1       VAI_CNJ_3PL_NEG_GET ; !Irregularity when negated and this is last morpheme
++3+4:%>nid1           VAI_CNJ_NO_MODE_3OBV_GATEWAY ; !nas morph inid?
++X:%>nd1              VAI_CNJ_DUB_EARLY_B ; !nd1b -> ngib, nas morph ang?
+
+LEXICON VAI_PASSIVE_3
++3:ind  VAI_PASSIVE_3PL ; !participles!
+
+LEXICON VAI_PASSIVE_3PL
++Pl:waa VAI_CNJ_DUB_EARLY_B ;
+        VAI_CNJ_MODE_GET ;
+
+LEXICON VAI_CNJ_3PL_NEG_GET
+@D.Negation@    VAI_CNJ_DUB_EARLY_B ;
+@R.Negation@    VAI_CNJ_3PL_MODE_SET ;
+
+LEXICON VAI_CNJ_3PL_MODE_SET
+@P.Mode.Yes@ VAI_CNJ_DUB_EARLY_B ;
+
+LEXICON VAI_CNJ_DUB_EARLY_B !letters or numbers for ordered? 
+0:w4    VAI_CNJ_DUB_SET_B ;
+        VAI_CNJ_MODE_GET ;
+
+LEXICON VAI_CNJ_DUB_SET_B
+@P.Mode.Dub@    VAI_CNJ_MODE_GET ;
+
+!} person end
+
+!{preterite slot 
+LEXICON VAI_CNJ_PRT_1
++Prt:%>b1aan2   VAI_CNJ_DUB_GET_1 ; !rand doesn't show n as deletable, but Medler did
+@D.Mode@    VAI_CNJ_DUB_GET_1 ; !Seeing siiw3 forces you to pick up mode suffixes
+@R.Mode@    VAI_CNJ_DUB ;
+
+LEXICON VAI_CNJ_DUB_GET_1
+@D.Mode.Dub@    VAI_CNJ_1_END ;
+@R.Mode.Dub@    VAI_CNJ_DUB ;
+
+LEXICON VAI_CNJ_1_END
+!         # ; !Medler didn't nasalize
+0:h         # ; !left over morpheme chunk ... first person aan turns to aanh, pret turns to baanh
+
+LEXICON VAI_CNJ_MODE_GET
+            VAI_CNJ_PRT ;
+@D.Mode@    #  ; !cannot pick up pcp if no mode (direct route to pcp already exists)
+
+LEXICON VAI_CNJ_PRT 
++Prt:%>b1an2   VAI_CNJ_DUB_GET ;
+@R.Mode.Dub@    VAI_CNJ_DUB ;
+!@D.Mode@    VAI_CNJ_DUB_GET ;
+!@R.Mode@    VAI_CNJ_DUB ; !otherwise, you can end, or pick up +Dub
+!unclear why commented out section here behaved differently from  VAI_CNJ_PRT_1
+
+LEXICON VAI_CNJ_DUB_GET
+@D.Mode.Dub@    VAI_CNJ_PRT_I1  ; !check for participle
+@R.Mode.Dub@    VAI_CNJ_DUB ;
+
+LEXICON VAI_CNJ_PRT_I1
+0:i1    VAI_CNJ_PCP_GET ; !pret participles pluralize with iig
+                            !ideally i1 in b1an2i1 would delete before dub, but morpheme boundary triggers i1->ii, which is shortened to i
+!} preterite end
+
+!{dubitative slot 
+LEXICON VAI_CNJ_DUB 
++Dub:%>en2 VAI_CNJ_PCP_GET ;
+
+!} dub end
+!{participles (redundant with nominal periph slot)
+LEXICON VAI_CNJ_NO_MODE_3PL_GATEWAY
+0:y1        VAI_CNJ_PCP_PL ;
+@P.3Num.Pl@ VAI_CNJ_DUB_EARLY_B;
+
+LEXICON VAI_CNJ_NO_MODE_3OBV_GATEWAY
+0:y1        VAI_CNJ_PCP_OBV ;
+@P.3Num.Obv@ VAI_CNJ_DUB_EARLY_B;
+
+LEXICON VAI_CNJ_PCP_GET
+@R.Ccnj@@R.3Num.Pl@     VAI_CNJ_PCP_PL ;
+@R.Ccnj@@R.3Num.Obv@    VAI_CNJ_PCP_OBV ;
+                # ;
+
+LEXICON VAI_CNJ_PCP_PL
++Pcp+3+Pl:%>ag # ;
+
+LEXICON VAI_CNJ_PCP_OBV
++Pcp+3+4:%>an # ;
+
+!} participle end
+!} cnj end 
+
+!#####
+!{VAI Imperative suffixes 
+!#####
+!Insert schematic template here (also update style guide)
+
+!just one slot under our analysis
+LEXICON VAI_IMPER 
++Imm+2:%>n       # ;
++Imm+2+Pl:g       # ;
++Imm+2+1+Pl:daa      # ;
++Del+2:%>kan     # ; !stem-final short vowels may lengthen before this suff
++Del+2+Pl:%>keg     # ; !stem-final short vowels may lengthen before this suff
++Neg+2:%>ken2    # ;
++Neg+2+Pl:%>kegon2  # ;
++Neg+2+1+Pl:siidaa  # ;
+
+!} imp end
+!} VAI end
+
+!#####
+!# VII Morphological sub-classes
+!#####
+
+!{ VII start
+LEXICON VII_ORDERS_GET
+@D.Order.Cnj@       VII_INDEP_NEG ;
++Cnj:c1             VII_CNJ_NEG ;
+
+!{ Independent order
+!negation needs closer attention
+LEXICON VII_INDEP_NEG
++Neg:c1sinoo  VII_INDEP_OBV ; !c1 triggers s->z / n _
+            VII_INDEP_OBV ;
+
+LEXICON VII_INDEP_OBV
++%0:0       VII_INDEP_MODE ;
++%0:w5      VII_INDEP_PERIPH ;
++%0+4:iniw   VII_INDEP_OBV_GATEWAY ;
+
+LEXICON VII_INDEP_OBV_GATEWAY
+                VII_INDEP_MODE ;
+                VII_INDEP_PERIPH ;
+
+LEXICON VII_INDEP_MODE  !these morphemes are optional, enforced by routing prior morphemes around this slot 
+                        !necessary to get proper spellout of +0+Pl
++Prt:%>ban2i1     VII_INDEP_PERIPH ;
++Dub:%>dig        VII_INDEP_DUB_PERIPH ;
++Prt+Dub:%>goban2i1  VII_INDEP_PERIPH ;
+
+LEXICON VII_INDEP_PERIPH 
++%0+Pl:%>an  # ; !0pl (no mode) is -wan (post v), -oon (post c), -noon (post-v, recut?)
+        # ; 
+
+LEXICON VII_INDEP_DUB_PERIPH 
++%0+Pl:enan  # ; !0pl (no mode) is -wan (post v), -oon (post c), -noon (post-v, recut?)
+        # ; 
+!} independent end
+
+!{ Conjunct order
+LEXICON VII_CNJ_NEG
++Neg+%0:sinog   #  ; !need to disqualify sinoog
++Neg:sinoo      VII_CNJ_NUM_GATEWAY ;
+                VII_CNJ_NUM_GATEWAY ;
+
+LEXICON VII_CNJ_NUM_GATEWAY
+        VII_CNJ_SG ;
+        VII_CNJ_OBV ;
+
+LEXICON VII_CNJ_SG
++%0:g       VII_CNJ_PRT_OR_END ;
+0+%0:w4g       VII_CNJ_DUB_PRT_DUB ;
+
+LEXICON VII_CNJ_OBV
++%0+4:%>nig   VII_CNJ_PRT_OR_END ;
++%0+4:%>nig   VII_CNJ_DUB_PRT_DUB ;
+
+
+LEXICON VII_CNJ_PRT_OR_END  
++Prt:%>ban2    # ;
+                # ;
+
+LEXICON VII_CNJ_DUB_PRT_DUB
++Dub:wenh   # ; !epenthetic i (c-final stems) becomes o (C_gwenh -> Cogwenh)
++Prt+Dub:obanen2 # ; !epenthetic i becomes o as above,
+
+!} conjunct end
+
+!} VII end
+
+!#####
+!{Transitive Verb Morphological sub-classes
+!#####
+
+!Original plan was to have transitives go through the same point
+!as they were united in requiring prefixes in the independent order
+!turns out that isn't true ...
+!so this is obsolete
+!as with VAI's much of this will probably be transferred to VERBS
+!LEXICON TRANS_INDEP 
+!+VTA+Indep:0        VTA_INDEP_THEME_GET ;
+!+VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
+
+!#####
+!#VTA Inflection 
+!#####
+!{ VTA
+
+!#####
+!#VTA Independent order Inflection 
+!#####
+!{ VTA indep
+!Valentine (2001):274
+!Insert schematic template here (also update style guide)
+
+
+!prefix theme   negation    number  mode    periph
+!                           inan    number  mode    periph
+
+!see gt-norm-yamls/OJI_VTA_YAML_NOTES.txt for some discussion
+
+!while theme signs are overwhelmingly object agreement,
+!the local person theme signs are quite fused with number, subject ... and even negation
+!which makes it so subject features are fairly unavoidable early on
+!strangely, while the choice of theme sign in conjunction with the prefix tells you a huge amount
+!about the subject and object, there is no dedicated location for subject features
+!they are sprinkled around the verb and get their interpretation from the theme sign ultimately
+!so treating the theme sign like it has subject features actually makes things really complicated,
+!because you might have to be checking whether this was subject number or object number, even though they are the same morph
+!   probably not true, what's wrong with +3Sub ... +3Pl?
+!but you do need to introduce features that you wouldn't normally have to ...
+!-> ultimately just wrote out tags identifying themes, left to abstraction module to unpack (DAB 5/1/2017)
+!inan subjects are disambiguated from 3 subjects after the theme sign
+!so if you are adding inan subject at the theme sign, you need to introduce a feature
+
+!#####
+!#Theme sign slot
+!#####
+
+LEXICON VTA_INDEP_THEME_GET 
+@R.Person@      VTA_INDEP_THEME_GATEWAY ;
+@D.Person.3@    VTA_INDEP_THEME_LOCAL_PASSIVE ; !derived VAIs (passives) 
+@D.Person@    VTA_INDEP_NONLOCAL_PASSIVE ; !derived VAIs (passives) 
+@R.Person.2@      VTA_INDEP_THEME_SECOND_PERSON ;
+!style on new line for substantively different entries of sublexicon
+
+!trying just giving a name for theme signs, and letting interpretation come later
+
+
+
+LEXICON VTA_INDEP_THEME_GATEWAY
++ThmInv:igo  VTA_INDEP_THEME_INVERSE_SET ;
++ThmDir:aa   VTA_INDEP_THEME_DIRECT_GATEWAY ; !gateway usage unformalized now
+!new tags
+
+LEXICON VTA_INDEP_THEME_INVERSE_SET 
+@P.Theme.Inv@   VTA_INDEP_THEME_INVERSE_NEG ;
+!new flag diacritic
+
+!{Passives  
+!ROUTE THROUGH VAI
+LEXICON VTA_INDEP_THEME_LOCAL_PASSIVE
++ThmPas:igoo       VAI_INDEP_NEG ;
+!new tags
+
+LEXICON VTA_INDEP_NONLOCAL_PASSIVE
++ThmPas:aa   VAI_INDEP_NEG ; 
+!new tags
+
+!LEXICON VTA_INDEP_PASSIVE_FLAG
+!!needed for 3rd person passives to not pick up -m (+X VAI infl) ... are we sure they can't be further passivized?
+!@P.Passive.1@ VAI_INDEP_GET ; 
+!} passive end
+
+!##Second persons
+!{ local preds
+LEXICON VTA_INDEP_THEME_SECOND_PERSON 
++Thm2:i2          VTA_INDEP_2V1_NEG ; !first person object
++Thm1Pl:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject
++Thm1Sg:in        VTA_INDEP_1SGV2 ; !first person singular subject
++Thm1Sg+Neg:isinoon  VTA_INDEP_1SGV2 ;!negated first person singular subject
+!new tags
+
+!####
+!{negation through number 
+!####
+!{2 v 1 
+LEXICON VTA_INDEP_2V1_NEG 
++Neg:sii    VTA_INDEP_2V1_GATEWAY ;
+            VTA_INDEP_2V1_GATEWAY ;
+
+LEXICON VTA_INDEP_2V1_GATEWAY 
++1+Pl:min2 VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++2+Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
+            VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
+!} 2v1 end
+
+!{1Pl v 2 
+LEXICON VTA_INDEP_1PLV2_NEG
++Neg:sii    VTA_INDEP_1PLV2_GATEWAY ;
+            VTA_INDEP_1PLV2_GATEWAY ;
+
+LEXICON VTA_INDEP_1PLV2_GATEWAY 
++2+Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
+            VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
+!} 1pl v 2 end
+
+LEXICON VTA_INDEP_1SGV2 
++2+Pl:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
+            VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
+
+!####
+!{mode and such 
+!####
+
+LEXICON VTA_INDEP_LOCAL_PLURAL_PREMODE 
+0:aa    VTA_INDEP_LOCAL_MODE ;
+# ;
+
+LEXICON VTA_INDEP_LOCAL_SINGULAR_PREMODE 
+0:naa    VTA_INDEP_LOCAL_MODE ;
+# ;
+
+LEXICON VTA_INDEP_LOCAL_MODE 
++Prt:ban2 # ;
++Dub:dig # ;
+!} mode end
+!} local v local (after theme) end
+!} local v local end
+
+!#####
+!#Negation Slot
+!#####
+
+!{ negation
+!direct negation {
+LEXICON VTA_INDEP_THEME_DIRECT_GATEWAY !gateway usage unformalized now
+!probably best to have a coherent mapping between graphviz branches, states, labels and lexc :)
+!currently using quasi_semantic naming principles
+
++Neg:siwaa VTA_INDEP_THEME_DIRECT_PLURAL_NEGATION_GET ; 
++Neg:sii    VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_SII_GET ; !direct theme sign w/1st pl usually negates with siwaa, but sii if mode appears
+!+Neg:sii VTA_INDEP_THEME_DIRECT_NEGATION_1_PL_MODE ; !direct theme sign has special negative for first person plural forms but only if there is no mode marking -> sii if mode marked
++Neg:sii   VTA_INDEP_THEME_DIRECT_SINGULAR_NEGATION_GET ;
+           VTA_INDEP_NUMBER_GET ;
+
+LEXICON VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_SII_GET 
+@D.Person.3@ VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_MODE ;
+
+!{Direct plural negation 
+
+LEXICON VTA_INDEP_THEME_DIRECT_PLURAL_NEGATION_GET
+@D.Person.3@    VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_NO_MODE  ;  !siwaa bans 1+Pl+mode, sii is exceptionally used DAB 04/2017
+                                                 !note also: spring 2k16 visualization recognized 21, 1pl as distinct
+                                                 !here they are emergent, and rather than R.1, R.2, we have D.3
+@R.Person.2@    VTA_INDEP_NUMBER_ILESS ;
+@R.Person.3@    VTA_INDEP_NUMBER_3 ;
+
+LEXICON VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_MODE
++1+Pl:minaa     VTA_INDEP_MODE_GATEWAY ; 
+
+LEXICON VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_NO_MODE
++1+Pl:naan2y1   VTA_INDEP_IFULL_PERIPH_GET ; 
+
+!} direct pl negation end
+
+!{Direct singular negation 
+LEXICON VTA_INDEP_THEME_DIRECT_SINGULAR_NEGATION_GET
+@D.Person.3@    VTA_INDEP_ILESS_GATEWAY ; !deviating from graphviz slightly (21, 1pl collapsed, D instead of R)
+@R.Person.3@    VTA_INDEP_3_GATEWAY ;
+!tempting to send to VTA_INDEP_NUMBER_3, but we are out of phase
+!there is a waa-reading state, and a gateway
+!move into the gateway if read nothing
+!gateway is the closest analog to I-less3 NoNum3
+!what style recs do we make here?
+
+!} direct sg negation end
+!} direct negation end
+
+!{inverse negation, inverse no negation, direct no negation 
+LEXICON VTA_INDEP_THEME_INVERSE_NEG 
++Neg:sii    VTA_INDEP_THEME_INVERSE_NEG_SET ; !convention for what to name setters after?
+               VTA_INDEP_NUMBER_GET ;
+
+LEXICON VTA_INDEP_THEME_INVERSE_NEG_SET
+@P.Negation.1@  VTA_INDEP_NUMBER_GET ;
+
+!} direct no neg, inverse end
+!} negation end
+
+!######
+!#Number Slot
+!#####
+
+!fed by inverse negation, inverse no negation, direct no negation
+LEXICON VTA_INDEP_NUMBER_GET
+@D.Person.3@    VTA_INDEP_NUMBER_LOCAL_GATEWAY ;
+@R.Person.2@    VTA_INDEP_NUMBER_ILESS ;
+@R.Person.3@    VTA_INDEP_NUMBER_3 ;!pick up waa
+@R.Person.3@    VTA_INDEP_3_GATEWAY ;!pick up nothing
+@R.Theme.Inv@     VTA_INDEP_INAN_SUB ;!own slot (maybe own file!), extra options for inverse-marked forms
+!new flag
+
+!{first person "I-full" plurality 
+LEXICON VTA_INDEP_NUMBER_LOCAL_GATEWAY 
+!what exactly is driving me to diverge from a strict mirroring of graphviz?
+!feature style, and whether incoming arcs in graphviz read different strings
++1+Pl:minaa    VTA_INDEP_MODE_GATEWAY ;
+                VTA_INDEP_NUMBER_IFULL_INV_GET;
+                VTA_INDEP_ILESS_GATEWAY ;
+
+!fed by VTA_INDEP_NUMBER_GET, direct plural negation
+LEXICON VTA_INDEP_NUMBER_IFULL_INV_GET
+@R.Theme.Inv@@P.Inanimate.1@   VTA_INDEP_INVISIBLE_INAN ; !inanimate subs aren't obviously marked here, but it is really convenient to mark them in the tags
+                VTA_INDEP_NUMBER_IFULL ;
+
+LEXICON VTA_INDEP_INVISIBLE_INAN
++%0:0   VTA_INDEP_NUMBER_IFULL ;
+
+LEXICON VTA_INDEP_NUMBER_IFULL 
+!style should include recommendations for marking when predication info is being collapsed
++1+Pl:naan2y1 VTA_INDEP_IFULL_PERIPH_GET ;
++1+Pl:minaa     VTA_INDEP_MODE_GATEWAY ; 
+!new tag
+!} I-full end
+
+!{second person "I-less" plurality 
+LEXICON VTA_INDEP_NUMBER_ILESS
++2+Pl:waa  VTA_INDEP_ILESS_GATEWAY ;
+!new tag
+
+LEXICON VTA_INDEP_ILESS_GATEWAY 
+    VTA_INDEP_MODE_GATEWAY ;
+    VTA_INDEP_PERIPH_NON_3 ;
+!} I-less end
+
+!{first or second person singular
+!fed by VTA_INDEP_NUMBER_GET, direct singular negation
+
+!note, identical to VTA_INDEP_ILESS_GATEWAY
+!LEXICON VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY 
+!    VTA_INDEP_MODE_GATEWAY ; 
+!    VTA_INDEP_SINGULAR_PERIPH ; 
+
+!{third person number 
+!fed by VTA_INDEP_NUMBER_GET, direct plural negation
+LEXICON VTA_INDEP_NUMBER_3
++2+Pl:waa  VTA_INDEP_3_GATEWAY ;
+
+!fed by VTA_INDEP_NUMBER_GET, direct singular negation
+LEXICON VTA_INDEP_3_GATEWAY
+    VTA_INDEP_MODE_GATEWAY ; 
+    VTA_INDEP_PERIPH_3OBV ;
+!} 3 num end
+
+!probably a good idea to keep a list of the sub-lexicon calls out of a slot
+
+!#####
+!#Mode Slot
+!#####
+
+LEXICON VTA_INDEP_MODE_GATEWAY
++Dub:dig    VTA_INDEP_DUB_PERIPH_GET ;
++Prt:ban2i1   VTA_INDEP_PRT_PERIPH_GET ;
+
+!#####
+!#Periph Slot
+!#####
+
+!{ periph
+!{ gate-keeping for some earlier suffixes
+!{first person pl/inclusive naan 
+LEXICON VTA_INDEP_IFULL_PERIPH_GET
+@R.Theme.Inv@@R.Inanimate@  VTA_INDEP_PERIPH_INAN_PL ; !/an/->[in]
+@D.Inanimate@               VTA_INDEP_PERIPH_3PL ; !/ag/->[ig]/naan_
+# ; !3rd person singular/obv
+
+!} naan-periph end
+
+!!careful! negation can't be last in word, n inserted then!
+
+!{dubitative 
+LEXICON VTA_INDEP_DUB_PERIPH_GET
+@D.Inanimate@       VTA_INDEP_DUB_ANIM_GET ;
+@R.Inanimate@               VTA_INDEP_DUB_INAN ;
+
+LEXICON VTA_INDEP_DUB_ANIM_GET
+@D.Person.3@    VTA_INDEP_DUB_PERIPH_NON_3 ;
+@R.Person.3@    VTA_INDEP_DUB_PERIPH_3 ;
+@R.Theme.Inv@     VTA_INDEP_DUB_PERIPH_INV ;!note, allowing ambiguity
+
+LEXICON VTA_INDEP_DUB_PERIPH_NON_3
+0:en VTA_INDEP_DUB_INAN_GET ;
+# ;
+
+LEXICON VTA_INDEP_DUB_INAN_GET 
+@D.Inanimate@  VTA_INDEP_PERIPH_3PL ;  
+
+LEXICON VTA_INDEP_DUB_PERIPH_3
+0:en    VTA_INDEP_PERIPH_3OBV ;
+
+LEXICON VTA_INDEP_DUB_PERIPH_INV
+0:en    VTA_INDEP_PERIPH_INAN_PL ;
+
+LEXICON VTA_INDEP_DUB_INAN 
+0:en    VTA_INDEP_PERIPH_INAN_PL ;
+#;
+
+!} dub end
+
+!{preterit 
+LEXICON VTA_INDEP_PRT_PERIPH_GET 
+@D.Inanimate@   VTA_INDEP_PRT_ANIM_GET ; 
+@R.Inanimate@   VTA_INDEP_PRT_INAN ;
+
+LEXICON VTA_INDEP_PRT_ANIM_GET 
+@D.Person.3@    VTA_INDEP_PERIPH_NON_3 ;
+@R.Person.3@    VTA_INDEP_PRT_PERIPH_3 ;
+@R.Theme.Inv@     VTA_INDEP_PRT_PERIPH_INV ;!note, allowing ambiguity
+
+LEXICON VTA_INDEP_PERIPH_NON_3
+@D.Inanimate@   VTA_INDEP_PERIPH_3PL ; 
+# ;
+
+LEXICON VTA_INDEP_PRT_PERIPH_3 
+VTA_INDEP_PERIPH_3OBV ;
+
+LEXICON VTA_INDEP_PRT_PERIPH_INV 
+VTA_INDEP_PERIPH_INAN_PL ;
+
+LEXICON VTA_INDEP_PRT_INAN 
+VTA_INDEP_PERIPH_INAN_PL ;
+#;
+!} prt end
+!} gate-keeping end
+
+LEXICON VTA_INDEP_PERIPH_3PL
++3+Pl:%>ag # ;
+
+LEXICON VTA_INDEP_PERIPH_3OBV
++3+4:%>an # ;
+
+LEXICON VTA_INDEP_PERIPH_INAN_PL 
++%0+Pl:%>an # ;
+!} periph end
+
+!#####
+!#Inanimate Subjects 
+!#careful! inverse forms with naan are ambiguous between inan sub and 3 sub!
+!#they are not tracked into this area
+!#####
+
+LEXICON VTA_INDEP_INAN_SUB
++%0:n VTA_INDEP_INAN_SUB_SET ;
+
+LEXICON VTA_INDEP_INAN_SUB_SET 
+@P.Inanimate.1@ VTA_INDEP_INAN_SUB_GET ;
+
+LEXICON VTA_INDEP_INAN_SUB_GET
+@D.Person.1@    VTA_INDEP_INAN_SUB_ILESS_PL ;!should pl be specified here?
+@R.Negation@@R.Person.3@ VTA_INDEP_INAN_SUB_OBV_NEG ;
+@R.Person.3@    VTA_INDEP_INAN_SUB_OBV ;
+                VTA_INDEP_INAN_SUB_SG_OBJ ;
+
+!##Number
+LEXICON VTA_INDEP_INAN_SUB_SG_OBJ 
+0:aa    VTA_INDEP_MODE_GATEWAY;
++%0+Pl:an # ;
+# ;
+
+LEXICON VTA_INDEP_INAN_SUB_OBV_NEG 
++3+4:ini   #;
+
+LEXICON VTA_INDEP_INAN_SUB_OBV 
+!-in here is the marking obv when periph can't ... -an in periph is inan agr!
++3+4:inaa VTA_INDEP_MODE_GATEWAY;
+
+LEXICON VTA_INDEP_INAN_SUB_ILESS_PL
++2+Pl:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
+
+LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
++%0+Pl:an #;
+    VTA_INDEP_MODE_GATEWAY;
+#;
+
+!} inan sub end
+!} indep end
+
+LEXICON VTA_PREORDER_GET
+@D.Order.Cnj@   VTA_INDEP_THEME_GET ;
+@D.Person@      VTA_NON_INDEP_GET ;
+
+LEXICON VTA_NON_INDEP_GET
++Cnj:0 VTA_CNJ_THM ; !semi-compressed prefix tree of BRUTE
+!+Cnj:0  VTA_CNJ_BRUTE ; !brute-force listing 
+@D.Order.Cnj@   VTA_IMPER_TAG ;
+
+LEXICON VTA_IMPER_TAG 
++Imp:0  VTA_IMPER ;
+
+!{conjunct order 
+!here's the strategy: theme signs (except inverse) carry object person, sometimes more
+!following number suffix either agrees with object or carries subject person number, or both
+!in portmanteaux, object info followed by sub info (avoiding +2+1+Pl mismatch)
+!following peripheral suffix indicates 3rd person information
+!in post...do the following
+!so spell out object (/inverse info), elaborate if possible, shunt rest into subject
+
+!cnj brute force {
+!LEXICON VTA_CNJ_BRUTE
+!+Thm2b+3+Pl:                ikwaa          # ; !3pl v 2sg
+!+Thm2b+3:                   ik             # ; !3sg v 2sg
+!+Thm2b+3+Pl+Prt:            ikwaaban2   # ; !3pl v 2sg
+!+Thm2b+3+Prt:               ikiban2         # ; !3sg v 2sg
+!+Thm2b+3+Pl+Dub:            ikwaawenh   # ; !3pl v 2sg !cons (?)
+!+Thm2b+3+Dub:               ikenh         # ; !3sg v 2sg !hm no w4
+!+Thm1+Neg+1+Pl:             i2siwaang  # ; !2pl v 1pl, 2sg v 1pl
+!+Thm1+Neg+2+Pl:             i2siweg    # ; !2pl v 1sg
+!+Thm1+Neg+2:                i2siwan       # ; !2sg v 1sg
+!+Thm1+Neg+1+Pl+3+Pl:        i2siwangidwaa   # ; !3pl v 1pl
+!+Thm1+Neg+1+Pl+3:           i2siwangid         # ; !3sg v 1pl
+!+Thm1+Neg+1+Pl+3+Pl+Prt:    i2siwangidwaaban2 # ; !3pl v 1pl
+!+Thm1+Neg+1+Pl+3+Prt:       i2siwangidiban2       # ; !3sg v 1pl
+!+Thm1+Neg+1+Pl+3+Pl+Dub:    i2siiwangidwaawenh   # ; !3pl v 1pl
+!+Thm1+Neg+1+Pl+3+Dub:       i2siiwangidenh         # ; !3sg v 1pl
+!+Thm1+Neg+1+Pl+Prt:         i2siwaangiban2  # ; !2pl v 1pl, 2sg v 1pl
+!+Thm1+Neg+2+Pl+Prt:         i2siwegiban2    # ; !2pl v 1sg
+!+Thm1+Neg+2+Prt:            i2siwamban2     # ; !2sg v 1sg
+!+Thm1+Neg+1+Pl+Dub:         i2siiwaangenh  # ; !2pl v 1pl, 2sg v 1pl
+!+Thm1+Neg+2+Pl+Dub:         i2siiwegwenh    # ; !2pl v 1sg
+!+Thm1+Neg+2+Dub:            i2siiwnenh       # ; !2sg v 1sg
+!+Thm1+Neg+3+Pl:             i2sigwaa   # ; !3pl v 1sg
+!+Thm1+Neg+3:                i2sig         # ; !3sg v 1sg
+!+Thm1+Neg+3+Pl+Prt:         i2sigwaaban2   # ; !3pl v 1sg !book unsure
+!+Thm1+Neg+3+Prt:            i2sigoban2         # ; !3sg v 1sg
+!+Thm1+Neg+3+Pl+Dub:         i2siigwaawenh   # ; !3pl v 1sg
+!+Thm1+Neg+3+Dub:            i2siigwenh         # ; !3sg v 1sg
+!+Thm1+1+Pl:                 i2yaang          # ; !2pl v 1pl, 2sg v 1pl
+!+Thm1+2+Pl:                 i2yeg            # ; !2pl v 1sg
+!+Thm1+2:                    i2yan            # ; !2sg v 1sg
+!+Thm1+1+Pl+3+Pl:            i2yangidwaa      # ; !3pl v 1pl
+!+Thm1+1+Pl+3:               i2yangid         # ; !3sg v 1pl
+!+Thm1+1+Pl+3+Pl+Prt:        i2yangidwaaban2   # ; !3pl v 1pl
+!+Thm1+1+Pl+3+Prt:           i2yangidiban2         # ; !3sg v 1pl
+!+Thm1+1+Pl+3+Pl+Dub:        i2wangidwaawenh   # ; !3pl v 1pl
+!+Thm1+1+Pl+3+Dub:           i2wangidenh       # ; !3sg v 1pl
+!+Thm1+1+Pl+Prt:             i2yaangiban2  # ; !2pl v 1pl, 2sg v 1pl
+!+Thm1+2+Pl+Prt:             i2yegoban2   # ; !2pl v 1sg
+!+Thm1+2+Prt:                i2yamban2    # ; !2sg v 1sg
+!+Thm1+1+Pl+Dub:             i2waangenh  # ; !2pl v 1pl, 2sg v 1pl
+!+Thm1+2+Pl+Dub:             i2wegwenh    # ; !2pl v 1sg
+!+Thm1+2+Dub:                i2wanenh    # ; !2sg v 1sg !cons (?)
+!+Thm1+3+Pl:                 i2waad           # ; !3pl v 1sg
+!+Thm1+3:                    i2d              # ; !3sg v 1sg
+!+Thm1+3+Pl+Prt:             i2waapan2   # ; !3pl v 1sg
+!+Thm1+3+Prt:                i2pan2         # ; !3sg v 1sg
+!+Thm1+3+Pl+Dub:             i2waagwenh   # ; !3pl v 1sg
+!+Thm1+3+Dub:                i2gwenh         # ; !3sg v 1sg
+!+ThmInv+Neg+1:              igosiwaanh    # ; !0 v 1sg
+!+ThmInv+Neg+1+Pl:           igosiwaang # ; !0 v 1pl
+!+ThmInv+Neg+2+1+Pl:         igosiwang # ; !0 v 21pl
+!+ThmInv+Neg+2+Pl:           igosiweg    # ; !0 v 2pl
+!+ThmInv+Neg+2:              igosiwan       # ; !0 v 2sg
+!+ThmInv+Neg+2+Pl+3:         igosiweg     # ; !3sg v 2pl !book has this (perhaps an error?)
+!+ThmInv+Neg+2+Pl+3+Prt:     igosiwegoban2   # ; !3sg v 2pl !expected if prt neg extends neg, but perhaps neg was wrong...
+!+ThmInv+Neg+2+Pl+3+Dub:     igosiiwegwenh     # ; !3sg v 2pl !cons
+!+ThmInv+Neg+1+Pl+Prt:       igosiwaangiban2 # ; !0 v 1pl !book unsure
+!+ThmInv+Neg+1+Prt:          igosiwaamban2   # ; !0 v 1sg
+!+ThmInv+Neg+2+1+Pl+Prt:     igosiwangiban2 # ; !0 v 21pl !book unsure 
+!+ThmInv+Neg+2+Pl+Prt:       igosiwegiban2    # ; !0 v 2pl !book unsure
+!+ThmInv+Neg+2+Prt:          igosiwamban2     # ; !0 v 2sg
+!+ThmInv+Neg+1+Dub:          igosiiwaanenh    # ; !0 v 1sg  !cons best guess
+!+ThmInv+Neg+1+Pl+Dub:       igosiiwaangenh # ; !0 v 1pl    !cons best guess
+!+ThmInv+Neg+2+1+Pl+Dub:     igosiiwangenh # ; !0 v 21pl     !cons best guess
+!+ThmInv+Neg+2+Pl+Dub:       igosiiwegwenh    # ; !0 v 2pl  !cons best guess
+!+ThmInv+Neg+2+Dub:          igosiiwanenh       # ; !0 v 2sg !cons best guess
+!+ThmInv+Neg+3+Pl:           igosigwaa # ; !0 v 3pl, 3obv v 3pl
+!+ThmInv+Neg+3:              igosig      # ; !0 v 3sg, 3obv v 3sg
+!+ThmInv+Neg+3+Pl+Prt:       igosigwaaban2 # ; !0 v 3pl, 3obv v 3pl !book unsure
+!+ThmInv+Neg+3+Prt:          igosigoban2    # ; !0 v 3sg, 3obv v 3sg !book semi-unsure
+!+ThmInv+Neg+3+Pl+Dub:       igosiigwaawenh # ; !0 v 3pl, 3obv v 3pl
+!+ThmInv+Neg+3+Dub:          igosiigwenh      # ; !0 v 3sg, 3obv v 3sg
+!+ThmInv+1:                  igoyaanh     # ; !0 v 1sg
+!+ThmInv+1+Pl:               igoyaang     # ; !0 v 1pl
+!+ThmInv+2+1+Pl:             igoyang      # ; !0 v 21pl
+!+ThmInv+2+Pl:               igoyeg       # ; !0 v 2pl
+!+ThmInv+2:                  igoyan       # ; !0 v 2sg
+!+ThmInv+1+Pl+Prt:           igoyaangiban2 # ; !0 v 1pl
+!+ThmInv+1+Prt:              igoyaambaanh    # ; !0 v 1sg
+!+ThmInv+2+1+Pl+Prt:         igoyangiban2 # ; !0 v 21pl
+!+ThmInv+2+Pl+Prt:           igoyegoban2    # ; !0 v 2pl
+!+ThmInv+2+Prt:              igoyamban2    # ; !0 v 2sg
+!+ThmInv+1+Dub:              igowaanenh    # ; !0 v 1sg !cons (?)
+!+ThmInv+1+Pl+Dub:           igowaangenh # ; !0 v 1pl
+!+ThmInv+2+1+Pl+Dub:         igowangwenh # ; !0 v 21pl
+!+ThmInv+2+Pl+Dub:           igowegwenh    # ; !0 v 2pl
+!+ThmInv+2+Dub:              igowanenh       # ; !0 v 2sg !cons (?)
+!+ThmInv+3+Pl:               igowaad        # ; !0 v 3pl, 3obv v 3pl
+!+ThmInv+3:                  igod          # ; !0 v 3sg, 3obv v 3sg
+!+ThmInv+3+Pl+Prt:           igowaapan2 # ; !0 v 3pl, 3obv v 3pl
+!+ThmInv+3+Prt:              igopan2      # ; !0 v 3sg, 3obv v 3sg
+!+ThmInv+3+Pl+Dub:           igowaagwenh # ; !0 v 3pl, 3obv v 3pl !cons
+!+ThmInv+3+Dub:              igoogwenh      # ; !0 v 3sg, 3obv v 3sg !less anomalous than it seems, just lengthen igo in this context (compensatory lenghtenging?) (don't use igoo, that disrupts orderliness)
+!+Thm1Pl+Neg+2+Pl:           igoosiweg # ; !1pl v 2pl
+!+Thm1Pl+Neg+2:              igoosiwan    # ; !1pl v 2sg
+!+Thm1Pl+Neg+2+Pl+Prt:       igoosiwegoban2 # ; !1pl v 2pl
+!+Thm1Pl+Neg+2+Prt:          igoosiwamban2  # ; !1pl v 2sg !book indicates optional siiw (yikes)
+!+Thm1Pl+Neg+2+Pl+Dub:       igoosiwegwenh # ; !1pl v 2pl
+!+Thm1Pl+Neg+2+Dub:          igoosiwanenh    # ; !1pl v 2sg
+!+Thm1Pl+2+Pl:               igooyeg       # ; !1pl v 2pl
+!+Thm1Pl+2:                  igooyan       # ; !1pl v 2sg
+!+Thm1Pl+2+Pl+Prt:           igooyegoban2 # ; !1pl v 2pl
+!+Thm1Pl+2+Prt:              igooyamban2 # ; !1pl v 2sg
+!+Thm1Pl+2+Pl+Dub:           igoowegwenh # ; !1pl v 2pl
+!+Thm1Pl+2+Dub:              igoowanenh    # ; !1pl v 2sg !cons (?)
+!+Thm2a+Neg+2+Pl:            isinoonagog # ; !1sg v 2pl'
+!+Thm2a+Neg+2:               isinoonaanh     # ; !1sg v 2sg
+!+Thm2a+Neg+2+1+Pl+3+Pl:     isinowangwaa  # ; !3pl v 21pl
+!+Thm2a+Neg+2+1+Pl+3:        isinowang     # ; !3sg v 21pl
+!+Thm2a+Neg+2+Pl+3+Pl:       isinoowegwaa     # ; !3pl v 2pl
+!+Thm2a+Neg+2+1+Pl+3+Pl+Prt: isinowangwaaban2  # ; !3pl v 21pl
+!+Thm2a+Neg+2+1+Pl+3+Prt:    isinowangiban2     # ; !3sg v 21pl
+!+Thm2a+Neg+2+Pl+3+Pl+Prt:   isinoowegwaaban2   # ; !3pl v 2pl
+!+Thm2a+Neg+2+1+Pl+3+Pl+Dub: isinoowangwaawenh  # ; !3pl v 21pl
+!+Thm2a+Neg+2+1+Pl+3+Dub:    isinoowangenh     # ; !3sg v 21pl
+!+Thm2a+Neg+2+Pl+3+Pl+Dub:   isinoowegwaawenh     # ; !3pl v 2pl
+!+Thm2a+Neg+2+Pl+Prt:        isinoonagogoban2 # ; !1sg v 2pl !predict this
+!+Thm2a+Neg+2+Prt:           isinoonaambaan2   # ; !1sg v 2sg !book unsure
+!+Thm2a+Neg+2+Pl+Dub:        isinoonagogwenh # ; !1sg v 2pl !cons best guess
+!+Thm2a+Neg+2+Dub:           isinoonaanenh     # ; !1sg v 2sg !cons best guess
+!+Thm2a+Neg+3+Pl:            isinokwaa   # ; !3pl v 2sg
+!+Thm2a+Neg+3:               isinog         # ; !3sg v 2sg
+!+Thm2a+Neg+3+Pl+Prt:        isinokwaaban2   # ; !3pl v 2sg !predict this, book totally unsure
+!+Thm2a+Neg+3+Prt:           isinogiban2         # ; !3sg v 2sg !predict this
+!+Thm2a+Neg+3+Pl+Dub:        isinokwaawenh   # ; !3pl v 2sg !book omits form
+!+Thm2a+Neg+3+Dub:           isinogwenh         # ; !3sg v 2sg !book omits form
+!+Thm2a+2+Pl:                ininagog        # ; !1sg v 2pl
+!+Thm2a+2:                   ininaa          # ; !1sg v 2sg
+!+Thm2a+2+1+Pl+3+Pl:         ininangwaa   # ; !3pl v 21pl
+!+Thm2a+2+1+Pl+3:            ininang      # ; !3sg v 21pl
+!+Thm2a+2+Pl+3+Pl:           ininegwaa    # ; !3pl v 2pl
+!+Thm2a+2+Pl+3:              inineg       # ; !3sg v 2pl
+!+Thm2a+2+1+Pl+3+Pl+Prt:     ininangwaaban2  # ; !3pl v 21pl
+!+Thm2a+2+1+Pl+3+Prt:        ininangban2     # ; !3sg v 21pl
+!+Thm2a+2+Pl+3+Pl+Prt:       ininegwaaban2     # ; !3pl v 2pl
+!+Thm2a+2+Pl+3+Prt:          ininegban2           # ; !3sg v 2pl
+!+Thm2a+2+1+Pl+3+Pl+Dub:     ininangwaawenh  # ; !3pl v 21pl !cons (?)
+!+Thm2a+2+1+Pl+3+Dub:        ininangwenh     # ; !3sg v 21pl
+!+Thm2a+2+Pl+3+Pl+Dub:       ininegwaawenh     # ; !3pl v 2pl
+!+Thm2a+2+Pl+3+Dub:          ininegwenh           # ; !3sg v 2pl
+!+Thm2a+2+Pl+Prt:            ininagogoban2 # ; !1sg v 2pl
+!+Thm2a+2+Prt:               ininaambaanh     # ; !1sg v 2sg
+!+Thm2a+2+Pl+Dub:            ininagogwenh # ; !1sg v 2pl
+!+Thm2a+2+Dub:               ininaanenh      # ; !1sg v 2sg !cons (?)
+!+ThmDir+Neg+1+Pl+3+Pl:      aasiwangidwaa    # ; !1pl v 3pl
+!+ThmDir+Neg+1+Pl+3:         aasiwangid      # ; !1pl v 3sg
+!+ThmDir+Neg+1+3+Pl:         aasiwagwaa      # ; !1sg v 3pl
+!+ThmDir+Neg+1+3:            aasiwag         # ; !1sg v 3sg
+!+ThmDir+Neg+2+1+Pl+3+Pl:    aasiwangwaa     # ; !21pl v 3pl
+!+ThmDir+Neg+2+1+Pl+3:       aasiwang        # ; !21pl v 3sg
+!+ThmDir+Neg+2+Pl+3+Pl:      aasiwegwaa      # ; !2pl v 3pl
+!+ThmDir+Neg+2+Pl+3:         aasiweg         # ; !2pl v 3sg
+!+ThmDir+Neg+2+3+Pl:         aasiwadwaa      # ; !2sg v 3pl
+!+ThmDir+Neg+2+3:            aasiwad         # ; !2sg v 3sg
+!+ThmDir+Neg+1+Pl+3+Pl+Prt:  aasiwangidwaaban2  # ; !1pl v 3pl
+!+ThmDir+Neg+1+Pl+3+Prt:     aasiwangidiban2      # ; !1pl v 3sg
+!+ThmDir+Neg+1+3+Pl+Prt:     aasiwagwaaban2    # ; !1sg v 3pl
+!+ThmDir+Neg+1+3+Prt:        aasiwagiban2       # ; !1sg v 3sg
+!+ThmDir+Neg+2+1+Pl+3+Pl+Prt:aasiwangwaaban2   # ; !21pl v 3pl
+!+ThmDir+Neg+2+1+Pl+3+Prt:   aasiwangiban2      # ; !21pl v 3sg
+!+ThmDir+Neg+2+Pl+3+Pl+Prt:  aasiwegwaaban2    # ; !2pl v 3pl
+!+ThmDir+Neg+2+Pl+3+Prt:     aasiwegoban2       # ; !2pl v 3sg
+!+ThmDir+Neg+2+3+Pl+Prt:     aasiwadwaaban2    # ; !2sg v 3pl
+!+ThmDir+Neg+2+3+Prt:        aasiwadiban2       # ; !2sg v 3sg
+!+ThmDir+Neg+1+Pl+3+Pl+Dub:  aasiiwangidwaawenh     # ; !1pl v 3pl
+!+ThmDir+Neg+1+Pl+3+Dub:     aasiiwangidenh      # ; !1pl v 3sg
+!+ThmDir+Neg+1+3+Pl+Dub:     aasiiwagwaawenh      # ; !1sg v 3pl
+!+ThmDir+Neg+1+3+Dub:        aasiiwagenh         # ; !1sg v 3sg
+!+ThmDir+Neg+2+1+Pl+3+Pl+Dub:aasiiwangwaawenh     # ; !21pl v 3pl
+!+ThmDir+Neg+2+1+Pl+3+Dub:   aasiiwangenh        # ; !21pl v 3sg
+!+ThmDir+Neg+2+Pl+3+Pl+Dub:  aasiiwegwaawenh      # ; !2pl v 3pl
+!+ThmDir+Neg+2+Pl+3+Dub:     aasiiwegenh         # ; !2pl v 3sg
+!+ThmDir+Neg+2+3+Pl+Dub:     aasiiwadwaawenh      # ; !2sg v 3pl
+!+ThmDir+Neg+2+3+Dub:        aasiiwadenh         # ; !2sg v 3sg
+!+ThmDir+Neg+3+Pl:           aasigwaa   # ; !3pl v 3obv
+!+ThmDir+Neg+3:              aasig     # ; !3sg v 3obv  !book omits form!
+!+ThmDir+Neg+3+Pl+Prt:       aasiiwaapan2   # ; !3pl v 3obv
+!+ThmDir+Neg+3+Prt:          aasiipan2   # ; !3sg v 3obv  
+!+ThmDir+Neg+3+Pl+Dub:       aasiigwaawenh   # ; !3pl v 3obv 
+!+ThmDir+Neg+3+Dub:          aasiigwenh # ; !3sg v 3obv  
+!+ThmDir+3+Pl:               aawaad        # ; !3pl v 3obv
+!+ThmDir+3:                  aad           # ; !3sg v 3obv
+!+ThmDir+3+Pl+Prt:           aawaapan2  # ; !3pl v 3obv
+!+ThmDir+3+Prt:              aapan2        # ; !3sg v 3obv
+!+ThmDir+3+Pl+Dub:           aawaagwenh # ; !3pl v 3obv !book provides nothing, this is best guess
+!+ThmDir+3+Dub:              aagwenh    # ; !3sg v 3obv
+!+ThmNul+1+Pl+3+Pl:          angidwaa   # ; !1pl v 3pl
+!+ThmNul+1+Pl+3:             angid     # ; !1pl v 3sg
+!+ThmNul+1+3+Pl:             agwaa     # ; !1sg v 3pl
+!+ThmNul+1+3:                ag        # ; !1sg v 3sg
+!+ThmNul+2+1+Pl+3+Pl:        angwaa    # ; !21pl v 3pl
+!+ThmNul+2+1+Pl+3:           ang       # ; !21pl v 3sg
+!+ThmNul+2+Pl+3+Pl:          egwaa     # ; !2pl v 3pl
+!+ThmNul+2+Pl+3:             eg        # ; !2pl v 3sg
+!+ThmNul+2+3+Pl:             adwaa     # ; !2sg v 3pl
+!+ThmNul+2+3:                ad        # ; !2sg v 3sg
+!+ThmNul+1+Pl+3+Pl+Prt:      angidwaaban2  # ; !1pl v 3pl
+!+ThmNul+1+Pl+3+Prt:         angidiban2    # ; !1pl v 3sg
+!+ThmNul+1+3+Pl+Prt:         agwaaban2  # ; !1sg v 3pl
+!+ThmNul+1+3+Prt:            agoban2     # ; !1sg v 3sg
+!+ThmNul+2+1+Pl+3+Pl+Prt:    angwaaban2  # ; !21pl v 3pl
+!+ThmNul+2+1+Pl+3+Prt:       angiban2    # ; !21pl v 3sg
+!+ThmNul+2+Pl+3+Pl+Prt:      egwaaban2  # ; !2pl v 3pl
+!+ThmNul+2+Pl+3+Prt:         egoban2    # ; !2pl v 3sg
+!+ThmNul+2+3+Pl+Prt:         adwaaban2  # ; !2sg v 3pl
+!+ThmNul+2+3+Prt:            adiban2    # ; !2sg v 3sg
+!+ThmNul+1+Pl+3+Pl+Dub:      aawangidwaawenh  # ; !1pl v 3pl
+!+ThmNul+1+Pl+3+Dub:         aawangidenh    # ; !1pl v 3sg
+!+ThmNul+1+3+Pl+Dub:         aawagwaawenh  # ; !1sg v 3pl
+!+ThmNul+1+3+Dub:            aawagenh     # ; !1sg v 3sg
+!+ThmNul+2+1+Pl+3+Pl+Dub:    aawangwaawenh  # ; !21pl v 3pl
+!+ThmNul+2+1+Pl+3+Dub:       aawangwenh    # ; !21pl v 3sg
+!+ThmNul+2+Pl+3+Pl+Dub:      aawegwaawenh  # ; !2pl v 3pl
+!+ThmNul+2+Pl+3+Dub:         aawegwenh    # ; !2pl v 3sg
+!+ThmNul+2+3+Pl+Dub:         aawadwaawenh  # ; !2sg v 3pl
+!+ThmNul+2+3+Dub:            aawadenh    # ; !2sg v 3sg
+!} brute force end
+
+!{vta cnj largely minimized
+!{thm
+LEXICON VTA_CNJ_THM
++ThmDir:aa      THMDIR_NEG ; !1pl v 3pl
++Thm2b:ik          THM2B_3 ; 
++ThmNul:0       THMNUL_LOC ; 
++ThmNul:aaw      THMNUL_AA_LOC ; !w likely epenthetic
++Thm2a+Neg:isin  THM2A_NEG_FRAG ; 
++Thm2a:inin  THM2A_POS_LOC ; 
++Thm1Pl:igoo     THM1PL_NEG ;
++ThmInv:igo     THMINV_NEG ;
++Thm1:i2        THM1_NEG ;
+!below not in brute force
++ThmPas:igooc1    THMPAS_LOCAL_SET ; 
++ThmPas:0       VAI_PASSIVE_3 ; !takes special 3rd person suffixes ind+waa
++ThmPas:aa      THMPAS_NON_LOCAL_NEG_SET ; 
+!} thm end
+
+!{thmpas cont
+LEXICON THMPAS_LOCAL_SET
+@P.Passive.1@    VAI_CNJ_NEG ; !takes everything but 3rd person suffixes
+
+LEXICON THMPAS_NON_LOCAL_NEG_SET
+@P.Passive.1@@P.Person.3@ THMPAS_NON_LOCAL_NEG_DUB ; !takes aa+Neg+special 3rd person suffixes, aa+special 3rd person suffixes+dub (!)
+
+LEXICON THMPAS_NON_LOCAL_NEG_DUB
++Neg:0  VAI_CNJ_NEG_SET ;
+0:w     THMPAS_NON_LOCAL_NEG_DUB_SET ;
+
+LEXICON THMPAS_NON_LOCAL_NEG_DUB_SET
+@P.Mode.Dub@    VAI_PASSIVE_3 ;
+!}
+!{thm1 cont
+LEXICON THM1_NEG
++Neg:siw                THM1_NEG_LOC ;
++Neg:siiw               THM1_NEG_SIIW_LOC ;
++Neg:sigw4              VTA_CNJ_3B_PRE_PRT ; !sig, sigoban, sigwaa, sigwaaban
++Neg:siig               THM1_NEG_SIIG_3B ; !dub or prt dub
+0:y                     THM1_NEG_LOC ;
+0:w                     THM1_NEG_SIIW_LOC ;
+                        THM1_NEG_3A ; !end or prt or dub or prt dub
+
+LEXICON THM1_NEG_3A 
++3+Pl:waad1        THM1_NEG_3A_PRE_MODE ; !3pl v 1sg
++3:d1              THM1_NEG_3A_PCP ; !3sg v 1sg
+
+!could remove this lexicon and just infl with +3:d1y1
+LEXICON THM1_NEG_3A_PCP
+0:y1    THM1_NEG_3A_PCP_SET ;!will either be removed from d1_b1, d1_w4 (mode), palatalize d1 (pcp no mode), or be removed from d_# (no mode, no pcp)
+        !THM1_NEG_3A_PRE_MODE ;
+
+LEXICON THM1_NEG_3A_PCP_SET
+@P.3Num.Pl@ THM1_NEG_3A_PRE_MODE ;
+
+LEXICON THM1_NEG_3A_PRE_MODE
+0:w4   VTA_CNJ_DUB_OR_PRT_DUB  ;
+        VTA_CNJ_PRT_OR_END ;
+
+LEXICON THM1_NEG_SIIG_3B !dub or prt dub
++3+Pl:waa  THM1_NEG_SIIG_3B_PRE_DUB ; !waawenh, waabanenh (delete w4 V_b1)
++3:0       THM1_NEG_SIIG_3B_PCP_SET ;     !wenh, obanenh (w4->o C_C)
+
+LEXICON THM1_NEG_SIIG_3B_PCP_SET
+@P.3Num.Pl@ THM1_NEG_SIIG_3B_PRE_DUB ;
+
+LEXICON THM1_NEG_SIIG_3B_PRE_DUB
+0:w4   VTA_CNJ_DUB_OR_PRT_DUB  ;
+
+LEXICON THM1_NEG_SIIW_LOC !dub or prt dub
++1+Pl:angi   VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
++1+Pl:aang   VTA_CNJ_DUB_OR_PRT_DUB ; !aangenh, aangibanenh (hypo) 2pl v 1pl, 2sg v 1pl
++2+Pl:egw4   VTA_CNJ_DUB_OR_PRT_DUB ; !egwenh, egobanenh (hypo)
++2:an     VTA_CNJ_DUB_OR_PRT_DUB ; !anenh, ambanenh (hypo)
+
+LEXICON THM1_NEG_LOC !end or prt
++1+Pl:aang         VTA_CNJ_PRT_OR_END ; !aang, aangiban
++2+Pl:egw4         VTA_CNJ_PRT_OR_END ; !eg, (book has siwegiban, egoban, regularizing to egoban)
++2:an           VTA_CNJ_PRT_OR_END ; !an, amban
++1+Pl:angi         VTA_CNJ_3C_PRE_PRT ; !i epenthetic
+
+!}thm1
+!{thminv cont
+LEXICON THMINV_NEG
++Neg:siw    THMINV_NEG_SIW_LOC ;
++Neg:siiw   THMINV_NEG_SIIW_LOC ;
++Neg:siigw4   VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; !siigwaawenh, siigwaabanenh, siigwenh, siigobanenh
++Neg:sigw4  VTA_CNJ_3B_PRE_PRT ; !sig, sigoban, sigwaa, sigwaaban (need o in sigoban)
+0:y         THMINV_Y_LOC ;
+0:w         THMINV_W_LOC ;
+            THMINV_3A ;
+
+LEXICON THMINV_3A !end, dub, prt
++3+Pl:waad1y1           THMINV_3A_PL_PCP_SET ; !y1 for pcp, removed otherwise
++3:d1y1                 THMINV_3A_SG_PCP_SET ; !dubs are irregular, so just re-use pre-existing for prt, list dubs
+!+3+Dub:ogwen2           THMINV_3A_SG_DUB_PCP ; !Medler
+!+3+Prt+Dub:ogobanen2    THMINV_3A_SG_DUB_PCP ; !Medler
++3+Dub:ogweny1           THMINV_3A_SG_DUB_PCP ; !Irregular lengthening in theme sign for dub, prt dub
++3+Prt+Dub:ogobaneny1    THMINV_3A_SG_DUB_PCP ;
+
+LEXICON THMINV_3A_PL_PCP_SET
+@P.3Num.Pl@     THMINV_3A_PRE_MODE ;
+@P.3Num.Obv@    THMINV_3A_PRE_MODE ;
+@P.3Num.InanPl@ THMINV_3A_PRE_MODE ;
+
+LEXICON THMINV_3A_SG_PCP_SET
+@P.3Num.Obv@    VTA_CNJ_PRT_OR_END ;
+@P.3Num.InanPl@ VTA_CNJ_PRT_OR_END ;
+
+LEXICON THMINV_3A_SG_DUB_PCP
+       # ;
+       VTA_CNJ_PCP_OBV ;
+       VTA_CNJ_PCP_INAN_PL;
+
+LEXICON THMINV_3A_PRE_MODE
+0:w4    VTA_CNJ_DUB_OR_PRT_DUB ; !d1w4 ->gw
+        VTA_CNJ_PRT_OR_END ; 
+
+LEXICON THMINV_W_LOC !dub or prt dub
++1:aan   THMINV_W_LOC_PCP_SET  ; !aanenh, aambanenh   
++1+Pl:aang  THMINV_W_LOC_PCP_SET  ; !aangenh, aangibanenh
++2+1+Pl:angw4 THMINV_W_LOC_PCP_SET  ; !angwenh, angobanenh 
++2+Pl:egw4  THMINV_W_LOC_PCP_SET  ; !egwenh, egobanenh   
++2:an    THMINV_W_LOC_PCP_SET  ; !anenh, ambanenh     
+
+LEXICON THMINV_Y_LOC !end or prt
+!+1:aan2     THMINV_Y_LOC_SPECIAL_PCP ; !Medler
+!+1+Prt:aambaan2i1 THMINV_Y_LOC_SPECIAL_PCP ; !Medler
++1:aany1     THMINV_Y_LOC_SPECIAL_PCP ; !0 v 1sg
++1+Prt:aambaany1 THMINV_Y_LOC_SPECIAL_2_PCP ; !0 v 1sg
++1+Pl:aang     THMINV_Y_LOC_PCP_SET ; !i epenthesis
++2+1+Pl:ang      THMINV_Y_LOC_PCP_SET ; !i epenthesis
++2+Pl:egw4     THMINV_Y_LOC_PCP_SET ; !w4 -> o
++2:an       THMINV_Y_LOC_PCP_SET ; !n->m _ b
+
+LEXICON THMINV_Y_LOC_SPECIAL_PCP
+    # ;
+    VTA_CNJ_PCP_INAN_PL ; 
+
+LEXICON THMINV_Y_LOC_SPECIAL_2_PCP
+        # ;
+0:i1    VTA_CNJ_PCP_INAN_PL ; 
+
+LEXICON THMINV_NEG_SIIW_LOC !dub or prt dub
++1:aan    THMINV_W_LOC_PCP_SET   ; !0 v 1sg  !cons best guess
++1+Pl:aang   THMINV_W_LOC_PCP_SET ; !0 v 1pl    !cons best guess
++2+1+Pl:ang    THMINV_W_LOC_PCP_SET ; !0 v 21pl     !cons best guess
++2+Pl:egw4   THMINV_NEG_SIIW_OPT_3      ; !3sg v 2pl !cons best guess, could be isinoowegwenh, though 3sg isn't general with isinoo
++2:an     THMINV_W_LOC_PCP_SET    ; !0 v 2sg !cons best guess
+
+LEXICON THMINV_NEG_SIIW_OPT_3
++3:0    THMINV_NEG_SIIW_OPT_3_PCP_SET ;
+        THMINV_W_LOC_PCP_SET ;
+
+LEXICON THMINV_NEG_SIIW_OPT_3_PCP_SET
+@P.3Num.Pl@ VTA_CNJ_DUB_OR_PRT_DUB ; !(hypo) verb number and pcp number only have to agree when it is 3v3, so ok for disagreement here, where it is 3sg v 2pl
+
+LEXICON THMINV_NEG_SIW_LOC !end or prt
+!+1:aan2       THMINV_Y_LOC_SPECIAL_PCP ; !Medler
++1:aany1       THMINV_Y_LOC_SPECIAL_PCP ; !Easier to just spell out variants here 
++1+Prt:aamb1an2i1    THMINV_Y_LOC_SPECIAL_PCP ; 
++1+Pl:aang       THMINV_Y_LOC_PCP_SET ; ! i epen to avoid CC 
++2+1+Pl:ang        THMINV_Y_LOC_PCP_SET ; !i epen to avoid CC 
++2+Pl:eg         THMINV_NEG_SIW_OPT_3   ; ! i epen to avoid CC # ; !0 v 2pl
++2:an         THMINV_Y_LOC_PCP_SET ; ! n->m _ b1
+
+LEXICON THMINV_NEG_SIW_OPT_3
++3:0    THMINV_NEG_SIW_OPT_3_PCP_SET ;
+        THMINV_Y_LOC_PCP_SET ;
+
+LEXICON THMINV_NEG_SIW_OPT_3_PCP_SET
+@P.3Num.Pl@ VTA_CNJ_PRT_OR_END ; !(hypo) verb number and pcp number only have to agree when it is 3v3, so ok for disagreement here, where it is 3sg v 2pl
+
+LEXICON THMINV_W_LOC_PCP_SET
+@P.3Num.InanPl@ VTA_CNJ_DUB_OR_PRT_DUB ; 
+
+LEXICON THMINV_Y_LOC_PCP_SET
+@P.3Num.InanPl@ VTA_CNJ_PRT_OR_END ; 
+
+!}thminv end
+
+!{thm1pl cont
+LEXICON THM1PL_NEG
++Neg:siw            THM1PL_NEG_LOC ; !end, prt, dub, prt dub
+0:y                 THM1PL_LOC_Y ; !end or prt
+0:w                 THM1PL_LOC_W ; !dub or prt dub
+
+LEXICON THM1PL_LOC_W !dub or prt dub
++2+Pl:egw4  VTA_CNJ_DUB_OR_PRT_DUB ;
++2:an       VTA_CNJ_DUB_OR_PRT_DUB ;
+
+LEXICON THM1PL_NEG_LOC !end, prt, dub, prt dub
+    THM1PL_LOC_Y ;
+    THM1PL_LOC_W ;
+
+LEXICON THM1PL_LOC_Y !end or prt
++2+Pl:egw4  VTA_CNJ_PRT_OR_END ; !yeg, yegoban
++2:an       VTA_CNJ_PRT_OR_END ; !yan, yam
+
+!}thm1pl end
+
+!{thm2a continuations
+!{thm2a neg
+LEXICON THM2A_NEG_FRAG
+0:oon       THM2A_NEG_LOC_ONLY  ; !1sg v 2pl'
+0:ow        THM2A_NEG_OW_21PL ; !3pl v 21pl
+0:oow       THM2A_NEG_OOW_2PL ; !3pl v 21pl
+0:o         THM2A_NEG_O_3B ; 
+
+LEXICON THM2A_NEG_O_3B
+!allophony is clear (fortition of d1), but not worth trouble
++3+Pl:kwaa   THM2A_NEG_O_3B_MODE ; !kwaaban, kwaawenh, kwaa
++3:g         THM2A_NEG_O_3B_PCP_SET ; !giban (epen i), gwenh (w not epenthetic!), g
+
+LEXICON THM2A_NEG_O_3B_PCP_SET
+@P.3Num.Pl@ THM2A_NEG_O_3B_MODE ;
+
+LEXICON THM2A_NEG_O_3B_MODE
+            VTA_CNJ_PRT_OR_END ;
+!+Dub:wen2  VTA_CNJ_PCP_GET ; !Medler
++Dub:weny1  VTA_CNJ_PCP_GET ; !ideally these would go through DUB_OR_PRT_DUB, but thew needs to be present for dub, and will trigger i insertion with w>b1
++Prt+Dub:%>b1an2eny1  VTA_CNJ_PCP_GET ;
+
+LEXICON THM2A_NEG_OOW_2PL
++2+1+Pl:ang     VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
++2+Pl+3+Pl:egwaa THM2A_NEG_OOW_EGWAA_PRT ; !3sg v 2pl quite irregular/confusing
+
+LEXICON THM2A_NEG_OOW_EGWAA_PRT
+                VTA_CNJ_PRT_OR_END ;
+!+Dub:wen2       VTA_CNJ_PCP_GET ; !Medler
++Dub:weny1       VTA_CNJ_PCP_GET ; !w probably epenthetic
++Prt+Dub:%>b1an2eny1 VTA_CNJ_PCP_GET ; !ideally these would go through DUB_OR_PRT_DUB, but thew needs to be present for dub, and will trigger i insertion with w>b1
+
+LEXICON THM2A_NEG_OW_21PL
++2+1+Pl:ang     VTA_CNJ_3B_PRE_PRT ; 
+
+LEXICON THM2A_NEG_LOC_ONLY
++2+Pl:agogw4        VTA_CNJ_PRT_OR_END ; 
++2+Pl:agogw4        VTA_CNJ_DUB_OR_PRT_DUB ; !duplicated till better arises
+!+2:aan2            VTA_CNJ_PCP_GET ; !Medler
++2:aanh            VTA_CNJ_PCP_GET ; !duplicated to allow pos forms to use same cont lexicon
++2:aan2            THM2A_POS_LOC_AAN2_PRT ; !aanh, aambaanh, aanenh        
+!} thm2a neg end
+
+!{ thm2a pos
+LEXICON THM2A_POS_LOC
++2+Pl:agogw4     THM2A_POS_LOC_PRT ; !agogwenh, agog, agogoban (hyp: agogobanenh)
++2:aan2       VTA_CNJ_PCP_GET ; !duplicated to allow neg forms to use same cont lexicon
++2:aan2       THM2A_POS_LOC_AAN2_PRT ; !aa, aambaanh, aanenh        
++2+Pl:egw4       THM2A_POS_LOC_3B ; !eg, egwaaban, egoban, egwaawenh, egwenh
++2+1+Pl:angw4      THM2A_POS_LOC_3B ;
+
+LEXICON THM2A_POS_LOC_3B
++3+Pl:waaw4   THM2A_POS_LOC_PRT ; 
++3:0        THM2A_POS_LOC_3B_PCP_SET ;
+
+LEXICON THM2A_POS_LOC_3B_PCP_SET
+@P.3Num.Pl@ THM2A_POS_LOC_PRT ; 
+
+LEXICON THM2A_POS_LOC_AAN2_PRT
+            VTA_CNJ_DUB_AND_END ;
++Prt:%>b1aan2 VTA_CNJ_DUB_AND_END ;
+!+Prt:%>b1aan2 VTA_CNJ_PCP_GET ; !Medler
++Prt:%>b1aany1 VTA_CNJ_PCP_GET ;
+
+LEXICON THM2A_POS_LOC_PRT
+    VTA_CNJ_PRT_OR_END ;
+    VTA_CNJ_DUB_OR_PRT_DUB ;
+
+!} thm2a pos end
+!} thm2a continuations end
+!{thmnul cont
+!{actual nulls
+LEXICON THMNUL_LOC
++1+Pl:angi     VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++2:a        VTA_CNJ_3C_PRE_PRT ; 
++1:agw4       VTA_CNJ_3B_PRE_PRT ; !w4w -> w, w4b -> o, w4 -> 0
++2+1+Pl:ang        VTA_CNJ_3B_PRE_PRT ; !epenthetic i before b1
++2+Pl:egw4       VTA_CNJ_3B_PRE_PRT ; 
+
+!}
+
+!{-aaw forms
+!nearly identical to actual null forms, but must end in +Dub
+!phon difference too! agoban (Prt, o from w4) vs agenh (Dub, *agwenh)
+LEXICON THMNUL_AA_LOC
++1+Pl:angi     VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
++2:a        VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; 
++1:ag        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; 
++2+1+Pl:angw4       VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; !w4V -> wV, w4w -> w
++2+Pl:egw4      VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; 
+
+!}
+!}thmnul end
+
+!{thmdir cont
+LEXICON THMDIR_NEG
++Neg:siw    THMDIR_NEG_SIW_LOCAL ;
++Neg:siiw   THMDIR_NEG_SIIW_LOCAL ;
++Neg:sig    THMDIR_NEG_3_NO_MODE ;
++Neg:sii    THMDIR_NEG_3 ; 
+            THMDIR_POS_3 ;
+
+LEXICON THMDIR_NEG_SIW_LOCAL
++1+Pl:angi           VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++1:ag             VTA_CNJ_3B_PRE_PRT ;
++2+1+Pl:ang            VTA_CNJ_3B_PRE_PRT ;
++2+Pl:egw4           VTA_CNJ_3B_PRE_PRT ; !w4w -> w (egwaa, not egowaa), w4C -> o (egoban, not egiban), w4 -> 0 (eg, not egw/o)
++2:a              VTA_CNJ_3C_PRE_PRT ; 
+
+LEXICON THMDIR_NEG_SIIW_LOCAL
++1+Pl:angi       VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i certainly epenthetic
++2:a          VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ;
++1:ag         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
++2+1+Pl:ang        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
++2+Pl:eg         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
+
+!{third person negatives
+!a lot of irregularity:sig, sigwaa, siiwaapan, siipan, siigwaawenh, siigwenh, hypo: siiwaagobanenh, siigobanenh
+LEXICON THMDIR_NEG_3_NO_MODE
++3+Pl:waa  THMDIR_NEG_3_NO_MODE_PCP_PL_SET ; !could get sigwaa with phonology (d1<w4>aa)
++3:0       THMDIR_NEG_3_NO_MODE_PCP_OBV_SET ; !ditto for sig
+
+LEXICON THMDIR_NEG_3_NO_MODE_PCP_PL_SET
+@P.3Num.Pl@     VTA_CNJ_PCP_GET ;
+@P.3Num.Obv@    VTA_CNJ_PCP_GET ;
+
+LEXICON THMDIR_NEG_3_NO_MODE_PCP_OBV_SET
+@P.3Num.Obv@    VTA_CNJ_PCP_GET ;
+
+LEXICON THMDIR_NEG_3
++3+Pl:waad1     THMDIR_NEG_3_PCP_PL_SET ; !notice, not dwaa, as dub would indicate
++3:d1           THMDIR_NEG_3_PCP_OBV_SET ;
++3+Pl:gwaaw4    THMDIR_NEG_3_PCP_DUB_PL_SET ;  !siigwaawenh looks like d1<w4>aa<w>-enh, but then you break up a morpheme, problem for prt
++3:gw4          THMDIR_NEG_3_PCP_DUB_OBV_SET ; !siigwenh looks like d1-w4enh, but problems with this analysis in pl
+
+LEXICON THMDIR_NEG_3_PCP_PL_SET
+@P.3Num.Pl@     THMDIR_NEG_3_PRT ;
+@P.3Num.Obv@    THMDIR_NEG_3_PRT ;
+
+LEXICON THMDIR_NEG_3_PCP_OBV_SET
+@P.3Num.Obv@    THMDIR_NEG_3_PRT ;
+
+LEXICON THMDIR_NEG_3_PCP_DUB_PL_SET
+@P.3Num.Pl@     VTA_CNJ_DUB_OR_PRT_DUB ;
+@P.3Num.Obv@    VTA_CNJ_DUB_OR_PRT_DUB ;
+
+LEXICON THMDIR_NEG_3_PCP_DUB_OBV_SET
+@P.3Num.Obv@    VTA_CNJ_DUB_OR_PRT_DUB ;
+
+LEXICON THMDIR_NEG_3_PRT
++Prt:%>b1an2i1  VTA_CNJ_PCP_GET ;
+!}
+
+!{ positive third persons post-aa
+!much more regular than negatives:waad, d, waagwenh, gwenh, waapan, pan, waagobanenh, gobanenh
+LEXICON THMDIR_POS_3
++3+Pl:waad1y1          THMDIR_POS_3_PCP_PL_SET ;
++3:d1y1                THMDIR_POS_3_PCP_OBV_SET ;
+
+LEXICON THMDIR_POS_3_PCP_PL_SET
+@P.3Num.Pl@     THMDIR_POS_3_MODE ;
+@P.3Num.Obv@    THMDIR_POS_3_MODE ;
+
+LEXICON THMDIR_POS_3_PCP_OBV_SET
+@P.3Num.Obv@    THMDIR_POS_3_MODE ;
+
+LEXICON THMDIR_POS_3_MODE 
+            VTA_CNJ_PRT_OR_END ;
+!can below be shunted into DUB_OR_PRT_DUB?
+!+Dub:w4en2  VTA_CNJ_PCP_GET ; !Medler
+!+Prt+Dub:w4b1an2en2  VTA_CNJ_PCP_GET ; !Medler
++Dub:w4eny1  VTA_CNJ_PCP_GET ;
++Prt+Dub:w4b1an2eny1  VTA_CNJ_PCP_GET ;
+!}
+!}
+
+!{thm2b cont
+LEXICON THM2B_3
++3+Pl:waa THM2B_3_PL_PREMODE ;
++3:0   THM2B_3_PCP_SET ;
+
+LEXICON THM2B_3_PCP_SET
+@P.3Num.Pl@ THM2B_3_SG_PREMODE ;
+
+LEXICON THM2B_3_SG_PREMODE 
+        VTA_CNJ_PCP_GET ;
+        THM2B_3_PRT ; 
+        VTA_CNJ_DUB_AND_END ;
+
+LEXICON THM2B_3_PL_PREMODE 
+        VTA_CNJ_PCP_GET ;
+0:w     VTA_CNJ_DUB_AND_END ; !epenthetic? could be part of extended dub realization
+        THM2B_3_PRT ;
+
+LEXICON THM2B_3_PRT 
++Prt:%>b1an2i1  VTA_CNJ_PCP_GET ;
++Prt:%>b1an2    VTA_CNJ_DUB_AND_END ;
+
+!}
+
+LEXICON VTA_CNJ_3C_PRE_PRT
++3+Pl:dwaa   VTA_CNJ_PRT_OR_END ;
++3:d         VTA_CNJ_3C_PRE_PRT_PCP_SET ;!seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp !palatalizes in pcp (d1pal now targets d1 and d), but does not undergo d1%>b1 -> p
+
+LEXICON VTA_CNJ_3C_PRE_PRT_PCP_SET
+0:y1        VTA_CNJ_PCP_PL ; 
+@P.3Num.Pl@ VTA_CNJ_PRT_OR_END ; 
+
+LEXICON VTA_CNJ_3B_PRE_PRT
++3+Pl:waa   VTA_CNJ_PRT_OR_END ;
++3:0        VTA_CNJ_3B_PRE_PRT_PCP_SET ; !seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp
+
+LEXICON VTA_CNJ_3B_PRE_PRT_PCP_SET
+@P.3Num.Pl@ VTA_CNJ_PRT_OR_END ;
+
+LEXICON VTA_CNJ_PRT_OR_END
+                VTA_CNJ_PCP_GET ;
++Prt:%>b1an2i1    VTA_CNJ_PCP_GET  ;
+
+LEXICON VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB
++3+Pl:waaw4     VTA_CNJ_DUB_OR_PRT_DUB ; !waawenh, waabanenh (hypo)
++3:0      VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB_PCP_SET  ;!seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp
+
+LEXICON VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB_PCP_SET
+@P.3Num.Pl@ VTA_CNJ_DUB_OR_PRT_DUB ;
+
+LEXICON VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB
++3+Pl:dwaaw4 VTA_CNJ_DUB_OR_PRT_DUB ; !dwaawenh, dwaabanenh (hypo)
++3:d         VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB_PCP_SET ;!seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp
+
+LEXICON VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB_PCP_SET  
+@P.3Num.Pl@ VTA_CNJ_DUB_OR_PRT_DUB ; 
+
+LEXICON VTA_CNJ_DUB_AND_END
+!+Dub:en2    # ; !Medler
++Dub:enh    # ;
+
+LEXICON VTA_CNJ_DUB_OR_PRT_DUB
+!+Dub:en2           VTA_CNJ_PCP_GET ; !Medler
+!+Prt+Dub:b1an2en2  VTA_CNJ_PCP_GET  ; !Medler
++Dub:eny1           VTA_CNJ_PCP_GET ;
++Prt+Dub:%>b1an2eny1  VTA_CNJ_PCP_GET  ;
+
+!{participles (redundant with vai pcp, nominal periph slot)
+LEXICON VTA_CNJ_PCP_GET
+@R.Ccnj@@R.3Num.Pl@     VTA_CNJ_PCP_PL ;
+@R.Ccnj@@R.3Num.Obv@    VTA_CNJ_PCP_OBV ;
+@R.Ccnj@@R.3Num.InanPl@ VTA_CNJ_PCP_INAN_PL ;
+                # ;
+
+LEXICON VTA_CNJ_PCP_PL
++Pcp+3+Pl:%>ig # ;
+
+LEXICON VTA_CNJ_PCP_OBV
++Pcp+3+4:%>in # ;
+
+LEXICON VTA_CNJ_PCP_INAN_PL
++Pcp+%0+Pl:%>in # ;
+!}vta cnj compressed end
+!} cnj end
+
+!{ imp order
+LEXICON VTA_IMPER
++Imm+2+1:i2shin # ; !p 304 reports optional palatalization
++Imm+2+1+Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
++Imm+2+Pl+1+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
++Imm+2+Pl+1:i2shik # ;
++Imm+2+3:i2 # ; !p 304 only reports pal for this slot, but I extended to others
++Imm+2+3:i2n # ;
++Imm+2+3+Pl:i2 # ;
++Imm+2+3+Pl:i2n # ;
++Imm+2+1+Pl+3:aadaa # ;
++Imm+2+1+Pl+3+Pl:%>miinaadaanik # ;
++Imm+2+Pl+3:i2k # ;
++Imm+2+Pl+3+Pl:i2k # ;
+
++Del+2+1:i2shikan # ;
+!+Del+2+1+Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
+!+Del+2+Pl+1+Pl:0 # ;
++Del+2+Pl+1:i2shiikek # ;
++Del+2+3:aakan # ;
++Del+2+3+Pl:aakan # ;
+!+Del+2+1+Pl+3:0 # ;
+!+Del+2+1+Pl+3+Pl:0 # ;
++Del+2+Pl+3:aakek # ;
++Del+2+Pl+3+Pl:%>miinaakek # ;
+
++Neg+2+1:i2shiken2 # ;
+!+Neg+2+1+Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
+!+Neg+2+Pl+1+Pl:0 # ;
++Neg+2+Pl+1:i2shikego # ;
++Neg+2+3:aaken2 # ;
++Neg+2+3+Pl:aaken2 # ;
++Neg+2+1+Pl+3:aasiidaa # ;
++Neg+2+1+Pl+3+Pl:aasiidaanig # ;
+!+Neg+2+Pl+3:0 # ;
+!+Neg+2+Pl+3+Pl:0 # ;
+
+!} imp end
+!} VTA end
+
+!{ VTI 
+LEXICON VTI_ORDERS_GET
+@D.Order.Cnj@ VTI_INDEP_NEG ; 
+@D.Person@    VTI_NON_INDEP_GET ;
+
+LEXICON VTI_NON_INDEP_GET 
++Cnj:c1   VTI_CNJ_NEG ; !c1 handles stem-suffix specific adjustments
+@D.Order.Cnj@ VTI_IMPER_TAG ;
+
+LEXICON VTI_IMPER_TAG
++Imp:0    VTI_IMPER ;
+
+!{ Independent order 
+
+LEXICON VTI_INDEP_NEG 
++Neg:sii    VTI_INDEP_PERS_GET ; !zii after nasal
+            VTI_INDEP_PERS_GET ;
+
+!{Number slot 
+LEXICON VTI_INDEP_PERS_GET
+@R.Person@  VTI_INDEP_NUM ;
+@D.Person@  VTI_INDEP_OBV ;
+
+LEXICON VTI_INDEP_OBV
++3+4:iniw           VTI_INDEP_PRE_MODE ; !out on limb by allowing continuation
++3+4+Prt+Dub:inigoban2  # ; 
+                        !inan pl number tricky here, because never indexed in conjunct/conjunct derived forms
+
+LEXICON VTI_INDEP_NUM
++%0:n           VTI_INDEP_PRE_MODE ;
+@D.Person.3@    VTI_INDEP_1_OR_2_NUM ;
+@D.Person.1@    VTI_INDEP_3_OR_2_NUM ;
+@R.Person.3@    VTI_INDEP_PRT_DUB ;
+!passive unknown
+
+LEXICON VTI_INDEP_1_OR_2_NUM
++1+Pl:naan2y1    VTI_INDEP_PRE_PERIPH ; !naan unattested w/ mode, but may end word
++1+Pl:min2       VTI_INDEP_PRE_MODE ; !21pl assumed to be compatible with this too
+
+LEXICON VTI_INDEP_3_OR_2_NUM
++2+Pl:naawaa    VTI_INDEP_2PL_PRE_MODE ; !3pl doesn't have dedicated morpheme, rides on 2pl
+!} Num end
+
+!{Mode slot 
+LEXICON VTI_INDEP_PRE_MODE
+0:aa    VTI_INDEP_MODE ;
+        VTI_INDEP_PERIPH ;
+        # ;         
+
+LEXICON VTI_INDEP_2PL_PRE_MODE
+        VTI_INDEP_MODE ;
+        VTI_INDEP_PERIPH ;
+        # ;         
+
+LEXICON VTI_INDEP_MODE
++Dub:dig    VTI_INDEP_DUB_PRE_PERIPH ; 
++Prt:ban2i1  VTI_INDEP_PRT_PRE_PERIPH ; 
+
+LEXICON VTI_INDEP_DUB_PRE_PERIPH 
+0:en        VTI_INDEP_PERIPH ;
+            # ;
+
+LEXICON VTI_INDEP_PRT_PRE_PERIPH 
+        VTI_INDEP_PERIPH ;
+            # ;
+
+!PrtDub restricted to third persons above
+!no inanimate plural information possible (conjuncty suffixes never do)
+LEXICON VTI_INDEP_PRT_DUB
++2+Pl+Prt+Dub:%>gwaaban2 # ; !suspiciously non-prt-dub like g-2pl-ban
++Prt+Dub:%>goban2 # ;
+
+!}Mode end
+
+!might consider restricting plural morphology a little:
+    !min (1pl) can't be directly followed by pl (though can be followed at distance)
+    !ini (3obv) may never be followed by pl (hard to tell with sparse information)
+LEXICON VTI_INDEP_PRE_PERIPH 
+        VTI_INDEP_PERIPH  ;
+        # ;
+
+LEXICON VTI_INDEP_PERIPH
++%0+Pl:%>an   # ;
+
+!} indep end
+
+!{Conjunct order (careful, this looks just like VAI, but differs in important ways) 
+!{negative slot 
+LEXICON VTI_CNJ_NEG 
++Neg:%>siiw3        VTI_CNJ_DUB_SET ; !must be followed by dub in vtis
++Neg:%>siw3         VTI_CNJ_PRT_SET ; !may only be followed by prt in vtis
+                VTI_CNJ_PERSNUM ;
++Neg+3+Pl:%>si%>gwaa  VTI_CNJ_IRREG_3PL_SUFFS ; !may be followed by prt in vtis
+
+LEXICON VTI_CNJ_IRREG_3PL_SUFFS 
+    # ;
+    VTI_CNJ_PRT ;
+
+LEXICON VTI_CNJ_DUB_SET 
+@P.Mode.Dub@    VTI_CNJ_PERSNUM ; 
+
+LEXICON VTI_CNJ_PRT_SET 
+@P.Mode.Prt@    VTI_CNJ_PERSNUM ; 
+!}
+
+!{ persnum 
+
+LEXICON VTI_CNJ_PERSNUM
+    VTI_CNJ_3 ;
+    VTI_CNJ_3PL_MODE_GET ;
+    VTI_CNJ_DUB_EARLY_A ;
+
+LEXICON VTI_CNJ_DUB_EARLY_A
+0:w4    VTI_CNJ_DUB_SET_A ;
+        VTI_CNJ_NOT_3 ;
+
+LEXICON VTI_CNJ_DUB_SET_A
+!@P.Mode.Dub@    VTI_CNJ_NOT_3 ;
+@U.Mode.Dub@    VTI_CNJ_NOT_3 ; !U won't overwrite prior Prt, Prt fails instead
+
+LEXICON VTI_CNJ_NOT_3
++1:%>aan       VTI_CNJ_PRT_1 ; !breaking morpheme over continuation lexica. have pret cnj "b" trigger assimilation, sometimes nasalize V
++2:%>an        VTI_CNJ_MODE_GET ; !ditto re assimilation: are there cases were nas-obs isn't modified to be homorganic?
++1+Pl:%>aang      VTI_CNJ_MODE_GET ;
++2+1+Pl:%>ang         VTI_CNJ_MODE_GET ; !VTI never shows w/o for mode suffs
++2+Pl:%>eg       VTI_CNJ_MODE_GET ; !VTI only shows w for DUB, not PRT DUB
+@R.Mode.Dub@    VTI_CNJ_DUB_UNSPEC_ACT ; !irregular realization for unspec act dub
+
+LEXICON VTI_CNJ_DUB_UNSPEC_ACT
++X:%>iing       VTI_CNJ_MODE_GET ;
+
+LEXICON VTI_CNJ_3PL_MODE_GET
+@D.Mode.Prt@ VTI_CNJ_3PL ; !neg morpheme siw sets prt as legal follower, but 3pl neg prt doesn't use siw 
+            VTI_CNJ_3 ;
+
+LEXICON VTI_CNJ_3PL
++3+Pl:%>waad1       VTI_CNJ_DUB_EARLY_B ; !Irregularity when negated and this is last morpheme/followed by prt
+
+LEXICON VTI_CNJ_3 
++3:%>d1               VTI_CNJ_DUB_EARLY_B ; !d1 phon in root.lexc
++3+4:%>nid1           VTI_CNJ_DUB_EARLY_B ; !nas morph inid?
++X:%>nd1              VTI_CNJ_MODE_GET ; !nd1b -> ngib, this realization only compatible with prt, not dub
+
+LEXICON VTI_CNJ_DUB_EARLY_B !letters or numbers for ordered? 
+0:w4    VTI_CNJ_DUB_SET_B ;
+        VTI_CNJ_MODE_GET ;
+
+LEXICON VTI_CNJ_DUB_SET_B
+@U.Mode.Dub@    VTI_CNJ_MODE_GET ; !U won't overwrite prior Prt
+
+!} persnum end
+
+!{preterite slot 
+!{first person prt 
+LEXICON VTI_CNJ_PRT_1
++Prt:%>b1aan2   VTI_CNJ_DUB_GET_1 ; !Medler could delete this n
+@D.Mode@    VTI_CNJ_1_END ; 
+@R.Mode.Prt@ VTI_CNJ_1_END ; 
+@R.Mode.Dub@    VTI_CNJ_DUB ;
+
+LEXICON VTI_CNJ_DUB_GET_1
+@D.Mode.Dub@    VTI_CNJ_1_END ;
+@R.Mode.Dub@    VTI_CNJ_DUB ;
+
+LEXICON VTI_CNJ_1_END
+!            # ; !Medler didn't nasalize
+0:h         # ; !left over morpheme chunk ... first person aan turns to aanh, pret turns to baanh
+!} first person prt end
+
+LEXICON VTI_CNJ_MODE_GET
+            VTI_CNJ_PRT ;
+@D.Mode.Dub@    # ; !may end if Dub wasn't set earlier 
+
+LEXICON VTI_CNJ_PRT 
++Prt:%>b1an2   VTI_CNJ_DUB_GET ; !i1 should be included for participles, but grammar pretty unclear vti participles
+@R.Mode.Dub@    VTI_CNJ_DUB ;
+!@D.Mode@    VTI_CNJ_DUB_GET ;
+!@R.Mode@    VTI_CNJ_DUB ; !otherwise, you can end, or pick up +Dub
+!unclear why commented out section here behaved differently from  VTI_CNJ_PRT_1
+
+LEXICON VTI_CNJ_DUB_GET
+@D.Mode.Dub@    # ;
+@R.Mode.Dub@    VTI_CNJ_DUB ;
+
+!} prt end
+
+!{dubitative slot
+LEXICON VTI_CNJ_DUB 
++Dub:%>en2 # ;
+!} dub end
+
+!} Cnj end
+
+!{ imperative
+LEXICON VTI_IMPER 
++Imm+2:n4 # ; !no lengthening (amn -/> aan)
++Imm+2+Pl:ok # ; !og optionally after vowels?
++Imm+2+1+Pl+%0:daa # ;
++Imm+2+1+Pl+%0+Pl:daanin # ;
++Del+2:%>kan # ; 
++Del+2+Pl:%>keg # ; 
++Del+2+1+Pl+%0:%>kang # ;
++Del+2+1+Pl+%0+Pl:%>kang # ;
++Neg+2:%>ken # ; !gen after nasals
++Neg+2+Pl:%>kegon # ; !gegon after nasals
++Neg+2+1+Pl+%0:siidaa # ; !ziidaa after nasals
++Neg+2+1+Pl+%0+Pl:siidaanin # ; !book gives suff daanin, exe waabndanziidaanin
+
+!} imp end
+!} VTI end

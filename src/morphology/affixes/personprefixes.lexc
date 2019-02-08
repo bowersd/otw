@@ -1,0 +1,38 @@
+LEXICON PREFIXES 
+1+:ni%< FIRST_PERSON_SET ;
+2+:gi%< SECOND_PERSON_SET ;
+3+:o%<  THIRD_PERSON_SET ;
+X+:i%<  X_PERSON_SET ; ! nouns only. will need to disallow indefinite possession on alienable
+        N_PRENOUNS ;
+        V_PREVERBS_SUBORDINATOR ; 
+
+LEXICON FIRST_PERSON_SET 
+@P.Person.1@    N_PRENOUNS ;
+@P.Person.1@  V_PREVERBS_SUBORDINATOR ;
+@P.Person.1@    EXTENDED_PREFIX ;
+
+LEXICON SECOND_PERSON_SET 
+@P.Person.2@    N_PRENOUNS ;
+@P.Person.2@  V_PREVERBS_SUBORDINATOR ;
+@P.Person.2@    EXTENDED_PREFIX ;
+
+LEXICON THIRD_PERSON_SET 
+@P.Person.3@    N_PRENOUNS ;
+@P.Person.3@  V_PREVERBS_SUBORDINATOR ;
+@P.Person.3@    EXTENDED_PREFIX ; !extended should only be option for nouns?
+
+LEXICON X_PERSON_SET 
+@P.Person.X@    N_PRENOUNS ; !if indefinite was only for inalienables, then no chance of hiatus resolution and no chance of extended morpheme
+
+LEXICON EXTENDED_PREFIX 
+!prenouns ok with extended prefixes?
+!need %* to stop vowel coalescence across prefix-stem boundary
+0:da%*    EXTENDED_PREFIX_HYPHEN ; 
+0:di%*    EXTENDED_PREFIX_HYPHEN ; 
+0:doo%*   EXTENDED_PREFIX_HYPHEN ; 
+
+LEXICON EXTENDED_PREFIX_HYPHEN
+0:-     NOUNS ; 
+        NOUNS ; 
+0:-     VERBS ;
+        VERBS ;

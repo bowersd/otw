@@ -1,0 +1,115 @@
+!! Pronouns
+LEXICON PR
+    PR_NI ;
+    PR_NA ;
+
+LEXICON PR_NI
+dnawa:dinawa    PR_NI_TAG    " 1 kind, sort" ; !Rand key:n72989351035n
+gaawn-gegoon:gaawin-gegoon    PR_NI_TAG    " 1 nothing" ; !Rand key:n73017375493n
+gchi-gegoo:gichi-gegoo    PR_NI_TAG    " 1 something big, something major, something of great significance" ; !Rand key:n73019342809n
+gegoo:gegoo    PR_NI_TAG    " 1 any, anything, something" ; !Rand key:n73019738575n
+gegoon:gegoon    PR_NI_TAG    " 1 [see gegoo]" ; !Rand key:n73020045271n
+gewii:gewii    PR_NI_TAG    " 1 it, it, too, [it] too;  2 as for..." ; !Rand key:n73020082697n
+iw:iw    PR_NI_TAG    " 1 that (in.);  2 it (in.)" ; !Rand key:n73028046927n
+!kaawn gegoo:kaawn gegoo    PR_NI_TAG    " 1 nothing" ; !Rand key:n73016755416n
+maanda:maanda    PR_NI_TAG    " 1 this;  2 here is a...; here it is!" ; !Rand key:n71429179465n
+nanda:nanda    PR_NI_TAG    " 1 these, they" ; !Rand key:n71431161387n
+ni-wediin:ni-wediin    PR_NI_TAG    " 1 those over there" ; !Rand key:n71433039722n
+niw:Vi1niw    PR_NI_TAG    " 1 those" ; !Rand key:n71433039424n
+niwedi:Vi1niwedi    PR_NI_TAG    " 1 those over there" ; !Rand key:n71433039582n
+niwi:Vi1niwi    PR_NI_TAG    " 1 those" ; !Rand key:n71433039962n
+niwin:Vi1niwin    PR_NI_TAG    " 1 those" ; !Rand key:n73099341835n
+nonda:anonda    PR_NI_TAG    " 1 [see nanda]" ; !Rand key:n71433756270n
+ow:ow    PR_NI_TAG    " 1 this" ; !Rand key:n71435146899n
+waagnen:waagonen    PR_NI_TAG    " 1 what?" ; !Rand key:n73032212628n
+wagdagwen:wagodagwen    PR_NI_TAG    " 1 something or other, whatever, who knows what" ; !Rand key:n7303277668n
+wegdogwen:wegodogwen    PR_NI_TAG    " 1 whatever" ; !Rand key:n73032777964n
+wegnen:wegonen    PR_NI_TAG    " 1 what" ; !Rand key:n73032778020n
+wegnesh:wegonesh    PR_NI_TAG    " 1 what;  2 which (one or ones)" ; !Rand key:n73032778060n
+wegwen:awegwen    PR_NI_TAG    " 1 something or other, whatever" ; !Rand key:n73032778235n
+wegwenh:awegwenh    PR_NI_TAG    " 1 [see wegwen]" ; !Rand key:n73032778442n
+wene:awene    PR_NI_TAG    " 1 what?" ; !Rand key:n73032782103n
+wenen:awenen    PR_NI_TAG    " 1 what?" ; !Rand key:n73032782173n
+wenesh:awenesh    PR_NI_TAG    " 1 [see wegnesh]" ; !Rand key:n73032782272n
+wi:iwi    PR_NI_TAG    " 1 that (inan.), it" ; !Rand key:n73032950283n
+dwa:dowa    PR_NI_TAG    " 1 kind, sort" ; !Rand key:n201132911-15-5n
+!kina gegoo:gakina gegoo    PR_NI_TAG    " 1 everything;  2 in every way, in every respect, of every sort" ; !Rand key:n201133017-46-51n
+!gaa wii gegoo:gaa wii gegoo    PR_NI_TAG    " 1 nothing" ; !Rand key:n201133017-57-51n
+!gaawii gegoo:gaawii gegoo    PR_NI_TAG    " 1 no (inanimate thing), there is no (indicating the absence of something)" ; !Rand key:n20114914-31-51n
+!wi bezhik:wi bezhig    PR_NI_TAG    " 1 that other one (in.)" ; !Rand key:n20114915-26-36n
+!maanda bezhik:maanda bezhig    PR_NI_TAG    " 1 this other one (in.)" ; !Rand key:n20114915-31-31n
+!mii wi:mii wi    PR_NI_TAG    " 1 that's what (in.)" ; !Rand key:n20114916-11-39n
+
+LEXICON PR_NI_TAG
++Pron+NI:0  CLOSED_PROTECTION ;
+
+LEXICON PR_NA
+aw:aw    PR_NA_TAG    " 1 this, this one;  2 that, that one;  3 the" ; !Rand key:n72974457323n
+dnawa:dinawa    PR_NA_TAG    " 1 kind, sort" ; !Rand key:n72989351980n
+gegii:gegii    PR_NA_TAG    " 1 you, you (sg.), too" ; !Rand key:n73020042667n
+gegiin:gegiin    PR_NA_TAG    " 1 [see gegii]" ; !Rand key:n73020042970n
+gegiinwi:gegiinawi    PR_NA_TAG    " 1 we (including you) too;  2 us (including you) too" ; !Rand key:n73020043029n
+gegiinwin:gegiinawin    PR_NA_TAG    " 1 [see gegiinwi]" ; !Rand key:n73020043530n
+genii:genii    PR_NA_TAG    " 1 I, I, too, me, me, too" ; !Rand key:n73020043723n
+geniin:geniin    PR_NA_TAG    " 1 [see genii]" ; !Rand key:n73020043957n
+geniinwi:geniinawi    PR_NA_TAG    " 1 us, (exc.), us (exc.), too, we (exc.), we (exc.), too" ; !Rand key:n73020043395n
+geniinwin:geniinawin    PR_NA_TAG    " 1 [see geniinwi]" ; !Rand key:n73020043606n
+gewii:gewii    PR_NA_TAG    " 1 he, her, him, she, he, too, her, too, him, too, she, too" ; !Rand key:n73020082041n
+gewiin:gewiin    PR_NA_TAG    " 1 [see gewii]" ; !Rand key:n73020082241n
+gii:gii    PR_NA_TAG    " 1 you (sg)" ; !Rand key:n73021378415n
+giin:giin    PR_NA_TAG    " 1 you (sg)" ; !Rand key:n73023049231n
+giinwaa:giinawaa    PR_NA_TAG    " 1 you (pl.);  2 your (pl.), yours (pl.)" ; !Rand key:n73023657775n
+giinwi:giinawi    PR_NA_TAG    " 1 we (including you);  2 us (including you);  3 our (including you), ours (including you)" ; !Rand key:n73023657821n
+giinwin:giinawin    PR_NA_TAG    " 1 we (including you);  2 us (including you);  3 our, ours (including you)" ; !Rand key:n73023657926n
+giw:Va1giw    PR_NA_TAG    " 1 they (an.), those (an.)" ; !Rand key:n73024536647n
+giwedi:Va1giwedi    PR_NA_TAG    " 1 those (an.) over there" ; !Rand key:n73024536698n
+giwi:Va1giwi    PR_NA_TAG    " 1 they (an.), those (an.)" ; !Rand key:n73024536745n
+giwik:Va1giwig    PR_NA_TAG    " 1 they (an.), those (an.)" ; !Rand key:n73042953559n
+gonda:agonda    PR_NA_TAG    " 1 these (an.)" ; !Rand key:n73030327466n
+gondak:agondag    PR_NA_TAG    " 1 these" ; !Rand key:n7304365763n
+!kaa waya:kaa awaya    PR_NA_TAG    " 1 nobody, no one" ; !Rand key:n73016755315n
+!kaa waya:kaa awaya    PR_NA_TAG    " 1 nobody, no one; (not) anyone" ; !Rand key:n73028444450n
+maaba:maaba    PR_NA_TAG    " 1 this [an.], this [person];  2 here (said in handing something (an.) over or presenting it)" ; !Rand key:n71429063238n
+nanda:nanda    PR_NA_TAG    " 1 he, it, she, these, they, this" ; !Rand key:n71431161324n
+ni-wediin:ni-wediin    PR_NA_TAG    " 1 those over there" ; !Rand key:n71433039635n
+nii:nii    PR_NA_TAG    " 1 I, me, my" ; !Rand key:n71431746272n
+niin:niin    PR_NA_TAG    " 1 I, me, my, mine" ; !Rand key:n71431764742n
+niinii:niinii    PR_NA_TAG    " 1 I, me" ; !Rand key:n71431765074n
+niinwi:niinawi    PR_NA_TAG    " 1 we (not including you);  2 us (not including you);  3 our (not including you), ours" ; !Rand key:n71431765755n
+niw:Vi1niw    PR_NA_TAG    " 1 he, it, she, that, they, those" ; !Rand key:n71433039353n
+niwedi:Vi1niwedi    PR_NA_TAG    " 1 those over there" ; !Rand key:n71433039453n
+niwi:Vi1niwi    PR_NA_TAG    " 1 he, it, she, that, they, those" ; !Rand key:n71433039866n
+niwin:Vi1niwin    PR_NA_TAG    " 1 he, it, she, that, they, those" ; !Rand key:n73099341747n
+nonda:anonda    PR_NA_TAG    " 1 [see nanda]" ; !Rand key:n71433756193n
+wa:wa    PR_NA_TAG    " 1 it (an.), that (an.), that [person]" ; !Rand key:n73032176449n
+waya:awaya    PR_NA_TAG    " 1 any, anyone (singular and plural);  2 someone, some people, something (an.) (singular and plural)" ; !Rand key:n73032711921n
+wedi:wedi    PR_NA_TAG    " 1 that over there" ; !Rand key:n73032777654n
+wegnesh:wegonesh    PR_NA_TAG    " 1 who, what (an.) (interrogative, used in asking questions);  2 which (one or ones) (interrogative, used in asking questions)" ; !Rand key:n73071882943n
+wegwen:awegwen    PR_NA_TAG    " 1 somebody or other, whoever" ; !Rand key:n73032778106n
+wegwenh:awegwenh    PR_NA_TAG    " 1 [see wegwen]" ; !Rand key:n73032778337n
+wene:awene    PR_NA_TAG    " 1 who (interrogative, used in asking questions)" ; !Rand key:n73032782050n
+wenen:awenen    PR_NA_TAG    " 1 who (interrogative, used in asking questions)" ; !Rand key:n73032782137n
+wenesh:awenesh    PR_NA_TAG    " 1 [see wegnesh]" ; !Rand key:n73032782225n
+wii:wii    PR_NA_TAG    " 1 it (an.), her, him, she, he" ; !Rand key:n73033032150n
+wiin:wiin    PR_NA_TAG    " 1 it (an.), he, him, she, her" ; !Rand key:n73033051836n
+wiinwaa:wiinawaa    PR_NA_TAG    " 1 they (an.), them (an.)" ; !Rand key:n7303313071n
+wiya:awiya    PR_NA_TAG    " 1 someone, something [animate]" ; !Rand key:n73072076705n
+baaba:baaba    PR_NA_TAG    " 1 this, this one;  2 the" ; !Rand key:n65306589468n
+dwa:dowa    PR_NA_TAG    " 1 kind, sort" ; !Rand key:n201132911-12-7n
+gow:ogow    PR_NA_TAG    " 1 these (an.)" ; !Rand key:n20114122-27-7n
+gegiinwaa:gegiinawaa    PR_NA_TAG    " 1 you (pl.), too" ; !Rand key:n20114910-20-2n
+!gaa go genii:gaa go genii    PR_NA_TAG    " 1 me neither, not me either" ; !Rand key:n20114913-58-32n
+!gaa go gegii:gaa go gegii    PR_NA_TAG    " 1 you neither, not you either" ; !Rand key:n20114914-4-6n
+!gaa go gewii:gaa go gewii    PR_NA_TAG    " 1 her or him neither, not her or him either" ; !Rand key:n20114914-6-45n
+!gaa go geniinwi:gaa go geniinawi    PR_NA_TAG    " 1 us (exc.) either, not us either" ; !Rand key:n20114914-9-20n
+!gaa go gegiinwi:gaa go gegiinawi    PR_NA_TAG    " 1 us (inc.) neither, not us (inc.) either" ; !Rand key:n20114914-11-26n
+!gaa go gegiinwaa:gaa go gegiinwaa    PR_NA_TAG    " 1 you (pl.) neither, not you (pl.) either" ; !Rand key:n20114914-16-54n
+!gaa go gewiinwaa:gaa go gewiinawaa    PR_NA_TAG    " 1 them (an.) neither, not them (an.) either" ; !Rand key:n20114914-18-20n
+!gaawii wiya:gaawii awiya    PR_NA_TAG    " 1 nobody;  2 no (animate person or thing), there is no (indicating the absence of something or someone)" ; !Rand key:n20114914-36-42n
+!wa bezhik:wa bezhig    PR_NA_TAG    " 1 that other one (an.)" ; !Rand key:n20114915-24-57n
+!maaba bezhik:maaba bezhig    PR_NA_TAG    " 1 this other one (an.)" ; !Rand key:n20114915-30-26n
+!mii wa:mii wa    PR_NA_TAG    " 1 that's what (an.)" ; !Rand key:n20114916-10-42n
+
+LEXICON PR_NA_TAG
++Pron+NA:0  CLOSED_PROTECTION ;
+

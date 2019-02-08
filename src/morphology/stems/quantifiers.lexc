@@ -1,0 +1,9 @@
+
+LEXICON QNT
+gkina:gakina    QNT_TAG    " 1 all, every;  2 entirely, completely, all;  3 all over, over all of an object or expanse, the entirety of something;  4 everything;  5 all gone!" ; !Rand key:n73028948619n
+kina:akina    QNT_TAG    " 1 all, every;  2 be all gone" ; !Rand key:n71428961278n
+niibna:niibina    QNT_TAG    " 1 lots, many, much" ; !Rand key:n71431749323n
+niimna:niimVv1na    QNT_TAG    " 1 [see niibna]" ; !Rand key:n71431757489n
+
+LEXICON QNT_TAG
++Qnt:0  CLOSED_PROTECTION ;

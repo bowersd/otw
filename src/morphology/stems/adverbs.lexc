@@ -1,0 +1,562 @@
+LEXICON PA
+gchi-:gichi    AV    " 1 very;  2 the unit period after (with time expressions)" ; !Rand key:n2010121223-12-33n
+wasi-:awasi-    AV    " 1 used with a time adverbial to indicate the period before last, e.g., <nish>wasi-bboonong</nish>, 'the year before last'" ; !Rand key:n201132612-19-17n
+ewaanji-:ewaanji-    AV    " 1 the most, to the greatest extent, degree, quality or quantity" ; !Rand key:n20114911-51-32n
+                AV ;
+
+LEXICON AV
+aabda:aabida    AV_TAG    " 1 continuously" ; !Rand key:n7291536788n
+aabdek:aabidek    AV_TAG    " 1 certainly, for sure, of course;  2 have to (do something)" ; !Rand key:n7291537870n
+aabiish:aabiish    AV_TAG    " 1 where, which (interrogative, used to ask questions of where or which)" ; !Rand key:n72971644044n
+aabtaweyiing:aabitaweyiing    AV_TAG    " 1 halfway" ; !Rand key:n7297245556n
+aabtaweyiing:aabitaweyVi1hiing    AV_TAG    " 1 halfway" ; !Rand key:n7297245556n
+aabtawna:aabitawVv1na    AV_TAG    " 1 around the middle; around the mid-section" ; !Rand key:n7297245231n
+aabtawyi'iing:aabitawyihiing    AV_TAG    " 1 halfway" ; !Rand key:n7297245381n
+aabtoogaam:aabitoogaam    AV_TAG    " 1 middle of the lake" ; !Rand key:n72973745300n
+aagwiita:aagwiita    AV_TAG    " 1 again, additionally; extra" ; !Rand key:n72973056740n
+aan'kaach:aanikaach    AV_TAG    " 1 alongside, next to" ; !Rand key:n729734406n
+aana:aana    AV_TAG    " 1 fortunately, thankfully (CL);  2 in vain, to no avail (CL)" ; !Rand key:n72973262886n
+aanch:aanj    AV_TAG    " 1 again" ; !Rand key:n72973364255n
+aandi:aandi    AV_TAG    " 1 where (interrogative, used to ask questions of where)" ; !Rand key:n72973250795n
+aandi-sh:aandi-sh    AV_TAG    " 1 [see aandi]" ; !Rand key:n72973066420n
+aanii:aanii    AV_TAG    " 1 how, in what way, what" ; !Rand key:n7297244607n
+!aanii pii:aanii pii    AV_TAG    " 1 where (interrogative, used to ask questions of where)" ; !Rand key:n72973360215n
+!aanii pii:aanii pii    AV_TAG    " 1 when? (interrogative)" ; !Rand key:n72973360285n
+!aanii piish:aanii piish    AV_TAG    " 1 where (interrogative, used to ask questions of where)" ; !Rand key:n72973360330n
+aaniin:aaniin    AV_TAG    " 1 [see aanii]" ; !Rand key:n72972750637n
+aaniish:aaniish    AV_TAG    " 1 how?" ; !Rand key:n72973360551n
+aaniish:aaniish    AV_TAG    " 1 why?" ; !Rand key:n72973360721n
+aaniish:aaniish    AV_TAG    " 1 How are things going [with you]?" ; !Rand key:n72973360818n
+!aaniish pii:aaniish pii    AV_TAG    " 1 when?" ; !Rand key:n72973362067n
+!aaniish piich:aaniish piich    AV_TAG    " 1 [see aaniish pii]" ; !Rand key:n72973362141n
+aanind:aanind    AV_TAG    " 1 some, a few" ; !Rand key:n72973362458n
+aanjig:aanjig    AV_TAG    " 1 again" ; !Rand key:n72973383914n
+aano:aano    AV_TAG    " 1 to be sure, assuredly, most certainly" ; !Rand key:n72973450938n
+aanwi:aanawi    AV_TAG    " 1 fortunately, thankfully;  2 could, may be so, maybe so (an expression of pessimism);  3 manage;  4 doggedly, persistently;  5 anyhow, at any rate;  6 to be sure, it must be acknowledged" ; !Rand key:n72972748759n
+aapii:aapii    AV_TAG    " 1 where  (interrogative, used to ask questions of where);  2 in which direction (interrogative, asking a question of which direction)" ; !Rand key:n72973751422n
+aapiichin:aapiichin    AV_TAG    " 1 on occasion, from time to time" ; !Rand key:n73008134297n
+aapiish:aapiish    AV_TAG    " 1 where (interrogative, used to ask questions of where)" ; !Rand key:n72973751535n
+aapin:aapin    AV_TAG    " 1 like, the same" ; !Rand key:n72973751577n
+aapji:aapiji    AV_TAG    " 1 very" ; !Rand key:n72973751696n
+aapji-ntam:aapiji-nitam    AV_TAG    " 1 the very first, the very first time" ; !Rand key:n73101858420n
+aapji-shkwaach:aapiji-ishkwaaj    AV_TAG    " 1 the very last, the very last time" ; !Rand key:n73101858568n
+aasmaatik:aasmaatig    AV_TAG    " 1 on the wall;  2 against the wall" ; !Rand key:n72973859012n
+aasmagmik:aasamagamig    AV_TAG    " 1 against [the wall of] a building" ; !Rand key:n72973859684n
+aasmidaaki:aasamidaaki    AV_TAG    " 1 on the hillside" ; !Rand key:n72974447099n
+aazhgo:aazhVv1go    AV_TAG    " 1 already, now" ; !Rand key:n72974451389n
+aazhi:aazhi    AV_TAG    " 1 already, now;  2 at such time, then, when" ; !Rand key:n72974451456n
+aazhoogaam:aazhoogaam    AV_TAG    " 1 across [a body of water]" ; !Rand key:n72974451830n
+aazhoogaami:aazhoogaami    AV_TAG    " 1 [see aazhoogaam]" ; !Rand key:n72974452083n
+aazhoogmik:aazhoogamigo    AV_TAG    " 1 behind the house, other side of the house" ; !Rand key:n72974451260n
+aazhook:aazhook    AV_TAG    " 1 back and forth" ; !Rand key:n72915856205n
+aazhwaakwaa:aazhwaakwaa    AV_TAG    " 1 the other side of the woods; on the other side of the woods" ; !Rand key:n72974452617n
+aazhwi'ii:aazhawihii    AV_TAG    " 1 the other side" ; !Rand key:n72974453009n
+aazhwi'iing:aazhawihiing    AV_TAG    " 1 [see aazhwi'ii]" ; !Rand key:n72974453107n
+aazhwisak:aazhawisagw    AV_TAG    " 1 the other room" ; !Rand key:n72974452831n
+baabge:baabige    AV_TAG    " 1 quickly, right away" ; !Rand key:n72915856369n
+baabgwaadam:baabigwaadam    AV_TAG    " 1 without an apparent cause, unprovoked, for no reason" ; !Rand key:n72974454844n
+baamaa:baamaa    AV_TAG    " 1 not until;  2 later, later on, afterwards, after a while" ; !Rand key:n72974659354n
+baampii:baamapii    AV_TAG    " 1 later" ; !Rand key:n72974659726n
+baapish:baapish    AV_TAG    " 1 any moment (now), momentarily, soon" ; !Rand key:n72975249239n
+baataayiing:baataayiing    AV_TAG    " 1 beyond reach, out of reach, [in a place that's] hard to get at" ; !Rand key:n73097852425n
+baataayiing:baataayVv1hiing    AV_TAG    " 1 beyond reach, out of reach, [in a place that's] hard to get at" ; !Rand key:n73097852425n
+bbenak:babenag    AV_TAG    " 1 behave [better]" ; !Rand key:n72976243595n
+bebezhik:bebezhig    AV_TAG    " 1 one by one, one at a time" ; !Rand key:n72976544009n
+bebkaan:bebakaan    AV_TAG    " 1 different, individually, separately, in different places, in separate places" ; !Rand key:n72976544245n
+bebngii:bebangii    AV_TAG    " 1 little by little" ; !Rand key:n72976544861n
+bebzhishak:bebizhishag    AV_TAG    " 1 empty-handed" ; !Rand key:n72976545800n
+begish:begish    AV_TAG    " 1 hope, wish" ; !Rand key:n72976545219n
+bekaa:bekaa    AV_TAG    " 1 quietly;  2 wait (often, in a particular place), remain (in a particular place)" ; !Rand key:n72976548953n
+bekish:bekish    AV_TAG    " 1 [see begish]" ; !Rand key:n72976552016n
+bekish:bekish    AV_TAG    " 1 at the same time" ; !Rand key:n73036622410n
+besha:beshVa1    AV_TAG    " 1 close, nearby, near (in space or in time)" ; !Rand key:n72976555859n
+besho:besho    AV_TAG    " 1 [see besha]" ; !Rand key:n72976558612n
+bezhgonong:bezhigonong    AV_TAG    " 1 in the same manner, in the same way" ; !Rand key:n72976565679n
+bgodkamik:bagVo1dakamig    AV_TAG    " 1 out in the wilds, out in the middle of nowhere" ; !Rand key:n72976639931n
+bgodkamik:bagodakamig    AV_TAG    " 1 out in the wilds, out in the middle of nowhere" ; !Rand key:n72976639931n
+bgodkana:bagVo1dikana    AV_TAG    " 1 on a road out in the wilds" ; !Rand key:n72976841385n
+bgodkana:bagodikana    AV_TAG    " 1 on a road out in the wilds" ; !Rand key:n72976841385n
+bgoji'iing:bagVo1jihiing    AV_TAG    " 1 in the wild, far from a settlement" ; !Rand key:n72975262820n
+bgoji'iing:bagojihiing    AV_TAG    " 1 in the wild, far from a settlement" ; !Rand key:n72975262820n
+bgona:bVv1gona    AV_TAG    " 1 with no guidance, with no cause for hope" ; !Rand key:n73101862896n
+bgwaadam:bVv1gwaadam    AV_TAG    " 1 for no reason, without cause" ; !Rand key:n72976861596n
+biindik:biindig    AV_TAG    " 1 inside [a building]" ; !Rand key:n72977381125n
+biinish:biinish    AV_TAG    " 1 until (in affirmative clauses);  2 as far as, to such distance as" ; !Rand key:n72977381225n
+biinji'ii:biinjihii    AV_TAG    " 1 in, inside" ; !Rand key:n72977447833n
+biinji'ii:biinjiyVi1hii    AV_TAG    " 1 in, inside" ; !Rand key:n72977447833n
+biinji'iing:biinjihiing    AV_TAG    " 1 in, inside" ; !Rand key:n72977447770n
+biinji'iing:biinjiyVi1hiing    AV_TAG    " 1 in, inside" ; !Rand key:n72977447770n
+biitwi'iing:biitwihiing    AV_TAG    " 1 in the middle [between layers], in between [two layers]" ; !Rand key:n72977484399n
+biitwi'iing:biitwiyVi1hiing    AV_TAG    " 1 in the middle [between layers], in between [two layers]" ; !Rand key:n72977484399n
+biitwisbak:biitawisabag    AV_TAG    " 1 between the walls" ; !Rand key:n72977484336n
+bjiinaago:bijiinaago    AV_TAG    " 1 yesterday" ; !Rand key:n72977548922n
+bjiinak:bijiinag    AV_TAG    " 1 just [a short time ago, or a short time in the future];  2 as soon as;  3 only now, only then" ; !Rand key:n72977548957n
+bkaan:bakaan    AV_TAG    " 1 another; different; differently, like something else" ; !Rand key:n72977551498n
+bkekna:bakekana    AV_TAG    " 1 at the side of the road, off the road" ; !Rand key:n72977557322n
+bkwaakninch:bVi1kwaakoninj    AV_TAG    " 1 handful, fistful" ; !Rand key:n72975355377n
+bmena:bVv1mena    AV_TAG    " 1 less, diminished in intensity" ; !Rand key:n72977959008n
+bngiishenh:bangiishenh    AV_TAG    " 1 a  little, a little bit, a pinch" ; !Rand key:n72978958494n
+bngishmok:bangishimog    AV_TAG    " 1 west, in the west" ; !Rand key:n72978962553n
+booch:booch    AV_TAG    " 1 anyway, despite, nevertheless, all the same, still (despite)" ; !Rand key:n72977565260n
+bwaatmaach:bwaatamaach    AV_TAG    " 1 gradually" ; !Rand key:n72985132436n
+bzaan:bizaan    AV_TAG    " 1 quietly" ; !Rand key:n72985144218n
+bzhishik:bizhishig    AV_TAG    " 1 just like;  2 nothing but" ; !Rand key:n72985233153n
+daagnadaag:daagVv1nadaag    AV_TAG    " 1 really" ; !Rand key:n72985843302n
+dash:dash    AV_TAG    " 1 and so, and then, so, then, so then;  2 how about, what about" ; !Rand key:n72989352536n
+dbashish:dabashish    AV_TAG    " 1 low, down below" ; !Rand key:n72992970984n
+dbi:dibi    AV_TAG    " 1 where, wherever (dubitative, usually expressing uncertainty or vagueness)" ; !Rand key:n72994040111n
+dbikoong:dibikoong    AV_TAG    " 1 last night" ; !Rand key:n72994040927n
+dbishkoo:dibishkoo    AV_TAG    " 1 as, like" ; !Rand key:n72994041485n
+dbiyiidok:dibiyiidog    AV_TAG    " 1 wherever, I don't know where, I wonder where" ; !Rand key:n72994044485n
+debnaak:debinaak    AV_TAG    " 1 carelessly, negligently, sloppily" ; !Rand key:n73001357379n
+dibaakaang:dibaakaang    AV_TAG    " 1 in the woods" ; !Rand key:n73004850699n
+dibaakiing:dibaakiing    AV_TAG    " 1 in the woods" ; !Rand key:n73004850862n
+!dibii iidik:dibii    AV_TAG    " 1 I don't know where, I wonder where" ; !Rand key:n72994040269n
+dkamkana:dakamikana    AV_TAG    " 1 across the road, across the street" ; !Rand key:n73013736398n
+dshing:dashing    AV_TAG    " 1 a certain number of times" ; !Rand key:n73015154742n
+ebngishmak:ebangishimVa1g    AV_TAG    " 1 west, in the west" ; !Rand key:n73015357904n
+edwidetek:edVv1widetek    AV_TAG    " 1 on both sides of the forehead" ; !Rand key:n73102053379n
+egaach:egaaj    AV_TAG    " 1 gently, slowly" ; !Rand key:n73015358158n
+ekizhep:ekizheb    AV_TAG    " 1 morning" ; !Rand key:n73042852906n
+ekwaakwaak:ekwaakwaag    AV_TAG    " 1 edge of the woods" ; !Rand key:n73015755731n
+en'gok:enigok    AV_TAG    " 1 with all one's might" ; !Rand key:n73015875869n
+endgwenh:endagwenh    AV_TAG    " 1 [I wonder] whether, [I don't know] whether or not" ; !Rand key:n73015758300n
+engaach:enVv1gaach    AV_TAG    " 1 slowly" ; !Rand key:n73102084090n
+enwek:eniwek    AV_TAG    " 1 (is it) ever..., jeez...;  2 satisfactory" ; !Rand key:n72915549425n
+eshkam:eshkam    AV_TAG    " 1 increasingly, more and more " ; !Rand key:n73015783005n
+eshkot:eshkVo1d    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877023n
+eshkwaach:eshkwaaj    AV_TAG    " 1 for nothing (CL);  2 the last time (LH)" ; !Rand key:n73015877114n
+eshkweyiing:eshkweyiing    AV_TAG    " 1 last in line, at the end" ; !Rand key:n73015877215n
+eta:eta    AV_TAG    " 1 just, only" ; !Rand key:n73015763262n
+eyedwikna:eyedawikana    AV_TAG    " 1 on both sides of the road" ; !Rand key:n73015878447n
+eyedwiy'iing:eyedawiyVi1hiing    AV_TAG    " 1 on both sides" ; !Rand key:n73015878706n
+eyiidweyiing:eyiidaweyiing    AV_TAG    " 1 on both sides, on either side" ; !Rand key:n73015878142n
+ezhi-gchi-nikaayin:ezhi-gichi-nikaayin    AV_TAG    " 1 at your right side" ; !Rand key:n73015879127n
+ezhi-nmanjnikaayin:ezhi-namanjinikaayin    AV_TAG    " 1 at your left side" ; !Rand key:n73015879168n
+gaa:gaa    AV_TAG    " 1 no, not" ; !Rand key:n73016036458n
+gaa-waabang:gaa-waabang    AV_TAG    " 1 the next day, the day after" ; !Rand key:n73017372750n
+gaagnik:gaaginig    AV_TAG    " 1 forever; very often" ; !Rand key:n73016049026n
+gaamaajwan:agaamaajiwan    AV_TAG    " 1 on the other side [of a body of water]" ; !Rand key:n73016049672n
+gaamdaaki:agaamVv1daaki    AV_TAG    " 1 on the hill across from another, on the hillside across from another" ; !Rand key:n73016050103n
+gaaming:agaaming    AV_TAG    " 1 across a body of water" ; !Rand key:n73016049774n
+gaamkana:agaamikana    AV_TAG    " 1 across the road, on the other side of the road" ; !Rand key:n73016050024n
+gaamyi'iing:agaamiyihiing    AV_TAG    " 1 across the way" ; !Rand key:n73016055064n
+gaataayiing:gaataayiing    AV_TAG    " 1 around, all around" ; !Rand key:n73017372717n
+gaataayiing:gaataayVi1hiing    AV_TAG    " 1 around, all around" ; !Rand key:n73017372717n
+gaawaanh:agaawaanh    AV_TAG    " 1 barely, hardly, scarcely" ; !Rand key:n73017374047n
+gaawtaagmik:gaawitaagamig    AV_TAG    " 1 all around the building" ; !Rand key:n73017579755n
+gaay:gaay    AV_TAG    " 1 not" ; !Rand key:n73017579808n
+gamiing:gamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n
+gamiing:agamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n
+gashki:gashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n
+gashki:gigashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n
+gbe-bboon:gabe-biboon    AV_TAG    " 1 all winter" ; !Rand key:n73017936268n
+gbe-dbik:gabe-dibik    AV_TAG    " 1 all night" ; !Rand key:n73017936343n
+gbe-giizhik:gabe-giizhig    AV_TAG    " 1 all day" ; !Rand key:n73017936376n
+gbe-naagosh:gabe-onaagosh    AV_TAG    " 1 all evening" ; !Rand key:n73017937220n
+gbe-niibin:gabe-niibin    AV_TAG    " 1 all summer" ; !Rand key:n73017936290n
+gbe-shkwaa-naawkwe:gabe-ishkwaa-naawakwe    AV_TAG    " 1 all afternoon" ; !Rand key:n73017937172n
+gbe-zhebaa:gabe-zhebaa    AV_TAG    " 1 all the past morning" ; !Rand key:n73017937356n
+gbey'ii:gabeyVi1hii    AV_TAG    " 1 for a long time" ; !Rand key:n73017937506n
+gbey'iing:gabeyVi1hiing    AV_TAG    " 1 for a long time" ; !Rand key:n73017937637n
+gchi-ggizhep:gichi-gigizheb    AV_TAG    " 1 early in the morning, very early [in the morning]" ; !Rand key:n73019343171n
+gchi-ngoji:gichi-ngoji    AV_TAG    " 1 way out of place, way somewhere else" ; !Rand key:n7309021327n
+gchi-ngoji:gichi-ningoji    AV_TAG    " 1 way out of place, way somewhere else" ; !Rand key:n7309021327n
+gchi-zhaazhi:gichi-zhaazhi    AV_TAG    " 1 long ago, a long time ago, a long time (since...)" ; !Rand key:n73019356864n
+gchingim:gichingim    AV_TAG    " 1 after a short time" ; !Rand key:n73019353784n
+ge:ge    AV_TAG    " 1 and, also, as well" ; !Rand key:n73019735726n
+ge:gaye    AV_TAG    " 1 and, also, as well" ; !Rand key:n73019735726n
+gechwaa:gechwaa    AV_TAG    " 1 like, just like" ; !Rand key:n73019736473n
+gegaa:gegaa    AV_TAG    " 1 almost" ; !Rand key:n73019736588n
+geget:geget    AV_TAG    " 1 really, for sure, truly, definitely" ; !Rand key:n73019737135n
+gegeti:gegeti    AV_TAG    " 1 really, for sure" ; !Rand key:n73019737618n
+gego:gego    AV_TAG    " 1 also, as well" ; !Rand key:n73019738250n
+gegpii:gegapii    AV_TAG    " 1 finally;  2 eventually, sooner or later" ; !Rand key:n73020045617n
+geshtine:geshtine    AV_TAG    " 1 now [while there's an opportunity], while one is at it" ; !Rand key:n73020047296n
+geskana:geskana    AV_TAG    " 1 suddenly, all of a sudden;  2 immediately" ; !Rand key:n73020047757n
+gesnaa:gesVv1naa    AV_TAG    " 1 ever, how, what" ; !Rand key:n72981366758n
+gesnaa:gesVv1naa    AV_TAG    " 1 ever, if... ever" ; !Rand key:n73020048750n
+geyaabi:geyaabi    AV_TAG    " 1 anymore, more, still, yet" ; !Rand key:n73020082882n
+ggetin:gagetin    AV_TAG    " 1 hard; with great force" ; !Rand key:n73020284299n
+ggiibaadaatkamik:gagiibaadaatakamig    AV_TAG    " 1 it's absurd; it's ludicrous; it's ridiculous" ; !Rand key:n73020881915n
+ggizhep:gigizheb    AV_TAG    " 1 morning, in the morning" ; !Rand key:n73020957515n
+ggwaansagkamik:gagwaanisagakamig    AV_TAG    " 1 [see ggwaansagaadkamik]" ; !Rand key:n73020960220n
+ggwetaan'kamik:gagwetaanakamig    AV_TAG    " 1 exceedingly, extremely, awfully, so, terribly" ; !Rand key:n73021181166n
+ggwetaanyi'iing:gagwetaaniyihiing    AV_TAG    " 1 an exceedingly beautiful place" ; !Rand key:n73021182603n
+gidaa:Ogidaa    AV_TAG    " 1 up, on" ; !Rand key:n73021377677n
+gidaagon:Ogidaagon    AV_TAG    " 1 on the snow" ; !Rand key:n73021377714n
+gidaagoon:Ogidaagoon    AV_TAG    " 1 on the snow" ; !Rand key:n73021377748n
+gidaajwan:Va1gidaajiwan    AV_TAG    " 1 upstream" ; !Rand key:n73021377778n
+gidaaki:Va1gidaaki    AV_TAG    " 1 up the hill" ; !Rand key:n73021377823n
+gidaatik:Va1gidaatig    AV_TAG    " 1 on the log, on the [wooden] rail" ; !Rand key:n73021377858n
+gidbak:Va1gidabak    AV_TAG    " 1 on the roof" ; !Rand key:n73021377919n
+gidbiik:Va1gidibiig    AV_TAG    " 1 on top of the water" ; !Rand key:n73021377955n
+gidgamik:Va1gidigamig    AV_TAG    " 1 on top of the building" ; !Rand key:n73021378009n
+gidkamik:Va1gidakamig    AV_TAG    " 1 on the earth, on the ground" ; !Rand key:n73021378135n
+gidsak:Va1gidisag    AV_TAG    " 1 on the floor" ; !Rand key:n73021378211n
+giimooch:giimooj    AV_TAG    " 1 covertly, secretly, stealthily, on the sly" ; !Rand key:n73023045316n
+giiwaaji-pii:giiwaaji-apii    AV_TAG    " 1 at a bad time, at an inconvenient time, at an inopportune time" ; !Rand key:n73023760986n
+giiwednong:giiwedinong    AV_TAG    " 1 from the north, in the north, to the north" ; !Rand key:n73023777780n
+giiwenh:giiwenh    AV_TAG    " 1 so the story goes, so [someone] says, supposedly, supposed to" ; !Rand key:n73023778934n
+giiwtaagmik:giiwitaagamig    AV_TAG    " 1 around the [outside of the] house" ; !Rand key:n73024173748n
+giiwtaayiing:giiwitaayiing    AV_TAG    " 1 around, all around" ; !Rand key:n73024173518n
+giizhik:giizhig    AV_TAG    " 1 by day" ; !Rand key:n73024238754n
+gijiyiing:Va1gijiyiing    AV_TAG    " 1 on [top of] something, on top of something" ; !Rand key:n73024358708n
+gijiyiing:Va1gijiyVa1hiing    AV_TAG    " 1 on [top of] something, on top of something" ; !Rand key:n73024358708n
+gijiyiinh:Va1gijiyiinh    AV_TAG    " 1 " ; !Rand key:n73024359282n
+gijiyiinh:Va1gijiyiinh    AV_TAG    " 1 see gijiyiing" ; !Rand key:n73024359282n
+gmaapii:gomaapii    AV_TAG    " 1 eventually, later on, after a while, in the end, by and by, in time;  2 at last, finally;  3 in a little while, in a short time, shortly" ; !Rand key:n73029027387n
+gmaapiich:gomaapiich    AV_TAG    " 1 eventually, later on, after a while, in the end, by and by, in time;  2 for some time, for awhile;  3 in a little while, in a short time, shortly (Wk)" ; !Rand key:n73029027492n
+gnabach:ganabaj    AV_TAG    " 1 I think so; I think (expressing a possibility or uncertainty), maybe, probably, perhaps, possibly" ; !Rand key:n73029030164n
+gnengim:gVv1nengim    AV_TAG    " 1 after some time" ; !Rand key:n73029111018n
+gnesh:ginezh    AV_TAG    " 1 long [in duration], for a long time" ; !Rand key:n73029111507n
+gnimaa:gonimaa    AV_TAG    " 1 maybe, might, perhaps, appear so, seem" ; !Rand key:n73029114020n
+gnwesh:ginwezh    AV_TAG    " 1 [see gnesh]" ; !Rand key:n73021379511n
+gojiing:agVo1jiing    AV_TAG    " 1 outdoors, outside" ; !Rand key:n73030324497n
+gojiing:agojiing    AV_TAG    " 1 outdoors, outside" ; !Rand key:n73030324497n
+gojyi'iing:agojiyihiing    AV_TAG    " 1 outdoors, outside" ; !Rand key:n73030324863n
+gshkonwaach:goshkonawaach    AV_TAG    " 1 suddenly, without advance word, without warning" ; !Rand key:n73030621137n
+gtwe:gitwe    AV_TAG    " 1 regardless, despite [apparent futility]" ; !Rand key:n73031626182n
+gtwena:gitwena    AV_TAG    " 1 [see gtwe]" ; !Rand key:n73031626731n
+gwech:gwech    AV_TAG    " 1 generally" ; !Rand key:n73031713780n
+gyak:gwayak    AV_TAG    " 1 morally and/or behaviourally right, proper, good; correctly, properly; well-behaved;  2 correct, proper (physical circumstances);  3 straight" ; !Rand key:n73031720204n
+iidik:iidig    AV_TAG    " 1 apparently, evidently; might be, must be, I guess...;  2 supposedly;  3 I wonder..." ; !Rand key:n73028042485n
+iidok:iidog    AV_TAG    " 1 supposedly; probably, perhaps; I guess" ; !Rand key:n73028042613n
+iizan:iizan    AV_TAG    " 1 be pretending" ; !Rand key:n73028046834n
+jaagena:jaagena    AV_TAG    " 1 all sorts of [weird] ways, all sorts of [crazy] things" ; !Rand key:n72977374390n
+jejiibaan:jejiibaan    AV_TAG    " 1 in separate places, in or from various places, from all over" ; !Rand key:n73028336428n
+jejna:jejVv1na    AV_TAG    " 1 in short intervals, in short spells" ; !Rand key:n73082950428n
+jiigaakwaa:jiigaakwaa    AV_TAG    " 1 at the edge of the woods, near the woods" ; !Rand key:n73102081180n
+jiigaatik:jiigaatig    AV_TAG    " 1 close to the wall, near the wall" ; !Rand key:n73028351659n
+jiigbiik:jiigibiig    AV_TAG    " 1 at the beach, on the beach, by the lake, on the shore, [at the] waterfront" ; !Rand key:n73028348528n
+jiigbiing:jiigibiing    AV_TAG    " 1 [at the] waterfront" ; !Rand key:n7307766636n
+jiiggamik:jiigigamig    AV_TAG    " 1 close to the house, near the house" ; !Rand key:n73028436278n
+jiigiyiing:jiigiyiing    AV_TAG    " 1 near, nearby, close by, right next to;  2 near in time, close to (in time), on towards (SI)" ; !Rand key:n73032653838n
+jiigsabak:jiigisabak    AV_TAG    " 1 close to the wall, near the wall, in the corner" ; !Rand key:n73028438668n
+jiigshkwaant:jiigishkwaand    AV_TAG    " 1 near the door" ; !Rand key:n73032649523n
+jiigya'ii:jiigVv1yahii    AV_TAG    " 1 nearby, close by, right next to" ; !Rand key:n73028439031n
+jiigya'iing:jiigVv1yahiing    AV_TAG    " 1 [see jiigiyiing]" ; !Rand key:n73028439106n
+jiigyi'iing:jiigVi1yihiing    AV_TAG    " 1 [see jiigiyiing]" ; !Rand key:n73028439206n
+jiinaago:jiinaago    AV_TAG    " 1 yesterday" ; !Rand key:n73028439640n
+jina:ajina    AV_TAG    " 1 for a little while, for a short time" ; !Rand key:n73028443493n
+!kaa wiikaa:kaa wiikaa    AV_TAG    " 1 never" ; !Rand key:n73016755257n
+kawesh:akawesh    AV_TAG    " 1 for a while, for now, for the time being" ; !Rand key:n7303276005n
+ko:ko    AV_TAG    " 1 generally, habitally, usually;  2 used to (of past activities)" ; !Rand key:n71428963080n
+maa:omaa    AV_TAG    " 1 here (emphatic)" ; !Rand key:n71429063142n
+maadaa:maadaa    AV_TAG    " 1 ahead of time, beforehand, in advance" ; !Rand key:n71429063561n
+maage:maage    AV_TAG    " 1 or" ; !Rand key:n71429065159n
+maamdaa:maamVi1daa    AV_TAG    " 1 able [to do something];  2 be allowed" ; !Rand key:n71429143325n
+maampii:maamapii    AV_TAG    " 1 here;  2 this...here" ; !Rand key:n71429152082n
+maamwi:maamawi    AV_TAG    " 1 collectively, together, taken together" ; !Rand key:n71429152111n
+maandaa:maandaa    AV_TAG    " 1 [see mmaandaa]" ; !Rand key:n71429179496n
+maanoo:maanoo    AV_TAG    " 1 anyhow, anyway, nevertheless, just the same;  2 let it happen, so be it, let it be;  3 by all means" ; !Rand key:n71429181530n
+maanpii:maanVv1pii    AV_TAG    " 1 [see maampii]" ; !Rand key:n71429262567n
+mbanegaat:nabanegaat    AV_TAG    " 1 on one leg; in one leg" ; !Rand key:n73032751429n
+mbaneyiing:nabaneyiing    AV_TAG    " 1 on one side" ; !Rand key:n73032751352n
+mchisak:michisak    AV_TAG    " 1 on the floor" ; !Rand key:n71429457053n
+megwaa:megwaa    AV_TAG    " 1 at the moment, at the same time, at this moment, at this time, currently, now, right now, in the midst of;  2 while, when (over a period of time), as..." ; !Rand key:n71429559918n
+megwaach:megwaach    AV_TAG    " 1 probably;  2 approximately, about" ; !Rand key:n71429560036n
+megwey'iing:megweyVi1hiing    AV_TAG    " 1 in the middle" ; !Rand key:n71429560277n
+megyaak:megyaak    AV_TAG    " 1 in the woods" ; !Rand key:n71429560872n
+megyaak:megwayaak    AV_TAG    " 1 in the woods" ; !Rand key:n71429560872n
+megyaakwaang:megyaakwaang    AV_TAG    " 1 in the woods" ; !Rand key:n71429561014n
+megyaakwaang:megwayaakwaang    AV_TAG    " 1 in the woods" ; !Rand key:n71429561014n
+memdage:memidage    AV_TAG    " 1 particularly, to an extreme degree, to an unusual extent or degree;  2 especially (singling out someone or something in particular)" ; !Rand key:n71429561576n
+memdage:memindage    AV_TAG    " 1 particularly, to an extreme degree, to an unusual extent or degree;  2 especially (singling out someone or something in particular)" ; !Rand key:n71429561576n
+memeshkot:memeshkVo1d    AV_TAG    " 1 by turns, in turn, take turns" ; !Rand key:n71429564197n
+memeshkot:memeshkVo1d    AV_TAG    " 1 alternately" ; !Rand key:n73045250059n
+memeshkot:memeshkod    AV_TAG    " 1 alternately" ; !Rand key:n73045250059n
+memkaach:memakaaj    AV_TAG    " 1 bother, bother oneself with;  2 have to [in lieu of something else], necessary [that something be done]" ; !Rand key:n73032817868n
+memmiin:memVv1miin    AV_TAG    " 1 in patches" ; !Rand key:n73032817552n
+mensaadkamik:menisaadakamig    AV_TAG    " 1 shamefully" ; !Rand key:n71429641611n
+meshkot:meshkVo1d    AV_TAG    " 1 instead" ; !Rand key:n71429642519n
+meshkot:meshkod    AV_TAG    " 1 instead" ; !Rand key:n71429642519n
+mewnzha:mewinzha    AV_TAG    " 1 long ago, long since, a long time ago, a long time since" ; !Rand key:n71429643097n
+mii:mii    AV_TAG    " 1 that's how..., that's what..., that's when..., that's where..., that's who...;  2 that's...;  3 then (in narrative sequence)" ; !Rand key:n71429652087n
+mii'sh:mii-sh    AV_TAG    " 1 and so, and that's..., and then" ; !Rand key:n71429682069n
+miinwaa:miinawaa    AV_TAG    " 1 and;  2 again;  3 more" ; !Rand key:n71429681783n
+minwaa:minawaa    AV_TAG    " 1 [see miinwaa]" ; !Rand key:n71429740443n
+mji-mnidoonaang:maji-manidoonaang    AV_TAG    " 1 hell, in hell" ; !Rand key:n71429743061n
+mma'iing:mamahiing    AV_TAG    " 1 out in the open" ; !Rand key:n73032751062n
+mmaandaa:mamaandaa    AV_TAG    " 1 amazing, incredible, miraculous;  2 it's a wonder that... (indicating something that is contrary to reasonable expectation);  3 strange" ; !Rand key:n71429840205n
+mmemmiin:mVv1memVv1miin    AV_TAG    " 1 in patches, here and there" ; !Rand key:n73036029937n
+mnik:minik    AV_TAG    " 1 [so] many, [so] much;  2 [that's] all" ; !Rand key:n71430158529n
+mno-pii:mino-apii    AV_TAG    " 1 just the right time, at a good time" ; !Rand key:n71430255620n
+msawaa:misawaa    AV_TAG    " 1 even; although" ; !Rand key:n73033247695n
+mshi:mashi    AV_TAG    " 1 yet" ; !Rand key:n71430433904n
+mtakmik:mitakamig    AV_TAG    " 1 [see mtashkamik]" ; !Rand key:n73098053353n
+mtashkamik:mitashkamig    AV_TAG    " 1 on the ground" ; !Rand key:n71430561317n
+myaa:mayaa    AV_TAG    " 1 exactly, precisely" ; !Rand key:n73098056167n
+myaaw:mayaaw    AV_TAG    " 1 exactly [at the place]" ; !Rand key:n71430564247n
+myaawdib:mayaawidib    AV_TAG    " 1 right on the head" ; !Rand key:n71430564292n
+myaawyi'iing:mayaawVv1yihiing    AV_TAG    " 1 exactly in the middle" ; !Rand key:n71430565405n
+mzhisha:mizhisha    AV_TAG    " 1 in full view" ; !Rand key:n73098281706n
+mzhishi:mizhishi    AV_TAG    " 1 in plain view" ; !Rand key:n73033251891n
+mzhishik:mVv1zhishig    AV_TAG    " 1 nothing but" ; !Rand key:n71430567175n
+mzi:mizi    AV_TAG    " 1 everywhere" ; !Rand key:n71430567897n
+n'gika:nVv1gika    AV_TAG    " 1 easily [without warning]; readily" ; !Rand key:n73033654601n
+naabna:naabVv1na    AV_TAG    " 1 not likely {used ironically}" ; !Rand key:n71430848234n
+naagach:naagaj    AV_TAG    " 1 later" ; !Rand key:n71430858021n
+naage'ii:naagehii    AV_TAG    " 1 some distance away" ; !Rand key:n71430858968n
+naamaabik:anaamaabik    AV_TAG    " 1 under the rock" ; !Rand key:n71431051860n
+naamaatik:anaamaatig    AV_TAG    " 1 under a tree" ; !Rand key:n71431052018n
+naamaazhbik:anaamaazhibik    AV_TAG    " 1 under the rocks" ; !Rand key:n71431052057n
+naambiing:anaamibiing    AV_TAG    " 1 underwater" ; !Rand key:n73033653475n
+naamkamik:anaamakamig    AV_TAG    " 1 underground, under the ground" ; !Rand key:n71431052361n
+naamnagaakzit:anaaminagaakozid    AV_TAG    " 1 on the bottom of one's foot, on the sole of one's foot" ; !Rand key:n73033414819n
+naamsagong:anaamisagong    AV_TAG    " 1 downstairs, in the basement" ; !Rand key:n71431052614n
+naamyi'ii:anaamayihii    AV_TAG    " 1 at the bottom, underneath" ; !Rand key:n71431052671n
+naamyi'iing:anaamayihiing    AV_TAG    " 1 [see naamyi'ii]" ; !Rand key:n71431052716n
+naan'godnong:naaningodinong    AV_TAG    " 1 occasionally, sometimes" ; !Rand key:n71431059324n
+naan'itaa:naanVv1hitaa    AV_TAG    " 1 by lucky coincidence, it just so happened" ; !Rand key:n71431059648n
+naanaadwiy'iing:naanaadVv1wiyVi1hiing    AV_TAG    " 1 on either side" ; !Rand key:n71431053076n
+naanaash:naanaazh    AV_TAG    " 1 almost" ; !Rand key:n71431054073n
+naanaawgaakgan:naanaawigaakigan    AV_TAG    " 1 in the middle of the chest" ; !Rand key:n71431053798n
+naanaawgaam:naanaawigaam    AV_TAG    " 1 right in the middle of the lake" ; !Rand key:n71431053896n
+naanaawgatik:naanaawigatig    AV_TAG    " 1 in the middle of the forehead" ; !Rand key:n71431053966n
+naanaawgwiyiing:naanaawigwiyiing    AV_TAG    " 1 in the middle" ; !Rand key:n73033414994n
+naanaawmiikan:naanaawimiikan    AV_TAG    " 1 in the middle of the road" ; !Rand key:n73033414903n
+naanaawsak:naanaawisag    AV_TAG    " 1 in the middle of the floor, in the middle of the room" ; !Rand key:n73033414953n
+naanaawyi'iing:naanaawVv1yihiing    AV_TAG    " 1 right in the middle [of an area]" ; !Rand key:n71431054019n
+naanben:naanaben    AV_TAG    " 1 have to [by bad coincidence]" ; !Rand key:n71431058058n
+naanbena:naanabena    AV_TAG    " 1 of all the times, such an inappropriate moment, such an inopportune time" ; !Rand key:n73033415093n
+naangim:naangim    AV_TAG    " 1 until" ; !Rand key:n71431059286n
+naanidaa:naanidaa    AV_TAG    " 1 [see naan'itaa]" ; !Rand key:n73099853265n
+naanimye:naanimaye    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n73033415380n
+naasaap:naasaab    AV_TAG    " 1 the same, in the same way" ; !Rand key:n71431063880n
+naawgaam:naawagaam    AV_TAG    " 1 in the middle of the lake" ; !Rand key:n71431147011n
+naawgatik:naawigatig    AV_TAG    " 1 in the middle of the forehead" ; !Rand key:n71431147057n
+naawigtigaan:naawigitigaan    AV_TAG    " 1 in the middle of the field" ; !Rand key:n73033562708n
+naawij:naawij    AV_TAG    " 1 on the open water" ; !Rand key:n71431147168n
+naawinj:naawinj    AV_TAG    " 1 in the middle of the lake" ; !Rand key:n73033562763n
+naawyi'ii:naawVi1yihii    AV_TAG    " 1 in the middle [of an area]" ; !Rand key:n71431148117n
+naawyi'iing:naawVi1yihiing    AV_TAG    " 1 [see naawyi'ii]" ; !Rand key:n73098534933n
+nake:inake    AV_TAG    " 1 in a certain way, in a certain direction" ; !Rand key:n71431158289n
+nakeyaa:inakeyaa    AV_TAG    " 1 in a certain way, in a certain direction" ; !Rand key:n71431158425n
+nakweyiing:Va1nakweyiing    AV_TAG    " 1 at the tip" ; !Rand key:n73033612905n
+nakweyiing:Va1nakweyVi1hiing    AV_TAG    " 1 at the tip" ; !Rand key:n73033612905n
+nango:nango    AV_TAG    " 1 [see nongo]" ; !Rand key:n71431166718n
+nawach:nawaj    AV_TAG    " 1 various" ; !Rand key:n71431169859n
+nawgiizhik:nawVv1giizhig    AV_TAG    " 1 in mid-air" ; !Rand key:n73033817850n
+ndaashti:Vv1ndaashVv1ti    AV_TAG    " 1 on this side" ; !Rand key:n73033632017n
+ndaawaach:indaawaaj    AV_TAG    " 1 just, may as well, might as well;  2 instead" ; !Rand key:n73003283100n
+ndawaa:indawaa    AV_TAG    " 1 [see ndaawaach]" ; !Rand key:n71431440040n
+ndawaach:indawaaj    AV_TAG    " 1 [see ndaawaach]" ; !Rand key:n71431441003n
+negaach:negaaj    AV_TAG    " 1 easy, gently, softly, without too much force;  2 slowly" ; !Rand key:n71431556100n
+nengaach:nengaaj    AV_TAG    " 1 [see negaach]" ; !Rand key:n71431559514n
+neniish:neniizh    AV_TAG    " 1 two each, both, as a pair" ; !Rand key:n71431559859n
+nenshike:nenishike    AV_TAG    " 1 separately" ; !Rand key:n71431560391n
+neyaap:neyaab    AV_TAG    " 1 back, return to earlier state or location" ; !Rand key:n71431562755n
+neyiizh:neyiizh    AV_TAG    " 1 both" ; !Rand key:n71431563295n
+ngo-aabtaa-dbik:ningo-aabitaa-dibik    AV_TAG    " 1 all evening until midnight" ; !Rand key:n7297244115n
+ngo-dbaabaan:ningo-dibaabaan    AV_TAG    " 1 [see ngo-dba'aabaan]" ; !Rand key:n73098741922n
+ngo-dbaabaan:ningo-dibahaabaan    AV_TAG    " 1 [see ngo-dba'aabaan]" ; !Rand key:n73098741922n
+ngo-naawkwe:ningo-naawakwe    AV_TAG    " 1 for half a day [until noon], half a day [until noon]" ; !Rand key:n71431657621n
+ngodaabaan:ningodaabaan    AV_TAG    " 1 one carload" ; !Rand key:n73098743155n
+ngodbaabaan:ningodibaabaan    AV_TAG    " 1 [see ngodba'aabaan]" ; !Rand key:n73099855867n
+ngodbaabaan:ningodibahaabaan    AV_TAG    " 1 [see ngodba'aabaan]" ; !Rand key:n73099855867n
+ngodbik:ningodibik    AV_TAG    " 1 for one night" ; !Rand key:n71431647357n
+ngoding:ningVo1ding    AV_TAG    " 1 once, at one time;  2 at some point in the future, sometime, at one day, some day, one of these days..." ; !Rand key:n71431647502n
+ngoding:ningoding    AV_TAG    " 1 once, at one time;  2 at some point in the future, sometime, at one day, some day, one of these days..." ; !Rand key:n71431647502n
+ngodnaagaans:ningodonaagaans    AV_TAG    " 1 one cup, one cupful" ; !Rand key:n71431647576n
+ngodnaagan:ningodonaagan    AV_TAG    " 1 one dishful, one plateful" ; !Rand key:n73098745689n
+ngodnik:ningodonik    AV_TAG    " 1 one armspan" ; !Rand key:n71431647615n
+ngodninch:ningodoninj    AV_TAG    " 1 one hand-width" ; !Rand key:n71431647672n
+ngodoopwin:ningodoopowin    AV_TAG    " 1 one tableful" ; !Rand key:n73098743283n
+ngodooshkin:ningodooshkin    AV_TAG    " 1 one bagful" ; !Rand key:n71431649277n
+ngodsak:ningodosag    AV_TAG    " 1 one barrelful" ; !Rand key:n71431650900n
+ngodwaakwaagan:ningodwaakwaagan    AV_TAG    " 1 one handspan" ; !Rand key:n71431654694n
+ngodwemkwaan:ningodwemikwaan    AV_TAG    " 1 one spoonful" ; !Rand key:n71431656428n
+ngodzit:ningodozid    AV_TAG    " 1 one foot " ; !Rand key:n71431656772n
+ngoji:ningoji    AV_TAG    " 1 somewhere, someplace, off somewhere, anywhere;  2 anywhere, no place (with negative);  3 at such time roughly, about (such time), around (such time);  4 away, in the sense, e.g., of throw away, push away, i.e., remove to some place else;  5 in something (or other);  6 about, around, roughly (referring to distance or amount)" ; !Rand key:n71431657094n
+ngona:ngona    AV_TAG    " 1 so it turns out" ; !Rand key:n71431657316n
+ni-ngo-bboon'gak:ani-ningo-biboonagak    AV_TAG    " 1 in one year's time" ; !Rand key:n73098749802n
+ni-ngo-dba'giiswaan'gak:ani-ningo-dibahigiiziswaanagak    AV_TAG    " 1 in one hour's time" ; !Rand key:n73098749909n
+ni-ngo-giisagak:ani-ningo-giizisagak    AV_TAG    " 1 in one month's time" ; !Rand key:n73098749965n
+ni-ngo-nam'egiizhgak:ani-ningo-anamVv1hegiizhigak    AV_TAG    " 1 in one week's time" ; !Rand key:n73098750034n
+ni-waabang:ani-waabang    AV_TAG    " 1 the day after" ; !Rand key:n73033752979n
+nigwa:Vv1nigwa    AV_TAG    " 1 until" ; !Rand key:n71431746007n
+niibaadbik:niibaadibik    AV_TAG    " 1 during the night" ; !Rand key:n71431746546n
+niibwa:niibVv1wa    AV_TAG    " 1 lots, many, much" ; !Rand key:n71431749394n
+niigaan:niigaan    AV_TAG    " 1 ahead, in front, at the lead;  2 ahead (in time), in the future" ; !Rand key:n71431750055n
+niinwi:niinawi    AV_TAG    " 1 you know" ; !Rand key:n73099244056n
+niisaajwan:niisaajiwan    AV_TAG    " 1 downriver, downstream" ; !Rand key:n71431766298n
+niisaaki:niisaaki    AV_TAG    " 1 down the hill" ; !Rand key:n71431839665n
+niisyi'ii:niisiyihii    AV_TAG    " 1 below" ; !Rand key:n71431842538n
+niisyi'iing:niisiyihiing    AV_TAG    " 1 [see niisyi'ii]" ; !Rand key:n71431842598n
+niiygon:niiyVv1gon    AV_TAG    " 1 [see niiwgon]" ; !Rand key:n71431844129n
+niizhkiins:niizhakiins    AV_TAG    " 1 two acres of land" ; !Rand key:n71431845115n
+nike:inike    AV_TAG    " 1 in a certain way, in a certain direction" ; !Rand key:n71431865868n
+nikekmik:inikekamig    AV_TAG    " 1 on a certain side [of the border], on a certain side [of the country]" ; !Rand key:n71431866000n
+nikey'iing:inikeyVv1hiing    AV_TAG    " 1 in a certain direction, in a certain way, in a certain place" ; !Rand key:n71431866776n
+nikeyaa:inikeyaa    AV_TAG    " 1 in a certain way, in a certain direction, in a certain place" ; !Rand key:n71431866695n
+nina:Vo1nina    AV_TAG    " 1 here and there, everywhere" ; !Rand key:n71431958815n
+nishaa:anishaa    AV_TAG    " 1 for nothing, for no apparent reason;  2 in fun, just joking, in jest;  3 allege, claim, assert spuriously" ; !Rand key:n71432976899n
+nishgo:anishigo    AV_TAG    " 1 despite the fact that, even though" ; !Rand key:n71432977013n
+njida:onjida    AV_TAG    " 1 deliberately, on purpose" ; !Rand key:n71433041659n
+njiiyenh:onjiiyenh    AV_TAG    " 1 next [in order or in line], next door" ; !Rand key:n71433048580n
+nmaanwaang:maanVv1waang    AV_TAG    " 1 on my cheek" ; !Rand key:n71429263103n
+nnaasa:nanaasa    AV_TAG    " 1 from time to time, periodically" ; !Rand key:n73033817650n
+nnaash:ninaash    AV_TAG    " 1 just not [get around to something];  2 (for) an extended period of time;  3 until" ; !Rand key:n73033818000n
+nongo:nongo    AV_TAG    " 1 today;  2 the current [unit of time referenced], this [time period];  3 now, at this point in time;  4 nowadays, in the present, these days;  5 this time;  6 tonight" ; !Rand key:n71433764638n
+nooch:nooj    AV_TAG    " 1 various" ; !Rand key:n71433757821n
+nookming:nookaming    AV_TAG    " 1 inland, in the bush, out in the country" ; !Rand key:n71433759520n
+noomya:noomaya    AV_TAG    " 1 just a little while ago, just recently" ; !Rand key:n71433763238n
+noondaa-dbik:noondaa-dibik    AV_TAG    " 1 partway through the night" ; !Rand key:n73033840315n
+noondaa-naagshik:noondaa-onaagshig    AV_TAG    " 1 partway through the evening" ; !Rand key:n73033840367n
+noondaash:noondaash    AV_TAG    " 1 less than, under" ; !Rand key:n73033840430n
+noongo:noongo    AV_TAG    " 1 [see nongo]" ; !Rand key:n71433765179n
+noongom:noongom    AV_TAG    " 1 [see nongo]" ; !Rand key:n73099455099n
+noopming:noopiming    AV_TAG    " 1 in the bush, out in the country, inland (up from the water, esp., into wilderness areas)" ; !Rand key:n71433765272n
+nshike:nishike    AV_TAG    " 1 alone, by oneself, not with others" ; !Rand key:n71433869202n
+nshkwaach:nVv1shkwaaj    AV_TAG    " 1 last time" ; !Rand key:n71434552943n
+nsidam:nVv1sidam    AV_TAG    " 1 regrettable, unfortunate;  2 one's normal self" ; !Rand key:n71434553757n
+nsodbik:nisodibik    AV_TAG    " 1 for three nights, three nights" ; !Rand key:n73099751806n
+ntam:nitam    AV_TAG    " 1 first;  2 [someone's] turn" ; !Rand key:n71435060710n
+nwaagshkaa:nVv1waagVv1shkaa    AV_TAG    " 1 my roll [in dice]" ; !Rand key:n71435061392n
+nwanj:nawanj    AV_TAG    " 1 more, to a greater degree than some reference point" ; !Rand key:n71435082621n
+nwesh:nwezh    AV_TAG    " 1 [for] a long time" ; !Rand key:n71435144029n
+nwesh:ginwezh    AV_TAG    " 1 [for] a long time" ; !Rand key:n71435144029n
+nyaangim:nayaangim    AV_TAG    " 1 until" ; !Rand key:n71435144325n
+nzaam:onzaam    AV_TAG    " 1 because" ; !Rand key:n71435144353n
+odi:odi    AV_TAG    " 1 there, over there" ; !Rand key:n71435145100n
+oodi:oodi    AV_TAG    " 1 [see odi]" ; !Rand key:n71435145910n
+pane:apane    AV_TAG    " 1 all the time, always, for all time; since, ever since" ; !Rand key:n73031113395n
+pii:apii    AV_TAG    " 1 at a certain time, when" ; !Rand key:n73031182181n
+piich:apiich    AV_TAG    " 1 in a while" ; !Rand key:n73031183008n
+piichin:apiichin    AV_TAG    " 1 continually, keep [doing...], every now and then, from time to time" ; !Rand key:n73031184500n
+pipiichin:pipiichin    AV_TAG    " 1 from time to time" ; !Rand key:n73031210275n
+pooch:pooch    AV_TAG    " 1 have to, must" ; !Rand key:n73031213440n
+pooj:pooj    AV_TAG    " 1 [see booch]" ; !Rand key:n73031276943n
+sha:osha    AV_TAG    " 1 emphatic (emphatic of contradiction)" ; !Rand key:n7303131304n
+shawekna:ashawekana    AV_TAG    " 1 at the side of the road" ; !Rand key:n73031381859n
+shaweyiing:ashaweyiing    AV_TAG    " 1 alongside [of something], beside, on the side [of something]" ; !Rand key:n73031382986n
+shaweyiing:ashaweyVi1hiing    AV_TAG    " 1 alongside [of something], beside, on the side [of something]" ; !Rand key:n73031382986n
+shkwaach:Vi1shkwaach    AV_TAG    " 1 last [in a sequence];  2 last time;  3 since, since the last time [that something happened]" ; !Rand key:n73031486249n
+shkwaay'iing:Vi1shkwaayVi1hiing    AV_TAG    " 1 behind" ; !Rand key:n7303154706n
+shkwaayaaj:Vi1shkwaayaaj    AV_TAG    " 1 last in sequence, last;  2 late" ; !Rand key:n7303154287n
+shkweyaang:Vi1shkweyaang    AV_TAG    " 1 at the end, in the latter days;  2 behind, towards the back, coming after (in a sequence); in the rear;  3 in reference to one's rear-end, at the back (of one's body), behind (as the rear part of one's body)" ; !Rand key:n7303155689n
+shpide-dbik:Vi1shpide-dibik    AV_TAG    " 1 in the middle of the night" ; !Rand key:n73034013267n
+shpiming:ishpiming    AV_TAG    " 1 above, on high, up high;  2 upstairs" ; !Rand key:n73031513187n
+shpimsagoong:Vi1shpimisagoong    AV_TAG    " 1 upstairs" ; !Rand key:n73031513257n
+swii:swii    AV_TAG    " 1 but, though" ; !Rand key:n7303218272n
+waabang:waabang    AV_TAG    " 1 tomorrow" ; !Rand key:n73071458792n
+waabnong:waabanong    AV_TAG    " 1 east, in the east" ; !Rand key:n73032185519n
+waakwiing:waakwiing    AV_TAG    " 1 in heaven" ; !Rand key:n73032479735n
+waasa:waasa    AV_TAG    " 1 far, far away" ; !Rand key:n73032485416n
+waawaach:waawaach    AV_TAG    " 1 even, expressing a situation that is considered extreme or unlikely" ; !Rand key:n73032684873n
+waawaanak:waawaanak    AV_TAG    " 1 in ample time" ; !Rand key:n73034031881n
+waawiikaa:waawiikaa    AV_TAG    " 1 infrequently, sporadically" ; !Rand key:n73037254506n
+wadi:wadi    AV_TAG    " 1 there, over there" ; !Rand key:n73071852163n
+was-odi:awas-odi    AV_TAG    " 1 way over there" ; !Rand key:n7303279371n
+was-oodi:awas-oodi    AV_TAG    " 1 way over there" ; !Rand key:n73032710808n
+washme:awashime    AV_TAG    " 1 more [than another], more [than at another time];  2 more than [some point of reference], beyond [some point of reference]" ; !Rand key:n7303279189n
+washta:awashta    AV_TAG    " 1 farther, beyond, yonder" ; !Rand key:n7303279304n
+wasnaago:awasVi1naago    AV_TAG    " 1 day before yesterday" ; !Rand key:n73071853413n
+waswaabang:awaswaabang    AV_TAG    " 1 day after tomorrow" ; !Rand key:n73032710903n
+wenbik:wenibik    AV_TAG    " 1 for a little while, for a few moments" ; !Rand key:n73071884268n
+wendgo:wendVv1go    AV_TAG    " 1 virtually, almost, to a point of close approximation; to such a degree;  2 as if, in a way mimicking the real thing" ; !Rand key:n73015757920n
+wewena:wewena    AV_TAG    " 1 carefully, with care;  2 Take it easy. (expression used in leave-taking)" ; !Rand key:n730719665n
+weweni:weweni    AV_TAG    " 1 properly, good, well;  2 thoroughly, thorough" ; !Rand key:n73030622947n
+wewenong:wewenong    AV_TAG    " 1 with ample space" ; !Rand key:n730719792n
+wewiip:wewiib    AV_TAG    " 1 quickly, in a hurry, hurriedly; at once (immediately), right away" ; !Rand key:n730719833n
+widi:iwidi    AV_TAG    " 1 there, over there" ; !Rand key:n73071960465n
+wiiba:wiiba    AV_TAG    " 1 early;  2 soon, in a short time" ; !Rand key:n73071960819n
+wiikaa:wiikaa    AV_TAG    " 1 ever;  2 late, after some appropriate time;  3 after a time, after a long time;  4 rarely, only rarely;  5 never (with a negative adverb such as gaa or gaawii" ; !Rand key:n730720991n
+wiinge:wiinge    AV_TAG    " 1 entire, entire group, entire lot, entirely; with all one's might" ; !Rand key:n73072043830n
+wnjida:wanjida    AV_TAG    " 1 [see njida]" ; !Rand key:n73072143419n
+yaawnaadkamik:ayaawVv1naadakamig    AV_TAG    " 1 extremely" ; !Rand key:n73072239819n
+yawenh:yawenh    AV_TAG    " 1 ouch" ; !Rand key:n73072239938n
+yekwaay'iing:ayekwaayVi1hiing    AV_TAG    " 1 at the end [of a physical structure]" ; !Rand key:n73072241221n
+yeshkat:ayeshkad    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877070n
+yeshkat:wayeshkad    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877070n
+yeyiidooy'ii:ayeyiidooyVi1hii    AV_TAG    " 1 at both ends, on both ends" ; !Rand key:n73072241962n
+yeyiidwagaat:ayeyiidawagaad    AV_TAG    " 1 on both legs" ; !Rand key:n73072242268n
+yeyiidwikna:ayeyiidawikana    AV_TAG    " 1 on both sides of the road" ; !Rand key:n73072242313n
+yeyiidwinik:ayeyiidawinik    AV_TAG    " 1 on both arms" ; !Rand key:n73072242358n
+yeyiidwiy'iing:ayeyiidawiyVi1hiing    AV_TAG    " 1 at both ends, on both sides" ; !Rand key:n73072242450n
+zaagda:zaagida    AV_TAG    " 1 out past the bay, out on the open water" ; !Rand key:n73032714640n
+zaagjiy'iing:zaagijiyVi1hiing    AV_TAG    " 1 outside, on the outside" ; !Rand key:n73072270473n
+zaam:ozaam    AV_TAG    " 1 excessively, overly, too;  2 because" ; !Rand key:n73028851320n
+zhaawnong:zhaawanong    AV_TAG    " 1 in the south, to the south, south" ; !Rand key:n73072637303n
+zhaazhi:zhaazhi    AV_TAG    " 1 already, by now, by this time;  2 quite a while ago, long ago" ; !Rand key:n73072639512n
+zhaazhwaach:zhaazhwaach    AV_TAG    " 1 somewhat like" ; !Rand key:n73034220241n
+zhanda:zhanda    AV_TAG    " 1 here" ; !Rand key:n73072639741n
+zhebaa:zhebaa    AV_TAG    " 1 this [past] morning, this morning just past" ; !Rand key:n73072641352n
+zhgo:zhVv1go    AV_TAG    " 1 just about, very soon" ; !Rand key:n73072681240n
+zhi-dbishkoo:izhi-dibishkoo    AV_TAG    " 1  just like, similar to;  2 at a point parallel " ; !Rand key:n73035131454n
+zhigwek:izhigVv1wek    AV_TAG    " 1 directly, the most direct way" ; !Rand key:n73035442183n
+zhiw:zhiw    AV_TAG    " 1 there" ; !Rand key:n73072870871n
+zhiwi:izhiwi    AV_TAG    " 1 there" ; !Rand key:n73072872227n !initial i is just a guess
+zhoozhoobnakong:zhoozhoobVv1nakong    AV_TAG    " 1 in the treetop" ; !Rand key:n73035440356n
+zhyaaw:zhiyaaw    AV_TAG    " 1 straight" ; !Rand key:n73035442319n
+ziingaak:ziingaak    AV_TAG    " 1 in the corner" ; !Rand key:n73033212304n
+aaning:aaning    AV_TAG    " 1 some; a few" ; !Rand key:n65140559245n
+gegwa:gegwa    AV_TAG    " 1 [see gego]" ; !Rand key:n65297885340n
+de-mnik:de-minik    AV_TAG    " 1 a substantial amount, a fair amount;  2 enough, a sufficient amount" ; !Rand key:n65303457850n
+waawaasa:waawaasa    AV_TAG    " 1 far, a great distance" ; !Rand key:n65303517919n
+kawe:akawe    AV_TAG    " 1 first of all (in a time sequence); before other things, beforehand" ; !Rand key:n201021220-33-45n
+gnamaa:gonamaa    AV_TAG    " 1 in case" ; !Rand key:n201062315-36-15n
+gchi-gaaming:gichi-agaaming    AV_TAG    " 1 overseas, abroad, esp. in Europe" ; !Rand key:n201012519-40-3n
+wenpanzh:wenipanzh    AV_TAG    " 1 handy, easy" ; !Rand key:n201012620-32-34n
+aagwigmik:aagawigamig    AV_TAG    " 1 behind the house, behind a house" ; !Rand key:n20101278-54-38n
+aagwiyiing:aaagwiyVi1hiing    AV_TAG    " 1 behind it, behind" ; !Rand key:n20101278-57-34n
+mno-mnik:mino-minik    AV_TAG    " 1 a good amount; enough" ; !Rand key:n2010121220-18-29n
+mno-nish:mino-onizhish    AV_TAG    " 1 good thing" ; !Rand key:n2010121220-23-48n
+mno-nish:mino-onizhishin    AV_TAG    " 1 good thing" ; !Rand key:n2010121220-23-48n
+aaniipiish:aaniipiish    AV_TAG    " 1 where (primarily interrogative, used to ask questions of where)" ; !Rand key:n201132120-56-38n
+aabdik:aabidig    AV_TAG    " 1 [see aabdek]" ; !Rand key:n201132422-49-50n
+niizh-zhinin:niizh-zhinin    AV_TAG    " 1 one quarter, a fourth" ; !Rand key:n201132517-20-51n
+aabtaya'ii:aabitayahii    AV_TAG    " 1 the centre (of something), in the center" ; !Rand key:n201132517-25-10n
+aanwak:aaniwag    AV_TAG    " 1 anyhow" ; !Rand key:n201132518-46-37n
+baamaapii:baamaapii    AV_TAG    " 1 later on" ; !Rand key:n201132520-19-25n
+babiijin:ababiijin    AV_TAG    " 1 always" ; !Rand key:n20113269-0-33n
+bboonong:biboonong    AV_TAG    " 1 last winter;  2 last year" ; !Rand key:n201132612-11-40n
+bebesho:bebesho    AV_TAG    " 1 near to each other, near together" ; !Rand key:n201132613-0-27n
+bgojiing:bagVo1jiing    AV_TAG    " 1 in the wilds; out in the bush" ; !Rand key:n201132616-0-2n
+bgojiing:bagojiing    AV_TAG    " 1 in the wilds; out in the bush" ; !Rand key:n201132616-0-2n
+biinjiiy'ii:biinjiiyVi1hii    AV_TAG    " 1 inside, inside of, (with)in" ; !Rand key:n201132618-47-23n
+dching:daching    AV_TAG    " 1 times (repetitions)" ; !Rand key:n201132717-9-35n
+ddibew:dadibew    AV_TAG    " 1 bank of a stream or river;  2 at the edge of a body of water, on the beach" ; !Rand key:n201132717-33-23n
+dgwaagong:dagwaagong    AV_TAG    " 1 last fall, last autumn" ; !Rand key:n201132720-20-38n
+endso-niibing:endaso-niibing    AV_TAG    " 1 every summer, each summer" ; !Rand key:n201132920-17-45n
+gaawiin:gaawiin    AV_TAG    " 1 no, not" ; !Rand key:n201132923-1-8n
+gbe-dgwaagi:gabe-dagwaagi    AV_TAG    " 1 all fall, all autumn" ; !Rand key:n201133010-30-19n
+piichi-gbey'iing:apiichi-gabeyVi1hiing    AV_TAG    " 1 for how long (a time), how long (a time)" ; !Rand key:n201133010-36-37n
+ggi:gagi    AV_TAG    " 1 not to mention, together with" ; !Rand key:n201133019-8-23n
+gidaabik:ogidaabik    AV_TAG    " 1 on a mountain top" ; !Rand key:n201133019-34-15n
+gidbak:ogidabak    AV_TAG    " 1 on the roof" ; !Rand key:n201133019-39-16n
+giinnangna:giininangVo1na    AV_TAG    " 1 now it turns out to be" ; !Rand key:n20113316-58-17n
+giizhaa:giizhaa    AV_TAG    " 1 already, beforehand" ; !Rand key:n201133118-25-51n
+gijya'ii:ogijVi1yahii    AV_TAG    " 1 on [top of] something, on top of something" ; !Rand key:n201133119-19-26n
+gijya'iing:ogijVi1yVi1hiing    AV_TAG    " 1 on [top of] something, on top of something" ; !Rand key:n201133119-23-18n
+gmaa:gomaa    AV_TAG    " 1 of considerable size, of considerable number" ; !Rand key:n20114117-10-52n
+gnage:ganage    AV_TAG    " 1 in the least, at all, by any means, not even" ; !Rand key:n20114118-8-45n
+gego:gegVo1    AV_TAG    " 1 don't" ; !Rand key:n20114119-3-40n
+gniinaa:giniinaa    AV_TAG    " 1 did I not?; I told you so" ; !Rand key:n20114120-0-33n
+gtakmigaang:gitakamigaang    AV_TAG    " 1 to or on the mainland" ; !Rand key:n20114211-46-15n
+jiigaajwan:jiigaajiwan    AV_TAG    " 1 by a stream or river, near a stream or river" ; !Rand key:n20114311-21-44n
+kewesh:Vv1kewesh    AV_TAG    " 1 for now; at present" ; !Rand key:n20114313-23-29n
+maa:imaa    AV_TAG    " 1 there (emphatic)" ; !Rand key:n20114317-0-0n
+gnige:gonige    AV_TAG    " 1 at least;  2 at all (with a negative), even (with a negative)" ; !Rand key:n2011497-51-56n
+maamnik:maaminik    AV_TAG    " 1 for some time, for a considerable while" ; !Rand key:n20114912-9-21n
+aapiichiin:aapiichiin    AV_TAG    " 1 from time to time" ; !Rand key:n20114912-18-51n
+niibnong:niibinong    AV_TAG    " 1 last summer" ; !Rand key:n20114913-27-32n
+mbe:ambe    AV_TAG    " 1 right now, immediately (in reference to something that has yet commenced)" ; !Rand key:n20114915-1-41n
+!gaawii ngoji:gaawii ningoji    AV_TAG    " 1 nowhere, not anywhere, no place" ; !Rand key:n20114915-8-23n
+!ngoding pii:ningoding apii    AV_TAG    " 1 sometime" ; !Rand key:n20114916-5-48n
+megyaakwaa:megwayaakwaa    AV_TAG    " 1 in the woods, in the bush" ; !Rand key:n20114919-8-20n
+aabtawdaaki:aabitawidaaki    AV_TAG    " 1 halfway up the hill" ; !Rand key:n20161216-48-56n
+aabtawkana:aabitawikana    AV_TAG    " 1 halfway point [on a route]" ; !Rand key:n20161216-52-1n
+aasmadin:aasamadin    AV_TAG    " 1 against the hillside" ; !Rand key:n2016166-57-19n
+aasmisak:aasamisag    AV_TAG    " 1 against the wall, on the wall (Wk, Wp);  2 in the other room, into the other room (CL)" ; !Rand key:n2016167-4-47n
+aazhoodaaki:aazhoodaaki    AV_TAG    " 1 on the other side of the hill, over the hill" ; !Rand key:n20161711-6-5n
+bgodaakwaa:bagodaakwaa    AV_TAG    " 1 deep in the forest" ; !Rand key:n201611213-56-39n
+biinjna:biinjina    AV_TAG    " 1 internal [in one’s body], internally [in one’s body]" ; !Rand key:n201611411-20-36n
+dbigiishk:dVv1bigiishk    AV_TAG    " 1 abruptly cut off (e.g. fall silent), [sound] end abruptly" ; !Rand key:n20161237-28-58n
+de-mno-mnik:de-mino-minik    AV_TAG    " 1 a right amount [neither too much nor too little]" ; !Rand key:n20161237-48-43n
+ekwaa-oodenaw:yekwaa-oodenaw    AV_TAG    " 1 the end of town, at the end of town" ; !Rand key:n20162116-6-22n
+
+LEXICON AV_TAG
++Adv:0  CLOSED_PROTECTION ; 
+

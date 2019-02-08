@@ -1,0 +1,185 @@
+!! Noun inflection
+!  ---------------
+
+!Todo:
+!need to implement obviation:
+!   these are the facts as far as I understand them
+!   animate nouns possessed by third persons must be obviative
+!   obviation is consistent throughout a DP (obviative possessor has obviative possessum never proximate possessum)
+!      this is somewhat redundant given the above generalization
+!   inanimate nouns are not obligatorily obviative when possessed
+!   it is unclear to me whether unspecified possessors trigger obviation
+!   going to check with Rand
+!indefinite pos cannot be inflected for number/obviation (correct?)
+
+!moved to personprefixes.lexc
+!LEXICON N_PREFIXES 
+!1+:ni%< N_FIRST_PERSON_SET ;
+!2+:gi%< N_SECOND_PERSON_SET ;
+!3+:o%<  N_THIRD_PERSON_SET ;
+!X+:i%<  N_X_PERSON_SET ; !will need to disallow indefinite possession on alienable
+!        N_PRENOUNS ;
+!
+!!recommend specifying animacy near stem and as inflectional feature in plurals/obviatives
+!!small redundancy, but spares memory and allows agreement checking if not inflected
+!!memory not spared, because you might not want to accept the wrong gendered plural marker (though it does happen under certain discursive contexts)
+!
+!LEXICON N_FIRST_PERSON_SET 
+!@P.Person.1@    N_PRENOUNS ;
+!@P.Person.1@    N_EXTENDED_PREFIX ;
+!
+!LEXICON N_SECOND_PERSON_SET 
+!@P.Person.2@    N_PRENOUNS ;
+!@P.Person.2@    N_EXTENDED_PREFIX ;
+!
+!LEXICON N_THIRD_PERSON_SET 
+!@P.Person.3@    N_PRENOUNS ;
+!@P.Person.3@    N_EXTENDED_PREFIX ;
+!
+!LEXICON N_X_PERSON_SET 
+!@P.Person.X@    N_PRENOUNS ;
+!@P.Person.X@    N_EXTENDED_PREFIX ;
+!
+!LEXICON N_EXTENDED_PREFIX
+!!need boundary to stop vowel coalescence across prefix-stem boundary
+!0:da%*    N_EXTENDED_PREFIX_HYPHEN ; 
+!0:di%*    N_EXTENDED_PREFIX_HYPHEN ; 
+!0:doo%*   N_EXTENDED_PREFIX_HYPHEN ; 
+!
+!LEXICON N_EXTENDED_PREFIX_HYPHEN
+!0:-     NOUNS ; 
+!        NOUNS ; 
+!
+LEXICON N_PRENOUNS
+PN/aabta+:aabita-    NOUNS    " 1 half " ; !Rand key:n72972558580n
+PN/baapaagi+shki+:baapaagi-oshki-    NOUNS    " 1 brand spanking new" ; !Rand key:n73010342316n
+PN/baate+:baate-    NOUNS    " 1 dried" ; !Rand key:n72975264705n
+PN/bbashko+:babashko-    NOUNS    " 1 bald, hairless" ; !Rand key:n72976161091n
+PN/bgoji+:bagVo1ji-    NOUNS    " 1 untame, wild" ; !Rand key:n72976843359n
+PN/biinji+:biinji-    NOUNS    " 1 in, inside" ; !Rand key:n72976956595n
+PN/dbik+:dibik-    NOUNS    " 1 night" ; !Rand key:n72994040520n
+PN/de+:de-    NOUNS    " 1 fair (amount), moderate (amount)" ; !Rand key:n73000754739n
+PN/gaadi+:gaadi-    NOUNS    " 1 spotted" ; !Rand key:n73016040578n
+PN/gbe+:gabe-    NOUNS    " 1 all, whole [length of time], entire [length of time]" ; !Rand key:n73017881737n
+PN/gchi+:gichi-    NOUNS    " 1 big, great, major" ; !Rand key:n73019338764n
+PN/gchitwaa+:gichitwaa-    NOUNS    " 1 holy, revered, venerable, saint, saintly;  2 special; classy" ; !Rand key:n73019354833n
+PN/gdagi+:gidagi-    NOUNS    " 1 freckled, mottled, spotted" ; !Rand key:n73019358803n
+PN/gete+:gete-    NOUNS    " 1 old" ; !Rand key:n73020052657n
+PN/ggashki+:gVi1gashki-    NOUNS    " 1 raw, uncooked" ; !Rand key:n73020284244n
+PN/giimooji+:giimooji-    NOUNS    " 1 secret" ; !Rand key:n73023045613n
+PN/giji+:Va1giji-    NOUNS    " 1 on, on top of" ; !Rand key:n73024358573n
+PN/gnaaj+:gVo1naaj-    NOUNS    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029576n
+PN/jiigi+:jiigi-    NOUNS    " 1 near" ; !Rand key:n72916440151n
+PN/maapiitaa+:maapiitaa-    NOUNS    " 1 sometime during" ; !Rand key:n73032439911n
+PN/mandaago+:mandaago-    NOUNS    " 1 beautiful, fair, handsome (usually, of a person)" ; !Rand key:n71429344252n
+PN/megwe+:megwe-    NOUNS    " 1 among, in, in the middle of, in the midst of" ; !Rand key:n71429560148n
+PN/mji+:maji-    NOUNS    " 1 bad, evil, mischievous, naughty" ; !Rand key:n71429741132n
+PN/mkade+:makade-    NOUNS    " 1 black" ; !Rand key:n71429743236n
+PN/mshi+:mishi-    NOUNS    " 1 big" ; !Rand key:n71430434048n
+PN/msko+:misko-    NOUNS    " 1 red" ; !Rand key:n71430546577n
+PN/myagi+:mayagi-    NOUNS    " 1 foreign, strange" ; !Rand key:n71430565470n
+PN/naami+:anaami-    NOUNS    " 1 under" ; !Rand key:n71431052170n
+PN/naano+:naano-    NOUNS    " 1 five" ; !Rand key:n71431061169n
+PN/ngo+:ningo-    NOUNS    " 1 one" ; !Rand key:n71431647032n
+PN/niiji+:iiji-    NOUNS    " 1 my fellow [so-and-so]" ; !Rand key:n73082447790n
+PN/niizhoo+:niizhoo-    NOUNS    " 1 two" ; !Rand key:n71431845259n
+PN/nso+:niso-    NOUNS    " 1 three" ; !Rand key:n71434558604n
+PN/nwiiji+:wiiji-    NOUNS    " 1 my fellow [person]" ; !Rand key:n73071982720n
+PN/shki+:oshki-    NOUNS    " 1 new;  2 young" ; !Rand key:n7303409726n
+PN/waawye+:waawiye-    NOUNS    " 1 round" ; !Rand key:n73071851611n
+PN/wenda+:wenda-    NOUNS    " 1 of no special kind, regular" ; !Rand key:n73034032619n
+PN/yekwaa+:ayekwaa-    NOUNS    " 1 at the end" ; !Rand key:n73072240567n
+PN/zaaw+:ozaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
+PN/zaaw+:zaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
+PN/aagwi+:aagawi-    NOUNS    " 1 behind, located behind" ; !Rand key:n20101278-46-15n
+!PN/da+:oda-    NOUNS    " 1 his/her/their" ; !Rand key:n201132713-44-38n
+!PN/doo+:o-    NOUNS    " 1 <i>the third person possessor marker</i>" ; !Rand key:n20113286-58-47n
+PN/dso+:daso-    NOUNS    " 1 a certain number of, so many of" ; !Rand key:n201132819-26-23n
+PN/endso+:endaso-    NOUNS    " 1 each, every" ; !Rand key:n201132916-43-33n
+PN/ge+:ge-    NOUNS    " 1 on the one hand...on the other hand; however;  2 too, also" ; !Rand key:n201133016-48-3n
+PN/baashji+:baashiji-    NOUNS    " 1 over, beyond (a specified object or location)" ; !Rand key:n20114915-37-53n
+PN/bbooni+:bibooni-    NOUNS    " 1 winter [type], type used in winter, appropriate for winter, etc." ; !Rand key:n201611110-38-48n
+PN/bganji+:baganji-    NOUNS    " 1 stupid, useless" ; !Rand key:n20161128-27-41n
+            NOUNS ;
+
+LEXICON N_CON_DIM   
++Con:%>e1ny    N_POS_THEME_GET ;
++Dim:%>e1ns    N_POS_THEME_GET ;
+            N_POS_THEME_GET ;
+
+LEXICON N_POS_THEME_GET 
+!go to N_POS_THEME only if you have person
+!go to N_PEJ is legit alternative
+@R.Person@  N_POS_THEME ;
+            N_PEJ ;
+
+LEXICON N_POS_THEME
+!optionality of +Pos instantiated in N_POS_THEME_GET
+!entrance requires a person flag, person flags are not forced to enter
++ThmPos:%>m N_PEJ ;
+
+LEXICON N_PEJ 
++Pej:%>sh    N_POS_NUM_GET ;
+            N_POS_NUM_GET ;
+
+LEXICON N_POS_NUM_GET 
+@D.Person.X@@D.Person.3@@R.Person@  N_POS_NUM_2_1 ;
+@D.Person.X@@D.Person.1@@R.Person@  N_POS_NUM_2_3 ;
+@R.Person.3@            N_POS_NUM_3 ; 
+                        N_MOOD_GET ;
+
+!optionality of possessor number instantiated in GET
+!entrance requires a person flag, person flags are not forced to enter
+
+!should there be a nomenclature for the descendants of gateways?
+!a specified order?
+!it seems that one could have some indentation or bracketing to indicate when a sublexicon is under a gateway
+!though within a lexicon, whitespace matters (?)
+
+LEXICON N_POS_NUM_2_1
+!2 prefix may be followed by 1pl suff=1.pl.inc
++1+Pl:%>naan2y1     N_MOOD_GET ;
+
+LEXICON N_POS_NUM_2_3
+!3 prefix may be followed by 2pl suff=3.pl
++2+Pl:%>waa   N_MOOD_GET ;
+
+LEXICON N_POS_NUM_3
++3+4:%>niw2   N_MOOD_GET ;
+
+!style/syntax note
+!the following might be intuitive, but it is wrong
+!it will match a "+" followed by a multicharacter "1Pl" ... which doesn't exist
+!further, to make an output, you need to cross the fsas. 
+!   [a|b] .x. [c|d] -> a:c, b:d
+!   [a|b] .x. [c] -> a:c, b:c
+!<"+"[1Pl|21]>:inaan   N_MOOD_GET ; !yaml currently excludes second person prefix, though this is used for first person inclusive
+!style on regexes for features
+
+!style note: terminal symbols only introduced when no further morphemes can possibly follow
+
+LEXICON N_MOOD_GET 
++Prt:%>ban2i1  N_NUM_GET ;
+@R.Animate.1@@D.Person.3@   NA_VOCPL ; !3-possessed animates may not be pl
+!there might not be inanimate vocative plurals 
+!if there are, they are -idig, not *-idin
+@R.Animate.%0@   NA_VOCPL ;
+            N_NUM_GET ;
+
+LEXICON NA_VOCPL !Long feat name
++Voc+Pl:%>dig # ; !odawa specific variant (included because we are gearing towards Nish now)
+!+Voc+Pl:%>dog # ; !general oji variant
+
+LEXICON N_NUM_GET 
+@R.Animate.1@@D.Person.3@   NA_NUM ; !3-possessed animates may not be pl 
+@R.Animate.%0@   NI_NUM ;
++4:%>an1              # ;
++Loc:%>ng             # ;
+                # ;
+!intended: take one or none  of obv, loc, pl suffs, but no more
+LEXICON NA_NUM 
++Pl:%>ag # ;
+
+LEXICON NI_NUM 
++Pl:%>an1 # ;
+
