@@ -1,0 +1,354 @@
+! non-digraph relies on parens: [a (a)] ... is match greedy?
+!for loans that don't syncopate (but may take morphology), consider writing vowels with special characters to escape syncope (or any other phonology that they need not take)
+!could also translate loans into generic STEM+special char, then have loan word continuation lexica that spell out specific classes of loans by their phonological behavior
+
+! important note (possibly): *sVh->sh != *sh for histo vowel deletion
+define bound [%<|%>|%^|%*];
+define sigma [
+                b|d|g|p|t|k|
+                j|c h|
+                z (h)|s (h)|
+                m|n|
+                w|y|
+                %'|h|
+                a|i|o|e|
+                a1| !a1>C -> a>C, a1>e1 -> >e, a1>a -> aa>, else: 0 (pl/obv not lengthened, dim quality not affected, otherwise, long a appears before suffixes, else: delete)
+                i1| !i1> -> ii>, else: 0 (long i before all suffixes, else: delete) 
+                i2| !i2 -> i (PA *i, trigger for palatalization)
+                e1| !e1n[h|s|y] -> en[h|s|y], else: i (PA short *e, short for purposes of coalescence rule)
+                o1| !behaves exactly like o is expected to act... where does it appear in morph output? -> not in nouns!
+                w1| !w1[i|e1] -> o, (Odawa) w1a -> o, w1a -> wa, else: 0 (abstract w for PA labiovelars gw, kw, found in noun plurals) must be special char because velar-w clusters exist that do not undergo these rules (agwinde) (possibly could enforce morpheme boundary sensitivity if we wanted to get rid of w1 distinction)
+                w2| !w2[n|#] -> 0, else: w (appears in nouns that synchronically end in i, form wag plurals)
+                w3| !w3 -> 0 / C _, _C, _# (only surfaces in hiatus appears in negation)
+                w4| !w4 surfaces pre-vocalically, sometimes as o (appears (primarily?) in cnj dub)
+                w5| ![n|m]w5>a[n|g] -> [n|m]oa[n|g]->[n|m]oo[n|g], w5>goba -> >goba, else: w (VAI independent 3 infl)
+                y1| !y1->0 (trigger for palatalization in participles, vowel raising in participles)
+                s1| !s1->sh / _ i2
+                m1| !m1->a / _ [m|n] (comp len in vti)
+                n1| !n1->zh / _ i2 (appears in vtas)
+                n2| !n2->0 / _ .#. (appears in inflectional morphemes)
+                n3| !n3->0 / _ \.#. (appears after some negations)
+                n4| !n4->n / (non comp len in vti)
+                b1| !d1b1 -> p (cnj preterites)
+                d1| !nd1 -> ng, d1b1 -> p, d1y1 -> j, else: d 
+                d2| !deletable d in vii
+                c1| !conjunct, negation linker (nasal-neg[s] -> nz, v-v -> vyv)
+                X2| !'segment' to allow special phonology in ccnjs
+                Va1| !Valen special char, instant remap: a lowered from o
+                Vi1| !Valen special char, instant remap: a that in other dialects is i
+                Vv1| !Valen special char, instant remap: unknown short vowel
+                Vo1| !Valen special char, instant remap: o/wa variation
+                Vo2| !Valen special char, instant remap: a that in other dialects is o, but is [e] in initial change (/o/ is [we] in initial change, /a/ is [e] in initial change)
+                "PV/CCNJ+" !marks changed conjunct form
+            ]; 
+define cons [
+                b|d|g|p|t|k|
+                j|c h|
+                z (h)|s (h)|
+                m|n|
+                w|y|
+                %'|h|
+                w1| 
+                w2|
+                w3|
+                w4|
+                w5|
+                y1| 
+                s1| 
+                m1|
+                n1| 
+                n2| 
+                n3| 
+                n4| 
+                b1|
+                d1|
+                d2
+                !c1 !primary role is an inserted hiatus breaker. underlying presence w/ designation as consonant triggers vowel insertion rules (not desired)
+            ]; 
+define cseqs [[
+                b|d|g|p|t|k|
+                j|c h|
+                [z (h)]|[s (h) (p|t|k)]|
+                [m (b)]|[n (d|[z (h)]|j|g|h|s|y|y1)]
+               ](w)|
+                h|%'|w|y|
+                [g|k]w2|
+                w1|w5|y1|s1|m1|n1|n2|n3|n4|b1|d1|d2
+            ]; 
+define codaseqs [
+                b|d|g|p|t|k|
+                j|[c h]|
+                [z (h)]|[s (h) (p|t|k)]|
+                [m (b)]|[n (d|[z (h)]|j|g|h|s|y)]|
+                w|y|
+                w1|w5|y1|m1|n1|n2|n3|n4|s1|b1|d1|d2
+                ]; 
+define longv [a a|e|i i|o o];
+define shortv [a|i|o|e1]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
+!define trushortv [a \[a]|i \[i]|o \[o]|e1]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
+define shortvsurface [a|i|o]; 
+define absv [a1|i1|i2|o1|e1];
+define vowel [a (a)|i (i)|o (o)|e|a1|i1|i2|o1|e1];
+define nastrig [n [h|y|s]];
+
+define nas [n|n2|m|m1];  !should the other nasals be here (n4?)
+
+!special y for raising a (-naan-ag -> naanig, -e1ny-ag-> enyig, -dy-ag (preterites) -> jig)
+
+!remapping rule to purge valentine's special vowels
+define rmvalent [
+                    Va1 -> o ,
+                    Vi1 -> a ,
+                    Vv1 -> i ,
+                    Vo1 -> w a ,
+                    Vo2 -> a 
+                ];
+
+!####
+!#rules that require morpheme boundary reference
+!####
+!{ morph bound
+!{dependent stems 
+define preGli [ o -> w || _ %< %^ vowel ];  
+define preDel [ shortv -> 0 || _ %< %^ vowel ];  
+!}
+!{prefix adjustments
+define optinitV [shortv (->) 0 || _ %< shortv cons ] ; !comment this rule for post-rhythmic syncope stage, could use trushortv
+define preLen [ [..] -> o ||  %< _ o ];
+define preEpen [ [..] ->  d || _ %< vowel ];
+!}
+define conPl [ shortv -> i || e1 n y %>  _ ]; !would be nice to have y1 here, but then it is the only y1 that doesn't delete
+
+define a1toshort    [a1 %> a  ->  a %>] ;
+define a1toe        [a1 %> e1  -> %> e] ;
+define a1tolong     [a1 %>  ->  a a %>] ;
+define i1tolong     [i1 %>  ->  i i %>] ;
+
+define ordAssim     [nas -> m || _ %> b1 ,, !cnj prets have assim, no epenthesis
+                    nas -> n ||
+                                _ c1 %> [s|z|d|d1|j|g] , !cnj neg, else assim
+                                _ %> k !VAI, VTI imperatives are only affixes beginning with k
+                    ] ; 
+define NC           [%> k -> g || n _ ] ; !VAI VTI imperatives [m|n]k -> ng
+define cnjD1Gnasstem [ d1 -> g || nas c1 %>  _ ] ;
+define partexcise   [ y1 -> 0 || d1 _ w4, d1 _ %> b1 ] ; !keep d1 next to special mode consonants so d1 -> g / _ w4 (cnjd1w4), d1b1 -> p (cnjD1p)
+define cnjD1p       [d1 -> p || \[nas] _  %> b1 ]; !fortition for pret
+define cnjpb1       [b1 -> 0 || p %>  _ ]; !cleaning up fortition
+define cnjnegsig    [ [..] -> w4 || s i w3 %> d1 _ .#. ] ; !3Sg neg # -> sig *sid
+define cnjd1w4      [ d1 -> g || _ w4 ] ; !d1 (third person) turns to g before dub
+                                            !precedes w4 -> o, could d1 -> g || _ o/wwork?
+!define cnj21dubw    [ [..] -> w || w4 %> a n g _ %> ] ; !close reading of Valentine 2001 shows 21pl dub has an extra w, Rand suspects this is an error.
+define cnjoban      [   w -> o || [e|[a n]] g _ %> b1 ,, !2pl, 21pl w -> o (prt)
+                        w4 -> o || _ %> b1 ]; !ditto for w4 (w4b1 only third person)
+define cnjW3w       [w3 -> w || _ %> vowel] ; !w3 only appears in hiatus (why req morph bound?)
+define cnjW3del     [w3 -> 0] ; !else: delete
+define cnjrmbound   [ %> -> 0 ||  m _ b1, nas c1 _ z ]; !making sure no epenthesis in assim cases
+define cnjaepen     [[..] -> a || nas c1 _ w4 , !a epen for nas-final
+                                  nas c1 %>  _  g [w4|o] !d1w4 *= labiovelar gw?
+                                  ] ; 
+define w5o          [w5 -> o || nas _ %> a [n|g]] ; !feed oa->oo
+define w5del          [w5 -> 0 || _ %> g o b a  ] ; !bleed ccEpen
+define w5w          [w5 -> w] ; !doesn't require morph bound, but kept it here for contiguity with other w5 rules
+define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization...
+                            nas c1 _ %> nas ]; !workaround for conjunct order
+
+define rmBound [[%>|%<|%^] -> 0]; 
+!} end morph bound
+
+!####
+!#normal rules
+!####
+
+!##Conjunct order rules
+define ccnjexcrspec [ [..] (->) i n || "PV/CCNJ+" _ d ] ; !this might be the obligatory way of doing excrescent nasals with d, if so, ccnjexcr must also change!!
+define ccnjlong  [i i -> X2 a a, a a -> X2 y a a, e -> X2 y e, o o -> X2 w a a || "PV/CCNJ+" (cseqs) _ ] ; !changed forms, X2 is a blocker to stop changed short from getting fed by this rule
+define ccnjshort [[i|a] -> X2 e, o -> X2 (w)e || "PV/CCNJ+" (cseqs) _ ] ; !changed forms
+define ccnjexcr [[..] (->) n || X2 (w|y)[e|a a] _ d ,, [..] (->) m || X2 (w|y)[e|a a] _ b ] ; 
+define rmccnj       [["PV/CCNJ+"|X2] -> 0] ;
+define cnjHiatus    [c1 -> y || vowel _ vowel] ; !V-final hiatus
+define cnjVoi       [s -> z  || nas c1 _ ] ; !nas-final negation
+define d2k          [d2 c1 g -> k || _ .#. ] ; !d-final vii cnj 0sg ends in k, not dg 
+define d2del        [d2 c1 -> 0 || _ s ] ; !d-final vii loses d before s
+define d2d          [d2 -> d] ;
+define cnjRmC1      [c1 -> 0] ; !no more use for special c1
+define cnjD1Gnas    [d1 -> g || nas _ ]; !oft-duplicated d1->g change (envi mildly different above
+define d1pal    [[d|d1] -> j || _ y1 vowel ]; !palatalization in participles, targets d now because -d `+3' in VTA 3C pattern does not fuse like d1 does, but it does palatalize
+define cnjD1d       [d1 -> d]; !elsewhere d1
+define cnjW4nas     [[..] -> h || w4 e n2 _ ]; !third person dub nasalization, Medler didn't do this
+define cnjW4w       [w4 -> w || _ vowel]; !w4 non-o realization
+define cnjw4Del     [w4 -> 0]; !elsewhere
+define cnjb1b       [b1 -> b]; !assimilator b now b
+
+
+
+!other rules
+define vtiVoi [m1 s -> n z ] ; !nas-final negation (duplicating a little!)
+define complen [m1 -> a || _ [m|n]] ;
+define m1n      [m1 n4 -> n] ;
+define n4n      [n4 -> n] ;
+define m1m      [m1 -> m] ;
+define w2nas [ w2 -> 0 || _ (vowel) [m|n|n2|n3]]; !not n1 (former lateral)
+define w2def [ w2 -> w ];
+define Spal [s1 -> s h || _ i2 ]; 
+define Salv [s1 -> s];
+define Npal [n1 -> z h || _ i2]; 
+define i2def [i2 -> i];
+define Nalv [n1 -> n]; 
+
+define ny [[y|y1] -> h || n _ [%-|.#.]] ;
+
+!define apocope [ [shortv] -> 0 ||  cons _ .#. ,, !cons specified because 'i' in 'ii' shouldn't delete
+!                 [w|y|absv|w1|w2|y1] -> 0 || _ .#.]; !these rules apply "at the same time"
+!accounting for word-minimality
+define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] cseqs _ .#. ,, !cons specified because 'i' in 'ii' shouldn't delete
+                 [w|y|absv|w1|w2|y1] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] (cseqs) _ .#.]; !these rules apply "at the same time"
+
+define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
+
+define n2del  [ n2 (->) 0 || _ .#. ]; !deleting n2s are strictly Odawa, variable in Medler
+define n2def  [ n2 -> n];
+define vvvDel [ shortv -> 0 // _ longv, longv _ ]; 
+
+!I don't think it can be included with vCoal (but can't remember why)
+!define Ecoal [e1 shortv -> e] ; 
+! this saves contemptives/diminutives from getting aa:
+!define bleedvCoal [a1 e1 -> e]; !obsolesced by a1toe
+
+define y1Coal [y1 shortv -> i ];
+define w1Coal [w1 [i|e1] -> o]; 
+define w1Coal2 [w1 a -> o]; !only Odawa
+!define w1Faith [w1 a -> w a]; !other dialects
+define w1Del [w1 -> 0]; 
+!define nyCoal [shortv -> i || n y _ ];
+define wiCoal [w i (->) o]; !Medler does this (could be more widespread, optional?)
+
+!will need to apply vowel deletion over nasal
+!giigoonhe1ns -> giigoons
+!but not giigoonhag -> *giigoonhg (giigoonyag)
+define vCoal [shortv -> o || [o|o1] _,, shortv -> i || [i|i1] _ ,,  shortv -> a || [a|a1] _ ];
+
+!these handle contemptive/diminutive allomorphy
+!define lenPreNas [ e1 -> e || _ nastrig];
+define lenPreNas [e1 -> e || _  nastrig,,
+                    [..] -> o || \o o _ nastrig ,,
+                    [..] -> i || \i i _ nastrig ,,
+                    [..] -> a || \a a _ nastrig ];
+
+define Ei [e1 -> i];
+
+!devoicing, final lowering is written by non-Rhodes spelling (i->e not standard)
+define devoice [b -> p, d -> t, g -> k || _ .#.];
+define finlowo  [o  ->  a || _ .#.];  ! SNM: had to split the rule in two - it
+define finlowi  [i (->) e || _ .#.];  ! is not possible to combine -> and (->) in the same rule the way it was.
+
+define str1 [ [..] -> %& || vowel _ vowel, vowel vowel _, e _ ];
+define str2 [ [..] -> %& || shortv _ (codaseqs) [%-|.#.] ];
+define str3 [ [..] -> %& // shortv cseqs shortv _ ];
+
+define ambigsync [vowel -> %' || !syncope in ortho ambig contexts
+                                \[.#.|%-] n _  [z|g|h|s|y], !material preceding n reflects a permitted ambiguity
+                                                            !for derived nh, ' not always used (mzinhigan perhaps preceding V must be long?)
+                                [s|z] _  [h]
+                                ];
+
+define clustsync [vowel -> %' || !crazy version (marking all prim/sec ambig clusts)
+                                n _  [d|z h|z|j|g|h|s|y],
+                                m _  [b],
+                                [s|z] _  [h],
+                                [s (h)] _  [p|t|k],
+                                cons-[w|y|w1|w2|w3|w4|y1|%'|h] _  w
+                                ];
+
+define rsync [vowel -> 0 || _ \%& ]; 
+
+define codawdel [w (->) 0 || _ cons ]; !w variably deletes in coda Medler
+                                        !alternatively: the deleting w (VAI 3 suff) is irregularly present
+
+define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init dep stem marker, & stress marker, *extended prefix boundary
+
+! read lexc /Users/arppe/giellatekno/langs/otw/src/morphology/lexicon.tmp.lexc
+! define Morphology ;
+
+read regex [ ! Morphology.l .o.
+    rmvalent    .o. !valentine special char killer
+    preGli      .o.
+    optinitV    .o. !allows post syncope n-nokii < n[d]-ankii < nidanokii. Comment out for syncope/non-syncope
+    preDel      .o.
+    preLen      .o.
+    preEpen     .o. 
+    conPl       .o.
+    a1toshort   .o.
+    a1toe       .o.
+    a1tolong    .o.
+    i1tolong    .o.
+    ordAssim    .o.
+    NC          .o.
+    cnjD1Gnasstem .o.
+    partexcise  .o.
+    cnjD1p      .o.
+    cnjpb1      .o.
+    cnjnegsig   .o.
+    cnjd1w4     .o.
+    cnjoban     .o.
+    cnjW3w      .o.
+    cnjW3del    .o.
+    cnjrmbound  .o.
+    cnjaepen    .o.
+    w5o         .o.
+    w5del       .o.
+    w5w         .o.
+    ccEpen      .o.
+    rmBound     .o. !rules at or above this line reference morpheme boundaries
+    ccnjexcrspec .o.
+    ccnjlong    .o.
+    ccnjshort   .o.
+    ccnjexcr    .o.
+    rmccnj      .o.
+    cnjHiatus   .o.
+    cnjVoi      .o.
+    d2k         .o.
+    d2del       .o.
+    d2d         .o.
+    cnjRmC1     .o.
+    cnjD1Gnas   .o.
+    d1pal       .o.
+    cnjD1d      .o.
+    cnjW4nas    .o. !Medler didn't have this rule
+    cnjW4w      .o.
+    cnjw4Del    .o.
+    cnjb1b      .o.
+    vtiVoi      .o.
+    complen     .o.
+    m1n         .o.
+    n4n         .o.
+    m1m         .o.
+    w2nas       .o.
+    w2def       .o.
+    Spal        .o.
+    Salv        .o.
+    Npal        .o.
+    i2def     .o.
+    Nalv        .o.
+    ny          .o.
+    vvvDel      .o.
+    y1Coal      .o.
+    w1Coal      .o.
+    w1Coal2      .o.
+    !w1Faith     .o.
+    w1Del       .o.
+    wiCoal      .o. !Might should include this rule (Medler, might be more general)
+    vCoal       .o.
+    lenPreNas   .o.
+    Ei          .o.
+    apocope     .o.
+    glidedel    .o.
+    n2del       .o.
+    n2def       .o.
+    str1        .o.
+    str2        .o.
+    str3        .o.
+    ambigsync   .o. !comment out for non-syncopated
+    rsync       .o. !comment out for non-syncopated
+    codawdel    .o. !Medler, probably more general
+    cleanse     
+    ]; 
