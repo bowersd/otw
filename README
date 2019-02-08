@@ -1,0 +1,123 @@
+.. -*- mode: rst -*-
+========================================
+ The Odawa morphology and tools
+========================================
+ 
+This directory contains source files for the Odawa language morphology
+and dictionary. The data and implementation are licenced under __LICENCE__
+licence also detailed in the LICENCE file of this directory. The authors named
+in the AUTHORS file are available to grant other licencing choices.
+
+Installation and compilation, and a short note on usage, is documented in the
+file INSTALL.
+
+This project originated in a collaboration between the Alberta Language
+Technology Lab and the Giellatekno project at the University of Tromso.
+Documentation for applying their infrastructure and tools to the grammar here
+is scattered around on the Giellatekno and Divvun pages, e.g.:
+
+* http://giellatekno.uit.no/otwdoc/index.html
+* http://giellatekno.uit.no/doc/tools/docu-otw-manual.html
+* http://divvun.no/doc/index.html
+
+Clearly, Giellatekno tools are not necessary to use the morphology and
+phonology developed here. They are provided here because they may be
+useful.
+
+Note that the style of morphological analysis used here departs from common 
+practice in the Giellatekno community. Namely, the design here is modular.
+So there is a low level `what you see is what you get` analyzer, and if
+you do not want or like a tight morph-by-morph analysis, there is a companion
+analyzer that produces a more interpretable set of morphological features.
+This companion analyzer is produced by composing a transducer that reworks
+the tags. Because there are long-distance dependencies in Algonquian
+morphology, this transducer uses flag diacritics in rewrite rules. This
+makes xfst crash in compilation (as of 2017). 
+
+Furthermore, the phonological rules here are not 2-level rules, but `replace
+rules` (rules familiar from SPE-style rule-based phonology). Foma interprets
+the rules in src/phonology/otw-phon.xfscript differently (as of 2017).
+
+So, only hfst works for compilation. Please check INSTALL for further 
+information on specific compilation information.
+
+
+Requirements
+------------
+
+In order to compile and use Odawa language morphology and dictionaries,
+you need:
+
+* Xerox Finite-State Morphology tools, or
+* Helsinki Finite-State Technology library and tools, version 3.8 or newer, or
+* Foma finite-state tool
+
+Optionally:
+
+* VislCG3 Constraint Grammar tools
+
+Downloading
+-----------
+
+The Giellatekno tools can be acquired using `giella SVN repository 
+<http://divvun.no/doc/infra/anonymous-svn.html>`_, from the language specific
+directory, after the core has been downloaded and initial setup has been 
+performed. Replace the `src` directory from the Giellatekno directory with
+the `src` directory developed here to get the benefits of any additional 
+development from this project.
+
+This project can of course be downloaded in the usual Github ways.
+
+Installation
+------------
+
+This is all Giellatekno material:
+
+INSTALL describes the GNU build system in detail, but for most users the usual:
+
+	./configure
+	make
+	(as root) make install
+
+should result in a local installation and::
+
+	(as root) make uninstall
+
+in its uninstallation.
+
+If you would rather install in e.g. your home directory
+(or aren't the system administrator), you can tell ./configure::
+
+        ./configure --prefix=$HOME
+
+If you are checking out the development versions from SVN you must first create
+and install the necessary autotools files from the host system, and check that
+your environment is correctly set up. This is done by doing:
+
+  ./autogen.sh
+
+It is common practice to keep `generated files out of version control
+<http://www.gnu.org/software/automake/manual/automake.html#CVS>`_.
+
+VPATH builds
+------------
+
+If you want to keep the source code tree clean, a VPATH build is the solution.
+The idea is to create a build dir somewhere outside of the source code tree,
+and call `configure` from there. Here is one VPATH variant of the standard
+procedure:
+
+	mkdir build && cd build
+	../configure
+	make
+	(as root) make install
+
+This will keep all the generated files within the build/ dir, and keep the src/
+dir (mostly) free of generated files. If you are building from the development
+version in SVN, you must run the ./autogen.sh script BEFORE you take the steps
+above.
+
+For further installation instruction refer to file ``INSTALL``, which contains
+the standard installation instructions for GNU autoconf based software.
+
+.. vim: set ft=rst:
