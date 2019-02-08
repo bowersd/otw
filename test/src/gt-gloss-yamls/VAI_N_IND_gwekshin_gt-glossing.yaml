@@ -1,0 +1,117 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VAI - VV - gwekshin :
+     
+  #Template Key
+  #1	2	3	4   5
+  #per	neg     num     mod periph
+     
+     #this is pulled from book (p 232)
+     #Values from slots numbered: 1
+     1+gwekshin+VAI: ngwekshin
+     2+gwekshin+VAI: ggwekshin
+
+     #Values from slots numbered: 3
+     gwekshin+VAI+3: gwekshin
+     gwekshin+VAI+X: gwekshinam
+
+     #Values from slots numbered 1, 3
+     1+gwekshin+VAI+1+Pl: ngwekshinmi
+     2+gwekshin+VAI+1+Pl: ggwekshinmi
+     2+gwekshin+VAI+2+Pl: ggwekshinam
+     
+     #Values from slots numbered: 3, 5
+     gwekshin+VAI+3+3+4: gwekshinoon
+     gwekshin+VAI+3+3+Pl: gwekshinoog
+
+     #Values from slots numbered: 1, 4
+     1+gwekshin+VAI+Prt: ngwekshinnaaba
+     2+gwekshin+VAI+Prt: ggwekshinnaaba
+     1+gwekshin+VAI+Dub: ngwekshinnaadig
+     2+gwekshin+VAI+Dub: ggwekshinnaadig
+
+     #Values from slots numbered: 3, 4
+     gwekshin+VAI+3+Prt: gwekshinwiba #w-del-less
+     gwekshin+VAI+3+Dub: gwekshinwidig #w-del-less
+     gwekshin+VAI+X+Prt: gwekshinmaba 
+     gwekshin+VAI+X+Dub: gwekshinmidig
+     gwekshin+VAI+3+Prt+Dub: gwekshin'goba #'cons assumption -w '3' still present
+     gwekshin+VAI+3+4+Prt+Dub: gwekshinnigba #'
+     gwekshin+VAI+3+2+Pl+Prt+Dub: gwekshinwaagba
+     gwekshin+VAI+X+Prt+Dub: gwekshinmigba
+
+     #Values from slots numbered 1, 3, 4
+     1+gwekshin+VAI+1+Pl+Prt: ngwekshinminaaba
+     2+gwekshin+VAI+1+Pl+Prt: ggwekshinminaaba
+     2+gwekshin+VAI+2+Pl+Prt: ggwekshinmwaaba
+     1+gwekshin+VAI+1+Pl+Dub: ngwekshinminaadig
+     2+gwekshin+VAI+1+Pl+Dub: ggwekshinminaadig
+     2+gwekshin+VAI+2+Pl+Dub: ggwekshinmwaadig
+     
+     #Values from slots numbered: 3, 4, 5
+     gwekshin+VAI+3+Prt+3+4: gwekshinwibniin    
+     gwekshin+VAI+3+Prt+3+Pl: gwekshinwibniig   
+     gwekshin+VAI+3+Dub+3+4: gwekshinwidgenan   
+     gwekshin+VAI+3+Dub+3+Pl: gwekshinwidgenag  
+
+     #Values from slots numbered: 1, 2
+     1+gwekshin+VAI+Neg: ngwekshinzii
+     2+gwekshin+VAI+Neg: ggwekshinzii
+
+     #Values from slots numbered: 2, 3
+     gwekshin+VAI+Neg+3: gwekshinzii
+     gwekshin+VAI+Neg+X: gwekshinziim
+
+     #Values from slots numbered 1, 2, 3
+     1+gwekshin+VAI+Neg+1+Pl: ngwekshinziimi
+     2+gwekshin+VAI+Neg+1+Pl: ggwekshinziimi
+     2+gwekshin+VAI+Neg+2+Pl: ggwekshinziim
+     
+     #Values from slots numbered: 3, 2, 5
+     gwekshin+VAI+Neg+3+3+4: gwekshinziiwan
+     gwekshin+VAI+Neg+3+3+Pl: gwekshinziiwag
+
+     #Values from slots numbered: 1, 2, 4
+     1+gwekshin+VAI+Neg+Prt: ngwekshinziinaaba
+     2+gwekshin+VAI+Neg+Prt: ggwekshinziinaaba
+     1+gwekshin+VAI+Neg+Dub: ngwekshinziinaadig
+     2+gwekshin+VAI+Neg+Dub: ggwekshinziinaadig
+
+     #Values from slots numbered: 2, 3, 4
+     gwekshin+VAI+Neg+3+Prt: gwekshinziiwba #w-del-less
+     #gwekshin+VAI+Neg+3+Prt: gwekshinziiba #book
+     gwekshin+VAI+Neg+3+Dub: gwekshinziiwdig #w-del-less
+     #gwekshin+VAI+Neg+3+Prt: gwekshinziidig #book
+     gwekshin+VAI+Neg+X+Prt: gwekshinziimba 
+     gwekshin+VAI+Neg+X+Dub: gwekshinziimdig
+     gwekshin+VAI+Neg+3+Prt+Dub: gwekshinziigoba 
+     gwekshin+VAI+Neg+3+4+Prt+Dub: gwekshinziin'goba #'
+     gwekshin+VAI+Neg+3+2+Pl+Prt+Dub: gwekshinziiwaagba
+     gwekshin+VAI+Neg+X+Prt+Dub: gwekshinziimgoba
+
+     #Values from slots numbered 1, 2, 3, 4
+     1+gwekshin+VAI+Neg+1+Pl+Prt: ngwekshinziimnaaba
+     2+gwekshin+VAI+Neg+1+Pl+Prt: ggwekshinziimnaaba
+     2+gwekshin+VAI+Neg+2+Pl+Prt: ggwekshinziimwaaba
+     1+gwekshin+VAI+Neg+1+Pl+Dub: ngwekshinziimnaadig
+     2+gwekshin+VAI+Neg+1+Pl+Dub: ggwekshinziimnaadig
+     2+gwekshin+VAI+Neg+2+Pl+Dub: ggwekshinziimwaadig
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     gwekshin+VAI+Neg+3+Prt+3+4: gwekshinziiwbaniin #cons (w-del-less)
+     #gwekshin+VAI+Neg+3+Prt+3+4: gwekshinziibniin   #book
+     gwekshin+VAI+Neg+3+Prt+3+Pl: gwekshinziiwbaniig #cons (w-del-less)
+     #gwekshin+VAI+Neg+3+Prt+3+Pl: gwekshinziibniig  #book
+     gwekshin+VAI+Neg+3+Dub+3+4: gwekshinziiwdigenan #cons (w-del-less)
+     #gwekshin+VAI+Neg+3+Dub+3+4: gwekshinziidgenan   #book
+     gwekshin+VAI+Neg+3+Dub+3+Pl: gwekshinziiwdigenag #cons (w-del-less)
+     #gwekshin+VAI+Neg+3+Dub+3+Pl: gwekshinziidgenag  #book

@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VII - VV - maajiigin :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	obv     prt     dub
+     
+     #this is pulled from book (p 260)
+     #Values from slots numbered: 2
+     maajiigin+VII+Cnj+0: maajiiging
+     maajiigin+VII+Cnj+0+4: maajiigninig 
+
+     #Values from slots numbered: 2, 3
+     maajiigin+VII+Cnj+0+Prt: maajiigngiba #cons
+     #maajiigin+VII+Cnj+0+Prt: maajiiggiba #book (ngn -> g!)
+     maajiigin+VII+Cnj+0+4+Prt: maajiignin'giba #'
+
+     #Values from slots numbered: 2, 4
+     PV/CCNJ+maajiigin+VII+Cnj+0+Dub: myaajiignogwenh #changed conjunct...
+     PV/CCNJ+maajiigin+VII+Cnj+0+4+Dub: myaajiignin'gwenh #'
+
+     #Values from slots numbered: 2, 3, 4
+     maajiigin+VII+Cnj+0+Prt+Dub: maajiignogbane 
+     maajiigin+VII+Cnj+0+4+Prt+Dub: maajiignin'gobne #'
+
+     #Values from slots numbered: 1, 2
+     maajiigin+VII+Cnj+Neg+0: maajiignzinog 
+     maajiigin+VII+Cnj+Neg+0+4: maajiignzinoonig #cons
+     #maajiigin+VII+Cnj+Neg+0+4: maajiignzinnig #book alternate
+
+     #Values from slots numbered: 1, 2, 3
+     maajiigin+VII+Cnj+Neg+0+Prt: maajiignzinoogba
+     maajiigin+VII+Cnj+Neg+0+4+Prt: maajiignzinoon'giba #'cons
+     #maajiigin+VII+Cnj+Neg+0+4+Prt: maajiignznoon'giba #'book
+
+     #Values from slots numbered: 1, 2, 4
+     PV/CCNJ+maajiigin+VII+Cnj+Neg+0+Dub: myaajiignzinoogwenh #changed conjunct expected
+     #maajiigin+VII+Cnj+Neg+0+Dub: maajiignzinoogwenh #non-changed conjunct book
+     PV/CCNJ+maajiigin+VII+Cnj+Neg+0+4+Dub: myaajiignzinoon'gwenh #'changed conjunct expected
+     #maajiigin+VII+Cnj+Neg+0+4+Dub: maajiigzinnin'gwenh #'non-changed conjunct book
+     #maajiigin+VII+Cnj+Neg+0+4+Dub: maajiigzinoon'gwenh #'non-changed conjunct book
+
+     #Values from slots numbered: 1, 2, 3, 4
+     maajiigin+VII+Cnj+Neg+0+Prt+Dub: maajiignzinoogbane 
+     maajiigin+VII+Cnj+Neg+0+4+Prt+Dub: maajiignzinoon'gobne  #'cons
+     #maajiigin+VII+Cnj+Neg+0+4+Prt+Dub: majiignzinnin'gobne #'book (odd!)
+

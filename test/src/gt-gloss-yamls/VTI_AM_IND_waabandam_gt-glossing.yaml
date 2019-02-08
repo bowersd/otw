@@ -1,0 +1,165 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VTI - AM - waabandam :
+     
+  #Template Key
+  #1	2	3	4   5
+  #per	neg     num     mod periph
+     
+     #this is pulled from book (p 311)
+     #Values from slots numbered: 3
+     waabndaan+VTI+3+4: waabndamni 
+
+     #Values from slots numbered 1, 3
+     1+waabndaan+VTI+0: nwaabndaan
+     1+waabndaan+VTI+1+Pl: [nwaabndaanaa, nwaabndaami]
+     2+waabndaan+VTI+0: gwaabndaan
+     2+waabndaan+VTI+1+Pl: [gwaabndaanaa, gwaabndaami]
+     2+waabndaan+VTI+2+Pl: gwaabndaanaawaa
+     3+waabndaan+VTI+0: waabndaan #book has "struc w"
+     3+waabndaan+VTI+2+Pl: waabndaanaawaa #book has "struc w", final (error!) n
+     #waabndaan+VTI+X: NO IDEA
+     
+     #Values from slots numbered: 3, 4
+     #waabndaan+VTI+3+4+Prt: NO IDEA may need a third person prefix anyway, book indicates -w is 3 with no exp
+     #waabndaan+VTI+3+4+Dub: NO IDEA may need a third person prefix anyway, book indicates -w is 3 with no exp
+     waabndaan+VTI+3+4+Prt+Dub: waabndamnigba #book omits struc w
+
+     #Values from slots numbered: 1, 3, 4
+     1+waabndaan+VTI+0+Prt: nwaabndaanaaba
+     1+waabndaan+VTI+1+Pl+Prt: nwaabndaamnaaba
+     2+waabndaan+VTI+0+Prt: gwaabndaanaaba
+     2+waabndaan+VTI+1+Pl+Prt: gwaabndaamnaaba
+     2+waabndaan+VTI+2+Pl+Prt: gwaabndaanaawaaba
+     3+waabndaan+VTI+0+Prt: waabndaanaaba #book has "struc w"
+     3+waabndaan+VTI+2+Pl+Prt: waabndaanaawaaba #book has "struc w"
+     #waabndaan+VTI+X+Prt: NO IDEA
+     1+waabndaan+VTI+0+Dub: nwaabndaanaadig
+     1+waabndaan+VTI+1+Pl+Dub: nwaabndaamnaadig
+     2+waabndaan+VTI+0+Dub: gwaabndaanaadig
+     2+waabndaan+VTI+1+Pl+Dub: gwaabndaamnaadig
+     2+waabndaan+VTI+2+Pl+Dub: gwaabndaanaawaadig
+     3+waabndaan+VTI+0+Dub: waabndaanaadig #book has "struc w"
+     3+waabndaan+VTI+2+Pl+Dub: waabndaanaawaadig #book has "struc w"
+     #waabndaan+VTI+X+Dub: NO IDEA
+     3+waabndaan+VTI+Prt+Dub: waabndamgoba #book omits struc w
+     3+waabndaan+VTI+2+Pl+Prt+Dub: waabndamgwaaba #book omits struc w
+     
+     #Values from slots numbered: 3, 5
+     #waabndaan+VTI+3+4+0+Pl: waabndamniwan #? book mum, may not be possible 
+
+     #Values from slots numbered 1, 3, 5
+     1+waabndaan+VTI+0+0+Pl: nwaabndaanan
+     1+waabndaan+VTI+1+Pl+0+Pl: [nwaabndaamnan, nwaabndaanaanin]
+     2+waabndaan+VTI+0+0+Pl: gwaabndaanan
+     2+waabndaan+VTI+1+Pl+0+Pl: [gwaabndaanaanin, gwaabndaamnan]
+     2+waabndaan+VTI+2+Pl+0+Pl: gwaabndaanaawaan
+     3+waabndaan+VTI+0+0+Pl: waabndaanan #book has "struc w"
+     3+waabndaan+VTI+2+Pl+0+Pl: waabndaanaawaan #book has "struc w", final (error!) n
+     #waabndaan+VTI+X: NO IDEA
+
+     #Values from slots numbered: 3, 4, 5
+     #waabndaan+VTI+3+4+Prt+0+Pl: NO IDEA
+     #waabndaan+VTI+3+4+Dub+0+Pl: NO IDEA
+
+     #Values from slots numbered: 1, 3, 4, 5
+     1+waabndaan+VTI+0+Prt+0+Pl: nwaabndaanaabniin
+     1+waabndaan+VTI+1+Pl+Prt+0+Pl: nwaabndaamnaabniin
+     2+waabndaan+VTI+0+Prt+0+Pl: gwaabndaanaabniin
+     2+waabndaan+VTI+1+Pl+Prt+0+Pl: gwaabndaamnaabniin
+     2+waabndaan+VTI+2+Pl+Prt+0+Pl: gwaabndaanaawaabniin
+     3+waabndaan+VTI+0+Prt+0+Pl: waabndaanaabniin #book has "struc w"
+     3+waabndaan+VTI+2+Pl+Prt+0+Pl: waabndaanaawaabniin #book has "struc w"
+     #waabndaan+VTI+X+Prt+0+Pl: NO IDEA
+     1+waabndaan+VTI+0+Dub+0+Pl: nwaabndaanaadgenan
+     1+waabndaan+VTI+1+Pl+Dub+0+Pl: nwaabndaamnaadgenan
+     2+waabndaan+VTI+0+Dub+0+Pl: gwaabndaanaadgenan
+     2+waabndaan+VTI+1+Pl+Dub+0+Pl: gwaabndaamnaadgenan
+     2+waabndaan+VTI+2+Pl+Dub+0+Pl: gwaabndaanaawaadgenan
+     3+waabndaan+VTI+0+Dub+0+Pl: waabndaanaadgenan #book has "struc w"
+     3+waabndaan+VTI+2+Pl+Dub+0+Pl: waabndaanaawaadgenan #book has "struc w"
+     #waabndaan+VTI+X+Dub+0+Pl: NO IDEA
+
+     #most neg forms had to be synthesized, since ref grammar is extremely incomplete here
+     #Values from slots numbered: 2, 3
+     waabndaan+VTI+Neg+3+4: waabndanziini 
+
+     #Values from slots numbered: 1, 2, 3
+     1+waabndaan+VTI+Neg+0: nwaabndanziin
+     1+waabndaan+VTI+Neg+1+Pl: [nwaabndanziimi, nwaabndanziinaa]
+     2+waabndaan+VTI+Neg+0: gwaabndanziin
+     2+waabndaan+VTI+Neg+1+Pl: [gwaabndanziimi, gwaabndanziinaa]
+     2+waabndaan+VTI+Neg+2+Pl: gwaabndanziinaawaa
+     3+waabndaan+VTI+Neg+0: waabndanziin #book has "struc w"
+     3+waabndaan+VTI+Neg+2+Pl: waabndanziinaawaa #book has "struc w", final (error!) n
+     #waabndaan+VTI+Neg+X: NO IDEA
+     
+     #Values from slots numbered: 2, 3, 4
+     #waabndaan+VTI+Neg+3+4+Prt: NO IDEA may need a 3 prefix book puts -w for 3 with no explanation?
+     #waabndaan+VTI+Neg+3+4+Dub: NO IDEA may need a 3 prefix book puts -w for 3 with no explanation?
+     waabndaan+VTI+Neg+3+4+Prt+Dub: waabndanziin'goba #' #book omits struc w
+
+     #Values from slots numbered: 1, 2, 3, 4
+     1+waabndaan+VTI+Neg+0+Prt: nwaabndanziinaaba
+     1+waabndaan+VTI+Neg+1+Pl+Prt: nwaabndanziimnaaba
+     2+waabndaan+VTI+Neg+0+Prt: gwaabndanziinaaba
+     2+waabndaan+VTI+Neg+1+Pl+Prt: gwaabndanziimnaaba
+     2+waabndaan+VTI+Neg+2+Pl+Prt: gwaabndanziinaawaaba
+     3+waabndaan+VTI+Neg+0+Prt: waabndanziinaaba #book has "struc w"
+     3+waabndaan+VTI+Neg+2+Pl+Prt: waabndanziinaawaaba #book has "struc w"
+     #waabndaan+VTI+Neg+X+Prt: NO IDEA
+     1+waabndaan+VTI+Neg+0+Dub: nwaabndanziinaadig
+     1+waabndaan+VTI+Neg+1+Pl+Dub: nwaabndanziimnaadig
+     2+waabndaan+VTI+Neg+0+Dub: gwaabndanziinaadig
+     2+waabndaan+VTI+Neg+1+Pl+Dub: gwaabndanziimnaadig
+     2+waabndaan+VTI+Neg+2+Pl+Dub: gwaabndanziinaawaadig
+     3+waabndaan+VTI+Neg+0+Dub: waabndanziinaadig #book has "struc w"
+     3+waabndaan+VTI+Neg+2+Pl+Dub: waabndanziinaawaadig #book has "struc w"
+     #waabndaan+VTI+Neg+X+Dub: NO IDEA
+     3+waabndaan+VTI+Neg+Prt+Dub: waabndanziigba #book omits struc w
+     3+waabndaan+VTI+Neg+2+Pl+Prt+Dub: waabndanziigwaaba #book omits struc w
+     
+     #Values from slots numbered: 2, 3, 5
+     #waabndaan+VTI+Neg+3+4+0+Pl: waabndamniwan #? book mum, may not be possible 
+
+     #Values from slots numbered 1, 2, 3, 5
+     1+waabndaan+VTI+Neg+0+0+Pl: nwaabndanziinan
+     1+waabndaan+VTI+Neg+1+Pl+0+Pl: [nwaabndanziimnan, nwaabndanziinaanin]
+     2+waabndaan+VTI+Neg+0+0+Pl: gwaabndanziinan
+     2+waabndaan+VTI+Neg+1+Pl+0+Pl: [gwaabndanziimnan, gwaabndanziinaanin]
+     2+waabndaan+VTI+Neg+2+Pl+0+Pl: gwaabndanziinaawaan
+     3+waabndaan+VTI+Neg+0+0+Pl: waabndanziinan #book has "struc w"
+     3+waabndaan+VTI+Neg+2+Pl+0+Pl: waabndanziinaawaan #book has "struc w", final (error!) n
+     #waabndaan+VTI+Neg+X: NO IDEA
+
+     #Values from slots numbered: 2, 3, 4, 5
+     #waabndaan+VTI+Neg+3+4+Prt+0+Pl: NO IDEA
+     #waabndaan+VTI+Neg+3+4+Dub+0+Pl: NO IDEA
+
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     1+waabndaan+VTI+Neg+0+Prt+0+Pl: nwaabndanziinaabniin
+     1+waabndaan+VTI+Neg+1+Pl+Prt+0+Pl: nwaabndanziimnaabniin
+     2+waabndaan+VTI+Neg+0+Prt+0+Pl: gwaabndanziinaabniin
+     2+waabndaan+VTI+Neg+1+Pl+Prt+0+Pl: gwaabndanziimnaabniin
+     2+waabndaan+VTI+Neg+2+Pl+Prt+0+Pl: gwaabndanziinaawaabniin
+     3+waabndaan+VTI+Neg+0+Prt+0+Pl: waabndanziinaabniin #book has "struc w"
+     3+waabndaan+VTI+Neg+2+Pl+Prt+0+Pl: waabndanziinaawaabniin #book has "struc w"
+     #waabndaan+VTI+Neg+X+Prt+0+Pl: NO IDEA
+     1+waabndaan+VTI+Neg+0+Dub+0+Pl: nwaabndanziinaadgenan
+     1+waabndaan+VTI+Neg+1+Pl+Dub+0+Pl: nwaabndanziimnaadgenan
+     2+waabndaan+VTI+Neg+0+Dub+0+Pl: gwaabndanziinaadgenan
+     2+waabndaan+VTI+Neg+1+Pl+Dub+0+Pl: gwaabndanziimnaadgenan
+     2+waabndaan+VTI+Neg+2+Pl+Dub+0+Pl: gwaabndanziinaawaadgenan
+     3+waabndaan+VTI+Neg+0+Dub+0+Pl: waabndanziinaadgenan #book has "struc w"
+     3+waabndaan+VTI+Neg+2+Pl+Dub+0+Pl: waabndanziinaawaadgenan #book has "struc w"
+     #waabndaan+VTI+Neg+X+Dub+0+Pl: NO IDEA
+

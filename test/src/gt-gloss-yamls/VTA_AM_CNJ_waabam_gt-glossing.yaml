@@ -1,0 +1,439 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VTA+Cnj - AM - waabmaa :
+     
+  #Template Key
+  #1	    2	    3	    4       5       6
+  #theme    neg     persnum periph  prt     dub
+     
+     #this is extrapolated from book (p 295-301)
+     #book has +Dub in -e(n) for positive, -en(h) for negative
+     #regularized to across the board -enh
+ 
+     #Values from slots numbered: 1, 2, 3
+     #  theme sign order: 
+     #      -i (1 obj)
+     #      -igo (inversion (here 0sub only)
+     #      -igoo (1pl v 2)
+     #      -inin->isinoon (2 obj)
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl: waabmiswaang  #2pl v 1pl, 2sg v 1pl
+     waabmaa+VTA+Cnj+Thm1+Neg+2+Pl: waabmisweg    #2pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+Neg+2:    waabmiswan       #2sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+Neg+1:      waabmigsiwaanh    #0 v 1sg
+     waabmaa+VTA+Cnj+ThmInv+Neg+1+Pl:   waabmigsiwaang #0 v 1pl
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+1+Pl: waabmigsiwang #0 v 21pl
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl:   waabmigsiweg    #0 v 2pl
+     waabmaa+VTA+Cnj+ThmInv+Neg+2:      waabmigsiwan       #0 v 2sg
+
+     waabmaa+VTA+Cnj+Thm1Pl+Neg+2+Pl: waabmigoosweg #1pl v 2pl
+     waabmaa+VTA+Cnj+Thm1Pl+Neg+2:    waabmigooswan    #1pl v 2sg
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl: waabmisnoon'gog #1sg v 2pl'
+     waabmaa+VTA+Cnj+Thm2a+Neg+2:    waabmisnoonaanh     #1sg v 2sg
+
+     #Values from slots numbered: 1, 2, 3, 4
+     #  theme sign order: 
+     #      -aa (3 obj) THIS IS REPLACES NULL THEME SIGN
+     #      -i (1 obj)
+     #      -inin->isinow, isinoow  (2 obj)
+     #      -igo (3sg v 2pl) THIS IS NEW -> probable typo
+
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+Pl+3+Pl:   waabmaaswangdwaa    #1pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+Pl+3:      waabmaaswangid      #1pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+3+Pl:      waabmaaswagwaa      #1sg v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+3:         waabmaaswag         #1sg v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+1+Pl+3+Pl: waabmaaswangwaa     #21pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+1+Pl+3:    waabmaaswang        #21pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+Pl+3+Pl:   waabmaaswegwaa      #2pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+Pl+3:      waabmaasweg         #2pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+3+Pl:      waabmaaswadwaa      #2sg v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+3:         waabmaaswad         #2sg v 3sg
+
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3+Pl: waabmiswangdwaa   #3pl v 1pl
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3:    waabmiswangid         #3sg v 1pl
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+1+Pl+3+Pl: waabmisnowngwaa  #3pl v 21pl
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+1+Pl+3:    waabmisnowang     #3sg v 21pl
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl+3+Pl:    waabmisnoowegwaa     #3pl v 2pl
+
+     #waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+3:    waabmisnoweg     #3sg v 2pl !expect this if neg = negprt-prt in book
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+3:    waabmigsiweg     #3sg v 2pl !book has this (perhaps an error?)
+
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     #  theme sign order: 
+     #      -aa (3 obj) THIS IS NEW (relative to positive forms)
+     #      -i (1 obj)
+     #      -inin->isinow, isinoow  (2 obj)
+     #      NULL THEME ABSENT
+     #      (might expect -igo from neu neg (3sg v 2pl), but not)
+
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+Pl+3+Pl+Prt:   waabmaaswangdwaaba  #1pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+Pl+3+Prt:      waabmaaswangdiba      #1pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+3+Pl+Prt:      waabmaaswagwaaba    #1sg v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+3+Prt:         waabmaaswagba       #1sg v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+1+Pl+3+Pl+Prt: waabmaaswangwaaba   #21pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+1+Pl+3+Prt:    waabmaaswangba      #21pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+Pl+3+Pl+Prt:   waabmaaswegwaaba    #2pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+Pl+3+Prt:      waabmaaswegba       #2pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+3+Pl+Prt:      waabmaaswadwaaba    #2sg v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+3+Prt:         waabmaaswadba       #2sg v 3sg
+     #waabmaa+VTA+Cnj+ThmDir+Neg+2+3+Prt:         waabmaaswidba       #2sg v 3sg !book has wid instead of wad (!)
+
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3+Pl+Prt: waabmiswangdwaaba #3pl v 1pl
+     #waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3+Pl+Prt: waabmisiiwngidwaaba #3pl v 1pl !book has siiw instead of siw
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3+Prt:    waabmiswangdiba       #3sg v 1pl
+     #waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3+Prt:    waabmisiiwngidba       #3sg v 1pl !bookindicates variation between siw and siiw
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+1+Pl+3+Pl+Prt: waabmisnowngwaaba  #3pl v 21pl
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+1+Pl+3+Prt:    waabmisnowngiba     #3sg v 21pl
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl+3+Pl+Prt:    waabmisnoowegwaaba   #3pl v 2pl
+     #waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl+3+Pl+Prt:    waabmisnowegwaaba   #3pl v 2pl !book has isinow ... which makes more sense than isinoow here/in neutral (usually a dub thing)
+     #waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+3+Prt:    waabmigsinwegba   #3sg v 2pl !book 
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+3+Prt:    waabmigsiwegba   #3sg v 2pl !expected if prt neg extends neg, but perhaps neg was wrong...
+
+     #Values from slots numbered+Dub: 1, 2, 3, 4, 6
+     #  theme sign order+Dub: 
+     #      -aa (3 obj) THIS IS NEW (relative to positive forms)
+     #      -i (1 obj)
+     #      -inin->isinow, isinoow  (2 obj)
+     #      -igo (3sg v 2pl) THIS IS NEW
+     #      NULL THEME ABSENT
+
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+Pl+3+Pl+Dub:   waabmaasiiwngidwaawenh     #1pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+Pl+3+Dub:      waabmaasiiwngidenh      #1pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+3+Pl+Dub:      waabmaasiiwgwaawenh      #1sg v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+1+3+Dub:         waabmaasiiwgenh         #1sg v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+1+Pl+3+Pl+Dub: waabmaasiiwngwaawenh     #21pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+1+Pl+3+Dub:    waabmaasiiwngenh        #21pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+Pl+3+Pl+Dub:   waabmaasiiwegwaawenh      #2pl v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+Pl+3+Dub:      waabmaasiiwegenh         #2pl v 3sg
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+3+Pl+Dub:      waabmaasiiwdwaawenh      #2sg v 3pl
+     waabmaa+VTA+Cnj+ThmDir+Neg+2+3+Dub:         waabmaasiiwdenh         #2sg v 3sg
+
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3+Pl+Dub: waabmisiiwngidwaawenh   #3pl v 1pl
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+3+Dub:    waabmisiiwngidenh         #3sg v 1pl
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+1+Pl+3+Pl+Dub: waabmisnoowngwaawenh  #3pl v 21pl
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+1+Pl+3+Dub:    waabmisnoowngenh     #3sg v 21pl
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl+3+Pl+Dub:    waabmisnoowegwaawenh     #3pl v 2pl
+
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+3+Dub:    waabmigsiiwegwenh     #3sg v 2pl !cons
+     #waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+3+Dub:    waabmisnoowegwenh    #3sg v 2pl !book guess, currently have isinoo for 3pl but not 3 as a general pattern
+
+
+     #Values from slots numbered: 1, 2, 3, 5
+     #  theme sign order: 
+     #      -i (1 obj)
+     #      -igo (inversion (here 0sub only)
+     #      -igoo (1pl v 2)
+     #      -inin->isinoon (2 obj)
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+Prt: waabmiswaangba  #2pl v 1pl, 2sg v 1pl
+     waabmaa+VTA+Cnj+Thm1+Neg+2+Pl+Prt: waabmiswegba    #2pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+Neg+2+Prt:    waabmiswamba     #2sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+Neg+1+Pl+Prt:   waabmigsiwaangba #0 v 1pl !book unsure
+     waabmaa+VTA+Cnj+ThmInv+Neg+1+Prt:      waabmigsiwaamba   #0 v 1sg
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+1+Pl+Prt: waabmigsiwngiba #0 v 21pl !book unsure 
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+Prt:   waabmigsiwegba    #0 v 2pl !book unsure
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Prt:      waabmigsiwmba     #0 v 2sg
+
+     waabmaa+VTA+Cnj+Thm1Pl+Neg+2+Pl+Prt: waabmigooswegba #1pl v 2pl
+     waabmaa+VTA+Cnj+Thm1Pl+Neg+2+Prt:    waabmigooswamba  #1pl v 2sg !book indicates optional siiw (yikes)
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl+Prt: waabmisnoon'gogba #1sg v 2pl !'predict this
+     #waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl: waabmisnoonwegba #1sg v 2pl !book has this, is unsure
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Prt:    waabmisnoonaambaanh   #1sg v 2sg !cons guess
+     #waabmaa+VTA+Cnj+Thm2a+Neg+2+Prt:    waabmisnoonaambaa   #1sg v 2sg !book unsure
+
+     #Values from slots numbered+Dub: 1, 2, 3, 6
+     #  theme sign order+Dub: 
+     #      -i (1 obj)
+     #      -igo (inversion (here 0sub only)
+     #      -igoo (1pl v 2)
+     #      -inin->isiino, isinoon (?) (2 obj)
+     waabmaa+VTA+Cnj+Thm1+Neg+1+Pl+Dub: waabmisiiwaangenh  #2pl v 1pl, 2sg v 1pl
+     waabmaa+VTA+Cnj+Thm1+Neg+2+Pl+Dub: waabmisiiwegwenh    #2pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+Neg+2+Dub:    waabmisiiwnenh       #2sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+Neg+1+Dub:      waabmigsiiwaanenh    #0 v 1sg  !cons best guess
+     waabmaa+VTA+Cnj+ThmInv+Neg+1+Pl+Dub:   waabmigsiiwaangenh #0 v 1pl    !cons best guess
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+1+Pl+Dub: waabmigsiiwngenh #0 v 21pl     !cons best guess
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Pl+Dub:   waabmigsiiwegwenh    #0 v 2pl  !cons best guess
+     waabmaa+VTA+Cnj+ThmInv+Neg+2+Dub:      waabmigsiiwnenh       #0 v 2sg !cons best guess
+
+     waabmaa+VTA+Cnj+Thm1Pl+Neg+2+Pl+Dub: waabmigooswegwenh #1pl v 2pl
+     waabmaa+VTA+Cnj+Thm1Pl+Neg+2+Dub:    waabmigooswanenh    #1pl v 2sg
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Pl+Dub: waabmisnoon'gogwenh #1sg v 2pl !'cons best guess
+     waabmaa+VTA+Cnj+Thm2a+Neg+2+Dub:    waabmisnoonaanenh     #1sg v 2sg (cons)
+     #waabmaa+VTA+Cnj+Thm2a+Neg+2+Dub:    waabmisiinwaanenh     #1sg v 2sg (book, has irregular sii length, short o)
+
+     #Values from slots numbered: 1, 2, 4
+     #  theme sign order: 
+     #      -aa (3 obj)
+     #      -i (1 obj)
+     #      -igo (inversion (ambig: 0sub, 3obv v 3))
+     #      -ik->isinog  (3 v 2sg) (treated as Thm2a!)
+     waabmaa+VTA+Cnj+ThmDir+Neg+3+Pl: waabmaasgwaa   #3pl v 3obv
+     waabmaa+VTA+Cnj+ThmDir+Neg+3:    waabmaasig     #3sg v 3obv  !book omits form!
+
+     waabmaa+VTA+Cnj+Thm1+Neg+3+Pl: waabmisgwaa   #3pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+Neg+3:    waabmisig         #3sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+Neg+3+Pl: waabmigsigwaa #0 v 3pl, 3obv v 3pl
+     waabmaa+VTA+Cnj+ThmInv+Neg+3:    waabmigsig      #0 v 3sg, 3obv v 3sg
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+3+Pl: waabmisnokwaa   #3pl v 2sg
+     waabmaa+VTA+Cnj+Thm2a+Neg+3:    waabmisnog         #3sg v 2sg
+ 
+     #Values from slots numbered: 1, 2, 4, 5
+     #  theme sign order: 
+     #      -aa (3 obj)
+     #      -i (1 obj)
+     #      -igo (inversion (ambig: 0sub, 3obv v 3))
+     #      -ik->isinog  (3 v 2sg)
+     waabmaa+VTA+Cnj+ThmDir+Neg+3+Pl+Prt: waabmaasiiwaapa   #3pl v 3obv
+     waabmaa+VTA+Cnj+ThmDir+Neg+3+Prt:    waabmaasiipa   #3sg v 3obv  
+
+     waabmaa+VTA+Cnj+Thm1+Neg+3+Pl+Prt: waabmisgwaaba   #3pl v 1sg !book unsure
+     waabmaa+VTA+Cnj+Thm1+Neg+3+Prt:    waabmisgoba         #3sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+Neg+3+Pl+Prt: waabmigsigwaaba #0 v 3pl, 3obv v 3pl !book unsure
+     waabmaa+VTA+Cnj+ThmInv+Neg+3+Prt:    waabmigsigba    #0 v 3sg, 3obv v 3sg !book semi-unsure
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+3+Pl+Prt: waabmisnokwaaba   #3pl v 2sg !predict this, book totally unsure
+     waabmaa+VTA+Cnj+Thm2a+Neg+3+Prt:    waabmisnogba         #3sg v 2sg !predict this
+     #waabmaa+VTA+Cnj+Thm2a+Neg+3:    waabmigsiiwmba         #3sg v 2sg !book has this, is unsure
+ 
+     #Values from slots numbered+Dub: 1, 2, 4, 6
+     #  theme sign order+Dub: 
+     #      -aa (3 obj)
+     #      -i (1 obj)
+     #      -igo (inversion (ambig+Dub: 0sub, 3obv v 3))
+     #      -ik->isinog  (3 v 2sg)
+     waabmaa+VTA+Cnj+ThmDir+Neg+3+Pl+Dub: waabmaasiigwaawenh   #3pl v 3obv 
+     waabmaa+VTA+Cnj+ThmDir+Neg+3+Dub:    waabmaasiigwenh #3sg v 3obv  
+
+     waabmaa+VTA+Cnj+Thm1+Neg+3+Pl+Dub: waabmisiigwaawenh   #3pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+Neg+3+Dub:    waabmisiigwenh         #3sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+Neg+3+Pl+Dub: waabmigsiigwaawenh #0 v 3pl, 3obv v 3pl
+     waabmaa+VTA+Cnj+ThmInv+Neg+3+Dub:    waabmigsiigwenh      #0 v 3sg, 3obv v 3sg
+
+     waabmaa+VTA+Cnj+Thm2a+Neg+3+Pl+Dub: waabmisnokwaawenh   #3pl v 2sg !book omits form
+     waabmaa+VTA+Cnj+Thm2a+Neg+3+Dub:    waabmisnogwenh         #3sg v 2sg !book omits form
+ 
+     #Values from slots numbered: 1, 3
+     #  theme sign order: 
+     #      -i (1 obj)
+     #      -igo (inversion (here 0sub only)
+     #      -igoo (1pl v 2)
+     #      -inin (2 obj)
+     waabmaa+VTA+Cnj+Thm1+1+Pl: waabmiyaang          #2pl v 1pl, 2sg v 1pl
+     waabmaa+VTA+Cnj+Thm1+2+Pl: waabmiyeg            #2pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+2:    waabmiyan            #2sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+1:      waabmigyaanh     #0 v 1sg
+     waabmaa+VTA+Cnj+ThmInv+1+Pl:   waabmigyaang     #0 v 1pl
+     waabmaa+VTA+Cnj+ThmInv+2+1+Pl: waabmigyang      #0 v 21pl
+     waabmaa+VTA+Cnj+ThmInv+2+Pl:   waabmigyeg       #0 v 2pl
+     waabmaa+VTA+Cnj+ThmInv+2:      waabmigyan       #0 v 2sg
+
+     waabmaa+VTA+Cnj+Thm1Pl+2+Pl: waabmigooyeg       #1pl v 2pl
+     waabmaa+VTA+Cnj+Thm1Pl+2:    waabmigooyan       #1pl v 2sg
+
+     waabmaa+VTA+Cnj+Thm2a+2+Pl: waabminnagog        #1sg v 2pl
+     waabmaa+VTA+Cnj+Thm2a+2:    waabminnaa          #1sg v 2sg
+
+     #Values from slots numbered: 1, 3, 4
+     #  theme sign order: 
+     #      -i (1 obj)
+     #      -inin  (2 obj)
+     #      -_  (3 obj)
+     waabmaa+VTA+Cnj+Thm1+1+Pl+3+Pl: waabmiyngidwaa      #3pl v 1pl
+     waabmaa+VTA+Cnj+Thm1+1+Pl+3:    waabmiyngid         #3sg v 1pl
+
+     waabmaa+VTA+Cnj+Thm2a+2+1+Pl+3+Pl: waabminnangwaa   #3pl v 21pl
+     waabmaa+VTA+Cnj+Thm2a+2+1+Pl+3:    waabminnang      #3sg v 21pl
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+3+Pl:   waabminnegwaa    #3pl v 2pl
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+3:      waabminneg       #3sg v 2pl
+
+     waabmaa+VTA+Cnj+ThmNul+1+Pl+3+Pl:   waabmangdwaa   #1pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+1+Pl+3:      waabmangid     #1pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+1+3+Pl:      waabmagwaa     #1sg v 3pl
+     waabmaa+VTA+Cnj+ThmNul+1+3:         waabmag        #1sg v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+1+Pl+3+Pl: waabmangwaa    #21pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+1+Pl+3:    waabmang       #21pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+Pl+3+Pl:   waabmegwaa     #2pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+Pl+3:      waabmeg        #2pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+3+Pl:      waabmadwaa     #2sg v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+3:         waabmad        #2sg v 3sg
+ 
+     #Values from slots numbered: 1, 3, 4, 5
+     #  theme sign order: 
+     #      -i (1 obj)
+     #      -inin  (2 obj)
+     #      -_  (3 obj)
+
+     waabmaa+VTA+Cnj+Thm1+1+Pl+3+Pl+Prt: waabmiyngidwaaba   #3pl v 1pl
+     waabmaa+VTA+Cnj+Thm1+1+Pl+3+Prt:    waabmiyngidba         #3sg v 1pl
+
+     waabmaa+VTA+Cnj+Thm2a+2+1+Pl+3+Pl+Prt: waabminnangwaaba  #3pl v 21pl
+     waabmaa+VTA+Cnj+Thm2a+2+1+Pl+3+Prt:    waabminnangba     #3sg v 21pl
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+3+Pl+Prt:   waabminnegwaaba     #3pl v 2pl
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+3+Prt:      waabminnegba           #3sg v 2pl
+
+     waabmaa+VTA+Cnj+ThmNul+1+Pl+3+Pl+Prt:   waabmangdwaaba  #1pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+1+Pl+3+Prt:      waabmangdiba    #1pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+1+3+Pl+Prt:      waabmagwaaba  #1sg v 3pl
+     waabmaa+VTA+Cnj+ThmNul+1+3+Prt:         waabmagba     #1sg v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+1+Pl+3+Pl+Prt: waabmangwaaba  #21pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+1+Pl+3+Prt:    waabmangba    #21pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+Pl+3+Pl+Prt:   waabmegwaaba  #2pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+Pl+3+Prt:      waabmegba    #2pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+3+Pl+Prt:      waabmadwaaba  #2sg v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+3+Prt:         waabmadba    #2sg v 3sg
+ 
+     #Values from slots numbered+Dub: 1, 3, 4, 6
+     #  theme sign order+Dub: 
+     #      -i (1 obj)
+     #      -inin  (2 obj)
+     #      -_->aa  (3 obj) 
+
+     waabmaa+VTA+Cnj+Thm1+1+Pl+3+Pl+Dub: waabmiwngidwaawenh   #3pl v 1pl
+     waabmaa+VTA+Cnj+Thm1+1+Pl+3+Dub:    waabmiwngidenh       #3sg v 1pl
+
+     waabmaa+VTA+Cnj+Thm2a+2+1+Pl+3+Pl+Dub: waabminnangwaawenh  #3pl v 21pl !cons (?)
+     #waabmaa+VTA+Cnj+Thm2a+2+1+Pl+3+Pl+Dub: waabminnankwaawenh  #3pl v 21pl !book
+     waabmaa+VTA+Cnj+Thm2a+2+1+Pl+3+Dub:    waabminnangwenh     #3sg v 21pl
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+3+Pl+Dub:   waabminnegwaawenh     #3pl v 2pl
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+3+Dub:      waabminnegwenh           #3sg v 2pl
+
+     waabmaa+VTA+Cnj+ThmNul+1+Pl+3+Pl+Dub:   waabmaawngidwaawenh  #1pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+1+Pl+3+Dub:      waabmaawngidenh    #1pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+1+3+Pl+Dub:      waabmaawgwaawenh  #1sg v 3pl
+     waabmaa+VTA+Cnj+ThmNul+1+3+Dub:         waabmaawgenh     #1sg v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+1+Pl+3+Pl+Dub: waabmaawngwaawenh  #21pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+1+Pl+3+Dub:    waabmaawngwenh    #21pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+Pl+3+Pl+Dub:   waabmaawegwaawenh  #2pl v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+Pl+3+Dub:      waabmaawegwenh    #2pl v 3sg
+     waabmaa+VTA+Cnj+ThmNul+2+3+Pl+Dub:      waabmaawdwaawenh  #2sg v 3pl
+     waabmaa+VTA+Cnj+ThmNul+2+3+Dub:         waabmaawdenh    #2sg v 3sg
+ 
+     #Values from slots numbered: 1, 3, 5
+     #  theme sign order: 
+     #      -i (1 obj)
+     #      -igo (inversion (here 0sub only)
+     #      -igoo (1pl v 2)
+     #      -inin (2 obj)
+     waabmaa+VTA+Cnj+Thm1+1+Pl+Prt: waabmiyaangba  #2pl v 1pl, 2sg v 1pl
+     waabmaa+VTA+Cnj+Thm1+2+Pl+Prt: waabmiyegba   #2pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+2+Prt:    waabmiymba    #2sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+1+Pl+Prt:   waabmigyaangba #0 v 1pl
+     waabmaa+VTA+Cnj+ThmInv+1+Prt:      waabmigyaambaanh    #0 v 1sg
+     waabmaa+VTA+Cnj+ThmInv+2+1+Pl+Prt: waabmigyangba #0 v 21pl
+     waabmaa+VTA+Cnj+ThmInv+2+Pl+Prt:   waabmigyegba    #0 v 2pl
+     waabmaa+VTA+Cnj+ThmInv+2+Prt:      waabmigyamba    #0 v 2sg
+
+     waabmaa+VTA+Cnj+Thm1Pl+2+Pl+Prt: waabmigooyegba #1pl v 2pl
+     waabmaa+VTA+Cnj+Thm1Pl+2+Prt:    waabmigooymba #1pl v 2sg
+
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+Prt: waabminnaggoba #1sg v 2pl
+     waabmaa+VTA+Cnj+Thm2a+2+Prt:    waabminnaambaanh     #1sg v 2sg
+
+     #Values from slots numbered: 1, 3, 6
+     #  theme sign order: 
+     #      -i (1 obj)
+     #      -igo (inversion (here 0sub only)
+     #      -igoo (1pl v 2)
+     #      -inin (2 obj)
+     waabmaa+VTA+Cnj+Thm1+1+Pl+Dub: waabmiwaangenh  #2pl v 1pl, 2sg v 1pl
+     waabmaa+VTA+Cnj+Thm1+2+Pl+Dub: waabmiwegwenh    #2pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+2+Dub:    waabmiwnenh    #2sg v 1sg !cons (?)
+     #waabmaa+VTA+Cnj+Thm1+2+Dub:    waabmiwne       #2sg v 1sg !book
+
+     waabmaa+VTA+Cnj+ThmInv+1+Dub:      waabmigwaanenh    #0 v 1sg !cons (?)
+     #waabmaa+VTA+Cnj+ThmInv+1+Dub:      waabmigwaane    #0 v 1sg !book (?)
+     waabmaa+VTA+Cnj+ThmInv+1+Pl+Dub:   waabmigwaangenh #0 v 1pl
+     waabmaa+VTA+Cnj+ThmInv+2+1+Pl+Dub: waabmigwangwenh #0 v 21pl
+     waabmaa+VTA+Cnj+ThmInv+2+Pl+Dub:   waabmigwegwenh    #0 v 2pl
+     waabmaa+VTA+Cnj+ThmInv+2+Dub:      waabmigwanenh       #0 v 2sg !cons (?)
+     #waabmaa+VTA+Cnj+ThmInv+2+Dub:      waabmigwanen       #0 v 2sg !book
+
+     waabmaa+VTA+Cnj+Thm1Pl+2+Pl+Dub: waabmigoowegwenh #1pl v 2pl
+     waabmaa+VTA+Cnj+Thm1Pl+2+Dub:    waabmigoownenh    #1pl v 2sg !cons (?)
+     #waabmaa+VTA+Cnj+Thm1Pl+2+Dub:    waabmigoownen    #1pl v 2sg !book
+
+     waabmaa+VTA+Cnj+Thm2a+2+Pl+Dub: waabminnaggwenh #1sg v 2pl
+     waabmaa+VTA+Cnj+Thm2a+2+Dub:    waabminnaanenh      #1sg v 2sg !cons (?)
+     #waabmaa+VTA+Cnj+Thm2a+2+Dub:    waabminnaanen      #1sg v 2sg !cons (?)
+
+     #Values from slots numbered: 1, 4
+     #  theme sign order: 
+     #      -aa (3 obj)
+     #      -i (1 obj)
+     #      -igo (inversion (ambig: 0sub, 3obv v 3))
+     #      -ik  (3 v 2sg)
+     waabmaa+VTA+Cnj+ThmDir+3+Pl: waabmaawaad        #3pl v 3obv
+     waabmaa+VTA+Cnj+ThmDir+3:    waabmaad           #3sg v 3obv
+
+     waabmaa+VTA+Cnj+Thm1+3+Pl: waabmiwaad           #3pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+3:    waabmid              #3sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+3+Pl: waabmigwaad        #0 v 3pl, 3obv v 3pl
+     waabmaa+VTA+Cnj+ThmInv+3:    waabmigod          #0 v 3sg, 3obv v 3sg
+
+     waabmaa+VTA+Cnj+Thm2b+3+Pl: waabmikwaa          #3pl v 2sg
+     waabmaa+VTA+Cnj+Thm2b+3:    waabmik             #3sg v 2sg
+ 
+     #Values from slots numbered: 1, 4, 5
+     #  theme sign order: 
+     #      -aa (3 obj)
+     #      -i (1 obj)
+     #      -igo (inversion (ambig: 0sub, 3obv v 3))
+     #      -ik  (3 v 2sg)
+     waabmaa+VTA+Cnj+ThmDir+3+Pl+Prt: waabmaawaapa  #3pl v 3obv
+     waabmaa+VTA+Cnj+ThmDir+3+Prt:    waabmaapa        #3sg v 3obv
+
+     waabmaa+VTA+Cnj+Thm1+3+Pl+Prt: waabmiwaapa   #3pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+3+Prt:    waabmipa         #3sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+3+Pl+Prt: waabmigwaapa #0 v 3pl, 3obv v 3pl
+     waabmaa+VTA+Cnj+ThmInv+3+Prt:    waabmigpa      #0 v 3sg, 3obv v 3sg
+
+     waabmaa+VTA+Cnj+Thm2b+3+Pl+Prt: waabmikwaaba   #3pl v 2sg
+     waabmaa+VTA+Cnj+Thm2b+3+Prt:    waabmikba         #3sg v 2sg
+ 
+     #Values from slots numbered+Dub: 1, 4, 6
+     #  theme sign order+Dub: 
+     #      -aa (3 obj)
+     #      -i (1 obj)
+     #      -igo (inversion (ambig+Dub: 0sub, 3obv v 3))
+     #      -ik  (3 v 2sg)
+     waabmaa+VTA+Cnj+ThmDir+3+Pl+Dub: waabmaawaagwenh #3pl v 3obv !book provides nothing, this is best guess
+     waabmaa+VTA+Cnj+ThmDir+3+Dub:    waabmaagwenh    #3sg v 3obv
+
+     waabmaa+VTA+Cnj+Thm1+3+Pl+Dub: waabmiwaagwenh   #3pl v 1sg
+     waabmaa+VTA+Cnj+Thm1+3+Dub:    waabmigwenh         #3sg v 1sg
+
+     waabmaa+VTA+Cnj+ThmInv+3+Pl+Dub: waabmigwaagwenh #0 v 3pl, 3obv v 3pl !cons
+     #waabmaa+VTA+Cnj+ThmInv+3+Pl+Dub: waabmigwegwenh #0 v 3pl, 3obv v 3pl !book (this can't be right, eg is 2pl)
+     waabmaa+VTA+Cnj+ThmInv+3+Dub:    waabmigoogwenh      #0 v 3sg, 3obv v 3sg !less anomalous than it seems, just lengthen igo in this context (compensatory lenghtenging?) (don't use igoo, that disrupts orderliness)
+
+     waabmaa+VTA+Cnj+Thm2b+3+Pl+Dub: waabmikwaawenh   #3pl v 2sg !cons (?)
+     #waabmaa+VTA+Cnj+Thm2b+3+Pl+Dub: waabmikwaawen   #3pl v 2sg !book 
+     waabmaa+VTA+Cnj+Thm2b+3+Dub:    waabmikenh         #3sg v 2sg !hm no w4

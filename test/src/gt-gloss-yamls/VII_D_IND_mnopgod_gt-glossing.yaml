@@ -1,0 +1,78 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VII - D - mnopgot :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	obv     mod     per
+     
+     #this is pulled from book (p 257)
+     #Values from slots numbered: 2
+     mnopgot+VII+0: mnopgod
+     mnopgot+VII+0+4: mnopgodni
+
+     #Values from slots numbered: 2, 3
+     mnopgot+VII+0+Prt: mnopgodba
+     mnopgot+VII+0+4+Prt: mnopgodniwba #cons
+     #mnopgot+VII+0+4+Prt: mnopgodniba #book (w-del)
+     mnopgot+VII+0+Dub: mnopgoddig
+     mnopgot+VII+0+4+Dub: mnopgodniwdig #cons
+     #mnopgot+VII+0+4+Dub: mnopgodnidig #book (w-del)
+     mnopgot+VII+0+Prt+Dub: mnopgodgoba
+     mnopgot+VII+0+4+Prt+Dub: mnopgodnigba #cons
+     #mnopgot+VII+0+4+Prt+Dub: mnopgodnogba #book (unexplained quality shift)
+
+     #Values from slots numbered: 2, 3, 4
+     mnopgot+VII+0+Prt+0+Pl: mnopgodbaniin
+     mnopgot+VII+0+4+Prt+0+Pl: mnopgodniwbaniin #cons
+     #mnopgot+VII+0+4+Prt+0+Pl: mnopgodnibniin #book (overdeletion in book, iniwiban -> nibn)
+     mnopgot+VII+0+Dub+0+Pl: mnopgoddigenan #cons
+     #mnopgot+VII+0+Dub+0+Pl: mnopgodgenan #book (overdeletion in book)
+     mnopgot+VII+0+4+Dub+0+Pl: mnopgodniwdigenan #cons
+     #mnopgot+VII+0+4+Dub+0+Pl: mnopgodnindigenan #book (whence the nasal??)
+     mnopgot+VII+0+Prt+Dub+0+Pl: mnopgodgobniin
+     mnopgot+VII+0+4+Prt+Dub+0+Pl: mnopgodnigbaniin #cons
+     mnopgot+VII+0+4+Prt+Dub+0+Pl: mnopgodnogbaniin #book (unexplained quality shift)
+
+     #Values from slots numbered: 2, 4
+     mnopgot+VII+0+0+Pl: mnopgodoon
+     mnopgot+VII+0+4+0+Pl: mnopgodniwan
+
+     #Values from slots numbered: 1, 2
+     mnopgot+VII+Neg+0: mnopgosnoo #d deletes in negative!
+     mnopgot+VII+Neg+0+4: mnopgosnooni #cons
+     #mnopgot+VII+Neg+0+4: mnopgsnooni #book (surprising over deletion)
+
+     #Values from slots numbered: 1, 2, 3
+     mnopgot+VII+Neg+0+Prt: mnopgosnooba
+     mnopgot+VII+Neg+0+4+Prt: mnopgosnoonwiba
+     mnopgot+VII+Neg+0+Dub: mnopgosnoodig
+     mnopgot+VII+Neg+0+4+Dub: mnopgosnoonwidig
+     mnopgot+VII+Neg+0+Prt+Dub: mnopgosnoogba #cons
+     #mnopgot+VII+Neg+0+Prt+Dub: mnopgsnoogba #book (surprising over deletion)
+     mnopgot+VII+Neg+0+4+Prt+Dub: mnopgosnoongoba #cons
+     #mnopgot+VII+Neg+0+4+Prt+Dub: mnopgsnoongoba #book
+
+     #Values from slots numbered: 1, 2, 3, 4
+     mnopgot+VII+Neg+0+Prt+0+Pl: mnopgosnoobniin
+     mnopgot+VII+Neg+0+4+Prt+0+Pl: mnopgosnoonwibniin
+     mnopgot+VII+Neg+0+Dub+0+Pl: mnopgosnoodgenan
+     mnopgot+VII+Neg+0+4+Dub+0+Pl: mnopgosnoonwidgenan
+     mnopgot+VII+Neg+0+Prt+Dub+0+Pl: mnopgosnoogbaniin #cons
+     #mnopgot+VII+Neg+0+Prt+Dub+0+Pl: mnopgsnoogbaniin #book (surprising over deletion)
+     mnopgot+VII+Neg+0+4+Prt+Dub+0+Pl: mnopgosnoongobniin #cons
+     #mnopgot+VII+Neg+0+4+Prt+Dub+0+Pl: mnopgsnoongobniin #book (surprising over deletion)
+
+     #Values from slots numbered: 1, 2, 4
+     mnopgot+VII+Neg+0+0+Pl: mnopgosnoon #cons
+     #mnopgot+VII+Neg+0+0+Pl: mnopgsnoon #book
+     mnopgot+VII+Neg+0+4+0+Pl: mnopgosninwan #no variation listed in book

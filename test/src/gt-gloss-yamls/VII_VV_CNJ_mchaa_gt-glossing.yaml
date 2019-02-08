@@ -1,0 +1,50 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VII - VV - mchaa :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	obv     prt     dub
+     
+     #this is pulled from book (p 260)
+     #Values from slots numbered: 2
+     mchaa+VII+Cnj+0: mchaag
+     mchaa+VII+Cnj+0+4: mchaanig
+
+     #Values from slots numbered: 2, 3
+     mchaa+VII+Cnj+0+Prt: mchaagba
+     mchaa+VII+Cnj+0+4+Prt: mchaan'giba #'
+
+     #Values from slots numbered: 2, 4
+     PV/CCNJ+mchaa+VII+Cnj+0+Dub: mechaagwenh #changed conjunct...
+     PV/CCNJ+mchaa+VII+Cnj+0+4+Dub: mechaan'gwenh #'
+
+     #Values from slots numbered: 2, 3, 4
+     mchaa+VII+Cnj+0+Prt+Dub: mchaagbane
+     mchaa+VII+Cnj+0+4+Prt+Dub: mchaan'gobne #'
+
+     #Values from slots numbered: 1, 2
+     mchaa+VII+Cnj+Neg+0: mchaasnog 
+     mchaa+VII+Cnj+Neg+0+4: mchaasnoonig
+
+     #Values from slots numbered: 1, 2, 3
+     mchaa+VII+Cnj+Neg+0+Prt: mchaasnoogba
+     mchaa+VII+Cnj+Neg+0+4+Prt: mchaasnoon'giba #'
+
+     #Values from slots numbered: 1, 2, 4
+     PV/CCNJ+mchaa+VII+Cnj+Neg+0+Dub: mechaasnoogwenh #changed conjunct
+     PV/CCNJ+mchaa+VII+Cnj+Neg+0+4+Dub: mechaasnoon'gwenh #'
+
+     #Values from slots numbered: 1, 2, 3, 4
+     mchaa+VII+Cnj+Neg+0+Prt+Dub: mchaasnoogbane 
+     mchaa+VII+Cnj+Neg+0+4+Prt+Dub: mchaasnoon'gobne #'
+

@@ -1,0 +1,1251 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  NI - A - mshkimot :
+     
+  #Template Key
+  #1	2	3	4	5	6	7
+  #per	dim	the	pej	pos	mod	num
+     
+     #Isolation form
+     mshkimot+NI: mshkimod
+     
+     #Values from slots numbered: 1
+     1+mshkimot+NI: nmashkmod
+     2+mshkimot+NI: gmashkmod
+     3+mshkimot+NI: mashkmod
+     X+mshkimot+NI: mashkmod
+     
+     #Values from slots numbered: 2
+     mshkimot+NI+Con: mshkimdenh
+     mshkimot+NI+Dim: mshkimdens
+     
+     
+     #Values from slots numbered: 4
+     mshkimot+NI+Pej: mshkimdaash
+     
+     
+     #Values from slots numbered: 6
+     mshkimot+NI+Prt: mshkimdaaba
+     mshkimot+NI+Voc+Pl: mshkimdaadig
+     
+     #Values from slots numbered: 7
+     mshkimot+NI+4: mshkimdan
+     mshkimot+NI+Loc: mshkimdaang
+     mshkimot+NI+Pl: mshkimdan
+     
+     #Values from slots numbered: 1, 2
+     1+mshkimot+NI+Con: nmashkmodenh
+     1+mshkimot+NI+Dim: nmashkmodens
+     2+mshkimot+NI+Con: gmashkmodenh
+     2+mshkimot+NI+Dim: gmashkmodens
+     3+mshkimot+NI+Con: mashkmodenh
+     3+mshkimot+NI+Dim: mashkmodens
+     X+mshkimot+NI+Con: mashkmodenh
+     X+mshkimot+NI+Dim: mashkmodens
+     
+     #Values from slots numbered: 1, 3
+     1+mshkimot+NI+ThmPos: nmashkmodaam
+     2+mshkimot+NI+ThmPos: gmashkmodaam
+     3+mshkimot+NI+ThmPos: mashkmodaam
+     X+mshkimot+NI+ThmPos: mashkmodaam
+     
+     #Values from slots numbered: 1, 4
+     1+mshkimot+NI+Pej: nmashkmodaash
+     2+mshkimot+NI+Pej: gmashkmodaash
+     3+mshkimot+NI+Pej: mashkmodaash
+     X+mshkimot+NI+Pej: mashkmodaash
+     
+     #Values from slots numbered: 1, 5
+     1+mshkimot+NI+1+Pl: nmashkmodaanaa
+     2+mshkimot+NI+1+Pl: gmashkmodaanaa
+     2+mshkimot+NI+2+Pl: gmashkmodaawaa
+     3+mshkimot+NI+2+Pl: mashkmodaawaa
+     3+mshkimot+NI+3+4: mashkmodaani
+     
+     #Values from slots numbered: 1, 6
+     1+mshkimot+NI+Prt: nmashkmodaaba
+     1+mshkimot+NI+Voc+Pl: nmashkmodaadig
+     2+mshkimot+NI+Prt: gmashkmodaaba
+     2+mshkimot+NI+Voc+Pl: gmashkmodaadig
+     3+mshkimot+NI+Prt: mashkmodaaba
+     3+mshkimot+NI+Voc+Pl: mashkmodaadig
+     X+mshkimot+NI+Prt: mashkmodaaba
+     X+mshkimot+NI+Voc+Pl: mashkmodaadig
+     
+     #Values from slots numbered: 1, 7
+     1+mshkimot+NI+4: nmashkmodan
+     1+mshkimot+NI+Loc: nmashkmodaang
+     1+mshkimot+NI+Pl: nmashkmodan
+     2+mshkimot+NI+4: gmashkmodan
+     2+mshkimot+NI+Loc: gmashkmodaang
+     2+mshkimot+NI+Pl: gmashkmodan
+     3+mshkimot+NI+4: mashkmodan
+     3+mshkimot+NI+Loc: mashkmodaang
+     3+mshkimot+NI+Pl: mashkmodan
+     X+mshkimot+NI+4: mashkmodan
+     X+mshkimot+NI+Loc: mashkmodaang
+     X+mshkimot+NI+Pl: mashkmodan
+     
+     
+     #Values from slots numbered: 2, 4
+     mshkimot+NI+Con+Pej: mshkimdenyish
+     mshkimot+NI+Dim+Pej: mshkimdensish
+     
+     
+     #Values from slots numbered: 2, 6
+     mshkimot+NI+Con+Prt: mshkimdenyba
+     mshkimot+NI+Con+Voc+Pl: mshkimdenydig
+     mshkimot+NI+Dim+Prt: mshkimdensba
+     mshkimot+NI+Dim+Voc+Pl: mshkimdensdig
+     
+     #Values from slots numbered: 2, 7
+     mshkimot+NI+Con+4: mshkimdenyin
+     mshkimot+NI+Con+Loc: mshkimdenying
+     mshkimot+NI+Con+Pl: mshkimdenyin
+     mshkimot+NI+Dim+4: mshkimdensan
+     mshkimot+NI+Dim+Loc: mshkimdensing
+     mshkimot+NI+Dim+Pl: mshkimdensan
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 4, 6
+     mshkimot+NI+Pej+Prt: mshkimdaashba
+     mshkimot+NI+Pej+Voc+Pl: mshkimdaashdig
+     
+     #Values from slots numbered: 4, 7
+     mshkimot+NI+Pej+4: mshkimdaashan
+     mshkimot+NI+Pej+Loc: mshkimdaashing
+     mshkimot+NI+Pej+Pl: mshkimdaashan
+     
+     
+     
+     #Values from slots numbered: 6, 7
+     mshkimot+NI+Prt+4: mshkimdaabniin
+     mshkimot+NI+Prt+Loc: mshkimdaabniing
+     mshkimot+NI+Prt+Pl: mshkimdaabniin
+     
+     #Values from slots numbered: 1, 2, 3
+     1+mshkimot+NI+Con+ThmPos: nmashkmodenyim
+     1+mshkimot+NI+Dim+ThmPos: nmashkmodensim
+     2+mshkimot+NI+Con+ThmPos: gmashkmodenyim
+     2+mshkimot+NI+Dim+ThmPos: gmashkmodensim
+     3+mshkimot+NI+Con+ThmPos: mashkmodenyim
+     3+mshkimot+NI+Dim+ThmPos: mashkmodensim
+     X+mshkimot+NI+Con+ThmPos: mashkmodenyim
+     X+mshkimot+NI+Dim+ThmPos: mashkmodensim
+     
+     #Values from slots numbered: 1, 2, 4
+     1+mshkimot+NI+Con+Pej: nmashkmodenyish
+     1+mshkimot+NI+Dim+Pej: nmashkmodensish
+     2+mshkimot+NI+Con+Pej: gmashkmodenyish
+     2+mshkimot+NI+Dim+Pej: gmashkmodensish
+     3+mshkimot+NI+Con+Pej: mashkmodenyish
+     3+mshkimot+NI+Dim+Pej: mashkmodensish
+     X+mshkimot+NI+Con+Pej: mashkmodenyish
+     X+mshkimot+NI+Dim+Pej: mashkmodensish
+     
+     #Values from slots numbered: 1, 2, 5
+     1+mshkimot+NI+Con+1+Pl: nmashkmodenynaa
+     1+mshkimot+NI+Dim+1+Pl: nmashkmodensnaa
+     2+mshkimot+NI+Con+1+Pl: gmashkmodenynaa
+     2+mshkimot+NI+Con+2+Pl: gmashkmodenywaa
+     2+mshkimot+NI+Dim+1+Pl: gmashkmodensnaa
+     2+mshkimot+NI+Dim+2+Pl: gmashkmodenswaa
+     3+mshkimot+NI+Con+2+Pl: mashkmodenywaa
+     3+mshkimot+NI+Con+3+4: mashkmodenyni
+     3+mshkimot+NI+Dim+2+Pl: mashkmodenswaa
+     3+mshkimot+NI+Dim+3+4: mashkmodensni
+     
+     #Values from slots numbered: 1, 2, 6
+     1+mshkimot+NI+Con+Prt: nmashkmodenyba
+     1+mshkimot+NI+Con+Voc+Pl: nmashkmodenydig
+     1+mshkimot+NI+Dim+Prt: nmashkmodensba
+     1+mshkimot+NI+Dim+Voc+Pl: nmashkmodensdig
+     2+mshkimot+NI+Con+Prt: gmashkmodenyba
+     2+mshkimot+NI+Con+Voc+Pl: gmashkmodenydig
+     2+mshkimot+NI+Dim+Prt: gmashkmodensba
+     2+mshkimot+NI+Dim+Voc+Pl: gmashkmodensdig
+     3+mshkimot+NI+Con+Prt: mashkmodenyba
+     3+mshkimot+NI+Con+Voc+Pl: mashkmodenydig
+     3+mshkimot+NI+Dim+Prt: mashkmodensba
+     3+mshkimot+NI+Dim+Voc+Pl: mashkmodensdig
+     X+mshkimot+NI+Con+Prt: mashkmodenyba
+     X+mshkimot+NI+Con+Voc+Pl: mashkmodenydig
+     X+mshkimot+NI+Dim+Prt: mashkmodensba
+     X+mshkimot+NI+Dim+Voc+Pl: mashkmodensdig
+     
+     #Values from slots numbered: 1, 2, 7
+     1+mshkimot+NI+Con+4: nmashkmodenyin
+     1+mshkimot+NI+Con+Loc: nmashkmodenying
+     1+mshkimot+NI+Con+Pl: nmashkmodenyin
+     1+mshkimot+NI+Dim+4: nmashkmodensan
+     1+mshkimot+NI+Dim+Loc: nmashkmodensing
+     1+mshkimot+NI+Dim+Pl: nmashkmodensan
+     2+mshkimot+NI+Con+4: gmashkmodenyin
+     2+mshkimot+NI+Con+Loc: gmashkmodenying
+     2+mshkimot+NI+Con+Pl: gmashkmodenyin
+     2+mshkimot+NI+Dim+4: gmashkmodensan
+     2+mshkimot+NI+Dim+Loc: gmashkmodensing
+     2+mshkimot+NI+Dim+Pl: gmashkmodensan
+     3+mshkimot+NI+Con+4: mashkmodenyin
+     3+mshkimot+NI+Con+Loc: mashkmodenying
+     3+mshkimot+NI+Con+Pl: mashkmodenyin
+     3+mshkimot+NI+Dim+4: mashkmodensan
+     3+mshkimot+NI+Dim+Loc: mashkmodensing
+     3+mshkimot+NI+Dim+Pl: mashkmodensan
+     X+mshkimot+NI+Con+4: mashkmodenyin
+     X+mshkimot+NI+Con+Loc: mashkmodenying
+     X+mshkimot+NI+Con+Pl: mashkmodenyin
+     X+mshkimot+NI+Dim+4: mashkmodensan
+     X+mshkimot+NI+Dim+Loc: mashkmodensing
+     X+mshkimot+NI+Dim+Pl: mashkmodensan
+     
+     #Values from slots numbered: 1, 3, 4
+     1+mshkimot+NI+ThmPos+Pej: nmashkmodaamish
+     2+mshkimot+NI+ThmPos+Pej: gmashkmodaamish
+     3+mshkimot+NI+ThmPos+Pej: mashkmodaamish
+     X+mshkimot+NI+ThmPos+Pej: mashkmodaamish
+     
+     #Values from slots numbered: 1, 3, 5
+     1+mshkimot+NI+ThmPos+1+Pl: nmashkmodaamnaa
+     2+mshkimot+NI+ThmPos+1+Pl: gmashkmodaamnaa
+     2+mshkimot+NI+ThmPos+2+Pl: gmashkmodaamwaa
+     3+mshkimot+NI+ThmPos+2+Pl: mashkmodaamwaa
+     3+mshkimot+NI+ThmPos+3+4: mashkmodaamni
+     
+     #Values from slots numbered: 1, 3, 6
+     1+mshkimot+NI+ThmPos+Prt: nmashkmodaamba
+     1+mshkimot+NI+ThmPos+Voc+Pl: nmashkmodaamdig
+     2+mshkimot+NI+ThmPos+Prt: gmashkmodaamba
+     2+mshkimot+NI+ThmPos+Voc+Pl: gmashkmodaamdig
+     3+mshkimot+NI+ThmPos+Prt: mashkmodaamba
+     3+mshkimot+NI+ThmPos+Voc+Pl: mashkmodaamdig
+     X+mshkimot+NI+ThmPos+Prt: mashkmodaamba
+     X+mshkimot+NI+ThmPos+Voc+Pl: mashkmodaamdig
+     
+     #Values from slots numbered: 1, 3, 7
+     1+mshkimot+NI+ThmPos+4: nmashkmodaaman
+     1+mshkimot+NI+ThmPos+Loc: nmashkmodaaming
+     1+mshkimot+NI+ThmPos+Pl: nmashkmodaaman
+     2+mshkimot+NI+ThmPos+4: gmashkmodaaman
+     2+mshkimot+NI+ThmPos+Loc: gmashkmodaaming
+     2+mshkimot+NI+ThmPos+Pl: gmashkmodaaman
+     3+mshkimot+NI+ThmPos+4: mashkmodaaman
+     3+mshkimot+NI+ThmPos+Loc: mashkmodaaming
+     3+mshkimot+NI+ThmPos+Pl: mashkmodaaman
+     X+mshkimot+NI+ThmPos+4: mashkmodaaman
+     X+mshkimot+NI+ThmPos+Loc: mashkmodaaming
+     X+mshkimot+NI+ThmPos+Pl: mashkmodaaman
+     
+     #Values from slots numbered: 1, 4, 5
+     1+mshkimot+NI+Pej+1+Pl: nmashkmodaashnaa
+     2+mshkimot+NI+Pej+1+Pl: gmashkmodaashnaa
+     2+mshkimot+NI+Pej+2+Pl: gmashkmodaashwaa
+     3+mshkimot+NI+Pej+2+Pl: mashkmodaashwaa
+     3+mshkimot+NI+Pej+3+4: mashkmodaashni
+     
+     #Values from slots numbered: 1, 4, 6
+     1+mshkimot+NI+Pej+Prt: nmashkmodaashba
+     1+mshkimot+NI+Pej+Voc+Pl: nmashkmodaashdig
+     2+mshkimot+NI+Pej+Prt: gmashkmodaashba
+     2+mshkimot+NI+Pej+Voc+Pl: gmashkmodaashdig
+     3+mshkimot+NI+Pej+Prt: mashkmodaashba
+     3+mshkimot+NI+Pej+Voc+Pl: mashkmodaashdig
+     X+mshkimot+NI+Pej+Prt: mashkmodaashba
+     X+mshkimot+NI+Pej+Voc+Pl: mashkmodaashdig
+     
+     #Values from slots numbered: 1, 4, 7
+     1+mshkimot+NI+Pej+4: nmashkmodaashan
+     1+mshkimot+NI+Pej+Loc: nmashkmodaashing
+     1+mshkimot+NI+Pej+Pl: nmashkmodaashan
+     2+mshkimot+NI+Pej+4: gmashkmodaashan
+     2+mshkimot+NI+Pej+Loc: gmashkmodaashing
+     2+mshkimot+NI+Pej+Pl: gmashkmodaashan
+     3+mshkimot+NI+Pej+4: mashkmodaashan
+     3+mshkimot+NI+Pej+Loc: mashkmodaashing
+     3+mshkimot+NI+Pej+Pl: mashkmodaashan
+     X+mshkimot+NI+Pej+4: mashkmodaashan
+     X+mshkimot+NI+Pej+Loc: mashkmodaashing
+     X+mshkimot+NI+Pej+Pl: mashkmodaashan
+     
+     #Values from slots numbered: 1, 5, 6
+     1+mshkimot+NI+1+Pl+Prt: nmashkmodaanaanba
+     1+mshkimot+NI+1+Pl+Voc+Pl: nmashkmodaanaandig
+     2+mshkimot+NI+1+Pl+Prt: gmashkmodaanaanba
+     2+mshkimot+NI+1+Pl+Voc+Pl: gmashkmodaanaandig
+     2+mshkimot+NI+2+Pl+Prt: gmashkmodaawaaba
+     2+mshkimot+NI+2+Pl+Voc+Pl: gmashkmodaawaadig
+     3+mshkimot+NI+2+Pl+Prt: mashkmodaawaaba
+     3+mshkimot+NI+2+Pl+Voc+Pl: mashkmodaawaadig
+     3+mshkimot+NI+3+4+Prt: mashkmodaanwiba
+     3+mshkimot+NI+3+4+Voc+Pl: mashkmodaanwidig
+     
+     #Values from slots numbered: 1, 5, 7
+     1+mshkimot+NI+1+Pl+4: nmashkmodaanaanin
+     1+mshkimot+NI+1+Pl+Loc: nmashkmodaanaaning
+     1+mshkimot+NI+1+Pl+Pl: nmashkmodaanaanin
+     2+mshkimot+NI+1+Pl+4: gmashkmodaanaanin
+     2+mshkimot+NI+1+Pl+Loc: gmashkmodaanaaning
+     2+mshkimot+NI+1+Pl+Pl: gmashkmodaanaanin
+     2+mshkimot+NI+2+Pl+4: gmashkmodaawaan
+     2+mshkimot+NI+2+Pl+Loc: gmashkmodaawaang
+     2+mshkimot+NI+2+Pl+Pl: gmashkmodaawaan
+     3+mshkimot+NI+2+Pl+4: mashkmodaawaan
+     3+mshkimot+NI+2+Pl+Loc: mashkmodaawaang
+     3+mshkimot+NI+2+Pl+Pl: mashkmodaawaan
+     3+mshkimot+NI+3+4+4: mashkmodaanwan
+     3+mshkimot+NI+3+4+Loc: mashkmodaaniing
+     3+mshkimot+NI+3+4+Pl: mashkmodaanwan
+     
+     #Values from slots numbered: 1, 6, 7
+     1+mshkimot+NI+Prt+4: nmashkmodaabniin
+     1+mshkimot+NI+Prt+Loc: nmashkmodaabniing
+     1+mshkimot+NI+Prt+Pl: nmashkmodaabniin
+     2+mshkimot+NI+Prt+4: gmashkmodaabniin
+     2+mshkimot+NI+Prt+Loc: gmashkmodaabniing
+     2+mshkimot+NI+Prt+Pl: gmashkmodaabniin
+     3+mshkimot+NI+Prt+4: mashkmodaabniin
+     3+mshkimot+NI+Prt+Loc: mashkmodaabniing
+     3+mshkimot+NI+Prt+Pl: mashkmodaabniin
+     X+mshkimot+NI+Prt+4: mashkmodaabniin
+     X+mshkimot+NI+Prt+Loc: mashkmodaabniing
+     X+mshkimot+NI+Prt+Pl: mashkmodaabniin
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 2, 4, 6
+     mshkimot+NI+Con+Pej+Prt: mshkimdenyshiba
+     mshkimot+NI+Con+Pej+Voc+Pl: mshkimdenyshidig
+     mshkimot+NI+Dim+Pej+Prt: mshkimdensshiba
+     mshkimot+NI+Dim+Pej+Voc+Pl: mshkimdensshidig
+     
+     #Values from slots numbered: 2, 4, 7
+     mshkimot+NI+Con+Pej+4: mshkimdenyshan
+     mshkimot+NI+Con+Pej+Loc: mshkimdenyshing
+     mshkimot+NI+Con+Pej+Pl: mshkimdenyshan
+     mshkimot+NI+Dim+Pej+4: mshkimdensshan
+     mshkimot+NI+Dim+Pej+Loc: mshkimdensshing
+     mshkimot+NI+Dim+Pej+Pl: mshkimdensshan
+     
+     
+     
+     #Values from slots numbered: 2, 6, 7
+     mshkimot+NI+Con+Prt+4: mshkimdenybaniin
+     mshkimot+NI+Con+Prt+Loc: mshkimdenybaniing
+     mshkimot+NI+Con+Prt+Pl: mshkimdenybaniin
+     mshkimot+NI+Dim+Prt+4: mshkimdensbaniin
+     mshkimot+NI+Dim+Prt+Loc: mshkimdensbaniing
+     mshkimot+NI+Dim+Prt+Pl: mshkimdensbaniin
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 4, 6, 7
+     mshkimot+NI+Pej+Prt+4: mshkimdaashbaniin
+     mshkimot+NI+Pej+Prt+Loc: mshkimdaashbaniing
+     mshkimot+NI+Pej+Prt+Pl: mshkimdaashbaniin
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     1+mshkimot+NI+Con+ThmPos+Pej: nmashkmodenymish
+     1+mshkimot+NI+Dim+ThmPos+Pej: nmashkmodensmish
+     2+mshkimot+NI+Con+ThmPos+Pej: gmashkmodenymish
+     2+mshkimot+NI+Dim+ThmPos+Pej: gmashkmodensmish
+     3+mshkimot+NI+Con+ThmPos+Pej: mashkmodenymish
+     3+mshkimot+NI+Dim+ThmPos+Pej: mashkmodensmish
+     X+mshkimot+NI+Con+ThmPos+Pej: mashkmodenymish
+     X+mshkimot+NI+Dim+ThmPos+Pej: mashkmodensmish
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     1+mshkimot+NI+Con+ThmPos+1+Pl: nmashkmodenyminaa
+     1+mshkimot+NI+Dim+ThmPos+1+Pl: nmashkmodensminaa
+     2+mshkimot+NI+Con+ThmPos+1+Pl: gmashkmodenyminaa
+     2+mshkimot+NI+Con+ThmPos+2+Pl: gmashkmodenymiwaa
+     2+mshkimot+NI+Dim+ThmPos+1+Pl: gmashkmodensminaa
+     2+mshkimot+NI+Dim+ThmPos+2+Pl: gmashkmodensmiwaa
+     3+mshkimot+NI+Con+ThmPos+2+Pl: mashkmodenymiwaa
+     3+mshkimot+NI+Con+ThmPos+3+4: mashkmodenymini
+     3+mshkimot+NI+Dim+ThmPos+2+Pl: mashkmodensmiwaa
+     3+mshkimot+NI+Dim+ThmPos+3+4: mashkmodensmini
+     
+     #Values from slots numbered: 1, 2, 3, 6
+     1+mshkimot+NI+Con+ThmPos+Prt: nmashkmodenymiba
+     1+mshkimot+NI+Con+ThmPos+Voc+Pl: nmashkmodenymidig
+     1+mshkimot+NI+Dim+ThmPos+Prt: nmashkmodensmiba
+     1+mshkimot+NI+Dim+ThmPos+Voc+Pl: nmashkmodensmidig
+     2+mshkimot+NI+Con+ThmPos+Prt: gmashkmodenymiba
+     2+mshkimot+NI+Con+ThmPos+Voc+Pl: gmashkmodenymidig
+     2+mshkimot+NI+Dim+ThmPos+Prt: gmashkmodensmiba
+     2+mshkimot+NI+Dim+ThmPos+Voc+Pl: gmashkmodensmidig
+     3+mshkimot+NI+Con+ThmPos+Prt: mashkmodenymiba
+     3+mshkimot+NI+Con+ThmPos+Voc+Pl: mashkmodenymidig
+     3+mshkimot+NI+Dim+ThmPos+Prt: mashkmodensmiba
+     3+mshkimot+NI+Dim+ThmPos+Voc+Pl: mashkmodensmidig
+     X+mshkimot+NI+Con+ThmPos+Prt: mashkmodenymiba
+     X+mshkimot+NI+Con+ThmPos+Voc+Pl: mashkmodenymidig
+     X+mshkimot+NI+Dim+ThmPos+Prt: mashkmodensmiba
+     X+mshkimot+NI+Dim+ThmPos+Voc+Pl: mashkmodensmidig
+     
+     #Values from slots numbered: 1, 2, 3, 7
+     1+mshkimot+NI+Con+ThmPos+4: nmashkmodenyman
+     1+mshkimot+NI+Con+ThmPos+Loc: nmashkmodenyming
+     1+mshkimot+NI+Con+ThmPos+Pl: nmashkmodenyman
+     1+mshkimot+NI+Dim+ThmPos+4: nmashkmodensman
+     1+mshkimot+NI+Dim+ThmPos+Loc: nmashkmodensming
+     1+mshkimot+NI+Dim+ThmPos+Pl: nmashkmodensman
+     2+mshkimot+NI+Con+ThmPos+4: gmashkmodenyman
+     2+mshkimot+NI+Con+ThmPos+Loc: gmashkmodenyming
+     2+mshkimot+NI+Con+ThmPos+Pl: gmashkmodenyman
+     2+mshkimot+NI+Dim+ThmPos+4: gmashkmodensman
+     2+mshkimot+NI+Dim+ThmPos+Loc: gmashkmodensming
+     2+mshkimot+NI+Dim+ThmPos+Pl: gmashkmodensman
+     3+mshkimot+NI+Con+ThmPos+4: mashkmodenyman
+     3+mshkimot+NI+Con+ThmPos+Loc: mashkmodenyming
+     3+mshkimot+NI+Con+ThmPos+Pl: mashkmodenyman
+     3+mshkimot+NI+Dim+ThmPos+4: mashkmodensman
+     3+mshkimot+NI+Dim+ThmPos+Loc: mashkmodensming
+     3+mshkimot+NI+Dim+ThmPos+Pl: mashkmodensman
+     X+mshkimot+NI+Con+ThmPos+4: mashkmodenyman
+     X+mshkimot+NI+Con+ThmPos+Loc: mashkmodenyming
+     X+mshkimot+NI+Con+ThmPos+Pl: mashkmodenyman
+     X+mshkimot+NI+Dim+ThmPos+4: mashkmodensman
+     X+mshkimot+NI+Dim+ThmPos+Loc: mashkmodensming
+     X+mshkimot+NI+Dim+ThmPos+Pl: mashkmodensman
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     1+mshkimot+NI+Con+Pej+1+Pl: nmashkmodenyshinaa
+     1+mshkimot+NI+Dim+Pej+1+Pl: nmashkmodensshinaa
+     2+mshkimot+NI+Con+Pej+1+Pl: gmashkmodenyshinaa
+     2+mshkimot+NI+Con+Pej+2+Pl: gmashkmodenyshiwaa
+     2+mshkimot+NI+Dim+Pej+1+Pl: gmashkmodensshinaa
+     2+mshkimot+NI+Dim+Pej+2+Pl: gmashkmodensshiwaa
+     3+mshkimot+NI+Con+Pej+2+Pl: mashkmodenyshiwaa
+     3+mshkimot+NI+Con+Pej+3+4: mashkmodenyshini
+     3+mshkimot+NI+Dim+Pej+2+Pl: mashkmodensshiwaa
+     3+mshkimot+NI+Dim+Pej+3+4: mashkmodensshini
+     
+     #Values from slots numbered: 1, 2, 4, 6
+     1+mshkimot+NI+Con+Pej+Prt: nmashkmodenyshiba
+     1+mshkimot+NI+Con+Pej+Voc+Pl: nmashkmodenyshidig
+     1+mshkimot+NI+Dim+Pej+Prt: nmashkmodensshiba
+     1+mshkimot+NI+Dim+Pej+Voc+Pl: nmashkmodensshidig
+     2+mshkimot+NI+Con+Pej+Prt: gmashkmodenyshiba
+     2+mshkimot+NI+Con+Pej+Voc+Pl: gmashkmodenyshidig
+     2+mshkimot+NI+Dim+Pej+Prt: gmashkmodensshiba
+     2+mshkimot+NI+Dim+Pej+Voc+Pl: gmashkmodensshidig
+     3+mshkimot+NI+Con+Pej+Prt: mashkmodenyshiba
+     3+mshkimot+NI+Con+Pej+Voc+Pl: mashkmodenyshidig
+     3+mshkimot+NI+Dim+Pej+Prt: mashkmodensshiba
+     3+mshkimot+NI+Dim+Pej+Voc+Pl: mashkmodensshidig
+     X+mshkimot+NI+Con+Pej+Prt: mashkmodenyshiba
+     X+mshkimot+NI+Con+Pej+Voc+Pl: mashkmodenyshidig
+     X+mshkimot+NI+Dim+Pej+Prt: mashkmodensshiba
+     X+mshkimot+NI+Dim+Pej+Voc+Pl: mashkmodensshidig
+     
+     #Values from slots numbered: 1, 2, 4, 7
+     1+mshkimot+NI+Con+Pej+4: nmashkmodenyshan
+     1+mshkimot+NI+Con+Pej+Loc: nmashkmodenyshing
+     1+mshkimot+NI+Con+Pej+Pl: nmashkmodenyshan
+     1+mshkimot+NI+Dim+Pej+4: nmashkmodensshan
+     1+mshkimot+NI+Dim+Pej+Loc: nmashkmodensshing
+     1+mshkimot+NI+Dim+Pej+Pl: nmashkmodensshan
+     2+mshkimot+NI+Con+Pej+4: gmashkmodenyshan
+     2+mshkimot+NI+Con+Pej+Loc: gmashkmodenyshing
+     2+mshkimot+NI+Con+Pej+Pl: gmashkmodenyshan
+     2+mshkimot+NI+Dim+Pej+4: gmashkmodensshan
+     2+mshkimot+NI+Dim+Pej+Loc: gmashkmodensshing
+     2+mshkimot+NI+Dim+Pej+Pl: gmashkmodensshan
+     3+mshkimot+NI+Con+Pej+4: mashkmodenyshan
+     3+mshkimot+NI+Con+Pej+Loc: mashkmodenyshing
+     3+mshkimot+NI+Con+Pej+Pl: mashkmodenyshan
+     3+mshkimot+NI+Dim+Pej+4: mashkmodensshan
+     3+mshkimot+NI+Dim+Pej+Loc: mashkmodensshing
+     3+mshkimot+NI+Dim+Pej+Pl: mashkmodensshan
+     X+mshkimot+NI+Con+Pej+4: mashkmodenyshan
+     X+mshkimot+NI+Con+Pej+Loc: mashkmodenyshing
+     X+mshkimot+NI+Con+Pej+Pl: mashkmodenyshan
+     X+mshkimot+NI+Dim+Pej+4: mashkmodensshan
+     X+mshkimot+NI+Dim+Pej+Loc: mashkmodensshing
+     X+mshkimot+NI+Dim+Pej+Pl: mashkmodensshan
+     
+     #Values from slots numbered: 1, 2, 5, 6
+     1+mshkimot+NI+Con+1+Pl+Prt: nmashkmodenynaanba
+     1+mshkimot+NI+Con+1+Pl+Voc+Pl: nmashkmodenynaandig
+     1+mshkimot+NI+Dim+1+Pl+Prt: nmashkmodensnaanba
+     1+mshkimot+NI+Dim+1+Pl+Voc+Pl: nmashkmodensnaandig
+     2+mshkimot+NI+Con+1+Pl+Prt: gmashkmodenynaanba
+     2+mshkimot+NI+Con+1+Pl+Voc+Pl: gmashkmodenynaandig
+     2+mshkimot+NI+Con+2+Pl+Prt: gmashkmodenywaaba
+     2+mshkimot+NI+Con+2+Pl+Voc+Pl: gmashkmodenywaadig
+     2+mshkimot+NI+Dim+1+Pl+Prt: gmashkmodensnaanba
+     2+mshkimot+NI+Dim+1+Pl+Voc+Pl: gmashkmodensnaandig
+     2+mshkimot+NI+Dim+2+Pl+Prt: gmashkmodenswaaba
+     2+mshkimot+NI+Dim+2+Pl+Voc+Pl: gmashkmodenswaadig
+     3+mshkimot+NI+Con+2+Pl+Prt: mashkmodenywaaba
+     3+mshkimot+NI+Con+2+Pl+Voc+Pl: mashkmodenywaadig
+     3+mshkimot+NI+Con+3+4+Prt: mashkmodenyniwba
+     3+mshkimot+NI+Con+3+4+Voc+Pl: mashkmodenyniwdig
+     3+mshkimot+NI+Dim+2+Pl+Prt: mashkmodenswaaba
+     3+mshkimot+NI+Dim+2+Pl+Voc+Pl: mashkmodenswaadig
+     3+mshkimot+NI+Dim+3+4+Prt: mashkmodensniwba
+     3+mshkimot+NI+Dim+3+4+Voc+Pl: mashkmodensniwdig
+     
+     #Values from slots numbered: 1, 2, 5, 7
+     1+mshkimot+NI+Con+1+Pl+4: nmashkmodenynaanin
+     1+mshkimot+NI+Con+1+Pl+Loc: nmashkmodenynaaning
+     1+mshkimot+NI+Con+1+Pl+Pl: nmashkmodenynaanin
+     1+mshkimot+NI+Dim+1+Pl+4: nmashkmodensnaanin
+     1+mshkimot+NI+Dim+1+Pl+Loc: nmashkmodensnaaning
+     1+mshkimot+NI+Dim+1+Pl+Pl: nmashkmodensnaanin
+     2+mshkimot+NI+Con+1+Pl+4: gmashkmodenynaanin
+     2+mshkimot+NI+Con+1+Pl+Loc: gmashkmodenynaaning
+     2+mshkimot+NI+Con+1+Pl+Pl: gmashkmodenynaanin
+     2+mshkimot+NI+Con+2+Pl+4: gmashkmodenywaan
+     2+mshkimot+NI+Con+2+Pl+Loc: gmashkmodenywaang
+     2+mshkimot+NI+Con+2+Pl+Pl: gmashkmodenywaan
+     2+mshkimot+NI+Dim+1+Pl+4: gmashkmodensnaanin
+     2+mshkimot+NI+Dim+1+Pl+Loc: gmashkmodensnaaning
+     2+mshkimot+NI+Dim+1+Pl+Pl: gmashkmodensnaanin
+     2+mshkimot+NI+Dim+2+Pl+4: gmashkmodenswaan
+     2+mshkimot+NI+Dim+2+Pl+Loc: gmashkmodenswaang
+     2+mshkimot+NI+Dim+2+Pl+Pl: gmashkmodenswaan
+     3+mshkimot+NI+Con+2+Pl+4: mashkmodenywaan
+     3+mshkimot+NI+Con+2+Pl+Loc: mashkmodenywaang
+     3+mshkimot+NI+Con+2+Pl+Pl: mashkmodenywaan
+     3+mshkimot+NI+Con+3+4+4: mashkmodenyniwan
+     3+mshkimot+NI+Con+3+4+Loc: mashkmodenyniing
+     3+mshkimot+NI+Con+3+4+Pl: mashkmodenyniwan
+     3+mshkimot+NI+Dim+2+Pl+4: mashkmodenswaan
+     3+mshkimot+NI+Dim+2+Pl+Loc: mashkmodenswaang
+     3+mshkimot+NI+Dim+2+Pl+Pl: mashkmodenswaan
+     3+mshkimot+NI+Dim+3+4+4: mashkmodensniwan
+     3+mshkimot+NI+Dim+3+4+Loc: mashkmodensniing
+     3+mshkimot+NI+Dim+3+4+Pl: mashkmodensniwan
+     
+     #Values from slots numbered: 1, 2, 6, 7
+     1+mshkimot+NI+Con+Prt+4: nmashkmodenybaniin
+     1+mshkimot+NI+Con+Prt+Loc: nmashkmodenybaniing
+     1+mshkimot+NI+Con+Prt+Pl: nmashkmodenybaniin
+     1+mshkimot+NI+Dim+Prt+4: nmashkmodensbaniin
+     1+mshkimot+NI+Dim+Prt+Loc: nmashkmodensbaniing
+     1+mshkimot+NI+Dim+Prt+Pl: nmashkmodensbaniin
+     2+mshkimot+NI+Con+Prt+4: gmashkmodenybaniin
+     2+mshkimot+NI+Con+Prt+Loc: gmashkmodenybaniing
+     2+mshkimot+NI+Con+Prt+Pl: gmashkmodenybaniin
+     2+mshkimot+NI+Dim+Prt+4: gmashkmodensbaniin
+     2+mshkimot+NI+Dim+Prt+Loc: gmashkmodensbaniing
+     2+mshkimot+NI+Dim+Prt+Pl: gmashkmodensbaniin
+     3+mshkimot+NI+Con+Prt+4: mashkmodenybaniin
+     3+mshkimot+NI+Con+Prt+Loc: mashkmodenybaniing
+     3+mshkimot+NI+Con+Prt+Pl: mashkmodenybaniin
+     3+mshkimot+NI+Dim+Prt+4: mashkmodensbaniin
+     3+mshkimot+NI+Dim+Prt+Loc: mashkmodensbaniing
+     3+mshkimot+NI+Dim+Prt+Pl: mashkmodensbaniin
+     X+mshkimot+NI+Con+Prt+4: mashkmodenybaniin
+     X+mshkimot+NI+Con+Prt+Loc: mashkmodenybaniing
+     X+mshkimot+NI+Con+Prt+Pl: mashkmodenybaniin
+     X+mshkimot+NI+Dim+Prt+4: mashkmodensbaniin
+     X+mshkimot+NI+Dim+Prt+Loc: mashkmodensbaniing
+     X+mshkimot+NI+Dim+Prt+Pl: mashkmodensbaniin
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     1+mshkimot+NI+ThmPos+Pej+1+Pl: nmashkmodaamshinaa
+     2+mshkimot+NI+ThmPos+Pej+1+Pl: gmashkmodaamshinaa
+     2+mshkimot+NI+ThmPos+Pej+2+Pl: gmashkmodaamshiwaa
+     3+mshkimot+NI+ThmPos+Pej+2+Pl: mashkmodaamshiwaa
+     3+mshkimot+NI+ThmPos+Pej+3+4: mashkmodaamshini
+     
+     #Values from slots numbered: 1, 3, 4, 6
+     1+mshkimot+NI+ThmPos+Pej+Prt: nmashkmodaamshiba
+     1+mshkimot+NI+ThmPos+Pej+Voc+Pl: nmashkmodaamshidig
+     2+mshkimot+NI+ThmPos+Pej+Prt: gmashkmodaamshiba
+     2+mshkimot+NI+ThmPos+Pej+Voc+Pl: gmashkmodaamshidig
+     3+mshkimot+NI+ThmPos+Pej+Prt: mashkmodaamshiba
+     3+mshkimot+NI+ThmPos+Pej+Voc+Pl: mashkmodaamshidig
+     X+mshkimot+NI+ThmPos+Pej+Prt: mashkmodaamshiba
+     X+mshkimot+NI+ThmPos+Pej+Voc+Pl: mashkmodaamshidig
+     
+     #Values from slots numbered: 1, 3, 4, 7
+     1+mshkimot+NI+ThmPos+Pej+4: nmashkmodaamshan
+     1+mshkimot+NI+ThmPos+Pej+Loc: nmashkmodaamshing
+     1+mshkimot+NI+ThmPos+Pej+Pl: nmashkmodaamshan
+     2+mshkimot+NI+ThmPos+Pej+4: gmashkmodaamshan
+     2+mshkimot+NI+ThmPos+Pej+Loc: gmashkmodaamshing
+     2+mshkimot+NI+ThmPos+Pej+Pl: gmashkmodaamshan
+     3+mshkimot+NI+ThmPos+Pej+4: mashkmodaamshan
+     3+mshkimot+NI+ThmPos+Pej+Loc: mashkmodaamshing
+     3+mshkimot+NI+ThmPos+Pej+Pl: mashkmodaamshan
+     X+mshkimot+NI+ThmPos+Pej+4: mashkmodaamshan
+     X+mshkimot+NI+ThmPos+Pej+Loc: mashkmodaamshing
+     X+mshkimot+NI+ThmPos+Pej+Pl: mashkmodaamshan
+     
+     #Values from slots numbered: 1, 3, 5, 6
+     1+mshkimot+NI+ThmPos+1+Pl+Prt: nmashkmodaamnaanba
+     1+mshkimot+NI+ThmPos+1+Pl+Voc+Pl: nmashkmodaamnaandig
+     2+mshkimot+NI+ThmPos+1+Pl+Prt: gmashkmodaamnaanba
+     2+mshkimot+NI+ThmPos+1+Pl+Voc+Pl: gmashkmodaamnaandig
+     2+mshkimot+NI+ThmPos+2+Pl+Prt: gmashkmodaamwaaba
+     2+mshkimot+NI+ThmPos+2+Pl+Voc+Pl: gmashkmodaamwaadig
+     3+mshkimot+NI+ThmPos+2+Pl+Prt: mashkmodaamwaaba
+     3+mshkimot+NI+ThmPos+2+Pl+Voc+Pl: mashkmodaamwaadig
+     3+mshkimot+NI+ThmPos+3+4+Prt: mashkmodaamniwba
+     3+mshkimot+NI+ThmPos+3+4+Voc+Pl: mashkmodaamniwdig
+     
+     #Values from slots numbered: 1, 3, 5, 7
+     1+mshkimot+NI+ThmPos+1+Pl+4: nmashkmodaamnaanin
+     1+mshkimot+NI+ThmPos+1+Pl+Loc: nmashkmodaamnaaning
+     1+mshkimot+NI+ThmPos+1+Pl+Pl: nmashkmodaamnaanin
+     2+mshkimot+NI+ThmPos+1+Pl+4: gmashkmodaamnaanin
+     2+mshkimot+NI+ThmPos+1+Pl+Loc: gmashkmodaamnaaning
+     2+mshkimot+NI+ThmPos+1+Pl+Pl: gmashkmodaamnaanin
+     2+mshkimot+NI+ThmPos+2+Pl+4: gmashkmodaamwaan
+     2+mshkimot+NI+ThmPos+2+Pl+Loc: gmashkmodaamwaang
+     2+mshkimot+NI+ThmPos+2+Pl+Pl: gmashkmodaamwaan
+     3+mshkimot+NI+ThmPos+2+Pl+4: mashkmodaamwaan
+     3+mshkimot+NI+ThmPos+2+Pl+Loc: mashkmodaamwaang
+     3+mshkimot+NI+ThmPos+2+Pl+Pl: mashkmodaamwaan
+     3+mshkimot+NI+ThmPos+3+4+4: mashkmodaamniwan
+     3+mshkimot+NI+ThmPos+3+4+Loc: mashkmodaamniing
+     3+mshkimot+NI+ThmPos+3+4+Pl: mashkmodaamniwan
+     
+     #Values from slots numbered: 1, 3, 6, 7
+     1+mshkimot+NI+ThmPos+Prt+4: nmashkmodaambaniin
+     1+mshkimot+NI+ThmPos+Prt+Loc: nmashkmodaambaniing
+     1+mshkimot+NI+ThmPos+Prt+Pl: nmashkmodaambaniin
+     2+mshkimot+NI+ThmPos+Prt+4: gmashkmodaambaniin
+     2+mshkimot+NI+ThmPos+Prt+Loc: gmashkmodaambaniing
+     2+mshkimot+NI+ThmPos+Prt+Pl: gmashkmodaambaniin
+     3+mshkimot+NI+ThmPos+Prt+4: mashkmodaambaniin
+     3+mshkimot+NI+ThmPos+Prt+Loc: mashkmodaambaniing
+     3+mshkimot+NI+ThmPos+Prt+Pl: mashkmodaambaniin
+     X+mshkimot+NI+ThmPos+Prt+4: mashkmodaambaniin
+     X+mshkimot+NI+ThmPos+Prt+Loc: mashkmodaambaniing
+     X+mshkimot+NI+ThmPos+Prt+Pl: mashkmodaambaniin
+     
+     #Values from slots numbered: 1, 4, 5, 6
+     1+mshkimot+NI+Pej+1+Pl+Prt: nmashkmodaashnaanba
+     1+mshkimot+NI+Pej+1+Pl+Voc+Pl: nmashkmodaashnaandig
+     2+mshkimot+NI+Pej+1+Pl+Prt: gmashkmodaashnaanba
+     2+mshkimot+NI+Pej+1+Pl+Voc+Pl: gmashkmodaashnaandig
+     2+mshkimot+NI+Pej+2+Pl+Prt: gmashkmodaashwaaba
+     2+mshkimot+NI+Pej+2+Pl+Voc+Pl: gmashkmodaashwaadig
+     3+mshkimot+NI+Pej+2+Pl+Prt: mashkmodaashwaaba
+     3+mshkimot+NI+Pej+2+Pl+Voc+Pl: mashkmodaashwaadig
+     3+mshkimot+NI+Pej+3+4+Prt: mashkmodaashniwba
+     3+mshkimot+NI+Pej+3+4+Voc+Pl: mashkmodaashniwdig
+     
+     #Values from slots numbered: 1, 4, 5, 7
+     1+mshkimot+NI+Pej+1+Pl+4: nmashkmodaashnaanin
+     1+mshkimot+NI+Pej+1+Pl+Loc: nmashkmodaashnaaning
+     1+mshkimot+NI+Pej+1+Pl+Pl: nmashkmodaashnaanin
+     2+mshkimot+NI+Pej+1+Pl+4: gmashkmodaashnaanin
+     2+mshkimot+NI+Pej+1+Pl+Loc: gmashkmodaashnaaning
+     2+mshkimot+NI+Pej+1+Pl+Pl: gmashkmodaashnaanin
+     2+mshkimot+NI+Pej+2+Pl+4: gmashkmodaashwaan
+     2+mshkimot+NI+Pej+2+Pl+Loc: gmashkmodaashwaang
+     2+mshkimot+NI+Pej+2+Pl+Pl: gmashkmodaashwaan
+     3+mshkimot+NI+Pej+2+Pl+4: mashkmodaashwaan
+     3+mshkimot+NI+Pej+2+Pl+Loc: mashkmodaashwaang
+     3+mshkimot+NI+Pej+2+Pl+Pl: mashkmodaashwaan
+     3+mshkimot+NI+Pej+3+4+4: mashkmodaashniwan
+     3+mshkimot+NI+Pej+3+4+Loc: mashkmodaashniing
+     3+mshkimot+NI+Pej+3+4+Pl: mashkmodaashniwan
+     
+     #Values from slots numbered: 1, 4, 6, 7
+     1+mshkimot+NI+Pej+Prt+4: nmashkmodaashbaniin
+     1+mshkimot+NI+Pej+Prt+Loc: nmashkmodaashbaniing
+     1+mshkimot+NI+Pej+Prt+Pl: nmashkmodaashbaniin
+     2+mshkimot+NI+Pej+Prt+4: gmashkmodaashbaniin
+     2+mshkimot+NI+Pej+Prt+Loc: gmashkmodaashbaniing
+     2+mshkimot+NI+Pej+Prt+Pl: gmashkmodaashbaniin
+     3+mshkimot+NI+Pej+Prt+4: mashkmodaashbaniin
+     3+mshkimot+NI+Pej+Prt+Loc: mashkmodaashbaniing
+     3+mshkimot+NI+Pej+Prt+Pl: mashkmodaashbaniin
+     X+mshkimot+NI+Pej+Prt+4: mashkmodaashbaniin
+     X+mshkimot+NI+Pej+Prt+Loc: mashkmodaashbaniing
+     X+mshkimot+NI+Pej+Prt+Pl: mashkmodaashbaniin
+     
+     #Values from slots numbered: 1, 5, 6, 7
+     1+mshkimot+NI+1+Pl+Prt+4: nmashkmodaanaanbaniin
+     1+mshkimot+NI+1+Pl+Prt+Loc: nmashkmodaanaanbaniing
+     1+mshkimot+NI+1+Pl+Prt+Pl: nmashkmodaanaanbaniin
+     2+mshkimot+NI+1+Pl+Prt+4: gmashkmodaanaanbaniin
+     2+mshkimot+NI+1+Pl+Prt+Loc: gmashkmodaanaanbaniing
+     2+mshkimot+NI+1+Pl+Prt+Pl: gmashkmodaanaanbaniin
+     2+mshkimot+NI+2+Pl+Prt+4: gmashkmodaawaabniin
+     2+mshkimot+NI+2+Pl+Prt+Loc: gmashkmodaawaabniing
+     2+mshkimot+NI+2+Pl+Prt+Pl: gmashkmodaawaabniin
+     3+mshkimot+NI+2+Pl+Prt+4: mashkmodaawaabniin
+     3+mshkimot+NI+2+Pl+Prt+Loc: mashkmodaawaabniing
+     3+mshkimot+NI+2+Pl+Prt+Pl: mashkmodaawaabniin
+     3+mshkimot+NI+3+4+Prt+4: mashkmodaanwibniin
+     3+mshkimot+NI+3+4+Prt+Loc: mashkmodaanwibniing
+     3+mshkimot+NI+3+4+Prt+Pl: mashkmodaanwibniin
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 2, 4, 6, 7
+     mshkimot+NI+Con+Pej+Prt+4: mshkimdenyshibniin
+     mshkimot+NI+Con+Pej+Prt+Loc: mshkimdenyshibniing
+     mshkimot+NI+Con+Pej+Prt+Pl: mshkimdenyshibniin
+     mshkimot+NI+Dim+Pej+Prt+4: mshkimdensshibniin
+     mshkimot+NI+Dim+Pej+Prt+Loc: mshkimdensshibniing
+     mshkimot+NI+Dim+Pej+Prt+Pl: mshkimdensshibniin
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl: nmashkmodenymishnaa
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl: nmashkmodensmishnaa
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl: gmashkmodenymishnaa
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl: gmashkmodenymishwaa
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl: gmashkmodensmishnaa
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl: gmashkmodensmishwaa
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl: mashkmodenymishwaa
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4: mashkmodenymishni
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl: mashkmodensmishwaa
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4: mashkmodensmishni
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6
+     1+mshkimot+NI+Con+ThmPos+Pej+Prt: nmashkmodenymishba
+     1+mshkimot+NI+Con+ThmPos+Pej+Voc+Pl: nmashkmodenymishdig
+     1+mshkimot+NI+Dim+ThmPos+Pej+Prt: nmashkmodensmishba
+     1+mshkimot+NI+Dim+ThmPos+Pej+Voc+Pl: nmashkmodensmishdig
+     2+mshkimot+NI+Con+ThmPos+Pej+Prt: gmashkmodenymishba
+     2+mshkimot+NI+Con+ThmPos+Pej+Voc+Pl: gmashkmodenymishdig
+     2+mshkimot+NI+Dim+ThmPos+Pej+Prt: gmashkmodensmishba
+     2+mshkimot+NI+Dim+ThmPos+Pej+Voc+Pl: gmashkmodensmishdig
+     3+mshkimot+NI+Con+ThmPos+Pej+Prt: mashkmodenymishba
+     3+mshkimot+NI+Con+ThmPos+Pej+Voc+Pl: mashkmodenymishdig
+     3+mshkimot+NI+Dim+ThmPos+Pej+Prt: mashkmodensmishba
+     3+mshkimot+NI+Dim+ThmPos+Pej+Voc+Pl: mashkmodensmishdig
+     X+mshkimot+NI+Con+ThmPos+Pej+Prt: mashkmodenymishba
+     X+mshkimot+NI+Con+ThmPos+Pej+Voc+Pl: mashkmodenymishdig
+     X+mshkimot+NI+Dim+ThmPos+Pej+Prt: mashkmodensmishba
+     X+mshkimot+NI+Dim+ThmPos+Pej+Voc+Pl: mashkmodensmishdig
+     
+     #Values from slots numbered: 1, 2, 3, 4, 7
+     1+mshkimot+NI+Con+ThmPos+Pej+4: nmashkmodenymishan
+     1+mshkimot+NI+Con+ThmPos+Pej+Loc: nmashkmodenymishing
+     1+mshkimot+NI+Con+ThmPos+Pej+Pl: nmashkmodenymishan
+     1+mshkimot+NI+Dim+ThmPos+Pej+4: nmashkmodensmishan
+     1+mshkimot+NI+Dim+ThmPos+Pej+Loc: nmashkmodensmishing
+     1+mshkimot+NI+Dim+ThmPos+Pej+Pl: nmashkmodensmishan
+     2+mshkimot+NI+Con+ThmPos+Pej+4: gmashkmodenymishan
+     2+mshkimot+NI+Con+ThmPos+Pej+Loc: gmashkmodenymishing
+     2+mshkimot+NI+Con+ThmPos+Pej+Pl: gmashkmodenymishan
+     2+mshkimot+NI+Dim+ThmPos+Pej+4: gmashkmodensmishan
+     2+mshkimot+NI+Dim+ThmPos+Pej+Loc: gmashkmodensmishing
+     2+mshkimot+NI+Dim+ThmPos+Pej+Pl: gmashkmodensmishan
+     3+mshkimot+NI+Con+ThmPos+Pej+4: mashkmodenymishan
+     3+mshkimot+NI+Con+ThmPos+Pej+Loc: mashkmodenymishing
+     3+mshkimot+NI+Con+ThmPos+Pej+Pl: mashkmodenymishan
+     3+mshkimot+NI+Dim+ThmPos+Pej+4: mashkmodensmishan
+     3+mshkimot+NI+Dim+ThmPos+Pej+Loc: mashkmodensmishing
+     3+mshkimot+NI+Dim+ThmPos+Pej+Pl: mashkmodensmishan
+     X+mshkimot+NI+Con+ThmPos+Pej+4: mashkmodenymishan
+     X+mshkimot+NI+Con+ThmPos+Pej+Loc: mashkmodenymishing
+     X+mshkimot+NI+Con+ThmPos+Pej+Pl: mashkmodenymishan
+     X+mshkimot+NI+Dim+ThmPos+Pej+4: mashkmodensmishan
+     X+mshkimot+NI+Dim+ThmPos+Pej+Loc: mashkmodensmishing
+     X+mshkimot+NI+Dim+ThmPos+Pej+Pl: mashkmodensmishan
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6
+     1+mshkimot+NI+Con+ThmPos+1+Pl+Prt: nmashkmodenyminaanba
+     1+mshkimot+NI+Con+ThmPos+1+Pl+Voc+Pl: nmashkmodenyminaandig
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+Prt: nmashkmodensminaanba
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+Voc+Pl: nmashkmodensminaandig
+     2+mshkimot+NI+Con+ThmPos+1+Pl+Prt: gmashkmodenyminaanba
+     2+mshkimot+NI+Con+ThmPos+1+Pl+Voc+Pl: gmashkmodenyminaandig
+     2+mshkimot+NI+Con+ThmPos+2+Pl+Prt: gmashkmodenymiwaaba
+     2+mshkimot+NI+Con+ThmPos+2+Pl+Voc+Pl: gmashkmodenymiwaadig
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+Prt: gmashkmodensminaanba
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+Voc+Pl: gmashkmodensminaandig
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+Prt: gmashkmodensmiwaaba
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+Voc+Pl: gmashkmodensmiwaadig
+     3+mshkimot+NI+Con+ThmPos+2+Pl+Prt: mashkmodenymiwaaba
+     3+mshkimot+NI+Con+ThmPos+2+Pl+Voc+Pl: mashkmodenymiwaadig
+     3+mshkimot+NI+Con+ThmPos+3+4+Prt: mashkmodenyminwiba
+     3+mshkimot+NI+Con+ThmPos+3+4+Voc+Pl: mashkmodenyminwidig
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+Prt: mashkmodensmiwaaba
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+Voc+Pl: mashkmodensmiwaadig
+     3+mshkimot+NI+Dim+ThmPos+3+4+Prt: mashkmodensminwiba
+     3+mshkimot+NI+Dim+ThmPos+3+4+Voc+Pl: mashkmodensminwidig
+     
+     #Values from slots numbered: 1, 2, 3, 5, 7
+     1+mshkimot+NI+Con+ThmPos+1+Pl+4: nmashkmodenyminaanin
+     1+mshkimot+NI+Con+ThmPos+1+Pl+Loc: nmashkmodenyminaaning
+     1+mshkimot+NI+Con+ThmPos+1+Pl+Pl: nmashkmodenyminaanin
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+4: nmashkmodensminaanin
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+Loc: nmashkmodensminaaning
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+Pl: nmashkmodensminaanin
+     2+mshkimot+NI+Con+ThmPos+1+Pl+4: gmashkmodenyminaanin
+     2+mshkimot+NI+Con+ThmPos+1+Pl+Loc: gmashkmodenyminaaning
+     2+mshkimot+NI+Con+ThmPos+1+Pl+Pl: gmashkmodenyminaanin
+     2+mshkimot+NI+Con+ThmPos+2+Pl+4: gmashkmodenymiwaan
+     2+mshkimot+NI+Con+ThmPos+2+Pl+Loc: gmashkmodenymiwaang
+     2+mshkimot+NI+Con+ThmPos+2+Pl+Pl: gmashkmodenymiwaan
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+4: gmashkmodensminaanin
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+Loc: gmashkmodensminaaning
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+Pl: gmashkmodensminaanin
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+4: gmashkmodensmiwaan
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+Loc: gmashkmodensmiwaang
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+Pl: gmashkmodensmiwaan
+     3+mshkimot+NI+Con+ThmPos+2+Pl+4: mashkmodenymiwaan
+     3+mshkimot+NI+Con+ThmPos+2+Pl+Loc: mashkmodenymiwaang
+     3+mshkimot+NI+Con+ThmPos+2+Pl+Pl: mashkmodenymiwaan
+     3+mshkimot+NI+Con+ThmPos+3+4+4: mashkmodenyminwan
+     3+mshkimot+NI+Con+ThmPos+3+4+Loc: mashkmodenyminiing
+     3+mshkimot+NI+Con+ThmPos+3+4+Pl: mashkmodenyminwan
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+4: mashkmodensmiwaan
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+Loc: mashkmodensmiwaang
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+Pl: mashkmodensmiwaan
+     3+mshkimot+NI+Dim+ThmPos+3+4+4: mashkmodensminwan
+     3+mshkimot+NI+Dim+ThmPos+3+4+Loc: mashkmodensminiing
+     3+mshkimot+NI+Dim+ThmPos+3+4+Pl: mashkmodensminwan
+     
+     #Values from slots numbered: 1, 2, 3, 6, 7
+     1+mshkimot+NI+Con+ThmPos+Prt+4: nmashkmodenymibniin
+     1+mshkimot+NI+Con+ThmPos+Prt+Loc: nmashkmodenymibniing
+     1+mshkimot+NI+Con+ThmPos+Prt+Pl: nmashkmodenymibniin
+     1+mshkimot+NI+Dim+ThmPos+Prt+4: nmashkmodensmibniin
+     1+mshkimot+NI+Dim+ThmPos+Prt+Loc: nmashkmodensmibniing
+     1+mshkimot+NI+Dim+ThmPos+Prt+Pl: nmashkmodensmibniin
+     2+mshkimot+NI+Con+ThmPos+Prt+4: gmashkmodenymibniin
+     2+mshkimot+NI+Con+ThmPos+Prt+Loc: gmashkmodenymibniing
+     2+mshkimot+NI+Con+ThmPos+Prt+Pl: gmashkmodenymibniin
+     2+mshkimot+NI+Dim+ThmPos+Prt+4: gmashkmodensmibniin
+     2+mshkimot+NI+Dim+ThmPos+Prt+Loc: gmashkmodensmibniing
+     2+mshkimot+NI+Dim+ThmPos+Prt+Pl: gmashkmodensmibniin
+     3+mshkimot+NI+Con+ThmPos+Prt+4: mashkmodenymibniin
+     3+mshkimot+NI+Con+ThmPos+Prt+Loc: mashkmodenymibniing
+     3+mshkimot+NI+Con+ThmPos+Prt+Pl: mashkmodenymibniin
+     3+mshkimot+NI+Dim+ThmPos+Prt+4: mashkmodensmibniin
+     3+mshkimot+NI+Dim+ThmPos+Prt+Loc: mashkmodensmibniing
+     3+mshkimot+NI+Dim+ThmPos+Prt+Pl: mashkmodensmibniin
+     X+mshkimot+NI+Con+ThmPos+Prt+4: mashkmodenymibniin
+     X+mshkimot+NI+Con+ThmPos+Prt+Loc: mashkmodenymibniing
+     X+mshkimot+NI+Con+ThmPos+Prt+Pl: mashkmodenymibniin
+     X+mshkimot+NI+Dim+ThmPos+Prt+4: mashkmodensmibniin
+     X+mshkimot+NI+Dim+ThmPos+Prt+Loc: mashkmodensmibniing
+     X+mshkimot+NI+Dim+ThmPos+Prt+Pl: mashkmodensmibniin
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6
+     1+mshkimot+NI+Con+Pej+1+Pl+Prt: nmashkmodenyshinaanba
+     1+mshkimot+NI+Con+Pej+1+Pl+Voc+Pl: nmashkmodenyshinaandig
+     1+mshkimot+NI+Dim+Pej+1+Pl+Prt: nmashkmodensshinaanba
+     1+mshkimot+NI+Dim+Pej+1+Pl+Voc+Pl: nmashkmodensshinaandig
+     2+mshkimot+NI+Con+Pej+1+Pl+Prt: gmashkmodenyshinaanba
+     2+mshkimot+NI+Con+Pej+1+Pl+Voc+Pl: gmashkmodenyshinaandig
+     2+mshkimot+NI+Con+Pej+2+Pl+Prt: gmashkmodenyshiwaaba
+     2+mshkimot+NI+Con+Pej+2+Pl+Voc+Pl: gmashkmodenyshiwaadig
+     2+mshkimot+NI+Dim+Pej+1+Pl+Prt: gmashkmodensshinaanba
+     2+mshkimot+NI+Dim+Pej+1+Pl+Voc+Pl: gmashkmodensshinaandig
+     2+mshkimot+NI+Dim+Pej+2+Pl+Prt: gmashkmodensshiwaaba
+     2+mshkimot+NI+Dim+Pej+2+Pl+Voc+Pl: gmashkmodensshiwaadig
+     3+mshkimot+NI+Con+Pej+2+Pl+Prt: mashkmodenyshiwaaba
+     3+mshkimot+NI+Con+Pej+2+Pl+Voc+Pl: mashkmodenyshiwaadig
+     3+mshkimot+NI+Con+Pej+3+4+Prt: mashkmodenyshinwiba
+     3+mshkimot+NI+Con+Pej+3+4+Voc+Pl: mashkmodenyshinwidig
+     3+mshkimot+NI+Dim+Pej+2+Pl+Prt: mashkmodensshiwaaba
+     3+mshkimot+NI+Dim+Pej+2+Pl+Voc+Pl: mashkmodensshiwaadig
+     3+mshkimot+NI+Dim+Pej+3+4+Prt: mashkmodensshinwiba
+     3+mshkimot+NI+Dim+Pej+3+4+Voc+Pl: mashkmodensshinwidig
+     
+     #Values from slots numbered: 1, 2, 4, 5, 7
+     1+mshkimot+NI+Con+Pej+1+Pl+4: nmashkmodenyshinaanin
+     1+mshkimot+NI+Con+Pej+1+Pl+Loc: nmashkmodenyshinaaning
+     1+mshkimot+NI+Con+Pej+1+Pl+Pl: nmashkmodenyshinaanin
+     1+mshkimot+NI+Dim+Pej+1+Pl+4: nmashkmodensshinaanin
+     1+mshkimot+NI+Dim+Pej+1+Pl+Loc: nmashkmodensshinaaning
+     1+mshkimot+NI+Dim+Pej+1+Pl+Pl: nmashkmodensshinaanin
+     2+mshkimot+NI+Con+Pej+1+Pl+4: gmashkmodenyshinaanin
+     2+mshkimot+NI+Con+Pej+1+Pl+Loc: gmashkmodenyshinaaning
+     2+mshkimot+NI+Con+Pej+1+Pl+Pl: gmashkmodenyshinaanin
+     2+mshkimot+NI+Con+Pej+2+Pl+4: gmashkmodenyshiwaan
+     2+mshkimot+NI+Con+Pej+2+Pl+Loc: gmashkmodenyshiwaang
+     2+mshkimot+NI+Con+Pej+2+Pl+Pl: gmashkmodenyshiwaan
+     2+mshkimot+NI+Dim+Pej+1+Pl+4: gmashkmodensshinaanin
+     2+mshkimot+NI+Dim+Pej+1+Pl+Loc: gmashkmodensshinaaning
+     2+mshkimot+NI+Dim+Pej+1+Pl+Pl: gmashkmodensshinaanin
+     2+mshkimot+NI+Dim+Pej+2+Pl+4: gmashkmodensshiwaan
+     2+mshkimot+NI+Dim+Pej+2+Pl+Loc: gmashkmodensshiwaang
+     2+mshkimot+NI+Dim+Pej+2+Pl+Pl: gmashkmodensshiwaan
+     3+mshkimot+NI+Con+Pej+2+Pl+4: mashkmodenyshiwaan
+     3+mshkimot+NI+Con+Pej+2+Pl+Loc: mashkmodenyshiwaang
+     3+mshkimot+NI+Con+Pej+2+Pl+Pl: mashkmodenyshiwaan
+     3+mshkimot+NI+Con+Pej+3+4+4: mashkmodenyshinwan
+     3+mshkimot+NI+Con+Pej+3+4+Loc: mashkmodenyshiniing
+     3+mshkimot+NI+Con+Pej+3+4+Pl: mashkmodenyshinwan
+     3+mshkimot+NI+Dim+Pej+2+Pl+4: mashkmodensshiwaan
+     3+mshkimot+NI+Dim+Pej+2+Pl+Loc: mashkmodensshiwaang
+     3+mshkimot+NI+Dim+Pej+2+Pl+Pl: mashkmodensshiwaan
+     3+mshkimot+NI+Dim+Pej+3+4+4: mashkmodensshinwan
+     3+mshkimot+NI+Dim+Pej+3+4+Loc: mashkmodensshiniing
+     3+mshkimot+NI+Dim+Pej+3+4+Pl: mashkmodensshinwan
+     
+     #Values from slots numbered: 1, 2, 4, 6, 7
+     1+mshkimot+NI+Con+Pej+Prt+4: nmashkmodenyshibniin
+     1+mshkimot+NI+Con+Pej+Prt+Loc: nmashkmodenyshibniing
+     1+mshkimot+NI+Con+Pej+Prt+Pl: nmashkmodenyshibniin
+     1+mshkimot+NI+Dim+Pej+Prt+4: nmashkmodensshibniin
+     1+mshkimot+NI+Dim+Pej+Prt+Loc: nmashkmodensshibniing
+     1+mshkimot+NI+Dim+Pej+Prt+Pl: nmashkmodensshibniin
+     2+mshkimot+NI+Con+Pej+Prt+4: gmashkmodenyshibniin
+     2+mshkimot+NI+Con+Pej+Prt+Loc: gmashkmodenyshibniing
+     2+mshkimot+NI+Con+Pej+Prt+Pl: gmashkmodenyshibniin
+     2+mshkimot+NI+Dim+Pej+Prt+4: gmashkmodensshibniin
+     2+mshkimot+NI+Dim+Pej+Prt+Loc: gmashkmodensshibniing
+     2+mshkimot+NI+Dim+Pej+Prt+Pl: gmashkmodensshibniin
+     3+mshkimot+NI+Con+Pej+Prt+4: mashkmodenyshibniin
+     3+mshkimot+NI+Con+Pej+Prt+Loc: mashkmodenyshibniing
+     3+mshkimot+NI+Con+Pej+Prt+Pl: mashkmodenyshibniin
+     3+mshkimot+NI+Dim+Pej+Prt+4: mashkmodensshibniin
+     3+mshkimot+NI+Dim+Pej+Prt+Loc: mashkmodensshibniing
+     3+mshkimot+NI+Dim+Pej+Prt+Pl: mashkmodensshibniin
+     X+mshkimot+NI+Con+Pej+Prt+4: mashkmodenyshibniin
+     X+mshkimot+NI+Con+Pej+Prt+Loc: mashkmodenyshibniing
+     X+mshkimot+NI+Con+Pej+Prt+Pl: mashkmodenyshibniin
+     X+mshkimot+NI+Dim+Pej+Prt+4: mashkmodensshibniin
+     X+mshkimot+NI+Dim+Pej+Prt+Loc: mashkmodensshibniing
+     X+mshkimot+NI+Dim+Pej+Prt+Pl: mashkmodensshibniin
+     
+     #Values from slots numbered: 1, 2, 5, 6, 7
+     1+mshkimot+NI+Con+1+Pl+Prt+4: nmashkmodenynaanbaniin
+     1+mshkimot+NI+Con+1+Pl+Prt+Loc: nmashkmodenynaanbaniing
+     1+mshkimot+NI+Con+1+Pl+Prt+Pl: nmashkmodenynaanbaniin
+     1+mshkimot+NI+Dim+1+Pl+Prt+4: nmashkmodensnaanbaniin
+     1+mshkimot+NI+Dim+1+Pl+Prt+Loc: nmashkmodensnaanbaniing
+     1+mshkimot+NI+Dim+1+Pl+Prt+Pl: nmashkmodensnaanbaniin
+     2+mshkimot+NI+Con+1+Pl+Prt+4: gmashkmodenynaanbaniin
+     2+mshkimot+NI+Con+1+Pl+Prt+Loc: gmashkmodenynaanbaniing
+     2+mshkimot+NI+Con+1+Pl+Prt+Pl: gmashkmodenynaanbaniin
+     2+mshkimot+NI+Con+2+Pl+Prt+4: gmashkmodenywaabniin
+     2+mshkimot+NI+Con+2+Pl+Prt+Loc: gmashkmodenywaabniing
+     2+mshkimot+NI+Con+2+Pl+Prt+Pl: gmashkmodenywaabniin
+     2+mshkimot+NI+Dim+1+Pl+Prt+4: gmashkmodensnaanbaniin
+     2+mshkimot+NI+Dim+1+Pl+Prt+Loc: gmashkmodensnaanbaniing
+     2+mshkimot+NI+Dim+1+Pl+Prt+Pl: gmashkmodensnaanbaniin
+     2+mshkimot+NI+Dim+2+Pl+Prt+4: gmashkmodenswaabniin
+     2+mshkimot+NI+Dim+2+Pl+Prt+Loc: gmashkmodenswaabniing
+     2+mshkimot+NI+Dim+2+Pl+Prt+Pl: gmashkmodenswaabniin
+     3+mshkimot+NI+Con+2+Pl+Prt+4: mashkmodenywaabniin
+     3+mshkimot+NI+Con+2+Pl+Prt+Loc: mashkmodenywaabniing
+     3+mshkimot+NI+Con+2+Pl+Prt+Pl: mashkmodenywaabniin
+     3+mshkimot+NI+Con+3+4+Prt+4: mashkmodenyniwbaniin
+     3+mshkimot+NI+Con+3+4+Prt+Loc: mashkmodenyniwbaniing
+     3+mshkimot+NI+Con+3+4+Prt+Pl: mashkmodenyniwbaniin
+     3+mshkimot+NI+Dim+2+Pl+Prt+4: mashkmodenswaabniin
+     3+mshkimot+NI+Dim+2+Pl+Prt+Loc: mashkmodenswaabniing
+     3+mshkimot+NI+Dim+2+Pl+Prt+Pl: mashkmodenswaabniin
+     3+mshkimot+NI+Dim+3+4+Prt+4: mashkmodensniwbaniin
+     3+mshkimot+NI+Dim+3+4+Prt+Loc: mashkmodensniwbaniing
+     3+mshkimot+NI+Dim+3+4+Prt+Pl: mashkmodensniwbaniin
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+Prt: nmashkmodaamshinaanba
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+Voc+Pl: nmashkmodaamshinaandig
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+Prt: gmashkmodaamshinaanba
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+Voc+Pl: gmashkmodaamshinaandig
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+Prt: gmashkmodaamshiwaaba
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+Voc+Pl: gmashkmodaamshiwaadig
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+Prt: mashkmodaamshiwaaba
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+Voc+Pl: mashkmodaamshiwaadig
+     3+mshkimot+NI+ThmPos+Pej+3+4+Prt: mashkmodaamshinwiba
+     3+mshkimot+NI+ThmPos+Pej+3+4+Voc+Pl: mashkmodaamshinwidig
+     
+     #Values from slots numbered: 1, 3, 4, 5, 7
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+4: nmashkmodaamshinaanin
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+Loc: nmashkmodaamshinaaning
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+Pl: nmashkmodaamshinaanin
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+4: gmashkmodaamshinaanin
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+Loc: gmashkmodaamshinaaning
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+Pl: gmashkmodaamshinaanin
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+4: gmashkmodaamshiwaan
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+Loc: gmashkmodaamshiwaang
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+Pl: gmashkmodaamshiwaan
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+4: mashkmodaamshiwaan
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+Loc: mashkmodaamshiwaang
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+Pl: mashkmodaamshiwaan
+     3+mshkimot+NI+ThmPos+Pej+3+4+4: mashkmodaamshinwan
+     3+mshkimot+NI+ThmPos+Pej+3+4+Loc: mashkmodaamshiniing
+     3+mshkimot+NI+ThmPos+Pej+3+4+Pl: mashkmodaamshinwan
+     
+     #Values from slots numbered: 1, 3, 4, 6, 7
+     1+mshkimot+NI+ThmPos+Pej+Prt+4: nmashkmodaamshibniin
+     1+mshkimot+NI+ThmPos+Pej+Prt+Loc: nmashkmodaamshibniing
+     1+mshkimot+NI+ThmPos+Pej+Prt+Pl: nmashkmodaamshibniin
+     2+mshkimot+NI+ThmPos+Pej+Prt+4: gmashkmodaamshibniin
+     2+mshkimot+NI+ThmPos+Pej+Prt+Loc: gmashkmodaamshibniing
+     2+mshkimot+NI+ThmPos+Pej+Prt+Pl: gmashkmodaamshibniin
+     3+mshkimot+NI+ThmPos+Pej+Prt+4: mashkmodaamshibniin
+     3+mshkimot+NI+ThmPos+Pej+Prt+Loc: mashkmodaamshibniing
+     3+mshkimot+NI+ThmPos+Pej+Prt+Pl: mashkmodaamshibniin
+     X+mshkimot+NI+ThmPos+Pej+Prt+4: mashkmodaamshibniin
+     X+mshkimot+NI+ThmPos+Pej+Prt+Loc: mashkmodaamshibniing
+     X+mshkimot+NI+ThmPos+Pej+Prt+Pl: mashkmodaamshibniin
+     
+     #Values from slots numbered: 1, 3, 5, 6, 7
+     1+mshkimot+NI+ThmPos+1+Pl+Prt+4: nmashkmodaamnaanbaniin
+     1+mshkimot+NI+ThmPos+1+Pl+Prt+Loc: nmashkmodaamnaanbaniing
+     1+mshkimot+NI+ThmPos+1+Pl+Prt+Pl: nmashkmodaamnaanbaniin
+     2+mshkimot+NI+ThmPos+1+Pl+Prt+4: gmashkmodaamnaanbaniin
+     2+mshkimot+NI+ThmPos+1+Pl+Prt+Loc: gmashkmodaamnaanbaniing
+     2+mshkimot+NI+ThmPos+1+Pl+Prt+Pl: gmashkmodaamnaanbaniin
+     2+mshkimot+NI+ThmPos+2+Pl+Prt+4: gmashkmodaamwaabniin
+     2+mshkimot+NI+ThmPos+2+Pl+Prt+Loc: gmashkmodaamwaabniing
+     2+mshkimot+NI+ThmPos+2+Pl+Prt+Pl: gmashkmodaamwaabniin
+     3+mshkimot+NI+ThmPos+2+Pl+Prt+4: mashkmodaamwaabniin
+     3+mshkimot+NI+ThmPos+2+Pl+Prt+Loc: mashkmodaamwaabniing
+     3+mshkimot+NI+ThmPos+2+Pl+Prt+Pl: mashkmodaamwaabniin
+     3+mshkimot+NI+ThmPos+3+4+Prt+4: mashkmodaamniwbaniin
+     3+mshkimot+NI+ThmPos+3+4+Prt+Loc: mashkmodaamniwbaniing
+     3+mshkimot+NI+ThmPos+3+4+Prt+Pl: mashkmodaamniwbaniin
+     
+     #Values from slots numbered: 1, 4, 5, 6, 7
+     1+mshkimot+NI+Pej+1+Pl+Prt+4: nmashkmodaashnaanbaniin
+     1+mshkimot+NI+Pej+1+Pl+Prt+Loc: nmashkmodaashnaanbaniing
+     1+mshkimot+NI+Pej+1+Pl+Prt+Pl: nmashkmodaashnaanbaniin
+     2+mshkimot+NI+Pej+1+Pl+Prt+4: gmashkmodaashnaanbaniin
+     2+mshkimot+NI+Pej+1+Pl+Prt+Loc: gmashkmodaashnaanbaniing
+     2+mshkimot+NI+Pej+1+Pl+Prt+Pl: gmashkmodaashnaanbaniin
+     2+mshkimot+NI+Pej+2+Pl+Prt+4: gmashkmodaashwaabniin
+     2+mshkimot+NI+Pej+2+Pl+Prt+Loc: gmashkmodaashwaabniing
+     2+mshkimot+NI+Pej+2+Pl+Prt+Pl: gmashkmodaashwaabniin
+     3+mshkimot+NI+Pej+2+Pl+Prt+4: mashkmodaashwaabniin
+     3+mshkimot+NI+Pej+2+Pl+Prt+Loc: mashkmodaashwaabniing
+     3+mshkimot+NI+Pej+2+Pl+Prt+Pl: mashkmodaashwaabniin
+     3+mshkimot+NI+Pej+3+4+Prt+4: mashkmodaashniwbaniin
+     3+mshkimot+NI+Pej+3+4+Prt+Loc: mashkmodaashniwbaniing
+     3+mshkimot+NI+Pej+3+4+Prt+Pl: mashkmodaashniwbaniin
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt: nmashkmodenymishnaanba
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Voc+Pl: nmashkmodenymishnaandig
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt: nmashkmodensmishnaanba
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Voc+Pl: nmashkmodensmishnaandig
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt: gmashkmodenymishnaanba
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Voc+Pl: gmashkmodenymishnaandig
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt: gmashkmodenymishwaaba
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Voc+Pl: gmashkmodenymishwaadig
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt: gmashkmodensmishnaanba
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Voc+Pl: gmashkmodensmishnaandig
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt: gmashkmodensmishwaaba
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Voc+Pl: gmashkmodensmishwaadig
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt: mashkmodenymishwaaba
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Voc+Pl: mashkmodenymishwaadig
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+Prt: mashkmodenymishniwba
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+Voc+Pl: mashkmodenymishniwdig
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt: mashkmodensmishwaaba
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Voc+Pl: mashkmodensmishwaadig
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+Prt: mashkmodensmishniwba
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+Voc+Pl: mashkmodensmishniwdig
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+4: nmashkmodenymishnaanin
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Loc: nmashkmodenymishnaaning
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Pl: nmashkmodenymishnaanin
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+4: nmashkmodensmishnaanin
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Loc: nmashkmodensmishnaaning
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Pl: nmashkmodensmishnaanin
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+4: gmashkmodenymishnaanin
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Loc: gmashkmodenymishnaaning
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Pl: gmashkmodenymishnaanin
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+4: gmashkmodenymishwaan
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Loc: gmashkmodenymishwaang
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Pl: gmashkmodenymishwaan
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+4: gmashkmodensmishnaanin
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Loc: gmashkmodensmishnaaning
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Pl: gmashkmodensmishnaanin
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+4: gmashkmodensmishwaan
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Loc: gmashkmodensmishwaang
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Pl: gmashkmodensmishwaan
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+4: mashkmodenymishwaan
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Loc: mashkmodenymishwaang
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Pl: mashkmodenymishwaan
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+4: mashkmodenymishniwan
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+Loc: mashkmodenymishniing
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+Pl: mashkmodenymishniwan
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+4: mashkmodensmishwaan
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Loc: mashkmodensmishwaang
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Pl: mashkmodensmishwaan
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+4: mashkmodensmishniwan
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+Loc: mashkmodensmishniing
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+Pl: mashkmodensmishniwan
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     1+mshkimot+NI+Con+ThmPos+Pej+Prt+4: nmashkmodenymishbaniin
+     1+mshkimot+NI+Con+ThmPos+Pej+Prt+Loc: nmashkmodenymishbaniing
+     1+mshkimot+NI+Con+ThmPos+Pej+Prt+Pl: nmashkmodenymishbaniin
+     1+mshkimot+NI+Dim+ThmPos+Pej+Prt+4: nmashkmodensmishbaniin
+     1+mshkimot+NI+Dim+ThmPos+Pej+Prt+Loc: nmashkmodensmishbaniing
+     1+mshkimot+NI+Dim+ThmPos+Pej+Prt+Pl: nmashkmodensmishbaniin
+     2+mshkimot+NI+Con+ThmPos+Pej+Prt+4: gmashkmodenymishbaniin
+     2+mshkimot+NI+Con+ThmPos+Pej+Prt+Loc: gmashkmodenymishbaniing
+     2+mshkimot+NI+Con+ThmPos+Pej+Prt+Pl: gmashkmodenymishbaniin
+     2+mshkimot+NI+Dim+ThmPos+Pej+Prt+4: gmashkmodensmishbaniin
+     2+mshkimot+NI+Dim+ThmPos+Pej+Prt+Loc: gmashkmodensmishbaniing
+     2+mshkimot+NI+Dim+ThmPos+Pej+Prt+Pl: gmashkmodensmishbaniin
+     3+mshkimot+NI+Con+ThmPos+Pej+Prt+4: mashkmodenymishbaniin
+     3+mshkimot+NI+Con+ThmPos+Pej+Prt+Loc: mashkmodenymishbaniing
+     3+mshkimot+NI+Con+ThmPos+Pej+Prt+Pl: mashkmodenymishbaniin
+     3+mshkimot+NI+Dim+ThmPos+Pej+Prt+4: mashkmodensmishbaniin
+     3+mshkimot+NI+Dim+ThmPos+Pej+Prt+Loc: mashkmodensmishbaniing
+     3+mshkimot+NI+Dim+ThmPos+Pej+Prt+Pl: mashkmodensmishbaniin
+     X+mshkimot+NI+Con+ThmPos+Pej+Prt+4: mashkmodenymishbaniin
+     X+mshkimot+NI+Con+ThmPos+Pej+Prt+Loc: mashkmodenymishbaniing
+     X+mshkimot+NI+Con+ThmPos+Pej+Prt+Pl: mashkmodenymishbaniin
+     X+mshkimot+NI+Dim+ThmPos+Pej+Prt+4: mashkmodensmishbaniin
+     X+mshkimot+NI+Dim+ThmPos+Pej+Prt+Loc: mashkmodensmishbaniing
+     X+mshkimot+NI+Dim+ThmPos+Pej+Prt+Pl: mashkmodensmishbaniin
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     1+mshkimot+NI+Con+ThmPos+1+Pl+Prt+4: nmashkmodenyminaanbaniin
+     1+mshkimot+NI+Con+ThmPos+1+Pl+Prt+Loc: nmashkmodenyminaanbaniing
+     1+mshkimot+NI+Con+ThmPos+1+Pl+Prt+Pl: nmashkmodenyminaanbaniin
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+Prt+4: nmashkmodensminaanbaniin
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+Prt+Loc: nmashkmodensminaanbaniing
+     1+mshkimot+NI+Dim+ThmPos+1+Pl+Prt+Pl: nmashkmodensminaanbaniin
+     2+mshkimot+NI+Con+ThmPos+1+Pl+Prt+4: gmashkmodenyminaanbaniin
+     2+mshkimot+NI+Con+ThmPos+1+Pl+Prt+Loc: gmashkmodenyminaanbaniing
+     2+mshkimot+NI+Con+ThmPos+1+Pl+Prt+Pl: gmashkmodenyminaanbaniin
+     2+mshkimot+NI+Con+ThmPos+2+Pl+Prt+4: gmashkmodenymiwaabniin
+     2+mshkimot+NI+Con+ThmPos+2+Pl+Prt+Loc: gmashkmodenymiwaabniing
+     2+mshkimot+NI+Con+ThmPos+2+Pl+Prt+Pl: gmashkmodenymiwaabniin
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+Prt+4: gmashkmodensminaanbaniin
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+Prt+Loc: gmashkmodensminaanbaniing
+     2+mshkimot+NI+Dim+ThmPos+1+Pl+Prt+Pl: gmashkmodensminaanbaniin
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+Prt+4: gmashkmodensmiwaabniin
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+Prt+Loc: gmashkmodensmiwaabniing
+     2+mshkimot+NI+Dim+ThmPos+2+Pl+Prt+Pl: gmashkmodensmiwaabniin
+     3+mshkimot+NI+Con+ThmPos+2+Pl+Prt+4: mashkmodenymiwaabniin
+     3+mshkimot+NI+Con+ThmPos+2+Pl+Prt+Loc: mashkmodenymiwaabniing
+     3+mshkimot+NI+Con+ThmPos+2+Pl+Prt+Pl: mashkmodenymiwaabniin
+     3+mshkimot+NI+Con+ThmPos+3+4+Prt+4: mashkmodenyminwibniin
+     3+mshkimot+NI+Con+ThmPos+3+4+Prt+Loc: mashkmodenyminwibniing
+     3+mshkimot+NI+Con+ThmPos+3+4+Prt+Pl: mashkmodenyminwibniin
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+Prt+4: mashkmodensmiwaabniin
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+Prt+Loc: mashkmodensmiwaabniing
+     3+mshkimot+NI+Dim+ThmPos+2+Pl+Prt+Pl: mashkmodensmiwaabniin
+     3+mshkimot+NI+Dim+ThmPos+3+4+Prt+4: mashkmodensminwibniin
+     3+mshkimot+NI+Dim+ThmPos+3+4+Prt+Loc: mashkmodensminwibniing
+     3+mshkimot+NI+Dim+ThmPos+3+4+Prt+Pl: mashkmodensminwibniin
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     1+mshkimot+NI+Con+Pej+1+Pl+Prt+4: nmashkmodenyshinaanbaniin
+     1+mshkimot+NI+Con+Pej+1+Pl+Prt+Loc: nmashkmodenyshinaanbaniing
+     1+mshkimot+NI+Con+Pej+1+Pl+Prt+Pl: nmashkmodenyshinaanbaniin
+     1+mshkimot+NI+Dim+Pej+1+Pl+Prt+4: nmashkmodensshinaanbaniin
+     1+mshkimot+NI+Dim+Pej+1+Pl+Prt+Loc: nmashkmodensshinaanbaniing
+     1+mshkimot+NI+Dim+Pej+1+Pl+Prt+Pl: nmashkmodensshinaanbaniin
+     2+mshkimot+NI+Con+Pej+1+Pl+Prt+4: gmashkmodenyshinaanbaniin
+     2+mshkimot+NI+Con+Pej+1+Pl+Prt+Loc: gmashkmodenyshinaanbaniing
+     2+mshkimot+NI+Con+Pej+1+Pl+Prt+Pl: gmashkmodenyshinaanbaniin
+     2+mshkimot+NI+Con+Pej+2+Pl+Prt+4: gmashkmodenyshiwaabniin
+     2+mshkimot+NI+Con+Pej+2+Pl+Prt+Loc: gmashkmodenyshiwaabniing
+     2+mshkimot+NI+Con+Pej+2+Pl+Prt+Pl: gmashkmodenyshiwaabniin
+     2+mshkimot+NI+Dim+Pej+1+Pl+Prt+4: gmashkmodensshinaanbaniin
+     2+mshkimot+NI+Dim+Pej+1+Pl+Prt+Loc: gmashkmodensshinaanbaniing
+     2+mshkimot+NI+Dim+Pej+1+Pl+Prt+Pl: gmashkmodensshinaanbaniin
+     2+mshkimot+NI+Dim+Pej+2+Pl+Prt+4: gmashkmodensshiwaabniin
+     2+mshkimot+NI+Dim+Pej+2+Pl+Prt+Loc: gmashkmodensshiwaabniing
+     2+mshkimot+NI+Dim+Pej+2+Pl+Prt+Pl: gmashkmodensshiwaabniin
+     3+mshkimot+NI+Con+Pej+2+Pl+Prt+4: mashkmodenyshiwaabniin
+     3+mshkimot+NI+Con+Pej+2+Pl+Prt+Loc: mashkmodenyshiwaabniing
+     3+mshkimot+NI+Con+Pej+2+Pl+Prt+Pl: mashkmodenyshiwaabniin
+     3+mshkimot+NI+Con+Pej+3+4+Prt+4: mashkmodenyshinwibniin
+     3+mshkimot+NI+Con+Pej+3+4+Prt+Loc: mashkmodenyshinwibniing
+     3+mshkimot+NI+Con+Pej+3+4+Prt+Pl: mashkmodenyshinwibniin
+     3+mshkimot+NI+Dim+Pej+2+Pl+Prt+4: mashkmodensshiwaabniin
+     3+mshkimot+NI+Dim+Pej+2+Pl+Prt+Loc: mashkmodensshiwaabniing
+     3+mshkimot+NI+Dim+Pej+2+Pl+Prt+Pl: mashkmodensshiwaabniin
+     3+mshkimot+NI+Dim+Pej+3+4+Prt+4: mashkmodensshinwibniin
+     3+mshkimot+NI+Dim+Pej+3+4+Prt+Loc: mashkmodensshinwibniing
+     3+mshkimot+NI+Dim+Pej+3+4+Prt+Pl: mashkmodensshinwibniin
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+Prt+4: nmashkmodaamshinaanbaniin
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+Prt+Loc: nmashkmodaamshinaanbaniing
+     1+mshkimot+NI+ThmPos+Pej+1+Pl+Prt+Pl: nmashkmodaamshinaanbaniin
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+Prt+4: gmashkmodaamshinaanbaniin
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+Prt+Loc: gmashkmodaamshinaanbaniing
+     2+mshkimot+NI+ThmPos+Pej+1+Pl+Prt+Pl: gmashkmodaamshinaanbaniin
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+Prt+4: gmashkmodaamshiwaabniin
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+Prt+Loc: gmashkmodaamshiwaabniing
+     2+mshkimot+NI+ThmPos+Pej+2+Pl+Prt+Pl: gmashkmodaamshiwaabniin
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+Prt+4: mashkmodaamshiwaabniin
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+Prt+Loc: mashkmodaamshiwaabniing
+     3+mshkimot+NI+ThmPos+Pej+2+Pl+Prt+Pl: mashkmodaamshiwaabniin
+     3+mshkimot+NI+ThmPos+Pej+3+4+Prt+4: mashkmodaamshinwibniin
+     3+mshkimot+NI+ThmPos+Pej+3+4+Prt+Loc: mashkmodaamshinwibniing
+     3+mshkimot+NI+ThmPos+Pej+3+4+Prt+Pl: mashkmodaamshinwibniin
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt+4: nmashkmodenymishnaanbaniin
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt+Loc: nmashkmodenymishnaanbaniing
+     1+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt+Pl: nmashkmodenymishnaanbaniin
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt+4: nmashkmodensmishnaanbaniin
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt+Loc: nmashkmodensmishnaanbaniing
+     1+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt+Pl: nmashkmodensmishnaanbaniin
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt+4: gmashkmodenymishnaanbaniin
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt+Loc: gmashkmodenymishnaanbaniing
+     2+mshkimot+NI+Con+ThmPos+Pej+1+Pl+Prt+Pl: gmashkmodenymishnaanbaniin
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt+4: gmashkmodenymishwaabniin
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt+Loc: gmashkmodenymishwaabniing
+     2+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt+Pl: gmashkmodenymishwaabniin
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt+4: gmashkmodensmishnaanbaniin
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt+Loc: gmashkmodensmishnaanbaniing
+     2+mshkimot+NI+Dim+ThmPos+Pej+1+Pl+Prt+Pl: gmashkmodensmishnaanbaniin
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt+4: gmashkmodensmishwaabniin
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt+Loc: gmashkmodensmishwaabniing
+     2+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt+Pl: gmashkmodensmishwaabniin
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt+4: mashkmodenymishwaabniin
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt+Loc: mashkmodenymishwaabniing
+     3+mshkimot+NI+Con+ThmPos+Pej+2+Pl+Prt+Pl: mashkmodenymishwaabniin
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+Prt+4: mashkmodenymishniwbaniin
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+Prt+Loc: mashkmodenymishniwbaniing
+     3+mshkimot+NI+Con+ThmPos+Pej+3+4+Prt+Pl: mashkmodenymishniwbaniin
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt+4: mashkmodensmishwaabniin
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt+Loc: mashkmodensmishwaabniing
+     3+mshkimot+NI+Dim+ThmPos+Pej+2+Pl+Prt+Pl: mashkmodensmishwaabniin
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+Prt+4: mashkmodensmishniwbaniin
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+Prt+Loc: mashkmodensmishniwbaniing
+     3+mshkimot+NI+Dim+ThmPos+Pej+3+4+Prt+Pl: mashkmodensmishniwbaniin
+     

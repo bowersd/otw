@@ -1,0 +1,119 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VTI+Cnj - AM - waabandam :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	persnum prt     dub
+     
+     #this is pulled from book (p 313)
+     #Values from slots numbered: 2
+     waabndaan+VTI+Cnj+1: waabndamaanh
+     waabndaan+VTI+Cnj+2: waabndaman 
+     waabndaan+VTI+Cnj+3: waabndang
+     waabndaan+VTI+Cnj+3+4: waabndamnid 
+     waabndaan+VTI+Cnj+X: waabndaming 
+     waabndaan+VTI+Cnj+1+Pl: waabndamaang
+     waabndaan+VTI+Cnj+2+1+Pl: waabndamang 
+     waabndaan+VTI+Cnj+2+Pl: waabndameg
+     waabndaan+VTI+Cnj+3+Pl: waabndamwaad #even parity stem = awaad?
+     
+     #Values from slots numbered: 2, 3
+     waabndaan+VTI+Cnj+1+Prt: waabndamaambaanh
+     waabndaan+VTI+Cnj+2+Prt: waabndammba #cons 
+     #waabndaan+VTI+Cnj+2+Prt: waabndamamba #book 
+     waabndaan+VTI+Cnj+3+Prt: waabndangba #cons
+     #waabndaan+VTI+Cnj+3+Prt: waabndamngiba #book #this looks like 21pl, not 3sg
+     waabndaan+VTI+Cnj+3+4+Prt: waabndamnipa
+     waabndaan+VTI+Cnj+X+Prt: waabndamngiba
+     waabndaan+VTI+Cnj+1+Pl+Prt: waabndamaangba
+     waabndaan+VTI+Cnj+2+1+Pl+Prt: waabndamngiba 
+     waabndaan+VTI+Cnj+2+Pl+Prt: waabndamegba #cons
+     #waabndaan+VTI+Cnj+2+Pl+Prt: waabndamegiba #book
+     waabndaan+VTI+Cnj+3+Pl+Prt: waabndamwaapa #odd parity stem = awaapa?
+     
+     #Values from slots numbered: 2, 4 #this is supposed to be changed conjunct??
+     waabndaan+VTI+Cnj+1+Dub: waabndamwaane
+     waabndaan+VTI+Cnj+2+Dub: waabndamwane 
+     waabndaan+VTI+Cnj+3+Dub: waabndamgwenh
+     waabndaan+VTI+Cnj+3+4+Dub: waabndamnigwenh
+     waabndaan+VTI+Cnj+X+Dub: waabndamwiinge #striking difference from vai (wii, no nasV)
+     waabndaan+VTI+Cnj+1+Pl+Dub: waabndamwaange
+     waabndaan+VTI+Cnj+2+1+Pl+Dub: waabndamwange 
+     waabndaan+VTI+Cnj+2+Pl+Dub: waabndamwegwenh #odd to have nasV, but book had once for VTI too...
+     waabndaan+VTI+Cnj+3+Pl+Dub: waabndamwaagwenh
+     
+     #Values from slots numbered: 2, 3, 4 
+     waabndaan+VTI+Cnj+1+Prt+Dub: waabndamwaambaane
+     waabndaan+VTI+Cnj+2+Prt+Dub: waabndamwambne #cons
+     #waabndaan+VTI+Cnj+2+Prt+Dub: waabndamwambane #book
+     waabndaan+VTI+Cnj+3+Prt+Dub: waabndamgobne #cons
+     #waabndaan+VTI+Cnj+3+Prt+Dub: waabndamgobane #book
+     waabndaan+VTI+Cnj+3+4+Prt+Dub: waabndamnigbane #cons
+     #waabndaan+VTI+Cnj+3+4+Prt+Dub: waabndamnigobane #book
+     waabndaan+VTI+Cnj+X+Prt+Dub: waabndamwiingbane #cons
+     #waabndaan+VTI+Cnj+X+Prt+Dub: waabndamwiingibane #book
+     waabndaan+VTI+Cnj+1+Pl+Prt+Dub: waabndamwaangbane
+     #waabndaan+VTI+Cnj+1+Pl+Prt+Dub: waabndamwaangibane #book
+     waabndaan+VTI+Cnj+2+1+Pl+Prt+Dub: waabndamwangbane #cons 
+     #waabndaan+VTI+Cnj+2+1+Pl+Prt+Dub: waabndamwangibane #book 
+     waabndaan+VTI+Cnj+2+Pl+Prt+Dub: waabndamwegbane #cons
+     #waabndaan+VTI+Cnj+2+Pl+Prt+Dub: waabndamwegibane #book
+     waabndaan+VTI+Cnj+3+Pl+Prt+Dub: waabndamwaagbane #cons
+     #waabndaan+VTI+Cnj+3+Pl+Prt+Dub: waabndamwaagobane #book
+     
+     #Values from slots numbered: 1, 2
+     waabndaan+VTI+Cnj+Neg+1:        waabndanzwaanh
+     waabndaan+VTI+Cnj+Neg+2:        waabndanzwan 
+     waabndaan+VTI+Cnj+Neg+3:        waabndanzig 
+     waabndaan+VTI+Cnj+Neg+3+4:      waabndanznig 
+     waabndaan+VTI+Cnj+Neg+X:        waabndanzing #also zwing
+     waabndaan+VTI+Cnj+Neg+1+Pl:     waabndanzwaang
+     waabndaan+VTI+Cnj+Neg+2+1+Pl:   waabndanzwang 
+     waabndaan+VTI+Cnj+Neg+2+Pl:     waabndanzweg
+     waabndaan+VTI+Cnj+Neg+3+Pl:     waabndanzgwaa
+     
+     #Values from slots numbered: 1, 2, 3 #sii forms extrapolated conservatively
+     waabndaan+VTI+Cnj+Neg+1+Prt:      waabndanzwaambaanh
+     waabndaan+VTI+Cnj+Neg+2+Prt:      waabndanzwamba    
+     waabndaan+VTI+Cnj+Neg+3+Prt:      waabndanzgoba #diverges from VTI
+     waabndaan+VTI+Cnj+Neg+3+4+Prt:    waabndanznigba #diverges from VTI    
+     waabndaan+VTI+Cnj+Neg+X+Prt:      waabndanzngiba    
+     waabndaan+VTI+Cnj+Neg+1+Pl+Prt:   waabndanzwaangba  
+     waabndaan+VTI+Cnj+Neg+2+1+Pl+Prt: waabndanzwangba #cons
+     #waabndaan+VTI+Cnj+Neg+2+1+Pl+Prt: waabndanzwngiba #book
+     waabndaan+VTI+Cnj+Neg+2+Pl+Prt:   waabndanzwegba #book indicates /ziwegoba/ ... egw rides again    
+     waabndaan+VTI+Cnj+Neg+3+Pl+Prt:   waabndanzgwaaba #diverges from VTI (/sigwaa/ need not end string)   
+     
+     #Values from slots numbered: 1, 2, 4 #this is supposed to be changed conjunct??
+     waabndaan+VTI+Cnj+Neg+1+Dub:          waabndanziiwaane    
+     waabndaan+VTI+Cnj+Neg+2+Dub:          waabndanziiwne #cons
+     #waabndaan+VTI+Cnj+Neg+2+Dub:         waabndanziiwane #book
+     waabndaan+VTI+Cnj+Neg+3+Dub:          waabndanziigwenh #book lacks nasV ... generally lacks nas info for neg (prt) dub
+     waabndaan+VTI+Cnj+Neg+3+4+Dub:        waabndanziingwenh #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+X+Dub:          waabndanziiwiingwenh #again, wii diff from VTI, nasV?
+     waabndaan+VTI+Cnj+Neg+1+Pl+Dub:       waabndanziiwaange   
+     waabndaan+VTI+Cnj+Neg+2+1+Pl+Dub:     waabndanziiwnge #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+2+Pl+Dub:       waabndanziiwegwe    
+     waabndaan+VTI+Cnj+Neg+3+Pl+Dub:       waabndanziiwaagwenh 
+     
+     #Values from slots numbered: 1, 2, 3, 4 
+     waabndaan+VTI+Cnj+Neg+1+Prt+Dub:       waabndanziiwaambaane #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+2+Prt+Dub:       waabndanziiwmbane #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+3+Prt+Dub:       waabndanziigbane #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+3+4+Prt+Dub:     waabndanziingobne #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+X+Prt+Dub:       waabndanziingbane #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+1+Pl+Prt+Dub:    waabndanziiwaangbane #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+2+1+Pl+Prt+Dub:  waabndanziiwngobne #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+2+Pl+Prt+Dub:    waabndanziiwegbane #italicized v's in book form, deleted per rhyth sync rule
+     waabndaan+VTI+Cnj+Neg+3+Pl+Prt+Dub:    waabndanziiwaagbane #italicized v's in book form, deleted per rhyth sync rule
+     

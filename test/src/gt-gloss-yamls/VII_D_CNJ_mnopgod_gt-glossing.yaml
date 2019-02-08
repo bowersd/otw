@@ -1,0 +1,66 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VII - VV - mnopgot :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	obv     prt     dub
+     
+     #this is pulled from book (p 260)
+     #Values from slots numbered: 2
+     mnopgot+VII+Cnj+0: mnopgok #dg -> k
+     mnopgot+VII+Cnj+0+4: mnopgodnig #cons
+     #mnopgot+VII+Cnj+0+4: mnopgdnig #book 
+
+     #Values from slots numbered: 2, 3
+     mnopgot+VII+Cnj+0+Prt: mnopgodgiba #cons
+     #mnopgot+VII+Cnj+0+Prt: mnopgogba #book
+     mnopgot+VII+Cnj+0+4+Prt: mnopgodnigba #cons
+     #mnopgot+VII+Cnj+0+4+Prt: mnopodnigba #book
+
+     #Values from slots numbered: 2, 4
+     PV/CCNJ+mnopgot+VII+Cnj+0+Dub: menpogdogwenh #changed conjunct...
+     #mnopgot+VII+Cnj+0+Dub: e-mnopgodgwenh #conservative variant
+     #mnopgot+VII+Cnj+0+Dub: e-mnopgogwenh #book variant
+     PV/CCNJ+mnopgot+VII+Cnj+0+4+Dub: menpogdin'gwenh #'extrapolated, book has nothing
+
+     #Values from slots numbered: 2, 3, 4
+     mnopgot+VII+Cnj+0+Prt+Dub: mnopgodgobne #cons non-changed
+     #mnopgot+VII+Cnj+0+Prt+Dub: mnopgodgobane #book non-changed
+     #mnopgot+VII+Cnj+0+Prt+Dub: menpogdogbane #changed
+     #mnopgot+VII+Cnj+0+Prt+Dub: e-mnopgodgobne #cons variant
+     #mnopgot+VII+Cnj+0+Prt+Dub: mnopgogbane #book variant
+     mnopgot+VII+Cnj+0+4+Prt+Dub: mnopgodnigbane #cons non-changed
+     #mnopgot+VII+Cnj+0+4+Prt+Dub: menpogdin'gobne #'cons changed
+     #mnopgot+VII+Cnj+0+4+Prt+Dub: menpogdan'gobne #'book changed
+     #mnopgot+VII+Cnj+0+4+Prt+Dub: e-mnopgodnigbane #cons variant
+     #mnopgot+VII+Cnj+0+4+Prt+Dub: e-mnopgon'gobne #'book variant
+
+     #Values from slots numbered: 1, 2
+     mnopgot+VII+Cnj+Neg+0: mnopgosnog 
+     mnopgot+VII+Cnj+Neg+0+4: mnopgosnoonig
+
+     #Values from slots numbered: 1, 2, 3
+     mnopgot+VII+Cnj+Neg+0+Prt: mnopgosnoogba
+     mnopgot+VII+Cnj+Neg+0+4+Prt: mnopgosnoon'giba #'
+
+     #Values from slots numbered: 1, 2, 4
+     PV/CCNJ+mnopgot+VII+Cnj+Neg+0+Dub: menpogsinoogwenh #changed conjunct expected
+     #mnopgot+VII+Cnj+Neg+0+Dub: mnopgosnoogwenh #non-changed conjunct book
+     PV/CCNJ+mnopgot+VII+Cnj+Neg+0+4+Dub: menpogsinoon'gwenh #'changed conjunct expected
+     #mnopgot+VII+Cnj+Neg+0+4+Dub: mnopgosnoon'gwenh #'non-changed conjunct book
+
+     #Values from slots numbered: 1, 2, 3, 4
+     mnopgot+VII+Cnj+Neg+0+Prt+Dub: mnopgosnoogbane 
+     mnopgot+VII+Cnj+Neg+0+4+Prt+Dub: mnopgosnoon'gobne  #'cons
+     #mnopgot+VII+Cnj+Neg+0+4+Prt+Dub: mnopgogsinoon'gobne #'book (odd!)
+

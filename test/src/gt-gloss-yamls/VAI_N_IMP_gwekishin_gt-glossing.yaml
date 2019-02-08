@@ -1,0 +1,26 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VAI+Imp - N - gwekshin :
+     
+  #Template Key
+  #NO TEMPLATE
+     
+     #Values from slots numbered: 2
+     gwekshin+VAI+Imp+Imm+2: gwekshinan
+     gwekshin+VAI+Imp+Imm+2+Pl: gwekshinog
+     gwekshin+VAI+Imp+Imm+2+1+Pl: gwekshindaa #/adaa/
+     gwekshin+VAI+Imp+Del+2: gwekshinoodan
+     #gwekshin+VAI+Imp+Del+21Pl: UNKNOWN
+     gwekshin+VAI+Imp+Del+2+Pl: gwekshinookeg
+     gwekshin+VAI+Imp+Neg+2: gwekshinge
+     gwekshin+VAI+Imp+Neg+2+Pl: gwekshingego
+     gwekshin+VAI+Imp+Neg+2+1+Pl: [gwekshinziidaa, gwekshinsiidaa] #/asiidaa/

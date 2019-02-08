@@ -1,0 +1,66 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VII - N - mnogin :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	obv     mod     per
+     
+     #this is pulled from book (p 257)
+     #Values from slots numbered: 2
+     mnogin+VII+0: mnogin
+     mnogin+VII+0+4: mnognini
+
+     #Values from slots numbered: 2, 3
+     mnogin+VII+0+Prt: mnognaba
+     mnogin+VII+0+4+Prt: mnogninwiba
+     mnogin+VII+0+Dub: mnognadig
+     mnogin+VII+0+4+Dub: mnogninwidig
+     mnogin+VII+0+Prt+Dub: mnognogba
+     mnogin+VII+0+4+Prt+Dub: mnogningoba
+
+     #Values from slots numbered: 2, 3, 4
+     mnogin+VII+0+Prt+0+Pl: mnognabniin
+     mnogin+VII+0+4+Prt+0+Pl: mnogninwibniin
+     mnogin+VII+0+Dub+0+Pl: mnognadgenan
+     mnogin+VII+0+4+Dub+0+Pl: mnogninwidgenan
+     mnogin+VII+0+Prt+Dub+0+Pl: mnognogbaniin
+     mnogin+VII+0+4+Prt+Dub+0+Pl: mnogningobniin
+
+     #Values from slots numbered: 2, 4
+     mnogin+VII+0+0+Pl: mnognoon
+     mnogin+VII+0+4+0+Pl: mnogninwan
+
+     #Values from slots numbered: 1, 2
+     mnogin+VII+Neg+0: mnognzinoo
+     mnogin+VII+Neg+0+4: mnognzinooni
+
+     #Values from slots numbered: 1, 2, 3
+     mnogin+VII+Neg+0+Prt: mnognzinooba
+     mnogin+VII+Neg+0+4+Prt: mnognzinoonwiba
+     mnogin+VII+Neg+0+Dub: mnognzinoodig
+     mnogin+VII+Neg+0+4+Dub: mnognzinoonwidig
+     mnogin+VII+Neg+0+Prt+Dub: mnognzinoogba
+     mnogin+VII+Neg+0+4+Prt+Dub: mnognzinoongoba
+
+     #Values from slots numbered: 1, 2, 3, 4
+     mnogin+VII+Neg+0+Prt+0+Pl: mnognzinoobniin
+     mnogin+VII+Neg+0+4+Prt+0+Pl: mnognzinoonwibniin
+     mnogin+VII+Neg+0+Dub+0+Pl: mnognzinoodgenan
+     mnogin+VII+Neg+0+4+Dub+0+Pl: mnognzinoonwidgenan
+     mnogin+VII+Neg+0+Prt+Dub+0+Pl: mnognzinoogbaniin
+     mnogin+VII+Neg+0+4+Prt+Dub+0+Pl: mnognzinoongobniin
+
+     #Values from slots numbered: 1, 2
+     mnogin+VII+Neg+0+0+Pl: mnognzinoon
+     mnogin+VII+Neg+0+4+0+Pl: mnognzinninwan
+     #mnogin+VII+Neg+0+4+0+Pl: mnognzinwan #!variant listed in book

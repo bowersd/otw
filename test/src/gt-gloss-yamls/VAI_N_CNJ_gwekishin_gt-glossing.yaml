@@ -1,0 +1,116 @@
+
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VAI+Cnj - N - gwekshin :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	persnum prt     dub
+     
+     #this is extrapolated from book
+     #cons v book is inherited from VV# (boodwe)
+     #Values from slots numbered: 2
+     gwekshin+VAI+Cnj+1: gwekshinaanh
+     gwekshin+VAI+Cnj+2: gwekshinan 
+     gwekshin+VAI+Cnj+3: gwekshing
+     gwekshin+VAI+Cnj+3+4: gwekshinnid #gwekshinid? (epenthesis i or nn->n?)
+     gwekshin+VAI+Cnj+X: gwekshining #gwekshing? (epenthesis i or nn->n?)
+     gwekshin+VAI+Cnj+1+Pl: gwekshinaang
+     gwekshin+VAI+Cnj+2+1+Pl: gwekshinang 
+     gwekshin+VAI+Cnj+2+Pl: gwekshineg
+     gwekshin+VAI+Cnj+3+Pl: gwekshinwaad #even parity stem = awaad?
+     
+     #Values from slots numbered: 2, 3
+     gwekshin+VAI+Cnj+1+Prt: gwekshinaambaanh
+     gwekshin+VAI+Cnj+2+Prt: gwekshinmba #cons 
+     #gwekshin+VAI+Cnj+2+Prt: gwekshinamba #book 
+     gwekshin+VAI+Cnj+3+Prt: gwekshingba
+     gwekshin+VAI+Cnj+3+4+Prt: gwekshinnipa
+     gwekshin+VAI+Cnj+X+Prt: gwekshinngiba
+     gwekshin+VAI+Cnj+1+Pl+Prt: gwekshinaangba
+     gwekshin+VAI+Cnj+2+1+Pl+Prt: gwekshinngoba #cons, giba might be attested
+     #gwekshin+VAI+Cnj+2+1+Pl+Prt: gwekshinngba #book 
+     gwekshin+VAI+Cnj+2+Pl+Prt: gwekshinegba
+     gwekshin+VAI+Cnj+3+Pl+Prt: gwekshinwaapa #even parity stem = awaapa?
+     
+     #Values from slots numbered: 2, 4 #this is supposed to be changed conjunct??
+     gwekshin+VAI+Cnj+1+Dub: gwekshinwaane
+     gwekshin+VAI+Cnj+2+Dub: gwekshinwane #cons
+     #gwekshin+VAI+Cnj+2+Dub: gwekshinwane #book
+     gwekshin+VAI+Cnj+3+Dub: gwekshin'gwenh #'
+     gwekshin+VAI+Cnj+3+4+Dub: gwekshinnigwenh
+     gwekshin+VAI+Cnj+X+Dub: gwekshinngwenh #even parity agwenh or igwenh?
+     gwekshin+VAI+Cnj+1+Pl+Dub: gwekshinwaange
+     gwekshin+VAI+Cnj+2+1+Pl+Dub: gwekshinwangwe #no coda w-del in model
+     #gwekshin+VAI+Cnj+2+1+Pl+Dub: gwekshinngwe #book 
+     gwekshin+VAI+Cnj+2+Pl+Dub: gwekshinwegwe
+     gwekshin+VAI+Cnj+3+Pl+Dub: gwekshinwaagwenh
+     
+     #Values from slots numbered: 2, 3, 4 
+     gwekshin+VAI+Cnj+1+Prt+Dub: gwekshinwaambaane
+     gwekshin+VAI+Cnj+2+Prt+Dub: gwekshinwambne #book has ambane (no /aw.../) (probably typo -VR)
+     gwekshin+VAI+Cnj+3+Prt+Dub: gwekshin'gobne #'
+     gwekshin+VAI+Cnj+3+4+Prt+Dub: gwekshinnigbane
+     gwekshin+VAI+Cnj+X+Prt+Dub: gwekshinngobne
+     gwekshin+VAI+Cnj+1+Pl+Prt+Dub: gwekshinwaangbane
+     gwekshin+VAI+Cnj+2+1+Pl+Prt+Dub: gwekshinwangbane #cons #no coda w-del
+     #gwekshin+VAI+Cnj+2+1+Pl+Prt+Dub: gwekshinwngobane #book #no coda w-del
+     gwekshin+VAI+Cnj+2+Pl+Prt+Dub: gwekshinwegbane
+     gwekshin+VAI+Cnj+3+Pl+Prt+Dub: gwekshinwaagbane
+     
+     #Values from slots numbered: 1, 2
+     gwekshin+VAI+Cnj+Neg+1: gwekshinzwaanh
+     gwekshin+VAI+Cnj+Neg+2: gwekshinzwan 
+     gwekshin+VAI+Cnj+Neg+3: gwekshinzig 
+     gwekshin+VAI+Cnj+Neg+3+4: gwekshinznid #also sig
+     gwekshin+VAI+Cnj+Neg+X: gwekshinzing
+     gwekshin+VAI+Cnj+Neg+1+Pl: gwekshinzwaang
+     gwekshin+VAI+Cnj+Neg+2+1+Pl: gwekshinzwang 
+     gwekshin+VAI+Cnj+Neg+2+Pl: gwekshinzweg
+     gwekshin+VAI+Cnj+Neg+3+Pl: gwekshinzgwaa
+     
+     #Values from slots numbered: 1, 2, 3 #sii forms extrapolated conservatively
+     gwekshin+VAI+Cnj+Neg+1+Prt:      [gwekshinzwaambaanh, gwekshinziiwaambaanh]
+     gwekshin+VAI+Cnj+Neg+2+Prt:      [gwekshinzwamba    , gwekshinziiwmba ]
+     gwekshin+VAI+Cnj+Neg+3+Prt:      [gwekshinzpa       , gwekshinziipa] #book only sii (all probably accidental gaps -VR)
+     gwekshin+VAI+Cnj+Neg+3+4+Prt:    [gwekshinznipa     , gwekshinziinpa] #book only sii
+     gwekshin+VAI+Cnj+Neg+X+Prt:      [gwekshinzngiba    , gwekshinziingba] #book only sii
+     gwekshin+VAI+Cnj+Neg+1+Pl+Prt:   [gwekshinzwaangba  , gwekshinziiwaangba]
+     gwekshin+VAI+Cnj+Neg+2+1+Pl+Prt: [gwekshinzwangba   , gwekshinziiwngoba ] #giba might be attested
+     gwekshin+VAI+Cnj+Neg+2+Pl+Prt:   [gwekshinzwegba    , gwekshinziiwegba]
+     gwekshin+VAI+Cnj+Neg+3+Pl+Prt:   [gwekshinzwaapa    , gwekshinziiwaapa]
+     
+     #Values from slots numbered: 1, 2, 4 #this is supposed to be changed conjunct??
+     gwekshin+VAI+Cnj+Neg+1+Dub:          [gwekshinzwaane    ,  gwekshinziiwaane]
+     gwekshin+VAI+Cnj+Neg+2+Dub:          [gwekshinzwane     ,  gwekshinziiwne]
+     gwekshin+VAI+Cnj+Neg+3+Dub:          [gwekshinzgwenh    ,  gwekshinziigwenh]
+     gwekshin+VAI+Cnj+Neg+3+4+Dub:        [gwekshinznigwenh  ,  gwekshinziin'gwenh] #'
+     gwekshin+VAI+Cnj+Neg+X+Dub:          [gwekshinzngwenh   ,  gwekshinziingwenh]
+     gwekshin+VAI+Cnj+Neg+1+Pl+Dub:       [gwekshinzwaange   ,  gwekshinziiwaange]
+     gwekshin+VAI+Cnj+Neg+2+1+Pl+Dub:     [gwekshinzwangwe   ,  gwekshinziiwngwe ]
+     gwekshin+VAI+Cnj+Neg+2+Pl+Dub:       [gwekshinzwegwe    ,  gwekshinziiwegwe]
+     gwekshin+VAI+Cnj+Neg+3+Pl+Dub:       [gwekshinzwaagwenh ,  gwekshinziiwaagwenh]
+     
+     #Values from slots numbered: 1, 2, 3, 4 
+     gwekshin+VAI+Cnj+Neg+1+Prt+Dub:      [gwekshinzwaambaane, gwekshinziiwaambaane]
+     gwekshin+VAI+Cnj+Neg+2+Prt+Dub:      [gwekshinzwambne   , gwekshinziiwmbane] #cons
+     #gwekshin+VAI+Cnj+Neg+2+Prt+Dub:      [gwekshinzwmbane   , gwekshinziiwmbane] #book
+     gwekshin+VAI+Cnj+Neg+3+Prt+Dub:      [gwekshinzgobne    , gwekshinziigbane]
+     gwekshin+VAI+Cnj+Neg+3+4+Prt+Dub:    [gwekshinznigbane  , gwekshinziin'gobne] #'cons
+     #gwekshin+VAI+Cnj+Neg+3+4+Prt+Dub:    [gwekshinzngbane  , gwekshinziingobne] #book
+     gwekshin+VAI+Cnj+Neg+X+Prt+Dub:      [gwekshinzngobne   , gwekshinziingbane] #expected
+     #gwekshin+VAI+Cnj+Neg+X+Prt+Dub:      [gwekshinzngibne   , gwekshinziingbane] #book
+     gwekshin+VAI+Cnj+Neg+1+Pl+Prt+Dub:   [gwekshinzwaangbane, gwekshinziiwaangbane]
+     gwekshin+VAI+Cnj+Neg+2+1+Pl+Prt+Dub: [gwekshinzwangbane , gwekshinziiwngobne ] #book ne -> nn
+     gwekshin+VAI+Cnj+Neg+2+Pl+Prt+Dub:   [gwekshinzwegbane  , gwekshinziiwegbane]
+     gwekshin+VAI+Cnj+Neg+3+Pl+Prt+Dub:   [gwekshinzwaagbane , gwekshinziiwaagbane]
+     

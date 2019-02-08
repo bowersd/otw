@@ -1,0 +1,69 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VII - VV - mchaa :
+     
+  #Template Key
+  #1	2	3	4
+  #neg	obv     mod     per
+     
+     #this is pulled from book (p 256)
+     #Values from slots numbered: 2
+     mchaa+VII+0: mchaa
+     mchaa+VII+0+4: mchaani
+
+     #Values from slots numbered: 2, 3
+     mchaa+VII+0+Prt: mchaaba
+     mchaa+VII+0+4+Prt: mchaanwiba #cons
+     #mchaa+VII+0+4+Prt: mchaanba #book (w-del, very impoverished UR)
+     mchaa+VII+0+Dub: mchaadig
+     mchaa+VII+0+4+Dub: mchaanwidig 
+     mchaa+VII+0+Prt+Dub: mchaagba
+     mchaa+VII+0+4+Prt+Dub: mchaangoba 
+
+     #Values from slots numbered: 2, 3, 4
+     mchaa+VII+0+Prt+0+Pl: mchaabniin
+     mchaa+VII+0+4+Prt+0+Pl: mchaanwibniin #cons
+     #mchaa+VII+0+4+Prt+0+Pl: mchaanwabniin #book (unexplained quality shift)
+     #mchaa+VII+0+4+Prt+0+Pl: mchaanbniin #book (overdeletion in book, very impoverished UR)
+     mchaa+VII+0+Dub+0+Pl: mchaadgenan
+     mchaa+VII+0+4+Dub+0+Pl: mchaanwidgenan 
+     mchaa+VII+0+Prt+Dub+0+Pl: mchaagbaniin
+     mchaa+VII+0+4+Prt+Dub+0+Pl: mchaangobniin 
+
+     #Values from slots numbered: 2, 4
+     mchaa+VII+0+0+Pl: mchaawan
+     #mchaa+VII+0+0+Pl: mchaanoon #book variant (odd hiatus resolution)
+     mchaa+VII+0+4+0+Pl: mchaanwan
+
+     #Values from slots numbered: 1, 2
+     mchaa+VII+Neg+0: mchaasnoo #d deletes in negative!
+     mchaa+VII+Neg+0+4: mchaasnooni 
+
+     #Values from slots numbered: 1, 2, 3
+     mchaa+VII+Neg+0+Prt: mchaasnooba
+     mchaa+VII+Neg+0+4+Prt: mchaasnoonwiba
+     mchaa+VII+Neg+0+Dub: mchaasnoodig
+     mchaa+VII+Neg+0+4+Dub: mchaasnoonwidig
+     mchaa+VII+Neg+0+Prt+Dub: mchaasnoogba 
+     mchaa+VII+Neg+0+4+Prt+Dub: mchaasnoongoba 
+
+     #Values from slots numbered: 1, 2, 3, 4
+     mchaa+VII+Neg+0+Prt+0+Pl: mchaasnoobniin
+     mchaa+VII+Neg+0+4+Prt+0+Pl: mchaasnoonwibniin
+     mchaa+VII+Neg+0+Dub+0+Pl: mchaasnoodgenan
+     mchaa+VII+Neg+0+4+Dub+0+Pl: mchaasnoonwidgenan
+     mchaa+VII+Neg+0+Prt+Dub+0+Pl: mchaasnoogbaniin 
+     mchaa+VII+Neg+0+4+Prt+Dub+0+Pl: mchaasnoongobniin 
+
+     #Values from slots numbered: 1, 2, 4
+     mchaa+VII+Neg+0+0+Pl: mchaasnoon
+     mchaa+VII+Neg+0+4+0+Pl: mchaasninwan #no variation listed in book

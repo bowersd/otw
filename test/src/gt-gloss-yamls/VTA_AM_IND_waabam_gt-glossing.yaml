@@ -1,0 +1,470 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  VTA - AM - waabmaa :
+     
+  #Template Key
+  #1	    2	    3	    4       5       6       7
+  #per      theme   neg     inan    persnum mod     periph
+     
+     #inan v obv neg forms might involve ini
+
+     #this is extrapolated from book (p 287-294)
+     #Values from slots numbered: 1, 2
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2:   gwaabam
+     2+waabmaa+VTA+Thm1Sg: gwaabmin
+     2+waabmaa+VTA+Thm1Pl: gwaabmigoo
+     2+waabmaa+VTA+ThmDir: gwaabmaa
+     2+waabmaa+VTA+ThmInv: gwaabmig
+     1+waabmaa+VTA+ThmDir: nwaabmaa
+     1+waabmaa+VTA+ThmInv: nwaabmig
+
+     #Values from slots numbered: 1, 2, 4
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0: gwaabmigon
+     1+waabmaa+VTA+ThmInv+0: nwaabmigon
+     3+waabmaa+VTA+ThmInv+0:  waabmigon      #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 5
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2+2+Pl:   gwaabmim
+     2+waabmaa+VTA+Thm2+1+Pl:   gwaabmimi
+     2+waabmaa+VTA+Thm1Sg+2+Pl: gwaabminnim
+     #2+waabmaa+VTA+Thm1Sg+2+Pl: gwaabminim       #1sg v 2pl #book
+     2+waabmaa+VTA+Thm1Pl+2+Pl: gwaabmigoom
+     2+waabmaa+VTA+ThmDir+1+Pl: gwaabmaanaa
+     2+waabmaa+VTA+ThmDir+2+Pl: gwaabmaawaa
+     2+waabmaa+VTA+ThmInv+1+Pl: gwaabmignaa
+     2+waabmaa+VTA+ThmInv+2+Pl: gwaabmigwaa
+     1+waabmaa+VTA+ThmDir+1+Pl: nwaabmaanaa
+     1+waabmaa+VTA+ThmInv+1+Pl: nwaabmignaa
+
+     #Values from slots numbered: 1, 2, 6
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2+Prt:   gwaabminaaba
+     2+waabmaa+VTA+Thm2+Dub:   gwaabminaadig
+     2+waabmaa+VTA+Thm1Sg+Prt: gwaabminnaaba
+     2+waabmaa+VTA+Thm1Sg+Dub: gwaabminnaadig
+     2+waabmaa+VTA+Thm1Pl+Prt: gwaabmigoonaaba
+     2+waabmaa+VTA+Thm1Pl+Dub: gwaabmigoonaadig
+     2+waabmaa+VTA+ThmDir+Prt: gwaabmaaba
+     2+waabmaa+VTA+ThmDir+Dub: gwaabmaadig
+     2+waabmaa+VTA+ThmInv+Prt: gwaabmigba
+     2+waabmaa+VTA+ThmInv+Dub: gwaabmigdig
+     1+waabmaa+VTA+ThmDir+Prt: nwaabmaaba
+     1+waabmaa+VTA+ThmDir+Dub: nwaabmaadig
+     1+waabmaa+VTA+ThmInv+Prt: nwaabmigba
+     1+waabmaa+VTA+ThmInv+Dub: nwaabmigdig
+
+     #Values from slots numbered: 1, 2, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     3+waabmaa+VTA+ThmDir+3+4:  waabmaan     #3obv v 3sg
+     3+waabmaa+VTA+ThmInv+3+4:  waabmigoon   #3sg v 3obv
+
+     #2 non-neg slots ...   (4, 5), (4, 6), (4, 7)
+     #                      (5, 6), (5, 7)
+     #                      (6, 7)
+     #Values from slots numbered: 1, 2, 4, 5
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0+2+Pl: gwaabmignaawaa
+     2+waabmaa+VTA+ThmInv+0+1+Pl: gwaabmignaa
+     1+waabmaa+VTA+ThmInv+0+1+Pl: nwaabmignaa
+     3+waabmaa+VTA+ThmInv+0+2+Pl:  waabmignaawaa      #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 4, 6
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0+Prt: gwaabmignaaba
+     2+waabmaa+VTA+ThmInv+0+Dub: gwaabmignaadig
+     1+waabmaa+VTA+ThmInv+0+Prt: nwaabmignaaba
+     1+waabmaa+VTA+ThmInv+0+Dub: nwaabmignaadig
+     3+waabmaa+VTA+ThmInv+0+Prt:  waabmignaaba      #0sg v 3sg
+     3+waabmaa+VTA+ThmInv+0+Dub:  waabmignaadig     #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 4, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0+0+Pl: gwaabmignan
+     1+waabmaa+VTA+ThmInv+0+0+Pl: nwaabmignan
+     3+waabmaa+VTA+ThmInv+0+0+Pl:  waabmignan      #0pl v 3sg
+
+     #Values from slots numbered: 1, 2, 5, 6
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2+2+Pl+Prt:   gwaabmimwaaba
+     2+waabmaa+VTA+Thm2+2+Pl+Dub:   gwaabmimwaadig
+     2+waabmaa+VTA+Thm2+1+Pl+Prt:   gwaabmimnaaba
+     2+waabmaa+VTA+Thm2+1+Pl+Dub:   gwaabmimnaadig
+     2+waabmaa+VTA+Thm1Sg+2+Pl+Prt: gwaabminnimwaaba
+     #2+waabmaa+VTA+Thm1Sg+2+Pl+Prt: gwaabminimwaaba  #1sg v 2pl #book
+     2+waabmaa+VTA+Thm1Sg+2+Pl+Dub: gwaabminnimwaadig
+     #2+waabmaa+VTA+Thm1Sg+2+Pl+Dub: gwaabminimwaadig  #1sg v 2pl #book
+     2+waabmaa+VTA+Thm1Pl+2+Pl+Prt: gwaabmigoomwaaba
+     2+waabmaa+VTA+Thm1Pl+2+Pl+Dub: gwaabmigoomwaadig
+     2+waabmaa+VTA+ThmDir+1+Pl+Prt: gwaabmaamnaaba
+     2+waabmaa+VTA+ThmDir+1+Pl+Dub: gwaabmaamnaadig
+     2+waabmaa+VTA+ThmDir+2+Pl+Prt: gwaabmaawaaba
+     2+waabmaa+VTA+ThmDir+2+Pl+Dub: gwaabmaawaadig
+     2+waabmaa+VTA+ThmInv+1+Pl+Prt: gwaabmigminaaba
+     2+waabmaa+VTA+ThmInv+1+Pl+Dub: gwaabmigminaadig
+     2+waabmaa+VTA+ThmInv+2+Pl+Prt: gwaabmigwaaba
+     2+waabmaa+VTA+ThmInv+2+Pl+Dub: gwaabmigwaadig
+     1+waabmaa+VTA+ThmDir+1+Pl+Prt: nwaabmaamnaaba
+     1+waabmaa+VTA+ThmDir+1+Pl+Dub: nwaabmaamnaadig
+     1+waabmaa+VTA+ThmInv+1+Pl+Prt: nwaabmigminaaba
+     1+waabmaa+VTA+ThmInv+1+Pl+Dub: nwaabmigminaadig
+
+     #Values from slots numbered: 1, 2, 5, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmDir+1+Pl+3+Pl: gwaabmaanaanig
+     2+waabmaa+VTA+ThmDir+2+Pl+3+Pl: gwaabmaawaag
+     2+waabmaa+VTA+ThmInv+1+Pl+3+Pl: gwaabmignaanig
+     2+waabmaa+VTA+ThmInv+2+Pl+3+Pl: gwaabmigwaag
+     1+waabmaa+VTA+ThmDir+1+Pl+3+Pl: nwaabmaanaanig
+     1+waabmaa+VTA+ThmInv+1+Pl+3+Pl: nwaabmignaanig
+     3+waabmaa+VTA+ThmDir+2+Pl+3+4:   waabmaawaan      #3pl v 3obv
+     3+waabmaa+VTA+ThmInv+2+Pl+3+4:   waabmigwaan      #3obv v 3pl
+
+     #Values from slots numbered: 1, 2, 6, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmDir+Prt+3+Pl: gwaabmaabniig
+     2+waabmaa+VTA+ThmDir+Dub+3+Pl: gwaabmaadgenag
+     2+waabmaa+VTA+ThmInv+Prt+3+Pl: gwaabmigbaniig
+     2+waabmaa+VTA+ThmInv+Dub+3+Pl: gwaabmigdigenag
+     1+waabmaa+VTA+ThmDir+Prt+3+Pl: nwaabmaabniig
+     1+waabmaa+VTA+ThmDir+Dub+3+Pl: nwaabmaadgenag
+     1+waabmaa+VTA+ThmInv+Prt+3+Pl: nwaabmigbaniig
+     1+waabmaa+VTA+ThmInv+Dub+3+Pl: nwaabmigdigenag
+     3+waabmaa+VTA+ThmDir+Prt+3+4:   waabmaabniin     #3sg v 3obv
+     3+waabmaa+VTA+ThmDir+Dub+3+4:   waabmaadgenan    #3sg v 3obv
+     3+waabmaa+VTA+ThmInv+Prt+3+4:   waabmigbaniin     #3obv v 3sg
+     3+waabmaa+VTA+ThmInv+Dub+3+4:   waabmigdigenan    #3obv v 3sg
+
+     #3 non-neg slots ...   (4, 5, 6), (4, 5, 7), (4, 6, 7)
+     #                      (5, 6, 7)
+
+     #Values from slots numbered: 1, 2, 4, 5, 6
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0+2+Pl+Prt: gwaabmignaawaaba
+     2+waabmaa+VTA+ThmInv+0+2+Pl+Dub: gwaabmignaawaadig
+     2+waabmaa+VTA+ThmInv+0+1+Pl+Prt: gwaabmigminaaba
+     2+waabmaa+VTA+ThmInv+0+1+Pl+Dub: gwaabmigminaadig
+     1+waabmaa+VTA+ThmInv+0+1+Pl+Prt: nwaabmigminaaba
+     1+waabmaa+VTA+ThmInv+0+1+Pl+Dub: nwaabmigminaadig
+     3+waabmaa+VTA+ThmInv+0+2+Pl+Prt:  waabmignaawaaba      #0sg v 3sg
+     3+waabmaa+VTA+ThmInv+0+2+Pl+Dub:  waabmignaawaadig      #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 4, 5, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0+2+Pl+0+Pl: gwaabmignaawaan
+     2+waabmaa+VTA+ThmInv+0+1+Pl+0+Pl: gwaabmignaanin
+     1+waabmaa+VTA+ThmInv+0+1+Pl+0+Pl: nwaabmignaanin
+     3+waabmaa+VTA+ThmInv+0+2+Pl+0+Pl:  waabmignaawaan      #0pl v 3pl
+
+     #Values from slots numbered: 1, 2, 4, 6, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0+Prt+0+Pl: gwaabmignaabniin
+     2+waabmaa+VTA+ThmInv+0+Dub+0+Pl: gwaabmignaadgenan
+     1+waabmaa+VTA+ThmInv+0+Prt+0+Pl: nwaabmignaabniin
+     1+waabmaa+VTA+ThmInv+0+Dub+0+Pl: nwaabmignaadgenan
+     3+waabmaa+VTA+ThmInv+0+Prt+0+Pl:  waabmignaabniin    #0pl v 3sg
+     3+waabmaa+VTA+ThmInv+0+Dub+0+Pl:  waabmignaadgenan   #0pl v 3sg
+
+     #Values from slots numbered: 1, 2, 5, 6, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmDir+1+Pl+Prt+3+Pl: gwaabmaamnaabniig
+     2+waabmaa+VTA+ThmDir+1+Pl+Dub+3+Pl: gwaabmaamnaadgenag
+     2+waabmaa+VTA+ThmDir+2+Pl+Prt+3+Pl: gwaabmaawaabniig
+     2+waabmaa+VTA+ThmDir+2+Pl+Dub+3+Pl: gwaabmaawaadgenag
+     2+waabmaa+VTA+ThmInv+1+Pl+Prt+3+Pl: gwaabmigminaabniig
+     2+waabmaa+VTA+ThmInv+1+Pl+Dub+3+Pl: gwaabmigminaadgenag
+     2+waabmaa+VTA+ThmInv+2+Pl+Prt+3+Pl: gwaabmigwaabniig
+     2+waabmaa+VTA+ThmInv+2+Pl+Dub+3+Pl: gwaabmigwaadgenag
+     1+waabmaa+VTA+ThmDir+1+Pl+Prt+3+Pl: nwaabmaamnaabniig
+     1+waabmaa+VTA+ThmDir+1+Pl+Dub+3+Pl: nwaabmaamnaadgenag
+     1+waabmaa+VTA+ThmInv+1+Pl+Prt+3+Pl: nwaabmigminaabniig
+     1+waabmaa+VTA+ThmInv+1+Pl+Dub+3+Pl: nwaabmigminaadgenag
+     3+waabmaa+VTA+ThmDir+2+Pl+Prt+3+4:   waabmaawaabniin       #3pl v 3obv
+     3+waabmaa+VTA+ThmDir+2+Pl+Dub+3+4:   waabmaawaadgenan      #3pl v 3obv
+     3+waabmaa+VTA+ThmInv+2+Pl+Prt+3+4:   waabmigwaabniin       #3obv v 3pl (0sg too?)
+     3+waabmaa+VTA+ThmInv+2+Pl+Dub+3+4:   waabmigwaadgenan      #3obv v 3pl (0sg too?)
+
+     #4 non-neg slots ...   (4, 5, 6, 7)
+     #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+0+2+Pl+Prt+0+Pl: gwaabmignaawaabniin
+     2+waabmaa+VTA+ThmInv+0+2+Pl+Dub+0+Pl: gwaabmignaawaadgenan
+     2+waabmaa+VTA+ThmInv+0+1+Pl+Prt+0+Pl: gwaabmigminaabniin
+     2+waabmaa+VTA+ThmInv+0+1+Pl+Dub+0+Pl: gwaabmigminaadgenan
+     1+waabmaa+VTA+ThmInv+0+1+Pl+Prt+0+Pl: nwaabmigminaabniin
+     1+waabmaa+VTA+ThmInv+0+1+Pl+Dub+0+Pl: nwaabmigminaadgenan
+     3+waabmaa+VTA+ThmInv+0+2+Pl+Prt+0+Pl:  waabmignaawaabniin    #0pl v 3pl
+     3+waabmaa+VTA+ThmInv+0+2+Pl+Dub+0+Pl:  waabmignaawaadgenan   #0pl v 3pl
+
+     #NEGATIVES BELOW
+     #Values from slots numbered: 1, 2, 3
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2+Neg:   gwaabmisii
+     2+waabmaa+VTA+Thm1Sg+Neg: gwaabmisnoon
+     2+waabmaa+VTA+Thm1Pl+Neg: gwaabmigoosii
+     2+waabmaa+VTA+ThmDir+Neg: gwaabmaasii
+     2+waabmaa+VTA+ThmInv+Neg: gwaabmigsii
+     1+waabmaa+VTA+ThmDir+Neg: nwaabmaasii
+     1+waabmaa+VTA+ThmInv+Neg: nwaabmigsii
+
+     #Values from slots numbered: 1, 2, 3, 4
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0: gwaabmigsiin
+     1+waabmaa+VTA+ThmInv+Neg+0: nwaabmigsiin
+     3+waabmaa+VTA+ThmInv+Neg+0:  waabmigsiin      #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 3, 5
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2+Neg+2+Pl:   gwaabmisiim
+     2+waabmaa+VTA+Thm2+Neg+1+Pl:   gwaabmisiimi
+     2+waabmaa+VTA+Thm1Sg+Neg+2+Pl: gwaabmisnoonnim
+     #2+waabmaa+VTA+Thm1Sg+Neg+2+Pl: gwaabmisnoonim      #1sg v 2pl #book
+     2+waabmaa+VTA+Thm1Pl+Neg+2+Pl: gwaabmigoosiim
+     2+waabmaa+VTA+ThmDir+Neg+1+Pl: gwaabmaaswaanaa
+     2+waabmaa+VTA+ThmDir+Neg+2+Pl: gwaabmaaswaawaa
+     2+waabmaa+VTA+ThmInv+Neg+1+Pl: gwaabmigsiinaa
+     2+waabmaa+VTA+ThmInv+Neg+2+Pl: gwaabmigsiiwaa
+     1+waabmaa+VTA+ThmDir+Neg+1+Pl: nwaabmaaswaanaa
+     1+waabmaa+VTA+ThmInv+Neg+1+Pl: nwaabmigsiinaa
+
+     #Values from slots numbered: 1, 2, 3, 6
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2+Neg+Prt:   gwaabmisiinaaba
+     2+waabmaa+VTA+Thm2+Neg+Dub:   gwaabmisiinaadig
+     2+waabmaa+VTA+Thm1Sg+Neg+Prt: gwaabmisnoonnaaba
+     2+waabmaa+VTA+Thm1Sg+Neg+Dub: gwaabmisnoonnaadig
+     2+waabmaa+VTA+Thm1Pl+Neg+Prt: gwaabmigoosiinaaba
+     2+waabmaa+VTA+Thm1Pl+Neg+Dub: gwaabmigoosiinaadig
+     2+waabmaa+VTA+ThmDir+Neg+Prt: gwaabmaasiiba
+     2+waabmaa+VTA+ThmDir+Neg+Dub: gwaabmaasiidig
+     2+waabmaa+VTA+ThmInv+Neg+Prt: gwaabmigsiiba
+     2+waabmaa+VTA+ThmInv+Neg+Dub: gwaabmigsiidig
+     1+waabmaa+VTA+ThmDir+Neg+Prt: nwaabmaasiiba
+     1+waabmaa+VTA+ThmDir+Neg+Dub: nwaabmaasiidig
+     1+waabmaa+VTA+ThmInv+Neg+Prt: nwaabmigsiiba
+     1+waabmaa+VTA+ThmInv+Neg+Dub: nwaabmigsiidig
+
+     #Values from slots numbered: 1, 2, 3, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     3+waabmaa+VTA+ThmDir+Neg+3+4:  waabmaasiin     #3obv v 3sg
+     3+waabmaa+VTA+ThmInv+Neg+3+4:  waabmigsiin   #3sg v 3obv
+
+     #2 non-neg slots ...   (4, 5), (4, 6), (4, 7)
+     #                      (5, 6), (5, 7)
+     #                      (6, 7)
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0+2+Pl: gwaabmigsiinaawaa
+     2+waabmaa+VTA+ThmInv+Neg+0+1+Pl: gwaabmigsiinaa
+     1+waabmaa+VTA+ThmInv+Neg+0+1+Pl: nwaabmigsiinaa
+     3+waabmaa+VTA+ThmInv+Neg+0+2+Pl:  waabmigsiinaawaa      #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 3, 4, 6
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0+Prt: gwaabmigsiinaaba
+     2+waabmaa+VTA+ThmInv+Neg+0+Dub: gwaabmigsiinaadig
+     1+waabmaa+VTA+ThmInv+Neg+0+Prt: nwaabmigsiinaaba
+     1+waabmaa+VTA+ThmInv+Neg+0+Dub: nwaabmigsiinaadig
+     3+waabmaa+VTA+ThmInv+Neg+0+Prt:  waabmigsiinaaba      #0sg v 3sg
+     3+waabmaa+VTA+ThmInv+Neg+0+Dub:  waabmigsiinaadig     #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 3, 4, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0+0+Pl: gwaabmigsiinan
+     1+waabmaa+VTA+ThmInv+Neg+0+0+Pl: nwaabmigsiinan
+     3+waabmaa+VTA+ThmInv+Neg+0+0+Pl:  waabmigsiinan      #0pl v 3sg
+
+     #Values from slots numbered: 1, 2, 3, 5, 6
+     #  theme sign order: 
+     #      -i    (Thm2, 1 obj)
+     #      -in   (Thm1Sg, 2 obj)
+     #      -igoo (Thm1Pl 1pl v 2)
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+Thm2+Neg+2+Pl+Prt:   gwaabmisiimwaaba
+     2+waabmaa+VTA+Thm2+Neg+2+Pl+Dub:   gwaabmisiimwaadig
+     2+waabmaa+VTA+Thm2+Neg+1+Pl+Prt:   gwaabmisiimnaaba
+     2+waabmaa+VTA+Thm2+Neg+1+Pl+Dub:   gwaabmisiimnaadig
+     2+waabmaa+VTA+Thm1Sg+Neg+2+Pl+Prt: gwaabmisnoonnimwaaba
+     #2+waabmaa+VTA+Thm1Sg+Neg+2+Pl+Prt: gwaabmisnoonmwaaba  #1sg v 2pl #book
+     2+waabmaa+VTA+Thm1Sg+Neg+2+Pl+Dub: gwaabmisnoonnimwaadig
+     #2+waabmaa+VTA+Thm1Sg+Neg+2+Pl+Dub: gwaabmisnoonmwaadig  #1sg v 2pl #book
+     2+waabmaa+VTA+Thm1Pl+Neg+2+Pl+Prt: gwaabmigoosiimwaaba
+     2+waabmaa+VTA+Thm1Pl+Neg+2+Pl+Dub: gwaabmigoosiimwaadig
+     2+waabmaa+VTA+ThmDir+Neg+1+Pl+Prt: gwaabmaasiimnaaba
+     2+waabmaa+VTA+ThmDir+Neg+1+Pl+Dub: gwaabmaasiimnaadig
+     2+waabmaa+VTA+ThmDir+Neg+2+Pl+Prt: gwaabmaaswaawaaba
+     2+waabmaa+VTA+ThmDir+Neg+2+Pl+Dub: gwaabmaaswaawaadig
+     2+waabmaa+VTA+ThmInv+Neg+1+Pl+Prt: gwaabmigsiimnaaba
+     2+waabmaa+VTA+ThmInv+Neg+1+Pl+Dub: gwaabmigsiimnaadig
+     2+waabmaa+VTA+ThmInv+Neg+2+Pl+Prt: gwaabmigsiiwaaba
+     2+waabmaa+VTA+ThmInv+Neg+2+Pl+Dub: gwaabmigsiiwaadig
+     1+waabmaa+VTA+ThmDir+Neg+1+Pl+Prt: nwaabmaasiimnaaba
+     1+waabmaa+VTA+ThmDir+Neg+1+Pl+Dub: nwaabmaasiimnaadig
+     1+waabmaa+VTA+ThmInv+Neg+1+Pl+Prt: nwaabmigsiimnaaba
+     1+waabmaa+VTA+ThmInv+Neg+1+Pl+Dub: nwaabmigsiimnaadig
+
+     #Values from slots numbered: 1, 2, 3, 5, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmDir+Neg+1+Pl+3+Pl: gwaabmaaswaanaanig
+     2+waabmaa+VTA+ThmDir+Neg+2+Pl+3+Pl: gwaabmaaswaawaag
+     2+waabmaa+VTA+ThmInv+Neg+1+Pl+3+Pl: gwaabmigsiinaanig
+     2+waabmaa+VTA+ThmInv+Neg+2+Pl+3+Pl: gwaabmigsiiwaag
+     1+waabmaa+VTA+ThmDir+Neg+1+Pl+3+Pl: nwaabmaaswaanaanig
+     1+waabmaa+VTA+ThmInv+Neg+1+Pl+3+Pl: nwaabmigsiinaanig
+     3+waabmaa+VTA+ThmDir+Neg+2+Pl+3+4:   waabmaaswaawaan      #3pl v 3obv
+     3+waabmaa+VTA+ThmInv+Neg+2+Pl+3+4:   waabmigsiiwaan      #3obv v 3pl
+
+     #Values from slots numbered: 1, 2, 3, 6, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmDir+Neg+Prt+3+Pl: gwaabmaasiibniig
+     2+waabmaa+VTA+ThmDir+Neg+Dub+3+Pl: gwaabmaasiidgenag
+     2+waabmaa+VTA+ThmInv+Neg+Prt+3+Pl: gwaabmigsiibniig
+     2+waabmaa+VTA+ThmInv+Neg+Dub+3+Pl: gwaabmigsiidgenag
+     1+waabmaa+VTA+ThmDir+Neg+Prt+3+Pl: nwaabmaasiibniig
+     1+waabmaa+VTA+ThmDir+Neg+Dub+3+Pl: nwaabmaasiidgenag
+     1+waabmaa+VTA+ThmInv+Neg+Prt+3+Pl: nwaabmigsiibniig
+     1+waabmaa+VTA+ThmInv+Neg+Dub+3+Pl: nwaabmigsiidgenag
+     3+waabmaa+VTA+ThmDir+Neg+Prt+3+4:   waabmaasiibniin     #3sg v 3obv
+     3+waabmaa+VTA+ThmDir+Neg+Dub+3+4:   waabmaasiidgenan    #3sg v 3obv
+     3+waabmaa+VTA+ThmInv+Neg+Prt+3+4:   waabmigsiibniin     #3obv v 3sg
+     3+waabmaa+VTA+ThmInv+Neg+Dub+3+4:   waabmigsiidgenan    #3obv v 3sg
+
+     #3 non-neg slots ...   (4, 5, 6), (4, 5, 7), (4, 6, 7)
+     #                      (5, 6, 7)
+
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Prt: gwaabmigsiinaawaaba
+     2+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Dub: gwaabmigsiinaawaadig
+     2+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Prt: gwaabmigsiimnaaba
+     2+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Dub: gwaabmigsiimnaadig
+     1+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Prt: nwaabmigsiimnaaba
+     1+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Dub: nwaabmigsiimnaadig
+     3+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Prt:  waabmigsiinaawaaba      #0sg v 3sg
+     3+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Dub:  waabmigsiinaawaadig      #0sg v 3sg
+
+     #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0+2+Pl+0+Pl: gwaabmigsiinaawaan
+     2+waabmaa+VTA+ThmInv+Neg+0+1+Pl+0+Pl: gwaabmigsiinaanin
+     1+waabmaa+VTA+ThmInv+Neg+0+1+Pl+0+Pl: nwaabmigsiinaanin
+     3+waabmaa+VTA+ThmInv+Neg+0+2+Pl+0+Pl:  waabmigsiinaawaan      #0pl v 3pl
+
+     #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0+Prt+0+Pl: gwaabmigsiinaabniin
+     2+waabmaa+VTA+ThmInv+Neg+0+Dub+0+Pl: gwaabmigsiinaadgenan
+     1+waabmaa+VTA+ThmInv+Neg+0+Prt+0+Pl: nwaabmigsiinaabniin
+     1+waabmaa+VTA+ThmInv+Neg+0+Dub+0+Pl: nwaabmigsiinaadgenan
+     3+waabmaa+VTA+ThmInv+Neg+0+Prt+0+Pl:  waabmigsiinaabniin    #0pl v 3sg
+     3+waabmaa+VTA+ThmInv+Neg+0+Dub+0+Pl:  waabmigsiinaadgenan   #0pl v 3sg
+
+     #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     #  theme sign order: 
+     #      -aa   (ThmDir, 3 obj)
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmDir+Neg+1+Pl+Prt+3+Pl: gwaabmaasiimnaabniig
+     2+waabmaa+VTA+ThmDir+Neg+1+Pl+Dub+3+Pl: gwaabmaasiimnaadgenag
+     2+waabmaa+VTA+ThmDir+Neg+2+Pl+Prt+3+Pl: gwaabmaaswaawaabniig
+     2+waabmaa+VTA+ThmDir+Neg+2+Pl+Dub+3+Pl: gwaabmaaswaawaadgenag
+     2+waabmaa+VTA+ThmInv+Neg+1+Pl+Prt+3+Pl: gwaabmigsiimnaabniig
+     2+waabmaa+VTA+ThmInv+Neg+1+Pl+Dub+3+Pl: gwaabmigsiimnaadgenag
+     2+waabmaa+VTA+ThmInv+Neg+2+Pl+Prt+3+Pl: gwaabmigsiiwaabniig
+     2+waabmaa+VTA+ThmInv+Neg+2+Pl+Dub+3+Pl: gwaabmigsiiwaadgenag
+     1+waabmaa+VTA+ThmDir+Neg+1+Pl+Prt+3+Pl: nwaabmaasiimnaabniig
+     1+waabmaa+VTA+ThmDir+Neg+1+Pl+Dub+3+Pl: nwaabmaasiimnaadgenag
+     1+waabmaa+VTA+ThmInv+Neg+1+Pl+Prt+3+Pl: nwaabmigsiimnaabniig
+     1+waabmaa+VTA+ThmInv+Neg+1+Pl+Dub+3+Pl: nwaabmigsiimnaadgenag
+     3+waabmaa+VTA+ThmDir+Neg+2+Pl+Prt+3+4:   waabmaaswaawaabniin       #3pl v 3obv
+     3+waabmaa+VTA+ThmDir+Neg+2+Pl+Dub+3+4:   waabmaaswaawaadgenan      #3pl v 3obv
+     3+waabmaa+VTA+ThmInv+Neg+2+Pl+Prt+3+4:   waabmigsiiwaabniin       #3obv v 3pl (0sg too?)
+     3+waabmaa+VTA+ThmInv+Neg+2+Pl+Dub+3+4:   waabmigsiiwaadgenan      #3obv v 3pl (0sg too?)
+
+     #4 non-neg slots ...   (4, 5, 6, 7)
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     #  theme sign order: 
+     #      -igo  (ThmInv, pre=obj)
+     2+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Prt+0+Pl: gwaabmigsiinaawaabniin
+     2+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Dub+0+Pl: gwaabmigsiinaawaadgenan
+     2+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Prt+0+Pl: gwaabmigsiimnaabniin
+     2+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Dub+0+Pl: gwaabmigsiimnaadgenan
+     1+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Prt+0+Pl: nwaabmigsiimnaabniin
+     1+waabmaa+VTA+ThmInv+Neg+0+1+Pl+Dub+0+Pl: nwaabmigsiimnaadgenan   
+     3+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Prt+0+Pl:  waabmigsiinaawaabniin    #0pl v 3pl
+     3+waabmaa+VTA+ThmInv+Neg+0+2+Pl+Dub+0+Pl:  waabmigsiinaawaadgenan   #0pl v 3pl
