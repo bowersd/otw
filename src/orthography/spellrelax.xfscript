@@ -1,0 +1,99 @@
+!# Explanation:
+!# lexical side (->) input 
+!aka
+!# normative (->) descriptive
+
+!natural classes
+define nonsyl   [b|d|g|p|t|k|m|n|s (h)|z (h)|j|c h|w|y|h]; 
+define pluscons [b|d|g|p|t|k|m|n|s (h)|z (h)|j|c h]; 
+define noncont  [b|d|g|p|t|k|m|n|j|c h]; 
+define nas      [n|m];
+define lenis    [b|d|g|z (h)|j];
+define lenstp   [b|d|g];
+define fortis   [p|t|k|s (h)|c];
+define vowel    [a (a)|i (i)|o (o)|e]; 
+
+!##respectable phonological rules that leak into spelling
+define lower    [o (->) a || \[o] _ .#.] ; 
+define findevoi [
+                    b (->) p,
+                    d (->) t ,
+                    g (->) k ,
+                    z (->) s ,
+                    z h (->) s h , 
+                    j (->) c h 
+                    ||  _ .#.
+                ] ; !Valentine 2001 p 74 
+define nasassim [
+                    nas (->) m || _ [b|p] ,,
+                    nas (->) n || _ [d|t|s|z|j|c|g|k] !unknown whether m undergoes
+                ] ; !Valentine 2001 p 73 !need to consider application over '
+define lenassim [       
+                    b (->) m || _ nas ,, 
+                    [d|g] (->) n || _ nas  !for completeness, out on a limb with [g]
+                ] ; !first step in waabndaan -> waammdaan -> waamdaan (Valentine 2001 p 74)
+define nasdel [[n|m] (->) 0 || [.#.|noncont] _ noncont];
+define fortite  [
+                    b b (->) p ,
+                    d d (->) t ,
+                    g g (->) k ,
+                    z z (->) s ,
+                    z h z h (->) s h ,
+                    j j (->) c h
+                ] ; !Valentine 2001 p 76
+define drophomorg   [
+                        b (->) 0 || _ [b|p], p _ ,,   !Valentine 2001 p 78 (b at top)
+                        d (->) 0 || _ [d|t], t _ ,,
+                        g (->) 0 || _ [g|k], k _ ,,
+                        z (->) 0 || _ [z|s](h), s (h) _ ,,
+                        z h (->) 0 || _ [[z|s] h], s h _ ,,
+                        p (->) 0 || _ p ,,              !on limb: simplify other gem
+                        t (->) 0 || _ t ,,              
+                        k (->) 0 || _ k ,,              
+                        s (->) 0 || _ s ,,              
+                        s h (->) 0 || _ s h ,,              
+                        m (->) 0 || _ m ,,              
+                        n (->) 0 || _ n ,,              
+                        w (->) 0 || _ w ,,              
+                        y (->) 0 || _ y
+                    ] ; 
+define clustdevoi   [
+                        b (->) p,
+                        d (->) t,
+                        g (->) k,
+                        z (->) s,
+                        z h (->) s h,
+                        j (->) c h
+                                    || _ fortis
+                    ] ; !Valentine 2001 p 80
+define initdel  [nonsyl (->) 0 || .#. _ pluscons] ; !Valentine 2001 p 81
+define glotdel  [h (->) 0 || pluscons _ , _ pluscons] ; 
+!skipped diphtongization (Curve Lake ehi -> ey), denasalization (mt->bt) V 2001 p 82
+define wy       [w (->) y || vowel _ vowel] ; !Valentine 2001 p 88
+define glidedel [[w|y] (->) 0 || pluscons _, _ pluscons] ; !Valentine 2001 p 88
+!a vs i vs o variation currently spelled into lexicon
+
+!##people don't know how to use apostrophes
+define aposvar  [                   !probably want non-ascii single quotes too
+                    [..] (->) ',
+                    '   (->) 0 
+                                || nonsyl _ nonsyl 
+                ] ; 
+
+define dummy [a -> a];
+read regex [
+dummy
+!lower       .o.
+!findevoi    .o.
+!nasassim    .o.
+!lenassim    .o.
+!nasdel      .o.
+!fortite     .o.
+!drophomorg  .o.
+!clustdevoi  .o.
+!initdel     .o.
+!glotdel     .o.
+!wy          .o.
+!glidedel    .o.
+!aposvar     
+] ; 
