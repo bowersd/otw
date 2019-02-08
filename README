@@ -62,9 +62,11 @@ Downloading
 The Giellatekno tools can be acquired using `giella SVN repository 
 <http://divvun.no/doc/infra/anonymous-svn.html>`_, from the language specific
 directory, after the core has been downloaded and initial setup has been 
-performed. Replace the `src` directory from the Giellatekno directory with
-the `src` directory developed here to get the benefits of any additional 
-development from this project.
+performed. Replace the appropriate (e.g: `src`) directory from the 
+Giellatekno directory with the corresponding directory developed here to 
+get the benefits of any additional development from this project. Obviously, 
+this will be a somewhat cumbersome interaction between the Giellatekno svn
+and this git repository system.
 
 This project can of course be downloaded in the usual Github ways.
 
