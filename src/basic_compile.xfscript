@@ -1,0 +1,10 @@
+clear stack ;
+read lexc tmp.lexc ;
+define morphology ;
+
+source phonology/otw-phon.xfscript ;
+define phonology ;
+
+read regex morphology .o. phonology ;
+save stack > morphophonology.xfst ;
+clear stack ;
