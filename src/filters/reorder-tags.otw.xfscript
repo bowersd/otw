@@ -1,0 +1,623 @@
+!I'm using totally novel tags in addition to tags from the analyzer
+!this could cause confusion ...
+
+!so-called unspecified actor/possession forms aren't treated here, but they really should be
+
+!###
+!#minor adjustments
+!###
+
+!{ nouns
+define nounobv [%+4 -> %+Obv || \[%+3|%+%0] _ .#.] ;
+define nounpl  [%+Pl -> %+PL || \[%+1|%+2|%+3|%+%0] _ .#.] ; !+Pl will be deleted when not at the end of the word, but nouns need to escape this (PLPl rule restores +Pl from +PL)
+define nounsg [[..] -> ["@R.Animate@" %+Sg|"@D.Animate@"] || \[%+PL|%+Obv|%+Loc] _ .#.];
+define nounpos [%+ThmPos -> 0];
+!}
+
+!{ verb explicit defaults
+define mkind [ [..] -> %+Ind || 
+                                [%+VAI|%+VAIO|%+VTA|%+VTI] _ \["@D.Person@"] \[%+Cnj|%+Imp],
+                                [%+VII] _ \[%+Cnj]
+                                ] ;
+
+define themesplus [ 
+                    %+ThmDir| 
+                    %+ThmInv "@P.Theme.Inv@"|
+                    %+Thm2|
+                    %+Thm1Pl|
+                    %+Thm1Sg|
+                    %+ThmPas|
+                    %+Thm1|
+                    %+Thm2a
+                    ] ;
+
+define mkpos [ [..] -> %+Pos || 
+                                [%+ThmNul|%+Thm2b] _ , !cnj order themes that are never followed by +Neg
+                                [
+                                    %+Cnj %+ThmInv| !vta exception
+                                    themesplus| !most vtas
+                                    [%+VAI|%+VAIO|%+VTI]["@D.Person@" %+Cnj|%+Ind "@D.Order.Cnj@" ] !basic case
+                                ] 
+                                _ \[%+Neg] 
+                                ] ;
+
+!test rules for inserting +Neu tag
+!make sure invisible environment adjustments aren't thrown off
+define sdneu [ [..] -> ["@P.NuMode.Neu@" %+Neu|"@N.NuMode.Neu@" "@P.EmptyMode.True@"] || \[%+Imp] [%+Pos|%+Neg] _ ] ;
+define rmneu [ [..] -> "@D.NuMode.Neu@" "@C.EmptyMode@" || _ [%+Prt|%+Dub] ] ; 
+define rmdum [ [..] -> "@D.EmptyMode@" || _ .#. ] ;
+
+!checking after mode markers for whether marked mode has happened isn't what we want
+!it is the case where there is no mode marker (set up to not double-mark mode) that we need to rule out the path
+!it might be best to double-mark and then just remove +Neu+Prt-type sequences
+!they do have to actually be adjacent then
+!define sdneu [ [..] -> ["@P.Mode.Neu@" "@P.MarkedMode.True@" %+Neu|"@N.Mode.Neu@" "@N.MarkedMode.True@"] || \[%+Imp] [%+Pos|%+Neg] _ ] ;
+!define rmneu [ [..] -> "@D.Mode.Neu@" "@P.MarkedMode.True@" || _ [%+Prt|%+Dub] ] ; 
+!define neuprtdub [ [..] -> "@R.MarkedMode.True@" || [%+Prt|%+Dub|%+Neu] _ ] ; 
+!deprecated long distance envi
+define mkneu [ [..] -> %+Neu || \[%+Imp] [%+Pos|%+Neg] _ \[%+Prt|%+Dub]* .#.]; !only long distance envi
+
+!  VAI+Cnj 
+!  #1	2	3	4
+!  #neg	persnum prt     dub
+!
+!  VII - Cnj
+!  #1	2	3	4
+!  #neg	obv     prt     dub
+!     
+!  VTI+Cnj - AM - waabandam :
+!  #1	2	3	4
+!  #neg	persnum prt     dub
+!     
+!  VTA+Cnj - AM - waabmaa :
+!  #1	    2	    3	    4       5       6
+!  #theme    neg     persnum periph  prt     dub
+!!!!!!!!!!!!!!!
+!  VAI - Ind
+!  #1	2	3	4   5
+!  #per	neg     num     mod periph
+!
+!  VII - D - mnopgot :
+!  #1	2	3	4
+!  #neg	obv     mod     per
+!     
+!  VTI - AM - waabandam :
+!  #1	2	3	4   5
+!  #per	neg     num     mod periph
+!
+!  VTA - AM - waabmaa :
+!  #1	    2	    3	    4       5       6       7
+!  #per      theme   neg     inan    persnum mod     periph
+!}
+     
+!###
+!#person and number 
+!#  person and number information appears at end of string in format XY (X=person, Y=number)
+!#      Possessor -> PxXY 
+!#      Subject (Object) -> XY (XYO)
+!###
+!{ persnum
+!in this section we convert the original Algonquian-style tagging to a less parochial form 
+!Algonquian languages afford a rather sparse notation, giving us two main tasks:
+!   expand zeroes into appropriate categories
+!   shunt categories into their appropriate place as indicated by theme signs (transitives (vti trivial, vta involved))
+!One more task:person and number are not realized in the same place natively, and so must be united
+!{ number flags
+!this section is very early because cnj forms need features to be specified for subject information to be filled out
+    !nouns and independent order verbs use a sparse notation where only non-sg is marked
+    !number suffixes are particular to person features
+    !first and second person number is realized in a different slot than third person number
+    !in vtas, vtis we see the consequence of this: there can be two number specifications in a word
+    !we therefore distinguish between "Number" and "Periph" flags
+!{  seeding number
+define sdX      [[..] -> "@P.Person.X@" || _ %+X ]; !vais don't have prefixal passive marking. this departs from only using underlying, never inserting Person.? flags.
+    !-> Person.? flags now inserted in other cases (sd1pl, sd2pl), expect to make general (2/1/2017)
+!cnj verbs do not have a composite 21pl too...
+define sd21     [ %+2 %+1 %+Pl -> "@P.Person.2@" "@P.Number.1Pl@" ] ; !Formerly had 21Pl value for Number. 
+!cpsub was adding person tags from number flags (suffixes) when person flags (prefixes) were present
+!solution: make person tags only be added from person flags
+!   suffixes with no prefixes must be supplied with person flags
+!   suffixes with prefixes cannot overwrite person flags (+1+Pl compatible with 1+, 2+)
+!I don't think peripheral suffixes had this problem, but we know how to fix it if it arises.
+
+!original
+define sd1pl     [[..] -> ["@R.Person@" "@P.Number.1Pl@"|"@U.Person.1@" "@P.Number.1Pl@"]   || _ %+1 %+Pl  ];
+define sd2pl     [[..] -> ["@R.Person@" "@P.Number.2Pl@"|"@U.Person.2@" "@P.Number.2Pl@"]   || _ %+2 %+Pl  ];
+define sd3pl     [[..] -> "@P.Periph.3Pl@"    || _ %+3 %+Pl  ];
+define sd3obv    [[..] -> "@P.Periph.3Obv@"   || _ %+3 %+4    ];
+define sdinanpl  [[..] -> "@P.Inanimate.1@" "@P.Periph.InanPl@" || _ %+%0 %+Pl  ];
+define sdinansg  [[..] -> "@P.Inanimate.1@" "@P.Periph.InanSg@" || _ %+%0 \[%+Pl]  ];
+!cnj order verbs explicitly write out sg, so these rules have limited applicability
+                !(only third persons may participate with 21pl, 2 @1Pl is always 21pl, never 2sg v 1pl (well, such forms occur, but 2 number is ambiguous btw sg and pl then :D).)
+!for consistency, these could also get the Person-number schism seen in sd1pl, sd2pl
+!   it is a question of simple cpsub or simple sd rules
+define sd1      [ [..]  -> "@P.Person.1@" || _ %+1 \[%+Pl]] ;
+define sd2      [ [..]  -> "@P.Person.2@" || _ %+2 \[%+Pl]] ;
+define sd3      [ [..]  -> "@P.Periph.3Sg@" || _ %+3 [.#.|\[%+Pl|%+4]]] ; 
+!} num seed end
+
+!} num flag end
+
+!{ vais, viis, nouns
+!following rules solve a problem
+!two arg rules follow one arg rules (for vais, viis, nouns)
+!but if they all target _ .#., then two arg rules cover up word boundary, which makes clean-up section remove person information for one arg words
+!this gives overt material to craft more specific environments [[+ONE|+TWO] +ARGSLOT .#.]
+define argcount [ [..] -> "@P.Args.1@" || _ [%+VII|%+VAI|%+NA|%+NI|%+NAD|%+NID] ,,
+                    [..] -> "@P.Args.2@" || _ [%+VTI|%+VTA]] ; !vaio...
+
+define onetwo [ [..] -> [
+                            "@R.Args.1@" %+ONE|
+                            "@R.Args.2@" %+TWO|
+                            "@D.Args@"
+                        ] 
+                        || _ .#. ] ;
+
+define argslot [ [..] -> %+ARGSLOT || [%+ONE|%+TWO] _ .#. ] ;
+
+!copy subject
+!this rule too promiscuous: proliferation of flags means that 3Pl possessed forms (which have a 2Pl flag) end up also generating a 2Pl abstract tag
+!perhaps only fill in +1 with @Person.1@ flag
+define cpsub [%+ARGSLOT -> [
+                        [
+                            "@R.Person.1@" !|
+                            !"@R.Number.1Sg@" !cnj
+                            ] %+1 |
+                        [
+                            "@R.Person.2@" !|
+                            !"@R.Number.21Pl@"|  !cnj (necessary? 1pl could work...)
+                            !"@R.Number.2Sg@"  !cnj 
+                            ] %+2 |
+                        [
+                            "@R.Person.3@" "@D.Periph.3Obv@"| !stopping 3...3+4 from parasitically inserting +3 when it should only insert +4 (see +4 insertion below in this rule) 
+                            "@R.Periph.3Pl@"|
+                            "@R.Periph.3Sg@"
+                            ] %+3 |
+                        [
+                            "@R.Periph.InanPl@"|
+                            "@R.Periph.InanSg@"
+                            ] %+%0 |
+                        "@R.Periph.3Obv@" %+4 | 
+                        "@R.Person.X@" %+X | 
+                        !passives (X) should be covered now
+                        "@R.Animate@" "@D.Person@" !no arguments (noun pos opt)
+                        ]
+                        || %+ONE _ .#. ];
+
+!} vai, vii, noun end
+
+!{ vtis
+!seed theme
+define sdthminan [[..] -> "@P.Theme.Inan@" || _ %+VTI ] ;
+
+!move theme
+!theme requirements being introduced only in this envi
+!allows non-theme words (vai, vii, nouns) to surface
+define mvthminan [ %+ARGSLOT -> 
+                    [
+                        "@R.Theme.Inan@" %+ThmInan |
+                        "@D.Theme.Inan@" %+ARGSLOT
+                    ]
+                        || %+TWO _ .#. ] ;
+
+!supply object
+define objinan [[..] -> %+%0 "^X$" || %+ThmInan _ ] ;
+
+!copy subject
+define subvti [[..] -> [
+                        [
+                            "@R.Person.1@" !|
+                            !"@R.Number.1Sg@" !cnj
+                            ] %+1 |
+                        [
+                            "@R.Person.2@" !|
+                            !"@R.Number.21Pl@"|  !cnj (necessary? 1pl could work...)
+                            !"@R.Number.2Sg@"  !cnj 
+                            ] %+2 |
+                        [
+                            "@R.Person.3@"|
+                            "@R.Periph.3Pl@"|
+                            "@R.Periph.3Sg@"
+                            ] %+3 |
+                        "@R.Periph.3Obv@" %+4 
+                        ]
+                        || _ %+ThmInan ];
+
+!} vti end
+
+!{ vtas  
+
+!{ theme movement 
+    !the main strategy is to use the theme sign as the locus of argument realization
+    !because arguments are spelled out at the end of the string in our notation, we move theme signs to the end here
+    !movement is really copying and deletion :D
+    !to spare ourselves long-distance environments (these cause explosive growth), we use memory to control movement
+
+!a crazy rule (for if a suspected typo in valentine 2001 turns up not a typo)
+!define thminvc      [ %+Cnj %+ThmInv %+Neg %+2 %+Pl %+3 .#. -> %+Cnj %+Neg %+2Pl% %+Thm %+3Sg .#. ];
+
+!{ seeding theme features
+    !by converting tags to flags (invisible characters), we save needing to write a deletion rule
+!{ cnj theme seed
+define sdcnjthm1   [%+Thm1 -> "@P.Theme.1@" ]; 
+define sdcnjthm2a  [%+Thm2a -> "@P.Theme.2a@"];  
+define sdcnjthm2b  [%+Thm2b -> "@P.Theme.2b@"]; 
+define sdcnjthmNul [%+ThmNul -> "@P.Theme.Nul@"];  
+!cnj themes that double as ind themes
+!define sdcnjaanul [%+ThmDir ->  "@P.Theme.Nul@" || %+Cnj _ (%+Neg) \["@P.Periph.3Sg@"|"@P.Periph.3Pl@"] ]; !attempts to route non 3v3 (1v3, 2v3) aa to null, but probably routes all of them. Let this be a warning to those who would use invisible characters in rule environments.
+define sdcnjdouble [%+ThmInv -> "@P.Theme.InvC@",
+                    %+Thm1Pl -> "@P.Theme.1PlC@", !Thm1Pl is identical in cnj, ind, except cnj doesn't require person prefix. keeping them separate for now (see rules referring to these theme signs)
+                    %+ThmDir -> "@P.Theme.DirC@" 
+                    || %+Cnj _ ] ;
+!} cnj theme seed end
+
+!{ ind themes
+define sdthm2    [%+Thm2   -> "@P.Theme.2@"    ];
+define sdthm1sg  [%+Thm1Sg -> "@P.Theme.1Sg@"   ];
+define sdthm1pl  [%+Thm1Pl -> "@P.Theme.1Pl@"   ];
+define sdthmdir  [%+ThmDir -> "@P.Theme.Dir@"    ];
+define sdthminv  [%+ThmInv -> "@P.Theme.Inv@"    ];
+define sdthmpas  [%+ThmPas -> "@P.Theme.Pas@"    ];
+!} ind theme seed end
+!} theme seed end
+
+!theme copy
+!this is the last instance of ARGSLOT
+!theme requirements being introduced only in this envi
+!allows non-theme words (vai, vii, nouns) to surface
+define cpthm    [%+ARGSLOT -> ["@R.Theme.2@"   %+Thm2 |
+                            "@R.Theme.1Sg@" %+Thm1Sg | 
+                            "@R.Theme.1Pl@" %+Thm1Pl | 
+                            "@R.Theme.Dir@" %+ThmDir |
+                            "@R.Theme.Inv@" %+ThmInv |
+                            "@R.Theme.Pas@" %+ThmPas |
+                            !cnj themes {
+                            "@R.Theme.1@" %+Thm1    | 
+                            "@R.Theme.2a@" %+Thm2a  | 
+                            "@R.Theme.2b@" %+Thm2b  | 
+                            "@R.Theme.Nul@" %+ThmNul    | 
+                            "@R.Theme.1PlC@" %+Thm1PlC  | 
+                            "@R.Theme.InvC@" %+ThmInvC  | 
+                            [
+                                "@R.Person@" "@R.Theme.DirC@" %+ThmNul| !simpler to use rules for ThmNul than to have really complicated ThmDirC
+                                "@D.Person@" "@R.Theme.DirC@" %+ThmDirC   
+                            ]
+                            !}
+                            ] || %+TWO "@D.Theme.Inan@" _ .#. ];
+
+!} theme move end
+
+!{ subject information (transitives)
+!if zero insertions are a problem, we can always just move the environment into the target and duplicate in change
+!this can be applied elsewhere
+!{ independent order
+
+!straight up specifying a sub-obj combo
+define thm2vta       [ %+Thm2 -> %+2 %+Thm2 %+1 "^X$" ] ;
+
+!copy
+define cpthmdirpre    [[..] -> ["@R.Person.1@" %+1 | "@R.Person.2@" %+2 | "@R.Person.3@" %+3] || _ %+ThmDir ] ;
+
+!fabricate
+define 1Sgv2     [[..] -> %+1Sg || _ %+Thm1Sg ];
+define 1Plv2     [[..] -> %+1Pl || _ %+Thm1Pl ]; !could also just directly specify both arguments in the way of Thm1PlC (see below) (though there's an independently needed rule that adds second person object ... elegance)
+define 3vN       [[..] -> %+3 || _ %+ThmInv ];
+define XPass     [[..] -> %+X || _ %+ThmPas ];
+
+!inanimate subject adjustment
+define Inaninv   [ %+3 -> ["@R.Inanimate.1@" %+%0|"@D.Inanimate.1@" %+3] || _ %+ThmInv ]; 
+define rmInan    [ %+%0 -> 0 ||  _ "@P.Inanimate.1@"]; 
+!} independent order end
+
+!{ conjunct order
+
+!straight up specifying a sub-obj combo
+define thmdirc       [ %+ThmDirC -> %+3 %+ThmDirC %+4 "^X$" ] ; !recall, other person combinations with surface thmdir have been remapped to thmnul
+define thm2b       [ %+Thm2b -> %+3 %+Thm2b %+2Sg  "^X$"] ; 
+define thm1plc      [ %+Thm1PlC -> %+1Pl %+Thm1PlC %+2  "^X$"] ; 
+
+define thmInvNegSpec [ %+ThmInvC -> [
+                                    ["@R.Periph.3Sg@" "@R.Number.2Pl@" "@N.Theme.InvC@" %+ThmInvC ]|
+                                    [[
+                                    "@R.Periph.3Sg@" "@D.Number.2Pl@"|
+                                    "@D.Periph.3Sg@" "@R.Number.2Pl@"|
+                                    "@D.Periph.3Sg@" "@D.Number.2Pl@"
+                                    ]
+                                    %+ThmInvC]] ] ; !Turn off ThemeInvC to stop normal handling of 3sg&2Pl, else leave it on (InanvN, cpInvObjcnj require ThmInvC)
+!fabricate
+define InanvN       [[..] -> [ ["@R.Theme.InvC@"
+                                [
+                                %+%0|
+                                !"@R.Periph@" %+4 !simpler, regular version.
+                                !less regular version for coping with suprising irregularity (see earlier comment about possible typo in valentine 2001)
+                                "@R.Periph@" "@D.Person@" %+4|
+                                "@R.Periph.3Sg@" "@R.Person@" %+3Sg|
+                                "@R.Periph.3Pl@" "@R.Person@" %+3Pl
+                                ]
+                            ]|"@D.Theme.InvC@" %+3Sg ] 
+                            || _ %+ThmInvC ];
+
+!copy
+define cpSubthm1 [[..] -> [
+                            "@R.Number.1Pl@" "@D.Periph@" [%+2Pl|%+2Sg]| !1pl marked forms ambig btw 2sg/pl only if there has been no specification of 3
+                            "@R.Person.2@" %+2 |
+                            "@R.Periph@" %+3
+                            ] 
+                            || _ %+Thm1 ] ;
+define cpSubthm2a   [[..] ->    [
+                                "@D.Periph@" %+1Sg|
+                                "@R.Periph.3Sg@" %+3Sg| !spell out to avoid 2Pl objects triggering 3->3Pl
+                                "@R.Periph.3Pl@" %+3Pl
+                                ] 
+                                || _ %+Thm2a] ;
+define cpSubthmNul  [[..] -> [ 
+                                "@R.Person.1@" %+1|
+                                "@R.Person.2@" %+2
+                                ] || _ %+ThmNul] ;
+!} conjunct order end
+!} subject info end
+
+!{ obj
+!{ object copying
+    !these names aren't great
+define cp3Objvta [[..] -> [["@R.Person.3@" %+3  |  
+                            "@R.Person.1@" %+1  |
+                            "@R.Person.2@" %+2  ] "^X$"]
+                            || %+ThmInv _ ];
+
+define cp1Objvta [[..] -> [[ "@D.Person@"  %+3  |
+                            "@R.Person.1@" %+1  |
+                            "@R.Person.2@" %+2  ] "^X$"]
+                            || %+ThmPas  _ ];
+
+define cp2Objvta [[..] -> [
+                            "@R.Person.2@" %+2 "^X$" ]
+                            || [%+Thm1Sg|%+Thm1Pl]  _ ]; !in independent order, thesetheme signs do indeed require a second person prefix.
+                            !cnj Thm1Pl does not require a second person prefix (second person marking is required, but treated here as a number flag)
+                            !I decided to keep the independent order as strict as possible (enforcing the prefix requirement), so now we have a cnj series and an ind series ... this is open to revision :D
+
+!} obj copy end
+
+!{ object fabrication
+define Nv3       [[..] -> %+3 "^X$" || %+ThmDir _ ];
+
+!{ cnj spec
+define Nv1      [[..] -> %+1 "^X$" || %+Thm1 _ ] ;
+define Nv2      [[..] -> %+2 "^X$" || %+Thm2a _ ] ;
+define Nv3cnj   [[..] -> [["@R.Periph.3Pl@" %+3Pl|"@R.Periph.3Sg@" %+3Sg] "^X$"] || %+ThmNul _ ] ; !can't let later number fusion take over, because +3 -> +3Pl with +2Pl
+
+!neg 0v2pl and neg 3sv2pl are homophonous (igosiweg...), so +3 is emitted, which gives an undesired 0v3sg reading to igosiweg
+!need to have a special write out of @thminvc, @2pl, @periph.3sg, and block 3sg object spellout in this context
+!   @thminv @2pl        -> 0 2PlO   (igosiweg)
+!   @thminv @3sg @2pl   -> 3 2PlO   (igosiweg)
+!   @thminv @3sg @2pl   // 0 3O     (igosiweg)
+define cpInvObjcnj [[..] -> [
+                            [
+                                ["@R.Theme.InvC@"
+                                    [
+                                    "@R.Periph.3Sg@" %+3Sg| !more elegant R.Periph was allowing negated 0v2Pl to also be parsed as 0v3Pl
+                                    "@R.Periph.3Pl@" %+3Pl|
+                                    "@R.Person.1@" %+1 |
+                                    "@R.Person.2@" %+2
+                                    ]
+                                ]|
+                                ["@D.Theme.InvC@" %+2]
+                            ]"^X$" ]
+                || %+ThmInvC _ ] ;
+!} cnj spec end
+!} obj fab end
+!} obj end
+
+!number fusion {
+    !now the arguments are in the desired spot (flanking a theme sign at the end of a word)
+    !they are just (mostly) bereft of number information
+    !we remedy this problem here
+
+!just vtas
+define fs1plvtaloc  [ %+1 -> ["@R.Number.1Pl@" %+1Pl | "@D.Number.1Pl@" %+1Sg] 
+                        || [%+Thm2|%+Thm1] _ ]; !Thm1 added, as cnj works the same
+define 2plopt       [ %+2 -> [%+2Pl|%+2Sg] || _ %+Thm2 ? %+1Pl ]; !second person number is ambiguous in this context.
+define 2ploptcnj    [ [..] -> ["@D.Periph@"[%+2Pl|%+2Sg]|"@R.Periph@" %+3] || _ %+Thm1 ? %+1Pl ]; !cnj version (might be good to make independent order Thm2 be Thm1)
+define fs2plvtaloc  [ %+2 -> ["@R.Number.2Pl@" %+2Pl | "@D.Number.2Pl@" %+2Sg ] || _ %+Thm2 ] ;
+define fs3plv3vta   [ %+3 -> ["@R.Number.2Pl@"    %+3Pl  | "@D.Number.2Pl@" %+3Sg  ] || _ %+ThmDir %+3, [%+%0|%+3] %+ThmInv ? _ ]; 
+!third person disambiguation
+!Inan v obv?
+define fs3obvv3vta  [ %+3 -> %+4 || [%+3Sg|%+3Pl] %+ThmDir _, _ %+ThmInv ? ? [%+3Sg|%+3Pl] ];
+define fs3plvta     [ %+3 -> ["@R.Periph.3Pl@" %+3Pl  | "@D.Periph.3Pl@" %+3Sg] ||  %+ThmDir _, _ %+ThmInv  ] ; !carving out exception to  elegant general purpose 3pl fusion, introducing invisible separator between thmdir and arg.
+
+!applicable to all parts of speech 
+define fs21pl    [ %+2 -> ["@R.Number.1Pl@"    %+21Pl | "@D.Number.1Pl@" %+2 ]   ]; 
+define fs2pl     [ %+2 -> ["@R.Number.2Pl@"    %+2Pl  | "@D.Number.2Pl@" %+2Sg ]  ];
+define fs3pla    [ %+3 -> ["@R.Number.2Pl@"    %+3Pl  | "@D.Number.2Pl@" %+3 ]  ]; !vta 3v3, noun, vti 3Pl signalled by 2pl marker with 3 prefix
+define fs3pl     [ %+3 -> ["@R.Periph.3Pl@"    %+3Pl  | "@D.Periph.3Pl@" %+3Sg ]  ]; !vai, most vta 3Pl signalled by 3pl marker. (currently vta 2pl v 3sg -> 2pl v 3pl)
+define fs1pl     [ %+1 -> ["@R.Number.1Pl@"    %+1Pl  | "@D.Number.1Pl@" %+1Sg ]  ];
+define fsinanpl  [ %+%0 -> ["@R.Periph.InanPl@" %+%0Pl | "@D.Periph.InanPl@" %+%0Sg] ]; !vta conjunct order doesn't distinguish plurality in inan, perhaps keep +0 in vta cnj
+
+
+!}
+
+!} vta end
+
+!{ cleaning
+!theme sign simplification
+define chThm [ [
+                %+Thm2|
+                %+Thm1Sg|
+                %+Thm1Pl|
+                %+ThmDir|
+                %+ThmInv|
+                %+ThmPas|
+                !cnj
+                %+Thm1PlC|
+                %+ThmDirC|
+                %+ThmInvC|
+                %+Thm2a|
+                %+Thm2b|
+                %+Thm1|
+                %+ThmNul|
+                !vtis
+                %+ThmInan
+                ] -> %+Thm ];
+
+define ch4Sg [ %+4 %+Sg -> %+4Sg ] ; !VIIs
+
+!object coding
+define chO [%+1Sg -> %+1SgO, 
+            %+2Sg -> %+2SgO,
+            %+3Sg -> %+3SgO,
+            %+1Pl -> %+1PlO,
+            %+21Pl -> %+21PlO,
+            %+2Pl -> %+2PlO,
+            %+3Pl -> %+3PlO,
+            %+4 -> %+4O ,
+            %+%0Sg -> %+%0SgO,
+            %+%0Pl -> %+%0PlO
+            || _ "^X$" ]; 
+
+!possessor coding
+define chP [
+            %+1Sg ->  ["@R.Animate@" %+Px1Sg |"@D.Animate@" %+1Sg ], 
+            %+2Sg ->  ["@R.Animate@" %+Px2Sg |"@D.Animate@" %+2Sg ],
+            %+3Sg ->  ["@R.Animate@" %+Px3Sg |"@D.Animate@" %+3Sg ],
+            %+1Pl ->  ["@R.Animate@" %+Px1Pl |"@D.Animate@" %+1Pl ],
+            %+21Pl -> ["@R.Animate@" %+Px21Pl|"@D.Animate@" %+21Pl],
+            %+2Pl ->  ["@R.Animate@" %+Px2Pl |"@D.Animate@" %+2Pl ],
+            %+3Pl ->  ["@R.Animate@" %+Px3Pl |"@D.Animate@" %+3Pl ],
+            %+X   ->  ["@R.Animate@" %+PxX   |"@D.Animate@" %+X   ],
+            %+4 ->    ["@R.Animate@" %+Px4   |"@D.Animate@" %+4   ]
+            !%+%0Sg -> ["@R.Animate@" %+Px%0Sg|"@D.Animate@" %+%0Sg], !not applicable to nouns
+            !%+%0Pl -> ["@R.Animate@" %+Px%0Pl|"@D.Animate@" %+%0Pl]
+            || _ .#. ];
+
+define rmPersNum [
+                [
+                %+Pl | 
+                %+1 |
+                %+2 |
+                %+3 |
+                %+X |
+                1%+ |
+                2%+ |
+                3%+ |
+                X%+ |
+                %+1Sg | 
+                %+2Sg  | 
+                %+3Sg  |
+                %+%0Sg |
+                %+21Pl |
+                %+3Pl  |
+                %+3Pl  |
+                %+4Sg  | !VIIs
+                %+4Pl  | !VIIs
+                %+4    |
+                %+2Pl  |
+                %+1Pl  |
+                %+%0Pl 
+                ] -> 0 || _ \[.#.|%+Thm] ] ; 
+
+define PLPl [%+PL -> %+Pl] ; 
+
+define rmArg [ [%+ONE|%+TWO|%+ARGSLOT|%+Thm|"^X$"] -> 0 ] ;
+!} clean end
+
+!} persnum end
+
+read regex [
+    nounobv   .o.
+    nounpl    .o.
+    nounsg    .o.
+    nounpos   .o.
+    mkind     .o.
+    mkpos     .o.
+    sdneu     .o.
+    rmneu     .o.
+    rmdum     .o.
+    !neuprtdub .o.
+    !mkneu     .o.
+    !num flag intro
+    sdX       .o.
+    sd21      .o.
+    sd1pl     .o.
+    sd2pl     .o.
+    sd3pl     .o.
+    sd3obv    .o.
+    sdinanpl  .o.
+    sdinansg  .o.
+    sd1       .o.
+    sd2       .o.
+    sd3       .o.
+    !!general copying
+    argcount .o.
+    onetwo      .o.
+    argslot     .o.
+    cpsub     .o.
+    !!vti copying
+    sdthminan .o.
+    mvthminan .o.
+    objinan   .o.
+    subvti    .o.
+    !theme flag intro
+    sdcnjthm1  .o.
+    sdcnjthm2a .o.
+    sdcnjthm2b .o.
+    sdcnjthmNul .o.
+    sdcnjdouble .o.
+    sdthm2   .o.
+    sdthm1sg  .o.
+    sdthm1pl  .o.
+    sdthmdir  .o.
+    sdthminv  .o.
+    sdthmpas  .o.
+    !!copy theme to end
+    cpthm    .o. 
+    !theme arguments
+    thm2vta   .o. 
+    cpthmdirpre .o.
+    1Sgv2     .o.
+    1Plv2     .o.
+    3vN       .o.
+    XPass     .o.
+    Inaninv   .o. 
+    rmInan    .o.
+        !cnj
+    thmdirc   .o.
+    thm2b     .o.
+    thm1plc   .o.
+    thmInvNegSpec .o.
+    InanvN    .o.
+    cpSubthm1 .o.
+    cpSubthm2a .o.
+    cpSubthmNul .o.
+    !object filling
+    cp3Objvta .o.
+    cp1Objvta .o.
+    cp2Objvta .o.
+    Nv3       .o.
+    Nv1       .o.
+    Nv2       .o.
+    Nv3cnj    .o.
+    cpInvObjcnj  .o.
+    !cash out num flags
+    fs1plvtaloc .o. 
+    2plopt      .o.
+    2ploptcnj   .o.    
+    fs2plvtaloc .o. 
+    fs3plv3vta  .o.
+    fs3obvv3vta .o.
+    fs3plvta    .o.
+    fs21pl      .o.
+    fs2pl       .o.
+    fs3pla      .o.
+    fs3pl       .o.
+    fs1pl       .o.
+    fsinanpl    .o.
+    !clean up
+    chThm       .o.
+    chO         .o.
+    chP         .o.
+    rmPersNum   .o.
+    PLPl        .o.
+    rmArg
+];
+
+invert net

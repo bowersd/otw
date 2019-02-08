@@ -1,0 +1,326 @@
+!moving tags with flags 
+!define Alysis [a b c 0:TAG | d e f 0:TAG1 ];
+!define InsertTag [..] -> TAG "@P.TAG.ON@" || _ a ; !insert a tag at the beginning, set feature
+!define DeleteTag TAG -> 0 "@R.TAG.ON@" || c _ ; !delete tag if feature set, [0 invis]?
+!read regex Alysis .o. InsertTag .o. DeleteTag ; !compose
+
+!(safe version)
+!warning, this is brittle
+!deletion w/tag clearing ( x -> @R.sfs.sd@ @C.asf.jj@) may fail to compose
+!define Alysis [a b c 0:TAG | d e f 0:TAG1 ];
+!define InsertTag [..] -> TAG "@P.TAG.ON@" || _ a ;
+!define DeleteTag TAG -> 0 "@R.TAG.ON@" "@C.TAG@" || c _ ; !delete tag at end only if feature set, clear feature
+!read regex [Alysis "@D.TAG.ON@" ] .o. InsertTag .o. DeleteTag ;
+
+!I'm using totally novel tags in addition to tags from the analyzer
+!this could cause confusion ...
+
+!###
+!#person and number
+!###
+
+!vtas (spell out and move sub-obj chunks) {
+!theme movement
+!seeding theme features
+define sdthm2    [[..] -> "@P.Theme.2@" || _ %+Thm2   ];
+define sdthm1sg  [[..] -> "@P.Theme.1Sg@" || _ %+Thm1Sg  ];
+define sdthm1pl  [[..] -> "@P.Theme.1Pl@" || _ %+Thm1Pl  ];
+define sdthmdir  [[..] -> "@P.Theme.Dir@"  || _ %+ThmDir  ];
+define sdthminv  [[..] -> "@P.Theme.Inv@"  || _ %+ThmInv  ];
+
+!theme copy
+
+!this contains a hack to counteract rmthmearly over-removing Thm2
+define cpthm2    [[..] -> ["@R.Theme.2@"   %+HACKThm2   | "@D.Theme.2@"  ] || _ .#. ];
+define cpthm1sg  [[..] -> ["@R.Theme.1Sg@" %+Thm1Sg | "@D.Theme.1Sg@"] || _ .#. ];
+define cpthm1pl  [[..] -> ["@R.Theme.1Pl@" %+Thm1Pl | "@D.Theme.1Pl@"] || _ .#. ];
+define cpthmdir  [[..] -> ["@R.Theme.Dir@" %+ThmDir | "@D.Theme.Dir@"] || _ .#. ];
+define cpthminv  [[..] -> ["@R.Theme.Inv@" %+ThmInv | "@D.Theme.Inv@"] || _ .#. ];
+
+!theme remove (just the original, the copy needs to stay for later)
+define rmthmearly [[
+                    %+Thm2  |  
+                    %+Thm1Sg | 
+                    %+Thm1Pl | 
+                    %+ThmDir | 
+                    %+ThmInv 
+                    ] -> 0 || _ ? \.#. ]; !flags intervene
+
+!straight up specifying a sub-obj combo
+!note contains a hack
+define thm2vta       [ %+HACKThm2 -> %+2 %+Thm2 %+1 ] ;
+
+!subject copying
+define cp1vta    [[..] -> ["@R.Person.1@" %+1 | "@D.Person.1@"] || _ %+ThmDir ] ;
+define cp2vtadir [[..] -> ["@R.Person.2@" %+2 | "@D.Person.2@"] || _ %+ThmDir ] ;
+define cp3vta    [[..] -> ["@R.Person.3@" %+3 | "@D.Person.3@"] || _ %+ThmDir ] ;
+
+!subject fabrication
+define 1Sgv2     [[..] -> %+1Sg || _ %+Thm1Sg ];
+define 1Plv2     [[..] -> %+1Pl || _ %+Thm1Pl ];
+define 3vN       [[..] -> %+3 || _ %+ThmInv ];
+define XPass     [[..] -> %+X || _ %+ThmPas ];
+
+!inanimate subject adjustment
+define Inaninv   [ %+3 -> "@R.Inanimate.1@" %+%0 || _ %+ThmInv ]; !a tad redundant
+define rmInan    [ %+%0 -> 0 ||  _ "@P.Inanimate.1@"]; !just target original +0
+
+!object copying
+define cp3Objvta [[..] -> ["@R.Person.3@" %+3 | "@D.Person.3@"] || %+ThmInv _ ];
+define cp1Objvta [[..] -> ["@R.Person.1@" %+1 | "@D.Person.1@"] || [%+ThmInv|%+ThmPas] _ ];
+define cp2Objvta [[..] -> ["@R.Person.2@" %+2 | "@D.Person.2@"] || [%+ThmInv|%+Thm1Sg|%+Thm1Pl|%+ThmPas] _ ];
+
+!object fabrication
+define Nv3       [[..] -> %+3 || %+ThmDir _ ];
+
+!number fusion {
+!seeding... applicable to all parts of speech 
+define sd1pl     [[..] -> "@P.Number.1Pl@"    || _ %+1 %+Pl  ];
+define sd2pl     [[..] -> "@P.Number.2Pl@"    || _ %+2 %+Pl  ];
+define sd3pl     [[..] -> "@P.Periph.3Pl@"    || _ %+3 %+Pl  ];
+define sd3obv    [[..] -> "@P.Periph.3Obv@"   || _ %+3 %+4    ];
+define sdinan    [[..] -> "@P.Periph.InanPl@" || _ %+%0 %+Pl  ];
+
+!just vtas
+define fs1plvtaloc  [ %+1 -> ["@R.Number.1Pl@" %+1Pl | "@D.Number.1Pl@" %+1Sg] || %+Thm2 _ ];
+!define rm1plvtaloc  [ %+1 %+Pl -> "@R.Theme.2@" "@C.Number@" ]; !must remove before 21Pl rules become active
+define 2plopt       [ %+2 -> [%+2Pl|%+2Sg] || _ %+Thm2 %+1Pl ]; !second person number is ambiguous in this context
+define fs2plvtaloc  [ %+2 -> ["@R.Number.2Pl@" %+2Pl | "@D.Number.2Pl@" %+2Sg ] || _ %+Thm2 ] ;
+define fs3plv3vta   [ %+3 -> ["@R.Number.2Pl@"    %+3Pl  | "@D.Number.2Pl@" %+3  ] || _ %+ThmDir %+3 ]; !will also want noun possession to ride on this
+define fs3v3plvta   [ %+3 -> ["@R.Number.2Pl@"    %+3Pl  | "@D.Number.2Pl@" %+3 ] || [%+%0|%+3] %+ThmInv _ ];
+!third person disambiguation
+!Inan v obv?
+define fs3obvv3vta  [ %+3 -> ["@R.Periph.3Obv@" %+4 | "@D.Periph.3Obv@"] || [%+3|%+3Pl] %+ThmDir _ ];
+define fs3v3obvvta  [ %+3 -> ["@R.Periph.3Obv@" %+4 | "@D.Periph.3Obv@"] ||  _ %+ThmInv  [%+3|%+3Pl] ];
+
+!applicable to all parts of speech (edit variable names!)
+define fs21pl    [ %+2 -> ["@R.Number.1Pl@"    %+21Pl | "@D.Number.1Pl@" %+2 ]   ]; !21Pl doesn't convert
+define fs2pl     [ %+2 -> ["@R.Number.2Pl@"    %+2Pl  | "@D.Number.2Pl@" %+2Sg ]  ];
+define fs3pl     [ %+3 -> ["@R.Periph.3Pl@"    %+3Pl  | "@D.Periph.3Pl@" %+3Sg ]  ];
+define fs1pl     [ %+1 -> ["@R.Number.1Pl@"    %+1Pl  | "@D.Number.1Pl@" %+1Sg ]  ];
+define fsinanpl  [ %+%0 -> ["@R.Periph.InanPl@" %+%0Pl | "@D.Periph.InanPl@" %+%0Sg]  || _  ]; !conjunct order doesn't distinguish plurality in inan
+
+
+!}
+
+!theme sign simplification
+define chThm [ [%+Thm2|%+Thm1Sg|%+Thm1Pl|%+ThmDir|%+ThmInv|%+ThmPas] -> %+Thm ];
+
+define ch4Sg [ %+4 %+Sg -> %+4Sg ] ; !VIIs
+
+!object coding
+define chO [%+1Sg -> %+1SgO, 
+            %+2Sg -> %+2SgO,
+            %+3Sg -> %+3SgO,
+            %+1Pl -> %+1PlO,
+            %+21Pl -> %+21PlO,
+            %+2Pl -> %+2PlO,
+            %+3Pl -> %+3PlO,
+            %+4 -> %+4O || %+Thm (?) (?) (?)  _ ]; !i'm not liking the need to include ? to match flags, why aren't they parsed as epsilons?
+
+!hacks to deal with a problem in rmPersNum
+define chS [%+1Sg -> %+1SgS, 
+            %+2Sg -> %+2SgS,
+            %+3Sg -> %+3SgS,
+            %+1Pl -> %+1PlS,
+            %+21Pl -> %+21PlS,
+            %+2Pl -> %+2PlS,
+            %+3Pl -> %+3PlS,
+            %+4 -> %+4S ||  _  (?) (?) (?) %+Thm  ]; !i'm not liking the need to include ? to match flags, why aren't they parsed as epsilons?
+
+define rmPersNum [
+                [
+                %+Pl |
+                %+1 |
+                %+2 |
+                %+3 |
+                1%+ |
+                2%+ |
+                3%+ |
+                %+1Sg | 
+                %+2Sg  | 
+                %+3Sg  |
+                %+%0Sg |
+                %+21Pl |
+                %+3Pl  |
+                %+3Pl  |
+                %+4Sg  | !VIIs
+                %+4Pl  | !VIIs
+                %+4    |
+                %+2Pl  |
+                %+1Pl  |
+                %+%0Pl 
+                ] -> 0 || _ \[.#.|%+Thm] ] ; !oddly, (?)*3 doesn't work to avoid over-deletion, even though it guarantees correct application in chS, chO
+
+!second part of hack circumventing rmPersNum
+define dechS [
+           %+1SgS   -> %+1Sg ,
+           %+2SgS   -> %+2Sg ,
+           %+3SgS   -> %+3Sg ,
+           %+1PlS   -> %+1Pl ,
+           %+21PlS  ->%+21Pl,
+           %+2PlS   -> %+2Pl ,
+           %+3PlS   -> %+3Pl ,
+           %+4S     -> %+4   
+            ];
+
+define rmThm [ %+Thm -> 0] ;
+
+
+read regex [
+    sdthm2   .o.
+    sdthm1sg  .o.
+    sdthm1pl  .o.
+    sdthmdir  .o.
+    sdthminv  .o.
+    !!copy     
+    cpthm2    .o. !contains a hack
+    cpthm1sg  .o.
+    cpthm1pl  .o.
+    cpthmdir  .o.
+    cpthminv  .o.
+    !remove  
+    rmthmearly .o.
+    thm2vta   .o. !contains a hack
+    !copy   
+    cp1vta    .o.
+    cp2vtadir .o.
+    cp3vta    .o.
+    1Sgv2     .o.
+    1Plv2     .o.
+    3vN       .o.
+    XPass     .o.
+    !Inaninv   .o. !activating this rule messes up 3rd person
+    rmInan    .o.
+    !! copy
+    cp3Objvta .o.
+    cp1Objvta .o.
+    cp2Objvta .o.
+    Nv3       .o.
+    sd1pl     .o.
+    sd2pl     .o.
+    sd3pl     .o.
+    sd3obv    .o.
+    sdinan    .o.
+    fs1plvtaloc .o. 
+    2plopt      .o.
+    fs2plvtaloc .o. 
+    fs3plv3vta  .o.
+    fs3v3plvta  .o.
+    fs3obvv3vta .o.
+    fs3v3obvvta .o.
+    fs21pl      .o.
+    fs2pl       .o.
+    fs3pl       .o.
+    fs1pl       .o.
+    fsinanpl    .o.
+    chThm       .o.
+    chO         .o.
+    chS         .o. !not a "real rule", just a hack to avoid rmPersNum problems
+    rmPersNum   .o.
+    dechS       .o. !second part of anti-rmPersNum hack
+    rmThm
+];
+
+
+!}
+!commented to end
+!
+!!crucial differentiation of nominal obviation marking from verbal indexing
+!define NObv     [ %+4 -> %+Obv || \[%+3] _ ]; !nouns
+!
+!!spell out non-singular number
+!!define 21Pl     [ %+1 %+Pl -> %+21Pl || [2%+|%+2] ?* _ ];
+!!define 3Pla     [ %+2 %+Pl -> %+3Pl || [3%+|%+3] ?* _ ];
+!!define 4Num     [ %+3 %+4 %+Sg -> %+4Sg ,, %+3 %+4 %+Pl -> %+4Pl ]; !VIIs
+!!define NonSg    [ %+3 %+Pl -> %+3Pl ,, %+3 %+4 -> %+4 ,, %+2 %+Pl -> %+2Pl ,, %+1 %+Pl -> %+1Pl ,, %+%0 %+Pl -> %+%0Pl ];
+!
+!!spell out singleton person as singular
+!!define Sg [ [1%+|%+1] -> %+1Sg ,, [2%+|%+2] -> %+2Sg ,, [3%+|%+3] -> %+3Sg ,, %+%0 -> %+%0Sg] ;
+!
+!!copy singulars to end
+!define cp1Sg [ [..] -> %+1Sg || %+1Sg ?* _ .#. ] ;
+!define cp2Sg [ [..] -> %+2Sg || %+2Sg ?* _ .#. ] ;
+!define cp3Sg [ [..] -> %+3Sg || %+3Sg ?* _ .#. ] ;
+!define cp4Sg      [ [..] -> %+4Sg  || %+4Sg  ?* _ .#. ] ; !VIIs
+!define cpInanSg [ [..] -> %+%0Sg || %+%0Sg ?* _ .#. ] ;
+!
+!!copy non-singulars to end
+!define cp21Pl     [ [..] -> %+21Pl || %+21Pl ?* _ .#. ] ;
+!define cp3Pl      [ [..] -> %+3Pl  || %+3Pl  ?* _ .#. ] ;
+!define cp4Pl      [ [..] -> %+4Pl  || %+4Pl  ?* _ .#. ] ; !VIIs
+!define cp4        [ [..] -> %+4    || %+4    ?* _ .#. ] ;
+!define cp2Pl      [ [..] -> %+2Pl  || %+2Pl  ?* _ .#. ] ;
+!define cp1Pl      [ [..] -> %+1Pl  || %+1Pl  ?* _ .#. ] ;
+!define cpInanPl   [ [..] -> %+%0Pl || %+%0Pl ?* _ .#. ] ;
+!
+!!}
+!
+!!remove non-end copies
+!!needs to not apply to items before object person number (VTA/I subs) (simplify themesign to +Thm, block application before %+Thm, delete +Thm)
+!!note that because the singular movement happens before plural movement, spurious singulars are not word-final and hence get deleted
+!define rmPersNum [%+1Sg  -> 0, 
+!              %+2Sg ->  0, 
+!              %+3Sg ->  0,
+!              %+%0Sg -> 0,
+!              %+21Pl -> 0,
+!              %+3Pl  -> 0,
+!              %+3Pl  -> 0,
+!              %+4Sg  -> 0, !VIIs
+!              %+4Pl  -> 0, !VIIs
+!              %+4    -> 0,
+!              %+2Pl  -> 0,
+!              %+1Pl  -> 0,
+!              %+%0Pl -> 0 || _ \[.#.|%+Thm] ] ;
+!
+!define rmThm [ %+Thm -> 0] ;
+!!read regex [
+!!    thm2vta      .o.
+!!    cp1vta      .o.
+!!    cp2vtadir   .o.
+!!    cp3vta      .o.
+!!    1Sgv2       .o.
+!!    1Plv2       .o.
+!!    3vN         .o.
+!!    XPass       .o.
+!!    Inaninv     .o.
+!!    rmInan      .o.
+!!    cp3Objvta   .o.
+!!    cp1Objvta   .o.
+!!    cp2Objvta   .o.
+!!    Nv3         .o.
+!!    fs1Plvtaloc .o.
+!!    rm1Plvtaloc .o.
+!!    2Plopt      .o.
+!!    fs21Plvta   .o.
+!!    fs2Plvta    .o.
+!!    fs3Plvta    .o.
+!!    fs3Plv3vta  .o.
+!!    fs3v3Plvta  .o.
+!!    fs1Plvta    .o.
+!!    fsInanPlvta .o.
+!!    fs3Obvv3vta .o.
+!!    fs3v3Obvvta .o.
+!!    thm         .o.
+!!    !NObv        .o.
+!!    !21Pl        .o.
+!!    !3Pla        .o.
+!!    !4Num        .o.
+!!    !NonSg       .o.
+!!    Sg          .o. !including Sg, chO w/vta rules costs 14.9 MB
+!!    chO         .o.
+!!    !cp1Sg       .o.
+!!    !cp2Sg       .o. 
+!!    !cp3Sg       .o.
+!!    !cp4Sg       .o.
+!!    !cpInanSg    .o.
+!!    !cp21Pl      .o.
+!!    !cp3Pl       .o.
+!!    !cp4Pl       .o.
+!!    !cp4         .o.
+!!    !cp2Pl       .o.
+!!    !cp1Pl       .o.
+!!    !cpInanPl    .o.
+!!    rmPersNum   .o. !adding this with Sg, chO w/vta rules costs 78.9 MB
+!!    rmThm
+!!    ] ;

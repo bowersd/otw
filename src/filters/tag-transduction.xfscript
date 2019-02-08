@@ -1,0 +1,10 @@
+!!regex @"../analyser-gt-desc.xfst" ;
+!!regex @"../analyser-gt-glossing.hfstol" ;
+!regex @"../analyser-gt-glossing.foma" ;
+!define analyzer
+ 
+source reorder-tags.otw.xfscript
+define transcription
+
+regex transcription .o. analyzer ;
+twosided flag-diacritics
