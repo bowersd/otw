@@ -14,7 +14,7 @@ define fortis   [p|t|k|s (h)|c];
 define vowel    [a (a)|i (i)|o (o)|e]; 
 
 !##respectable phonological rules that leak into spelling
-define lower    [o (->) a || \[o] _ .#.] ; 
+define lowero    [o (->) a || \[o] _ .#.] ; 
 define findevoi [
                     b (->) p,
                     d (->) t ,
@@ -41,22 +41,22 @@ define fortite  [
                     z h z h (->) s h ,
                     j j (->) c h
                 ] ; !Valentine 2001 p 76
-define drophomorg   [
-                        b (->) 0 || _ [b|p], p _ ,,   !Valentine 2001 p 78 (b at top)
-                        d (->) 0 || _ [d|t], t _ ,,
-                        g (->) 0 || _ [g|k], k _ ,,
-                        z (->) 0 || _ [z|s](h), s (h) _ ,,
-                        z h (->) 0 || _ [[z|s] h], s h _ ,,
-                        p (->) 0 || _ p ,,              !on limb: simplify other gem
-                        t (->) 0 || _ t ,,              
-                        k (->) 0 || _ k ,,              
-                        s (->) 0 || _ s ,,              
-                        s h (->) 0 || _ s h ,,              
-                        m (->) 0 || _ m ,,              
-                        n (->) 0 || _ n ,,              
-                        w (->) 0 || _ w ,,              
-                        y (->) 0 || _ y
-                    ] ; 
+!define drophomorg   [
+!                        b (->) 0 || _ [b|p], p _ ,,   !Valentine 2001 p 78 (b at top)
+!                        d (->) 0 || _ [d|t], t _ ,,
+!                        g (->) 0 || _ [g|k], k _ ,,
+!                        z (->) 0 || _ [z|s](h), s (h) _ ,,
+!                        z h (->) 0 || _ [[z|s] h], s h _ ,,
+!                        p (->) 0 || _ p ,,              !on limb: simplify other gem
+!                        t (->) 0 || _ t ,,              
+!                        k (->) 0 || _ k ,,              
+!                        s (->) 0 || _ s ,,              
+!                        s h (->) 0 || _ s h ,,              
+!                        m (->) 0 || _ m ,,              
+!                        n (->) 0 || _ n ,,              
+!                        w (->) 0 || _ w ,,              
+!                        y (->) 0 || _ y
+!                    ] ; 
 define clustdevoi   [
                         b (->) p,
                         d (->) t,
@@ -82,18 +82,18 @@ define aposvar  [                   !probably want non-ascii single quotes too
 
 define dummy [a -> a];
 read regex [
-dummy
-!lower       .o.
-!findevoi    .o.
-!nasassim    .o.
-!lenassim    .o.
-!nasdel      .o.
-!fortite     .o.
+!dummy
+lowero      .o.
+findevoi    !.o.
+nasassim    .o.
+lenassim    .o.
+nasdel      .o.
+fortite     .o.
 !drophomorg  .o.
-!clustdevoi  .o.
-!initdel     .o.
-!glotdel     .o.
-!wy          .o.
-!glidedel    .o.
-!aposvar     
+clustdevoi  .o.
+initdel     .o.
+glotdel     .o.
+wy          .o.
+glidedel    .o.
+aposvar     
 ] ; 
