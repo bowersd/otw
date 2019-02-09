@@ -9,5 +9,12 @@ read regex morphology .o. phonology;
 
 save stack > morphophonology.xfst ;
 !save stack > morphophonology.hfst 
+
+source orthography/spellrelax.xfscript ;
+define spellrelax
+
+read regex morphology .o. phonology .o. spellrelax ;
+save stack > morphophonology-relaxed.xfst ;
+
 clear stack; 
 
