@@ -41,6 +41,15 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +1 +2 +3 +X       !suffixes, if used, occur in Local Person Number slot
 +%0          !not really a person, but inanimates sometimes trigger special agreement
 
+!Reduplication
+Redup+
+CRED1
+VRED1
+
+!Verb Derivation
++Rflx !reflexive (VTA->VAI)
++Rcpl !reciprocal (VTA->VAI)
+
 !! Verb Negation
 +Neg  
 !opposed by +Pos in "abstract" mode, but +Pos plays no role in core transducer
@@ -77,6 +86,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !+ThmDir !aa    3 obj (3 sub, aka 3 v 3')
 !+ThmInv !igo       0 sub (no num), 3' v 3sg
 
+!VII Iterative suffix
++Itr
+
 !Noun tags
 +N
 +NA +NI +NAD +NID 
@@ -107,6 +119,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 ! Preverbs/Prenouns
 
 PV/CCNJ+ !changed conjunct (also ref'd in phonology)
+PV/ji+
 PV/bwaa+
 PV/e+
 PV/a+
@@ -312,6 +325,7 @@ w4  !fairly complex w for VAI dubitatives
         !... (?)
 w5  !VAI independent order 3 infl
 y1  !a->i, (d?) (d1) ->j
+y2  !y that survives in mooday 'jug', etc
 
 s1  !palatalizing s
 m1  !compensatory lengthening m
@@ -335,6 +349,8 @@ Vi1 !a <- i (í) (dialect comparison)
 Vo1 !o~wa   (ó)
 Vo2 !a <- o (ö) (dialect comparison) 
 Vv1 !       (ø) unrecovered short vowel 
+!Bowers special character
+Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyncopation
 
 !####
 !#Person Flags (person indicated by prefixes)
@@ -502,6 +518,15 @@ Vv1 !       (ø) unrecovered short vowel
 
 @D.Ccnj.Yes@
 @D.Ccnj@
+
+!####
+!#Reduplication flags 
+!####
+!set
+@P.Redup.Red@
+
+!get
+@D.Redup@
 
 LEXICON Root !!= @CODE@ points to the other lexica
 ! Note that whenever a new part of speech, and a new file (like propernouns, etc.)
