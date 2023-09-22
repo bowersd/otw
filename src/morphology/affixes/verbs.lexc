@@ -68,6 +68,10 @@
 !
 LEXICON V_PREVERBS_SUBORDINATOR
 !{ unsure of position
+!{ DAB Added
+PV/jibwaa+:Bv1jibwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Not sure what the analysis is supposed to be, but this preverb gets writen without a hyphen
+PV/ji+:ji-    V_PREVERBS_SUBORDINATOR_ORDER_SET    "subordinator" ; !ji- can precede gii- (Waaskone miinwaa Gnebgood story), I don't want to try to compute meaning of jibwaa (above) from ji and bwaa (below)
+!}
 PV/ji+bwaa+:ji-bwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Rand key:n20114310-3-12n
 PV/CCNJ+:PV/CCNJ+   V_PREVERBS_CCNJ_SET ; !changed conjunct trigger (should it precede this slot?)
 !}
@@ -90,13 +94,13 @@ LEXICON V_PREVERBS_SUBORDINATOR_ORDER_SET
 LEXICON V_PREVERBS_TENSE
 !check Valentine ch 16 for more
 !{attention!
-PV/daa+gii+:daa-gii-    V_PREVERBS_DIRECTION    " 1 would, would have; could; should; can" ; !Rand key:n201012716-46-13n
+PV/daa+gii+:daa-gii-    V_REDUPLICATION    " 1 would, would have; could; should; can" ; !Rand key:n201012716-46-13n
 !}
-PV/wii+:wii-   V_PREVERBS_DIRECTION " 1 going to [do something], want to [do something], intend [to do something], in order to [do something];  2 future tense, in the future;  3 be in need of (non-living things);  4 please;  5 seeking to [do something];  6 in order to [do something]"; 
-PV/gii+:gii-   V_PREVERBS_DIRECTION " 1 [past tense]";
-PV/gii+:gii-   V_PREVERBS_DIRECTION " 1 would, could"; !no changed form
+PV/wii+:wii-   V_REDUPLICATION " 1 going to [do something], want to [do something], intend [to do something], in order to [do something];  2 future tense, in the future;  3 be in need of (non-living things);  4 please;  5 seeking to [do something];  6 in order to [do something]"; 
+PV/gii+:gii-   V_REDUPLICATION " 1 [past tense]";
+PV/gii+:gii-   V_REDUPLICATION " 1 would, could"; !no changed form
             V_PREVERBS_TENSE_IRREG_MODE_GET ;
-            V_PREVERBS_DIRECTION ;
+            V_REDUPLICATION ;
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_GET
 @D.Order@           V_PREVERBS_TENSE_IRREG_MODE_INDEP ;!use [RD].Order/Ccnj... elsewhere, since there is only one value of order, these are equivalent
@@ -104,20 +108,27 @@ LEXICON V_PREVERBS_TENSE_IRREG_MODE_GET
 @P.Order.Cnj@@R.Ccnj@   V_PREVERBS_TENSE_IRREG_MODE_CCNJ ;
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_INDEP
-PV/da+:da-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
-PV/ga+:ga-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
-PV/daa+:daa-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
+PV/da+:da-    V_REDUPLICATION " 1 shall, will; should, could"; 
+PV/ga+:ga-    V_REDUPLICATION " 1 will, shall;  2 let's, let";
+PV/daa+:daa-   V_REDUPLICATION " 1 can, could, ought, should, would"; 
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_CNJ
-PV/da+:ji-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
-PV/ga+:ji-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
-PV/daa+:da-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
-PV/daa+:ji-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
+PV/da+:ji-    V_REDUPLICATION " 1 shall, will; should, could"; 
+PV/ga+:ji-    V_REDUPLICATION " 1 will, shall;  2 let's, let";
+PV/daa+:da-   V_REDUPLICATION " 1 can, could, ought, should, would"; 
+PV/daa+:ji-   V_REDUPLICATION " 1 can, could, ought, should, would"; 
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_CCNJ !all of these undergo ccnj -> ge
-PV/da+:ga-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
-PV/ga+:ga-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
-PV/daa+:ga-    V_PREVERBS_DIRECTION " 1 can, could, ought, should, would";
+PV/da+:ga-    V_REDUPLICATION " 1 shall, will; should, could"; 
+PV/ga+:ga-    V_REDUPLICATION " 1 will, shall;  2 let's, let";
+PV/daa+:ga-    V_REDUPLICATION " 1 can, could, ought, should, would";
+
+LEXICON V_REDUPLICATION
+Redup+:CRED1VRED1   V_REDUPLICATION_SET ; !bebooni-zegim puts redup before (lexical?) preverbs
+                    V_PREVERBS_DIRECTION ; 
+
+LEXICON V_REDUPLICATION_SET
+@P.Redup.Red@   V_PREVERBS_DIRECTION ;
 
 LEXICON V_PREVERBS_DIRECTION
 !{ uncertain of position
@@ -160,7 +171,7 @@ PV/izhi+:izhi-  V_PREVERBS_ASPECT " 1 as [another], like a certain thing;  2 to 
 PV/onji+:onji-  V_PREVERBS_ASPECT " 1 at a certain place, from a certain place, from a certain point, where;  2 why;  3 have (in the sense of the English perfect tense)";
 !wnji-:onji    V_PREVERBS_ASPECT    " 1 [see nji-]" ; !Rand key:n73072141838n
 PV/dazhi+:dazhi-   V_PREVERBS_ASPECT " 1 at a certain place, where";
-PV/daso+:daso-     V_PREVERBS_ASPECT " 1 each, every"; 
+PV/daso+:daso-     V_PREVERBS_ASPECT " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
             V_PREVERBS_ASPECT ;
 
 LEXICON V_PREVERBS_RELATIVE_ORDER_SET
@@ -172,7 +183,7 @@ PV/ntami+:nitami-    V_PREVERBS_MANNER    " 1 first [before others, i.e., relati
 PV/aanawii+:aanawii-    V_PREVERBS_MANNER    " 1 even though, despite;  2 try to..." ; !Rand key:n201012516-47-22n
 PV/bgami+:bagami-    V_PREVERBS_MANNER    " 1 become, commence, arrive" ; !Rand key:n201132615-13-29n
 PV/ekwaa+:ekwaa-    V_PREVERBS_MANNER    " 1 finish" ; !Rand key:n73024180454n
-PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n
+PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
 PV/epiichi+:epiichi-    V_PREVERBS_MANNER    " 1 while" ; !Rand key:n72972557481n
 PV/gaagge+:gaagige-    V_PREVERBS_MANNER    " 1 forever, for all time" ; !Rand key:n73016041873n
 PV/giizhi+:giizhi-    V_PREVERBS_MANNER    " 1 finish [doing something]" ; !Rand key:n73024238614n
@@ -205,72 +216,80 @@ PV/oshki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
 
 LEXICON V_PREVERBS_MANNER
 !{ uncertain of position
-PV/o+:o-    VERBS    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n
-PV/waanji+:waanji-    VERBS    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
-PV/nshinaaji+:nishinaaji-    VERBS    " 1 devastatingly" ; !Rand key:n73099738407n
-PV/niibaa+:niibaa-    VERBS    " 1 at night" ; !Rand key:n71431746367n
-PV/zaami+:ozaami-    VERBS    " 1 excessively, overly, too" ; !Rand key:n72977659543n
-PV/zaami+:zaami-    VERBS    " 1 excessively, overly, too" ; !Rand key:n72977659543n
-PV/zhki+:zhaki-    VERBS    " 1 damp" ; !Rand key:n73072872654n
-PV/npaaji+:nipaaji-    VERBS    " 1 mistakenly, incorrectly" ; !Rand key:n201012717-15-45n
-PV/mchi+:michi-    VERBS    " 1 bare, plain, in the basic and simple manner" ; !Rand key:n20114817-49-43n
-PV/ndami+:ondami-    VERBS    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989348365n
-PV/nboodewi+:niboodewi-    VERBS    " 1 forlorn, lonely" ; !Rand key:n71431348823n
-PV/mziwe+:miziwe-    VERBS    " 1 all in one unit, in a whole unit, whole" ; !Rand key:n73033330521n
-PV/mde+:mVi1de-    VERBS    " 1 in the distance" ; !Rand key:n71429470804n
-PV/mchiwe+:mVv1chiwe-    VERBS    " 1 instead;  2 by hand, from scratch, without mechanical aid" ; !Rand key:n71429457095n
-PV/gweki+:gweki-    VERBS    " 1 change" ; !Rand key:n73031713691n
-PV/gwiini+:gwiini-    VERBS    " 1 aimlessly, confusedly, indecisively, unsure of;  2 be unable to think of something [to do]" ; !Rand key:n71429248194n
-PV/gnaaj+:gVo1naaj-    VERBS    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029776n
-PV/aakwi+:aakawi-    VERBS    " 1 frequently, regularly" ; !Rand key:n72976564856n
-PV/aan'ke+:aanike-    VERBS    " 1 in succession, in turn" ; !Rand key:n7297341155n
-PV/aanji+:aanji-    VERBS    " 1 over again" ; !Rand key:n72973362179n
-PV/aanooji+:aanooji-    VERBS    " 1 dreadfully" ; !Rand key:n73045823524n
-PV/baashji+:baashiji-    VERBS    " 1 over, to an excessive degree" ; !Rand key:n72915857109n
-PV/bgwaji+:bagwaji-    VERBS    " 1 [see bgoji-]" ; !Rand key:n72976865281n
-PV/bgoji+:bagoji-    VERBS    " 1 wild" ; !Rand key:n72976865281n
-PV/bzaani+:bizaani-    VERBS    " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil" ; !Rand key:n72985145321n
-PV/dami+:ondami-    VERBS    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
-PV/dami+:odami-    VERBS    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
-PV/gchitwaa+:gichitwaa-    VERBS    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
+PV/o+:o-    V_REDUPLICATION_GET    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n
+PV/waanji+:waanji-    V_REDUPLICATION_GET    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
+PV/nshinaaji+:nishinaaji-    V_REDUPLICATION_GET    " 1 devastatingly" ; !Rand key:n73099738407n
+PV/niibaa+:niibaa-    V_REDUPLICATION_GET    " 1 at night" ; !Rand key:n71431746367n
+PV/zaami+:ozaami-    V_REDUPLICATION_GET    " 1 excessively, overly, too" ; !Rand key:n72977659543n
+PV/zaami+:zaami-    V_REDUPLICATION_GET    " 1 excessively, overly, too" ; !Rand key:n72977659543n
+PV/zhki+:zhaki-    V_REDUPLICATION_GET    " 1 damp" ; !Rand key:n73072872654n
+PV/npaaji+:nipaaji-    V_REDUPLICATION_GET    " 1 mistakenly, incorrectly" ; !Rand key:n201012717-15-45n
+PV/mchi+:michi-    V_REDUPLICATION_GET    " 1 bare, plain, in the basic and simple manner" ; !Rand key:n20114817-49-43n
+PV/ndami+:ondami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989348365n
+PV/nboodewi+:niboodewi-    V_REDUPLICATION_GET    " 1 forlorn, lonely" ; !Rand key:n71431348823n
+PV/mziwe+:miziwe-    V_REDUPLICATION_GET    " 1 all in one unit, in a whole unit, whole" ; !Rand key:n73033330521n
+PV/mde+:mVi1de-    V_REDUPLICATION_GET    " 1 in the distance" ; !Rand key:n71429470804n
+PV/mchiwe+:mVv1chiwe-    V_REDUPLICATION_GET    " 1 instead;  2 by hand, from scratch, without mechanical aid" ; !Rand key:n71429457095n
+PV/gweki+:gweki-    V_REDUPLICATION_GET    " 1 change" ; !Rand key:n73031713691n
+PV/gwiini+:gwiini-    V_REDUPLICATION_GET    " 1 aimlessly, confusedly, indecisively, unsure of;  2 be unable to think of something [to do]" ; !Rand key:n71429248194n
+PV/gnaaj+:gVo1naaj-    V_REDUPLICATION_GET    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029776n
+PV/aakwi+:aakawi-    V_REDUPLICATION_GET    " 1 frequently, regularly" ; !Rand key:n72976564856n
+PV/aan'ke+:aanike-    V_REDUPLICATION_GET    " 1 in succession, in turn" ; !Rand key:n7297341155n
+PV/aanji+:aanji-    V_REDUPLICATION_GET    " 1 over again" ; !Rand key:n72973362179n
+PV/aanooji+:aanooji-    V_REDUPLICATION_GET    " 1 dreadfully" ; !Rand key:n73045823524n
+PV/baashji+:baashiji-    V_REDUPLICATION_GET    " 1 over, to an excessive degree" ; !Rand key:n72915857109n
+PV/bgwaji+:bagwaji-    V_REDUPLICATION_GET    " 1 [see bgoji-]" ; !Rand key:n72976865281n
+PV/bgoji+:bagoji-    V_REDUPLICATION_GET    " 1 wild" ; !Rand key:n72976865281n
+PV/bzaani+:bizaani-    V_REDUPLICATION_GET    " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil" ; !Rand key:n72985145321n
+PV/dami+:ondami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+PV/dami+:odami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_GET    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
 !}
-PV/niboodwewi+:niboodwewi- VERBS " 1 embarassedly" ;
-PV/ginibi+:ginibi- VERBS " 1 quickly" ;
-PV/aana+:aana-   VERBS " 1 in vain, to no avail" ; !Rand key:n72973263339n
-PV/aano+:aano-   VERBS " 1 [see aana-]"; !Valentine 2001 doesn't specify slot
-PV/aana+:X2aana-   VERBS " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
-PV/aano+:X2aano-   VERBS " 1 [see aana-]"; !optional blocker to stop ccnj yaano!Valentine 2001 doesn't specify slot
-PV/aabaji+:aabaji- VERBS " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
-PV/aapaji+:aapaji- VERBS " 1 very;  2 completely, entirely, fully";
-PV/baakaji+:baakaji- VERBS " 1 irreversible, irreversibly";
-PV/bichi+:bichi- VERBS " 1 accidentally, by mistake";
-PV/bizaani+:bizaani- VERBS " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil";
-PV/dago+:dago- VERBS " 1 along [with others], among [others], together [with others], with";
-PV/gichi+:gichi- VERBS " 1 much, lots, extremely, great (in degree), very, hard (in sense of being extreme)";
-PV/gagiibaaji+:gagiibaaji- VERBS " 1 badly, foolishly";
-PV/gagwetaani+:gagwetaani- VERBS " 1 exceedingly, extremely, awfully, so, terribly";
-PV/gimooji+:gimooji- VERBS " 1 covertly, secretly, sneakily, stealthily, on the sly";
-PV/giimooji+:giimooji- VERBS " 1 covertly, secretly, sneakily, stealthily, on the sly";
-PV/maamiiko+:maamiiko- VERBS " 1 amazingly, remarkably";
-PV/maamwi+:maamwi- VERBS " 1 all, all together, among them all";
-PV/mamaandaa+:mamaandaa- VERBS " 1 amazing, incredible, miraculously";
-PV/maandaa+:mamaandaa-   VERBS    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
-PV/niizaani+:niizaani- VERBS " 1 dangerous";
-PV/nipaaj+:nipaaj- VERBS " 1 incorrectly, the wrong way";
-PV/wiiji+:wiiji- VERBS " 1 with";
-PV/wiinge+:wiinge- VERBS " 1 completely, entirely, thoroughly";
-PV/maanaaji+:maanaaji- VERBS " 1 bad, evil, harmful, wrong";
-PV/maji+:maji- VERBS " 1 badly, evilly";
-PV/mino+:mino- VERBS " 1 good, well;  2 nice, pleasant";
-PV/aabita+:aabita- VERBS " 1 half, halfway; mid, midway";
-PV/nigo+:nigo- VERBS " 1 one";
-PV/niizho+:niizho- VERBS " 1 two"; 
-PV/niso+:niso- VERBS " 1 three"; 
-PV/niiwoo+:niiwoo- VERBS " 1 four"; 
-PV/niiyoo+:niiyoo- VERBS " 1 four" ; 
-PV/naano+:naano- VERBS " 1 five"; 
-PV/nigodwaaso+:nigodwaaso- VERBS " 1 six"; 
-            VERBS    ;
+PV/niboodwewi+:niboodwewi- V_REDUPLICATION_GET " 1 embarassedly" ;
+PV/ginibi+:ginibi- V_REDUPLICATION_GET " 1 quickly" ;
+PV/aana+:aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !Rand key:n72973263339n
+PV/aano+:aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !Valentine 2001 doesn't specify slot
+PV/aana+:X2aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
+PV/aano+:X2aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !optional blocker to stop ccnj yaano!Valentine 2001 doesn't specify slot
+PV/aabaji+:aabaji- V_REDUPLICATION_GET " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
+PV/aapaji+:aapaji- V_REDUPLICATION_GET " 1 very;  2 completely, entirely, fully";
+PV/baakaji+:baakaji- V_REDUPLICATION_GET " 1 irreversible, irreversibly";
+PV/bichi+:bichi- V_REDUPLICATION_GET " 1 accidentally, by mistake";
+PV/bizaani+:bizaani- V_REDUPLICATION_GET " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil";
+PV/dago+:dago- V_REDUPLICATION_GET " 1 along [with others], among [others], together [with others], with";
+PV/gichi+:gichi- V_REDUPLICATION_GET " 1 much, lots, extremely, great (in degree), very, hard (in sense of being extreme)";
+PV/gagiibaaji+:gagiibaaji- V_REDUPLICATION_GET " 1 badly, foolishly";
+PV/gagwetaani+:gagwetaani- V_REDUPLICATION_GET " 1 exceedingly, extremely, awfully, so, terribly";
+PV/gimooji+:gimooji- V_REDUPLICATION_GET " 1 covertly, secretly, sneakily, stealthily, on the sly";
+PV/giimooji+:giimooji- V_REDUPLICATION_GET " 1 covertly, secretly, sneakily, stealthily, on the sly";
+PV/maamiiko+:maamiiko- V_REDUPLICATION_GET " 1 amazingly, remarkably";
+PV/maamwi+:maamwi- V_REDUPLICATION_GET " 1 all, all together, among them all";
+PV/mamaandaa+:mamaandaa- V_REDUPLICATION_GET " 1 amazing, incredible, miraculously";
+PV/maandaa+:mamaandaa-   V_REDUPLICATION_GET    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
+PV/niizaani+:niizaani- V_REDUPLICATION_GET " 1 dangerous";
+PV/nipaaj+:nipaaj- V_REDUPLICATION_GET " 1 incorrectly, the wrong way";
+PV/wiiji+:wiiji- V_REDUPLICATION_GET " 1 with";
+PV/wiinge+:wiinge- V_REDUPLICATION_GET " 1 completely, entirely, thoroughly";
+PV/maanaaji+:maanaaji- V_REDUPLICATION_GET " 1 bad, evil, harmful, wrong";
+PV/maji+:maji- V_REDUPLICATION_GET " 1 badly, evilly";
+PV/mino+:mino- V_REDUPLICATION_GET " 1 good, well;  2 nice, pleasant";
+PV/aabita+:aabita- V_REDUPLICATION_GET " 1 half, halfway; mid, midway";
+PV/nigo+:nigo- V_REDUPLICATION_GET " 1 one";
+PV/niizho+:niizho- V_REDUPLICATION_GET " 1 two"; 
+PV/niso+:niso- V_REDUPLICATION_GET " 1 three"; 
+PV/niiwoo+:niiwoo- V_REDUPLICATION_GET " 1 four"; 
+PV/niiyoo+:niiyoo- V_REDUPLICATION_GET " 1 four" ; 
+PV/naano+:naano- V_REDUPLICATION_GET " 1 five"; 
+PV/nigodwaaso+:nigodwaaso- V_REDUPLICATION_GET " 1 six"; 
+            V_REDUPLICATION_GET    ;
+
+LEXICON V_REDUPLICATION_GET
+@D.Redup@   V_REDUPLICATION_STEM ; !don't want to allow double reduplication
+       VERBS ; 
+
+LEXICON V_REDUPLICATION_STEM
+Redup+:CRED1VRED1   VERBS ; !reduplication is standardly pre-stem
+                    VERBS ; !reduplication is standardly pre-stem
 
 !{ VAIO
 !VAIO description in Valentine 2001 is incomplete (p 243) (no prt dub, no mode for neg, positive pcps but no conjunct)
@@ -672,6 +691,7 @@ LEXICON VII_INDEP_MODE  !these morphemes are optional, enforced by routing prior
 
 LEXICON VII_INDEP_PERIPH 
 +%0+Pl:%>an  # ; !0pl (no mode) is -wan (post v), -oon (post c), -noon (post-v, recut?)
++%0+Pl:%>noon  # ; !would be nice to delete first n post-C (no, that would make needless ambiguity since phon generates oon from Cw5>an), better to prevent this allomorph entirely ... can't generate this from phonology because I don't know of n popping up elsewhere. 
         # ; 
 
 LEXICON VII_INDEP_DUB_PERIPH 
@@ -700,7 +720,14 @@ LEXICON VII_CNJ_OBV
 
 LEXICON VII_CNJ_PRT_OR_END  
 +Prt:%>ban2    # ;
+                VII_CNJ_CCNJ_GET ;
                 # ;
+
+LEXICON VII_CNJ_CCNJ_GET 
+@R.Ccnj@    VII_CNJ_ITR ;
+
+LEXICON VII_CNJ_ITR
++Itr:%>n2    # ;
 
 LEXICON VII_CNJ_DUB_PRT_DUB
 +Dub:wenh   # ; !epenthetic i (c-final stems) becomes o (C_gwenh -> Cogwenh)
@@ -722,6 +749,22 @@ LEXICON VII_CNJ_DUB_PRT_DUB
 !LEXICON TRANS_INDEP 
 !+VTA+Indep:0        VTA_INDEP_THEME_GET ;
 !+VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
+
+!#####
+!#VTA Based Derivation
+!#####
+LEXICON VTA_DETRANSITIVE_GET
+@D.Person.3@    VTA_DETRANSITIVE ; 
+                VTA_PREORDER_GET ;
+
+LEXICON VTA_DETRANSITIVE
+!(anti)-passives? we have indep order passives, but what about cnj?
+!-(i)ge (take -am off of VTI, palatalize t/d, assimilate VTA m to n)
+!, -(i)we (apply to h/N/S/n final VTAs, lots of palatalization)
+!, -aaso (remove VTI theme)
+!p 413 for productive VAI secondary finals
++Rcpl:idi       VAI_ORDERS_GET ;
++Rflx:idizo     VAI_ORDERS_GET ;
 
 !#####
 !#VTA Inflection 
@@ -1130,95 +1173,95 @@ LEXICON VTA_IMPER_TAG
 
 !cnj brute force {
 !LEXICON VTA_CNJ_BRUTE
-!+Thm2b+3+Pl:                ikwaa          # ; !3pl v 2sg
-!+Thm2b+3:                   ik             # ; !3sg v 2sg
-!+Thm2b+3+Pl+Prt:            ikwaaban2   # ; !3pl v 2sg
-!+Thm2b+3+Prt:               ikiban2         # ; !3sg v 2sg
-!+Thm2b+3+Pl+Dub:            ikwaawenh   # ; !3pl v 2sg !cons (?)
-!+Thm2b+3+Dub:               ikenh         # ; !3sg v 2sg !hm no w4
-!+Thm1+Neg+1+Pl:             i2siwaang  # ; !2pl v 1pl, 2sg v 1pl
-!+Thm1+Neg+2+Pl:             i2siweg    # ; !2pl v 1sg
-!+Thm1+Neg+2:                i2siwan       # ; !2sg v 1sg
-!+Thm1+Neg+1+Pl+3+Pl:        i2siwangidwaa   # ; !3pl v 1pl
-!+Thm1+Neg+1+Pl+3:           i2siwangid         # ; !3sg v 1pl
-!+Thm1+Neg+1+Pl+3+Pl+Prt:    i2siwangidwaaban2 # ; !3pl v 1pl
-!+Thm1+Neg+1+Pl+3+Prt:       i2siwangidiban2       # ; !3sg v 1pl
-!+Thm1+Neg+1+Pl+3+Pl+Dub:    i2siiwangidwaawenh   # ; !3pl v 1pl
-!+Thm1+Neg+1+Pl+3+Dub:       i2siiwangidenh         # ; !3sg v 1pl
-!+Thm1+Neg+1+Pl+Prt:         i2siwaangiban2  # ; !2pl v 1pl, 2sg v 1pl
-!+Thm1+Neg+2+Pl+Prt:         i2siwegiban2    # ; !2pl v 1sg
-!+Thm1+Neg+2+Prt:            i2siwamban2     # ; !2sg v 1sg
-!+Thm1+Neg+1+Pl+Dub:         i2siiwaangenh  # ; !2pl v 1pl, 2sg v 1pl
-!+Thm1+Neg+2+Pl+Dub:         i2siiwegwenh    # ; !2pl v 1sg
-!+Thm1+Neg+2+Dub:            i2siiwnenh       # ; !2sg v 1sg
-!+Thm1+Neg+3+Pl:             i2sigwaa   # ; !3pl v 1sg
-!+Thm1+Neg+3:                i2sig         # ; !3sg v 1sg
-!+Thm1+Neg+3+Pl+Prt:         i2sigwaaban2   # ; !3pl v 1sg !book unsure
-!+Thm1+Neg+3+Prt:            i2sigoban2         # ; !3sg v 1sg
-!+Thm1+Neg+3+Pl+Dub:         i2siigwaawenh   # ; !3pl v 1sg
-!+Thm1+Neg+3+Dub:            i2siigwenh         # ; !3sg v 1sg
-!+Thm1+1+Pl:                 i2yaang          # ; !2pl v 1pl, 2sg v 1pl
-!+Thm1+2+Pl:                 i2yeg            # ; !2pl v 1sg
-!+Thm1+2:                    i2yan            # ; !2sg v 1sg
-!+Thm1+1+Pl+3+Pl:            i2yangidwaa      # ; !3pl v 1pl
-!+Thm1+1+Pl+3:               i2yangid         # ; !3sg v 1pl
-!+Thm1+1+Pl+3+Pl+Prt:        i2yangidwaaban2   # ; !3pl v 1pl
-!+Thm1+1+Pl+3+Prt:           i2yangidiban2         # ; !3sg v 1pl
-!+Thm1+1+Pl+3+Pl+Dub:        i2wangidwaawenh   # ; !3pl v 1pl
-!+Thm1+1+Pl+3+Dub:           i2wangidenh       # ; !3sg v 1pl
-!+Thm1+1+Pl+Prt:             i2yaangiban2  # ; !2pl v 1pl, 2sg v 1pl
-!+Thm1+2+Pl+Prt:             i2yegoban2   # ; !2pl v 1sg
-!+Thm1+2+Prt:                i2yamban2    # ; !2sg v 1sg
-!+Thm1+1+Pl+Dub:             i2waangenh  # ; !2pl v 1pl, 2sg v 1pl
-!+Thm1+2+Pl+Dub:             i2wegwenh    # ; !2pl v 1sg
-!+Thm1+2+Dub:                i2wanenh    # ; !2sg v 1sg !cons (?)
-!+Thm1+3+Pl:                 i2waad           # ; !3pl v 1sg
-!+Thm1+3:                    i2d              # ; !3sg v 1sg
-!+Thm1+3+Pl+Prt:             i2waapan2   # ; !3pl v 1sg
-!+Thm1+3+Prt:                i2pan2         # ; !3sg v 1sg
-!+Thm1+3+Pl+Dub:             i2waagwenh   # ; !3pl v 1sg
-!+Thm1+3+Dub:                i2gwenh         # ; !3sg v 1sg
-!+ThmInv+Neg+1:              igosiwaanh    # ; !0 v 1sg
-!+ThmInv+Neg+1+Pl:           igosiwaang # ; !0 v 1pl
-!+ThmInv+Neg+2+1+Pl:         igosiwang # ; !0 v 21pl
-!+ThmInv+Neg+2+Pl:           igosiweg    # ; !0 v 2pl
-!+ThmInv+Neg+2:              igosiwan       # ; !0 v 2sg
-!+ThmInv+Neg+2+Pl+3:         igosiweg     # ; !3sg v 2pl !book has this (perhaps an error?)
-!+ThmInv+Neg+2+Pl+3+Prt:     igosiwegoban2   # ; !3sg v 2pl !expected if prt neg extends neg, but perhaps neg was wrong...
-!+ThmInv+Neg+2+Pl+3+Dub:     igosiiwegwenh     # ; !3sg v 2pl !cons
-!+ThmInv+Neg+1+Pl+Prt:       igosiwaangiban2 # ; !0 v 1pl !book unsure
-!+ThmInv+Neg+1+Prt:          igosiwaamban2   # ; !0 v 1sg
-!+ThmInv+Neg+2+1+Pl+Prt:     igosiwangiban2 # ; !0 v 21pl !book unsure 
-!+ThmInv+Neg+2+Pl+Prt:       igosiwegiban2    # ; !0 v 2pl !book unsure
-!+ThmInv+Neg+2+Prt:          igosiwamban2     # ; !0 v 2sg
-!+ThmInv+Neg+1+Dub:          igosiiwaanenh    # ; !0 v 1sg  !cons best guess
-!+ThmInv+Neg+1+Pl+Dub:       igosiiwaangenh # ; !0 v 1pl    !cons best guess
-!+ThmInv+Neg+2+1+Pl+Dub:     igosiiwangenh # ; !0 v 21pl     !cons best guess
-!+ThmInv+Neg+2+Pl+Dub:       igosiiwegwenh    # ; !0 v 2pl  !cons best guess
-!+ThmInv+Neg+2+Dub:          igosiiwanenh       # ; !0 v 2sg !cons best guess
-!+ThmInv+Neg+3+Pl:           igosigwaa # ; !0 v 3pl, 3obv v 3pl
-!+ThmInv+Neg+3:              igosig      # ; !0 v 3sg, 3obv v 3sg
-!+ThmInv+Neg+3+Pl+Prt:       igosigwaaban2 # ; !0 v 3pl, 3obv v 3pl !book unsure
-!+ThmInv+Neg+3+Prt:          igosigoban2    # ; !0 v 3sg, 3obv v 3sg !book semi-unsure
-!+ThmInv+Neg+3+Pl+Dub:       igosiigwaawenh # ; !0 v 3pl, 3obv v 3pl
-!+ThmInv+Neg+3+Dub:          igosiigwenh      # ; !0 v 3sg, 3obv v 3sg
-!+ThmInv+1:                  igoyaanh     # ; !0 v 1sg
-!+ThmInv+1+Pl:               igoyaang     # ; !0 v 1pl
-!+ThmInv+2+1+Pl:             igoyang      # ; !0 v 21pl
-!+ThmInv+2+Pl:               igoyeg       # ; !0 v 2pl
-!+ThmInv+2:                  igoyan       # ; !0 v 2sg
-!+ThmInv+1+Pl+Prt:           igoyaangiban2 # ; !0 v 1pl
-!+ThmInv+1+Prt:              igoyaambaanh    # ; !0 v 1sg
-!+ThmInv+2+1+Pl+Prt:         igoyangiban2 # ; !0 v 21pl
-!+ThmInv+2+Pl+Prt:           igoyegoban2    # ; !0 v 2pl
-!+ThmInv+2+Prt:              igoyamban2    # ; !0 v 2sg
-!+ThmInv+1+Dub:              igowaanenh    # ; !0 v 1sg !cons (?)
-!+ThmInv+1+Pl+Dub:           igowaangenh # ; !0 v 1pl
-!+ThmInv+2+1+Pl+Dub:         igowangwenh # ; !0 v 21pl
-!+ThmInv+2+Pl+Dub:           igowegwenh    # ; !0 v 2pl
-!+ThmInv+2+Dub:              igowanenh       # ; !0 v 2sg !cons (?)
-!+ThmInv+3+Pl:               igowaad        # ; !0 v 3pl, 3obv v 3pl
-!+ThmInv+3:                  igod          # ; !0 v 3sg, 3obv v 3sg
+!+Thm2b+3+Pl:                ikwaa              # ; !3pl v 2sg                                                               
+!+Thm2b+3:                   ik                 # ; !3sg v 2sg                                                               
+!+Thm2b+3+Pl+Prt:            ikwaaban2          # ; !3pl v 2sg                                                               
+!+Thm2b+3+Prt:               ikiban2            # ; !3sg v 2sg                                                               
+!+Thm2b+3+Pl+Dub:            ikwaawenh          # ; !3pl v 2sg !cons (?)                                                     
+!+Thm2b+3+Dub:               ikenh              # ; !3sg v 2sg !hm no w4                                                     
+!+Thm1+Neg+1+Pl:             i2siwaang          # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+Neg+2+Pl:             i2siweg            # ; !2pl v 1sg                                                               
+!+Thm1+Neg+2:                i2siwan            # ; !2sg v 1sg                                                               
+!+Thm1+Neg+1+Pl+3+Pl:        i2siwangidwaa      # ; !3pl v 1pl                                                               
+!+Thm1+Neg+1+Pl+3:           i2siwangid         # ; !3sg v 1pl                                                               
+!+Thm1+Neg+1+Pl+3+Pl+Prt:    i2siwangidwaaban2  # ; !3pl v 1pl                                                               
+!+Thm1+Neg+1+Pl+3+Prt:       i2siwangidiban2    # ; !3sg v 1pl                                                               
+!+Thm1+Neg+1+Pl+3+Pl+Dub:    i2siiwangidwaawenh # ; !3pl v 1pl                                                               
+!+Thm1+Neg+1+Pl+3+Dub:       i2siiwangidenh     # ; !3sg v 1pl                                                               
+!+Thm1+Neg+1+Pl+Prt:         i2siwaangiban2     # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+Neg+2+Pl+Prt:         i2siwegiban2       # ; !2pl v 1sg                                                               
+!+Thm1+Neg+2+Prt:            i2siwamban2        # ; !2sg v 1sg                                                               
+!+Thm1+Neg+1+Pl+Dub:         i2siiwaangenh      # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+Neg+2+Pl+Dub:         i2siiwegwenh       # ; !2pl v 1sg                                                               
+!+Thm1+Neg+2+Dub:            i2siiwnenh         # ; !2sg v 1sg                                                               
+!+Thm1+Neg+3+Pl:             i2sigwaa           # ; !3pl v 1sg                                                               
+!+Thm1+Neg+3:                i2sig              # ; !3sg v 1sg                                                               
+!+Thm1+Neg+3+Pl+Prt:         i2sigwaaban2       # ; !3pl v 1sg !book unsure                                                  
+!+Thm1+Neg+3+Prt:            i2sigoban2         # ; !3sg v 1sg                                                               
+!+Thm1+Neg+3+Pl+Dub:         i2siigwaawenh      # ; !3pl v 1sg                                                               
+!+Thm1+Neg+3+Dub:            i2siigwenh         # ; !3sg v 1sg                                                               
+!+Thm1+1+Pl:                 i2yaang            # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+2+Pl:                 i2yeg              # ; !2pl v 1sg                                                               
+!+Thm1+2:                    i2yan              # ; !2sg v 1sg                                                               
+!+Thm1+1+Pl+3+Pl:            i2yangidwaa        # ; !3pl v 1pl                                                               
+!+Thm1+1+Pl+3:               i2yangid           # ; !3sg v 1pl                                                               
+!+Thm1+1+Pl+3+Pl+Prt:        i2yangidwaaban2    # ; !3pl v 1pl                                                               
+!+Thm1+1+Pl+3+Prt:           i2yangidiban2      # ; !3sg v 1pl                                                               
+!+Thm1+1+Pl+3+Pl+Dub:        i2wangidwaawenh    # ; !3pl v 1pl                                                               
+!+Thm1+1+Pl+3+Dub:           i2wangidenh        # ; !3sg v 1pl                                                               
+!+Thm1+1+Pl+Prt:             i2yaangiban2       # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+2+Pl+Prt:             i2yegoban2         # ; !2pl v 1sg                                                               
+!+Thm1+2+Prt:                i2yamban2          # ; !2sg v 1sg                                                               
+!+Thm1+1+Pl+Dub:             i2waangenh         # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+2+Pl+Dub:             i2wegwenh          # ; !2pl v 1sg                                                               
+!+Thm1+2+Dub:                i2wanenh           # ; !2sg v 1sg !cons (?)                                                     
+!+Thm1+3+Pl:                 i2waad             # ; !3pl v 1sg                                                               
+!+Thm1+3:                    i2d                # ; !3sg v 1sg                                                               
+!+Thm1+3+Pl+Prt:             i2waapan2          # ; !3pl v 1sg                                                               
+!+Thm1+3+Prt:                i2pan2             # ; !3sg v 1sg                                                               
+!+Thm1+3+Pl+Dub:             i2waagwenh         # ; !3pl v 1sg                                                               
+!+Thm1+3+Dub:                i2gwenh            # ; !3sg v 1sg                                                               
+!+ThmInv+Neg+1:              igosiwaanh         # ; !0   v 1sg                                                               
+!+ThmInv+Neg+1+Pl:           igosiwaang         # ; !0   v 1pl                                                               
+!+ThmInv+Neg+2+1+Pl:         igosiwang          # ; !0   v 21pl                                                              
+!+ThmInv+Neg+2+Pl:           igosiweg           # ; !0   v 2pl                                                               
+!+ThmInv+Neg+2:              igosiwan           # ; !0   v 2sg                                                               
+!+ThmInv+Neg+2+Pl+3:         igosiweg           # ; !3sg v 2pl !book has this (perhaps an error?)                            
+!+ThmInv+Neg+2+Pl+3+Prt:     igosiwegoban2      # ; !3sg v 2pl !expected if prt neg extends neg, but perhaps neg was wrong...
+!+ThmInv+Neg+2+Pl+3+Dub:     igosiiwegwenh      # ; !3sg v 2pl !cons                                                         
+!+ThmInv+Neg+1+Pl+Prt:       igosiwaangiban2    # ; !0 v 1pl !book unsure                                                    
+!+ThmInv+Neg+1+Prt:          igosiwaamban2      # ; !0 v 1sg                                                                 
+!+ThmInv+Neg+2+1+Pl+Prt:     igosiwangiban2     # ; !0 v 21pl !book unsure                                                   
+!+ThmInv+Neg+2+Pl+Prt:       igosiwegiban2      # ; !0 v 2pl !book unsure                                                    
+!+ThmInv+Neg+2+Prt:          igosiwamban2       # ; !0 v 2sg                                                                 
+!+ThmInv+Neg+1+Dub:          igosiiwaanenh      # ; !0 v 1sg  !cons best guess                                               
+!+ThmInv+Neg+1+Pl+Dub:       igosiiwaangenh     # ; !0 v 1pl    !cons best guess                                             
+!+ThmInv+Neg+2+1+Pl+Dub:     igosiiwangenh      # ; !0 v 21pl     !cons best guess                                           
+!+ThmInv+Neg+2+Pl+Dub:       igosiiwegwenh      # ; !0 v 2pl  !cons best guess                                               
+!+ThmInv+Neg+2+Dub:          igosiiwanenh       # ; !0 v 2sg !cons best guess                                                
+!+ThmInv+Neg+3+Pl:           igosigwaa          # ; !0 v 3pl, 3obv v 3pl                                                     
+!+ThmInv+Neg+3:              igosig             # ; !0 v 3sg, 3obv v 3sg                                                     
+!+ThmInv+Neg+3+Pl+Prt:       igosigwaaban2      # ; !0 v 3pl, 3obv v 3pl !book unsure                                        
+!+ThmInv+Neg+3+Prt:          igosigoban2        # ; !0 v 3sg, 3obv v 3sg !book semi-unsure                                   
+!+ThmInv+Neg+3+Pl+Dub:       igosiigwaawenh     # ; !0 v 3pl, 3obv v 3pl                                                     
+!+ThmInv+Neg+3+Dub:          igosiigwenh        # ; !0 v 3sg, 3obv v 3sg                                                     
+!+ThmInv+1:                  igoyaanh           # ; !0 v 1sg                                                                 
+!+ThmInv+1+Pl:               igoyaang           # ; !0 v 1pl                                                                 
+!+ThmInv+2+1+Pl:             igoyang            # ; !0 v 21pl                                                                
+!+ThmInv+2+Pl:               igoyeg             # ; !0 v 2pl                                                                 
+!+ThmInv+2:                  igoyan             # ; !0 v 2sg                                                                 
+!+ThmInv+1+Pl+Prt:           igoyaangiban2      # ; !0 v 1pl                                                                 
+!+ThmInv+1+Prt:              igoyaambaanh       # ; !0 v 1sg                                                                 
+!+ThmInv+2+1+Pl+Prt:         igoyangiban2       # ; !0 v 21pl                                                                
+!+ThmInv+2+Pl+Prt:           igoyegoban2        # ; !0 v 2pl                                                                 
+!+ThmInv+2+Prt:              igoyamban2         # ; !0 v 2sg                                                                 
+!+ThmInv+1+Dub:              igowaanenh         # ; !0 v 1sg !cons (?)                                                       
+!+ThmInv+1+Pl+Dub:           igowaangenh        # ; !0 v 1pl                                                                 
+!+ThmInv+2+1+Pl+Dub:         igowangwenh        # ; !0 v 21pl                                                                
+!+ThmInv+2+Pl+Dub:           igowegwenh         # ; !0 v 2pl                                                                 
+!+ThmInv+2+Dub:              igowanenh          # ; !0 v 2sg !cons (?)                                                       
+!+ThmInv+3+Pl:               igowaad            # ; !0 v 3pl, 3obv v 3pl                                                     
+!+ThmInv+3:                  igod               # ; !0 v 3sg, 3obv v 3sg                                                     
 !+ThmInv+3+Pl+Prt:           igowaapan2 # ; !0 v 3pl, 3obv v 3pl
 !+ThmInv+3+Prt:              igopan2      # ; !0 v 3sg, 3obv v 3sg
 !+ThmInv+3+Pl+Dub:           igowaagwenh # ; !0 v 3pl, 3obv v 3pl !cons
