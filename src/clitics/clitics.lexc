@@ -1,0 +1,14 @@
+Multichar_Symbols
++Adv
+
+LEXICON Root
+# ; 
+CONNECTOR ; 
+
+LEXICON CONNECTOR
+0:- CLITIC ; 
+0:' CLITIC ; 
+CLITIC ; 
+
+LEXICON CLITIC
++dash+Adv:sh    # ;
