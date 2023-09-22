@@ -1,8 +1,13 @@
 LEXICON NOUNS
   NA ;
   NI ;
+  NI_DAB_ADDITIONS ; 
+  NA_DAB_ADDITIONS ; 
 @R.Person@  NAD ;
 @R.Person@  NID ;
+
+LEXICON NA_DAB_ADDITIONS 
+maagan:maagan   NA_SET "spouse" ; !back formation from wiidgemaagan?
 
 LEXICON NA
 !{oddballs
@@ -20,12 +25,12 @@ n'ka:niko    NA_SET    " 1 Canada goose" ; !Rand key:n71433050235n
 n'ka:nika    NA_SET    " 1 Canada goose" ; !Rand key:n71433050235n
 zhegaagom:zhegaagomw1    NA_SET    " 1 pinworm? roundworm?" ; !Rand key:n73034220491n (!!!!w1 not after velar!)
 daalii:daalii    NA_SET    " 1 doll" ; !Rand key:n201092215-42-9n
-zaaday:azaaday    NA_SET    " 1 poplar" ; !Rand key:n72977660220n
+zaaday:azaaday2   NA_SET    " 1 poplar" ; !Rand key:n72977660220n
 wiishkbinnii:wiishkobininiiy    NA_SET    " 1 a person with a sweet tooth" ; !Rand key:n73035543710n
-jiibay:jiibay    NA_SET    " 1 ghost, spirit, soul" ; !Rand key:n73028345539n
+jiibay:jiibay2   NA_SET    " 1 ghost, spirit, soul" ; !Rand key:n73028345539n
 ginii:oginiiy    NA_SET    " 1 rose (flower)" ; !Rand key:n73024438851n
-gaaway:gaaway    NA_SET    " 1 quill (of a porcupine)" ; !Rand key:n73017374082n
-biiway:biiway    NA_SET    " 1 fur, wool, yarn" ; !Rand key:n72977485939n
+gaaway:gaaway2   NA_SET    " 1 quill (of a porcupine)" ; !Rand key:n73017374082n
+biiway:biiway2   NA_SET    " 1 fur, wool, yarn" ; !Rand key:n72977485939n
 baapaas-ledii:baapaas-ledii    NA_SET    " 1 ritzy lady" ; !Rand key:n72974660507n
 !}
 !{ o (ook pl)
@@ -714,7 +719,7 @@ mtigwaabiins:mitigwaabiins    NA_SET    " 1 ice-fishing pole" ; !Rand key:n71430
 mwinaans:mawinaans    NA_SET    " 1 screech owl" ; !Rand key:n71430563671n
 myagnishnaabe:mayaganishinaabe    NA_SET    " 1 stranger, foreigner" ; !Rand key:n71430565982n
 mzaan:mVi1zaan    NA_SET    " 1 burdock (a type of plant)" ; !Rand key:n71430566103n
-mzay:mizay    NA_SET    " 1 red hake, burbot, ling (types of fish)" ; !Rand key:n71430566161n
+mzay:mizay2   NA_SET    " 1 red hake, burbot, ling (types of fish)" ; !Rand key:n71430566161n
 mzhaaboos:mizhaabooz    NA_SET    " 1 goat" ; !Rand key:n71430566223n
 mzhiwens:mVv1zhiwens    NA_SET    " 1 cottontail rabbit" ; !Rand key:n71430567364n
 mzhwe:mVv1zhwe    NA_SET    " 1 cottontail rabbit" ; !Rand key:n71430567852n
@@ -949,10 +954,10 @@ kwe:ikwew2              NA_SET ; !wag pl, d-hiatus
 
 LEXICON NAD
 !{ oddballs (y-final)
-nnagway:%^nagway    NAD_SET    " 1 sleeve" ; !Rand key:n71431153168n
+nnagway:%^nagway2   NAD_SET    " 1 sleeve" ; !Rand key:n71431153168n
 nbaabaa:%^baabaay    NAD_SET    " 1 my dad" ; !Rand key:n72974462914n
-nnag'ay:%^nagahay    NAD_SET    " 1 my skin" ; !Rand key:n71431151710n
-nnoway:%^noway    NAD_SET    " 1 my cheek" ; !Rand key:n71433864220n
+nnag'ay:%^nagahay2   NAD_SET    " 1 my skin" ; !Rand key:n71431151710n
+nnoway:%^noway2   NAD_SET    " 1 my cheek" ; !Rand key:n71433864220n
 !} odball end
 !{w1
 nwiidgik:%^wiidigikw1    NAD_SET    " 1 my sister [if I am a woman]" ; !Rand key:n73071973177n
@@ -978,7 +983,7 @@ nnagask:%^nagasko    NAD_SET    " 1 my palate" ; !Rand key:n71431151389n
 niijii:%^iijii    NAD_SET    " 1 my friend" ; !Rand key:n71431756662n
 ngitziim:%^gitiziim    NAD_SET    " 1 my parent" ; !Rand key:n73024536585n
 ndoozhmiskwem:%^doozhimiskwem    NAD_SET    " 1 my parallel-niece" ; !Rand key:n73039843913n
-nday:%^day    NA_SET    " 1 my dog" ; !Rand key:n72989359132n
+nday:%^day2   NA_SET    " 1 my dog" ; !Rand key:n72989359132n
 nbajaagan:%^bajaagan    NAD_SET    " 1 my penis" ; !Rand key:n72975859743n
 ndaan'koobjigan:%^aanikoobijigan    NAD_SET    " 1 my great grandchild" ; !Rand key:n7297341678n
 nbiis-biidiinsim:%^biis-biidiinsim    NAD_SET    " 1 my little chick" ; !Rand key:n72977455023n
@@ -1072,12 +1077,18 @@ nzigos:%^zigos    NAD_SET    " 1 my aunt (new system)" ; !Rand key:n73035443508n
 nzigzis:%^zigozis    NAD_SET    " 1 my mother-in-law, my spouse's grandmother (old system), my spouse's cross-aunt (old system)" ; !Rand key:n73035443679n
 ndiniigan:%^diniigan    NAD_SET    " 1 my shoulder blade" ; !Rand key:n2010112211-51-39n
 
+LEXICON NI_DAB_ADDITIONS
+ziizbaakdaaboo:ziizibaakVo1daaboo NI_SET "sap" ; !cf ziizibaak... vocab on sap/sugaring
+gkinoomaadwin:gikinoomaadVv1win     NI_SET "teaching" ; !cf gkin ... vocab on teaching
+gziibiignaagne'gan:giziibiinaaganehigan    NI_SET    "dishcloth, dishrag" ; ! see especially Rand key:n73102058769n
+mdaaswaabik:midaaswaabiko    NI_SET    "ten bucks" ; ! I assume this has something to do with $1 Canadian coins
+
 LEXICON NI
 !{ oddballs (y-final)
-abooy:abooy    NI_SET    " 1 sleep [dried mucus in eyes after sleeping]" ; !Rand key:n72974453428n
-biiway:biiway    NI_SET    " 1 fur, a strand of hair from a fur" ; !Rand key:n72977486024n
+abooy:abooy2   NI_SET    " 1 sleep [dried mucus in eyes after sleeping]" ; !Rand key:n72974453428n
+biiway:biiway2   NI_SET    " 1 fur, a strand of hair from a fur" ; !Rand key:n72977486024n
 kandmoo:Vv1kandVv1mooy    NI_SET    " 1 fragrant water lily" ; !Rand key:n73017353081n
-mooday:mooday    NI_SET    " 1 bottle, jar, quart (liquid measure)" ; !Rand key:n71430355861n
+mooday:mooday2   NI_SET    " 1 bottle, jar, quart (liquid measure)" ; !Rand key:n71430355861n
 nbiish-waawaasgone:nibiish-waawaasagoney    NI_SET    " 1 species of water lily (probably yellow pond lily, Nuphar variegatum)" ; !Rand key:n71431345342n
 !{ oddballs other
 mniiw:miniiw2    NI_SET    " 1 pus" ; !Rand key:n73032749483n
@@ -1700,7 +1711,7 @@ kakde-dba'gan:gakakVv1de-dibahigan    NI_SET    " 1 builder's square" ; !Rand ke
 kakmineshkoojgan:Vv1kakVv1mineshkoojigan    NI_SET    " 1 sheller" ; !Rand key:n73017351901n
 kakzhe:akakanzhe    NI_SET    " 1 charcoal, a piece of charcoal, [burning] coal" ; !Rand key:n73028446408n
 kanjiish:Vv1kanjiish    NI_SET    " 1 bud, calyx (part of flower protecting bud)" ; !Rand key:n73017353176n
-ki:akii    NI_SET    " 1 earth, ground, land;  2 one's sovereign land, the land one owns" ; !Rand key:n71428959500n
+ki:aki    NI_SET    " 1 earth, ground, land;  2 one's sovereign land, the land one owns" ; !Rand key:n71428959500n !DAB: changed UR from akii to aki because I have only seen [kii] in verbs, all nouns are [ki]
 kidwin:ikidowin    NI_SET    " 1 word, saying, speech form, way of speaking;  2 a message, a communication;  3 a voice, an agency by which to represent one's point of view" ; !Rand key:n71428960188n
 kii-bmide:akii-bimide    NI_SET    " 1 kerosene" ; !Rand key:n7303277013n
 kiibmidekaan:akiibimidekaan    NI_SET    " 1 site where crude oil is obtained" ; !Rand key:n7303277034n
@@ -2306,7 +2317,7 @@ nda'iim:%^ahiim    NID_SET    " 1 my possession" ; !Rand key:n72974455596n
 ndaamkan:%^daamikan    NID_SET    " 1 my chin, my [lower] jaw" ; !Rand key:n72987250364n
 ndatgaagon:%^datagaagon    NID_SET    " 1 my backbone, my spine" ; !Rand key:n72989353687n
 ndazhgan:%^azhigan    NID_SET    " 1 my sock" ; !Rand key:n72974462861n
-ndengway:%^dengway    NID_SET    " 1 my face" ; !Rand key:n73003251780n
+ndengway:%^dengway2   NID_SET    " 1 my face" ; !Rand key:n73003251780n
 ndengwenh:%^dengweny    NID_SET    " 1 my face" ; !Rand key:n73003251855n
 ndenniw:%^denaniw2    NID_SET    " 1 my tongue" ; !Rand key:n73003251961n
 ndeteg:%^detegw1    NID_SET    " 1 my temple [ref. to side of head];  2 my gills" ; !Rand key:n73003956132n
@@ -2316,7 +2327,7 @@ ndindwin:%^indowin    NID_SET    " 1 my fault" ; !Rand key:n73004852231n
 ndinmaangan:%^dinimaangan    NID_SET    " 1 my shoulder" ; !Rand key:n73004852829n
 nndip:%^ndib    NID_SET    " 1 my head" ; !Rand key:n71431443359n
 ndis:%^disi1    NID_SET    " 1 my navel, my umbilicus" ; !Rand key:n73004853006n
-ndiy:%^diy    NID_SET    " 1 my ass, my buttocks, my rear end" ; !Rand key:n73005350670n
+ndiy:%^diy2   NID_SET    " 1 my ass, my buttocks, my rear end" ; !Rand key:n73005350670n
 ndoon:%^doon    NID_SET    " 1 my mouth" ; !Rand key:n73014478979n
 ndoondan:%^doondan    NID_SET    " 1 my heel" ; !Rand key:n73014479024n
 ndoonkosi:%^doonikosiw2    NID_SET    " 1 my kidney" ; !Rand key:n73014479106n
@@ -2362,7 +2373,7 @@ nzow:%^zowaan    NID_SET    " 1 my tail" ; !Rand key:n73036026804n
 nzowaanak:%^zowaanago    NID_SET    " 1 my tail" ; !Rand key:n73036026846n
 npigegan:%^pigegan    NID_SET    " 1 my rib [of a body]; rib [of a canoe]" ; !Rand key:n73031181477n
 nwiinendip:%^wiinendib    NID_SET    " 1 my brain" ; !Rand key:n73072043782n
-nzhag'ay:%^zhagahay    NID_SET    " 1 my skin" ; !Rand key:n73072639688n
+nzhag'ay:%^zhagahay2   NID_SET    " 1 my skin" ; !Rand key:n73072639688n
 nzhiignaang:%^zhiiganaang    NID_SET    " 1 my lower back" ; !Rand key:n73035139824n
 nshkiinzhik:%^shkiinzhigo    NID_SET    " 1 my eye" ; !Rand key:n201091815-9-44n
 ntawag:%^tawag    NID_SET    " 1 my ear" ; !Rand key:n2010121510-37-14n

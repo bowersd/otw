@@ -24,8 +24,8 @@ taataahaa:taataahaa    IJ_TAG    " 1 holy, holy cow, holy jeez, holy moly, jeez,
 aaw:aaw    IJ_TAG    " 1 well!, oh!, come now!" ; !Rand key:n201132519-1-32n
 aayaa:aayaa    IJ_TAG    " 1 please!" ; !Rand key:n201132519-18-20n
 ambe:ambe    IJ_TAG    " 1 come on!, well!" ; !Rand key:n201132519-50-0n
-Mbingo:imbingo    IJ_TAG    " 1 Bingo!" ; !Rand key:n201132916-22-25n !vowel added to avoid mbngo
-nahaaw:nahaaw    IJ_TAG    " 1 okay (assent)" ; !Rand key:n2011499-25-34n
+Mbingo:Bv1mbingo    IJ_TAG    " 1 Bingo!" ; !Rand key:n201132916-22-25n !DAB: vowel added to avoid mbngo
+nahaaw:Bv1nahaaw    IJ_TAG    " 1 okay (assent)" ; !Rand key:n2011499-25-34n !DAB: vowel added to avoid nhaaw
 ggwaansagaadkamik:gagwaanisagaadakamig    IJ_TAG    " 1 how terrible!; that's drastic!; that's terrible!" ; !Rand key:n73042853319n
 giisaach:giisaaj    IJ_TAG    " 1 too bad, unfortunate" ; !Rand key:n73102085904n
 giiwsaatkamik:giiwasaadakamik    IJ_TAG    " 1 how unfortunate!; too bad!" ; !Rand key:n73024138978n
@@ -49,12 +49,10 @@ mnanish:minanish    IJ_TAG    " 1 it's a good thing that..." ; !Rand key:n730332
 mnik:minik    IJ_TAG    " 1 Enough." ; !Rand key:n73097853324n
 mooshk'om:mooshkahom    IJ_TAG    " 1 call of the American bittern" ; !Rand key:n71430359081n
 moowich:moowich    IJ_TAG    " 1 Oh, crap! Shit!" ; !Rand key:n71430362013n
-na:na    IJ_TAG    " 1 Sh!, Listen!" ; !Rand key:n71430657199n
 naanaa:naanaa    IJ_TAG    " 1 Be careful! (general warning), Come on! (encouragement)" ; !Rand key:n71431052859n
 naasanaa:naasanaa    IJ_TAG    " 1 I give up;  2 Be careful!, Look out!" ; !Rand key:n71431145922n
 nagsha:nagosha    IJ_TAG    " 1 Look!" ; !Rand key:n71431153112n
 ngoji:ningoji    IJ_TAG    " 1 Get away [from someplace]!, Get out of the way!, Get out of here!" ; !Rand key:n73098747977n
-ni:ni    IJ_TAG    " 1 [see na]" ; !Rand key:n71431661160n
 niinaa:niinaa    IJ_TAG    " 1 well" ; !Rand key:n71431764765n
 niisaadkamik:niisaadakamig    IJ_TAG    " 1 How unfortunate, That's too bad" ; !Rand key:n71431766173n
 nishke:nishke    IJ_TAG    " 1 Look! (directing attention to something in sight);  2 See, I told you so!" ; !Rand key:n73033752633n
@@ -98,6 +96,8 @@ biidii:biidii    IJ_TAG    " 1 Here, chickie!" ; !Rand key:n72976951215n
 biingeyaadkamik:biingeyaadakamig    IJ_TAG    " 1 Oh my goodness! " ; !Rand key:n72973065549n
 bna:bina    IJ_TAG    " 1 Come on!  Okay then!;  2 please!" ; !Rand key:n72976561974n
 bnagsha:binagosha    IJ_TAG    " 1 Look!" ; !Rand key:n72977450737n
+na+Interj:na    #    " 1 Sh!, Listen!" ; !Rand key:n71430657199n
+ni+Interj:ni    #    " 1 [see na]" ; !Rand key:n71431661160n
 
 LEXICON IJ_TAG
 +Interj:0 CLOSED_PROTECTION ;
@@ -116,7 +116,6 @@ kogaan:ikogaan    PT_TAG    " 1 Get lost! Go away!" ; !Rand key:n71428979127n
 manj:amanj    PT_TAG    " 1 [see minj]" ; !Rand key:n7309023029n
 minj:aminj    PT_TAG    " 1 however it may be, whenever, wonder how, wonder when" ; !Rand key:n71429344450n
 mninaak:mVv1ninaak    PT_TAG    " 1 No way! any way, not that bad, not to that extreme" ; !Rand key:n72915857809n
-na:na    PT_TAG    " 1 {particle marking yes/no questions}" ; !Rand key:n71430657090n
 naa:naa    PT_TAG    " 1 emphatic;  2 eh? (as in Canadian English, inviting assent)" ; !Rand key:n71430657300n
 naash:naash    PT_TAG    " 1 [see nnaash]" ; !Rand key:n73098533572n
 nangna:nangVo1na    PT_TAG    " 1 Oh! [in sudden realization]" ; !Rand key:n73033613590n
@@ -128,6 +127,7 @@ se:se    PT_TAG    " 1 Yuck!" ; !Rand key:n730313833n
 shwii:shwii    PT_TAG    " 1 but, though" ; !Rand key:n73071454021n
 was:awas    PT_TAG    " 1 Scat! Shoo! Go away!" ; !Rand key:n7303279059n
 !these end immediately because they are too short to undergo apocope, and so can't pick up protective w
+na+Ipc:na    #    " 1 {particle marking yes/no questions}" ; !Rand key:n71430657090n
 sa+Ipc:sa    #    " 1 so, so then, well" ; !Rand key:n73031277207n
 go+Ipc:gVo1    #    " 1 indeed;  2 it's up to (with personal pronoun), it depends on (with personal pronoun)" ; !Rand key:n2010123111-11-13n
 go+Ipc:go    #    " 1 indeed;  2 it's up to (with personal pronoun), it depends on (with personal pronoun)" ; !Rand key:n2010123111-11-13n

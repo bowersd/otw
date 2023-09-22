@@ -1,12 +1,20 @@
 LEXICON PA
-gchi-:gichi    AV    " 1 very;  2 the unit period after (with time expressions)" ; !Rand key:n2010121223-12-33n
-wasi-:awasi-    AV    " 1 used with a time adverbial to indicate the period before last, e.g., <nish>wasi-bboonong</nish>, 'the year before last'" ; !Rand key:n201132612-19-17n
-ewaanji-:ewaanji-    AV    " 1 the most, to the greatest extent, degree, quality or quantity" ; !Rand key:n20114911-51-32n
-                AV ;
+gchi-:gichi-    AV_GATEWAY    " 1 very;  2 the unit period after (with time expressions)" ; !Rand key:n2010121223-12-33n
+wasi-:awasi-    AV_GATEWAY    " 1 used with a time adverbial to indicate the period before last, e.g., <nish>wasi-bboonong</nish>, 'the year before last'" ; !Rand key:n201132612-19-17n
+ewaanji-:ewaanji-    AV_GATEWAY    " 1 the most, to the greatest extent, degree, quality or quantity" ; !Rand key:n20114911-51-32n
+                AV_GATEWAY ;
+
+LEXICON AV_GATEWAY
+AV ; 
+AV_DAB_ADDITIONS ;
+
+LEXICON AV_DAB_ADDITIONS
+gbey'iinh:gabeyVi1hiinh    AV_TAG    " for a long time" ; ! this could just be the result of a transcription error, cf: gbey'iing:gabeyVi1hiing    AV_TAG    " 1 for a long time" ; !Rand key:n73017937637n
+aabdig:aabidig    AV_TAG    " 1 certainly, for sure, of course;  2 have to (do something)" ; !This is the Rhodes form for: aabdek:aabidek    AV_TAG    " 1 certainly, for sure, of course;  2 have to (do something)" ; !Rand key:n7291537870n
 
 LEXICON AV
 aabda:aabida    AV_TAG    " 1 continuously" ; !Rand key:n7291536788n
-aabdek:aabidek    AV_TAG    " 1 certainly, for sure, of course;  2 have to (do something)" ; !Rand key:n7291537870n
+aabdek:aabideg    AV_TAG    " 1 certainly, for sure, of course;  2 have to (do something)" ; !Rand key:n7291537870n DAB; enforced regular word-final g in place of k in internal representation ... final v may not be long, see DAB_ADDITIONS
 aabiish:aabiish    AV_TAG    " 1 where, which (interrogative, used to ask questions of where or which)" ; !Rand key:n72971644044n
 aabtaweyiing:aabitaweyiing    AV_TAG    " 1 halfway" ; !Rand key:n7297245556n
 aabtaweyiing:aabitaweyVi1hiing    AV_TAG    " 1 halfway" ; !Rand key:n7297245556n
@@ -145,7 +153,7 @@ gaataayiing:gaataayiing    AV_TAG    " 1 around, all around" ; !Rand key:n730173
 gaataayiing:gaataayVi1hiing    AV_TAG    " 1 around, all around" ; !Rand key:n73017372717n
 gaawaanh:agaawaanh    AV_TAG    " 1 barely, hardly, scarcely" ; !Rand key:n73017374047n
 gaawtaagmik:gaawitaagamig    AV_TAG    " 1 all around the building" ; !Rand key:n73017579755n
-gaay:gaay    AV_TAG    " 1 not" ; !Rand key:n73017579808n
+gaay:gaay2   AV_TAG    " 1 not" ; !Rand key:n73017579808n
 gamiing:gamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n
 gamiing:agamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n
 gashki:gashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n
@@ -335,7 +343,7 @@ nake:inake    AV_TAG    " 1 in a certain way, in a certain direction" ; !Rand ke
 nakeyaa:inakeyaa    AV_TAG    " 1 in a certain way, in a certain direction" ; !Rand key:n71431158425n
 nakweyiing:Va1nakweyiing    AV_TAG    " 1 at the tip" ; !Rand key:n73033612905n
 nakweyiing:Va1nakweyVi1hiing    AV_TAG    " 1 at the tip" ; !Rand key:n73033612905n
-nango:nango    AV_TAG    " 1 [see nongo]" ; !Rand key:n71431166718n
+nango:Bv1nango    AV_TAG    " 1 [see nongo]" ; !Rand key:n71431166718n DAB: added vowel to avoid nngo
 nawach:nawaj    AV_TAG    " 1 various" ; !Rand key:n71431169859n
 nawgiizhik:nawVv1giizhig    AV_TAG    " 1 in mid-air" ; !Rand key:n73033817850n
 ndaashti:Vv1ndaashVv1ti    AV_TAG    " 1 on this side" ; !Rand key:n73033632017n
@@ -398,7 +406,7 @@ njiiyenh:onjiiyenh    AV_TAG    " 1 next [in order or in line], next door" ; !Ra
 nmaanwaang:maanVv1waang    AV_TAG    " 1 on my cheek" ; !Rand key:n71429263103n
 nnaasa:nanaasa    AV_TAG    " 1 from time to time, periodically" ; !Rand key:n73033817650n
 nnaash:ninaash    AV_TAG    " 1 just not [get around to something];  2 (for) an extended period of time;  3 until" ; !Rand key:n73033818000n
-nongo:nongo    AV_TAG    " 1 today;  2 the current [unit of time referenced], this [time period];  3 now, at this point in time;  4 nowadays, in the present, these days;  5 this time;  6 tonight" ; !Rand key:n71433764638n
+nongo:Bv1nongo    AV_TAG    " 1 today;  2 the current [unit of time referenced], this [time period];  3 now, at this point in time;  4 nowadays, in the present, these days;  5 this time;  6 tonight" ; !Rand key:n71433764638n
 nooch:nooj    AV_TAG    " 1 various" ; !Rand key:n71433757821n
 nookming:nookaming    AV_TAG    " 1 inland, in the bush, out in the country" ; !Rand key:n71433759520n
 noomya:noomaya    AV_TAG    " 1 just a little while ago, just recently" ; !Rand key:n71433763238n
@@ -481,7 +489,7 @@ zaam:ozaam    AV_TAG    " 1 excessively, overly, too;  2 because" ; !Rand key:n7
 zhaawnong:zhaawanong    AV_TAG    " 1 in the south, to the south, south" ; !Rand key:n73072637303n
 zhaazhi:zhaazhi    AV_TAG    " 1 already, by now, by this time;  2 quite a while ago, long ago" ; !Rand key:n73072639512n
 zhaazhwaach:zhaazhwaach    AV_TAG    " 1 somewhat like" ; !Rand key:n73034220241n
-zhanda:zhanda    AV_TAG    " 1 here" ; !Rand key:n73072639741n
+zhanda:Bv1zhanda    AV_TAG    " 1 here" ; !Rand key:n73072639741n
 zhebaa:zhebaa    AV_TAG    " 1 this [past] morning, this morning just past" ; !Rand key:n73072641352n
 zhgo:zhVv1go    AV_TAG    " 1 just about, very soon" ; !Rand key:n73072681240n
 zhi-dbishkoo:izhi-dibishkoo    AV_TAG    " 1  just like, similar to;  2 at a point parallel " ; !Rand key:n73035131454n
