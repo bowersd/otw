@@ -1,0 +1,21 @@
+clear stack; 
+read lexc tmp.lexc ;
+define morphology ;
+
+!there are phonology problems in this setup (plus otw-phon.xfscript now ends with a save stack command that may screw things up)
+source phonology/otw-phon.xfscript ;
+define phonology ;
+
+read regex morphology .o. phonology; 
+
+save stack > morphophonology.xfst ;
+!save stack > morphophonology.hfst 
+
+source orthography/spellrelax.xfscript ;
+define spellrelax
+
+read regex morphology .o. phonology .o. spellrelax ;
+save stack > morphophonology-relaxed.xfst ;
+
+clear stack; 
+
