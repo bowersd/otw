@@ -10,11 +10,13 @@ LEXICON FIRST_PERSON_SET
 @P.Person.1@    N_PRENOUNS ;
 @P.Person.1@  V_PREVERBS_SUBORDINATOR ;
 @P.Person.1@    EXTENDED_PREFIX ;
+@P.Person.1@    EXTENDED_PREFIX_HYPHEN ; !Separating stems from all prefixes per Al Corbiere standard
 
 LEXICON SECOND_PERSON_SET 
 @P.Person.2@    N_PRENOUNS ;
 @P.Person.2@  V_PREVERBS_SUBORDINATOR ;
 @P.Person.2@    EXTENDED_PREFIX ;
+@P.Person.2@    EXTENDED_PREFIX_HYPHEN ; !Separating stems from all prefixes per Al Corbiere standard
 
 LEXICON THIRD_PERSON_SET 
 @P.Person.3@    N_PRENOUNS ;
