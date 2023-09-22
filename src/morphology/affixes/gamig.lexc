@@ -1,0 +1,14 @@
+
+LEXICON SECONDARY_NOUN_FINALS
++NI:win # ; !base = VAI
++NI:gan # ; !base = VAI
++NI:gamigo # ; !base = VAI, NA, NI ... sometimes has 'extensional-w' and lengthens preceding vowel
++NA:nini # ; !base = VAI, NA, NI ... sometimes has 'extensional-w' and lengthens preceding vowel
++NA:kwe # ; !base = VAI, NA, NI ... sometimes lengthens preceding vowel (extensional w)?
+
+LEXICON SECONDARY_VII_FINALS
++VII:magad # ; !base = ?, lengthens preceding vowel
++VII:igaade # ; !base = VTA (VAI observed too), need to be careful with [i] (could be epenthetic)
+
+LEXICON SECONDARY_VAI_FINALS
++VAI:igaazo # ; !base = VTA (VAI observed too), need to be careful with [i] (could be epenthetic)
