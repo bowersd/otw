@@ -1,0 +1,18 @@
+
+define finDevoi [b -> p, d -> t, g -> k, z -> s, z h -> s h, j -> ch || \[m|n] _ .#. ] ;
+define hApos [h -> ' || \[c|s|n|z] _ ] ;
+define aposEpen [[..] -> ' || n _ k ] ; 
+define oa  [o -> a || \[o]  _ (  
+                            p|t|k|c h|
+                            [[s|s h](p|t|k)]|
+                            [[m|n](b|d|g|j|z h|s|h)]|
+                            w|y|'
+                            )
+                             .#.] ; 
+
+regex [ finDevoi .o.
+        hApos .o.
+        aposEpen .o.
+        oa] ;
+
+save stack fiero2corbiere.hfst

@@ -1,0 +1,46 @@
+!keeping list to what has been observed to trip up machine (ziizbaakdoke as ziisbaakdoke)
+define zCsC     [z (->) s || _ b] ;  !zb has been kept as normative
+define ao       [a (->) o || k _ w] ;  !a has been kept as normative
+define gnMet    [g n (->) n g ||   _  \[a|e|i|o]]  ;  !gn kept as normative
+define yapos    [y (->) %' ||  [a|e|i|o] _  [a|e|i|o]]  ;  !y kept as normative
+define bndm     [b n (->) m || _ d] ; !bnd kept as normative ... this could tie into the medial nasal dropping rule
+define gggk     [g (->) 0 || .#. _ [g|k]] ; !gg, gk kept as normative
+define nds      [d (->) 0  || n _ s] ; !nds kept as normative
+define hyph     [%- (->) 0  || b m i _ y a a] ; !bmi-yaa kept as normative
+define oa       [o (->) a || m \[o] _ t, s _, n _ k] ;  !nso kept as normative
+define wy       [w (->) y, y (->) w || [a|e|i|o]  _  [a|e|i|o]] ;  !getting checked
+define nasV     [n y (->) 0 || _ m ] ; !not in cascade
+define owa      [o (->) w a || [g|k] _ ] ;
+define mergeLen [
+                    b b (->) p .o.
+                    d d (->) t .o.
+                    g g (->) k .o.
+                    j j (->) c h .o.
+                    z z (->) s .o.
+                    z h z h (->) s h
+                    ] ;
+
+!define mndmd    [m n d (->) m d || .#. _ ] ; !captured by stranded nasal dropping rule in phonology module
+!define ndmz      [m (->) 0  || n d _ z] ; !captured by stranded nasal dropping rule in phonology module
+define yanyin   [a (->) i || y _ n .#. ] ; 
+
+!apostrophe use covered in spellrelax_valentine.xfscript
+define apos     [[..] (->) %' || \[a|e|i|o|u] _ \[a|e|i|o|u] ]; 
+
+regex [
+    zCsC    .o.
+    ao      .o.
+    gnMet   .o.
+    yapos   .o.
+    bndm    .o.
+    gggk    .o.
+    nds     .o.
+    hyph    .o.
+    oa      .o.
+    wy      .o.
+    yanyin  .o.
+    owa     .o.
+    mergeLen  .o.
+    apos
+    ];
+save stack spellrelaxAcorbiere.hfst
