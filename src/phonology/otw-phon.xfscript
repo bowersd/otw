@@ -23,6 +23,7 @@ define sigma [
                 w4| !w4 surfaces pre-vocalically, sometimes as o (appears (primarily?) in cnj dub)
                 w5| ![n|m]w5>a[n|g] -> [n|m]oa[n|g]->[n|m]oo[n|g], w5>goba -> >goba, else: w (VAI independent 3 infl)
                 y1| !y1->0 (trigger for palatalization in participles, vowel raising in participles)
+                y2| !y2->y mooday, jiibay have a y that doesn't delete like a good little glide
                 s1| !s1->sh / _ i2
                 m1| !m1->a / _ [m|n] (comp len in vti)
                 n1| !n1->zh / _ i2 (appears in vtas)
@@ -39,7 +40,10 @@ define sigma [
                 Vv1| !Valen special char, instant remap: unknown short vowel
                 Vo1| !Valen special char, instant remap: o/wa variation
                 Vo2| !Valen special char, instant remap: a that in other dialects is o, but is [e] in initial change (/o/ is [we] in initial change, /a/ is [e] in initial change)
-                "PV/CCNJ+" !marks changed conjunct form
+                Bv1| !Bowers special char, instant remap: vowel to supply missing vowel at beginning of lexrep (fixes oversyncopation for the moment)
+                "PV/CCNJ+"| !marks changed conjunct form
+                CRED1|  !reduplicant consonant
+                VRED1  !reduplicant vowel
             ]; 
 define cons [
                 b|d|g|p|t|k|
@@ -54,6 +58,7 @@ define cons [
                 w4|
                 w5|
                 y1| 
+                y2| 
                 s1| 
                 m1|
                 n1| 
@@ -73,7 +78,7 @@ define cseqs [[
                ](w)|
                 h|%'|w|y|
                 [g|k]w2|
-                w1|w5|y1|s1|m1|n1|n2|n3|n4|b1|d1|d2
+                w1|w5|y1|y2|s1|m1|n1|n2|n3|n4|b1|d1|d2
             ]; 
 define codaseqs [
                 b|d|g|p|t|k|
@@ -81,7 +86,7 @@ define codaseqs [
                 [z (h)]|[s (h) (p|t|k)]|
                 [m (b)]|[n (d|[z (h)]|j|g|h|s|y)]|
                 w|y|
-                w1|w5|y1|m1|n1|n2|n3|n4|s1|b1|d1|d2
+                w1|w5|y1|y2|m1|n1|n2|n3|n4|s1|b1|d1|d2
                 ]; 
 define longv [a a|e|i i|o o];
 define shortv [a|i|o|e1]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
@@ -95,13 +100,14 @@ define nas [n|n2|m|m1];  !should the other nasals be here (n4?)
 
 !special y for raising a (-naan-ag -> naanig, -e1ny-ag-> enyig, -dy-ag (preterites) -> jig)
 
-!remapping rule to purge valentine's special vowels
-define rmvalent [
+!remapping rule to purge special vowels
+define rmspecialv [
                     Va1 -> o ,
                     Vi1 -> a ,
                     Vv1 -> i ,
                     Vo1 -> w a ,
-                    Vo2 -> a 
+                    Vo2 -> a ,
+                    Bv1 -> i 
                 ];
 
 !####
@@ -146,14 +152,87 @@ define cnjrmbound   [ %> -> 0 ||  m _ b1, nas c1 _ z ]; !making sure no epenthes
 define cnjaepen     [[..] -> a || nas c1 _ w4 , !a epen for nas-final
                                   nas c1 %>  _  g [w4|o] !d1w4 *= labiovelar gw?
                                   ] ; 
-define w5o          [w5 -> o || nas _ %> a [n|g]] ; !feed oa->oo
-define w5del          [w5 -> 0 || _ %> g o b a  ] ; !bleed ccEpen
+define nvw5oLEVEL          [shortv w5 (->) o || cons _ %> a [n|g]] ; !DAB added for Al Corbiere. capturing a leveling found in Al Corbiere texts: baatiiniwag>baatiinoog, zhgi'gaazowag > zhgi'gaazoog
+define w5o          [w5 -> o || cons _ %> a [n|g]] ; !feed oa->oo ... expanded to cons _ from nas _ to accomodate VII Cwan->Coon
+define w5del          [w5 -> 0 || _ %> [[g o b a]|[n o o n]]  ] ; !bleed ccEpen
 define w5w          [w5 -> w] ; !doesn't require morph bound, but kept it here for contiguity with other w5 rules
-define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization...
-                            nas c1 _ %> nas ]; !workaround for conjunct order
+define mgAssim      [m %> %> g -> n g ] ; !antipassive -ge does not trigger epenthesis, rather it triggers assimilation (Valentine p 405) ADD TO CASCADE
+define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization -> not in noun stems, so can't put i2 here and then trigger td palatalization
+                            nas c1 _ %> nas .o.
+                [..] -> i2 || cons _ %> %> cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
+                            ]; !workaround for conjunct order
 
 define rmBound [[%>|%<|%^] -> 0]; 
 !} end morph bound
+
+!####
+!#reduplication template filling rules
+!####
+define cfill [
+    CRED1 -> b      || _ VRED1 b .o.
+    CRED1 -> d      || _ VRED1 d .o.
+    CRED1 -> g      || _ VRED1 g .o.
+    CRED1 -> j      || _ VRED1 j .o.
+    CRED1 -> z      || _ VRED1 z .o.
+    CRED1 -> z h    || _ VRED1 z h .o.
+    CRED1 -> m      || _ VRED1 m .o.
+    CRED1 -> n      || _ VRED1 n .o.
+    CRED1 -> w      || _ VRED1 w .o.
+    CRED1 -> y      || _ VRED1 y .o.
+    !and initial Cw words?
+    !{Trying to get RED-ateg to come out as tateg in addition to the historically expected yateg (<ayateg)
+    !be alert to VRED1 actually needing to be filled by the historical vowel (too little data to know at the moment... though this innovation presupposes word is now C-initial)
+    !by rights there shouldn't be fortis-initial words (all had initial short V), 
+    !not sure about RED-v_otherC words, though I expect something similar
+    CRED1 VRED1 shortv (->) Bv1 b a    || _  b .o.
+    CRED1 VRED1 shortv (->) Bv1 d a    || _  d .o.
+    CRED1 VRED1 shortv (->) Bv1 g a    || _  g .o.
+    CRED1 VRED1 shortv (->) Bv1  j a  || _   j .o.
+    CRED1 VRED1 shortv (->) Bv1 z a    || _  z .o.
+    CRED1 VRED1 shortv (->) Bv1 z h a  || _  z h .o.
+    CRED1 VRED1 shortv (->) Bv1 p a    || _  p .o.
+    CRED1 VRED1 shortv (->) Bv1 t a    || _  t .o.
+    CRED1 VRED1 shortv (->) Bv1 k a    || _  k .o.
+    CRED1 VRED1 shortv (->) Bv1 c h a  || _  c h .o.
+    CRED1 VRED1 shortv (->) Bv1 s a    || _  s .o.
+    CRED1 VRED1 shortv (->) Bv1 s h a  || _  s h .o.
+    !and former V-cluster words?
+    !}
+    !{guessing what to do with simplified clusters in the dict (gVt->gt->t in the dict)/dict entries that lack the initial vowel
+    !CRED1 VRED1 -> Bv1 b a    || _  b .o.
+    !CRED1 VRED1 -> Bv1 d a    || _  d .o.
+    !CRED1 VRED1 -> Bv1 g a    || _  g .o.
+    !CRED1 VRED1 -> Bv1  j a  || _   j .o.
+    !CRED1 VRED1 -> Bv1 z a    || _  z .o.
+    !CRED1 VRED1 -> Bv1 z h a  || _  z h .o.
+    CRED1 VRED1 -> Bv1 p a    || _  p .o.
+    CRED1 VRED1 -> Bv1 t a    || _  t .o.
+    CRED1 VRED1 -> Bv1 k a    || _  k .o.
+    CRED1 VRED1 -> Bv1 c h a  || _  c h .o.
+    CRED1 VRED1 -> Bv1 s a    || _  s .o.
+    CRED1 VRED1 -> Bv1 s h a  || _  s h .o.
+    !}
+    CRED1 -> 0
+    ];
+
+define fortite [ !I'm inclined to think we had lenition in the reduplicant rather than fortition in the base, but that would require a huge amount of fieldwork to get the right representations
+    b (->) p || VRED1 _ .o.
+    d (->) t || VRED1 _ .o.
+    g (->) k || VRED1 _ .o.
+    j (->) c h || VRED1 _ .o.
+    z (->) s || VRED1 _ .o.
+    z h (->) s h || VRED1 _ 
+    ]; 
+
+define vfill [ !this will be tripped up by cluster-initial words (probably good to make an error here, because I don't know how they are reduplicated
+    [..] -> y           || VRED1      _ vowel          .o. !initial onsetless words !gii-baa-RED-izhaa -> gii-baa-ayizhaa -> gii-baa-yizhaa AK story (Valentine 909)
+    VRED1 -> a a        ||            _ cons [a a|i i]      .o. 
+    VRED1 (->) e        ||            _ cons e              .o. 
+    VRED1 -> [a a|e]    ||            _ cons o o            .o. !Valentine only lists aa for oo reduplication, but we have bebooni-zegim
+    a (->) a a          || VRED1 cons _ \[a]           .o. !stem internal lengthening under reduplication
+    VRED1 -> a          ||            _ cons [i|a|o|e]     !Valentine p 915 has ? for what to do with o
+    ] ;
+
 
 !####
 !#normal rules
@@ -189,9 +268,10 @@ define n4n      [n4 -> n] ;
 define m1m      [m1 -> m] ;
 define w2nas [ w2 -> 0 || _ (vowel) [m|n|n2|n3]]; !not n1 (former lateral)
 define w2def [ w2 -> w ];
-define Spal [s1 -> s h || _ i2 ]; 
+define tdPal [d -> j, t -> c h || _ i2 ] ; !this is derivational morphology palatalization, though specifying the double morpheme boundary seemed redundant ... I couldn't find any VTAs that end in t|d, but if there are, there could be unexpected palatalization in the imperative and cnj(?) and local theme sign ADD TO CASCADE (combine with NSpal? ... -(i)we triggers NS pal (Valentine p 407)
+define NSpal [s1 -> s h, n1 -> z h || _ i2 ]; 
 define Salv [s1 -> s];
-define Npal [n1 -> z h || _ i2]; 
+!define Npal [n1 -> z h || _ i2];  !this is now part of NSpal
 define i2def [i2 -> i];
 define Nalv [n1 -> n]; 
 
@@ -204,6 +284,8 @@ define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]
                  [w|y|absv|w1|w2|y1] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] (cseqs) _ .#.]; !these rules apply "at the same time"
 
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
+
+define y2y  [y2 -> y ];
 
 define n2del  [ n2 (->) 0 || _ .#. ]; !deleting n2s are strictly Odawa, variable in Medler
 define n2def  [ n2 -> n];
@@ -263,6 +345,7 @@ define rsync [vowel -> 0 || _ \%& ];
 
 define codawdel [w (->) 0 || _ cons ]; !w variably deletes in coda Medler
                                         !alternatively: the deleting w (VAI 3 suff) is irregularly present
+define strandedNas [[n|m] (->) 0 || cons  _ cons ]; 
 
 define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init dep stem marker, & stress marker, *extended prefix boundary
 
@@ -270,7 +353,7 @@ define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init
 ! define Morphology ;
 
 read regex [ ! Morphology.l .o.
-    rmvalent    .o. !valentine special char killer
+    rmspecialv    .o. !special char killer
     preGli      .o.
     optinitV    .o. !allows post syncope n-nokii < n[d]-ankii < nidanokii. Comment out for syncope/non-syncope
     preDel      .o.
@@ -294,11 +377,15 @@ read regex [ ! Morphology.l .o.
     cnjW3del    .o.
     cnjrmbound  .o.
     cnjaepen    .o.
+    nvw5oLEVEL    .o.
     w5o         .o.
     w5del       .o.
     w5w         .o.
     ccEpen      .o.
     rmBound     .o. !rules at or above this line reference morpheme boundaries
+    cfill       .o.
+    fortite     .o.
+    vfill       .o.
     ccnjexcrspec .o.
     ccnjlong    .o.
     ccnjshort   .o.
@@ -324,9 +411,8 @@ read regex [ ! Morphology.l .o.
     m1m         .o.
     w2nas       .o.
     w2def       .o.
-    Spal        .o.
+    NSpal        .o.
     Salv        .o.
-    Npal        .o.
     i2def     .o.
     Nalv        .o.
     ny          .o.
@@ -342,6 +428,7 @@ read regex [ ! Morphology.l .o.
     Ei          .o.
     apocope     .o.
     glidedel    .o.
+    y2y         .o.
     n2del       .o.
     n2def       .o.
     str1        .o.
@@ -350,5 +437,7 @@ read regex [ ! Morphology.l .o.
     ambigsync   .o. !comment out for non-syncopated
     rsync       .o. !comment out for non-syncopated
     codawdel    .o. !Medler, probably more general
+    strandedNas .o. !ngoji (not nngoji), etc
     cleanse     
     ]; 
+save stack phonology.hfst
