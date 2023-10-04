@@ -12,22 +12,22 @@ jiig_ya'iing	jiigiy__iing	sync_sim
 jiigyi'iing	jiig_iyiing	sync_sim		
 _maandaa	mmaandaa	C=C		
 maanpii	maampii	nas place		
-m_inwaa	miinwaa	v length		
+m_inwaa	miinwaa	v_length		
 mta__k_mik	mtashkamik	sync	shkDelsh	
 naamyi'iing	naamyi'ii__	loc		
 naan_idaa	naan'itaa	C’	d/t	
 naawyi'iing	naawyi'ii__	loc		
 nango	nongo	a/o		
-nd_awaa__	ndaawaach	v length		
-nd_awaach	ndaawaach	v length		
+nd_awaa__	ndaawaach	v_length		
+nd_awaach	ndaawaach	v_length		
 nengaach	ne_gaach	ngDeln		
 ngo-db__aabaan	ngo-dba'aabaan	sync_sim		
 ngodb__aabaan	ngodba'aabaan	sync_sim		
 niisyi'iing	niisyi'ii__	loc		
-niiygon	niiwgon	yw		
-noongo	n_ongo	v length		
-noongom	n_ongo_	v length		
-oodi	_odi	v length		
+niiygon	niiwgon	y/w		
+noongo	n_ongo	v_length		
+noongom	n_ongo_	v_length		
+oodi	_odi	v_length		
 poo_j	booch	finalDevoi		
 wnjida	_njida	wcc		
 gegwa	geg_o	wa/o		
@@ -52,7 +52,7 @@ Anishinaabe	_Nish_naabe	sync
 Anishnaabe_kwe	_Nishnaabe-kwe	hyphen		
 baagaak_ogan	baagaak'igan	C’		
 baagaakw_igan	baagaakw'igan	C’		
-daabyaan	daab_aan	ccy		
+daabyaan	daab_aan	ccw		
 mdaasoobii'gan	mdaas__bii'gan	bonusVV		
 mjinkaawan	mji_kaawan	ngDeln		
 na'aa	ni'aa	a/i		
@@ -80,7 +80,7 @@ ni'ii	na'ii	a/i
 wiiwkwaan	wii_kwaan	wcc		
 wiiwkwendbebzon	wii_kwendbebzon	wcc		
 wzaabwin	_zaabwin	wcc		
-zhebwyaagan	zhebw_aagan	ccy		
+zhebwyaagan	zhebw_aagan	ccw		
 zhibii'gaans	zhibii_gaans	C’		
 zhibii'gewin	zhibii_gewin	C’		
 zhiibaawaa_mjigan	zhiibaawaabnjigan	bnC/m		
@@ -140,7 +140,7 @@ gzigwan	gzig_on	Kwa/Ko
 _kendaagot	gkendaagot	C=C		
 maajiiwewebde	maajii__yebde	bonusVV		
 _maandaa-zhiwebat	mmaandaa-zhiwebat	C=C		
-mbijiisin	mb___isin	v length		
+mbijiisin	mb___isin	v_length		
 mdwebde	md_ebde	ccw		
 mdwesgisin	md_esgisin	ccw		
 mdweshkaa	md_eshkaa	ccw		
@@ -182,12 +182,12 @@ aabdewebzo	aabd_webza	bonusVV
 aabdwewebza	aabd_ewebza	ccw		
 aabooj_____gwaashkni	aaboojdakiigwaashkni	bonusVV		
 aabziiwshin	aabzii_shin_	wcc		
-aadwa'wii	aad_oowii	complex		
-aajbi'we	aajboowe	complex		
+aadwa'wii	aad_oowii	wa/oo  		
+aajbi'we	aajboowe	i/oo		
 aan'koobza	aan'koopza	clusterVoi		
-aanjshin	aandshin	complex		
-aanjsijge	aandsijge	complex		
-aate_chge	aatebjige	complex		
+aanjshin	aandshin	j/d    		
+aanjsijge	aandsijge	j/d    		
+aate_chge	aatebjige	clusterVoi	sync	ccc
 aatesjige	aatebjige	complex		
 aayaan'koobza	___aan'koopza_	bonusVV	clusterVoi	
 aayaazh_we	aayaazhkwe	stopDel		
@@ -198,13 +198,13 @@ baagaak__oge	baagaakw'ige	Kwa/Ko
 baagaakw_ige	baagaakw'ige	Kwa/Ko		
 bbaatiino	bbaatiini	i/o		
 bdignigo	bdagnigo	a/i		
-bejiiywii	bejii_wii	yw		
+bejiiywii	bejii_wii	y/w		
 bgonezo	bgonezi	i/o		
 bgwisendam	bg_osendam	Kwa/Ko		
 biidaadg_e	biidaadgaa	e/aa		
 biimsk_webshkige	biimskowebshkige	sync		
 biinjse	biindse	nj/nd		
-bkiiywii	bkii_wii	yw		
+bkiiywii	bkii_wii	y/w		
 bkobiiyaadg_e	bkobiiyaadgaa	e/aa		
 bmaadg_e	bmaadgaa	e/aa		
 bmikzhiwe	bmakzhiwe	a/i		
@@ -212,7 +212,7 @@ bnagaakw_ige	bnagaakw'ige	C’
 bshkonaajge	bshkonaa_ge	jgDelj		
 bskaabaadg_e	bskaabaadgaa	e/aa		
 btangbiza	bdangbiza	clusterVoi		
-bzagwii	bzigwii	v length		
+bzagwii	bzigwii	v_length		
 bzagwiindaakji	bzigwiindaakji	a/i		
 bzagwiindkishin	bzigwiindkishin	a/i		
 bzagwiindoode	bzigwiindoode	a/i		
@@ -258,7 +258,7 @@ _kendaasa	gkendaasa	C=C
 _kendmoo'we	gkendmoo'we	C=C		
 _kenjge	gkenjge	C=C		
 _kinoo_maagzi	gkinoo'maagzi	C=C		
-maajiiwewebza	maajii__yebza	bonusVV	yw	
+maajiiwewebza	maajii__yebza	bonusVV	y/w	
 maajiiyaadg_e	maajiiyaadgaa	e/aa		
 _maajninjiini	mmaajninjiini	C=C		
 _maakwii	mmaakwii	C=C		
@@ -384,13 +384,13 @@ __damoojige	gndamooj_ge	#CC	sync
 giikginzo	giikgi_za	nzDeln	a/o	
 _mgishin	bngishin	bnC/m		
 aagnwetam	aagn_etam	ccw		
-bbaa_yaa	bbaa-yaa	v length		
+bbaa_yaa	bbaa-yaa	v_length		
 bbaz_gwii	_b_zigwii	C=C	sync	
 baataaboowe	baataab’iwe	C’	i/oo	
 nokaazan	nakaazan	a/o		
 aadwa'maa	aadoo'maa	ccw	a/oo	
 aan'koobnaa	aan'koopnaa	clusterVoi		
-aandpinaa	aanjpinaa	complex		
+aandpinaa	aanjpinaa	j/d
 aanzy__ep_naa	aanzyaanpinaa	bonusVV		
 aashtewmaa	aazhde_maa	clusterVoi	ccw	
 aazhdaw'aa	aashtaw'aa	clusterVoi		
