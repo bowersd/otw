@@ -251,36 +251,36 @@ PV/gnibi+:ginibi- V_REDUPLICATION_GET " 1 quickly" ;
 PV/aano+:aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !Valentine 2001 doesn't specify slot
 !DUP REMOVE!PV/aana+:X2aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
 PV/aano+:X2aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !optional blocker to stop ccnj yaano!Valentine 2001 doesn't specify slot
-PV/aabaji+:aabaji- V_REDUPLICATION_GET " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
-PV/aapaji+:aapaji- V_REDUPLICATION_GET " 1 very;  2 completely, entirely, fully";
-PV/baakaji+:baakaji- V_REDUPLICATION_GET " 1 irreversible, irreversibly";
-PV/bichi+:bichi- V_REDUPLICATION_GET " 1 accidentally, by mistake";
-PV/bizaani+:bizaani- V_REDUPLICATION_GET " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil";
-PV/dago+:dago- V_REDUPLICATION_GET " 1 along [with others], among [others], together [with others], with";
-PV/gichi+:gichi- V_REDUPLICATION_GET " 1 much, lots, extremely, great (in degree), very, hard (in sense of being extreme)";
-PV/gagiibaaji+:gagiibaaji- V_REDUPLICATION_GET " 1 badly, foolishly";
-PV/gagwetaani+:gagwetaani- V_REDUPLICATION_GET " 1 exceedingly, extremely, awfully, so, terribly";
-PV/gimooji+:gimooji- V_REDUPLICATION_GET " 1 covertly, secretly, sneakily, stealthily, on the sly";
+PV/aabji+:aabaji- V_REDUPLICATION_GET " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
+PV/aapji+:aapaji- V_REDUPLICATION_GET " 1 very;  2 completely, entirely, fully";
+PV/baakji+:baakaji- V_REDUPLICATION_GET " 1 irreversible, irreversibly";
+PV/bchi+:bichi- V_REDUPLICATION_GET " 1 accidentally, by mistake";
+PV/bzaani+:bizaani- V_REDUPLICATION_GET " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil";
+PV/dgo+:dago- V_REDUPLICATION_GET " 1 along [with others], among [others], together [with others], with";
+PV/gchi+:gichi- V_REDUPLICATION_GET " 1 much, lots, extremely, great (in degree), very, hard (in sense of being extreme)";
+PV/ggiibaaji+:gagiibaaji- V_REDUPLICATION_GET " 1 badly, foolishly";
+PV/ggwetaani+:gagwetaani- V_REDUPLICATION_GET " 1 exceedingly, extremely, awfully, so, terribly";
+PV/gmooji+:gimooji- V_REDUPLICATION_GET " 1 covertly, secretly, sneakily, stealthily, on the sly";
 PV/giimooji+:giimooji- V_REDUPLICATION_GET " 1 covertly, secretly, sneakily, stealthily, on the sly";
 PV/maamiiko+:maamiiko- V_REDUPLICATION_GET " 1 amazingly, remarkably";
 PV/maamwi+:maamwi- V_REDUPLICATION_GET " 1 all, all together, among them all";
-PV/mamaandaa+:mamaandaa- V_REDUPLICATION_GET " 1 amazing, incredible, miraculously";
+PV/mmaandaa+:mamaandaa- V_REDUPLICATION_GET " 1 amazing, incredible, miraculously";
 PV/maandaa+:mamaandaa-   V_REDUPLICATION_GET    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
 PV/niizaani+:niizaani- V_REDUPLICATION_GET " 1 dangerous";
-PV/nipaaj+:nipaaj- V_REDUPLICATION_GET " 1 incorrectly, the wrong way";
+PV/npaaj+:nipaaj- V_REDUPLICATION_GET " 1 incorrectly, the wrong way";
 PV/wiiji+:wiiji- V_REDUPLICATION_GET " 1 with";
 PV/wiinge+:wiinge- V_REDUPLICATION_GET " 1 completely, entirely, thoroughly";
 PV/maanaaji+:maanaaji- V_REDUPLICATION_GET " 1 bad, evil, harmful, wrong";
-PV/maji+:maji- V_REDUPLICATION_GET " 1 badly, evilly";
-PV/mino+:mino- V_REDUPLICATION_GET " 1 good, well;  2 nice, pleasant";
-PV/aabita+:aabita- V_REDUPLICATION_GET " 1 half, halfway; mid, midway";
-PV/nigo+:nigo- V_REDUPLICATION_GET " 1 one";
+PV/mji+:maji- V_REDUPLICATION_GET " 1 badly, evilly";
+PV/mno+:mino- V_REDUPLICATION_GET " 1 good, well;  2 nice, pleasant";
+PV/aabta+:aabita- V_REDUPLICATION_GET " 1 half, halfway; mid, midway";
+PV/ngo+:nigo- V_REDUPLICATION_GET " 1 one";
 PV/niizho+:niizho- V_REDUPLICATION_GET " 1 two"; 
-PV/niso+:niso- V_REDUPLICATION_GET " 1 three"; 
+PV/nso+:niso- V_REDUPLICATION_GET " 1 three"; 
 PV/niiwoo+:niiwoo- V_REDUPLICATION_GET " 1 four"; 
 PV/niiyoo+:niiyoo- V_REDUPLICATION_GET " 1 four" ; 
 PV/naano+:naano- V_REDUPLICATION_GET " 1 five"; 
-PV/nigodwaaso+:nigodwaaso- V_REDUPLICATION_GET " 1 six"; 
+PV/ngodwaaso+:nigodwaaso- V_REDUPLICATION_GET " 1 six"; 
             V_REDUPLICATION_GET    ;
 
 LEXICON V_REDUPLICATION_GET
