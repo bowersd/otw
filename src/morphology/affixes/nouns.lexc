@@ -51,6 +51,9 @@
 !        NOUNS ; 
 !
 LEXICON N_PRENOUNS
+!{NOT IN DICT
+PN/gaami+:gaami-    NOUNS    " 1 across a body of water" ; !
+!}
 PN/aabta+:aabita-    NOUNS    " 1 half " ; !Rand key:n72972558580n
 PN/baapaagi-shki+:baapaagi-oshki-    NOUNS    " 1 brand spanking new" ; !Rand key:n73010342316n
 PN/baate+:baate-    NOUNS    " 1 dried" ; !Rand key:n72975264705n
