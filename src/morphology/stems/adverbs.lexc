@@ -1,7 +1,7 @@
 LEXICON PA
-gchi-:gichi-    AV_GATEWAY    " 1 very;  2 the unit period after (with time expressions)" ; !Rand key:n2010121223-12-33n
-wasi-:awasi-    AV_GATEWAY    " 1 used with a time adverbial to indicate the period before last, e.g., <nish>wasi-bboonong</nish>, 'the year before last'" ; !Rand key:n201132612-19-17n
-ewaanji-:ewaanji-    AV_GATEWAY    " 1 the most, to the greatest extent, degree, quality or quantity" ; !Rand key:n20114911-51-32n
+PA/gchi+:gichi-    AV_GATEWAY    " 1 very;  2 the unit period after (with time expressions)" ; !Rand key:n2010121223-12-33n
+PA/wasi+:awasi-    AV_GATEWAY    " 1 used with a time adverbial to indicate the period before last, e.g., <nish>wasi-bboonong</nish>, 'the year before last'" ; !Rand key:n201132612-19-17n
+PA/ewaanji+:ewaanji-    AV_GATEWAY    " 1 the most, to the greatest extent, degree, quality or quantity" ; !Rand key:n20114911-51-32n
                 AV_GATEWAY ;
 
 LEXICON AV_GATEWAY
