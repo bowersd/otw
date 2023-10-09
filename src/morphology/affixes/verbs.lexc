@@ -245,11 +245,11 @@ PV/dami+:ondami-    V_REDUPLICATION_GET    " 1 be busy with something, be preocc
 !DUP REMOVE!PV/dami+:odami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
 PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_GET    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
 !}
-PV/niboodwewi+:niboodwewi- V_REDUPLICATION_GET " 1 embarassedly" ;
-PV/ginibi+:ginibi- V_REDUPLICATION_GET " 1 quickly" ;
-PV/aana+:aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !Rand key:n72973263339n
+PV/nboodwewi+:niboodwewi- V_REDUPLICATION_GET " 1 embarassedly" ;
+PV/gnibi+:ginibi- V_REDUPLICATION_GET " 1 quickly" ;
+!DUP REMOVE!PV/aana+:aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !Rand key:n72973263339n
 PV/aano+:aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !Valentine 2001 doesn't specify slot
-PV/aana+:X2aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
+!DUP REMOVE!PV/aana+:X2aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
 PV/aano+:X2aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !optional blocker to stop ccnj yaano!Valentine 2001 doesn't specify slot
 PV/aabaji+:aabaji- V_REDUPLICATION_GET " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
 PV/aapaji+:aapaji- V_REDUPLICATION_GET " 1 very;  2 completely, entirely, fully";
