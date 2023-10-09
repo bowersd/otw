@@ -274,9 +274,9 @@ PV/maanaaji+:maanaaji- V_REDUPLICATION_GET " 1 bad, evil, harmful, wrong";
 PV/mji+:maji- V_REDUPLICATION_GET " 1 badly, evilly";
 PV/mno+:mino- V_REDUPLICATION_GET " 1 good, well;  2 nice, pleasant";
 PV/aabta+:aabita- V_REDUPLICATION_GET " 1 half, halfway; mid, midway";
-PV/n'go+:nigo- V_REDUPLICATION_GET " 1 one";
+PV/n'go+:nigo- V_REDUPLICATION_GET " 1 one"; !should this be /ningo/ as in nouns.lexc?
 PV/niizho+:niizho- V_REDUPLICATION_GET " 1 two"; 
-PV/n'so+:niso- V_REDUPLICATION_GET " 1 three"; 
+PV/n'so+:niso- V_REDUPLICATION_GET " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
 PV/niiwoo+:niiwoo- V_REDUPLICATION_GET " 1 four"; 
 !DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_GET " 1 four" ; 
 PV/naano+:naano- V_REDUPLICATION_GET " 1 five"; 
