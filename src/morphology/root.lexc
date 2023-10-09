@@ -49,6 +49,7 @@ VRED1
 !Verb Derivation
 +Rflx !reflexive (VTA->VAI)
 +Rcpl !reciprocal (VTA->VAI)
++Pass !passive (VTA/VTI->VAI/VII) possibly VAI -> VAI
 
 !! Verb Negation
 +Neg  
