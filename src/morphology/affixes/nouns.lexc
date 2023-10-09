@@ -90,7 +90,7 @@ PN/waawye+:waawiye-    NOUNS    " 1 round" ; !Rand key:n73071851611n
 PN/wenda+:wenda-    NOUNS    " 1 of no special kind, regular" ; !Rand key:n73034032619n
 PN/yekwaa+:ayekwaa-    NOUNS    " 1 at the end" ; !Rand key:n73072240567n
 PN/zaaw+:ozaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
-PN/zaaw+:zaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
+!DUP REMOVE!PN/zaaw+:zaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
 PN/aagwi+:aagawi-    NOUNS    " 1 behind, located behind" ; !Rand key:n20101278-46-15n
 !PN/da+:oda-    NOUNS    " 1 his/her/their" ; !Rand key:n201132713-44-38n
 !PN/doo+:o-    NOUNS    " 1 <i>the third person possessor marker</i>" ; !Rand key:n20113286-58-47n
