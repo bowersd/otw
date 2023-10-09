@@ -204,7 +204,7 @@ PV/ggweji+:gagweji-   V_PREVERBS_MANNER " 1 try to [do something], try and [do s
 PV/kawe+:akawe-   V_PREVERBS_MANNER " 1 do something first [before doing something else], do something first [before resuming another activity]";
 PV/maajii+:maajii-  V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
 PV/nanda+:nanda-  V_PREVERBS_MANNER " 1 look [to do something], seek [to do something], in the hope of [something happening]";
-PV/nando+:nando-  V_PREVERBS_MANNER " 1 [see nda-]"; !spelling variant should be removed, variation handled by spell relax
+!DUP REMOVE!PV/nando+:nando-  V_PREVERBS_MANNER " 1 [see nda-]"; !spelling variant should be removed, variation handled by spell relax
 !PV/nanda+:nda-    V_PREVERBS_MANNER    " 1 look [to do something], seek [to do something], in the hope of [something happening]" ; !Rand key:n71431357611n
 !PV/nando+:ndo-    V_PREVERBS_MANNER    " 1 [see nda-]" ; !Rand key:n71431444116n
 PV/noonde+:noonde-  V_PREVERBS_MANNER " 1 before a goal is reached, in the attempt of something, before something was to happen, prematurely, unexpectedly";
