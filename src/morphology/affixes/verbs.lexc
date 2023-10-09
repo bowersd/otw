@@ -238,11 +238,11 @@ PV/aan'ke+:aanike-    V_REDUPLICATION_GET    " 1 in succession, in turn" ; !Rand
 PV/aanji+:aanji-    V_REDUPLICATION_GET    " 1 over again" ; !Rand key:n72973362179n
 PV/aanooji+:aanooji-    V_REDUPLICATION_GET    " 1 dreadfully" ; !Rand key:n73045823524n
 PV/baashji+:baashiji-    V_REDUPLICATION_GET    " 1 over, to an excessive degree" ; !Rand key:n72915857109n
-!PV/bgwaji+:bagwaji-    V_REDUPLICATION_GET    " 1 [see bgoji-]" ; !Rand key:n72976865281n
+!DUP REMOVE!PV/bgwaji+:bagwaji-    V_REDUPLICATION_GET    " 1 [see bgoji-]" ; !Rand key:n72976865281n
 PV/bgoji+:bagoji-    V_REDUPLICATION_GET    " 1 wild" ; !Rand key:n72976865281n
 PV/bzaani+:bizaani-    V_REDUPLICATION_GET    " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil" ; !Rand key:n72985145321n
 PV/dami+:ondami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
-PV/dami+:odami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+!DUP REMOVE!PV/dami+:odami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
 PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_GET    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
 !}
 PV/niboodwewi+:niboodwewi- V_REDUPLICATION_GET " 1 embarassedly" ;
