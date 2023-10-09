@@ -7,3 +7,9 @@ LEXICON VTI_BASE_DERIV_VAI
 
 LEXICON VTI_BASE_DERIV_VII 
 +Pass+VII:%>%>gaade  VII_ORDERS_GET ;
+
+LEXICON DERIV_VII
++VII:magad2 VII_ORDERS_GET ; !what is base for magad? need to enforce lengthening
+
+LEXICON VAI_BASE_DERIV_NI
++NI:win NI_SET ;
