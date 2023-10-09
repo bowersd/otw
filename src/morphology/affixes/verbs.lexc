@@ -647,9 +647,12 @@ LEXICON VAI_CNJ_PCP_OBV
 
 !just one slot under our analysis
 LEXICON VAI_IMPER 
-+Imm+2:%>n       # ;
-+Imm+2+Pl:g       # ;
-+Imm+2+1+Pl:daa      # ;
++2:%>n       # ;
++2+Pl:g       # ;
++2+1+Pl:daa      # ;
+!+Imm+2:%>n       # ;
+!+Imm+2+Pl:g       # ;
+!+Imm+2+1+Pl:daa      # ;
 +Del+2:%>kan     # ; !stem-final short vowels may lengthen before this suff
 +Del+2+Pl:%>keg     # ; !stem-final short vowels may lengthen before this suff
 +Neg+2:%>ken2    # ;
@@ -1854,18 +1857,30 @@ LEXICON VTA_CNJ_PCP_INAN_PL
 
 !{ imp order
 LEXICON VTA_IMPER
-+Imm+2+1:i2shin # ; !p 304 reports optional palatalization
-+Imm+2+1+Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
-+Imm+2+Pl+1+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
-+Imm+2+Pl+1:i2shik # ;
-+Imm+2+3:i2 # ; !p 304 only reports pal for this slot, but I extended to others
-+Imm+2+3:i2n # ;
-+Imm+2+3+Pl:i2 # ;
-+Imm+2+3+Pl:i2n # ;
-+Imm+2+1+Pl+3:aadaa # ;
-+Imm+2+1+Pl+3+Pl:%>miinaadaanik # ;
-+Imm+2+Pl+3:i2k # ;
-+Imm+2+Pl+3+Pl:i2k # ;
++2+1:i2shin # ; !p 304 reports optional palatalization
++2+1+Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
++2+Pl+1+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
++2+Pl+1:i2shik # ;
++2+3:i2 # ; !p 304 only reports pal for this slot, but I extended to others
++2+3:i2n # ;
++2+3+Pl:i2 # ;
++2+3+Pl:i2n # ;
++2+1+Pl+3:aadaa # ;
++2+1+Pl+3+Pl:%>miinaadaanik # ;
++2+Pl+3:i2k # ;
++2+Pl+3+Pl:i2k # ;
+!+Imm+2+1:i2shin # ; !p 304 reports optional palatalization
+!+Imm+2+1+Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
+!+Imm+2+Pl+1+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
+!+Imm+2+Pl+1:i2shik # ;
+!+Imm+2+3:i2 # ; !p 304 only reports pal for this slot, but I extended to others
+!+Imm+2+3:i2n # ;
+!+Imm+2+3+Pl:i2 # ;
+!+Imm+2+3+Pl:i2n # ;
+!+Imm+2+1+Pl+3:aadaa # ;
+!+Imm+2+1+Pl+3+Pl:%>miinaadaanik # ;
+!+Imm+2+Pl+3:i2k # ;
+!+Imm+2+Pl+3+Pl:i2k # ;
 
 +Del+2+1:i2shikan # ;
 !+Del+2+1+Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
@@ -2087,10 +2102,14 @@ LEXICON VTI_CNJ_DUB
 
 !{ imperative
 LEXICON VTI_IMPER 
-+Imm+2:n4 # ; !no lengthening (amn -/> aan)
-+Imm+2+Pl:ok # ; !og optionally after vowels?
-+Imm+2+1+Pl+%0:daa # ;
-+Imm+2+1+Pl+%0+Pl:daanin # ;
++2:n4 # ; !no lengthening (amn -/> aan)
++2+Pl:ok # ; !og optionally after vowels?
++2+1+Pl+%0:daa # ;
++2+1+Pl+%0+Pl:daanin # ;
+!+Imm+2:n4 # ; !no lengthening (amn -/> aan)
+!+Imm+2+Pl:ok # ; !og optionally after vowels?
+!+Imm+2+1+Pl+%0:daa # ;
+!+Imm+2+1+Pl+%0+Pl:daanin # ;
 +Del+2:%>kan # ; 
 +Del+2+Pl:%>keg # ; 
 +Del+2+1+Pl+%0:%>kang # ;
