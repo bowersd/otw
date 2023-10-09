@@ -13,3 +13,6 @@ LEXICON DERIV_VII
 
 LEXICON VAI_BASE_DERIV_NI
 +NI:win NI_SET ;
+
+LEXICON N_BASE_DERIV_VAI
++VAI:w  VAI_ORDERS_GET ; !what flavor of w is this (phonologically)? need to require 3+.*+PosThm
