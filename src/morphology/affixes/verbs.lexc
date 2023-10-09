@@ -241,7 +241,7 @@ PV/baashji+:baashiji-    V_REDUPLICATION_GET    " 1 over, to an excessive degree
 !DUP REMOVE!PV/bgwaji+:bagwaji-    V_REDUPLICATION_GET    " 1 [see bgoji-]" ; !Rand key:n72976865281n
 PV/bgoji+:bagoji-    V_REDUPLICATION_GET    " 1 wild" ; !Rand key:n72976865281n
 PV/bzaani+:bizaani-    V_REDUPLICATION_GET    " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil" ; !Rand key:n72985145321n
-PV/dami+:ondami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+!DUP REMOVE!PV/dami+:ondami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
 !DUP REMOVE!PV/dami+:odami-    V_REDUPLICATION_GET    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
 PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_GET    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
 !}
@@ -274,13 +274,13 @@ PV/maanaaji+:maanaaji- V_REDUPLICATION_GET " 1 bad, evil, harmful, wrong";
 PV/mji+:maji- V_REDUPLICATION_GET " 1 badly, evilly";
 PV/mno+:mino- V_REDUPLICATION_GET " 1 good, well;  2 nice, pleasant";
 PV/aabta+:aabita- V_REDUPLICATION_GET " 1 half, halfway; mid, midway";
-PV/ngo+:nigo- V_REDUPLICATION_GET " 1 one";
+PV/n'go+:nigo- V_REDUPLICATION_GET " 1 one";
 PV/niizho+:niizho- V_REDUPLICATION_GET " 1 two"; 
-PV/nso+:niso- V_REDUPLICATION_GET " 1 three"; 
+PV/n'so+:niso- V_REDUPLICATION_GET " 1 three"; 
 PV/niiwoo+:niiwoo- V_REDUPLICATION_GET " 1 four"; 
 !DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_GET " 1 four" ; 
 PV/naano+:naano- V_REDUPLICATION_GET " 1 five"; 
-PV/ngodwaaso+:nigodwaaso- V_REDUPLICATION_GET " 1 six"; 
+PV/n'godwaaso+:nigodwaaso- V_REDUPLICATION_GET " 1 six"; 
             V_REDUPLICATION_GET    ;
 
 LEXICON V_REDUPLICATION_GET
