@@ -76,7 +76,7 @@ PV/ji-bwaa+:ji-bwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Rand
 PV/CCNJ+:PV/CCNJ+   V_PREVERBS_CCNJ_SET ; !changed conjunct trigger (should it precede this slot?)
 !}
 PV/e+:e-    V_PREVERBS_CCNJ_SET " 1  <i>historically, the changed form of the preverb <nish>a-</nish>, but its function has broadened in modern usage.</i>"; !This is in competition with initial change. Rhodes 1996:4 indicates that initial change still dominates for participles
-PV/a+:a-   V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 where;  2 when;  3 which, that which"; !does this just syncopate to nothing? !need update on this preverb
+PV/a+:a-   V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 where;  2 when;  3 which, that which"; !does this just syncopate to nothing? !need update on this preverb -> it does not delete
 !NO LONGER MUST BE LISTED PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 the changed form of the past tense preverb <nish>gii-</nish>";
 PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET "that" ;!formerly changed form of gii, has life of own now 
         V_PREVERBS_TENSE ;
@@ -216,7 +216,7 @@ PV/shki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
 
 LEXICON V_PREVERBS_MANNER
 !{ uncertain of position
-PV/o+:o-    V_REDUPLICATION_GET    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n !need clarification on how this preverb is supposed to surface. does it just completely delete?
+PV/o+:o-    V_REDUPLICATION_GET    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n !need clarification on how this preverb is supposed to surface. does it just completely delete? no! finality trumps LR parse
 PV/waanji+:waanji-    V_REDUPLICATION_GET    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
 PV/nshinaaji+:nishinaaji-    V_REDUPLICATION_GET    " 1 devastatingly" ; !Rand key:n73099738407n
 PV/niibaa+:niibaa-    V_REDUPLICATION_GET    " 1 at night" ; !Rand key:n71431746367n
@@ -265,7 +265,7 @@ PV/giimooji+:giimooji- V_REDUPLICATION_GET " 1 covertly, secretly, sneakily, ste
 PV/maamiiko+:maamiiko- V_REDUPLICATION_GET " 1 amazingly, remarkably";
 PV/maamwi+:maamwi- V_REDUPLICATION_GET " 1 all, all together, among them all";
 PV/mmaandaa+:mamaandaa- V_REDUPLICATION_GET " 1 amazing, incredible, miraculously";
-PV/maandaa+:mamaandaa-   V_REDUPLICATION_GET    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
+!DUP REMOVE!PV/maandaa+:mamaandaa-   V_REDUPLICATION_GET    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
 PV/niizaani+:niizaani- V_REDUPLICATION_GET " 1 dangerous";
 PV/npaaj+:nipaaj- V_REDUPLICATION_GET " 1 incorrectly, the wrong way";
 PV/wiiji+:wiiji- V_REDUPLICATION_GET " 1 with";
@@ -278,7 +278,7 @@ PV/ngo+:nigo- V_REDUPLICATION_GET " 1 one";
 PV/niizho+:niizho- V_REDUPLICATION_GET " 1 two"; 
 PV/nso+:niso- V_REDUPLICATION_GET " 1 three"; 
 PV/niiwoo+:niiwoo- V_REDUPLICATION_GET " 1 four"; 
-PV/niiyoo+:niiyoo- V_REDUPLICATION_GET " 1 four" ; 
+!DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_GET " 1 four" ; 
 PV/naano+:naano- V_REDUPLICATION_GET " 1 five"; 
 PV/ngodwaaso+:nigodwaaso- V_REDUPLICATION_GET " 1 six"; 
             V_REDUPLICATION_GET    ;
