@@ -72,7 +72,7 @@ LEXICON V_PREVERBS_SUBORDINATOR
 PV/jibwaa+:Bv1jibwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Not sure what the analysis is supposed to be, but this preverb gets writen without a hyphen
 PV/ji+:ji-    V_PREVERBS_SUBORDINATOR_ORDER_SET    "subordinator" ; !ji- can precede gii- (Waaskone miinwaa Gnebgood story), I don't want to try to compute meaning of jibwaa (above) from ji and bwaa (below)
 !}
-PV/ji+bwaa+:ji-bwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Rand key:n20114310-3-12n
+PV/ji-bwaa+:ji-bwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Rand key:n20114310-3-12n
 PV/CCNJ+:PV/CCNJ+   V_PREVERBS_CCNJ_SET ; !changed conjunct trigger (should it precede this slot?)
 !}
 PV/e+:e-    V_PREVERBS_CCNJ_SET " 1  <i>historically, the changed form of the preverb <nish>a-</nish>, but its function has broadened in modern usage.</i>"; !This is in competition with initial change. Rhodes 1996:4 indicates that initial change still dominates for participles
