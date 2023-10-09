@@ -216,7 +216,7 @@ PV/shki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
 
 LEXICON V_PREVERBS_MANNER
 !{ uncertain of position
-PV/o+:o-    V_REDUPLICATION_GET    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n
+PV/o+:o-    V_REDUPLICATION_GET    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n !need clarification on how this preverb is supposed to surface. does it just completely delete?
 PV/waanji+:waanji-    V_REDUPLICATION_GET    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
 PV/nshinaaji+:nishinaaji-    V_REDUPLICATION_GET    " 1 devastatingly" ; !Rand key:n73099738407n
 PV/niibaa+:niibaa-    V_REDUPLICATION_GET    " 1 at night" ; !Rand key:n71431746367n
