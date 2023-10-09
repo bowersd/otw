@@ -76,7 +76,7 @@ PV/ji-bwaa+:ji-bwaa-    V_PREVERBS_SUBORDINATOR_ORDER_SET    " 1 before" ; !Rand
 PV/CCNJ+:PV/CCNJ+   V_PREVERBS_CCNJ_SET ; !changed conjunct trigger (should it precede this slot?)
 !}
 PV/e+:e-    V_PREVERBS_CCNJ_SET " 1  <i>historically, the changed form of the preverb <nish>a-</nish>, but its function has broadened in modern usage.</i>"; !This is in competition with initial change. Rhodes 1996:4 indicates that initial change still dominates for participles
-PV/a+:a-   V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 where;  2 when;  3 which, that which"; !does this just syncopate to nothing?
+PV/a+:a-   V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 where;  2 when;  3 which, that which"; !does this just syncopate to nothing? !need update on this preverb
 !NO LONGER MUST BE LISTED PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 the changed form of the past tense preverb <nish>gii-</nish>";
 PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET "that" ;!formerly changed form of gii, has life of own now 
         V_PREVERBS_TENSE ;
