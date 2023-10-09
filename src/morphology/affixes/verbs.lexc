@@ -201,17 +201,17 @@ PV/de+:dX2e-       V_PREVERBS_MANNER " 1 fair (amount), moderate (amount)"; !con
 PV/ggwe+:gagwe- V_PREVERBS_MANNER " 1 try to [do something]";
 PV/ggweji+:gagweji-   V_PREVERBS_MANNER " 1 try to [do something], try and [do something], try [doing something]";
 !DUP REMOVE!PV/kweji+:gagweji-    V_PREVERBS_MANNER    " 1 [see ggweji-]" ; !Rand key:n73032725062n
-PV/akawe+:akawe-   V_PREVERBS_MANNER " 1 do something first [before doing something else], do something first [before resuming another activity]";
+PV/kawe+:akawe-   V_PREVERBS_MANNER " 1 do something first [before doing something else], do something first [before resuming another activity]";
 PV/maajii+:maajii-  V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
 PV/nanda+:nanda-  V_PREVERBS_MANNER " 1 look [to do something], seek [to do something], in the hope of [something happening]";
 PV/nando+:nando-  V_PREVERBS_MANNER " 1 [see nda-]";
 !PV/nanda+:nda-    V_PREVERBS_MANNER    " 1 look [to do something], seek [to do something], in the hope of [something happening]" ; !Rand key:n71431357611n
 !PV/nando+:ndo-    V_PREVERBS_MANNER    " 1 [see nda-]" ; !Rand key:n71431444116n
 PV/noonde+:noonde-  V_PREVERBS_MANNER " 1 before a goal is reached, in the attempt of something, before something was to happen, prematurely, unexpectedly";
-PV/nitaa+:nitaa-    V_PREVERBS_MANNER " 1 be good at [something], do something well;  2 be prone to something, be inclined to do something, [do something] often;  3 know how to do something, be able to do something, can do something";
-PV/ishkwaa+:ishkwaa-  V_PREVERBS_MANNER " 1 after [doing something];  2 finish [doing something], quit [doing something], end [be over]";
+PV/ntaa+:nitaa-    V_PREVERBS_MANNER " 1 be good at [something], do something well;  2 be prone to something, be inclined to do something, [do something] often;  3 know how to do something, be able to do something, can do something";
+PV/shkwaa+:ishkwaa-  V_PREVERBS_MANNER " 1 after [doing something];  2 finish [doing something], quit [doing something], end [be over]";
 PV/webi+:webi-    V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
-PV/oshki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
+PV/shki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
             V_PREVERBS_MANNER    ;
 
 LEXICON V_PREVERBS_MANNER
