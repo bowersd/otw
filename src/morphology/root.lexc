@@ -117,7 +117,7 @@ VRED1
 +Qnt    !quantifiers
 +Adv    !adverbials
 
-! Preverbs/Prenouns
+! Preverbs/Prenouns/Pre-Adverbs
 
 PV/CCNJ+ !changed conjunct (also ref'd in phonology)
 PV/jibwaa+ !this can probably be further analyzed/better represented
@@ -298,6 +298,9 @@ PN/ge+
 PN/baashji+
 PN/bbooni+
 PN/bganji+
+PA/gchi+
+PA/wasi+
+PA/ewaanji+
 
 !! Punctuation
 
