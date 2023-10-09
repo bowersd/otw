@@ -200,7 +200,7 @@ PV/booni+:booni-    V_PREVERBS_MANNER " 1 quit [doing sth.], stop [doing sth.]";
 PV/de+:dX2e-       V_PREVERBS_MANNER " 1 fair (amount), moderate (amount)"; !contains blocker to stop dye when ccnj
 PV/ggwe+:gagwe- V_PREVERBS_MANNER " 1 try to [do something]";
 PV/ggweji+:gagweji-   V_PREVERBS_MANNER " 1 try to [do something], try and [do something], try [doing something]";
-PV/kweji+:gagweji-    V_PREVERBS_MANNER    " 1 [see ggweji-]" ; !Rand key:n73032725062n
+!DUP REMOVE!PV/kweji+:gagweji-    V_PREVERBS_MANNER    " 1 [see ggweji-]" ; !Rand key:n73032725062n
 PV/akawe+:akawe-   V_PREVERBS_MANNER " 1 do something first [before doing something else], do something first [before resuming another activity]";
 PV/maajii+:maajii-  V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
 PV/nanda+:nanda-  V_PREVERBS_MANNER " 1 look [to do something], seek [to do something], in the hope of [something happening]";
