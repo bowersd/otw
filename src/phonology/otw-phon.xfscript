@@ -268,8 +268,8 @@ define n4n      [n4 -> n] ;
 define m1m      [m1 -> m] ;
 define w2nas [ w2 -> 0 || _ (vowel) [m|n|n2|n3]]; !not n1 (former lateral)
 define w2def [ w2 -> w ];
-define tdPal [d -> j, t -> c h || _ i2 ] ; !this is derivational morphology palatalization, though specifying the double morpheme boundary seemed redundant ... I couldn't find any VTAs that end in t|d, but if there are, there could be unexpected palatalization in the imperative and cnj(?) and local theme sign ADD TO CASCADE (combine with NSpal? ... -(i)we triggers NS pal (Valentine p 407)
-define NSpal [s1 -> s h, n1 -> z h || _ i2 ]; 
+!define tdPal [d -> j, t -> c h || _ i2 ] ; !combined with NSpal this is derivational morphology palatalization, though specifying the double morpheme boundary seemed redundant ... I couldn't find any VTAs that end in t|d, but if there are, there could be unexpected palatalization in the imperative and cnj(?) and local theme sign ADD TO CASCADE (combine with NSpal? ... -(i)we triggers NS pal (Valentine p 407)
+define NSpal [s1 -> s h, n1 -> z h, d -> j, t -> c h || _ i2 ]; 
 define Salv [s1 -> s];
 !define Npal [n1 -> z h || _ i2];  !this is now part of NSpal
 define i2def [i2 -> i];
