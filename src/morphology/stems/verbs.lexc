@@ -10087,10 +10087,14 @@ LEXICON VTA_NAA_MANAGEMENT
 @D.Order.Cnj@@D.Person@  VTA_NAA_INDEP_NONLOCAL_PASSIVE ; 
 @D.Order.Cnj@@R.Person.3@  VTA_NAA_INDEP_THEME_SECOND_PERSON ; 
 @D.Person@                  VTA_NAA_NON_INDEP_GET ; 
+@D.Person.3@                VTA_NAA_PRE_DETRANSITIVE ;
 
 LEXICON VTA_NAA_THEME
 +ThmDir:in1aa    VTA_INDEP_THEME_DIRECT_GATEWAY    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
 +ThmInv:igo    VTA_INDEP_THEME_INVERSE_SET    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
+
+LEXICON VTA_NAA_LOCAL_PASSIVE 
+0:in1    VTA_DETRANSITIVE    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
 
 LEXICON VTA_NAA_LOCAL_PASSIVE 
 0:in1    VTA_INDEP_THEME_LOCAL_PASSIVE    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
@@ -10103,6 +10107,9 @@ LEXICON VTA_NAA_INDEP_THEME_SECOND_PERSON
 
 LEXICON VTA_NAA_NON_INDEP_GET
 0:in1    VTA_NON_INDEP_GET " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
+
+LEXICON VTA_NAA_PRE_DETRANSITIVE
+0:in1   VTA_DETRANSITIVE ; 
 
 !LEXICON VTA_DEF
 !misawi    VTA_TAG    "make sure s.o. never does such a thing again and learns one's lesson" ; !line:7138, word:w6394w, sense:s68908756491s
