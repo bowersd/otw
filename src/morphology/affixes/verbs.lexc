@@ -768,6 +768,7 @@ LEXICON VTA_DETRANSITIVE
 !p 413 for productive VAI secondary finals
 +Rcpl:idi       VAI_ORDERS_GET ;
 +Rflx:idizo     VAI_ORDERS_GET ;
+                VTI_BASE_DERIV_VAI ; 
 
 !#####
 !#VTA Inflection 
