@@ -1,0 +1,18 @@
+!following Valentine 2001 p:516 et seq
+
+!VAI, VII, NA, NI sub-prenouns, NAD? NID? can be left element
+LEXICON NOMINAL_COMPOUNDING_SET
+@C.Animate@ NOMINAL_COMPOUNDING ;
+
+LEXICON NOMINAL_COMPOUNDING
++:-     NOMINAL_COMPOUNDING_GATEWAY ;  !type one, no special linkage (separate phonological words?)
++:i-    NOMINAL_COMPOUNDING_GATEWAY ;  !type 2, add i and THEN: i1 vocalizes and lengthens, iw2 drops w2 and lengthens i, treat zhmaagnish as if it were zhmaagnishiw? what happens to other final segments?
++:w    NOMINAL_COMPOUNDING_GATEWAY ;  !type 3, extensional w and preceding vowel lengthens
+!4th pattern sub pre-noun added to left ... this indicates that we need a separate inventory, not noun roots here. 
+!the discussion on p 518 claims that the sub-prenouns must be prenouns because stress/syncope restarts at the left edge of the head. 
+!I don't see why this would diagnose prenouns vs compounds. could compounds not have a phonological boundary between them? I certainly thought types 1 and 2 had a boundary (type 3 isn't written with a hyphen, I assume there is no pword boundary inside these compounds). Was I wrong on types 1 and 2?
+
+LEXICON NOMINAL_COMPOUNDING_GATEWAY !pick up right element (only NA, NI?)
+    NI ;
+    NA ; 
+    !what is the correct behavior of dependent nouns in compounds? if the second member, are they prefixed, or is the prefix on the first member?
