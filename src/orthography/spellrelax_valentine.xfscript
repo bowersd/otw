@@ -14,6 +14,7 @@ define fortis   [p|t|k|s (h)|c];
 define vowel    [a (a)|i (i)|o (o)|e]; 
 
 !##respectable phonological rules that leak into spelling
+define Ko2Kwa   [o (->) w a || [g|k] _ \[o] ] ;
 define lowero    [o (->) a || \[o] _ .#.] ; 
 define findevoi [
                     b (->) p,
@@ -81,6 +82,7 @@ define aposvar  [                   !probably want non-ascii single quotes too
                 ] ; 
 
 read regex [
+Ko2Kwa      .o.
 lowero      .o.
 findevoi    .o.
 nasassim    .o.
