@@ -407,6 +407,7 @@ Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyn
 !## setting flags
 @P.Animate.%0@
 @P.Animate.1@
+@C.Animate@
 
 !## checking flags
 @D.Animate.%0@
