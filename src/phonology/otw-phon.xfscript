@@ -110,6 +110,8 @@ define rmspecialv [
                     Bv1 -> i 
                 ];
 
+define hw2w [ h -> 0 || \[s|z|c|n\] _ w] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear
+
 !####
 !#rules that require morpheme boundary reference
 !####
@@ -354,6 +356,7 @@ define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init
 
 read regex [ ! Morphology.l .o.
     rmspecialv    .o. !special char killer
+    hw2w        .o.
     preGli      .o.
     optinitV    .o. !allows post syncope n-nokii < n[d]-ankii < nidanokii. Comment out for syncope/non-syncope
     preDel      .o.
