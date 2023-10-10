@@ -7149,7 +7149,6 @@ aandkwenaa:aandikwen    VTA_TAG    " 1 move smb.'s head over" ; !Rand key:n72973
 aanzmaa:aanzim    VTA_TAG    " 1 make a suggestion to smb." ; !Rand key:n72973742522n
 aab'amwaa:aabahamaw    VTA_TAG    " 1 undo something for smb. [with an instrument]" ; !Rand key:n7297126164n
 aabaabka'mawaa:aabaabikahamaw    VTA_TAG    " 1 unlock something for smb." ; !Rand key:n7291536140n
-aabaabkawaa:aabaabikaw    VTA_TAG    " 1 unlock sth. (an.)" ; !Rand key:n7291536310n
 aabaabkawaa:aabaabikahw    VTA_TAG    " 1 unlock sth. (an.)" ; !Rand key:n7291536310n
 aabbidmawaa:aabibidamaw    VTA_TAG    " 1 unravel something for smb." ; !Rand key:n7291536430n
 aabbinaa:aabibin1    VTA_TAG    " 1 unravel sth. (an.)" ; !Rand key:n7291536682n
@@ -7170,10 +7169,8 @@ aabskobnaa:aabiskobin    VTA_TAG    " 1 untie sth. (an.)" ; !Rand key:n729724315
 aabtoobnaa:aabitoobin1    VTA_TAG    " 1 fill sth. (an.) half full [with liquid] (of a container)" ; !Rand key:n72972450783n
 aabtoojiinaa:aabitoojiin    VTA_TAG    " 1 embrace smb., hug smb. around the middle" ; !Rand key:n72972452270n
 aabtooshkna'aa:aabitooshkinah    VTA_TAG    " 1 fill sth. (an.) half full [of solid] (of a container)" ; !Rand key:n73006737387n
-aab'waa:aabaw    VTA_TAG    " 1 untie sth. (an.);  2 undo sth. (an.) [with an instrument]" ; !Rand key:n72972453049n
 aab'waa:aabahw    VTA_TAG    " 1 untie sth. (an.);  2 undo sth. (an.) [with an instrument]" ; !Rand key:n72972453049n
 aabwaakjimaa:aabawaakwajim    VTA_TAG    " 1 thaw sth (an.) out" ; !Rand key:n72972454974n
-aadaakwaa:aadaakwaw    VTA_TAG    " 1 lock smb., lock sth. (an.)" ; !Rand key:n72972575400n
 aadaakwaa:aadaakwahw    VTA_TAG    " 1 lock smb., lock sth. (an.)" ; !Rand key:n72972575400n
 aadoo'maa:aadooham    VTA_TAG    " 1 catch a ride with smb." ; !Rand key:n72972575981n
 aadwa'maa:aadawaham    VTA_TAG    " 1 [see aadoo'maa]" ; !Rand key:n72972578643n
@@ -7181,7 +7178,6 @@ aagdinaa:aagVv1din    VTA_TAG    " 1 push sth. (an.) away" ; !Rand key:n72972742
 aagkwenaa:aagikwen1    VTA_TAG    " 1 have one's arm around smb.'s neck, hug smb. around the neck, put one's arm around smb.'s neck" ; !Rand key:n72972742804n
 aagnetwaa:aagonetaw    VTA_TAG    " 1 disagree with smb." ; !Rand key:n72972746150n
 aagnetwaa:aagonwetaw    VTA_TAG    " 1 disagree with smb." ; !Rand key:n72972746150n
-aagoowaa:aagoow    VTA_TAG    " 1 close sth. (an.) off from view" ; !Rand key:n72972747160n
 aagoowaa:aagoohw    VTA_TAG    " 1 close sth. (an.) off from view" ; !Rand key:n72972747160n
 aagwaabiigbinaa:aagwaabiigibin1    VTA_TAG    " 1 pull sth. (an.) closed (of drapes or curtains)" ; !Rand key:n72972748527n
 aajkonaa:aajikon    VTA_TAG    " 1 stop smb. from drawing all the tricks [in euchre]" ; !Rand key:n72972576437n
@@ -7196,7 +7192,6 @@ aan'kooshmaa:aanikooshim    VTA_TAG    " 1 join sth. (an.) to something else" ; 
 aandaabdeshmaa:aandaabideshim    VTA_TAG    " 1 shift gears of sth. (an.)" ; !Rand key:n72973264127n
 aandaajmaa:aandaajim    VTA_TAG    " 1 change one's story about smb." ; !Rand key:n72973265517n
 aandgoonaa:aandagoon1    VTA_TAG    " 1 hang sth. (an.) elsewhere" ; !Rand key:n73023656660n
-aandkiiwaa:aandkiiw    VTA_TAG    " 1 transplant sth. (an.) (of plants)" ; !Rand key:n72987980786n
 aandkiiwaa:aandkiihw    VTA_TAG    " 1 transplant sth. (an.) (of plants)" ; !Rand key:n72987980786n
 aandkweshmaa:aandikweshim    VTA_TAG    " 1 put smb.'s head in a different position" ; !Rand key:n72973358154n
 aandpinaa:aandVv1pin    VTA_TAG    " 1 [see aanjpinaa]" ; !Rand key:n72973385927n
@@ -7246,7 +7241,6 @@ aaswaakshimaa:aaswaakoshim    VTA_TAG    " 1 lean sth. (an.) against something" 
 aatebnaa:aatebin1    VTA_TAG    " 1 turn sth. (an.) off (of appliances)" ; !Rand key:n72973945883n
 aateboodaanaa:aateboodaan1    VTA_TAG    " 1 blow sth. (an.) out (of something on fire)" ; !Rand key:n72973946797n
 aateshkwaa:aateshkaw    VTA_TAG    " 1 put sth. (an.) out [with the foot or body], stamp sth. (an.) out (of fire, something burning)" ; !Rand key:n72974045424n
-aatewaa:aatew    VTA_TAG    " 1 extinguish sth. (an.), put sth. (an.) out" ; !Rand key:n72973947822n
 aatewaa:aatehw    VTA_TAG    " 1 extinguish sth. (an.), put sth. (an.) out" ; !Rand key:n72973947822n
 aateyaabaawnaa:aateyaabaawin1    VTA_TAG    " 1 extinguish sth. (an.) with water, put sth. (an.) [on fire] out with water" ; !Rand key:n72973948351n
 aatwaajiiyebnaa:aatawaajiiwebin1    VTA_TAG    " 1 throw smb. over face up" ; !Rand key:n72974051088n
@@ -7271,14 +7265,11 @@ aazhgijwebshkawaa:aazhigijiwebishkaw    VTA_TAG    " 1 flip sth. face up [with t
 aazhgiskawaa:aazhigiskaw    VTA_TAG    " 1 flip sth. (an.) face up [with one's weight], kick sth. (an.) over onto its back [with one's weight]," ; !Rand key:n72974450989n
 baabaapnadwaa:baabaapinVa1daw    VTA_TAG    " 1 make fun of smb., ridicule smb." ; !Rand key:n72974463549n
 baabgognaamaa:baabagoganaam    VTA_TAG    " 1 knock sth. (an.) off" ; !Rand key:n7297751948n
-baabgwaadwaa:baabagwaadaw    VTA_TAG    " 1 scrape sth. (an.) off" ; !Rand key:n7303658222n
 baabgwaadwaa:baabagwaadahw    VTA_TAG    " 1 scrape sth. (an.) off" ; !Rand key:n7303658222n
-baabgwaakwaa:baabagwaakow    VTA_TAG    " 1 peel sth. (an.)" ; !Rand key:n72974477676n
 baabgwaakwaa:baabagwaakohw    VTA_TAG    " 1 peel sth. (an.)" ; !Rand key:n72974477676n
 baabgwegbinaa:baabagwegbin1    VTA_TAG    " 1 pull sth. (an.) off (of sheet-like objects)" ; !Rand key:n72977961096n
 baabii'aa:baabiih    VTA_TAG    " 1 wait for smb." ; !Rand key:n72974479228n
 baabiitooknaa:baabiitookon1    VTA_TAG    " 1 slice sth. (an.) up" ; !Rand key:n72974479951n
-baabsaakwaa:baabVv1saakaw    VTA_TAG    " 1 screw sth. (an.) tightly" ; !Rand key:n7303659436n
 baabsaakwaa:baabVv1saakahw    VTA_TAG    " 1 screw sth. (an.) tightly" ; !Rand key:n7303659436n
 baabsibnaa:baabVv1sibin1    VTA_TAG    " 1 pull sth. (an.) tight" ; !Rand key:n73101864141n
 baabsiboodaanaa:baabVv1siboodaan1    VTA_TAG    " 1 inflate sth. (an.) " ; !Rand key:n72979760746n
@@ -7308,7 +7299,6 @@ baapiiwnaa:baapiiwin1    VTA_TAG    " 1 brush dust or crumbs from sth. (an.)" ; 
 baapiiwnawaa:baapiiwinaw    VTA_TAG    " 1 clean smb. out [in a betting game]" ; !Rand key:n73010343399n
 baapiiwsa'aa:baapiiwVv1sah    VTA_TAG    " 1 shake sth. (an.) loose of dust or crumbs" ; !Rand key:n72974662141n
 baapiiwshimaa:baapiiwVv1shim    VTA_TAG    " 1 shake dust or crumbs from sth. (an.) by striking it against something" ; !Rand key:n72975246782n
-baapiiw'waa:baapiiwaw    VTA_TAG    " 1 brush dust or crumbs from sth. (an.) [with an instrument]" ; !Rand key:n72975247005n
 baapiiw'waa:baapiiwahw    VTA_TAG    " 1 brush dust or crumbs from sth. (an.) [with an instrument]" ; !Rand key:n72975247005n
 baapiiwwebnaa:baapiiwVv1webin    VTA_TAG    " 1 shake dust or crumbs from sth. (an.)" ; !Rand key:n72975247298n
 baapnadwaa:baapinVa1daw    VTA_TAG    " 1 waste sth. (an.)" ; !Rand key:n72974463965n
@@ -7323,15 +7313,12 @@ baashkdiyaamaa:baashkidiyaam    VTA_TAG    " 1 defecate on sth. (an.)" ; !Rand k
 baashkjiibnaa:baashkijiibin1    VTA_TAG    " 1 break sth. (an.) open [with one's hands] (of ball-like objects)" ; !Rand key:n72975354165n
 baashkjiignaamaa:baashkijiiganaam    VTA_TAG    " 1 burst sth. (an.) by striking it, squash sth. (an.) by striking it" ; !Rand key:n72975356426n
 baashkjiishmaa:baashkijiishim    VTA_TAG    " 1 burst sth. (an.) by striking it against something, break sth. (an.) [open] by striking it against so" ; !Rand key:n72975359193n
-baashkjiiwaa:baashkijiiw    VTA_TAG    " 1 burst sth. (an.) [with an instrument], squash sth. (an.) [with an instrument]" ; !Rand key:n72975356791n
 baashkjiiwaa:baashkijiihw    VTA_TAG    " 1 burst sth. (an.) [with an instrument], squash sth. (an.) [with an instrument]" ; !Rand key:n72975356791n
 baashkmaa:baashkam    VTA_TAG    " 1 break sth. (an.) open [with the teeth] " ; !Rand key:n72975360143n
-baashkwaa:baashkaw    VTA_TAG    " 1 break sth. (an.) open [with an instrument] (of ball-like objects)" ; !Rand key:n72975361009n
 baashkwaa:baashkahw    VTA_TAG    " 1 break sth. (an.) open [with an instrument] (of ball-like objects)" ; !Rand key:n72975361009n
 baashkzwaa:baashkizw    VTA_TAG    " 1 shoot smb., shoot at smb." ; !Rand key:n72975361211n
 baashkzwaa:baashkizw    VTA_TAG    " 1 crack sth. (an.) by heating it" ; !Rand key:n72975361478n
 baashzaabmaa:baazhizaabam    VTA_TAG    " 1 overlook smb., overlook sth. (an.);  2 regard smb. as having lower status" ; !Rand key:n72975358545n
-baasiigwaa:baasiigaw    VTA_TAG    " 1 dry sth. (an.) [with a cloth]" ; !Rand key:n72975361988n
 baasiigwaa:baasiigahw    VTA_TAG    " 1 dry sth. (an.) [with a cloth]" ; !Rand key:n72975361988n
 baaskawaa:baasikaw    VTA_TAG    " 1 crack sth. (an.) [with force or one's weight]" ; !Rand key:n72975362471n
 baaskoonaa:baasikoon1    VTA_TAG    " 1 crack sth. (an.) [by weighing it down]" ; !Rand key:n72975363074n
@@ -7339,19 +7326,16 @@ baasmaa:baasam    VTA_TAG    " 1 crack sth. (an.) with the teeth" ; !Rand key:n7
 baasshimaa:baasishim    VTA_TAG    " 1 crack sth. (an.) by striking it against something" ; !Rand key:n72975364656n
 baasshkoonaa:baasishkoon1    VTA_TAG    " 1 cause sth. (an.) to crack" ; !Rand key:n72975841638n
 baaswaa:baasw    VTA_TAG    " 1 dry sth. (an.) [by heat]" ; !Rand key:n72975263434n
-baaswaa:baasaw    VTA_TAG    " 1 crack sth. (an. ) [with an instrument]" ; !Rand key:n72975841754n
 baaswaa:baasahw    VTA_TAG    " 1 crack sth. (an. ) [with an instrument]" ; !Rand key:n72975841754n
 baaszwaa:baasizw    VTA_TAG    " 1 heat sth. (an.) and crack it" ; !Rand key:n72975844200n
 baataamaa:baataam    VTA_TAG    " 1 tattle on smb., tell on smb." ; !Rand key:n72975844505n
 baatiin'aa:baatiinoh    VTA_TAG    " 1 have lots of sth. (an.), have many of sth. (an.)" ; !Rand key:n72975847263n
 baazgiingwebnaa:baazagiingwebin    VTA_TAG    " 1 scratch smb. on the face [wounding person]" ; !Rand key:n72975850714n
 baazgobnaa:baazagobin1    VTA_TAG    " 1 scratch [wounding] smb., scratch smb. [with nails or claws]" ; !Rand key:n72975849565n
-baazgodwaa:baazagodaw    VTA_TAG    " 1 make a scratch in sth. (an.), scrape sth. (an.)" ; !Rand key:n72975850087n
 baazgodwaa:baazagodahw    VTA_TAG    " 1 make a scratch in sth. (an.), scrape sth. (an.)" ; !Rand key:n72975850087n
 baazgogaadebnaa:baazagogaadebin1    VTA_TAG    " 1 scratch smb. on the leg [wounding person]" ; !Rand key:n72975850791n
 baazgojaanebnaa:baazagojaanebin1    VTA_TAG    " 1 scratch smb. on the nose [wounding person]" ; !Rand key:n73032329253n
 baazgon'kebnaa:baazagonikebin1    VTA_TAG    " 1 scratch smb. on the arm [wounding person]" ; !Rand key:n73032329464n
-baazgwaadwaa:baazagwaadaw    VTA_TAG    " 1 scratch sth. (an.) [with an instrument]" ; !Rand key:n72975858825n
 baazgwaadwaa:baazagwaadahw    VTA_TAG    " 1 scratch sth. (an.) [with an instrument]" ; !Rand key:n72975858825n
 baazgwaakjimaa:baazagwaakojim    VTA_TAG    " 1 snag sth. (an.) and scratch it" ; !Rand key:n72975857290n
 baazgwaawganebnaa:baazagwaawiganebin1    VTA_TAG    " 1 scratch smb. on the back [wounding person]" ; !Rand key:n72975851001n
@@ -7359,11 +7343,8 @@ baazmaa:baazim    VTA_TAG    " 1 twist smb.'s words" ; !Rand key:n72975859163n
 bazgimaa:bazVv1gim†    VTA_TAG    " 1 have smb. for a boyfriend, have smb. for a girlfriend, have smb. for a sweetheart" ; !Rand key:n72975865760n
 bbaa-wiijiiwaa:bVi1baa-wiijiiw    VTA_TAG    " 1 accompany smb. somewhere; go with smb. somewhere" ; !Rand key:n72976159127n
 bbaa-wiijiiwaa:bVi1baa-wiijiiw    VTA_TAG    " 1 date smb., go out with smb., go steady with smb." ; !Rand key:n73010541973n
-bbaagskidyewaa:bVi1baagaskidiyew    VTA_TAG    " 1 spank smb., give smb. a spanking" ; !Rand key:n72976161429n
 bbaagskidyewaa:bVi1baagaskidiyehw    VTA_TAG    " 1 spank smb., give smb. a spanking" ; !Rand key:n72976161429n
-bbaagskinjiiwaa:bVi1baagaskinijiiw    VTA_TAG    " 1 slap smb. on the hand repeatedly" ; !Rand key:n72976161558n
 bbaagskinjiiwaa:bVi1baagaskinijiihw    VTA_TAG    " 1 slap smb. on the hand repeatedly" ; !Rand key:n72976161558n
-bbaagskinjiiwaa:bVi1baagaskininjiiw    VTA_TAG    " 1 slap smb. on the hand repeatedly" ; !Rand key:n72976161558n
 bbaagskinjiiwaa:bVi1baagaskininjiihw    VTA_TAG    " 1 slap smb. on the hand repeatedly" ; !Rand key:n72976161558n
 bbaamaajmaa:bVi1baamaajim    VTA_TAG    " 1 spread a story about smb." ; !Rand key:n72975867918n
 bbaamenmaa:bVi1baamenim    VTA_TAG    " 1 [see bbaanenmaa]" ; !Rand key:n72976156065n
@@ -7374,60 +7355,43 @@ bbaamoodes'aa:bVi1baamoodesVv1h    VTA_TAG    " 1 push smb. around making him cr
 bbaamtawaa:bVi1baamitaw    VTA_TAG    " 1 listen to smb., pay attention to smb., pay smb. mind" ; !Rand key:n72976149820n
 bbaamwinaa:bVi1baamiwin1    VTA_TAG    " 1 carry sth. (an.) around, carry sth. (an.) with oneself; take smb. around" ; !Rand key:n72976150819n
 bbaanenmaa:bVi1baanenim    VTA_TAG    " 1 concern oneself with smb.;  2 bother smb." ; !Rand key:n72976155200n
-bbashnzhewaa:babashanzhew    VTA_TAG    " 1 spank smb., whip smb." ; !Rand key:n72976161275n
 bbashnzhewaa:babashanzhehw    VTA_TAG    " 1 spank smb., whip smb." ; !Rand key:n72976161275n
-bbimsiniiwaa:babimVv1siniiw    VTA_TAG    " 1 throw stones at smb." ; !Rand key:n73101860645n
 bbimsiniiwaa:babimVv1siniihw    VTA_TAG    " 1 throw stones at smb." ; !Rand key:n73101860645n
 bchi'aa:bichih    VTA_TAG    " 1 mistake smb. for another" ; !Rand key:n72976246681n
 bchibnaa:biichibin1    VTA_TAG    " 1 grab sth. else (an.) by mistake, press sth. else (an.) by mistake, click sth. else (an.) by mistake" ; !Rand key:n72976247560n
 bchinwaa:bichinaw    VTA_TAG    " 1 hit smb. by mistake [in shooting], shoot smb. accidentally" ; !Rand key:n72976249022n
 bchiwnaa:bichiwin1    VTA_TAG    " 1 accidentally take sth. (an.) [with oneself], take sth. (an.) [with oneself] by mistake" ; !Rand key:n72976249712n
-bdakbasewaa:badakabasew    VTA_TAG    " 1 spear sth. (an.)" ; !Rand key:n72976253003n
 bdakbasewaa:badakabasehw    VTA_TAG    " 1 spear sth. (an.)" ; !Rand key:n72976253003n
-bdakjiiwaa:badakijiiw    VTA_TAG    " 1 grab sth. (an.) with a fork, skewer sth. (an.)" ; !Rand key:n72976254395n
 bdakjiiwaa:badakijiihw    VTA_TAG    " 1 grab sth. (an.) with a fork, skewer sth. (an.)" ; !Rand key:n72976254395n
 bdaknaa:badakin1    VTA_TAG    " 1 put sth. (an.) on the stove to start cooking it" ; !Rand key:n7297663412n
 bdakshimaa:badakishim    VTA_TAG    " 1 erect sth. (an.), stand sth. (an.) somewhere (of sticklike objects)" ; !Rand key:n72976255361n
-bdak'waa:badakaw    VTA_TAG    " 1 give smb. a needle [to inject medication];  2 sting smb. (stinging insects) (Wp)" ; !Rand key:n72976253478n
 bdak'waa:badakahw    VTA_TAG    " 1 give smb. a needle [to inject medication];  2 sting smb. (stinging insects) (Wp)" ; !Rand key:n72976253478n
 bebkaanshimaa:bebakaanishim    VTA_TAG    " 1 place (an.) things in different groups" ; !Rand key:n72976544494n
-bengwaa:bengow    VTA_TAG    " 1 dry sth. (an.) [by wiping], wipe sth. (an.) dry" ; !Rand key:n72976553385n
 bengwaa:bengohw    VTA_TAG    " 1 dry sth. (an.) [by wiping], wipe sth. (an.) dry" ; !Rand key:n72976553385n
 bengwaabkawaa:bengwaabikaw    VTA_TAG    " 1 dry sth. (an.) [by wiping], wipe sth. (an.) dry" ; !Rand key:n72976557201n
 bengwaapkishmaa:bengwaabikishim    VTA_TAG    " 1 air-dry sth. (an.)" ; !Rand key:n73052045443n
-bengzhewaa:bengozhew    VTA_TAG    " 1 dry smb. off" ; !Rand key:n72976555432n
 bengzhewaa:bengozhehw    VTA_TAG    " 1 dry smb. off" ; !Rand key:n72976555432n
-beshaakbiiwaa:beshaakobiiw    VTA_TAG    " 1 vote for smb. [by marking]" ; !Rand key:n72976557528n
 beshaakbiiwaa:beshaakobiihw    VTA_TAG    " 1 vote for smb. [by marking]" ; !Rand key:n72976557528n
 beshkonaa:beshkon1    VTA_TAG    " 1 cut stripes into sth. (an.)" ; !Rand key:n72977458698n
 beshwaabmaa:beshwaabam    VTA_TAG    " 1 see smb. from up close, have a close-up view of smb." ; !Rand key:n73020956810n
 bgamoomaa:bagamoom    VTA_TAG    " 1 arrive carrying sth. (an.) on one's back" ; !Rand key:n72976639748n
-bgamshtigwewaa:bagamishtigwew    VTA_TAG    " 1 hammer on sth. (an.)" ; !Rand key:n72976640990n
 bgamshtigwewaa:bagamishtigwehw    VTA_TAG    " 1 hammer on sth. (an.)" ; !Rand key:n72976640990n
 bgandenmaa:bagandenim    VTA_TAG    " 1 think smb. stupid, consider smb. an idiot" ; !Rand key:n72976741854n
-bgandwaa:bagandaw    VTA_TAG    " 1 thresh sth. (an.)" ; !Rand key:n72976642903n
 bgandwaa:bagandahw    VTA_TAG    " 1 thresh sth. (an.)" ; !Rand key:n72976642903n
 bgashkbinaa:bagashkibin1    VTA_TAG    " 1 crumble sth. (an.)" ; !Rand key:n731019192n
 bgashkzhwaa:bagashkizhw    VTA_TAG    " 1 cut sth. (an.) up" ; !Rand key:n72976739750n
-bgaskaawganewaa:bagaskaawiganew    VTA_TAG    " 1 slap smb. on the back; plaster smb. on the back (with something)" ; !Rand key:n72976739851n
 bgaskaawganewaa:bagaskaawiganehw    VTA_TAG    " 1 slap smb. on the back; plaster smb. on the back (with something)" ; !Rand key:n72976739851n
 bgaskdiiyegnaamaa:bagaskidiiyeganaam    VTA_TAG    " 1 slap smb. on the bum" ; !Rand key:n72982354863n
-bgaskdiiyewaa:bagaskidiiyew    VTA_TAG    " 1 slap smb. on the bum" ; !Rand key:n72976741410n
 bgaskdiiyewaa:bagaskidiiyehw    VTA_TAG    " 1 slap smb. on the bum" ; !Rand key:n72976741410n
 bgaskiingdibewaa:bagaskiingVv1dibew    VTA_TAG    " 1 slap smb. on the head" ; !Rand key:n72976740138n
 bgaskiingwegnaamaa:bagaskiingweganaam    VTA_TAG    " 1 slap smb.'s face, slap smb. on the face" ; !Rand key:n73101868762n
-bgaskiingwewaa:bagaskiingwew    VTA_TAG    " 1 slap smb. on the face, slap smb.'s face" ; !Rand key:n72976741323n
 bgaskiingwewaa:bagaskiingwehw    VTA_TAG    " 1 slap smb. on the face, slap smb.'s face" ; !Rand key:n72976741323n
 bgaskjiignaamaa:bagaskijiiganaam    VTA_TAG    " 1 slap smb. on the torso" ; !Rand key:n72976741554n
-bgaskjiiwaa:bagaskjiiw    VTA_TAG    " 1 slap smb. on the torso, plaster smb. with something" ; !Rand key:n72976742064n
 bgaskjiiwaa:bagaskjiihw    VTA_TAG    " 1 slap smb. on the torso, plaster smb. with something" ; !Rand key:n72976742064n
-bgaskmisdewaa:bagaskimisadew    VTA_TAG    " 1 slap smb. on the stomach" ; !Rand key:n72976742227n
 bgaskmisdewaa:bagaskimisadehw    VTA_TAG    " 1 slap smb. on the stomach" ; !Rand key:n72976742227n
 bgaskndibegnaamaa:bagaskindibeganaam    VTA_TAG    " 1 slap smb. on the head, slap smb.'s head" ; !Rand key:n73024538507n
-bgaskndibewaa:bagaskindibew    VTA_TAG    " 1 slap smb. on the head, slap smb.'s head" ; !Rand key:n72976742455n
 bgaskndibewaa:bagaskindibehw    VTA_TAG    " 1 slap smb. on the head, slap smb.'s head" ; !Rand key:n72976742455n
 bgaskninjiignaamaa:bagaskininjiiganaam    VTA_TAG    " 1 slap smb. on the hand, slap smb.'s hand" ; !Rand key:n72976844791n
-bgaskninjiiwaa:bagaskininjiiw    VTA_TAG    " 1 slap smb. on the hand, slap smb.'s hand" ; !Rand key:n72976844874n
 bgaskninjiiwaa:bagaskininjiihw    VTA_TAG    " 1 slap smb. on the hand, slap smb.'s hand" ; !Rand key:n72976844874n
 bgidaabiignaa:bagidaabiigin    VTA_TAG    " 1 loosen the reins on sth. (an.)" ; !Rand key:n72985132711n
 bgidenmaa:bagidenim    VTA_TAG    " 1 bury smb., hold funeral rites for smb.;  2 give up smb., let go of smb. [emotionally]" ; !Rand key:n72976744755n
@@ -7436,7 +7400,6 @@ bgidnaa:bagidin    VTA_TAG    " 1 allow smb., give smb. permission;  2 let go of
 bgidnaa:bagidin1 VTA_TAG    " 1 allow smb., give smb. permission;  2 let go of sth. (an.), release sth. (an.), relinquish sth. (an.), put sth. (an.) down" ; !Rand key:n72976747092n
 bgidnamwaa:bagidinamaw    VTA_TAG    " 1 let smb. have something, let smb. use something" ; !Rand key:n72976748899n
 bgidoomaa:bagidoom    VTA_TAG    " 1 set sth. (an.) down off one's back" ; !Rand key:n72976749159n
-bgidwaa:bagidaw    VTA_TAG    " 1 put sth. down [with an instrument], set sth. down [with an instrument], throw sth. down [with an ins" ; !Rand key:n72976746836n
 bgidwaa:bagidahw    VTA_TAG    " 1 put sth. down [with an instrument], set sth. down [with an instrument], throw sth. down [with an ins" ; !Rand key:n72976746836n
 bgijwebnaa:bagijiwebin1    VTA_TAG    " 1 drop sth. (an.) [deliberately], let sth. (an.) fall" ; !Rand key:n72976839676n
 bgijwebnaa:bagijiwebin1 VTA_TAG    " 1 drop sth. (an.) [deliberately], let sth. (an.) fall" ; !Rand key:n72976839676n
@@ -7529,7 +7492,6 @@ biigkonaa:biigokon1    VTA_TAG    " 1 cut sth. (an.) up destroying it, destroy s
 biigmaa:biigom    VTA_TAG    " 1 break sth. (an.) with the teeth" ; !Rand key:n72977241171n
 biignaa:biigon    VTA_TAG    " 1 take sth. (an.) apart" ; !Rand key:n72977241437n
 biignaa:biigon1 VTA_TAG    " 1 take sth. (an.) apart" ; !Rand key:n72977241437n
-biigndibewaa:biigondibew    VTA_TAG    " 1 break smb.'s head by striking him" ; !Rand key:n72977242046n
 biigndibewaa:biigondibehw    VTA_TAG    " 1 break smb.'s head by striking him" ; !Rand key:n72977242046n
 biignemaa:biigonem    VTA_TAG    " 1 break sth. (an.) in one's mouth" ; !Rand key:n72977242567n
 biigsa'aa:biigosah    VTA_TAG    " 1 break sth. (an.) by shaking it" ; !Rand key:n72977244204n
@@ -7546,14 +7508,10 @@ biigwegbinaa:biigwegibin1    VTA_TAG    " 1 tear up sth. (an.)" ; !Rand key:n731
 biigzhwaa:biigozhw    VTA_TAG    " 1 destroy sth. (an.) in cutting it, cut sth. (an.) up destroying it" ; !Rand key:n72977247403n
 biigzwaa:biigzw    VTA_TAG    " 1 heat sth. (an.) and have it break up" ; !Rand key:n72977247079n
 biigzwaa:biigzw    VTA_TAG    " 1 blast sth. (an.), blow sth. (an.) up" ; !Rand key:n72977247178n
-biijdibewaa:biijidibew    VTA_TAG    " 1 smash smb.'s skull" ; !Rand key:n72977249578n
 biijdibewaa:biijidibehw    VTA_TAG    " 1 smash smb.'s skull" ; !Rand key:n72977249578n
-biijdibewaa:biijindibew    VTA_TAG    " 1 smash smb.'s skull" ; !Rand key:n72977249578n
 biijdibewaa:biijindibehw    VTA_TAG    " 1 smash smb.'s skull" ; !Rand key:n72977249578n
-biijiingwewaa:biijiingwew    VTA_TAG    " 1 punch smb. in the face" ; !Rand key:n72977249908n
 biijiingwewaa:biijiingwehw    VTA_TAG    " 1 punch smb. in the face" ; !Rand key:n72977249908n
 biijmaamaa:biijimaam    VTA_TAG    " 1 smell smb." ; !Rand key:n72977252296n
-biijndibewaa:biijindibew    VTA_TAG    " 1 [see biijdibewaa]" ; !Rand key:n72977252655n
 biijndibewaa:biijindibehw    VTA_TAG    " 1 [see biijdibewaa]" ; !Rand key:n72977252655n
 biijpwaa:biijipw    VTA_TAG    " 1 taste sth. (an.), detect the taste of sth. (an.)" ; !Rand key:n72977254016n
 biim'aakwaa:biimahaakaw    VTA_TAG    " 1 fasten sth. (an.) crookedly" ; !Rand key:n72977259605n
@@ -7598,7 +7556,6 @@ biisbinaa:biisibin1    VTA_TAG    " 1 break sth. (an.) into small pieces" ; !Ran
 biisbinaa:biisibin1    VTA_TAG    " 1 separate sth. (an.) (of splints)" ; !Rand key:n72977455405n
 biisboonaa:biisiboon1    VTA_TAG    " 1 grind sth. (an.)" ; !Rand key:n72977455557n
 biisboonaa:biisiboon1    VTA_TAG    " 1 disk sth. (an.) (of a field of crops)" ; !Rand key:n72977455764n
-biisgawaa:biisigaw    VTA_TAG    " 1 chop sth. (an.) into small pieces [with an axe] (of wood)" ; !Rand key:n72977456045n
 biisgawaa:biisigahw    VTA_TAG    " 1 chop sth. (an.) into small pieces [with an axe] (of wood)" ; !Rand key:n72977456045n
 biisjiibdamwaa:biisijiibidamaw    VTA_TAG    " 1 crumble something for smb.  (of hard 3-dimensional objects)" ; !Rand key:n72977457132n
 biisjiibnaa:biisijiibin1    VTA_TAG    " 1 crumble sth. (an.)" ; !Rand key:n72977457364n
@@ -7608,7 +7565,6 @@ biiskonye'aa:biisikonayeh    VTA_TAG    " 1 dress smb., get smb. dressed" ; !Ran
 biiskoonaa:biisikoon1    VTA_TAG    " 1 dress smb. in something, put something on smb. [to wear]" ; !Rand key:n72977458014n
 biismaa:biisam    VTA_TAG    " 1 break sth. (an.) to pieces [with the teeth]" ; !Rand key:n72977459858n
 biisnemaa:biisanem    VTA_TAG    " 1 break sth. (an.) to pieces in one's mouth" ; !Rand key:n72977460023n
-biiswaa:biisaw    VTA_TAG    " 1 break sth. (an.) into small pieces [with an instrument]" ; !Rand key:n72977456820n
 biiswaa:biisahw    VTA_TAG    " 1 break sth. (an.) into small pieces [with an instrument]" ; !Rand key:n72977456820n
 biiszhwaa:biisizhw    VTA_TAG    " 1 cut sth. (an.) to pieces" ; !Rand key:n72977460262n
 biitooknaa:biitookon1    VTA_TAG    " 1 slice sth. (an.)" ; !Rand key:n72977467533n
@@ -7621,12 +7577,10 @@ biiwenaa:biiwen    VTA_TAG    " 1 sprinkle sth. (an.) on something" ; !Rand key:
 biiweshmaa:biiweshim    VTA_TAG    " 1 break sth. (an.) into strips [by striking it against something]" ; !Rand key:n729775961n
 biiwezhwaa:biiwezhw    VTA_TAG    " 1 cut sth. (an.) into strips" ; !Rand key:n7297751327n
 biiwganaamaa:biiwaganaam    VTA_TAG    " 1 knock dust or crumbs off sth. (an.)" ; !Rand key:n7297751403n
-biiwwaa:biiwaw    VTA_TAG    " 1 brush dust or crumbs off sth. (an.)" ; !Rand key:n7297751772n
 biiwwaa:biiwahw    VTA_TAG    " 1 brush dust or crumbs off sth. (an.)" ; !Rand key:n7297751772n
 biizgaakzige'aa:biizigaakzigeh    VTA_TAG    " 1 curl smb.'s hair, give smb. a perm" ; !Rand key:n73036919182n
 binoojiinyenmaa:abinoojiinyenim    VTA_TAG    " 1 think of smb. as a child" ; !Rand key:n72976264025n
 bizwaa:abizw    VTA_TAG    " 1 warm sth. (an.)" ; !Rand key:n72977546477n
-bjibwaa:bajibaw    VTA_TAG    " 1 spear sth. (an.), stab smb." ; !Rand key:n72977547098n
 bjibwaa:bajibahw    VTA_TAG    " 1 spear sth. (an.), stab smb." ; !Rand key:n72977547098n
 bka'mawaa:bakahamaw    VTA_TAG    " 1 disconnect smb.'s phone" ; !Rand key:n73046311378n
 bkaabiignikes'aa:bakaabiiginikesVv1h    VTA_TAG    " 1 yank smb.'s arm off" ; !Rand key:n72977549573n
@@ -7636,7 +7590,6 @@ bkaanenmaa:bakaanenim    VTA_TAG    " 1 think of smb. as being different" ; !Ran
 bkade'aa:bakadeh    VTA_TAG    " 1 keep smb. hungry, starve smb." ; !Rand key:n72977552722n
 bkamaa:bakam    VTA_TAG    " 1 cut sth. (an.) [by biting] (of strings)" ; !Rand key:n72977553107n
 bkanemaa:bakanem    VTA_TAG    " 1 cut sth. (an.) in one's mouth (of strings)" ; !Rand key:n72977553322n
-bkawaa:bakaw    VTA_TAG    " 1 break sth. (an.) [with an instrument] (of strings)" ; !Rand key:n72977552947n
 bkawaa:bakahw    VTA_TAG    " 1 break sth. (an.) [with an instrument] (of strings)" ; !Rand key:n72977552947n
 bkazhwaa:bakazhw    VTA_TAG    " 1 clean sth. (an.), gut sth. (an.) (of fish)" ; !Rand key:n72977554226n
 bkebnaa:bakebin1    VTA_TAG    " 1 separate smb.; separate one (an.) from another" ; !Rand key:n72977558836n
@@ -7645,14 +7598,12 @@ bkewebshkawaa:bakewebishkaw    VTA_TAG    " 1 knock sth.(an.) off the road [with
 bkibnaa:bakibin1    VTA_TAG    " 1 break sth. (an.) (of strings)" ; !Rand key:n72977559482n
 bkibnaa:bakibn    VTA_TAG    " 1 pick sth. (an.) (of fruit)" ; !Rand key:n72977559569n
 bkidshimaa:bakidishim    VTA_TAG    " 1 place sth. (an.) so it lies over the top of something" ; !Rand key:n72977564781n
-bkigdoonewaa:bakigidoonew    VTA_TAG    " 1 cut smb.'s lip [by hitting him]" ; !Rand key:n72977565295n
 bkigdoonewaa:bakigidoonehw    VTA_TAG    " 1 cut smb.'s lip [by hitting him]" ; !Rand key:n72977565295n
 bkijbinaa:bakijibin1    VTA_TAG    " 1 pull sth. (an.) up while leaning over" ; !Rand key:n72977567185n
 bkiknaa:bakikon1    VTA_TAG    " 1 cut sth. (an.) (of strings)" ; !Rand key:n72977582063n
 bkinwaa:bakinaw    VTA_TAG    " 1 beat smb. [in a game or contest], defeat smb." ; !Rand key:n72977583131n
 bkishkwaa:bakishkaw    VTA_TAG    " 1 break sth. (an.) [with one's weight]" ; !Rand key:n72977583498n
 bkiteyaakshimaa:bakitehaakshim    VTA_TAG    " 1 dash sth. (an.) against something" ; !Rand key:n72977583693n
-bkitewaa:bakitew    VTA_TAG    " 1 beat smb., hit smb., strike smb.;  2 spank smb." ; !Rand key:n72977584056n
 bkitewaa:bakitehw    VTA_TAG    " 1 beat smb., hit smb., strike smb.;  2 spank smb." ; !Rand key:n72977584056n
 bkizhwaa:bakizhw    VTA_TAG    " 1 cut sth. (an.) (of stringlike objects)" ; !Rand key:n72977642842n
 bkobii-gaandsa'aa:bVa1kobiigaandisah    VTA_TAG    " 1 shove smb. into the water" ; !Rand key:n72977644001n
@@ -7672,18 +7623,15 @@ bkwemaa:bakwem    VTA_TAG    " 1 bite a piece of sth. (an.) off" ; !Rand key:n72
 bkwenaa:bakwen1    VTA_TAG    " 1 remove a part of sth. (an.);  2 ogle smb." ; !Rand key:n72977654921n
 bkwenshkoonaa:bakwenishkoon1    VTA_TAG    " 1 make smb. choke [by feeding too fast]" ; !Rand key:n72977657368n
 bkweshmaa:bakweshim    VTA_TAG    " 1 chip sth. (an.) [by striking it on something]" ; !Rand key:n72977657858n
-bkwewaa:bakwew    VTA_TAG    " 1 chip a piece of sth. (an.) off [with an instrument], knock a piece of sth. (an.) off [with an instru" ; !Rand key:n72977654421n
 bkwewaa:bakwehw    VTA_TAG    " 1 chip a piece of sth. (an.) off [with an instrument], knock a piece of sth. (an.) off [with an instru" ; !Rand key:n72977654421n
 bkweyaakzwaa:bakweyaakizw    VTA_TAG    " 1 cut a piece of sth. (an.) off with a flame" ; !Rand key:n72977663893n
 bkwezhwaa:bakwezhaw    VTA_TAG    " 1 slice a piece of sth. (an.) off" ; !Rand key:n72977664236n
 bkwezwaa:bakwezw    VTA_TAG    " 1 heat sth. (an.) and have a piece come off" ; !Rand key:n72977664036n
 bmaa:bim    VTA_TAG    " 1 remove sth. (an.), take sth. (an.) out of something" ; !Rand key:n72977666141n
 bmaaj'aa:bmaajih    VTA_TAG    " 1 bring smb. back to life, revive smb." ; !Rand key:n72977948743n
-bmaakwaa:bimaakwaw    VTA_TAG    " 1 nail sth. (an.) across an expanse, nail sth. (an.) along an expanse" ; !Rand key:n73101878798n
 bmaakwaa:bimaakwahw    VTA_TAG    " 1 nail sth. (an.) across an expanse, nail sth. (an.) along an expanse" ; !Rand key:n73101878798n
 bmaawnaa:bimaawin1    VTA_TAG    " 1 haul sth. (an.) [along]" ; !Rand key:n72977954044n
 bmaknaa:bimakin1    VTA_TAG    " 1 always leave smb. behind" ; !Rand key:n7303329798n
-bmawaa:bimaw    VTA_TAG    " 1 remove something for smb." ; !Rand key:n72977958218n
 bmawaa:bimahw    VTA_TAG    " 1 remove something for smb." ; !Rand key:n72977958218n
 bmenmaa:bimenim    VTA_TAG    " 1 care for smb." ; !Rand key:n72977959230n
 bmi-gwinnaa:bimi-gawinan1    VTA_TAG    " 1 wrestle smb. down on the run" ; !Rand key:n72978046969n
@@ -7727,13 +7675,10 @@ bnagjiiknaa:bVi1nagijiikon1    VTA_TAG    " 1 peel sth. (an.) [with an instrumen
 bnagkonaa:bVi1nagikon1    VTA_TAG    " 1 cut the peel off of sth. (an.)" ; !Rand key:n72978950461n
 bnagmaa:banagim    VTA_TAG    " 1 lose one's place in counting sth. (an.)" ; !Rand key:n72979755264n
 bnagnaamaa:banaganaam    VTA_TAG    " 1 miss hitting smb., swing at smb. and miss" ; !Rand key:n72978950711n
-bnawaa:binaw    VTA_TAG    " 1 take sth. (an.) down [that's hanging] " ; !Rand key:n72978952475n
 bnawaa:binahw    VTA_TAG    " 1 take sth. (an.) down [that's hanging] " ; !Rand key:n72978952475n
-bnawebwaa:binawebaw    VTA_TAG    " 1 knock down sth. (an.) [that's hanging up] with an instrument" ; !Rand key:n73023677767n
 bnawebwaa:binawebahw    VTA_TAG    " 1 knock down sth. (an.) [that's hanging up] with an instrument" ; !Rand key:n73023677767n
 bngisaashmaa:bangisaashim    VTA_TAG    " 1 lose smb. in rushing about, lose smb. in dancing about, lose smb. in flying about" ; !Rand key:n72983839280n
 bngishmaa:bangishim    VTA_TAG    " 1 drop sth . (an.) [accidentally]" ; !Rand key:n72978961214n
-bngowaa:bangow    VTA_TAG    " 1 dust sth. (an.) with powder, sprinkle powder [e.g. insecticide] on sth. (an.) (farming)" ; !Rand key:n72978963629n
 bngowaa:bangohw    VTA_TAG    " 1 dust sth. (an.) with powder, sprinkle powder [e.g. insecticide] on sth. (an.) (farming)" ; !Rand key:n72978963629n
 bnibnaa:banibin1    VTA_TAG    " 1 miss sth. (an.) reaching to grasp it" ; !Rand key:n72978964826n
 bninaa:bVv1nin1    VTA_TAG    " 1 miss smb. [in trying to meet up with him]" ; !Rand key:n72978964367n
@@ -7757,7 +7702,6 @@ bookboonaa:bookoboon1    VTA_TAG    " 1 saw sth. (an.) in two [crosswise] (of el
 bookdaamkagnegnaamaa:bookodaamikagVv1negnaam    VTA_TAG    " 1 break smb.'s jaw from hitting him" ; !Rand key:n72980780000n
 bookgaadebnaa:bookogaadebin1    VTA_TAG    " 1 break smb.'s leg [with one's hands]" ; !Rand key:n72980145960n
 bookgaadegnaamaa:bookogaadeganaam    VTA_TAG    " 1 break smb.'s leg [by hitting him]" ; !Rand key:n72980145792n
-bookgaadewaa:bookogaadew    VTA_TAG    " 1 break smb.'s leg [with an instrument]" ; !Rand key:n72980145691n
 bookgaadewaa:bookogaadehw    VTA_TAG    " 1 break smb.'s leg [with an instrument]" ; !Rand key:n72980145691n
 bookganaamaa:bookoganaam    VTA_TAG    " 1 break sth. (an.) [by striking it], break sth. (an.) in two [by striking it] (of sticklike objects)" ; !Rand key:n72980146069n
 bookjiibnaa:bookojiibin1    VTA_TAG    " 1 break sth. (an.) in half (of elongated objects)" ; !Rand key:n72980546210n
@@ -7766,12 +7710,10 @@ bookkonaa:bookokon1    VTA_TAG    " 1 break sth. (an.) in two in cutting it" ; !
 bookmaa:bookam    VTA_TAG    " 1 break sth. (an.) in two with the teeth (of sticklike objects)" ; !Rand key:n72980776399n
 booknemaa:bookVv1nem    VTA_TAG    " 1 break sth. (an.) in two in one's mouth (of sticklike objects)" ; !Rand key:n72980776722n
 booknikebnaa:bookonikebin1    VTA_TAG    " 1 break smb.'s arm [with one's hands]" ; !Rand key:n72980776892n
-booknikewaa:bookonikew    VTA_TAG    " 1 break smb.'s arm [by striking him]" ; !Rand key:n72980777030n
 booknikewaa:bookonikehw    VTA_TAG    " 1 break smb.'s arm [by striking him]" ; !Rand key:n72980777030n
 bookshimaa:bookoshim    VTA_TAG    " 1 break sth. (an.) [by striking it on something] (of sticklike objects)" ; !Rand key:n72980777292n
 bookshkawaa:bookoshkaw    VTA_TAG    " 1 break sth. (an.) in two [with one's weight], break sth. (an.) in two [by bumping or kicking it] (of sticklike objects)" ; !Rand key:n72980778630n
 booksidmawaa:bookosidamaw    VTA_TAG    " 1 break something belonging to smb. [by striking it on something]" ; !Rand key:n72980778848n
-bookwaa:bookwaw    VTA_TAG    " 1 break sth. (an.) in two [with an instrument] (of sticklike objects)" ; !Rand key:n72980781095n
 bookwaa:bookwahw    VTA_TAG    " 1 break sth. (an.) in two [with an instrument] (of sticklike objects)" ; !Rand key:n72980781095n
 bookwaabdegnaamaa:bookwaabideganaam    VTA_TAG    " 1 break smb.'s teeth by hitting him" ; !Rand key:n72980780199n
 bookwaakbinaa:bookwaakobin1    VTA_TAG    " 1 break sth. (an.) off (of sticklike objects)" ; !Rand key:n72980781580n
@@ -7788,11 +7730,8 @@ bsaabmaa:bisaabam    VTA_TAG    " 1 mistake smb. [seen] for another" ; !Rand key
 bshaasginaa:bishaasVv1gin    VTA_TAG    " 1 scold smb. severely" ; !Rand key:n73020954071n
 bshagiibinaa:bishagiibin1    VTA_TAG    " 1 pull smb.'s foreskin back" ; !Rand key:n72981674219n
 bshagiigbinaa:bishagiigibin1    VTA_TAG    " 1 skin sth. (an.)" ; !Rand key:n72981674478n
-bshagnagekwaa:bishaginagekVv1w    VTA_TAG    " 1 peel the bark from sth. (an.)" ; !Rand key:n72981675220n
 bshagnagekwaa:bishaginagekVv1hw    VTA_TAG    " 1 peel the bark from sth. (an.)" ; !Rand key:n72981675220n
-bshanzhewaa:bashanzhew    VTA_TAG    " 1 strap smb., whip smb.; spank smb." ; !Rand key:n72982139956n
 bshanzhewaa:bashanzhehw    VTA_TAG    " 1 strap smb., whip smb.; spank smb." ; !Rand key:n72982139956n
-bshazhewaa:bashazhew    VTA_TAG    " 1 [see bshanzhewaa]" ; !Rand key:n72982149306n
 bshazhewaa:bashazhehw    VTA_TAG    " 1 [see bshanzhewaa]" ; !Rand key:n72982149306n
 bshigbinaa:bashigobin1    VTA_TAG    " 1 drop sth. (an.) [accidentally], lose one's grasp on sth. (an.)" ; !Rand key:n72982153890n
 bshigboonaa:bashigoboon1    VTA_TAG    " 1 miss sth. (an.) in plowing (of field)" ; !Rand key:n72982154302n
@@ -7805,12 +7744,10 @@ bshignaa:bishigon    VTA_TAG    " 1 drop sth. (an.) [accidentally], lose one's g
 bshignemaa:bashigonem    VTA_TAG    " 1 have sth. (an.) slip from one's mouth" ; !Rand key:n72982176429n
 bshigshimaa:bashigoshim    VTA_TAG    " 1 miss in trying to put sth. (an.) somewhere and miss" ; !Rand key:n72982178046n
 bshigshkawaa:bishigoshkaw    VTA_TAG    " 1 miss in kicking at sth. (an.), miss sth. (an.) [with the foot or body]" ; !Rand key:n72982178648n
-bshigwaa:bishigow    VTA_TAG    " 1 have sth. held [with an instrument] slip loose, miss in trying to grab sth. [with an instrument] " ; !Rand key:n72982173161n
 bshigwaa:bishigohw    VTA_TAG    " 1 have sth. held [with an instrument] slip loose, miss in trying to grab sth. [with an instrument] " ; !Rand key:n72982173161n
 bshigwaakwaanaa:bashigwaakwaan1    VTA_TAG    " 1 graze sth. (an.) in shooting at it" ; !Rand key:n72982178861n
 bshigzhwaa:bashigozhw    VTA_TAG    " 1 miss sth. (an.) in cutting" ; !Rand key:n72982180064n
 bshiibnaa:bishiibin1    VTA_TAG    " 1 skin sth. (an.)" ; !Rand key:n72982180146n
-bshizhewaa:bashizhew    VTA_TAG    " 1 [see bshanzhewaa]" ; !Rand key:n72982180215n
 bshizhewaa:bashizhehw    VTA_TAG    " 1 [see bshanzhewaa]" ; !Rand key:n72982180215n
 bshkobiiswaa:bashkobiisw    VTA_TAG    " 1 dehair sth. (an.) by putting it in boiling water" ; !Rand key:n72982181013n
 bshkobiiyebnaa:bashkobiiyebin1    VTA_TAG    " 1 pluck feathers from sth. (an.), pluck fur from sth. (an.)" ; !Rand key:n73040210878n
@@ -7846,7 +7783,6 @@ bskishmaa:biskishim    VTA_TAG    " 1 arrange sth. (an.) so that it's folded" ; 
 btaakiingweshkwaa:bitaakiingweshkaw    VTA_TAG    " 1 bump smb. in the face" ; !Rand key:n72983847910n
 btaakshimaa:bitaakoshim    VTA_TAG    " 1 bump sth. (an.) into something" ; !Rand key:n72977243332n
 btaakshkawaa:bitaakoshkaw    VTA_TAG    " 1 bump into smb., collide with smb., hit smb." ; !Rand key:n72983847741n
-btaakwaa:bitaakwaw    VTA_TAG    " 1 hit sth. (an.) [with an instrument]" ; !Rand key:n72983843685n
 btaakwaa:bitaakwahw    VTA_TAG    " 1 hit sth. (an.) [with an instrument]" ; !Rand key:n72983843685n
 btagnaamaa:bitaganaam    VTA_TAG    " 1 hit smb. accidentally" ; !Rand key:n72983849230n
 btamaa:bitam    VTA_TAG    " 1 ingest sth. (an.) accidentally" ; !Rand key:n72983852529n
@@ -7855,14 +7791,12 @@ bwaanaa:bawaan1    VTA_TAG    " 1 dream about smb., dream of smb." ; !Rand key:n
 bwaanwi'aa:bwaanawih    VTA_TAG    " 1 fail to budge smb., try in vain to do something to smb., be unable to do something to smb." ; !Rand key:n72985056500n
 bwaanwibnaa:bwaanawibin1    VTA_TAG    " 1 fail to budge sth. (an.), try in vain to remove sth. (an.) [with the hands], be unable to remove sth" ; !Rand key:n73037450553n
 bzagwiinjnaashkawaa:bazagwiinjinaashkaw    VTA_TAG    " 1 [see bzigwiinjnaashkawaa]" ; !Rand key:n72985244800n
-bzhibwaa:bazhibaw    VTA_TAG    " 1 [see bjibwaa]" ; !Rand key:n72985147889n
 bzhibwaa:bazhibahw    VTA_TAG    " 1 [see bjibwaa]" ; !Rand key:n72985147889n
 bzhinnaa:bizhinin1    VTA_TAG    " 1 chastise smb., give smb. a severe scolding, reprimand smb." ; !Rand key:n72985149456n
 bzhishgonaa:bizhishigon    VTA_TAG    " 1 empty sth. (an.)" ; !Rand key:n72985150775n
 bzigwiinjnaashkawaa:bizigwiinjinaashkaw    VTA_TAG    " 1 order smb. to get up" ; !Rand key:n72985244846n
 bzindwaa:bizindaw    VTA_TAG    " 1 listen to smb.;  2 obey smb., heed smb., do as smb. says" ; !Rand key:n72985234658n
 bzogeshkwaa:bizogeshkaw    VTA_TAG    " 1 trip smb." ; !Rand key:n72985237092n
-bzogwebwaa:bazogwebaw    VTA_TAG    " 1 trip smb. [with an instrument]" ; !Rand key:n72985237249n
 bzogwebwaa:bazogwebahw    VTA_TAG    " 1 trip smb. [with an instrument]" ; !Rand key:n72985237249n
 bzwaabiishkwaa:bizwaabiishkaw    VTA_TAG    " 1 trip over sth. (an.) [string- or rope-like]" ; !Rand key:n7303757327n
 bzwebshkawaa:bizwebishkaw    VTA_TAG    " 1 trip on sth. (an.) cord-like" ; !Rand key:n73046313352n
@@ -7876,7 +7810,6 @@ daakaanaa:daakaan    VTA_TAG    " 1 steer sth. (an.)" ; !Rand key:n73037627001n
 daakaanaa:odaakaan    VTA_TAG    " 1 steer sth. (an.)" ; !Rand key:n73037627001n
 daamaa:adaam    VTA_TAG    " 1 sell something to smb." ; !Rand key:n72989284888n
 daangbinaa:daangibin1    VTA_TAG    " 1 stroke smb." ; !Rand key:n72987250951n
-daanggawaa:daangigaw    VTA_TAG    " 1 feel around for sth. (an.) [with a stick]" ; !Rand key:n72987251194n
 daanggawaa:daangigahw    VTA_TAG    " 1 feel around for sth. (an.) [with a stick]" ; !Rand key:n72987251194n
 daanggwewenaa:daangigwewen1    VTA_TAG    " 1 touch smb. on the neck" ; !Rand key:n72987251329n
 daanggwiiwenaa:daangigwiiwen1    VTA_TAG    " 1 [see daanggwewenaa]" ; !Rand key:n72987251471n
@@ -7887,7 +7820,6 @@ daangshkamwaa:daangishkamaw    VTA_TAG    " 1 touch something belonging to smb. 
 daangshkawaa:daangishkaw    VTA_TAG    " 1 touch sth. (an.) [with the body]" ; !Rand key:n72987333976n
 daangshkoodmawaa:daangishkoodamaw    VTA_TAG    " 1 brush something against something belonging to smb." ; !Rand key:n72987334400n
 daangshkoonaa:daangishkoon1    VTA_TAG    " 1 brush something against smb." ; !Rand key:n72987335021n
-daangwaa:daangaw    VTA_TAG    " 1 touch sth. (an.) [with an instrument]" ; !Rand key:n72987335197n
 daangwaa:daangahw    VTA_TAG    " 1 touch sth. (an.) [with an instrument]" ; !Rand key:n72987335197n
 daangzidenaa:daangiziden    VTA_TAG    " 1 touch smb.'s foot [with the hand]" ; !Rand key:n72987336221n
 daangzideshkwaa:daangizideshkaw    VTA_TAG    " 1 touch smb.'s foot [with the body]" ; !Rand key:n72987337213n
@@ -7907,16 +7839,13 @@ daapnamwaa:daapinamaw    VTA_TAG    " 1 take something for smb., take something 
 daapnamwaa:odaapinamaw    VTA_TAG    " 1 take something for smb., take something from smb., accept something from smb." ; !Rand key:n72987345256n
 daapnigenaa:daapinigen1    VTA_TAG    " 1 get smb. to pick things up, make smb. pick things up, get smb. to do the shopping,  make smb. do the" ; !Rand key:n72987345831n
 daapnigenaa:odaapinigen1    VTA_TAG    " 1 get smb. to pick things up, make smb. pick things up, get smb. to do the shopping,  make smb. do the" ; !Rand key:n72987345831n
-daashkaabiig'igeyaa:daashkaabiigahigew    VTA_TAG    " 1 part smb.'s hair" ; !Rand key:n73045828026n
 daashkaabiig'igeyaa:daashkaabiigahigehw    VTA_TAG    " 1 part smb.'s hair" ; !Rand key:n73045828026n
-daashkaakwaa:daashkaakow    VTA_TAG    " 1 split sth. (an.)" ; !Rand key:n72987346734n
 daashkaakwaa:daashkaakohw    VTA_TAG    " 1 split sth. (an.)" ; !Rand key:n72987346734n
 daashkaakzwaa:daashkaakizw    VTA_TAG    " 1 split sth. (an.) with a flame" ; !Rand key:n72987346992n
 daashkbinaa:daashikbin1    VTA_TAG    " 1 split sth. (an.) [with one's hands], tear sth. (an.) in two [with one's hands]" ; !Rand key:n72987348311n
 daashkboonaa:daashkiboon1    VTA_TAG    " 1 saw sth. (an.) in two [lengthwise]" ; !Rand key:n72987349021n
 daashkdewe'aa:daashkideweh    VTA_TAG    " 1 break smb.'s heart" ; !Rand key:n72987349384n
 daashkganaamaa:daashkVv1ganaam    VTA_TAG    " 1 split sth. (an.) [by stiking it], break sth. (an.) in two [by striking it]" ; !Rand key:n72987349948n
-daashkgawaa:daashkigaw    VTA_TAG    " 1 split sth. (an.) with an axe" ; !Rand key:n72987349624n
 daashkgawaa:daashkigahw    VTA_TAG    " 1 split sth. (an.) with an axe" ; !Rand key:n72987349624n
 daashkiigbinaa:daashkiigibin1    VTA_TAG    " 1 rip sth. (an.) in two, tear sth. (an.) in two (of cloth)" ; !Rand key:n72987350757n
 daashkiignaa:daashkiigin1    VTA_TAG    " 1 split sth. (an.) (of cloth)" ; !Rand key:n72987981119n
@@ -7924,7 +7853,6 @@ daashkjiignaamaa:daashkijiiganaam    VTA_TAG    " 1 split sth. (an.) [by strikin
 daashkjiiknaa:daashkijiikon1    VTA_TAG    " 1 cut sth. (an.) in two" ; !Rand key:n72988147973n
 daashkjiishkwaa:daashkijiishkaw    VTA_TAG    " 1 split sth. (an.) [by kicking it], split sth. (an.) [with one's weight]" ; !Rand key:n72988477733n
 daashkjiishmaa:daashkijiishim    VTA_TAG    " 1 split sth. (an.) [by striking it against something]" ; !Rand key:n72987982015n
-daashkjiiwaa:daashkijiiw    VTA_TAG    " 1 split sth. (an.) in two [by striking it]" ; !Rand key:n72987981530n
 daashkjiiwaa:daashkijiihw    VTA_TAG    " 1 split sth. (an.) in two [by striking it]" ; !Rand key:n72987981530n
 daashkkonaa:daashkikon1    VTA_TAG    " 1 split sth. (an.) in half by cutting it" ; !Rand key:n72987982283n
 daashkmaa:daashkam    VTA_TAG    " 1 split sth. (an.) [by biting it]" ; !Rand key:n72988145748n
@@ -7932,9 +7860,7 @@ daashknaa:daashkin1    VTA_TAG    " 1 divide sth. (an.) in two" ; !Rand key:n729
 daashknemaa:daashkanem    VTA_TAG    " 1 split sth. (an.) in one's mouth" ; !Rand key:n72988147395n
 daashkshimaa:daashkishim    VTA_TAG    " 1 split sth. (an.) [by striking it against something]" ; !Rand key:n72988477178n
 daashkshkawaa:daashkishkaw    VTA_TAG    " 1 split sth. (an.) [by kicking it], split sth. (an.) [with one's weight]" ; !Rand key:n72988477495n
-daashkwaa:daashkaw    VTA_TAG    " 1 split sth. (an.) [with an instrument], break sth. (an.) in two [with an instrument]" ; !Rand key:n72987350393n
 daashkwaa:daashkahw    VTA_TAG    " 1 split sth. (an.) [with an instrument], break sth. (an.) in two [with an instrument]" ; !Rand key:n72987350393n
-daashkzhwaa:daashkizhaw    VTA_TAG    " 1 split sth. (an.) in cutting it, split sth. (an.) [by cutting it]" ; !Rand key:n72988478373n
 daashkzhwaa:daashkizhahw    VTA_TAG    " 1 split sth. (an.) in cutting it, split sth. (an.) [by cutting it]" ; !Rand key:n72988478373n
 daashkzwaa:daashkazw    VTA_TAG    " 1 split sth. (an.) [by heating it]" ; !Rand key:n72988478181n
 daataagninjiishkoonaa:daataagVv1ninjiishkoon1    VTA_TAG    " 1 drop something on smb.'s hand" ; !Rand key:n72989147627n
@@ -7963,7 +7889,6 @@ dbaajmatwaa:dibaajimVa1taw    VTA_TAG    " 1 tell smb. about something" ; !Rand 
 dbaaknaa:dibaakon1    VTA_TAG    " 1 judge smb., try smb. [in court]" ; !Rand key:n72989780455n
 dbasaanaa:dibasaan1    VTA_TAG    " 1 measure the length of sth. (an.) [by pacing]" ; !Rand key:n72992969752n
 dbasenmaa:dabasenim    VTA_TAG    " 1 think lowly of smb." ; !Rand key:n72992969985n
-dbawaa:dibaw    VTA_TAG    " 1 pay for sth. (an.);  2 pay smb.'s way" ; !Rand key:n72992950324n
 dbawaa:dibahw    VTA_TAG    " 1 pay for sth. (an.);  2 pay smb.'s way" ; !Rand key:n72992950324n
 dbenmaa:dibenim    VTA_TAG    " 1 own sth. (an.);  2 dominate smb." ; !Rand key:n72992972364n
 dbewgenmaa:dibewagenim    VTA_TAG    " 1 be mindful of [conserving] sth. (an.) " ; !Rand key:n72994039769n
@@ -7993,18 +7918,14 @@ desiigsa'aa:desiigVv1sah    VTA_TAG    " 1 throw sth. (an.) down [forcefully spr
 desiigshimaa:desiigVv1shim    VTA_TAG    " 1 arrange sth. (an.) so it's spread out (of sheetlike objects)" ; !Rand key:n73003955660n
 desiigwebnaa:desiigVv1webin1    VTA_TAG    " 1 throw sth. (an.) down spread out (typically of cards)" ; !Rand key:n73003543414n
 detewganaamaa:detewaganaam    VTA_TAG    " 1 thump sth. (an.) [repeatedly]" ; !Rand key:n73004562352n
-detewjiiwaa:detewijiiw    VTA_TAG    " 1 thump sth. (an.) [repeatedly] (of 3-dimensional objects)" ; !Rand key:n73003957321n
 detewjiiwaa:detewijiihw    VTA_TAG    " 1 thump sth. (an.) [repeatedly] (of 3-dimensional objects)" ; !Rand key:n73003957321n
 dewjiignaamaa:dewijiiganaam    VTA_TAG    " 1 thump smb." ; !Rand key:n73004562825n
-dewjiiwaa:dewijiiw    VTA_TAG    " 1 thump sth. (an.)" ; !Rand key:n73004562490n
 dewjiiwaa:dewijiihw    VTA_TAG    " 1 thump sth. (an.)" ; !Rand key:n73004562490n
 dewkaaknegnaamaa:dewikaakVv1neganaam    VTA_TAG    " 1 strike smb. thumping him in the chest" ; !Rand key:n73004562952n
-dewkaaknewaa:dewikaakVv1new    VTA_TAG    " 1 thump smb. in the chest" ; !Rand key:n73004562892n
 dewkaaknewaa:dewikaakVv1nehw    VTA_TAG    " 1 thump smb. in the chest" ; !Rand key:n73004562892n
 dewmaa:dewam    VTA_TAG    " 1 worry about smb.'s welfare, be worried about smb.'s welfare" ; !Rand key:n73004653799n
 dgobnaa:dagobin1    VTA_TAG    " 1 tie sth. (an.) [with other things]" ; !Rand key:n73004657060n
 dgojiinaa:dagojiin1    VTA_TAG    " 1 hold sth. (an.) [along with other things]" ; !Rand key:n73004838702n
-dgojiiwaa:dgojiiw    VTA_TAG    " 1 mix sth. (an.) in [with something pasty]" ; !Rand key:n73038230315n
 dgojiiwaa:dgojiihw    VTA_TAG    " 1 mix sth. (an.) in [with something pasty]" ; !Rand key:n73038230315n
 dgokswaa:dagokVv1sw    VTA_TAG    " 1 solder sth. (an.)" ; !Rand key:n73038227553n
 dgomaa:dagom    VTA_TAG    " 1 eat sth. (an.) [along with other things]" ; !Rand key:n73004839014n
@@ -8016,7 +7937,6 @@ dgozwaa:dagozw    VTA_TAG    " 1 cook sth. (an.) [along with other things], incl
 dgwaadmawaa:digwaadamaw    VTA_TAG    " 1 allege that smb. is dating a certain person" ; !Rand key:n73004845578n
 dgwaapnemaa:dagwaapVv1nem    VTA_TAG    " 1 quarrel with smb. along with another" ; !Rand key:n73101884098n
 dgwamwaa:dagwamaw    VTA_TAG    " 1 [see dgomaa]" ; !Rand key:n73004850592n
-dimnewaa:adiminew    VTA_TAG    " 1 catch up to smb., overtake smb., pass smb." ; !Rand key:n73004851897n
 dimnewaa:adiminehw    VTA_TAG    " 1 catch up to smb., overtake smb., pass smb." ; !Rand key:n73004851897n
 dis'aa:odisVv1h    VTA_TAG    " 1 visit smb. (of momentous events)" ; !Rand key:n73004853634n
 dkajmaa:dakajim    VTA_TAG    " 1 cause smb. to get pneumonia [by exposing him to the cold]; cause sth. (an.) to be infected [by expos" ; !Rand key:n73005557426n
@@ -8080,10 +8000,8 @@ ekwenmaa:ekwenim    VTA_TAG    " 1 be tired of smb." ; !Rand key:n73039847689n
 ekwenmaa:ayekwenim    VTA_TAG    " 1 be tired of smb." ; !Rand key:n73039847689n
 ewshooshimaa:ewVv1shooshim    VTA_TAG    " 1 put sth. (an.) at the ready" ; !Rand key:n73015877969n
 gaadaajmotwaa:gaadaajimotaw    VTA_TAG    " 1 give smb. an incomplete report, conceal some portion of one's report to smb." ; !Rand key:n73016040243n
-gaagaashkjiiwaa:gaagaashkVv1jiiw    VTA_TAG    " 1 scrape sth. (an.) [with hands or handheld device]" ; !Rand key:n73016041707n
 gaagaashkjiiwaa:gaagaashkVv1jiihw    VTA_TAG    " 1 scrape sth. (an.) [with hands or handheld device]" ; !Rand key:n73016041707n
 gaagiizmaa:gaagiizim    VTA_TAG    " 1 calm smb., soothe smb." ; !Rand key:n73016048577n
-gaakaashkjiiwaa:gaakaashkijiiw    VTA_TAG    " 1 [see gaagaashkjiiwaa]" ; !Rand key:n73016049369n
 gaakaashkjiiwaa:gaakaashkijiihw    VTA_TAG    " 1 [see gaagaashkjiiwaa]" ; !Rand key:n73016049369n
 gaakbinaa:gaakVv1bin1    VTA_TAG    " 1 tear sth. (an.)" ; !Rand key:n73016049963n
 gaandkwenaa:gaandikwen    VTA_TAG    " 1 push smb.'s head" ; !Rand key:n73016055350n
@@ -8091,7 +8009,6 @@ gaandkwes'aa:gaandikwesVv1h    VTA_TAG    " 1 shove smb.'s head" ; !Rand key:n73
 gaandkwewebnaa:gaandikwewebin1    VTA_TAG    " 1 push smb.'s head" ; !Rand key:n73016055538n
 gaandnaa:gaandin    VTA_TAG    " 1 push sth. (an.)" ; !Rand key:n73016055614n
 gaandsa'aa:gaandisah    VTA_TAG    " 1 shove smb." ; !Rand key:n73016056225n
-gaandwaa:gaandaw    VTA_TAG    " 1 prod sth. (an.), push sth. (an.) [with an instrument]" ; !Rand key:n73016055183n
 gaandwaa:gaandahw    VTA_TAG    " 1 prod sth. (an.), push sth. (an.) [with an instrument]" ; !Rand key:n73016055183n
 gaanj'aa:gaanjih    VTA_TAG    " 1 do something that satisfies smb.; prove smb. right to his satisfaction" ; !Rand key:n73016057617n
 gaanjbinaa:gaanjibin1    VTA_TAG    " 1 push sth. (an.) [with the hands]" ; !Rand key:n73016057143n
@@ -8101,13 +8018,10 @@ gaanjgidemaa:gaanjigidem    VTA_TAG    " 1 get smb. riled up, incite smb., provo
 gaanjiingwetwaa:gaanjiingwetaw    VTA_TAG    " 1 make faces at smb." ; !Rand key:n73016680425n
 gaanjwebnaa:gaanjiwebin1    VTA_TAG    " 1 push smb." ; !Rand key:n73016680762n
 gaanjwebshkawaa:gaanjiwebishkaw    VTA_TAG    " 1 push sth. (an.) [with one's weight]" ; !Rand key:n73016681225n
-gaanjwebwaa:gaanjiwebaw    VTA_TAG    " 1 push sth. (an.) [with an instrument]" ; !Rand key:n73016680642n
 gaanjwebwaa:gaanjiwebahw    VTA_TAG    " 1 push sth. (an.) [with an instrument]" ; !Rand key:n73016680642n
 gaanzkawaa:gaanzikaw    VTA_TAG    " 1 push against sth. (an.) [with one's weight]" ; !Rand key:n73016682212n
-gaapjiiwaa:gaapijiiw    VTA_TAG    " 1 smash sth. (an.) [with an instrument]" ; !Rand key:n73016741557n
 gaapjiiwaa:gaapijiihw    VTA_TAG    " 1 smash sth. (an.) [with an instrument]" ; !Rand key:n73016741557n
 gaapjiizwaa:gaapijiizw    VTA_TAG    " 1 cook sth. (an.) to a crisp" ; !Rand key:n73016682704n
-gaashkaadwaa:gaashkaadaw    VTA_TAG    " 1 scrape something off sth. (an.)" ; !Rand key:n73016741973n
 gaashkaadwaa:gaashkaadahw    VTA_TAG    " 1 scrape something off sth. (an.)" ; !Rand key:n73016741973n
 gaashkbaanaa:gaashkibaan1    VTA_TAG    " 1 shave smb." ; !Rand key:n73016742664n
 gaashkbinaa:gaashkibin1    VTA_TAG    " 1 scratch on sth. (an.), scrape on sth. (an.), scrape sth. (an.) off" ; !Rand key:n73016743847n
@@ -8122,10 +8036,8 @@ gaashkonaa:gaashkikon1    VTA_TAG    " 1 gouge sth. (an.) [in cutting it]" ; !Ra
 gaashkshimaa:gaashkishim    VTA_TAG    " 1 dent sth. (an.) [from dropping it]; scrape sth. (an.) [from dropping it]" ; !Rand key:n73017357266n
 gaashkshkawaa:gaashkishkaw    VTA_TAG    " 1 dent sth. (an.) [with one's weight]" ; !Rand key:n73017370670n
 gaashkshkoonaa:gaashkishkoon1    VTA_TAG    " 1 get sth. (an.) scratched [with a weight]" ; !Rand key:n73017370927n
-gaashkwaa:gaashkaw    VTA_TAG    " 1 scrape [the surface of] sth. (an.) off" ; !Rand key:n73016749181n
 gaashkwaa:gaashkahw    VTA_TAG    " 1 scrape [the surface of] sth. (an.) off" ; !Rand key:n73016749181n
 gaashkzhwaa:gaashkizhw    VTA_TAG    " 1 scrape sth. (an.) [in cutting it]" ; !Rand key:n73017371143n
-gaasiibiiwaa:gaasiibiiw    VTA_TAG    " 1 erase sth. (an.)" ; !Rand key:n73017358104n
 gaasiibiiwaa:gaasiibiihw    VTA_TAG    " 1 erase sth. (an.)" ; !Rand key:n73017358104n
 gaawaanaa:gaawaan1    VTA_TAG    " 1 crave sth. (an.), long for smb." ; !Rand key:n73017373196n
 gaawaanaa:agaawaan1    VTA_TAG    " 1 crave sth. (an.), long for smb." ; !Rand key:n73017373196n
@@ -8146,9 +8058,7 @@ gbaakwaa:gibaakVo1w    VTA_TAG    " 1 lock smb. up, jail smb., imprison smb." ; 
 gbaakwaa:gibaakow    VTA_TAG    " 1 lock smb. up, jail smb., imprison smb." ; !Rand key:n73017881473n
 gbaakwaa:gibaakVo1hw    VTA_TAG    " 1 lock smb. up, jail smb., imprison smb." ; !Rand key:n73017881473n
 gbaakwaa:gibaakohw    VTA_TAG    " 1 lock smb. up, jail smb., imprison smb." ; !Rand key:n73017881473n
-gbawaa:gibaw    VTA_TAG    " 1 cover sth. (an.), put a lid on sth. (an.)" ; !Rand key:n73017934602n
 gbawaa:gibahw    VTA_TAG    " 1 cover sth. (an.), put a lid on sth. (an.)" ; !Rand key:n73017934602n
-gbawaanzhewaa:gibawaanzhew    VTA_TAG    " 1 block sth. (an.) up" ; !Rand key:n73017935725n
 gbawaanzhewaa:gibawaanzhehw    VTA_TAG    " 1 block sth. (an.) up" ; !Rand key:n73017935725n
 gbidoonenaa:gibidoonen1    VTA_TAG    " 1 cover smb.'s mouth [with one's hand]" ; !Rand key:n73017938459n
 gbiingwenaa:gibiingwen1    VTA_TAG    " 1 cover smb.'s eyes [with the hands], cover smb.'s face [with the hands]" ; !Rand key:n73017938518n
@@ -8179,7 +8089,6 @@ gdawaakwaanaa:godawaakwaan1    VTA_TAG    " 1 shoot at smb., take a shot at smb.
 gdigjiibnaa:godigojiibin1    VTA_TAG    " 1 tip sth. (an.) over [with the hands], roll sth. (an.) over [with the hands]" ; !Rand key:n73019479494n
 gdigjiinaa:godigojiin1    VTA_TAG    " 1 tip sth. (an.) over, roll sth. (an.) over" ; !Rand key:n73019479881n
 gdigjiishkwaa:godigojiishkaw    VTA_TAG    " 1 tip sth. (an.) over [with one's weight],  roll sth. (an.) over [with one's weight]" ; !Rand key:n73019480309n
-gdigjiiwaa:godigojiiw    VTA_TAG    " 1 tip sth. (an.) over [with an instrument], roll sth. (an.) over [with an instrument]" ; !Rand key:n73019479734n
 gdigjiiwaa:godigojiihw    VTA_TAG    " 1 tip sth. (an.) over [with an instrument], roll sth. (an.) over [with an instrument]" ; !Rand key:n73019479734n
 gdigjiiwebnaa:godigojiiwebin1    VTA_TAG    " 1 tip sth. (an.) over [with the hands], roll sth. (an.) over [with the hands]" ; !Rand key:n73019480567n
 gdigjiiwebshkawaa:godigojiiwebishkaw    VTA_TAG    " 1 tip sth. (an.) over [with one's weight], roll sth. (an.) over [with one's weight]" ; !Rand key:n73019481527n
@@ -8227,11 +8136,9 @@ ggiikmaa:gagiikim    VTA_TAG    " 1 preach to smb., advise smb." ; !Rand key:n73
 ggiikwaa:gagiikaw    VTA_TAG    " 1 lecture to smb., preach to smb." ; !Rand key:n73020955971n
 ggiinwishkmaa:gagiinawishkim    VTA_TAG    " 1 tell smb. a lie" ; !Rand key:n73020957186n
 ggin'igezwaa:gVv1ginVv1higezw    VTA_TAG    " 1 cook sth. (an.) unpeeled (usually of potatoes)" ; !Rand key:n73020883874n
-gginwaa:gVv1ginaw    VTA_TAG    " 1 beat smb. with some card in their hand" ; !Rand key:n73042852296n
 gginwaa:gVv1ginahw    VTA_TAG    " 1 beat smb. with some card in their hand" ; !Rand key:n73042852296n
 ggishkwaa:gigishkaw    VTA_TAG    " 1 carry smb. [in pregnancy]" ; !Rand key:n73020583864n
 ggwedganaamaa:gagwedaganaam    VTA_TAG    " 1 box with smb." ; !Rand key:n73020961881n
-ggwedgawaa:gagwedVv1gaw    VTA_TAG    " 1 test sth. (an.) with an axe (of the wood of a tree)" ; !Rand key:n73021033452n
 ggwedgawaa:gagwedVv1gahw    VTA_TAG    " 1 test sth. (an.) with an axe (of the wood of a tree)" ; !Rand key:n73021033452n
 ggweji-ndamaa:gagweji-nandam    VTA_TAG    " 1 take a taste of sth. (an.)" ; !Rand key:n73021035271n
 ggwejiiyaanaa:gagwejiiyaan1    VTA_TAG    " 1 wrestle with smb." ; !Rand key:n73021033974n
@@ -8245,10 +8152,8 @@ giibdaabaanaa:giibidaabaan1    VTA_TAG    " 1 drag sth. (an.) down off of someth
 giibjiiyebnaa:giibijiiwebin1    VTA_TAG    " 1 throw smb. off the bed" ; !Rand key:n73022955865n
 giibjiiyebshkawaa:giibijiiwebishkaw    VTA_TAG    " 1 push smb. off the bed [with one's weight]" ; !Rand key:n73021440134n
 giibshkawaa:giibishkaw    VTA_TAG    " 1 bump sth. (an.) off something [with one's weight], knock sth. (an.) off something [with one's weight" ; !Rand key:n73021442819n
-giibwaa:giibaw    VTA_TAG    " 1 bump sth. (an.) off of something [with an instrument]" ; !Rand key:n73021442303n
 giibwaa:giibahw    VTA_TAG    " 1 bump sth. (an.) off of something [with an instrument]" ; !Rand key:n73021442303n
 giibwebshkawaa:giibVv1webishkaw    VTA_TAG    " 1 bump sth. (an.) off something [with one's weight], knock sth. (an.) off something[with one's weight]" ; !Rand key:n73021443193n
-giibwebwaa:giibwebaw    VTA_TAG    " 1 bump sth. (an.) off of something [with an instrument]" ; !Rand key:n73021442401n
 giibwebwaa:giibwebahw    VTA_TAG    " 1 bump sth. (an.) off of something [with an instrument]" ; !Rand key:n73021442401n
 giichgobdawaa:giichigobidaw    VTA_TAG    " 1 pull clothing off smb., yank clothing off smb." ; !Rand key:n73021450384n
 giichgobnaa:giichigobin1    VTA_TAG    " 1 pull sth. (an.) off, yank sth. (an.) off (of clothes)" ; !Rand key:n73021451182n
@@ -8264,11 +8169,9 @@ giikdaabaanaa:giikidaabaan1    VTA_TAG    " 1 move sth. (an.) over [by dragging 
 giikgimaa:giikVv1gim    VTA_TAG    " 1 raise the price of sth. (an.)" ; !Rand key:n73042920669n
 giiknaamzwaa:giikanaamozw    VTA_TAG    " 1 smoke sth. (an.), smudge sth. (an.)" ; !Rand key:n73022955498n
 giikshimaa:giikishim    VTA_TAG    " 1 move sth. (an.) over" ; !Rand key:n73022956045n
-giikwaa:giikaw    VTA_TAG    " 1 nudge sth. (an.) [with an instrument], push sth. (an.) [with an instrument]" ; !Rand key:n73022945571n
 giikwaa:giikahw    VTA_TAG    " 1 nudge sth. (an.) [with an instrument], push sth. (an.) [with an instrument]" ; !Rand key:n73022945571n
 giikwebnaa:giikiwebin    VTA_TAG    " 1 shove sth. (an.) aside, shove sth. (an.) away " ; !Rand key:n73023041769n
 giikwebshkawaa:giikiwebishkaw    VTA_TAG    " 1 push sth. (an.) [with one's weight], shove sth. (an.) [with one's weight]" ; !Rand key:n73023042183n
-giikwebwaa:giikiwebaw    VTA_TAG    " 1 push sth. (an.) [with an instrument]" ; !Rand key:n73023041542n
 giikwebwaa:giikiwebahw    VTA_TAG    " 1 push sth. (an.) [with an instrument]" ; !Rand key:n73023041542n
 giimoodaajmaa:giimoodaajim    VTA_TAG    " 1 relate things about smb. covertly, tell things about smb. covertly, talk about smb. covertly" ; !Rand key:n73023043341n
 giimoodaapnanaa:giimoodaapinan1    VTA_TAG    " 1 pick on smb. covertly, physically torment smb. covertly" ; !Rand key:n73023044608n
@@ -8278,11 +8181,9 @@ giimooj'aa:giimoojih    VTA_TAG    " 1 sneak away on smb., sneak up on smb., do 
 giimoojiikwaa:giimoojiikaw    VTA_TAG    " 1 sneak up on smb." ; !Rand key:n73023045849n
 giimoozaabmaa:giimoozaabam    VTA_TAG    " 1 peek at smb." ; !Rand key:n73023045995n
 giimoozkawaa:giimoozikaw    VTA_TAG    " 1 sneak up on smb." ; !Rand key:n73023045916n
-giin'kogwaa:giinikogaw    VTA_TAG    " 1 chop sth. (an.) to a point" ; !Rand key:n73023051768n
 giin'kogwaa:giinikogahw    VTA_TAG    " 1 chop sth. (an.) to a point" ; !Rand key:n73023051768n
 giin'kozhwaa:giinikozhw    VTA_TAG    " 1 cut sth. (an.) to a point" ; !Rand key:n73023051945n
 giinaa'aa:giinaah    VTA_TAG    " 1 hone sth. (an.), sharpen sth. (an.)" ; !Rand key:n73023050614n
-giinaakgawaa:giinaakogaw    VTA_TAG    " 1 sharpen sth. (an.) [with an axe]" ; !Rand key:n73023050956n
 giinaakgawaa:giinaakogahw    VTA_TAG    " 1 sharpen sth. (an.) [with an axe]" ; !Rand key:n73023050956n
 giinaakw'aa:giinaakVo1h    VTA_TAG    " 1 hone sth. (an.), sharpen sth. (an.)" ; !Rand key:n73023051069n
 giinaakw'aa:giinaakoh    VTA_TAG    " 1 hone sth. (an.), sharpen sth. (an.)" ; !Rand key:n73023051069n
@@ -8296,7 +8197,6 @@ giishkaakbinaa:giishkaakVo1bin1    VTA_TAG    " 1 break sth. (an.) cleanly [with
 giishkaakbinaa:giishkaakobin1    VTA_TAG    " 1 break sth. (an.) cleanly [with the hands] (of long or big objects)" ; !Rand key:n73023678095n
 giishkaakjimaa:giishkaakVo1jim    VTA_TAG    " 1 tear sth. (an.) cleanly on a snag" ; !Rand key:n73023678448n
 giishkaakjimaa:giishkaakojim    VTA_TAG    " 1 tear sth. (an.) cleanly on a snag" ; !Rand key:n73023678448n
-giishkaakwaa:giishkaakaw    VTA_TAG    " 1 cut sth. (an.) off cleanly, shear sth. (an.) off cleanly" ; !Rand key:n73023678270n
 giishkaakwaa:giishkaakahw    VTA_TAG    " 1 cut sth. (an.) off cleanly, shear sth. (an.) off cleanly" ; !Rand key:n73023678270n
 giishkaakzwaa:giishkaakizw    VTA_TAG    " 1 cut sth. (an.) with a blowtorch, cut sth. (an.) with a flame" ; !Rand key:n73023678652n
 giishkaan'kweknaa:giishkaanikwekon1    VTA_TAG    " 1 cut smb.'s [long] hair" ; !Rand key:n73023679551n
@@ -8306,36 +8206,28 @@ giishkboonaa:giishkiboon1    VTA_TAG    " 1 saw sth. (an.)" ; !Rand key:n7302368
 giishkgaadeboonaa:giishkigaadeboon1    VTA_TAG    " 1 amputate smb.'s leg" ; !Rand key:n73023680901n
 giishkganaamaa:giishkaganaam    VTA_TAG    " 1 sever sth. (an.) [by striking it]" ; !Rand key:n73023738067n
 giishkgatgwegnaamaa:giishkigatigwegnaam    VTA_TAG    " 1 cut smb. on the forehead [by striking]" ; !Rand key:n73102059360n
-giishkgatgwewaa:giishkigatigwew    VTA_TAG    " 1 cut smb. on the forehead [by striking]" ; !Rand key:n73102059849n
 giishkgatgwewaa:giishkigatigwehw    VTA_TAG    " 1 cut smb. on the forehead [by striking]" ; !Rand key:n73102059849n
-giishkgawaa:giishkigaw    VTA_TAG    " 1 chop sth. (an.) off" ; !Rand key:n73023737986n
 giishkgawaa:giishkigahw    VTA_TAG    " 1 chop sth. (an.) off" ; !Rand key:n73023737986n
 giishkganzhiiknaa:giishkiganzhiikon1    VTA_TAG    " 1 cut smb.'s nails" ; !Rand key:n73023680998n
 giishkgweknaa:giishkigwekon1    VTA_TAG    " 1 cut smb.'s head off, cut smb.'s neck, cut the top off of sth. (an.)" ; !Rand key:n73023738809n
 giishkgwenaa:giishkigwen    VTA_TAG    " 1 break the top off of sth. (an.);  2 take smb.'s head off" ; !Rand key:n73023738965n
-giishkgwewaa:giishkigwew    VTA_TAG    " 1 chop the top off of sth. (an.), chop off smb.'s head, decapitate smb." ; !Rand key:n73023738409n
 giishkgwewaa:giishkigwehw    VTA_TAG    " 1 chop the top off of sth. (an.), chop off smb.'s head, decapitate smb." ; !Rand key:n73023738409n
 giishkjiibnaa:giishkijiibin1    VTA_TAG    " 1 break sth. (an.) around the middle [with the hands] (of cylindrical objects)" ; !Rand key:n73023740130n
 giishkmaa:giishkam    VTA_TAG    " 1 bite off a piece of sth. (an.), cut sth. (an.) [by biting]" ; !Rand key:n73023742045n
 giishknamwaa:giishkonamaw    VTA_TAG    " 1 cut smb. off from benefits, discontinue smb.'s benefits" ; !Rand key:n73023681420n
 giishkndibegnaamaa:giishkindibeganaam    VTA_TAG    " 1 cut smb. on the head" ; !Rand key:n73023748081n
-giishkndibewaa:giishkindibew    VTA_TAG    " 1 cut smb. on the head" ; !Rand key:n73023747946n
 giishkndibewaa:giishkindibehw    VTA_TAG    " 1 cut smb. on the head" ; !Rand key:n73023747946n
 giishknemaa:giishkVv1nem    VTA_TAG    " 1 sever sth. (an.) in one's mouth, cut sth. (an.) [by biting]" ; !Rand key:n73023750049n
 giishknikegnaamaa:giishkinikeganaam    VTA_TAG    " 1 cut smb.'s arm [by striking]" ; !Rand key:n73102060757n
-giishknikewaa:giishkinikew    VTA_TAG    " 1 cut one's arm [by striking]" ; !Rand key:n73102060836n
 giishknikewaa:giishkinikehw    VTA_TAG    " 1 cut one's arm [by striking]" ; !Rand key:n73102060836n
 giishkninjiignaamaa:giishkininjiiganaam    VTA_TAG    " 1 cut smb.'s hand [by striking]" ; !Rand key:n73102059075n
-giishkninjiiwaa:giishkininjiiw    VTA_TAG    " 1 cut smb.'s hand [by striking]" ; !Rand key:n73102059196n
 giishkninjiiwaa:giishkininjiihw    VTA_TAG    " 1 cut smb.'s hand [by striking]" ; !Rand key:n73102059196n
 giishkkonaa:giishkikon1    VTA_TAG    " 1 cut sth. (an.)" ; !Rand key:n73023750432n
 giishkshimaa:giishkishim    VTA_TAG    " 1 cut st. (an.) [by striking it on something]" ; !Rand key:n73023750608n
-giishkwaa:giishkaw    VTA_TAG    " 1 cut sth. (an.) down, cut sth. (an.) off, sever sth. (an.) " ; !Rand key:n73023739344n
 giishkwaa:giishkahw    VTA_TAG    " 1 cut sth. (an.) down, cut sth. (an.) off, sever sth. (an.) " ; !Rand key:n73023739344n
 giishkzhamwaa:giishkizhamaw    VTA_TAG    " 1 cut something for smb., sever something for smb." ; !Rand key:n73023752682n
 giishkzhwaa:giishkizhw    VTA_TAG    " 1 castrate smb. (of livestock);  2 cut sth. (an.)" ; !Rand key:n73023753012n
 giishkzidegnaamaa:giishkizideganaam    VTA_TAG    " 1 cut smb.'s foot [by striking]" ; !Rand key:n73102060918n
-giishkzidewaa:giishkizidew    VTA_TAG    " 1 cut smb.'s foot [by striking]" ; !Rand key:n73102060993n
 giishkzidewaa:giishkizidehw    VTA_TAG    " 1 cut smb.'s foot [by striking]" ; !Rand key:n73102060993n
 giishpnadmawaa:giishpVi1nadamaw    VTA_TAG    " 1 buy something for smb., buy something from smb." ; !Rand key:n73023753234n
 giishpnadwaa:giishpVi1nadaw    VTA_TAG    " 1 buy something for smb., buy something from smb." ; !Rand key:n73023753611n
@@ -8374,13 +8266,11 @@ gji'aa:gojih    VTA_TAG    " 1 test sth. (an.), try sth. (an.)" ; !Rand key:n730
 gjib'aa:gijibih    VTA_TAG    " 1 escape from smb., run away from smb., take off on smb." ; !Rand key:n73024536879n
 gjib'iwe'aa:gijibahiweh    VTA_TAG    " 1 escape with smb. [to protect him]" ; !Rand key:n73102122n
 gjibtwaanaa:gijibatwaan1    VTA_TAG    " 1 run off with sth. (an.) [stolen], take off with sth. (an.) [stolen]" ; !Rand key:n73024537359n
-gjibzowaa:gojibizow    VTA_TAG    " 1 give sth. (an.) a test ride, try sth. (an.) (mechanical) out" ; !Rand key:n73102056985n
 gjibzowaa:gojibizohw    VTA_TAG    " 1 give sth. (an.) a test ride, try sth. (an.) (mechanical) out" ; !Rand key:n73102056985n
 gjidaabaanaa:gijidaabaan1    VTA_TAG    " 1 drag sth. (an.) out" ; !Rand key:n73024557256n
 gjigaadenaa:gojigaaden    VTA_TAG    " 1 feel up smb.'s leg" ; !Rand key:n73024557347n
 gjignenaa:gijiganen1    VTA_TAG    " 1 debone sth. (an.)" ; !Rand key:n73045310794n
 gjijiinaa:gojijiin1    VTA_TAG    " 1 check the condition of sth. (an.) [by feeling with the hands]" ; !Rand key:n73025580942n
-gjijiiwaa:gojijiiw    VTA_TAG    " 1 prick sth. (an.) to test its doneness" ; !Rand key:n73099740665n
 gjijiiwaa:gojijiihw    VTA_TAG    " 1 prick sth. (an.) to test its doneness" ; !Rand key:n73099740665n
 gjiknaa:gijikon1    VTA_TAG    " 1 cut sth. (an.) out" ; !Rand key:n73025581413n
 gjimaamaa:gijiimaam    VTA_TAG    " 1 check the condition of sth. (an.) [by sniffing it], sniff sth. (an.) to check it" ; !Rand key:n73025581495n
@@ -8413,7 +8303,6 @@ gnawenmaa:ganawenim    VTA_TAG    " 1 look after smb., take care of smb." ; !Ran
 gndamoonaa:gondamoon    VTA_TAG    " 1 catch sth. (an.) [with a fishing hook], fish for sth. (an.) [with a hook]" ; !Rand key:n73029110086n
 gndamwaa:gondamaw    VTA_TAG    " 1 take the bait for sth. (an.)" ; !Rand key:n73029110334n
 gniknaa:ganikon    VTA_TAG    " 1 scoop sth. (an.) up [with the hands]" ; !Rand key:n73029113880n
-gnikwaa:ganikaw    VTA_TAG    " 1 scoop sth. (an.) up [with a utensil]" ; !Rand key:n73029113708n
 gnikwaa:ganikahw    VTA_TAG    " 1 scoop sth. (an.) up [with a utensil]" ; !Rand key:n73029113708n
 gniwaabmaa:ganiwaabam    VTA_TAG    " 1 [see gnawaabmaa]" ; !Rand key:n73029114391n
 gniwaabndamwaa:ganiwaabandamaw    VTA_TAG    " 1 [see gnawaabndamwaa]" ; !Rand key:n73029114566n
@@ -8438,13 +8327,11 @@ gogwaanaa:agogwaan1    VTA_TAG    " 1 sew sth. (an.) on" ; !Rand key:n7302921577
 gojii'aa:agojiih    VTA_TAG    " 1 put sth. (an.) away" ; !Rand key:n73030324360n
 gojwebnaa:agojiwebin1    VTA_TAG    " 1 throw sth. (an.) on top of something" ; !Rand key:n73030324662n
 goknaa:agokan1    VTA_TAG    " 1 stick sth. (an.) on" ; !Rand key:n73030326530n
-gonebwaa:agonebaw    VTA_TAG    " 1 cover smb., put something (e.g., a blanket) over smb." ; !Rand key:n73030423290n
 gonebwaa:agonebahw    VTA_TAG    " 1 cover smb., put something (e.g., a blanket) over smb." ; !Rand key:n73030423290n
 gonwaa:agVo1naw    VTA_TAG    " 1 cover smb." ; !Rand key:n73030423434n
 gonwaa:agonaw    VTA_TAG    " 1 cover smb." ; !Rand key:n73030423434n
 gonwaa:agVo1nahw    VTA_TAG    " 1 cover smb." ; !Rand key:n73030423434n
 gonwaa:agonahw    VTA_TAG    " 1 cover smb." ; !Rand key:n73030423434n
-gonwebwaa:agonwebaw    VTA_TAG    " 1 cover smb." ; !Rand key:n73030423612n
 gonwebwaa:agonwebahw    VTA_TAG    " 1 cover smb." ; !Rand key:n73030423612n
 goodmawaa:agoodamaw    VTA_TAG    " 1 hang something up for smb." ; !Rand key:n73030424309n
 goodwaa:agoodaw    VTA_TAG    " 1 hang something up for smb." ; !Rand key:n73030424610n
@@ -8452,12 +8339,9 @@ goonaa:agoon1    VTA_TAG    " 1 hang sth. (an.), hang sth. (an.) up;  2 hang smb
 goopda'oonaa:goopadahoon1    VTA_TAG    " 1 deal smb. shamefully poor cards, give smb. a shamefully lousy hand [in cards]" ; !Rand key:n73102057387n
 goopdenmaa:goopadenim    VTA_TAG    " 1 despise smb., think little of smb." ; !Rand key:n73102079327n
 goopji'aa:goopajih    VTA_TAG    " 1 humiliate smb. [by one's actions]" ; !Rand key:n7303056249n
-goopjinwaa:goopajinaw    VTA_TAG    " 1 give smb. a shameful defeat [in a game]" ; !Rand key:n73098675980n
 goopjinwaa:goopajinahw    VTA_TAG    " 1 give smb. a shameful defeat [in a game]" ; !Rand key:n73098675980n
 goopzamaa:goopazam    VTA_TAG    " 1 belittle smb., humiliate smb. [by one's words]" ; !Rand key:n7303055086n
-gowaa:agow    VTA_TAG    " 1 cover sth. (an.) up [with cloth]" ; !Rand key:n73030324222n
 gowaa:agohw    VTA_TAG    " 1 cover sth. (an.) up [with cloth]" ; !Rand key:n73030324222n
-gozhewaa:agozhew    VTA_TAG    " 1 cover smb. with a blanket" ; !Rand key:n7303056396n
 gozhewaa:agozhehw    VTA_TAG    " 1 cover smb. with a blanket" ; !Rand key:n7303056396n
 gpaggwaanaa:gipagigwaan1    VTA_TAG    " 1 sew sth. (an.) so that it's thick" ; !Rand key:n73102067953n
 gpagkonaa:gVi1pagikon1    VTA_TAG    " 1 cut sth. (an.) thick, cut sth. (an.) into a thick slice" ; !Rand key:n7303058224n
@@ -8465,7 +8349,6 @@ gpagshimaa:gVi1pagishim    VTA_TAG    " 1 pile sth. (an.) in a thick layer, pile
 gpiwnaa:gopiwin1    VTA_TAG    " 1 take smb. inland" ; !Rand key:n73026671399n
 gsaa:gos1    VTA_TAG    " 1 be afraid of smb., be scared of smb., fear smb.;  2 warn smb." ; !Rand key:n7303059564n
 gshi'aa:goshih    VTA_TAG    " 1 be shy towards smb." ; !Rand key:n7303059773n
-gshkaabkawaa:gashkaabikaw    VTA_TAG    " 1 lock sth. (an.), lock sth. (an.) in, lock sth. (an.) up" ; !Rand key:n73030527152n
 gshkaabkawaa:gashkaabikahw    VTA_TAG    " 1 lock sth. (an.), lock sth. (an.) in, lock sth. (an.) up" ; !Rand key:n73030527152n
 gshkamaa:gashkam    VTA_TAG    " 1 be able to bite through sth. (an.), be able to bite into sth. (an.)" ; !Rand key:n73102076062n
 gshkapnaa:gashkapin1    VTA_TAG    " 1 tie sth. (an.) up [into a parcel], wrap sth. (an.) up [into a parcel]" ; !Rand key:n73030527698n
@@ -8473,7 +8356,6 @@ gshki'aa:gashkih    VTA_TAG    " 1 afford sth. (an.);  2 be able  to do somethin
 gshkibnaa:gashkibin1    VTA_TAG    " 1 be able to pull sth. (an.), manage to pull sth. (an.), succeed in pulling sth. (an.)" ; !Rand key:n7303067352n
 gshkigwaadmawaa:gashkigwaadamaw    VTA_TAG    " 1 sew something for smb." ; !Rand key:n7303067927n
 gshkigwaanaa:gashkigwaan1    VTA_TAG    " 1 sew sth. (an.)" ; !Rand key:n73030527951n
-gshkiiwaakwaa:gashkiiwaakwaw    VTA_TAG    " 1 lock sth. (an.) tightly, lock smb. up tightly" ; !Rand key:n73030612837n
 gshkiiwaakwaa:gashkiiwaakwahw    VTA_TAG    " 1 lock sth. (an.) tightly, lock smb. up tightly" ; !Rand key:n73030612837n
 gshkiiwshimaa:gashkiiwVv1shim    VTA_TAG    " 1 stick sth. (an.) [in something] tightly" ; !Rand key:n73030612374n
 gshkinaa:gashkin    VTA_TAG    " 1 be able to lift smb., manage to lift smb., succeed in lifting smb." ; !Rand key:n73030610898n
@@ -8490,11 +8372,9 @@ gtigbinaa:gotigobin1    VTA_TAG    " 1 tip sth. (an.) over [with the hands], rol
 gtigjiibnaa:gotigojiibin1    VTA_TAG    " 1 [see gdigjiibnaa]" ; !Rand key:n73031612237n
 gtigjiinaa:gotigojiin1    VTA_TAG    " 1 [see gdigjiinaa]" ; !Rand key:n73031612326n
 gtigjiishkwaa:gotigojiishkaw    VTA_TAG    " 1 [see gdigjiishkwaa]" ; !Rand key:n73031612574n
-gtigjiiwaa:gotigojiiw    VTA_TAG    " 1 [see gdigjiiwaa]" ; !Rand key:n73031612947n
 gtigjiiwaa:gotigojiihw    VTA_TAG    " 1 [see gdigjiiwaa]" ; !Rand key:n73031612947n
 gtigjiiwebnaa:gotigojiiwebin1    VTA_TAG    " 1 [see gdigjiiwebnaa]" ; !Rand key:n73031613088n
 gtigjiiwebshkawaa:gotigojiiwebishkaw    VTA_TAG    " 1 [see gdigjiiwebshkawaa]" ; !Rand key:n73031613391n
-gtigjiiwebwaa:gotigojiiwebaw    VTA_TAG    " 1 [see gdigjiiwebwaa]" ; !Rand key:n73031612782n
 gtigjiiwebwaa:gotigojiiwebahw    VTA_TAG    " 1 [see gdigjiiwebwaa]" ; !Rand key:n73031612782n
 gtigmin'gibnaa:gotigominagibin1    VTA_TAG    " 1 [see gdigmin'gibnaa]" ; !Rand key:n73031613661n
 gtigshkawaa:gotigoshkaw    VTA_TAG    " 1 [see gdigshkawaa]" ; !Rand key:n73031614755n
@@ -8506,10 +8386,8 @@ gwaab'amwaa:gwaabahamaw    VTA_TAG    " 1 draw water for smb." ; !Rand key:n7303
 gwaabiignaa:agwaabiigin1    VTA_TAG    " 1 fish sth. (an.) out of the water, get sth. (an.) out of the water" ; !Rand key:n73031629192n
 gwaabkizwaa:agwaabikizw    VTA_TAG    " 1 cause sth. (an.) to stick to the pan [in cooking], make sth. (an.) stick to the pan [in cooking]" ; !Rand key:n73031629999n
 gwaabnaa:agwaabin1    VTA_TAG    " 1 pull sth. (an.) out [of water or fire], take sth. (an.) out [of water or fire]" ; !Rand key:n73031627738n
-gwaabwaa:agwaabaw    VTA_TAG    " 1 get sth. (an.) out [of water or fire, with an instrument]" ; !Rand key:n73031628710n
 gwaabwaa:agwaabahw    VTA_TAG    " 1 get sth. (an.) out [of water or fire, with an instrument]" ; !Rand key:n73031628710n
 gwaadaabaanaa:agwaadaabaan1    VTA_TAG    " 1 drag sth. (an.) ashore, drag sth. (an.) out [of water or fire]" ; !Rand key:n73031630452n
-gwaakwaa:agwaakwaw    VTA_TAG    " 1 nail sth. (an.) on" ; !Rand key:n73031638452n
 gwaakwaa:agwaakwahw    VTA_TAG    " 1 nail sth. (an.) on" ; !Rand key:n73031638452n
 gwaansamaanaa:gwaanVv1samaan1    VTA_TAG    " 1 sic smb. on another (usually of a dog)" ; !Rand key:n73031639533n
 gwaashkdaawnaa:gwaashkVv1daawan1    VTA_TAG    " 1 unload sth. (an.) [from a  vehicle]" ; !Rand key:n73031641407n
@@ -8518,16 +8396,13 @@ gwaashkji'aa:gwaashkVv1jih    VTA_TAG    " 1 let smb. off [a vehicle], unload st
 gwaashkji'aa:agwaashkVv1jih    VTA_TAG    " 1 let smb. off [a vehicle], unload sth. (an.)" ; !Rand key:n73102058132n
 gwaashkjwebnaa:gwaashkVv1jwebin1    VTA_TAG    " 1 throw smb. off [from a vehicle]" ; !Rand key:n73031642380n
 gwaashkjwebnaa:agwaashkVv1jwebin1    VTA_TAG    " 1 throw smb. off [from a vehicle]" ; !Rand key:n73031642380n
-gwaashknodwaa:gwaashkonodaw    VTA_TAG    " 1 jump smb., rape smb. () (Wp)" ; !Rand key:n7303176257n
 gwaashknodwaa:gwaashkonodahw    VTA_TAG    " 1 jump smb., rape smb. () (Wp)" ; !Rand key:n7303176257n
 gwaashmaa:gawaashim    VTA_TAG    " 1 blow sth. (an.) over [with an instrument];  2 take sth. (an.) off the fire, take sth. (an.) off the stove" ; !Rand key:n73031639993n
 gwaawebnaa:agwaawebin1    VTA_TAG    " 1 flip sth. (an.) out [of water or fire, with the hand]" ; !Rand key:n7303177445n
-gwaawebwaa:agwaawebaw    VTA_TAG    " 1 flip sth. (an.) out [of water or fire, with an instrument]" ; !Rand key:n7303177358n
 gwaawebwaa:agwaawebahw    VTA_TAG    " 1 flip sth. (an.) out [of water or fire, with an instrument]" ; !Rand key:n7303177358n
 gwaawetmawaa:gwaawetamaw    VTA_TAG    " 1 hang clothes to dry for smb." ; !Rand key:n7303177648n
 gwaawetmawaa:agwaawetamaw    VTA_TAG    " 1 hang clothes to dry for smb." ; !Rand key:n7303177648n
 gwaawnaa:agwaawin1    VTA_TAG    " 1 carry sth. (an.) out of the water" ; !Rand key:n7303177185n
-gwawaa:gawaw    VTA_TAG    " 1 chop sth. (an.) down, fell sth. (an.)" ; !Rand key:n7303177962n
 gwawaa:gawahw    VTA_TAG    " 1 chop sth. (an.) down, fell sth. (an.)" ; !Rand key:n7303177962n
 gwekjiinaa:gwekVv1jiin1    VTA_TAG    " 1 turn sth. (an.) around, turn sth. (an.) over" ; !Rand key:n73031715216n
 gwekkweshmaa:gwekikweshim    VTA_TAG    " 1 turn smb.'s head" ; !Rand key:n73031710510n
@@ -8537,9 +8412,7 @@ gwekshimaa:gwekVv1shim    VTA_TAG    " 1 turn sth. (an.) around, turn sth. (an.)
 gwekwebnaa:gwekVv1webin1    VTA_TAG    " 1 flip sth. (an.) around, flip sth. (an.) over" ; !Rand key:n73031716814n
 gwi'aa:agwih    VTA_TAG    " 1 clothe smb., provide smb. with clothes" ; !Rand key:n73031727875n
 gwibnaa:gawibin1    VTA_TAG    " 1 fell sth. (an.), pull sth. (an.) down" ; !Rand key:n73031727712n
-gwiidwaa:gwiidaw    VTA_TAG    " 1 lift up sth. (an.) heavy [with a lever], pry sth. (an.) up [with an instrument]" ; !Rand key:n73031725413n
 gwiidwaa:gwiidahw    VTA_TAG    " 1 lift up sth. (an.) heavy [with a lever], pry sth. (an.) up [with an instrument]" ; !Rand key:n73031725413n
-gwiidwaa:agwiidaw    VTA_TAG    " 1 lift up sth. (an.) heavy [with a lever], pry sth. (an.) up [with an instrument]" ; !Rand key:n73031725413n
 gwiidwaa:agwiidahw    VTA_TAG    " 1 lift up sth. (an.) heavy [with a lever], pry sth. (an.) up [with an instrument]" ; !Rand key:n73031725413n
 gwiijwebnaa:agwiijiwebin1    VTA_TAG    " 1 flip sth. (an.) heavy up" ; !Rand key:n73031816598n
 gwiinjmaa:gwiinjim    VTA_TAG    " 1 put sth. (an.) in water [to soak], soak sth. (an.)" ; !Rand key:n73031817510n
@@ -8570,22 +8443,15 @@ gzhikwaa:gizhikaw    VTA_TAG    " 1 hurt smb., injure smb. " ; !Rand key:n730324
 gzigshkoonaa:gozigoshkoon1    VTA_TAG    " 1 weigh sth. (an.) down" ; !Rand key:n73032442879n
 gziibiignaa:giziibiigin1    VTA_TAG    " 1 wash sth. (an.);  2 give a bath to smb., bathe smb. (SI)" ; !Rand key:n73032442491n
 gziibiigndibenaa:giziibiigindiben    VTA_TAG    " 1 wash smb.'s hair, shampoo smb.'s hair" ; !Rand key:n73032349331n
-gziibiigwaa:giziibiigaw    VTA_TAG    " 1 wash smb.'s clothes" ; !Rand key:n73032441840n
 gziibiigwaa:giziibiigahw    VTA_TAG    " 1 wash smb.'s clothes" ; !Rand key:n73032441840n
 gziibiigzhenaa:giziibiigazhen1    VTA_TAG    " 1 bathe smb., give smb. a bath" ; !Rand key:n73032446010n
-gziidoonewaa:giziidoonew    VTA_TAG    " 1 wipe smb.'s mouth" ; !Rand key:n73032349070n
 gziidoonewaa:giziidoonehw    VTA_TAG    " 1 wipe smb.'s mouth" ; !Rand key:n73032349070n
 gziigmizwaa:giziigamizw    VTA_TAG    " 1 parboil sth. (an.) [to remove starch or salt]" ; !Rand key:n73032444461n
-gziijaanewaa:giziijaanew    VTA_TAG    " 1 wipe smb.'s nose" ; !Rand key:n73032444984n
 gziijaanewaa:giziijaanehw    VTA_TAG    " 1 wipe smb.'s nose" ; !Rand key:n73032444984n
-gziingwewaa:giziingwew    VTA_TAG    " 1 wash smb.'s face" ; !Rand key:n73032445725n
 gziingwewaa:giziingwehw    VTA_TAG    " 1 wash smb.'s face" ; !Rand key:n73032445725n
-gziisgawaa:giziisagaw    VTA_TAG    " 1 scrub sth. (an.) [made of boards], wash sth. (an.) [made of  boards]" ; !Rand key:n73032446283n
 gziisgawaa:giziisagahw    VTA_TAG    " 1 scrub sth. (an.) [made of boards], wash sth. (an.) [made of  boards]" ; !Rand key:n73032446283n
-gziiwaa:giziiw    VTA_TAG    " 1 wipe sth. (an.)" ; !Rand key:n73032349515n
 gziiwaa:giziihw    VTA_TAG    " 1 wipe sth. (an.)" ; !Rand key:n73032349515n
 gziiyaabaawnaa:giziiyaabaawin1    VTA_TAG    " 1 wash sth. (an.)" ; !Rand key:n73102066852n
-gziiyaabkawaa:giziiyaabikaw    VTA_TAG    " 1 wipe sth. (an.) [made of glass or metal]" ; !Rand key:n73032446927n
 gziiyaabkawaa:giziiyaabikahw    VTA_TAG    " 1 wipe sth. (an.) [made of glass or metal]" ; !Rand key:n73032446927n
 gzikoonaa:gozikoon1    VTA_TAG    " 1 try something on smb. [for fit]" ; !Rand key:n73032447246n
 gzikwaa:gozikaw    VTA_TAG    " 1 try sth. (an.) on [for fit]" ; !Rand key:n73032447173n
@@ -8608,25 +8474,20 @@ jidkiiyebnaa:ajidakiiwebin1    VTA_TAG    " 1 throw sth. (an.) upside down, thro
 jiibaakwaa:jiibaakwaw    VTA_TAG    " 1 cook for smb." ; !Rand key:n73028344790n
 jiibbinaa:jiibibin1    VTA_TAG    " 1 poke smb. [with one's fingers to get his attention], tap smb. [to get his attention]" ; !Rand key:n72999346227n
 jiibganaamaa:jiibaganaam    VTA_TAG    " 1 nudge sth. (an.) hard" ; !Rand key:n73028346277n
-jiibjiiwaa:jiibVv1jiiw    VTA_TAG    " 1 nudge smb., poke smb. [with one's elbow or with an instrument]" ; !Rand key:n73021034744n
 jiibjiiwaa:jiibVv1jiihw    VTA_TAG    " 1 nudge smb., poke smb. [with one's elbow or with an instrument]" ; !Rand key:n73021034744n
 jiibnaa:jiibin1    VTA_TAG    " 1 nudge sth. (an.)" ; !Rand key:n73028347654n
-jiibwaa:jiibaw    VTA_TAG    " 1 nudge sth. (an.) [with an instrument]" ; !Rand key:n73028347913n
 jiibwaa:jiibahw    VTA_TAG    " 1 nudge sth. (an.) [with an instrument]" ; !Rand key:n73028347913n
 jiichiigwaakmaa:jiichiigwaakwam    VTA_TAG    " 1 gnaw on sth. (an.), pick sth. (an.) clean [by gnawing on it]" ; !Rand key:n73028349396n
 jiigaagkonaa:jiigaagVv1kon1    VTA_TAG    " 1 cut niblets off sth. (an.) (of corn husks)" ; !Rand key:n73102081684n
 jiigaakshkamwaa:jiigaakVv1shkamaw    VTA_TAG    " 1 scrape something belonging to smb. [by bumping alongside it]" ; !Rand key:n73032647789n
 jiigaakshkawaa:jiigaakVv1shkaw    VTA_TAG    " 1 scrape sth. (an.) [by bumping alongside it]" ; !Rand key:n73032647487n
 jiigboonaa:jiigVv1boon1    VTA_TAG    " 1 shave sth. (an.) down" ; !Rand key:n73032649629n
-jiiggawaa:jiigigaw    VTA_TAG    " 1 shave sth. (an.) [with an axe], strip sth. (an.) [with an axe]" ; !Rand key:n73028436355n
 jiiggawaa:jiigigahw    VTA_TAG    " 1 shave sth. (an.) [with an axe], strip sth. (an.) [with an axe]" ; !Rand key:n73028436355n
 jiikaanaa:jiikaan1    VTA_TAG    " 1 scale  (of fish)" ; !Rand key:n72985843555n
 jiimaa:ojiim    VTA_TAG    " 1 kiss smb." ; !Rand key:n73028439281n
 jiingnitwaa:jiingVo1nitaw    VTA_TAG    " 1 kneel before smb." ; !Rand key:n73028440712n
 jiingnitwaa:jiingonitaw    VTA_TAG    " 1 kneel before smb." ; !Rand key:n73028440712n
-jiishaagnewaa:jiishaagonew    VTA_TAG    " 1 brush snow off sth. (an.); clear snow off sth. (an.), shovel snow off sth. (an.)" ; !Rand key:n73079681996n
 jiishaagnewaa:jiishaagonehw    VTA_TAG    " 1 brush snow off sth. (an.); clear snow off sth. (an.), shovel snow off sth. (an.)" ; !Rand key:n73079681996n
-jiishwebwaa:jiishwebaw    VTA_TAG    " 1 sweep sth. (an.) aside, sweep sth. (an.) away" ; !Rand key:n73032650102n
 jiishwebwaa:jiishwebahw    VTA_TAG    " 1 sweep sth. (an.) aside, sweep sth. (an.) away" ; !Rand key:n73032650102n
 jij'aa:ajijih    VTA_TAG    " 1 get near to smb., get close to smb." ; !Rand key:n73028442252n
 jkaakshkawaa:jakaakVv1shkaw    VTA_TAG    " 1 be impaled by sth. (an.)" ; !Rand key:n73032653962n
@@ -8651,7 +8512,6 @@ kinoomawaa:gikinoohamaw    VTA_TAG    " 1 teach smb." ; !Rand key:n71428961673n
 kinoownaa:kinoowVv1n1    VTA_TAG    " 1 counsel smb., guide smb. [in counselling sense]" ; !Rand key:n71428962106n
 kinoownaa:gikinoowVv1n1    VTA_TAG    " 1 counsel smb., guide smb. [in counselling sense]" ; !Rand key:n71428962106n
 kinwaadenmaa:akinawaadenim    VTA_TAG    " 1 notice smb., take [mental] note of smb." ; !Rand key:n71428962476n
-kinwaajbiiwaa:akinawaajibiiw    VTA_TAG    " 1 mark sth. (an.) [to remind], note sth. (an.) [to remind]" ; !Rand key:n7303278861n
 kinwaajbiiwaa:akinawaajibiihw    VTA_TAG    " 1 mark sth. (an.) [to remind], note sth. (an.) [to remind]" ; !Rand key:n7303278861n
 kizootwaa:akizootaw    VTA_TAG    " 1 hide from smb." ; !Rand key:n7303277156n
 ko-gkenmaa:ako-gikenim    VTA_TAG    " 1 have known smb. a long time" ; !Rand key:n71429039793n
@@ -8702,7 +8562,6 @@ maamkaazaabmaa:maamakaazaabam    VTA_TAG    " 1 gape at smb., stare at smb. in a
 maamnonaabmaa:maaminonaabam    VTA_TAG    " 1 catch sight of smb., notice smb." ; !Rand key:n71429151804n
 maanaajpwaa:maanaajipw    VTA_TAG    " 1 dislike the taste of sth. (an.)" ; !Rand key:n73032747264n
 maanaaztawaa:maanaazitaw    VTA_TAG    " 1 be offended by smb.'s words" ; !Rand key:n73032749826n
-maandgonwaa:maandagonaw    VTA_TAG    " 1 cover sth. (an.) completely [with sheetlike material], cover sth. (an.) up [with sheetlike material]" ; !Rand key:n71429180044n
 maandgonwaa:maandagonahw    VTA_TAG    " 1 cover sth. (an.) completely [with sheetlike material], cover sth. (an.) up [with sheetlike material]" ; !Rand key:n71429180044n
 maanenmaa:maanenim    VTA_TAG    " 1 challenge smb., challenge smb.'s authority, take smb. on" ; !Rand key:n71429180251n
 maanzh'aa:maanzhih    VTA_TAG    " 1 beat smb. [in physical battle], defeat smb. [in physical battle], overpower smb., get the better of smb." ; !Rand key:n71429263226n
@@ -8728,15 +8587,12 @@ mazmaa:mazom    VTA_TAG    " 1 wake smb. up [with one's voice]" ; !Rand key:n714
 mazmaa:amazom    VTA_TAG    " 1 wake smb. up [with one's voice]" ; !Rand key:n71429345586n
 mbaabiigbinaa:ombaabiigibin1    VTA_TAG    " 1 pull sth. (an.) up [on a rope]" ; !Rand key:n71429346010n
 mbaabiignaa:ombaabiigin    VTA_TAG    " 1 raise sth. (an.) [on a rope]" ; !Rand key:n71429346277n
-mbaakwaa:ombaakwaw    VTA_TAG    " 1 jack sth. (an.) up" ; !Rand key:n73032751123n
 mbaakwaa:ombaakwahw    VTA_TAG    " 1 jack sth. (an.) up" ; !Rand key:n73032751123n
-mbawaa:ombaw    VTA_TAG    " 1 elevate sth. (an.). [with an instrument], raise sth. (an.), jack sth. (an.) up" ; !Rand key:n71429447736n
 mbawaa:ombahw    VTA_TAG    " 1 elevate sth. (an.). [with an instrument], raise sth. (an.), jack sth. (an.) up" ; !Rand key:n71429447736n
 mbazh'aa:ombazhih    VTA_TAG    " 1 attract smb.'s [romantic] interest, arouse smb.'s [romantic] interest" ; !Rand key:n71429448286n
 mbazhiikwaa:ombazhiikaw    VTA_TAG    " 1 bother smb." ; !Rand key:n73032752358n
 mbiig'aa:ombiigih    VTA_TAG    " 1 cause smb. to cry out [in protest], make smb. cry out [in protest], provoke [an outcry from] smb." ; !Rand key:n73034124187n
 mbiignanaa:ombiiginan1    VTA_TAG    " 1 fight with smb. [making him cry out]" ; !Rand key:n73034124594n
-mbiigwewebzaw'aa:ombiigwewebizVa1w    VTA_TAG    " 1 make a racket with sth. (an.) [that has an engine]" ; !Rand key:n7309029182n
 mbiigwewebzaw'aa:ombiigwewebizVa1hw    VTA_TAG    " 1 make a racket with sth. (an.) [that has an engine]" ; !Rand key:n7309029182n
 mbiigwewegnaamaa:ombiigweweganaam    VTA_TAG    " 1 make a racket hitting sth. (an.)" ; !Rand key:n73034125565n
 mbiigwewejiignaamaa:ombiigwewejiiganaam    VTA_TAG    " 1 [see mbiigwewegnaamaa]" ; !Rand key:n73034125622n
@@ -8750,15 +8606,12 @@ mdaabiidaabaanaa:madaabiidaabaan1    VTA_TAG    " 1 drive smb. [from inland] to 
 mdaagwenmaa:mandaagwenim    VTA_TAG    " 1 like smb. [romantically], desire smb. [romantically]" ; !Rand key:n71429458003n
 mdaazhenmaa:midaazhenim    VTA_TAG    " 1 like smb." ; !Rand key:n71429470481n
 mdeshmaa:mVi1deshim    VTA_TAG    " 1 make noise moving sth. (an.)" ; !Rand key:n71429482047n
-mdewewaa:mVi1dewew    VTA_TAG    " 1 beep sth. (an.), make noise with sth. (an.), sound sth. (an.), toot sth. (an.)" ; !Rand key:n71429483860n
 mdewewaa:mVi1dewehw    VTA_TAG    " 1 beep sth. (an.), make noise with sth. (an.), sound sth. (an.), toot sth. (an.)" ; !Rand key:n71429483860n
 mdezwaa:midezw    VTA_TAG    " 1 take a shot at smb. [to scare them]" ; !Rand key:n71429458936n
 mdoodoo'aa:madoodooh    VTA_TAG    " 1 give smb. a steam bath, give smb. a [traditional] sweat" ; !Rand key:n71429484619n
 mdwegnaamaa:madweganaam    VTA_TAG    " 1 make sth. (an.) sound [by striking it], strike sth. (an.) making it sound" ; !Rand key:n71429533668n
-mdwejiiwaa:madwejiiw    VTA_TAG    " 1 make sth. (an.) sound [by striking it], strike sth. (an.) making it sound" ; !Rand key:n71429534325n
 mdwejiiwaa:madwejiihw    VTA_TAG    " 1 make sth. (an.) sound [by striking it], strike sth. (an.) making it sound" ; !Rand key:n71429534325n
 mdweshmaa:mVi1dweshim    VTA_TAG    " 1 [see mdeshmaa]" ; !Rand key:n71429535343n
-mdwewewaa:mVi1dwewew    VTA_TAG    " 1 [see mdewewaa]" ; !Rand key:n71429559205n
 mdwewewaa:mVi1dwewehw    VTA_TAG    " 1 [see mdewewaa]" ; !Rand key:n71429559205n
 medsenmaa:medasenim    VTA_TAG    " 1 miss smb. (emotionally)" ; !Rand key:n71429559524n
 medsinaa:medasin    VTA_TAG    " 1 miss smb. [who is absent], long for smb. [who is absent]" ; !Rand key:n71429559630n
@@ -8790,9 +8643,7 @@ miigwechwi'aa:miigwechiwih    VTA_TAG    " 1 thank smb." ; !Rand key:n7142965611
 miijnaa:miijin1    VTA_TAG    " 1 defecate on smb." ; !Rand key:n71429656939n
 miikganaamaa:miikVo1ganaam    VTA_TAG    " 1 hit sth. (an.) dead on, strike sth. (an.) dead on" ; !Rand key:n73032924047n
 miikganaamaa:miikoganaam    VTA_TAG    " 1 hit sth. (an.) dead on, strike sth. (an.) dead on" ; !Rand key:n73032924047n
-miiknewaa:miikVv1new    VTA_TAG    " 1 buy sth. (an.) as a real bargain, get a real bargain on sth. (an.)" ; !Rand key:n7303299442n
 miiknewaa:miikVv1nehw    VTA_TAG    " 1 buy sth. (an.) as a real bargain, get a real bargain on sth. (an.)" ; !Rand key:n7303299442n
-miikwaa:miikow    VTA_TAG    " 1 hit smb. [usually, with something thrown or shot]" ; !Rand key:n73096951100n
 miikwaa:miikohw    VTA_TAG    " 1 hit smb. [usually, with something thrown or shot]" ; !Rand key:n73096951100n
 miikwaagnaa:miikwaagin1    VTA_TAG    " 1 be a perfect match for smb. in wrestling" ; !Rand key:n73032924380n
 miinaa:miin1    VTA_TAG    " 1 give something to smb." ; !Rand key:n71429680506n
@@ -8846,7 +8697,6 @@ mnjignamwaa:minjigonamaw    VTA_TAG    " 1 hold something for smb., hold on to s
 mnjigshkawaa:minjigoshkaw    VTA_TAG    " 1 hold sth. (an.) down [with one's weight]" ; !Rand key:n71430244025n
 mnjijmaa:minjijim    VTA_TAG    " 1 ask smb. to get something for oneself, get smb. to get something for oneself" ; !Rand key:n73033128853n
 mnjimaabmaa:minjimaabam    VTA_TAG    " 1 keep smb. in sight" ; !Rand key:n71430244219n
-mnjimaakwaa:minjimaakwaw    VTA_TAG    " 1 clamp sth. (an.) down" ; !Rand key:n71430248381n
 mnjimaakwaa:minjimaakwahw    VTA_TAG    " 1 clamp sth. (an.) down" ; !Rand key:n71430248381n
 mnjimnaa:minjimin    VTA_TAG    " 1 detain smb.;  2 hold smb., hold smb. down" ; !Rand key:n71430248781n
 mnjimnamwaa:minjiminamaw    VTA_TAG    " 1 hold something for smb., hold on to something for smb." ; !Rand key:n71430248873n
@@ -8866,7 +8716,6 @@ mookwaanaa:mookawaan1    VTA_TAG    " 1 cry after smb. leaving" ; !Rand key:n730
 moon'amwaa:moonahamaw    VTA_TAG    " 1 dig something up for smb." ; !Rand key:n71430357809n
 moondiiwaa:moondiiw    VTA_TAG    " 1 charge at smb.  (of cows)" ; !Rand key:n73098055621n
 moonenmaa:moonenim    VTA_TAG    " 1 suspect that smb. is hiding something" ; !Rand key:n73033247607n
-moonwaa:moonaw    VTA_TAG    " 1 dig sth. (an.) up" ; !Rand key:n71430358404n
 moonwaa:moonahw    VTA_TAG    " 1 dig sth. (an.) up" ; !Rand key:n71430358404n
 mooshk'oonaa:mooshkahoon1    VTA_TAG    " 1 drown smb., flood sth. (an.)" ; !Rand key:n71430359281n
 mooshkaabwaanaa:mooshkaabwaan1    VTA_TAG    " 1 fill sth. (an.) [with liquid]" ; !Rand key:n73040210540n
@@ -8876,13 +8725,11 @@ mooshknanaa:mooshkVv1nan1    VTA_TAG    " 1 fill sth. (an.)" ; !Rand key:n714303
 mooshknebnaa:mooshkinebin1    VTA_TAG    " 1 fill sth. (an.) with liquid" ; !Rand key:n71430361352n
 moozh'aa:moozhih    VTA_TAG    " 1 feel the touch of smb., feel smb.'s presence, sense smb.'s actions" ; !Rand key:n71430362674n
 moozhginaa:moozhagin1    VTA_TAG    " 1 collect sth. (an.), gather sth. (an.) up, pick sth. (an.) up" ; !Rand key:n71430362358n
-moozhgiwebwaa:moozhagiwebaw    VTA_TAG    " 1 sweep up sth. (an.) [into a pile]" ; !Rand key:n73039812181n
 moozhgiwebwaa:moozhagiwebahw    VTA_TAG    " 1 sweep up sth. (an.) [into a pile]" ; !Rand key:n73039812181n
 moozhwaa:moozhw    VTA_TAG    " 1 cut smb.'s hair, give smb. a haircut (of a man)" ; !Rand key:n71430432330n
 msawenmaa:misawenim    VTA_TAG    " 1 covet sth. (an.), be turned on by smb." ; !Rand key:n71430432855n
 msawnawaa:misawinaw    VTA_TAG    " 1 be attracted by [the looks of] smb., find smb. attractive, take a shine to smb." ; !Rand key:n73097975525n
 msenmaa:misenim    VTA_TAG    " 1 benefit from sth. (an.)" ; !Rand key:n73033248344n
-mshkawaakwaa:mashkawaakwaw    VTA_TAG    " 1 screw sth. (an.) on tightly" ; !Rand key:n73033249936n
 mshkawaakwaa:mashkawaakwahw    VTA_TAG    " 1 screw sth. (an.) on tightly" ; !Rand key:n73033249936n
 mshkawpinaa:mashkawipin1    VTA_TAG    " 1 tie sth. (an.) tight" ; !Rand key:n71430466355n
 mshkikwaabookwaa:mashkikwaabookaw    VTA_TAG    " 1 make medicinal tonic for smb." ; !Rand key:n71430468704n
@@ -8890,7 +8737,6 @@ mskwaanzwaa:miskwaanzw    VTA_TAG    " 1 colour sth. red, paint sth. red" ; !Ran
 mtaakzhebnaa:mitaakVv1zhebin1    VTA_TAG    " 1 pull off smb.'s clothes" ; !Rand key:n73033251169n
 mwaa:amw    VTA_TAG    " 1 eat sth. (an.)" ; !Rand key:n71430563162n
 mwi'aa:mawih    VTA_TAG    " 1 make smb. cry" ; !Rand key:n71430563472n
-mwinewaa:mawinew    VTA_TAG    " 1 air a grievance with smb." ; !Rand key:n71430563757n
 mwinewaa:mawinehw    VTA_TAG    " 1 air a grievance with smb." ; !Rand key:n71430563757n
 myaawganaamaa:mayaawiganaam    VTA_TAG    " 1 hit smb. accurately" ; !Rand key:n71430564337n
 myaawnaa:mayaawin1    VTA_TAG    " 1 raise sth. (an.) upright" ; !Rand key:n71430564619n
@@ -8906,7 +8752,6 @@ mzhwaa:mizhw    VTA_TAG    " 1 hit smb. [with something thrown or shot], wound s
 mzin'amwaa:mazinahamaw    VTA_TAG    " 1 buy something from smb. on credit;  2 owe smb. [money]" ; !Rand key:n71430648768n
 mzin'ignikwaa:mazinahiganikaw    VTA_TAG    " 1 leave property to smb. in a will, will property to smb." ; !Rand key:n73033252048n
 mzin'konaa:mizinikon1    VTA_TAG    " 1 carve sth. (an.)" ; !Rand key:n73045824844n
-mzinbiiwaa:mazinbiiw    VTA_TAG    " 1 draw a picture of smb." ; !Rand key:n71430648558n
 mzinbiiwaa:mazinbiihw    VTA_TAG    " 1 draw a picture of smb." ; !Rand key:n71430648558n
 mzinboonaa:miziniboon1    VTA_TAG    " 1 carve sth. (an.) [with a saw]" ; !Rand key:n73033329794n
 mzinwaa:mazinaw    VTA_TAG    " 1 charge sth. (an.), buy sth. (an.) on credit" ; !Rand key:n71430650346n
@@ -8930,7 +8775,6 @@ n'gowaa:ningVo1hw    VTA_TAG    " 1 bury smb." ; !Rand key:n71431659548n
 n'gowaa:ningohw    VTA_TAG    " 1 bury smb." ; !Rand key:n71431659548n
 ngwaabmaa:angwaabam    VTA_TAG    " 1 watch sth. (an.) disappear from view" ; !Rand key:n71431659600n
 n'gwaanaa:nagwaan1    VTA_TAG    " 1 snare smb." ; !Rand key:n71431660294n
-n'gwawaa:ningwaw    VTA_TAG    " 1 bury smb." ; !Rand key:n71431660834n
 n'gwawaa:ningwahw    VTA_TAG    " 1 bury smb." ; !Rand key:n71431660834n
 n'kaabaawnaa:nikaabaawan1    VTA_TAG    " 1 dilute sth. (an.), wet sth. (an.)" ; !Rand key:n71433050419n
 n'kawebnaa:nakawebin1    VTA_TAG    " 1 stop and pick smb. up" ; !Rand key:n71433056714n
@@ -8962,11 +8806,9 @@ naa'tawaa:nanaahVv1taw    VTA_TAG    " 1 [see nnaa'tamwaa]" ; !Rand key:n7143094
 naab'aa:inaabih    VTA_TAG    " 1 face smb. in a certain direction;  2 see smb. in a vision" ; !Rand key:n71430662621n
 naabdoosknewaa:naabVv1dooskVo1new    VTA_TAG    " 1 be arm in arm with smb., link arms with smb. by the elbow" ; !Rand key:n73033331081n
 naabdoosknewaa:naabVv1dooskonew    VTA_TAG    " 1 be arm in arm with smb., link arms with smb. by the elbow" ; !Rand key:n73033331081n
-naabdoowaa:naabadoow    VTA_TAG    " 1 string sth. (an.);  2 thread the eye of sth. (an.)" ; !Rand key:n71430661199n
 naabdoowaa:naabadoohw    VTA_TAG    " 1 string sth. (an.);  2 thread the eye of sth. (an.)" ; !Rand key:n71430661199n
 naabgwe'aa:naabigweh    VTA_TAG    " 1 catch smb. by the neck;  2 catch smb. doing something bad" ; !Rand key:n71430662001n
 naabgwepnaa:naabigwepin1    VTA_TAG    " 1 rope smb. around the neck" ; !Rand key:n71430662342n
-naabgwewaa:naabigwew    VTA_TAG    " 1 catch smb. around the neck" ; !Rand key:n71430662494n
 naabgwewaa:naabigwehw    VTA_TAG    " 1 catch smb. around the neck" ; !Rand key:n71430662494n
 naabiignaa:inaabiigin    VTA_TAG    " 1 string sth. (an.) together in a certain direction, string sth. (an.) together in a certain way" ; !Rand key:n71430663022n
 naabiishmaa:inaabiishim    VTA_TAG    " 1 arrange sth. (an.) in a line in a certain direction, arrange sth. (an.) in a line in a certain way" ; !Rand key:n71430663837n
@@ -8996,7 +8838,6 @@ naagshi-mnazwaa:onaagoshi-minVo1zw    VTA_TAG    " 1 cook sth. (an.) for supper"
 naagshi-mnazwaa:onaagoshi-minozw    VTA_TAG    " 1 cook sth. (an.) for supper" ; !Rand key:n73099853651n
 naagzawaabmaa:naagazawaabam    VTA_TAG    " 1 [see naagdawaabmaa]" ; !Rand key:n71430940221n
 naagzhwaa:naagVv1zhw    VTA_TAG    " 1 shave sth. (an.) (of splints)" ; !Rand key:n71430940732n
-naagzokwewaa:naagazokwew    VTA_TAG    " 1 follow smb.'s tracks" ; !Rand key:n71430941227n
 naagzokwewaa:naagazokwehw    VTA_TAG    " 1 follow smb.'s tracks" ; !Rand key:n71430941227n
 naagzotwaa:naagazotaw    VTA_TAG    " 1 follow smb.'s words" ; !Rand key:n73098444628n
 naajdaabaanaa:naajidaabaan1    VTA_TAG    " 1 go get smb. and bring him back in a vehicle, go get sth. (an.) and haul it back" ; !Rand key:n71430943401n
@@ -9030,9 +8871,7 @@ naateshmaa:inaateshim    VTA_TAG    " 1 shine a light on sth. (an.), shine a lig
 naawdepwaa:naawVv1depaw    VTA_TAG    " 1 deprive smb. of something" ; !Rand key:n73033562232n
 naawkanaa:naawVv1kan    VTA_TAG    " 1 leave smb. behind [in a race], leave smb. trailing [in a race]" ; !Rand key:n73033562277n
 naawnaa:Vi1naawin1    VTA_TAG    " 1 haul sth. (an.) to a certain place (of groups or large quantities)" ; !Rand key:n73098639275n
-naawngawaa:inaawangaw    VTA_TAG    " 1 make sth. (an.) of sand or ashes in a certain shape [with an instrument], move sth. (an.) in sand or ashes in a certain way" ; !Rand key:n71431147911n
 naawngawaa:inaawangahw    VTA_TAG    " 1 make sth. (an.) of sand or ashes in a certain shape [with an instrument], move sth. (an.) in sand or ashes in a certain way" ; !Rand key:n71431147911n
-naazhaabiigwaa:naazhaabiigaw    VTA_TAG    " 1 rub on sth. (an.) [stringlike]" ; !Rand key:n71431148382n
 naazhaabiigwaa:naazhaabiigahw    VTA_TAG    " 1 rub on sth. (an.) [stringlike]" ; !Rand key:n71431148382n
 naazhaan'kwenaa:naazhaanikwen    VTA_TAG    " 1 stroke smb.'s hair" ; !Rand key:n71431148489n
 naazhaawganenaa:naazhaawiganen    VTA_TAG    " 1 rub smb.'s back, stroke smb.'s back" ; !Rand key:n73098535493n
@@ -9080,12 +8919,10 @@ nbagganaamaa:nabagaganaam    VTA_TAG    " 1 pound sth. (an.) flat" ; !Rand key:n
 nbagjiignaamaa:nabagijiiganaam    VTA_TAG    " 1 pound sth. (an.) flat" ; !Rand key:n71431235290n
 nbagjiishkoonaa:nabagijiishkoon1    VTA_TAG    " 1 cause sth. (an.) to be flattened [with a weight]" ; !Rand key:n71431236146n
 nbagjiishkwaa:nabagijiishkaw    VTA_TAG    " 1 flatten sth. (an.) [with one's weight]" ; !Rand key:n71431236447n
-nbagjiiwaa:nabagijiiw    VTA_TAG    " 1 flatten sth. (an.) [with an instrument]" ; !Rand key:n71431236621n
 nbagjiiwaa:nabagijiihw    VTA_TAG    " 1 flatten sth. (an.) [with an instrument]" ; !Rand key:n71431236621n
 nbagshimaa:nabagishim    VTA_TAG    " 1 make sth. (an.) flat" ; !Rand key:n71431237134n
 nbagshkawaa:nabagishkaw    VTA_TAG    " 1 flatten sth. (an.) [with one's weight]" ; !Rand key:n71431237364n
 nbagshkoonaa:nabagishkoon1    VTA_TAG    " 1 cause sth. (an.) to be flattened [with a weight]" ; !Rand key:n71431238409n
-nbagwaa:nabagaw    VTA_TAG    " 1 flatten sth. (an.) [with an instrument]" ; !Rand key:n71431238720n
 nbagwaa:nabagahw    VTA_TAG    " 1 flatten sth. (an.) [with an instrument]" ; !Rand key:n71431238720n
 nbashaap'aa:nVv1bashaapih    VTA_TAG    " 1 make fun of smb., ridicule smb." ; !Rand key:n71431239278n
 nbe'aa:nibeh    VTA_TAG    " 1 put smb. to bed, put smb. to sleep" ; !Rand key:n71431239517n
@@ -9104,12 +8941,10 @@ nda-bmaaj'aa:nanda-bimaajih    VTA_TAG    " 1 provide food for smb., support smb
 nda-mkwenmaa:nanda-mikwenim    VTA_TAG    " 1 try to remember smb." ; !Rand key:n71431363865n
 nda-waabmaa:nanda-waabam    VTA_TAG    " 1 look for smb., search for smb." ; !Rand key:n71431440237n
 nda-waabndamwaa:nanda-waabandamaw    VTA_TAG    " 1 look for something for smb., search for something for smb." ; !Rand key:n71431440626n
-ndaa'aagmawaa:nandaahaagamaw    VTA_TAG    " 1 stir sth. (an.) [with an instrument] (of liquids)" ; !Rand key:n71431359056n
 ndaa'aagmawaa:nandaahaagamahw    VTA_TAG    " 1 stir sth. (an.) [with an instrument] (of liquids)" ; !Rand key:n71431359056n
 ndaa'aagminaa:nandaahaagamin    VTA_TAG    " 1 stir sth. (an.) [with the hands] (of liquids)" ; !Rand key:n71431359208n
 ndaa'ganaamaa:nandaahaganaam    VTA_TAG    " 1 whip sth. (an.) [to mix]" ; !Rand key:n71431359462n
 ndaabkaanaa:ondaabikaan1    VTA_TAG    " 1 tie sth. (an.) from a certain place, hitch sth. (an.) up from a certain place" ; !Rand key:n71431357810n
-ndaajiiwaa:nandaajiiw    VTA_TAG    " 1 stir sth. (an.) (of solids and viscous liquids)" ; !Rand key:n71431359795n
 ndaajiiwaa:nandaajiihw    VTA_TAG    " 1 stir sth. (an.) (of solids and viscous liquids)" ; !Rand key:n71431359795n
 ndaapnemaa:ondaapinem    VTA_TAG    " 1 quarrel with smb. for a certain reason, quarrel with smb. on account of something" ; !Rand key:n71431360146n
 ndaashmaa:ondaashim    VTA_TAG    " 1 shuffle sth. (an.)" ; !Rand key:n73033631909n
@@ -9121,7 +8956,6 @@ ndagnaamaa:ondaganaam    VTA_TAG    " 1 hit smb. for a reason, hit smb. on accou
 ndagoojmaa:ondagoojim    VTA_TAG    " 1 let sth. (an.) drop [from a height], let sth. (an.) fall [from a height]" ; !Rand key:n71431361692n
 ndakdamwaa:nandakodamaw    VTA_TAG    " 1 cut into something in search of something for smb." ; !Rand key:n71431362141n
 ndaknaa:nandakon1    VTA_TAG    " 1 cut into something in search of sth. (an.)" ; !Rand key:n71431362989n
-ndakwewaa:nandakwew    VTA_TAG    " 1 look for smb.'s tracks" ; !Rand key:n71431363453n
 ndakwewaa:nandakwehw    VTA_TAG    " 1 look for smb.'s tracks" ; !Rand key:n71431363453n
 ndamaa:nandam    VTA_TAG    " 1 taste sth. (an.) looking for a particular taste" ; !Rand key:n71431363558n
 ndamaabmaa:ondamaabam    VTA_TAG    " 1 be preoccupied with watching smb." ; !Rand key:n73032538906n
@@ -9131,7 +8965,6 @@ ndanaas'aa:ondanaasih    VTA_TAG    " 1 check smb. for nits, check smb. for lice
 ndanaashkawaa:nandanaashkaw    VTA_TAG    " 1 run around in search of smb." ; !Rand key:n71431364093n
 ndanaazhkawaa:nandanaazhikaw    VTA_TAG    " 1 [see ndanaashkawaa]" ; !Rand key:n71431364298n
 ndane'mawaa:nandanehamaw    VTA_TAG    " 1 search for something for smb." ; !Rand key:n71431439538n
-ndanewaa:nandanew    VTA_TAG    " 1 look for smb., search for smb.;  2 take sth. (an.) out [of a container]" ; !Rand key:n71431439644n
 ndanewaa:nandanehw    VTA_TAG    " 1 look for smb., search for smb.;  2 take sth. (an.) out [of a container]" ; !Rand key:n71431439644n
 ndawaabmaa:nandawaabam    VTA_TAG    " 1 look for smb., search for smb." ; !Rand key:n71431440458n
 ndawaaskonendwaa:nandawaasakonendaw    VTA_TAG    " 1 search smb. out with a light" ; !Rand key:n73034030807n
@@ -9280,7 +9113,6 @@ nooskwaanaa:nooskwaan1    VTA_TAG    " 1 lick sth. (an.)" ; !Rand key:n714337665
 nootwaa:nootaw    VTA_TAG    " 1 quote smb., repeat smb.'s words" ; !Rand key:n71433864026n
 nootwaa:anootaw    VTA_TAG    " 1 quote smb., repeat smb.'s words" ; !Rand key:n71433864026n
 npaaskawaa:nipaazikaw    VTA_TAG    " 1 put sth. (an.) on the wrong way, wear sth. (an.) backwards" ; !Rand key:n73099736589n
-npaznawaa:nVv1pazVv1naw    VTA_TAG    " 1 hock sth. (an.), pawn sth. (an.)" ; !Rand key:n73033841525n
 npaznawaa:nVv1pazVv1nahw    VTA_TAG    " 1 hock sth. (an.), pawn sth. (an.)" ; !Rand key:n73033841525n
 nsaa:nis1    VTA_TAG    " 1 kill smb.;  2 destroy sth. (an.);  3 catch sth. (an.);  4 turn sth. (an.) off (of mechanical devices)" ; !Rand key:n71433865201n
 nsaabaawnaa:nisaabaawan1    VTA_TAG    " 1 make smb. wet, water sth. (an.)" ; !Rand key:n71433865122n
@@ -9303,7 +9135,6 @@ nsidmaamaa:nisidomaam    VTA_TAG    " 1 recognize sth. (an.) by its smell, recog
 nsidpwaa:nisidopw    VTA_TAG    " 1 recognize sth. (an.) by its taste, recognize the taste of sth. (an.)" ; !Rand key:n71434554898n
 nsidwaabmaa:nisidwaabam    VTA_TAG    " 1 recognize smb. by sight, make smb. out" ; !Rand key:n71434555024n
 nsidwinwaa:nisidawinaw    VTA_TAG    " 1 recognize smb. by sight" ; !Rand key:n71434555856n
-nsikwewaa:nisikwew    VTA_TAG    " 1 comb smb.'s hair" ; !Rand key:n71434556936n
 nsikwewaa:nisikwehw    VTA_TAG    " 1 comb smb.'s hair" ; !Rand key:n71434556936n
 nsitamoo'aa:nisidotamooh    VTA_TAG    " 1 explain something to smb." ; !Rand key:n71434557616n
 nsitamoonaa:nisidotamoon1    VTA_TAG    " 1 [see nsastamoonaa]" ; !Rand key:n71434557989n
@@ -9377,9 +9208,7 @@ shagshimaa:shagoshim    VTA_TAG    " 1 crush sth. (an.) by striking it against s
 shagshimaa:zhashagoshim    VTA_TAG    " 1 crush sth. (an.) by striking it against something" ; !Rand key:n7303139475n
 shagshkawaa:ashagoshkaw    VTA_TAG    " 1 crush sth. (an.) [with one's weight]" ; !Rand key:n7303139919n
 shagshkawaa:zhashagoshkaw    VTA_TAG    " 1 crush sth. (an.) [with one's weight]" ; !Rand key:n7303139919n
-shagwaa:ashagow    VTA_TAG    " 1 crush sth. (an.) [with an instrument]" ; !Rand key:n73031311890n
 shagwaa:ashagohw    VTA_TAG    " 1 crush sth. (an.) [with an instrument]" ; !Rand key:n73031311890n
-shagwaa:zhashagow    VTA_TAG    " 1 crush sth. (an.) [with an instrument]" ; !Rand key:n73031311890n
 shagwaa:zhashagohw    VTA_TAG    " 1 crush sth. (an.) [with an instrument]" ; !Rand key:n73031311890n
 shagwaakshkawaa:shagwaakoshkaw    VTA_TAG    " 1 crush sth. (an.) [with one's weight]" ; !Rand key:n73031312456n
 shagwaakshkawaa:zhashagwaakoshkaw    VTA_TAG    " 1 crush sth. (an.) [with one's weight]" ; !Rand key:n73031312456n
@@ -9394,9 +9223,7 @@ shagzwaa:zhashagozw    VTA_TAG    " 1 cook sth. (an.) to mush, cook sth. (an.) u
 shakmoonaa:ashakamoon1    VTA_TAG    " 1 spoon-feed smb." ; !Rand key:n7304604210n
 shakmoonaa:zhashakamoon1    VTA_TAG    " 1 spoon-feed smb." ; !Rand key:n7304604210n
 shamaa:asham    VTA_TAG    " 1 feed smb., feed smb. something" ; !Rand key:n73031378315n
-shawaa:shaw    VTA_TAG    " 1 butter sth. (an.), put a spread on sth. (an.), spread sth. (an.) [on an object]" ; !Rand key:n7303407823n
 shawaa:shahw    VTA_TAG    " 1 butter sth. (an.), put a spread on sth. (an.), spread sth. (an.) [on an object]" ; !Rand key:n7303407823n
-shawaa:zhashaw    VTA_TAG    " 1 butter sth. (an.), put a spread on sth. (an.), spread sth. (an.) [on an object]" ; !Rand key:n7303407823n
 shawaa:zhashahw    VTA_TAG    " 1 butter sth. (an.), put a spread on sth. (an.), spread sth. (an.) [on an object]" ; !Rand key:n7303407823n
 shawebnaa:ashawebin    VTA_TAG    " 1 tilt sth. (an.) aside" ; !Rand key:n73031381015n
 shawejiiyebnaa:ashawejiiyebin1    VTA_TAG    " 1 throw smb. onto his side" ; !Rand key:n73034012026n
@@ -9404,9 +9231,7 @@ shekshimaa:ashekishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. 
 sheyaabiishmaa:asheyaabiishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. (an.) in a row" ; !Rand key:n73031385670n
 shigboonaa:shigoboon1    VTA_TAG    " 1 grind sth. (an.)" ; !Rand key:n7303408159n
 shigboonaa:zhashigoboon1    VTA_TAG    " 1 grind sth. (an.)" ; !Rand key:n7303408159n
-shigjiiwaa:shigojiiw    VTA_TAG    " 1 crush sth. (an.)" ; !Rand key:n7303407017n
 shigjiiwaa:shigojiihw    VTA_TAG    " 1 crush sth. (an.)" ; !Rand key:n7303407017n
-shigjiiwaa:zhashigojiiw    VTA_TAG    " 1 crush sth. (an.)" ; !Rand key:n7303407017n
 shigjiiwaa:zhashigojiihw    VTA_TAG    " 1 crush sth. (an.)" ; !Rand key:n7303407017n
 shinaaj'aa:Vv1shinaajih    VTA_TAG    " 1 waste sth. (an.);  2 devastate smb." ; !Rand key:n7303147167n
 shkamoonaa:ashkamoon1    VTA_TAG    " 1 stuff something in smb.'s mouth" ; !Rand key:n73034010150n
@@ -9421,9 +9246,7 @@ shkoopnaa:ashkoopin1    VTA_TAG    " 1 tie smb. up tight" ; !Rand key:n730314840
 shkozhwaa:shkozhw    VTA_TAG    " 1 cut sth. (an.) and leave part" ; !Rand key:n73031485045n
 shkozhwaa:Vi1shkozhw    VTA_TAG    " 1 cut sth. (an.) and leave part" ; !Rand key:n73031485045n
 shkwamaa:ishkwam    VTA_TAG    " 1 [see shkomaa]" ; !Rand key:n7303154775n
-shoobiigwaa:shoobiigaw    VTA_TAG    " 1 paint sth. (an.) liberally" ; !Rand key:n73035428627n
 shoobiigwaa:shoobiigahw    VTA_TAG    " 1 paint sth. (an.) liberally" ; !Rand key:n73035428627n
-shoobiigwaa:zhishoobiigaw    VTA_TAG    " 1 paint sth. (an.) liberally" ; !Rand key:n73035428627n
 shoobiigwaa:zhishoobiigahw    VTA_TAG    " 1 paint sth. (an.) liberally" ; !Rand key:n73035428627n
 shoodaakshimaa:ashoodaakVv1shim    VTA_TAG    " 1 lay sth. (an.) flush with something else" ; !Rand key:n73034010786n
 shoodaakshkawaa:ashoodaakVv1shkaw    VTA_TAG    " 1 be pressed up against smb., press up against smb." ; !Rand key:n73034010946n
@@ -9441,13 +9264,9 @@ shoonjiinaa:ashooninjiin1    VTA_TAG    " 1 rub something [pasty] on smb.'s hand
 shoonjiinaa:zhashooninjiin1    VTA_TAG    " 1 rub something [pasty] on smb.'s hands" ; !Rand key:n74339361699n
 shoosga'mawaa:shoosagahamaw    VTA_TAG    " 1 paint something for smb." ; !Rand key:n7303157284n
 shoosga'mawaa:zhashoosagahamaw    VTA_TAG    " 1 paint something for smb." ; !Rand key:n7303157284n
-shoosgawaa:shoosagaw    VTA_TAG    " 1 paint sth. (an.) (of wood), cover sth. (an.) (of wood) with paint" ; !Rand key:n7303157511n
 shoosgawaa:shoosagahw    VTA_TAG    " 1 paint sth. (an.) (of wood), cover sth. (an.) (of wood) with paint" ; !Rand key:n7303157511n
-shoosgawaa:zhashoosagaw    VTA_TAG    " 1 paint sth. (an.) (of wood), cover sth. (an.) (of wood) with paint" ; !Rand key:n7303157511n
 shoosgawaa:zhashoosagahw    VTA_TAG    " 1 paint sth. (an.) (of wood), cover sth. (an.) (of wood) with paint" ; !Rand key:n7303157511n
-shoowaa:shoow    VTA_TAG    " 1 paint with sth.(an.);  2 rub sth. (an.) on something, smear sth. (an.) on, spread something [pasty] on" ; !Rand key:n7303157697n
 shoowaa:shoohw    VTA_TAG    " 1 paint with sth.(an.);  2 rub sth. (an.) on something, smear sth. (an.) on, spread something [pasty] on" ; !Rand key:n7303157697n
-shoowaa:zhashoow    VTA_TAG    " 1 paint with sth.(an.);  2 rub sth. (an.) on something, smear sth. (an.) on, spread something [pasty] on" ; !Rand key:n7303157697n
 shoowaa:zhashoohw    VTA_TAG    " 1 paint with sth.(an.);  2 rub sth. (an.) on something, smear sth. (an.) on, spread something [pasty] on" ; !Rand key:n7303157697n
 shoowaawganenaa:ashoowaawiganen    VTA_TAG    " 1 rub something [pasty] on smb.'s back" ; !Rand key:n74339362548n
 shoowaawganenaa:zhashoowaawiganen    VTA_TAG    " 1 rub something [pasty] on smb.'s back" ; !Rand key:n74339362548n
@@ -9502,10 +9321,8 @@ waannishkwaa:waaninishkw    VTA_TAG    " 1 circle sth. (an.), go around sth. (an
 waasenjgamwaa:waasenjigamaw    VTA_TAG    " 1 shine a light for smb." ; !Rand key:n7303255561n
 waaskojiimawaa:waasVi1kojiimaw    VTA_TAG    " 1 polish something for smb., shine something for smb." ; !Rand key:n73034030210n
 waaskojiimawaa:waasVi1kojiihamaw    VTA_TAG    " 1 polish something for smb., shine something for smb." ; !Rand key:n73034030210n
-waaskojiiwaa:waasVi1kojiiw    VTA_TAG    " 1 polish sth. (an.), shine sth. (an.) (of 3-dimensional objects)" ; !Rand key:n7303258086n
 waaskojiiwaa:waasVi1kojiihw    VTA_TAG    " 1 polish sth. (an.), shine sth. (an.) (of 3-dimensional objects)" ; !Rand key:n7303258086n
 waaskonendwaa:waasVi1konendaw    VTA_TAG    " 1 shine a light on smb." ; !Rand key:n73034030305n
-waaskosgawaa:waasVi1kosagaw    VTA_TAG    " 1 polish sth. (an.), varnish sth. (an.)" ; !Rand key:n73034029913n
 waaskosgawaa:waasVi1kosagahw    VTA_TAG    " 1 polish sth. (an.), varnish sth. (an.)" ; !Rand key:n73034029913n
 waatko'mawaa:waatakohamaw    VTA_TAG    " 1 signal smb. to come" ; !Rand key:n73032514037n
 waawaabmaa:waawaabam    VTA_TAG    " 1 stare at smb." ; !Rand key:n73032684355n
@@ -9515,7 +9332,6 @@ waawiindmawaa:waawiindamaw    VTA_TAG    " 1 promise smb. something, make a prom
 waawni'aa:waawVv1nih    VTA_TAG    " 1 give smb. what's coming to him, serve smb. right;  2 be harsh to smb." ; !Rand key:n73034032119n
 waawnimaa:waawVv1nim    VTA_TAG    " 1 put smb. in his place with one's retort" ; !Rand key:n73034031996n
 waawnitwaa:waawVv1nitaw    VTA_TAG    " 1 find smb. [that one hears] funny, find smb.'s remarks funny" ; !Rand key:n73071851138n
-waawyegwaa:waawiyegaw    VTA_TAG    " 1 hew sth. (an.) round" ; !Rand key:n7303275944n
 waawyegwaa:waawiyegahw    VTA_TAG    " 1 hew sth. (an.) round" ; !Rand key:n7303275944n
 waawyeshmaa:waawiyeshim    VTA_TAG    " 1 set sth. (an.) down in a circle" ; !Rand key:n7303277173n
 wanmaa:wanim    VTA_TAG    " 1 confound smb. [with one's questions]" ; !Rand key:n73034031732n
@@ -9523,7 +9339,6 @@ webaashmaa:webaashim    VTA_TAG    " 1 blow sth. (an.) away" ; !Rand key:n730327
 webnaa:webin1    VTA_TAG    " 1 abandon smb., throw sth. (an.) away;  2 divorce smb., get a [marital] separation from smb." ; !Rand key:n73032776946n
 Wemtigoozhiimtawaa:wemitigoozhiimVa1taw    VTA_TAG    " 1 speak French to smb." ; !Rand key:n73032779098n
 wenaabmaa:wenaabam    VTA_TAG    " 1 choose sth. (an.), select sth. (an.), look over sth. (an.) [to decide about selection]" ; !Rand key:n73032779320n
-wenpazhnewaa:wenipazhinew    VTA_TAG    " 1 buy sth. (an.) at a cheap price" ; !Rand key:n73034126805n
 wenpazhnewaa:wenipazhinehw    VTA_TAG    " 1 buy sth. (an.) at a cheap price" ; !Rand key:n73034126805n
 wepdamwaa:wepidamaw    VTA_TAG    " 1 hit something belonging to smb." ; !Rand key:n73032783079n
 wepdawaa:wepidaw    VTA_TAG    " 1 hit smb., strike smb." ; !Rand key:n73032783454n
@@ -9585,7 +9400,6 @@ wiisgibnaa:wiisagibin1    VTA_TAG    " 1 hurt smb. [in grabbing him], hurt smb. 
 wiisgide'etwaa:wiisagidehetaw    VTA_TAG    " 1 hurt smb. [emotionally], hurt smb.'s feelings" ; !Rand key:n7303315370n
 wiisgidemaa:wiisagidem    VTA_TAG    " 1 make smb. acutely angry" ; !Rand key:n73072050320n
 wiisgishkwaa:wiisagishkaw    VTA_TAG    " 1 hurt smb. [with one's weight]" ; !Rand key:n73072049477n
-wiishkbawaa:wiishkobaw    VTA_TAG    " 1 sweeten sth. (an.), put sugar in sth. (an.)" ; !Rand key:n73034131780n
 wiishkbawaa:wiishkobahw    VTA_TAG    " 1 sweeten sth. (an.), put sugar in sth. (an.)" ; !Rand key:n73034131780n
 wiishkswaa:wiishkosw    VTA_TAG    " 1 smoke sth. (an.) (of food)" ; !Rand key:n7303319940n
 wiiwegjiinaa:wiiwegijiin    VTA_TAG    " 1 wrap sth. (an.) up in cloth" ; !Rand key:n73033112578n
@@ -9593,7 +9407,6 @@ wiiwjiinaa:wiiwVv1jiin    VTA_TAG    " 1 wrap smb. up" ; !Rand key:n73033112959n
 wiiwkwejiinaa:wiiwakwejiin    VTA_TAG    " 1 wrap smb. up" ; !Rand key:n73033113171n
 wmbaabiigbinaa:ombaabiigibin1    VTA_TAG    " 1 [see mbaabiigbinaa]" ; !Rand key:n73072077501n
 wmbaabiignaa:ombaabiigin1    VTA_TAG    " 1 [see mbaabiignaa]" ; !Rand key:n73072077616n
-wmbawaa:ombaw    VTA_TAG    " 1 [see mbawaa]" ; !Rand key:n73072080561n
 wmbawaa:ombahw    VTA_TAG    " 1 [see mbawaa]" ; !Rand key:n73072080561n
 wmbiigweweshmaa:ombiigweweshim    VTA_TAG    " 1 [see mbiigweweshmaa]" ; !Rand key:n73072081965n
 wmbimaa:ombim    VTA_TAG    " 1 incite smb., stir smb. up" ; !Rand key:n73072082538n
@@ -9602,7 +9415,6 @@ wmbinmoo'aa:ombinamooh    VTA_TAG    " 1 [see mbinmoo'aa]" ; !Rand key:n73072082
 wmboomaa:omboom    VTA_TAG    " 1 [see mboomaa]" ; !Rand key:n73072083277n
 wndagnaamaa:ondaganaam    VTA_TAG    " 1 hit smb. for a certain reason" ; !Rand key:n73033133321n
 wndagoojmaa:ondagoojim    VTA_TAG    " 1 [see ndagoojmaa]" ; !Rand key:n73033134792n
-wndanewaa:ondanew    VTA_TAG    " 1 [see ndanewaa]" ; !Rand key:n73033135735n
 wndanewaa:ondanehw    VTA_TAG    " 1 [see ndanewaa]" ; !Rand key:n73033135735n
 wndinaa:ondin1    VTA_TAG    " 1 [see ndinaa]" ; !Rand key:n73033137538n
 wndinmawaa:ondinamaw    VTA_TAG    " 1 [see ndinmawaa]" ; !Rand key:n73033138671n
@@ -9617,7 +9429,6 @@ wwaabmaa:wawaabam    VTA_TAG    " 1 see sth. (an.) over and over again" ; !Rand 
 wzhi'aa:ozhih    VTA_TAG    " 1 [see zhi'aa]" ; !Rand key:n73033169799n
 wzhibii'getmawaa:ozhibiihigetamaw    VTA_TAG    " 1 [see zhibii'getmawaa]" ; !Rand key:n73033167990n
 wzhibii'mawaa:ozhibiihamaw    VTA_TAG    " 1 [see zhibii'mawaa]" ; !Rand key:n73033168299n
-wzhibiiwaa:ozhibiiw    VTA_TAG    " 1 [see zhibiiwaa]" ; !Rand key:n73033168483n
 wzhibiiwaa:ozhibiihw    VTA_TAG    " 1 [see zhibiiwaa]" ; !Rand key:n73033168483n
 wzhigaanaa:ozhigaan1    VTA_TAG    " 1 [see zhigaanaa]" ; !Rand key:n73033169427n
 wzhigwaa:ozhigaw    VTA_TAG    " 1 [see zhigwaa]" ; !Rand key:n73033169618n
@@ -9662,9 +9473,7 @@ zaamiikwaa:zaamiikaw    VTA_TAG    " 1 overindulge in sth. (an.)" ; !Rand key:n7
 zaamiikwaa:ozaamiikaw    VTA_TAG    " 1 overindulge in sth. (an.)" ; !Rand key:n73028851203n
 zaamkonaa:zaamikon1    VTA_TAG    " 1 cut too deeply into sth. (an.), cut too much off of sth. (an.)" ; !Rand key:n73028850979n
 zaamkonaa:ozaamikon1    VTA_TAG    " 1 cut too deeply into sth. (an.), cut too much off of sth. (an.)" ; !Rand key:n73028850979n
-zaamnawaa:zaaminaw    VTA_TAG    " 1 oversalt sth. (an.)" ; !Rand key:n73034133414n
 zaamnawaa:zaaminahw    VTA_TAG    " 1 oversalt sth. (an.)" ; !Rand key:n73034133414n
-zaamnawaa:ozaaminaw    VTA_TAG    " 1 oversalt sth. (an.)" ; !Rand key:n73034133414n
 zaamnawaa:ozaaminahw    VTA_TAG    " 1 oversalt sth. (an.)" ; !Rand key:n73034133414n
 zaampwaa:zaamipw    VTA_TAG    " 1 overeat sth. (an.) and get sick of it" ; !Rand key:n73028855138n
 zaampwaa:ozaamipw    VTA_TAG    " 1 overeat sth. (an.) and get sick of it" ; !Rand key:n73028855138n
@@ -9681,7 +9490,6 @@ zegdaabaanaa:zegidaabaan1    VTA_TAG    " 1 give smb. a frightening ride, fright
 zegmaa:zegim    VTA_TAG    " 1 frighten smb. [by what one says or by one's screaming], scare smb. [by shouting]" ; !Rand key:n73033383519n
 zesesmaa:zesesim    VTA_TAG    " 1 make smb. cry [by what one says]. reduce smb. to tears" ; !Rand key:n73033385363n
 zgaabiignaa:zagaabiigin1    VTA_TAG    " 1 hold sth. (an.) by a rein, hold sth. (an.) by a rope, hold sth. (an.) by a leash" ; !Rand key:n73034217357n
-zgaakwaa:zagaakwaw    VTA_TAG    " 1 fasten sth. (an.) [with a nail-like object]" ; !Rand key:n730334992n
 zgaakwaa:zagaakwahw    VTA_TAG    " 1 fasten sth. (an.) [with a nail-like object]" ; !Rand key:n730334992n
 zgaan'kwebnaa:zagaanikwebin1    VTA_TAG    " 1 pull smb.'s hair" ; !Rand key:n73034217494n
 zgaan'kwes'aa:zagaanikwesoh    VTA_TAG    " 1 jerk smb. by the hair, yank smb.'s hair" ; !Rand key:n73034217541n
@@ -9716,7 +9524,6 @@ zhaaboojnemawaa:zhaaboojinemaw    VTA_TAG    " 1 beat smb. out in buying somethi
 zhaabooskinwaa:zhaabooskinaw    VTA_TAG    " 1 beat smb. to something" ; !Rand key:n73043046171n
 zhaabwaabmaa:zhaabwaabam    VTA_TAG    " 1 see through sth. (an.)" ; !Rand key:n73033416099n
 zhaabwii'aa:zhaabwiih    VTA_TAG    " 1 rescue smb., save smb.;  2 save sth. (an.) [for later]" ; !Rand key:n73034218502n
-zhaabwiigwaa:zhaabwiigaw    VTA_TAG    " 1 penetrate sth. (an.), put a hole through sth. (an.) [with an instrument]" ; !Rand key:n73033433997n
 zhaabwiigwaa:zhaabwiigahw    VTA_TAG    " 1 penetrate sth. (an.), put a hole through sth. (an.) [with an instrument]" ; !Rand key:n73033433997n
 zhaabwinaa:zhaabowin1    VTA_TAG    " 1 carry smb. through [to safety], rescue smb., save smb." ; !Rand key:n73033434371n
 zhaagnaashiimtawaa:zhaaganaashiimVa1taw    VTA_TAG    " 1 speak English to smb." ; !Rand key:n73033436591n
@@ -9730,7 +9537,6 @@ zhaagoozkawaa:zhaagoozikaw    VTA_TAG    " 1 [see zhaagooskwaa]" ; !Rand key:n73
 zhaamaa:izhaam    VTA_TAG    " 1 go to smb., pay smb. a visit" ; !Rand key:n73072582728n
 zhaamwaa:Vi1zhaamaw    VTA_TAG    " 1 go to smb., pay smb. a visit" ; !Rand key:n73033445039n
 zhaashaagjiishkwaa:zhaashaagijiishkaw    VTA_TAG    " 1 mash sth. (an.) [with one's weight]" ; !Rand key:n73045952259n
-zhaashaagjiiwaa:zhaashaagijiiw    VTA_TAG    " 1 mash sth. (an.)" ; !Rand key:n73045952078n
 zhaashaagjiiwaa:zhaashaagijiihw    VTA_TAG    " 1 mash sth. (an.)" ; !Rand key:n73045952078n
 zhaashaagmaa:zhaashaagim    VTA_TAG    " 1 chew sth. (an.)" ; !Rand key:n73034219387n
 zhaawenmaa:zhaawenim    VTA_TAG    " 1 be envious of smb., be jealous of smb., covet smb.'s goods" ; !Rand key:n73033513520n
@@ -9753,9 +9559,7 @@ zhgaztawaa:zhVi1gazVi1taw    VTA_TAG    " 1 tire of hearing smb., tire of listen
 zhi'aa:izhih    VTA_TAG    " 1 arrange sth. (an.) in a certain way, make sth. (an.);  2 make smb. do something" ; !Rand key:n730336623n
 zhibii'getmawaa:ozhibiihigetamaw    VTA_TAG    " 1 write [a letter] for smb., write [a letter] to smb." ; !Rand key:n73033581620n
 zhibii'mawaa:ozhibiihamaw    VTA_TAG    " 1 write something for smb., write something to smb." ; !Rand key:n73033581812n
-zhibiiwaa:zhibiiw    VTA_TAG    " 1 draw smb., write sth. (an.)" ; !Rand key:n73033582151n
 zhibiiwaa:zhibiihw    VTA_TAG    " 1 draw smb., write sth. (an.)" ; !Rand key:n73033582151n
-zhibiiwaa:ozhibiiw    VTA_TAG    " 1 draw smb., write sth. (an.)" ; !Rand key:n73033582151n
 zhibiiwaa:ozhibiihw    VTA_TAG    " 1 draw smb., write sth. (an.)" ; !Rand key:n73033582151n
 zhibnaa:zhibin1    VTA_TAG    " 1 pull sth. (an.) in a certain direction, pull sth. (an.) in a certain way, pull sth. (an.) to a certa" ; !Rand key:n73033582609n
 zhibnaa:izhibin1    VTA_TAG    " 1 pull sth. (an.) in a certain direction, pull sth. (an.) in a certain way, pull sth. (an.) to a certa" ; !Rand key:n73033582609n
@@ -9792,7 +9596,6 @@ zhinaazhkawaa:izhinaazhikaw    VTA_TAG    " 1 [see zhinaashkawaa]" ; !Rand key:n
 zhinaazhwaa:izhinaazhaw    VTA_TAG    " 1 send smb. to a certain place" ; !Rand key:n73033638840n
 zhinmaa:Vi1zhinim    VTA_TAG    " 1 have smb. as an in-law" ; !Rand key:n73033639841n
 zhinoo'mawaa:izhinoohamaw    VTA_TAG    " 1 show something to smb." ; !Rand key:n73033978909n
-zhinoowaa:izhinoow    VTA_TAG    " 1 point at smb., point smb. out, point something at smb." ; !Rand key:n73033979155n
 zhinoowaa:izhinoohw    VTA_TAG    " 1 point at smb., point smb. out, point something at smb." ; !Rand key:n73033979155n
 zhishenmaa:ozhishenyim    VTA_TAG    " 1 bum something off of smb." ; !Rand key:n73033979748n
 zhishmaa:izhishim    VTA_TAG    " 1 lay sth. (an.) down in a certain position, direction or way, set sth. (an.) down in a certain position, direction, or way;  2 hurt smb." ; !Rand key:n73033980780n
@@ -9800,7 +9603,6 @@ zhitmawaa:zhitamaw    VTA_TAG    " 1 make something for smb." ; !Rand key:n73033
 zhitmawaa:ozhitamaw    VTA_TAG    " 1 make something for smb." ; !Rand key:n73033981451n
 zhitwaa:ozhitaw    VTA_TAG    " 1 [see zhitmawaa]" ; !Rand key:n73033982145n
 zhiweb'amwaa:izhiwebahamaw    VTA_TAG    " 1 shove something to smb. [with an instrument], pass something to smb. (in hockey)" ; !Rand key:n73072871552n
-zhiwebwaa:izhiwebaw    VTA_TAG    " 1 shove sth. (an.) in a certain way [with an instrument], shove sth. (an.) in a certain direction [wit" ; !Rand key:n73033982977n
 zhiwebwaa:izhiwebahw    VTA_TAG    " 1 shove sth. (an.) in a certain way [with an instrument], shove sth. (an.) in a certain direction [wit" ; !Rand key:n73033982977n
 zhiwnaa:izhiwin1    VTA_TAG    " 1 carry sth. (an.) in a certain direction, carry sth. (an.) to a certain place, take sth. (an.) in to a certain place" ; !Rand key:n73033984349n
 zhkendaan:zhVv1kendaan    VTA_TAG    " 1 curse sth., say bad things about sth." ; !Rand key:n73033985396n
@@ -9815,13 +9617,11 @@ zhoonyaakaanaa:zhooniyaakaan1    VTA_TAG    " 1 make [lots of] money off of smb.
 zhoonyaakwaa:zhooniyaakaw    VTA_TAG    " 1 make money for smb., make money from smb." ; !Rand key:n73034018500n
 zhooshkshimaa:zhooshkoshim    VTA_TAG    " 1 make sth. (an.) slip" ; !Rand key:n73035431037n
 zhooshkwegnaa:zhooshkwegin    VTA_TAG    " 1 smooth sth. (an.) out (of sheetlike objects)" ; !Rand key:n73035438774n
-zhooshkwegwaa:zhooshkwegaw    VTA_TAG    " 1 iron sth. (an.)" ; !Rand key:n73035431964n
 zhooshkwegwaa:zhooshkwegahw    VTA_TAG    " 1 iron sth. (an.)" ; !Rand key:n73035431964n
 zhwegshimaa:azhwegishim    VTA_TAG    " 1 spread sth. (an.) out (of sheetlike objects)" ; !Rand key:n73035440607n
 zhwegshimaa:dazhwegishim    VTA_TAG    " 1 spread sth. (an.) out (of sheetlike objects)" ; !Rand key:n73035440607n
 zhwenmaa:zhawenim    VTA_TAG    " 1 be charitable towards smb., take pity on smb." ; !Rand key:n73035440962n
 zhyaaweshmaa:zhiyaaweshim    VTA_TAG    " 1 set sth. (an.) straight" ; !Rand key:n73035443227n
-zhzhoosgawaa:zhizhoosagaw    VTA_TAG    " 1 paint sth. (an.) [not in artistic sense]" ; !Rand key:n73035429613n
 zhzhoosgawaa:zhizhoosagahw    VTA_TAG    " 1 paint sth. (an.) [not in artistic sense]" ; !Rand key:n73035429613n
 ziignaa:ziigin1    VTA_TAG    " 1 pour [the contents of] sth. (an.)" ; !Rand key:n73035445666n
 ziignamwaa:ziiginamaw    VTA_TAG    " 1 pour something for smb." ; !Rand key:n73035445842n
@@ -9850,7 +9650,6 @@ ziitaagnawaa:ziitaaganaw    VTA_TAG    " 1 salt sth. (an.)" ; !Rand key:n7303575
 ziizningwaamaa:ziizVv1ningwaam    VTA_TAG    " 1 carry sth. (an.) squeezed under one's arm, hold sth. (an.) squeezed under one's arm" ; !Rand key:n73035753283n
 zka'mawaa:zakahamaw    VTA_TAG    " 1 light something for smb." ; !Rand key:n73035811023n
 zkaabiignaa:zakaabiigin1    VTA_TAG    " 1 plug sth. (an.) in" ; !Rand key:n73034022069n
-zkawaa:zakaw    VTA_TAG    " 1 light sth. (an.), set sth. (an.) on fire" ; !Rand key:n73035811468n
 zkawaa:zakahw    VTA_TAG    " 1 light sth. (an.), set sth. (an.) on fire" ; !Rand key:n73035811468n
 zkwaanaa:zikwaan1    VTA_TAG    " 1 spit on smb." ; !Rand key:n73035812511n
 znagbinaa:zanagibin1    VTA_TAG    " 1 crush sth. (an.) with a twist" ; !Rand key:n73035812911n
@@ -9866,7 +9665,6 @@ znagmaa:zanagim    VTA_TAG    " 1 make a difficult demand of smb., make a diffic
 znagnikebnaa:zVi1nVi1gonikebin1    VTA_TAG    " 1 massage smb.'s arm, rub smb.'s arm" ; !Rand key:n73036015976n
 znagnikenaa:zVi1nVi1goniken    VTA_TAG    " 1 massage smb.'s arm, rub smb.'s arm" ; !Rand key:n73036016071n
 zookoobiignaa:zookoobiigin    VTA_TAG    " 1 drain water from sth. (an.), wring water from sth. (an.)" ; !Rand key:n73036023915n
-zoongaakwaa:zoongaakwaw    VTA_TAG    " 1 fasten sth. (an.) securely, fasten sth. (an.) tightly, secure sth. (an.) tightly" ; !Rand key:n73036024307n
 zoongaakwaa:zoongaakwahw    VTA_TAG    " 1 fasten sth. (an.) securely, fasten sth. (an.) tightly, secure sth. (an.) tightly" ; !Rand key:n73036024307n
 zoongde'eshkwaa:zoongideheshkaw    VTA_TAG    " 1 confirm smb." ; !Rand key:n73036024920n
 zoonggwaanaa:zoongigwaan1    VTA_TAG    " 1 sew sth. (an.) so that it's strong, sew sth. tightly" ; !Rand key:n73036025239n
@@ -9875,7 +9673,6 @@ aabmiitaw:aabamiitaw    VTA_TAG    " 1 fight against smb., rise up against smb.,
 baasbinaa:baasibin    VTA_TAG    " 1 crack sth. (an.), smash sth. (an.)" ; !Rand key:n65305794747n
 bengshkawaa:bengoshkaw    VTA_TAG    " 1 wear sth. (an.) until it dries" ; !Rand key:n200581110-51-24n
 bengwaashmaa:bengwaashim    VTA_TAG    " 1 dry sth. (an.) [in a dryer]" ; !Rand key:n200581111-28-27n
-bengwegwaa:†bengwegaw    VTA_TAG    " 1 iron sth. (an.) dry" ; !Rand key:n200581111-35-27n
 bengwegwaa:†bengwegahw    VTA_TAG    " 1 iron sth. (an.) dry" ; !Rand key:n200581111-35-27n
 bengdinaa:bengodin    VTA_TAG    " 1 knead sth. (an.) (of dough)" ; !Rand key:n200581611-33-51n
 bzwaabiishmaa:bizwaabiishim    VTA_TAG    " 1 wind sth. (an.)" ; !Rand key:n2005121914-19-29n
@@ -9891,18 +9688,15 @@ aagwishmaa:aagawishim    VTA_TAG    " 1 put sth. (an.) behind something else (so
 giishktawgepwaa:giishkitawagebw    VTA_TAG    " 1 bite smb.'s ear off" ; !Rand key:n2010121510-55-20n
 mkade'aa:makadeh    VTA_TAG    " 1 make smb. fast; supervise the fast of smb." ; !Rand key:n2010121518-52-29n
 niibdegaabwi'aa:niibidegaabawih    VTA_TAG    " 1 stand smb. up in a row; make smb. stand in a row or line" ; !Rand key:n2010121519-0-59n
-baabii'waa:baabiiw    VTA_TAG    " 1 wait for smb." ; !Rand key:n2010121519-28-25n
 baabii'waa:baabiihw    VTA_TAG    " 1 wait for smb." ; !Rand key:n2010121519-28-25n
 bkwaakninjiitwaa:bikwaakoninjiitaw    VTA_TAG    " 1 make a fist at smb." ; !Rand key:n2010121620-21-42n
 aanjibii'waa:aanjibiihw    VTA_TAG    " 1 repaint sth. (an.)" ; !Rand key:n201132518-28-59n
 baapaashkzwaa:baapaashkizw    VTA_TAG    " 1 [see baashkzwaa]" ; !Rand key:n20113267-18-47n
 bgidnamwaa:bagidinamaw    VTA_TAG    " 1 allow (something) to smb., permit smb. to have (something);  2 set (something) down for smb., release (something) to smb." ; !Rand key:n201132615-48-22n
-biindaagnawaa:biindaaganaw    VTA_TAG    " 1 have sth. (an.) in one's pocket, put sth. (an.) in one's pocket" ; !Rand key:n201132617-9-48n
 biindaagnawaa:biindaaganahw    VTA_TAG    " 1 have sth. (an.) in one's pocket, put sth. (an.) in one's pocket" ; !Rand key:n201132617-9-48n
 biiwkonaa:biiwikVo1n1    VTA_TAG    " 1 cut sth. (an.) into small pieces, cut sth. (an.) into fine pieces" ; !Rand key:n201132619-19-46n
 biiwkonaa:biiwikon1    VTA_TAG    " 1 cut sth. (an.) into small pieces, cut sth. (an.) into fine pieces" ; !Rand key:n201132619-19-46n
 bmasnii'aa:bimasiniih    VTA_TAG    " 1 throw rocks at smb." ; !Rand key:n20113276-49-51n
-bmin'zhawaa:biminizhaw    VTA_TAG    " 1 chase smb." ; !Rand key:n20113277-28-29n
 bmin'zhawaa:biminizhahw    VTA_TAG    " 1 chase smb." ; !Rand key:n20113277-28-29n
 boodaakwewebnaa:boodaakwewebin    VTA_TAG    " 1 throw sth. (an.) into a pot or kettle" ; !Rand key:n201132710-41-13n
 boozwebnaa:boozwebin1    VTA_TAG    " 1 throw sth. (an) onto a vehicle, load sth. (an.) onto a vehicle" ; !Rand key:n201132712-7-22n
@@ -9924,7 +9718,6 @@ jaagnaa:jaagin    VTA_TAG    " 1 use sth. (an.) up" ; !Rand key:n2011437-42-52n
 jiichiibnaa:jiichiibin1    VTA_TAG    " 1 poke smb." ; !Rand key:n20114311-18-55n
 kaadenaa:akaaden    VTA_TAG    " 1 braid sth. (an.)" ; !Rand key:n20114312-12-35n
 maajii'aa:maajiih    VTA_TAG    " 1 take smb. away;  2 make smb. remove to another location, remove smb. to another location" ; !Rand key:n20114321-8-28n
-maajiinaazh'waa:maajiinaazhVi1w    VTA_TAG    " 1 send smb. away" ; !Rand key:n20114321-21-21n
 maajiinaazh'waa:maajiinaazhVi1hw    VTA_TAG    " 1 send smb. away" ; !Rand key:n20114321-21-21n
 maajiinaazhkawaa:maajiinaazhikaw    VTA_TAG    " 1 send smb. [to do something];  2 chase smb. away" ; !Rand key:n20114321-30-48n
 maaknanaa:maakinan1    VTA_TAG    " 1 maim smb., wound smb. and cripple by striking" ; !Rand key:n20114322-9-56n
@@ -9948,12 +9741,10 @@ aanoojiikwaa:aanoojiikaw    VTA_TAG    " 1 pester smb. terribly" ; !Rand key:n20
 aanoozmaa:aanoozim    VTA_TAG    " 1 pester smb. terribly with demands" ; !Rand key:n20161514-40-56n
 aanzwekwaa:aanzwekaw    VTA_TAG    " 1 [see aanzweshkwaa]" ; !Rand key:n20161514-49-23n
 aapdagnaamaa:aapidaganaam    VTA_TAG    " 1 beat smb. to death, kill smb. with a blow" ; !Rand key:n2016166-27-9n
-aaswaakwaa:aaswaakow    VTA_TAG    " 1 brace sth. (an.) so it doesn’t fall over" ; !Rand key:n2016175-9-24n
 aaswaakwaa:aaswaakohw    VTA_TAG    " 1 brace sth. (an.) so it doesn’t fall over" ; !Rand key:n2016175-9-24n
 aazhgidwebnaa:aazhigidwebin1    VTA_TAG    " 1 flip sth. (an.) forcefully onto its back, push sth. (an.) forcefully onto its back" ; !Rand key:n2016176-57-39n
 aazhgijwebnaa:aazhigijiwebin1    VTA_TAG    " 1 [see aazhgidwebnaa]" ; !Rand key:n2016177-35-37n
 aazhigijiitwaa:aazhigijiitaw    VTA_TAG    " 1 ???" ; !Rand key:n20161711-4-2n
-baabaagjiiwaa:baabaagijiiw    VTA_TAG    " 1 pound sth. (an.)" ; !Rand key:n20161714-16-51n
 baabaagjiiwaa:baabaagijiihw    VTA_TAG    " 1 pound sth. (an.)" ; !Rand key:n20161714-16-51n
 baabgoknaa:baabVv1gokon1    VTA_TAG    " 1 cut sth. (an.) loose from a surface, remove sth. (an.) stuck on something by cutting it" ; !Rand key:n20161714-28-25n
 bmibzoo’aa:bimibizoo’    VTA_TAG    " 1 run sth. (an) [with a motor]" ; !Rand key:n2016187-35-54n
@@ -9962,15 +9753,11 @@ baagaaksa’aa:baagaakosa’    VTA_TAG    " 1 slam sth. (an.)" ; !Rand key:n201
 baakdaamkagnebnaa:baakVv1daamikaganebin1    VTA_TAG    " 1 force smb.’s jaws open" ; !Rand key:n20161815-41-46n
 baakdenmaa:baakVv1denim    VTA_TAG    " 1 become permanently biased against smb., be unable to change one’s feelings about smb." ; !Rand key:n2016198-32-59n
 baakdonebnaa:baakidonebin1    VTA_TAG    " 1 force smb.’s mouth open, open smb.’s mouth" ; !Rand key:n2016198-51-20n
-baapaagbiigwaa:baapaagVv1biigiw    VTA_TAG    " 1 beat sth. (an.) to remove its shell, pound sth. (an.) to remove its shell, thresh sth. (an.) by hand" ; !Rand key:n20161910-51-20n
 baapaagbiigwaa:baapaagVv1biigihw    VTA_TAG    " 1 beat sth. (an.) to remove its shell, pound sth. (an.) to remove its shell, thresh sth. (an.) by hand" ; !Rand key:n20161910-51-20n
-baapaagjiiwaa:baapaagVv1jiiw    VTA_TAG    " 1 pound sth. (an.)" ; !Rand key:n20161910-59-43n
 baapaagjiiwaa:baapaagVv1jiihw    VTA_TAG    " 1 pound sth. (an.)" ; !Rand key:n20161910-59-43n
 baapaagndibegnaamaa:baapaagVv1ndibeganaam    VTA_TAG    " 1 pound smb. on the head" ; !Rand key:n20161911-2-16n
 baagndibeshmaa:baagVv1ndibeshim    VTA_TAG    " 1 pound smb.’s head against something" ; !Rand key:n20161911-7-31n
-baapaagndibewaa:baapaagVv1ndibew    VTA_TAG    " 1 pound smb. on the head" ; !Rand key:n20161911-12-17n
 baapaagndibewaa:baapaagVv1ndibehw    VTA_TAG    " 1 pound smb. on the head" ; !Rand key:n20161911-12-17n
-baapaawganewaa:baapaawiganew    VTA_TAG    " 1 give smb. backslaps, slap smb. on the back" ; !Rand key:n20161913-0-30n
 baapaawganewaa:baapaawiganehw    VTA_TAG    " 1 give smb. backslaps, slap smb. on the back" ; !Rand key:n20161913-0-30n
 baashjikaanaa:baashVv1jikaan1    VTA_TAG    " 1 overtake smb., pass smb. [on the road]" ; !Rand key:n20161920-20-38n
 baashkjiishkwaa:baashkijiishkaw    VTA_TAG    " 1 burst sth. (an.) [with one’s weight], squash sth. (an.) [with one’s weight]" ; !Rand key:n20161921-31-28n
@@ -9980,7 +9767,6 @@ baazgognaamaa:baazagoganaam    VTA_TAG    " 1 scratch smb. [by hitting]" ; !Rand
 baazgojiibnaa:baazagojiibin1    VTA_TAG    " 1 scratch [wounding] smb. on the body" ; !Rand key:n20161116-46-42n
 baazgoshmaa:baazagoshim    VTA_TAG    " 1 scratch sth. (an.) [by striking it against something]" ; !Rand key:n20161116-55-28n
 baazgoshkwaa:baazagoshkaw    VTA_TAG    " 1 scratch smb. [with one’s weight]" ; !Rand key:n20161117-3-59n
-baazgowaa:baazagow    VTA_TAG    " 1 scratch sth. (an.) [with an instrument]" ; !Rand key:n20161117-7-22n
 baazgowaa:baazagohw    VTA_TAG    " 1 scratch sth. (an.) [with an instrument]" ; !Rand key:n20161117-7-22n
 bchiwebnaa:bichiwebin1    VTA_TAG    " 1 discard sth. (an.) by mistake, throw sth. (an.) away by mistake, toss sth. (an.) out by mistake" ; !Rand key:n201611111-31-49n
 bchizhaanaa:bichizhaan1    VTA_TAG    " 1 pee on sth. (an.) accidentally" ; !Rand key:n201611114-48-43n
@@ -10002,11 +9788,9 @@ biinjganebnaa:biinjiganebin1    VTA_TAG    " 1 force smb.’s bone into its sock
 biinjjaanebnaa:biinjijaanebin1    VTA_TAG    " 1 poke smb. in the nose with one’s finger, put one’s finger in smb.’s nose" ; !Rand key:n201611411-18-31n
 biinjtawgebnaa:biinjitawagebin1    VTA_TAG    " 1 poke smb. in the ear with one’s finger, put a finger in smb.’s ear" ; !Rand key:n201611411-29-17n
 biipiigmaa:biipiigim    VTA_TAG    " 1 chew sth. (an.) to bits, shreds" ; !Rand key:n201611412-25-28n
-biisbiiwaa:biisibiiw    VTA_TAG    " 1 write sth. (an.) in fine print, write sth. (an.) in tiny print" ; !Rand key:n201611413-3-15n
 biisbiiwaa:biisibiihw    VTA_TAG    " 1 write sth. (an.) in fine print, write sth. (an.) in tiny print" ; !Rand key:n201611413-3-15n
 binoojiinkaanaa:abinoojiinyikaan1    VTA_TAG    " 1 coddle smb., treat smb. like a baby" ; !Rand key:n201611515-32-20n
 bkaabiigsa’aa:bakaabiigVv1sa’    VTA_TAG    " 1 break sth. (an.) [stringlike] in yanking it" ; !Rand key:n201611515-37-20n
-bkaabiigwaa:bakaabiigaw    VTA_TAG    " 1 break sth. (an.) by overwinding it [of a timepiece]" ; !Rand key:n201611515-41-29n
 bkaabiigwaa:bakaabiigahw    VTA_TAG    " 1 break sth. (an.) by overwinding it [of a timepiece]" ; !Rand key:n201611515-41-29n
 bkewnaa:bakewin1    VTA_TAG    " 1 lead smb. astray" ; !Rand key:n201611516-3-1n
 bkidaabiiggoonaa:bakidaabiigagoon1    VTA_TAG    " 1 hang sth. (an.) [stringlike] up over something" ; !Rand key:n201611516-12-40n
@@ -10025,7 +9809,6 @@ bmagsa’aa:bVv1magVv1sa’    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201
 bmagwebnaa:bimagwebin1    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611611-50-20n
 bmigsa’aa:bVv1dmgVv1sa’    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611613-12-43n
 bmigwebnaa:bimigwebin1    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611613-19-2n
-bminaazhwaa:biminaazhaw    VTA_TAG    " 1 direct sth. (an.) (CL);  2 drive sth. (an.) (Wp);  3 control smb. (e.g., one’s spouse)" ; !Rand key:n201611613-36-18n
 bminaazhwaa:biminaazhahw    VTA_TAG    " 1 direct sth. (an.) (CL);  2 drive sth. (an.) (Wp);  3 control smb. (e.g., one’s spouse)" ; !Rand key:n201611613-36-18n
 bnaadaabiignaa:banaadaabiigin    VTA_TAG    " 1 string sth. (an.) the wrong way;  2 lead smb. astray (figurative)" ; !Rand key:n201611614-11-24n
 bnaadwewemaa:banaadwewem    VTA_TAG    " 1 confuse smb. with one’s remarks" ; !Rand key:n20161178-40-7n
@@ -10035,7 +9818,6 @@ bnitwaa:binitw    VTA_TAG    " 1 hear smb. in passing" ; !Rand key:n201611711-38
 bookwegnaa:bookwegin    VTA_TAG    " 1 fold sth. (an.) [rigid and sheetlike]" ; !Rand key:n201612014-52-52n
 boon’kiiyaabiignaa:boonVv1kiiyaabiigin1    VTA_TAG    " 1 lower sth. (an.) straight down [with a rope]" ; !Rand key:n201612015-5-4n
 boonii’aa:booniih    VTA_TAG    " 1 land sth. (an.)" ; !Rand key:n201612015-39-43n
-bootaagwaa:bootaagaw    VTA_TAG    " 1 pound sth. (an.) [with a pestle]" ; !Rand key:n20161215-39-26n
 bootaagwaa:bootaagahw    VTA_TAG    " 1 pound sth. (an.) [with a pestle]" ; !Rand key:n20161215-39-26n
 booznadwaa:boozinadaw    VTA_TAG    " 1 get into smb.’s car" ; !Rand key:n20161216-18-46n
 bsenmaa:basenim    VTA_TAG    " 1 crave sth. (an.)" ; !Rand key:n20161216-44-5n
@@ -10078,7 +9860,6 @@ dkisdamwaa:dakisidamaw    VTA_TAG    " 1 cool something for smb." ; !Rand key:n2
 dootooskgamzwaa:dootooskigamizw    VTA_TAG    " 1 boil sth. (an.) gently, simmer sth. (an.)" ; !Rand key:n2016219-9-46n
 dwinaa:dawin    VTA_TAG    " 1 clear stuff off sth. (an.)" ; !Rand key:n20162115-37-55n
 dwinmawaa:dawinamaw    VTA_TAG    " 1 clear stuff off for smb." ; !Rand key:n20162115-42-44n
-ekwaa-dbawaa:ekwaa-dibaw    VTA_TAG    " 1 finish paying sth. (an.), pay sth. (an.) off" ; !Rand key:n20162116-4-2n
 ekwaa-dbawaa:ekwaa-dibahw    VTA_TAG    " 1 finish paying sth. (an.), pay sth. (an.) off" ; !Rand key:n20162116-4-2n
 
 LEXICON VTA_NAA_MANAGEMENT
