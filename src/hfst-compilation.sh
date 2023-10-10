@@ -21,6 +21,11 @@ hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 spellrelaxAcor
 hfst-invert -i spellrelaxclitics_generate.hfst -o spellrelaxclitics_analyze.hfst
 hfst-fst2fst -O -i spellrelaxclitics_analyze.hfst -o spellrelaxclitics_analyze.hfstol
 
+hfst-xfst -F orthography/spellrelax_valentine.xfscript
+hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 spellrelaxValentine.hfst -o spellrelaxclitics_valentine_generate.hfst
+hfst-invert -i spellrelaxclitics_generate.hfst -o spellrelaxclitics_valentine_analyze.hfst
+hfst-fst2fst -O -i spellrelaxclitics_analyze.hfst -o spellrelaxclitics_valentine_analyze.hfstol
+
 #rm tmp.lexc
 rm morphology.hfst
 rm phonology.hfst
@@ -28,4 +33,5 @@ rm morphophonology.hfst
 rm clitics.hfst
 rm fiero2corbiere.hfst
 rm spellrelaxAcorbiere.hfst
+rm spellrelaxValentine.hfst
 rm spellrelaxclitics_generate.hfst
