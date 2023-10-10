@@ -10094,9 +10094,6 @@ LEXICON VTA_NAA_THEME
 +ThmInv:igo    VTA_INDEP_THEME_INVERSE_SET    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
 
 LEXICON VTA_NAA_LOCAL_PASSIVE 
-0:in1    VTA_DETRANSITIVE    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
-
-LEXICON VTA_NAA_LOCAL_PASSIVE 
 0:in1    VTA_INDEP_THEME_LOCAL_PASSIVE    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
 
 LEXICON VTA_NAA_INDEP_NONLOCAL_PASSIVE 
