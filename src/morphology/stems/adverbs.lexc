@@ -80,11 +80,11 @@ bekish:bekish    AV_TAG    " 1 at the same time" ; !Rand key:n73036622410n
 besha:beshVa1    AV_TAG    " 1 close, nearby, near (in space or in time)" ; !Rand key:n72976555859n
 besho:besho    AV_TAG    " 1 [see besha]" ; !Rand key:n72976558612n
 bezhgonong:bezhigonong    AV_TAG    " 1 in the same manner, in the same way" ; !Rand key:n72976565679n
-bgodkamik:bagVo1dakamig    AV_TAG    " 1 out in the wilds, out in the middle of nowhere" ; !Rand key:n72976639931n
+!KoKwa!bgodkamik:bagVo1dakamig    AV_TAG    " 1 out in the wilds, out in the middle of nowhere" ; !Rand key:n72976639931n
 bgodkamik:bagodakamig    AV_TAG    " 1 out in the wilds, out in the middle of nowhere" ; !Rand key:n72976639931n
-bgodkana:bagVo1dikana    AV_TAG    " 1 on a road out in the wilds" ; !Rand key:n72976841385n
+!KoKwa!bgodkana:bagVo1dikana    AV_TAG    " 1 on a road out in the wilds" ; !Rand key:n72976841385n
 bgodkana:bagodikana    AV_TAG    " 1 on a road out in the wilds" ; !Rand key:n72976841385n
-bgoji'iing:bagVo1jihiing    AV_TAG    " 1 in the wild, far from a settlement" ; !Rand key:n72975262820n
+!KoKwa!bgoji'iing:bagVo1jihiing    AV_TAG    " 1 in the wild, far from a settlement" ; !Rand key:n72975262820n
 bgoji'iing:bagojihiing    AV_TAG    " 1 in the wild, far from a settlement" ; !Rand key:n72975262820n
 bgona:bVv1gona    AV_TAG    " 1 with no guidance, with no cause for hope" ; !Rand key:n73101862896n
 bgwaadam:bVv1gwaadam    AV_TAG    " 1 for no reason, without cause" ; !Rand key:n72976861596n
@@ -220,7 +220,7 @@ gnengim:gVv1nengim    AV_TAG    " 1 after some time" ; !Rand key:n73029111018n
 gnesh:ginezh    AV_TAG    " 1 long [in duration], for a long time" ; !Rand key:n73029111507n
 gnimaa:gonimaa    AV_TAG    " 1 maybe, might, perhaps, appear so, seem" ; !Rand key:n73029114020n
 gnwesh:ginwezh    AV_TAG    " 1 [see gnesh]" ; !Rand key:n73021379511n
-gojiing:agVo1jiing    AV_TAG    " 1 outdoors, outside" ; !Rand key:n73030324497n
+!KoKwa!gojiing:agVo1jiing    AV_TAG    " 1 outdoors, outside" ; !Rand key:n73030324497n
 gojiing:agojiing    AV_TAG    " 1 outdoors, outside" ; !Rand key:n73030324497n
 gojyi'iing:agojiyihiing    AV_TAG    " 1 outdoors, outside" ; !Rand key:n73030324863n
 gshkonwaach:goshkonawaach    AV_TAG    " 1 suddenly, without advance word, without warning" ; !Rand key:n73030621137n
@@ -271,13 +271,13 @@ megyaakwaang:megyaakwaang    AV_TAG    " 1 in the woods" ; !Rand key:n7142956101
 megyaakwaang:megwayaakwaang    AV_TAG    " 1 in the woods" ; !Rand key:n71429561014n
 memdage:memidage    AV_TAG    " 1 particularly, to an extreme degree, to an unusual extent or degree;  2 especially (singling out someone or something in particular)" ; !Rand key:n71429561576n
 memdage:memindage    AV_TAG    " 1 particularly, to an extreme degree, to an unusual extent or degree;  2 especially (singling out someone or something in particular)" ; !Rand key:n71429561576n
-memeshkot:memeshkVo1d    AV_TAG    " 1 by turns, in turn, take turns" ; !Rand key:n71429564197n
-memeshkot:memeshkVo1d    AV_TAG    " 1 alternately" ; !Rand key:n73045250059n
+!KoKwa!memeshkot:memeshkVo1d    AV_TAG    " 1 by turns, in turn, take turns" ; !Rand key:n71429564197n
+!KoKwa!memeshkot:memeshkVo1d    AV_TAG    " 1 alternately" ; !Rand key:n73045250059n
 memeshkot:memeshkod    AV_TAG    " 1 alternately" ; !Rand key:n73045250059n
 memkaach:memakaaj    AV_TAG    " 1 bother, bother oneself with;  2 have to [in lieu of something else], necessary [that something be done]" ; !Rand key:n73032817868n
 memmiin:memVv1miin    AV_TAG    " 1 in patches" ; !Rand key:n73032817552n
 mensaadkamik:menisaadakamig    AV_TAG    " 1 shamefully" ; !Rand key:n71429641611n
-meshkot:meshkVo1d    AV_TAG    " 1 instead" ; !Rand key:n71429642519n
+!KoKwa!meshkot:meshkVo1d    AV_TAG    " 1 instead" ; !Rand key:n71429642519n
 meshkot:meshkod    AV_TAG    " 1 instead" ; !Rand key:n71429642519n
 mewnzha:mewinzha    AV_TAG    " 1 long ago, long since, a long time ago, a long time since" ; !Rand key:n71429643097n
 mii:mii    AV_TAG    " 1 that's how..., that's what..., that's when..., that's where..., that's who...;  2 that's...;  3 then (in narrative sequence)" ; !Rand key:n71429652087n
@@ -364,7 +364,7 @@ ngodaabaan:ningodaabaan    AV_TAG    " 1 one carload" ; !Rand key:n73098743155n
 ngodbaabaan:ningodibaabaan    AV_TAG    " 1 [see ngodba'aabaan]" ; !Rand key:n73099855867n
 ngodbaabaan:ningodibahaabaan    AV_TAG    " 1 [see ngodba'aabaan]" ; !Rand key:n73099855867n
 ngodbik:ningodibik    AV_TAG    " 1 for one night" ; !Rand key:n71431647357n
-ngoding:ningVo1ding    AV_TAG    " 1 once, at one time;  2 at some point in the future, sometime, at one day, some day, one of these days..." ; !Rand key:n71431647502n
+!KoKwa!ngoding:ningVo1ding    AV_TAG    " 1 once, at one time;  2 at some point in the future, sometime, at one day, some day, one of these days..." ; !Rand key:n71431647502n
 ngoding:ningoding    AV_TAG    " 1 once, at one time;  2 at some point in the future, sometime, at one day, some day, one of these days..." ; !Rand key:n71431647502n
 ngodnaagaans:ningodonaagaans    AV_TAG    " 1 one cup, one cupful" ; !Rand key:n71431647576n
 ngodnaagan:ningodonaagan    AV_TAG    " 1 one dishful, one plateful" ; !Rand key:n73098745689n
@@ -521,7 +521,7 @@ baamaapii:baamaapii    AV_TAG    " 1 later on" ; !Rand key:n201132520-19-25n
 babiijin:ababiijin    AV_TAG    " 1 always" ; !Rand key:n20113269-0-33n
 bboonong:biboonong    AV_TAG    " 1 last winter;  2 last year" ; !Rand key:n201132612-11-40n
 bebesho:bebesho    AV_TAG    " 1 near to each other, near together" ; !Rand key:n201132613-0-27n
-bgojiing:bagVo1jiing    AV_TAG    " 1 in the wilds; out in the bush" ; !Rand key:n201132616-0-2n
+!KoKwa!bgojiing:bagVo1jiing    AV_TAG    " 1 in the wilds; out in the bush" ; !Rand key:n201132616-0-2n
 bgojiing:bagojiing    AV_TAG    " 1 in the wilds; out in the bush" ; !Rand key:n201132616-0-2n
 biinjiiy'ii:biinjiiyVi1hii    AV_TAG    " 1 inside, inside of, (with)in" ; !Rand key:n201132618-47-23n
 dching:daching    AV_TAG    " 1 times (repetitions)" ; !Rand key:n201132717-9-35n
