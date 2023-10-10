@@ -419,7 +419,7 @@ Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyn
 !style on default flag options to include
 
 !####
-!#Passive Flag (3rd person passives must be marked as such to avoid permitting +X marking)
+!#Passive Flag (3rd person passives must be marked as such to avoid permitting +X marking) !I don't think gaade and gaazo (lexical passives) get this flag. perhaps they should?
 !####
 
 !## setting flags
