@@ -80,9 +80,7 @@ define aposvar  [                   !probably want non-ascii single quotes too
                                 || nonsyl _ nonsyl 
                 ] ; 
 
-define dummy [a -> a];
 read regex [
-!dummy
 lowero      .o.
 findevoi    .o.
 nasassim    .o.
