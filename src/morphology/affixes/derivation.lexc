@@ -2,8 +2,8 @@ LEXICON VTI_BASE_DERIV
         VTI_BASE_DERIV_VAI ;
         VTI_BASE_DERIV_VII ;
 
-LEXICON VTI_BASE_DERIV_VAI
-+Pass+VAI:%>%>gaazo  VAI_ORDERS_GET ; !also fed by VTA_DETRANSITIVE_GET, since many VTAs were showing up with -gaazo
+LEXICON VTI_BASE_DERIV_VAI !also fed by VTA_DETRANSITIVE_GET, since many VTAs were showing up with -gaazo
++Pass+VAI:%>%>gaazo  VAI_ORDERS_GET ; 
 
 LEXICON VTI_BASE_DERIV_VII 
 +Pass+VII:%>%>gaade  VII_ORDERS_GET ;
