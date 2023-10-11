@@ -1977,12 +1977,7 @@ ekwaabde:ayekwaabide    VII_TAG    " 1 no longer function (e.g. machinery)" ; !R
 !mchaa:michaa          VII_TAG ;
 
 LEXICON VII_TAG
-+VII:0   VII_TAG_GATEWAY ;
-
-LEXICON VII_TAG_GATEWAY ; 
-        VII_ORDERS_GET ;
-        NOMINAL_COMPOUNDING_SET ;
-        DERIV_VII ; 
++VII:0   VII_DERIV_GATEWAY ;
 
 LEXICON VAI_DAB_ADDITIONS
 mmaangdezi:mamaangidezi    VAI_TAG    "be wide" ; !lots of words with mmaang 'wide' for initial
@@ -7018,13 +7013,7 @@ ekwaabiigzide:ayekwaabiigizide    VAI_TAG    " 1 have tired feet" ; !Rand key:n2
 ekwaabzo:ayekwaabizo    VAI_TAG    " 1 no longer function (e.g. a car)" ; !Rand key:n20162116-19-8n
 
 LEXICON VAI_TAG
-+VAI:0       VAI_TAG_GATEWAY ; 
-
-LEXICON VAI_TAG_GATEWAY
-        VAI_ORDERS_GET ;
-        NOMINAL_COMPOUNDING_SET ;
-        VAI_BASE_DERIV_NI ;
-        DERIV_VII ; 
++VAI:0       VAI_DERIV_GATEWAY ; 
 
 LEXICON VAIO
 aagoo'on:aagooho    VAIO_TAG    "1 cover up [one's nakedness] with sth." ; !Rand key:n72972747273n
