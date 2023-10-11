@@ -668,7 +668,10 @@ LEXICON VAI_IMPER
 
 !{ VII start
 LEXICON VII_ORDERS_GET
-@D.Order.Cnj@       VII_INDEP_NEG ;
+@D.Person@@D.Order.Cnj@       VII_INDEP_NEG ;
+@D.Person@                    VII_CNJ ; 
+
+LEXICON VII_CNJ
 +Cnj:c1             VII_CNJ_NEG ;
 
 !{ Independent order
