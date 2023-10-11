@@ -12,8 +12,8 @@ LEXICON DERIV_VII
 +VII:magad2 VII_ORDERS_GET ; !what is base for magad? need to enforce preceding V lengthening
 
 LEXICON VAI_BASE_DERIV_NI
-+NI:win NI_SET ;
-+NI:gan NI_SET ;
+0:win NI_SET ;
+0:gan NI_SET ;
 
 LEXICON N_BASE_DERIV_VAI
 +VAI:w  VAI_ORDERS_GET ; !'have' what flavor of w is this (phonologically)? should it be -i (listed in V 2001 index)? need to require 3+.*+PosThm per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
