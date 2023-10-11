@@ -1,14 +1,20 @@
 !following Valentine 2001 p:516 et seq
 
-!VAI, VII, NA, NI sub-prenouns, NAD? NID? can be left element
+!VAI, VII, NA, NI sub-prenouns, NAD? NID? VAIO? can be left element
+!derived words in compounds? -> currently only listed words in compounds
 !are there limits on which suffixes can appear on the left element? biiwaan'goonh -> contemptive, looks like a diminutive as well
+!going to allow contemptives
 LEXICON NOMINAL_COMPOUNDING_SET
 @C.Animate@ NOMINAL_COMPOUNDING ;
 
 LEXICON NOMINAL_COMPOUNDING
-+:-     NOMINAL_COMPOUNDING_GATEWAY ;  !type one, no special linkage (separate phonological words?)
++:-     NOMINAL_COMPOUNDING_GATEWAY ;  !type one, no special linkage (separate phonological words? yes)
 +:i-    NOMINAL_COMPOUNDING_GATEWAY ;  !type 2, add i and THEN: i1 vocalizes and lengthens, iw2 drops w2 and lengthens i, treat zhmaagnish as if it were zhmaagnishiw? what happens to other final segments?
+!there are a few cases of extra length given to roots that do not end in i1
 +:w    NOMINAL_COMPOUNDING_GATEWAY ;  !type 3, extensional w and preceding vowel lengthens
+!1 exe: mashkikiiwnini ends in w2 per model (mashkiki)
+!1 exe: kawaabiiwnini ends in i per model (kawaabi)
+
 !4th pattern sub pre-noun added to left ... this indicates that we need a separate inventory, not noun roots here. 
 !the discussion on p 518 claims that the sub-prenouns must be prenouns because stress/syncope restarts at the left edge of the head. 
 !I don't see why this would diagnose prenouns vs compounds. could compounds not have a phonological boundary between them? I certainly thought types 1 and 2 had a boundary (type 3 isn't written with a hyphen, I assume there is no pword boundary inside these compounds). Was I wrong on types 1 and 2?
