@@ -3,21 +3,21 @@ LEXICON VTI_BASE_DERIV
         VTI_BASE_DERIV_VII ;
 
 LEXICON VTI_BASE_DERIV_VAI !also fed by VTA_DETRANSITIVE_GET, since many VTAs were showing up with -gaazo
-+Pass+VAI:%>%>gaazo  VAI_ORDERS_GET ; 
++Pass:%>%>gaazo  VAI_TAG ; 
 
 LEXICON VTI_BASE_DERIV_VII 
-+Pass+VII:%>%>gaade  VII_ORDERS_GET ;
++Pass:%>%>gaade  VII_TAG ;
 
 LEXICON DERIV_VII
-+VII:magad2 VII_ORDERS_GET ; !what is base for magad? need to enforce preceding V lengthening
+0:magad2 VII_TAG ; !what is base for magad? need to enforce preceding V lengthening
 
 LEXICON VAI_BASE_DERIV_NI
 0:win NI_SET ;
 0:gan NI_SET ;
 
 LEXICON N_BASE_DERIV_VAI
-+VAI:w  VAI_ORDERS_GET ; !'have' what flavor of w is this (phonologically)? should it be -i (listed in V 2001 index)? need to require 3+.*+PosThm per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
-+VAI:wi VAI_ORDERS_GET ; !'be' what flavor of w is this (phonologically)? 
+0:w  VAI_TAG ; !'have' what flavor of w is this (phonologically)? should it be -i (listed in V 2001 index)? need to require 3+.*+PosThm per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
+0:wi VAI_TAG ; !'be' what flavor of w is this (phonologically)? 
 
 LEXICON N_BASE_DERIV_VII
-+VII:wan VII_ORDERS_GET ; !'be' what flavor of w is this (phonologically)? 
+0:wan VII_TAG ; !'be' what flavor of w is this (phonologically)? 
