@@ -3,7 +3,7 @@
 !#####
 
 LEXICON VERBS  !this is looking like a gateway, but not so labeled, affixes will need to be edited too
-@D.Person.3@   VAI_GET ; !VAIs never take third person prefix
+@D.Person.3@   VAI_GET ; !VAIs never take third person prefix, but a VAI in a V-N compound might...
 @D.Person@      VII_GET ;
                 VAIO ; 
                 TRANS_GET ;
@@ -1982,6 +1982,7 @@ LEXICON VII_TAG
 LEXICON VII_TAG_GATEWAY ; 
         VII_ORDERS_GET ;
         NOMINAL_COMPOUNDING_SET ;
+        DERIV_VII ; 
 
 LEXICON VAI_DAB_ADDITIONS
 mmaangdezi:mamaangidezi    VAI_TAG    "be wide" ; !lots of words with mmaang 'wide' for initial
@@ -7022,6 +7023,8 @@ LEXICON VAI_TAG
 LEXICON VAI_TAG_GATEWAY
         VAI_ORDERS_GET ;
         NOMINAL_COMPOUNDING_SET ;
+        VAI_BASE_DERIV_NI ;
+        DERIV_VII ; 
 
 LEXICON VAIO
 aagoo'on:aagooho    VAIO_TAG    "1 cover up [one's nakedness] with sth." ; !Rand key:n72972747273n
