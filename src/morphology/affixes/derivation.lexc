@@ -2,7 +2,7 @@
 !#VTA Based Derivation
 !#####
 LEXICON VTA_DETRANSITIVE_GET
-@D.Person.3@    VTA_DETRANSITIVE ; 
+                VTA_DETRANSITIVE ; 
                 VTA_PREORDER_GET ;
 
 LEXICON VTA_DETRANSITIVE
@@ -11,8 +11,8 @@ LEXICON VTA_DETRANSITIVE
 !, -(i)we (apply to h/N/S/n final VTAs, lots of palatalization)
 !, -aaso (remove VTI theme)
 !p 413 for productive VAI secondary finals
-+Rcpl:idi       VAI_ORDERS_GET ;
-+Rflx:idizo     VAI_ORDERS_GET ;
++Rcpl:idi       VAI_TAG ;
++Rflx:idizo     VAI_TAG ;
                 VTI_BASE_DERIV_VAI ; 
 
 LEXICON VAI_DERIV_GATEWAY
@@ -30,7 +30,7 @@ LEXICON VTI_BASE_DERIV
         VTI_BASE_DERIV_VAI ;
         VTI_BASE_DERIV_VII ;
 
-LEXICON VTI_BASE_DERIV_VAI !also fed by VTA_DETRANSITIVE_GET, since many VTAs were showing up with -gaazo
+LEXICON VTI_BASE_DERIV_VAI !also fed by VTA_DETRANSITIVE, since many VTAs were showing up with -gaazo
 +Pass:%>%>gaazo  VAI_TAG ; 
 
 LEXICON VTI_BASE_DERIV_VII 
