@@ -130,6 +130,7 @@ LEXICON N_POS_NUM_GET
 @D.Person.X@@D.Person.1@@R.Person@  N_POS_NUM_2_3 ;
 @R.Person.3@            N_POS_NUM_3 ; 
                         N_MOOD_GET ;
+            NOMINAL_COMPOUNDING_SET ; 
 
 !optionality of possessor number instantiated in GET
 !entrance requires a person flag, person flags are not forced to enter
