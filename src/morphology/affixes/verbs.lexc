@@ -381,7 +381,7 @@ LEXICON VAIO_INDEP_PERIPH_3PL
 !looking like gateway but not labeled as such, stems will have to be edited too
 
 LEXICON VAI_ORDERS_GET
-@D.Order.Cnj@ VAI_INDEP_NEG ; !1,2, no 3 pre for vai indep, 3 checked in stems/verbs
+@D.Order.Cnj@@D.Person.3@    VAI_INDEP_NEG ; !1,2, no 3 pre for vai indep, 3 checked here to allow 3- on deverbal nouns/VN compounds
 @D.Person@    VAI_NON_INDEP_GET ;
 
 LEXICON VAI_NON_INDEP_GET 

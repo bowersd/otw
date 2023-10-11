@@ -3,7 +3,7 @@
 !#####
 
 LEXICON VERBS  !this is looking like a gateway, but not so labeled, affixes will need to be edited too
-@D.Person.3@   VAI_GET ; !VAIs never take third person prefix, but a VAI in a V-N compound might...
+                VAI_GET ; !VAIs never take third person prefix, but a deverbal noun or a VAI in a V-N compound might -> check is applied when inflectional suffixes start
 @D.Person@      VII_GET ;
                 VAIO ; 
                 TRANS_GET ;
