@@ -44,7 +44,12 @@ LEXICON VAI_BASE_DERIV_NI
 0:gan NI_SET ;
 
 LEXICON N_BASE_DERIV_VAI
-0:w  VAI_TAG ; !'have' what flavor of w is this (phonologically)? should it be -i (listed in V 2001 index)? need to require 3+.*+PosThm per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
+@R.Person.3@    N_BASE_DERIV_VAI_POSSESSION ;
+
+LEXICON N_BASE_DERIV_VAI_POSSESSION 
+0:i  VAI_TAG ; !'have' (listed in V 2001 index) per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
+
+LEXICON NA_BASE_DERIV_VAI
 0:wi VAI_TAG ; !'be' what flavor of w is this (phonologically)? 
 
 LEXICON N_BASE_DERIV_VII

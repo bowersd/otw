@@ -131,6 +131,9 @@ LEXICON N_POS_NUM_GET
 @R.Person.3@            N_POS_NUM_3 ; 
                         N_MOOD_GET ;
             NOMINAL_COMPOUNDING_SET ; 
+              N_BASE_DERIV_VAI ;
+@R.Animate.1@ NA_BASE_DERIV_VAI ; 
+@R.Animate.%0@ N_BASE_DERIV_VII ; 
 
 !optionality of possessor number instantiated in GET
 !entrance requires a person flag, person flags are not forced to enter
