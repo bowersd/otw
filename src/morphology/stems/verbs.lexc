@@ -916,8 +916,7 @@ mnomaagot:minomaagod2   VII_TAG    " 1 have a nice scent, smell good, smell nice
 mnomaate:minomaate    VII_TAG    " 1 smell good2(of food cooking)" ; !Rand key:n71430252120n
 mnonaagot:minonaagod2   VII_TAG    " 1 look well" ; !Rand key:n71430252351n ![gk]Vo1 replaced with [gk]o
 mnookmi:minookami    VII_TAG    " 1 be spring, be springtime" ; !Rand2key:n71430252896n
-!mnopgot:minopogVo1d2   VII_TAG    " 1 taste good, taste nice" ; !Rand key:n71430255350n
-mnopgot:minopogod2   VII_TAG    " 1 taste good, taste nice" ; !Rand key:n71430255350n
+mnopgot:minopogod2   VII_TAG    " 1 taste good, taste nice" ; !Rand key:n71430255350n ![gk]Vo1 replaced with [gk]o
 mnosin:minosin    VII_TAG    " 1 be nicely positioned, be well positioned, be appropriate to a given situation or circumstance (of objects at rest somewhere)" ; !Rand2key:n71430257000n
 mnotaagot:minotaagod2   VII_TAG    " 1 sound good (of ideas)" ; !Rand key:n71430257058n ![gk]Vo1 replaced with [gk]o
 mnwaabaawe:minwaabaawe    VII_TAG    " 1 [see mnaabaawe]" ; !Rand2key:n71430258908n
@@ -2380,8 +2379,7 @@ biidwewdam:biidwewidam    VAI_TAG    " 1 come shouting, come yelling" ; !Rand ke
 biidwewebtoo:biidwewebatoo    VAI_TAG    " 1 come running making noise" ; !Rand key:n72976955107n
 biidwewebza:biidwewebizVa1    VAI_TAG    " 1 come this way making noise [of a mechanical nature] (of motorized things or their operators)" ; !Rand key:n72976957954n
 biidwewegnzhiibtoo:biidweweganzhiibatoo    VAI_TAG    " 1 come galloping with its hooves making noise (of horses)" ; !Rand key:n72976958067n
-biidwewek'biidwewekVo1ham    VAI_TAG    " 1 come thundering (of thunderers)" ; !Rand key:n72976954916n
-biidwewek'biidwewekoham    VAI_TAG    " 1 come thundering (of thunderers)" ; !Rand key:n72976954916n
+biidwewek'biidwewekoham    VAI_TAG    " 1 come thundering (of thunderers)" ; !Rand key:n72976954916n ![gk]Vo1 replaced with [gk]o
 biidwewek'om:biidwewekohom VAI_TAG    " 1 come thundering (of thunderers)" ; !Rand key:n72976954916n ![gk]Vo1 replaced with [gk]o
 biidwewekmigbatoo:biidwewekamigibatoo    VAI_TAG    " 1 come running with one's feet making noise on the ground" ; !Rand key:n72976959397n
 biidwewekzinebtoo:biidwewekizinebatoo    VAI_TAG    " 1 come running with one's shoes making noise" ; !Rand key:n72976955554n
