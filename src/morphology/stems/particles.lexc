@@ -118,7 +118,6 @@ minj:aminj    PT_TAG    " 1 however it may be, whenever, wonder how, wonder when
 mninaak:mVv1ninaak    PT_TAG    " 1 No way! any way, not that bad, not to that extreme" ; !Rand key:n72915857809n
 naa:naa    PT_TAG    " 1 emphatic;  2 eh? (as in Canadian English, inviting assent)" ; !Rand key:n71430657300n
 naash:naash    PT_TAG    " 1 [see nnaash]" ; !Rand key:n73098533572n
-!KoKwa!nangna:nangVo1na    PT_TAG    " 1 Oh! [in sudden realization]" ; !Rand key:n73033613590n
 nangna:nangona    PT_TAG    " 1 Oh! [in sudden realization]" ; !Rand key:n73033613590n ![gk]Vo1 replaced with [gk]o
 nji:onji    PT_TAG    " 1 because of, on account of, why;  2 from [a certain point in time or space]" ; !Rand key:n71433040244n
 nmanj:namanj    PT_TAG    " 1 however it may be, whatever, whenever, I don't know [how], I wonder [how], I wonder [when]" ; !Rand key:n71433644056n
@@ -129,7 +128,6 @@ was:awas    PT_TAG    " 1 Scat! Shoo! Go away!" ; !Rand key:n7303279059n
 !these end immediately because they are too short to undergo apocope, and so can't pick up protective w
 na+Ipc:na    #    " 1 {particle marking yes/no questions}" ; !Rand key:n71430657090n
 sa+Ipc:sa    #    " 1 so, so then, well" ; !Rand key:n73031277207n
-!KoKwa!go+Ipc:gVo1    #    " 1 indeed;  2 it's up to (with personal pronoun), it depends on (with personal pronoun)" ; !Rand key:n2010123111-11-13n
 go+Ipc:go    #    " 1 indeed;  2 it's up to (with personal pronoun), it depends on (with personal pronoun)" ; !Rand key:n2010123111-11-13n ![gk]Vo1 replaced with [gk]o
 gwa+Ipc:gwa    #    " 1 [see go]" ; !Rand key:n2010123111-11-47n
 
