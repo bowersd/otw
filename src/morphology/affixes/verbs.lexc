@@ -677,7 +677,7 @@ LEXICON VII_CNJ
 !{ Independent order
 !negation needs closer attention
 LEXICON VII_INDEP_NEG
-+Neg:c1sinoo  VII_INDEP_OBV ; !c1 triggers s->z / n _
++Neg:c1%>sinoo  VII_INDEP_OBV ; !c1 triggers s->z / n _
             VII_INDEP_OBV ;
 
 LEXICON VII_INDEP_OBV
@@ -707,8 +707,8 @@ LEXICON VII_INDEP_DUB_PERIPH
 
 !{ Conjunct order
 LEXICON VII_CNJ_NEG
-+Neg+%0:sinog   #  ; !need to disqualify sinoog
-+Neg:sinoo      VII_CNJ_NUM_GATEWAY ;
++Neg+%0:%>sinog   #  ; !need to disqualify sinoog  ! might be good to put morph boundary after c1 (only a couple of continuations lack it ... it is just really tricky phonology)
++Neg:%>sinoo      VII_CNJ_NUM_GATEWAY ; 
                 VII_CNJ_NUM_GATEWAY ;
 
 LEXICON VII_CNJ_NUM_GATEWAY
