@@ -44,7 +44,7 @@ Nmebin-giizis:namebin-giiziso    NA_SET    " 1 January (Sucker moon);  2 April (
 Nmebni-giizis:namebini-giiziso    NA_SET    " 1 [see Nmebin-giizis]" ; !Rand key:n71433644838n
 Waawaaskone-giizis:waawaaskone-giiziso    NA_SET    " 1 May (Flower Moon)" ; !Rand key:n73071849941n
 !KoKwa!Ziizbaakdoke-giizis:ziizibaakVo1doke-giiziso    NA_SET    " 1 Sugaring Moon (March)" ; !Rand key:n73035750040n
-Ziizbaakdoke-giizis:ziizibaakodoke-giiziso    NA_SET    " 1 Sugaring Moon (March)" ; !Rand key:n73035750040n
+Ziizbaakdoke-giizis:ziizibaakodoke-giiziso    NA_SET    " 1 Sugaring Moon (March)" ; !Rand key:n73035750040n ![gk]Vo1 replaced with [gk]o
 baakwaanaatik:baakwaanaatigo    NA_SET    " 1 staghorn sumac (a type of bush or small tree)" ; !Rand key:n72974659055n
 baapaashkwaatik:baapaashkiwaatigo    NA_SET    " 1 balsam (a kind of tree)" ; !Rand key:n72974660394n
 bepeshignebik:bepeshiginebigo    NA_SET    " 1 garter snake" ; !Rand key:n72976558029n
@@ -184,7 +184,7 @@ gkenjgewnini:gikenjigewVi1niniw2    NA_SET    " 1 witness" ; !Rand key:n73025583
 gnoodmaagenini:ganoodamaagewVi1niniw2    NA_SET    " 1 [male] attorney, [male] lawyer" ; !Rand key:n7302928414n
 gtige-nini:gitige-Vi1niniw2    NA_SET    " 1 farmer" ; !Rand key:n7303169041n
 !KoKwa!Gweshkw'iwesi:gweshkVo1hiwesiw2    NA_SET    " 1 Winged-Startler (a partridge in traditional stories)" ; !Rand key:n73044643506n
-Gweshkw'iwesi:gweshkohiwesiw2    NA_SET    " 1 Winged-Startler (a partridge in traditional stories)" ; !Rand key:n73044643506n
+Gweshkw'iwesi:gweshkohiwesiw2    NA_SET    " 1 Winged-Startler (a partridge in traditional stories)" ; !Rand key:n73044643506n ![gk]Vo1 replaced with [gk]o
 jiigaawesi:jiigaawesiw2    NA_SET    " 1 cricket" ; !Rand key:n73028351194n
 jiindiisi:jiindiisiw2    NA_SET    " 1 bluejay" ; !Rand key:n73028439727n
 jiiskiiwnini:jiisakiiwVi1niniw2    NA_SET    " 1 conjuror, shaker (in traditional ceremonies)" ; !Rand key:n73028441857n
@@ -435,7 +435,7 @@ miinensgaawansh:miinensigaawanzhi1    NA_SET    " 1 hawthorn, thornapple" ; !Ran
 miinensmin'gaawansh:miinensiminigaawanzhi1    NA_SET    " 1 [see miinensgaawansh]" ; !Rand key:n71429681054n
 miizhmish:miizhimizhi1    NA_SET    " 1 white oak" ; !Rand key:n71429738652n
 !KoKwa!mkom:mVi1kVo1mi1    NA_SET    " 1 ice, piece of ice" ; !Rand key:n71429750187n
-mkom:mVi1komi1    NA_SET    " 1 ice, piece of ice" ; !Rand key:n71429750187n
+mkom:mVi1komi1    NA_SET    " 1 ice, piece of ice" ; !Rand key:n71429750187n ![gk]Vo1 replaced with [gk]o
 moozmish:moozomizhi1    NA_SET    " 1 {a type of tree}" ; !Rand key:n73033248398n
 mshiimnagaawanzh:mishiimnagaawanzhi1    NA_SET    " 1 apple tree" ; !Rand key:n71430435620n
 mshkode-miizhmish:mVi1shkode-miizhimizhi1    NA_SET    " 1 northern red oak" ; !Rand key:n71430546387n
@@ -1116,20 +1116,20 @@ gchi-oodena:gichi-oodenaw2    NI_SET    " 1 city, big city, metropolis" ; !Rand 
 !{ o
 aamoo-ziizbaakot:aamoo-ziizibaakwado    NI_SET    " 1 honey" ; !Rand key:n72973260130n
 !KoKwa!aan'kot:aanakVo1do    NI_SET    " 1 cloud" ; !Rand key:n72973445911n
-aan'kot:aanakodo    NI_SET    " 1 cloud" ; !Rand key:n72973445911n
+aan'kot:aanakodo    NI_SET    " 1 cloud" ; !Rand key:n72973445911n ![gk]Vo1 replaced with [gk]o
 aazhbik:aazhibiko    NI_SET    " 1 mountain, cliff, rock [formation]" ; !Rand key:n72974063883n
 bagashk:Vv1bagashko    NI_SET    " 1 cutweed" ; !Rand key:n72975859636n
 biigjiisak:biigijiisago    NI_SET    " 1 decaying wood, rotten log" ; !Rand key:n72976965297n
 !KoKwa!biimaakot:biimaakVo1do    NI_SET    " 1 climbing bittersweet (a type of plant)" ; !Rand key:n72977258117n
-biimaakot:biimaakodo    NI_SET    " 1 climbing bittersweet (a type of plant)" ; !Rand key:n72977258117n
+biimaakot:biimaakodo    NI_SET    " 1 climbing bittersweet (a type of plant)" ; !Rand key:n72977258117n ![gk]Vo1 replaced with [gk]o
 biitoo-mkak:biitoo-makako    NI_SET    " 1 [outer] coffin" ; !Rand key:n72977466081n
 biitwisak:biitawisago    NI_SET    " 1 ceiling" ; !Rand key:n72917453522n
 biiwaabik:biiwaabiko    NI_SET    " 1 piece of iron, piece of steel, [iron] rod, [steel] rod;  2 iron, steel, metal, runner steel [on sleds]" ; !Rand key:n72977484713n
 biiwaanak:biwaanago    NI_SET    " 1 arrowhead;  2 flint, pieces of flint" ; !Rand key:n72977485699n
 !KoKwa!bkok:bVi1kVo1ko    NI_SET    " 1 arrow, stunning arrow" ; !Rand key:n72977648354n
-bkok:bVi1koko    NI_SET    " 1 arrow, stunning arrow" ; !Rand key:n72977648354n
+bkok:bVi1koko    NI_SET    " 1 arrow, stunning arrow" ; !Rand key:n72977648354n ![gk]Vo1 replaced with [gk]o
 !KoKwa!bkwaakot:bVi1kwaakVo1do    NI_SET    " 1 ball" ; !Rand key:n72977651180n
-bkwaakot:bVi1kwaakodo    NI_SET    " 1 ball" ; !Rand key:n72977651180n
+bkwaakot:bVi1kwaakodo    NI_SET    " 1 ball" ; !Rand key:n72977651180n ![gk]Vo1 replaced with [gk]o
 eshknaak:eshkanaako    NI_SET    " 1 ice cutter" ; !Rand key:n73015876945n
 gbiingwewegin:gibiingwewegino    NI_SET    " 1 face towel" ; !Rand key:n73017941641n
 giizhgat:giizhigado    NI_SET    " 1 day" ; !Rand key:n73024179704n
@@ -1143,7 +1143,7 @@ konaashk:okonaashko    NI_SET    " 1 corn husk" ; !Rand key:n71429041267n
 maankik:maanakiko    NI_SET    " 1 maple forest" ; !Rand key:n71429181278n
 miizhash:miizhashko    NI_SET    " 1 a blade of grass, a stalk of hay" ; !Rand key:n71429738406n
 !KoKwa!bmijwaagaakot:bimijiwaagaakVo1do    NI_SET    " 1 hoe" ; !Rand key:n73032933502n
-bmijwaagaakot:bimijiwaagaakodo    NI_SET    " 1 hoe" ; !Rand key:n73032933502n
+bmijwaagaakot:bimijiwaagaakodo    NI_SET    " 1 hoe" ; !Rand key:n73032933502n ![gk]Vo1 replaced with [gk]o
 mkak:makako    NI_SET    " 1 box, chest;  2 coffin, casket, funeral box;  3 barrel (Wp)" ; !Rand key:n71429747139n
 mkaksak:makakisago    NI_SET    " 1 barrel" ; !Rand key:n71429747373n
 mkomii-mkak:mVi1komii-makako    NI_SET    " 1 ice box, freezer, refrigerator" ; !Rand key:n71429750404n
@@ -1177,7 +1177,7 @@ Nswi-giizhgat:niswi-giizhigado    NI_SET    " 1 Wednesday" ; !Rand key:n71435059
 pakwaaniigin:apakwaaniigino    NI_SET    " 1 canvas cover" ; !Rand key:n73031111863n
 sinii-waagaakot:asinii-waagaakodo    NI_SET    " 1 stone axe" ; !Rand key:n73031980489n
 !KoKwa!waabaan'kot:waabaanakVo1do    NI_SET    " 1 gray cloud, white cloud" ; !Rand key:n73032178621n
-waabaan'kot:waabaanakodo    NI_SET    " 1 gray cloud, white cloud" ; !Rand key:n73032178621n
+waabaan'kot:waabaanakodo    NI_SET    " 1 gray cloud, white cloud" ; !Rand key:n73032178621n ![gk]Vo1 replaced with [gk]o
 waaboowaanbak:waaboowaanibago    NI_SET    " 1 common mullein (herbaceous plant of the figwort family)" ; !Rand key:n73071479450n
 waagaakot:waagaakodo    NI_SET    " 1 axe" ; !Rand key:n73032211084n
 waak:waako    NI_SET    " 1 fish egg" ; !Rand key:n73032213538n
@@ -1196,7 +1196,7 @@ zhaweshk:Vv1zhaweshko    NI_SET    " 1 muskrat spear;  2 rifle;  3 sword" ; !Ran
 zhiigin:zhiigino    NI_SET    " 1 cloth, fabric" ; !Rand key:n73035131693n
 ziiwbak:ziiwibago    NI_SET    " 1 rhubarb" ; !Rand key:n73035752097n
 !KoKwa!ziizbaakot:ziizibaakVo1do    NI_SET    " 1 sugar" ; !Rand key:n73035750987n
-ziizbaakot:ziizibaakodo    NI_SET    " 1 sugar" ; !Rand key:n73035750987n
+ziizbaakot:ziizibaakodo    NI_SET    " 1 sugar" ; !Rand key:n73035750987n ![gk]Vo1 replaced with [gk]o
 naamsag:anaamisago    NI_SET    " 1 basement" ; !Rand key:n201092011-5-44n
 gjipzonaabik:gijipizowinaabiko    NI_SET    " 1 belt buckle" ; !Rand key:n201092016-18-4n
 Mnidoo-niigi-giizhgad:manidoo-niigi-giizhigado    NI_SET    " 1 Christmas day" ; !Rand key:n20109218-26-59n
@@ -1491,9 +1491,9 @@ bkite'gan:bakitehigan    NI_SET    " 1 hammer" ; !Rand key:n72977584216n
 bko'gan:bikohigan    NI_SET    " 1 mound, heap" ; !Rand key:n73028947689n
 bkodnii'gan:bVv1kodVv1niihigan    NI_SET    " 1 mound" ; !Rand key:n72977646647n
 !KoKwa!bkwaakdo-bgamaagan:bVi1kwaakVo1do-bagamaagan    NI_SET    " 1 round-headed club" ; !Rand key:n72977650552n
-bkwaakdo-bgamaagan:bVi1kwaakodo-bagamaagan    NI_SET    " 1 round-headed club" ; !Rand key:n72977650552n
+bkwaakdo-bgamaagan:bVi1kwaakodo-bagamaagan    NI_SET    " 1 round-headed club" ; !Rand key:n72977650552n ![gk]Vo1 replaced with [gk]o
 !KoKwa!bkwaakdoons:bVi1kwaakVo1doons    NI_SET    " 1 pill, tablet" ; !Rand key:n72977650778n
-bkwaakdoons:bVi1kwaakodoons    NI_SET    " 1 pill, tablet" ; !Rand key:n72977650778n
+bkwaakdoons:bVi1kwaakodoons    NI_SET    " 1 pill, tablet" ; !Rand key:n72977650778n ![gk]Vo1 replaced with [gk]o
 bkwenenjgan:bakwenenjigan    NI_SET    " 1 smudge bucket" ; !Rand key:n72977655738n
 bkwenezgan:bakwenezigan    NI_SET    " 1 a mixture used in smudging" ; !Rand key:n72979759116n
 bkwezhgan:bakwezhigan    NI_SET    " 1 bread" ; !Rand key:n72977664705n
@@ -1854,7 +1854,7 @@ mzise-miijim:mizise-miijim    NI_SET    " 1 species of fern" ; !Rand key:n714306
 n'gamwin:nagamowin    NI_SET    " 1 song" ; !Rand key:n71431579579n
 n'gamwinmazna'gan:nagamowinimazinahigan    NI_SET    " 1 songbook" ; !Rand key:n71431579609n
 !KoKwa!n'gokaan:nVi1ngVo1hakaan    NI_SET    " 1 cemetery, graveyard" ; !Rand key:n71431657225n
-n'gokaan:nVi1ngohakaan    NI_SET    " 1 cemetery, graveyard" ; !Rand key:n71431657225n
+n'gokaan:nVi1ngohakaan    NI_SET    " 1 cemetery, graveyard" ; !Rand key:n71431657225n ![gk]Vo1 replaced with [gk]o
 na'ii:nahii    NI_SET    " 1 what, whatchamacallit" ; !Rand key:n71431154158n
 naabdoochgaans:naabidoochigaans    NI_SET    " 1 shoelace" ; !Rand key:n71430660794n
 naabdoochgan:naabidoochigan    NI_SET    " 1 shoelace" ; !Rand key:n71430660856n
@@ -1998,7 +1998,7 @@ tibdoowan:ditibidoowan    NI_SET    " 1 wheel [of a vehicle]" ; !Rand key:n73032
 tibninjiibzon:ditibininjiibizon    NI_SET    " 1 ring [for the finger]" ; !Rand key:n73032111905n
 tibninjiibzowin:ditibininjiibizowin    NI_SET    " 1 ring [for the finger]" ; !Rand key:n73032112241n
 !KoKwa!dikon:odikVo1n    NI_SET    " 1 branch (of plant, tree)" ; !Rand key:n73032112451n
-dikon:odikon    NI_SET    " 1 branch (of plant, tree)" ; !Rand key:n73032112451n
+dikon:odikon    NI_SET    " 1 branch (of plant, tree)" ; !Rand key:n73032112451n ![gk]Vo1 replaced with [gk]o
 tisgan:atisigan    NI_SET    " 1 dye, paint" ; !Rand key:n73032112775n
 toobaajgan:atoobaajigan    NI_SET    " 1 vat" ; !Rand key:n73040210172n
 waabgan:waabigan    NI_SET    " 1 clay" ; !Rand key:n73032179828n
@@ -2156,11 +2156,11 @@ ziiwaagmide:ziiwaagamide    NI_SET    " 1 syrup" ; !Rand key:n73035751809n
 ziiwsijgan:ziiwisijigan    NI_SET    " 1 sourdough starter" ; !Rand key:n73035752868n
 ziiwtaagan:ziiwitaagan    NI_SET    " 1 [see ziitaagan]" ; !Rand key:n73035752927n
 !KoKwa!ziizbaakdokaan:ziizibaakVo1dokaan    NI_SET    " 1 sugar camp" ; !Rand key:n73035749837n
-ziizbaakdokaan:ziizibaakodokaan    NI_SET    " 1 sugar camp" ; !Rand key:n73035749837n
+ziizbaakdokaan:ziizibaakodokaan    NI_SET    " 1 sugar camp" ; !Rand key:n73035749837n ![gk]Vo1 replaced with [gk]o
 !KoKwa!ziizbaakdoons:ziizibaakVo1doons    NI_SET    " 1 candy" ; !Rand key:n73035750258n
-ziizbaakdoons:ziizibaakodoons    NI_SET    " 1 candy" ; !Rand key:n73035750258n
+ziizbaakdoons:ziizibaakodoons    NI_SET    " 1 candy" ; !Rand key:n73035750258n ![gk]Vo1 replaced with [gk]o
 !KoKwa!ziizbaakdwaaboo:ziizibaakVo1dwaaboo    NI_SET    " 1 maple sap" ; !Rand key:n73035750313n
-ziizbaakdwaaboo:ziizibaakodwaaboo    NI_SET    " 1 maple sap" ; !Rand key:n73035750313n
+ziizbaakdwaaboo:ziizibaakodwaaboo    NI_SET    " 1 maple sap" ; !Rand key:n73035750313n ![gk]Vo1 replaced with [gk]o
 zkwaagan:zVi1kwaagan    NI_SET    " 1 spit, spittle" ; !Rand key:n7303656253n
 znigsag'igan:zanigosagahigan    NI_SET    " 1 scrub brush" ; !Rand key:n73036023180n
 miini-baashkmin'sigan:miini-baashkiminisigan    NI_SET    " 1 blueberry jam, blueberry preserves" ; !Rand key:n65311058422n
