@@ -37,7 +37,7 @@ LEXICON VTI_BASE_DERIV_VII
 +Pass:%>%>gaade  VII_TAG ;
 
 LEXICON DERIV_VII
-0:magad2 VII_TAG ; !what is base for magad? need to enforce preceding V lengthening
+0:%>%>magad2 VII_TAG ; !what is base for magad?->VAI/VII need to enforce preceding V lengthening
 
 LEXICON VAI_BASE_DERIV_NI
 0:win NI_SET ;
