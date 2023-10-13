@@ -11,6 +11,7 @@ define oa       [o (->) a || m \[o] _ t, s _, n _ k] ;  !nso kept as normative
 define wy       [w (->) y, y (->) w || [a|e|i|o]  _  [a|e|i|o]] ;  !getting checked
 define nasV     [n y (->) 0 || _ m ] ; !not in cascade
 define owa      [o (->) w a || [g|k] _ ] ;
+define ny2nh    [n y (->) n h] ; 
 define mergeLen [
                     b b (->) p .o.
                     d d (->) t .o.
@@ -28,7 +29,7 @@ define iioo2io [i (->) i i || \[i] _ [g|n|n g] .#.,,
 
 !define mndmd    [m n d (->) m d || .#. _ ] ; !captured by stranded nasal dropping rule in phonology module
 !define ndmz      [m (->) 0  || n d _ z] ; !captured by stranded nasal dropping rule in phonology module
-define yanyin   [a (->) i || y _ n .#. ] ; 
+define yanyin   [a (->) i || y _ [n|g|k] .#. ] ; 
 
 !apostrophe use covered in spellrelax_valentine.xfscript
 define apos     [[..] (->) %' || \[a|e|i|o|u] _ \[a|e|i|o|u] ,,
@@ -47,6 +48,7 @@ regex [
     wy      .o.
     yanyin  .o.
     owa     .o.
+    ny2nh   .o.
     mergeLen  .o.
     apos .o.
     wag2oog .o.
