@@ -384,7 +384,7 @@ read regex [ ! Morphology.l .o.
     cnjW3del    .o.
     cnjrmbound  .o.
     cnjaepen    .o.
-    nvw5oLEVEL    .o.
+    !nvw5oLEVEL    .o.
     w5o         .o.
     w5del       .o.
     w5w         .o.

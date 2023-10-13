@@ -551,7 +551,7 @@ LEXICON VAI_CNJ_NOT_3
 
 LEXICON VAI_CNJ_3 
 +3:%>d1               VAI_CNJ_NO_MODE_3PL_GATEWAY ; !d1 phon in root.lexc
-+3+Pl:%>w4aad1       VAI_CNJ_3PL_NEG_GET ; !Irregularity when negated and this is last morpheme
++3+Pl:w4aad1       VAI_CNJ_3PL_NEG_GET ; !Irregularity when negated and this is last morpheme
 +3+4:%>nid1           VAI_CNJ_NO_MODE_3OBV_GATEWAY ; !nas morph inid?
 +X:%>nd1              VAI_CNJ_DUB_EARLY_B ; !nd1b -> ngib, nas morph ang?
 
@@ -2031,7 +2031,7 @@ LEXICON VTI_CNJ_3PL_MODE_GET
             VTI_CNJ_3 ;
 
 LEXICON VTI_CNJ_3PL
-+3+Pl:%>w4aad1       VTI_CNJ_DUB_EARLY_B ; !Irregularity when negated and this is last morpheme/followed by prt
++3+Pl:w4aad1       VTI_CNJ_DUB_EARLY_B ; !Irregularity when negated and this is last morpheme/followed by prt
 
 LEXICON VTI_CNJ_3 
 +3:%>d1               VTI_CNJ_DUB_EARLY_B ; !d1 phon in root.lexc
