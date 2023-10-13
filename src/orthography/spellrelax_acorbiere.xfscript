@@ -20,6 +20,13 @@ define mergeLen [
                     z h z h (->) s h
                     ] ;
 
+define wag2oog [w a  (->) o o || _ [g|n] .#.] ; 
+define iioo2io [i (->) i i || \[i] _ [g|n|n g] .#.,,
+                o (->) o o || \[o] _ [g|n|n g] .#.,,
+                i i (->) i , o o (->) o || [g|n|n g] .#.
+                ] ; 
+define wag2oog [w a .#. -> o o || _ [g|n] .#.] ; 
+
 !define mndmd    [m n d (->) m d || .#. _ ] ; !captured by stranded nasal dropping rule in phonology module
 !define ndmz      [m (->) 0  || n d _ z] ; !captured by stranded nasal dropping rule in phonology module
 define yanyin   [a (->) i || y _ n .#. ] ; 
