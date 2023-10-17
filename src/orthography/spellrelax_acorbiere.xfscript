@@ -34,7 +34,7 @@ define iioo2io [i (->) i i || \[i] _ [g|n|n g] .#.,, !variation in vowel length 
 
 !apostrophe use covered in spellrelax_valentine.xfscript
 define apos     [[..] (->) %' || \[a|e|i|o] _ \[a|e|i|o] ,,
-                h (->) %' || \[c|s|z|n] _ , [a|e|i|o] _ [a|e|i|o]]; 
+                h (->) %' || \[c|s|z|n] _ ]; 
 
 regex [
     zCsC    .o.
