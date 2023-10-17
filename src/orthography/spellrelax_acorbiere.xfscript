@@ -33,8 +33,8 @@ define iioo2io [i (->) i i || \[i] _ [g|n|n g] .#.,, !variation in vowel length 
 !define ndmz      [m (->) 0  || n d _ z] ; !captured by stranded nasal dropping rule in phonology module
 
 !apostrophe use covered in spellrelax_valentine.xfscript
-define apos     [[..] (->) %' || \[a|e|i|o|u] _ \[a|e|i|o|u] ,,
-                h (->) %' || \[c|s|z|n] _ , [a|e|i|o|u] _ [a|e|i|o|u]]; 
+define apos     [[..] (->) %' || \[a|e|i|o] _ \[a|e|i|o] ,,
+                h (->) %' || \[c|s|z|n] _ , [a|e|i|o] _ [a|e|i|o]]; 
 
 regex [
     zCsC    .o.
