@@ -163,7 +163,6 @@ giiwse-nini:giiwose-aniniw2    NA_SET    " 1 hunter" ; !Rand key:n201251620-28-4
 giigoonykewnini:giigoonyikewVi1niniw2    NA_SET    " 1 fisherman" ; !Rand key:n201133020-45-27n
 btashkaanzhe:batashkaanzhew2    NA_SET    " 1 Virginia rail (a type of bird)" ; !Rand key:n72976264993n
 bgiw:bigiw2    NA_SET    " 1 gum (of a tree), pitch;  2 chewing gum" ; !Rand key:n72976840348n
-bgiw:bigiw2    NA_SET    " 1 gum (of a tree), pitch;  2 chewing gum" ; !Rand key:n72976840348n
 bgoji-bzhiki:bagoji-bizhikiw2    NA_SET    " 1 bison, buffalo" ; !Rand key:n72976843429n
 biikokwaawesi:biikokwaawesiw2    NA_SET    " 1 black-billed cuckoo" ; !Rand key:n72977254588n
 bne:binew2    NA_SET    " 1 partridge" ; !Rand key:n72978956482n
@@ -1075,7 +1074,7 @@ nzigzis:%^zigozis    NAD_SET    " 1 my mother-in-law, my spouse's grandmother (o
 ndiniigan:%^diniigan    NAD_SET    " 1 my shoulder blade" ; !Rand key:n2010112211-51-39n
 
 LEXICON NI_DAB_ADDITIONS
-ziizbaakdaaboo:ziizibaakVo1daaboo NI_SET "sap" ; !cf ziizibaak... vocab on sap/sugaring
+ziizbaakdaaboo:ziizibaakodaaboo NI_SET "sap" ; !cf ziizibaak... vocab on sap/sugaring ![gk]Vo1 replaced with [gk]o
 gkinoomaadwin:gikinoomaadVv1win     NI_SET "teaching" ; !cf gkin ... vocab on teaching
 gziibiignaagne'gan:giziibiinaaganehigan    NI_SET    "dishcloth, dishrag" ; ! see especially Rand key:n73102058769n
 mdaaswaabik:midaaswaabiko    NI_SET    "ten bucks" ; ! I assume this has something to do with $1 Canadian coins
