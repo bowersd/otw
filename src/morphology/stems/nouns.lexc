@@ -2292,7 +2292,7 @@ nminiingwaagan:%^miniingwaagan    NID_SET    " 1 sand [in one's eyes], sleep [in
 nminiingwaan:%^miniingwaan    NID_SET    " 1 sand [in my eyes], sleep [in my eyes];  2 my gills" ; !Rand key:n71429740006n
 nnagwenh:%^nagweny    NID_SET    " 1 sleeve" ; !Rand key:n73098540030n
 nbikon:%^bikon    NID_SET    " 1 my back" ; !Rand key:n72977543684n
-nbikwan:%^bikVo1n    NID_SET    " 1 my back" ; !Rand key:n72977543788n
+nbikwan:%^bikon    NID_SET    " 1 my back" ; !Rand key:n72977543788n ![gk]Vo1 replaced with [gk]o
 nbokgonaagan:%^bokogonaagan    NID_SET    " 1 the bump on my ankle" ; !Rand key:n72979753824n
 nbwaam:%^bwaam    NID_SET    " 1 thigh" ; !Rand key:n72983854765n
 nda'iim:%^ahiim    NID_SET    " 1 my possession" ; !Rand key:n72974455596n

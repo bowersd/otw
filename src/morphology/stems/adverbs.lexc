@@ -129,7 +129,7 @@ endgwenh:endagwenh    AV_TAG    " 1 [I wonder] whether, [I don't know] whether o
 engaach:enVv1gaach    AV_TAG    " 1 slowly" ; !Rand key:n73102084090n
 enwek:eniwek    AV_TAG    " 1 (is it) ever..., jeez...;  2 satisfactory" ; !Rand key:n72915549425n
 eshkam:eshkam    AV_TAG    " 1 increasingly, more and more " ; !Rand key:n73015783005n
-eshkot:eshkVo1d    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877023n
+eshkot:eshkod    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877023n ![gk]Vo1 replaced with [gk]o
 eshkwaach:eshkwaaj    AV_TAG    " 1 for nothing (CL);  2 the last time (LH)" ; !Rand key:n73015877114n
 eshkweyiing:eshkweyiing    AV_TAG    " 1 last in line, at the end" ; !Rand key:n73015877215n
 eta:eta    AV_TAG    " 1 just, only" ; !Rand key:n73015763262n
@@ -525,13 +525,13 @@ piichi-gbey'iing:apiichi-gabeyVi1hiing    AV_TAG    " 1 for how long (a time), h
 ggi:gagi    AV_TAG    " 1 not to mention, together with" ; !Rand key:n201133019-8-23n
 gidaabik:ogidaabik    AV_TAG    " 1 on a mountain top" ; !Rand key:n201133019-34-15n
 gidbak:ogidabak    AV_TAG    " 1 on the roof" ; !Rand key:n201133019-39-16n
-giinnangna:giininangVo1na    AV_TAG    " 1 now it turns out to be" ; !Rand key:n20113316-58-17n
+giinnangna:giininangona    AV_TAG    " 1 now it turns out to be" ; !Rand key:n20113316-58-17n ![gk]Vo1 replaced with [gk]o
 giizhaa:giizhaa    AV_TAG    " 1 already, beforehand" ; !Rand key:n201133118-25-51n
 gijya'ii:ogijVi1yahii    AV_TAG    " 1 on [top of] something, on top of something" ; !Rand key:n201133119-19-26n
 gijya'iing:ogijVi1yVi1hiing    AV_TAG    " 1 on [top of] something, on top of something" ; !Rand key:n201133119-23-18n
 gmaa:gomaa    AV_TAG    " 1 of considerable size, of considerable number" ; !Rand key:n20114117-10-52n
 gnage:ganage    AV_TAG    " 1 in the least, at all, by any means, not even" ; !Rand key:n20114118-8-45n
-gego:gegVo1    AV_TAG    " 1 don't" ; !Rand key:n20114119-3-40n
+gego:gego    AV_TAG    " 1 don't" ; !Rand key:n20114119-3-40n ![gk]Vo1 replaced with [gk]o
 gniinaa:giniinaa    AV_TAG    " 1 did I not?; I told you so" ; !Rand key:n20114120-0-33n
 gtakmigaang:gitakamigaang    AV_TAG    " 1 to or on the mainland" ; !Rand key:n20114211-46-15n
 jiigaajwan:jiigaajiwan    AV_TAG    " 1 by a stream or river, near a stream or river" ; !Rand key:n20114311-21-44n
