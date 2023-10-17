@@ -8,7 +8,7 @@ define gggk     [g (->) 0 || .#. _ [g|k]] ; !gg, gk kept as normative
 define nds      [d (->) 0  || n _ s] ; !nds kept as normative
 define hyph     [%- (->) 0  || b m i _ y a a] ; !bmi-yaa kept as normative
 define oa       [o (->) a || \[o] _, _ \[o]];  !old environment|| m \[o] _ t, s _, n _ k] nso kept as normative
-define glotGlide [h (->) w [a|e|i|o] _ [a|e|i|o]] ; 
+define glotGlide [h (->) w || [a|e|i|o] _ [a|e|i|o]] ; 
 define wy       [w (->) y, y (->) w || [a|e|i|o]  _  [a|e|i|o]] ;  !getting checked
 define nasV     [n y (->) 0 || _ m ] ; !not in cascade
 define owa      [o (->) w a || [g|k] _ ] ;
