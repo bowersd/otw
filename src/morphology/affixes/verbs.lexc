@@ -1621,15 +1621,15 @@ LEXICON THM2A_NEG_LOC_ONLY
 +2+Pl:agogw4        VTA_CNJ_PRT_OR_END ; 
 +2+Pl:agogw4        VTA_CNJ_DUB_OR_PRT_DUB ; !duplicated till better arises
 !+2:aan2            VTA_CNJ_PCP_GET ; !Medler
-+2:aanh            VTA_CNJ_PCP_GET ; !duplicated to allow pos forms to use same cont lexicon
-+2:aan2            THM2A_POS_LOC_AAN2_PRT ; !aanh, aambaanh, aanenh        
+0:aanh            VTA_CNJ_PCP_GET ; !duplicated to allow pos forms to use same cont lexicon !no person specified bc thm2a is second person agr
+0:aan2            THM2A_POS_LOC_AAN2_PRT ; !aanh, aambaanh, aanenh        !no person specified bc thm2a is second person agr
 !} thm2a neg end
 
 !{ thm2a pos
 LEXICON THM2A_POS_LOC
 +2+Pl:agogw4     THM2A_POS_LOC_PRT ; !agogwenh, agog, agogoban (hyp: agogobanenh)
-+2:aan2       VTA_CNJ_PCP_GET ; !duplicated to allow neg forms to use same cont lexicon
-+2:aan2       THM2A_POS_LOC_AAN2_PRT ; !aa, aambaanh, aanenh        
+0:aan2       VTA_CNJ_PCP_GET ; !duplicated to allow neg forms to use same cont lexicon !no person specified bc thm2a is second person agr
+0:aan2       THM2A_POS_LOC_AAN2_PRT ; !aa, aambaanh, aanenh         !no person specified bc thm2a is second person agr
 +2+Pl:egw4       THM2A_POS_LOC_3B ; !eg, egwaaban, egoban, egwaawenh, egwenh
 +2+1+Pl:angw4      THM2A_POS_LOC_3B ;
 
