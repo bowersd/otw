@@ -833,8 +833,8 @@ LEXICON VTA_INDEP_NONLOCAL_PASSIVE
 LEXICON VTA_INDEP_THEME_SECOND_PERSON 
 +Thm2:i2          VTA_INDEP_2V1_NEG ; !first person object
 +Thm1Pl:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject
-+Thm1Sg:in        VTA_INDEP_1SGV2 ; !first person singular subject
-+Thm1Sg+Neg:isinoon  VTA_INDEP_1SGV2 ;!negated first person singular subject
++Thm1:in        VTA_INDEP_1SGV2 ; !first person (singular by default) subject
++Thm1+Neg:isinoon  VTA_INDEP_1SGV2 ;!negated first person (singular by default) subject
 !new tags
 
 !####
