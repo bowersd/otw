@@ -831,10 +831,10 @@ LEXICON VTA_INDEP_NONLOCAL_PASSIVE
 !##Second persons
 !{ local preds
 LEXICON VTA_INDEP_THEME_SECOND_PERSON 
-+Thm2:i2          VTA_INDEP_2V1_NEG ; !first person object
-+Thm1Pl:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject
-+Thm1:in        VTA_INDEP_1SGV2 ; !first person (singular by default) subject
-+Thm1+Neg:isinoon  VTA_INDEP_1SGV2 ;!negated first person (singular by default) subject
++Thm1:i2          VTA_INDEP_2V1_NEG ; !first person object (2v1)
++Thm1Pl2:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject (1pl v 2)
++Thm2:in        VTA_INDEP_1SGV2 ; !first person (singular by default) subject (1 v 2 inversion)
++Thm2+Neg:isinoon  VTA_INDEP_1SGV2 ;!negated first person (singular by default) subject (1pl v 2 inversion)
 !new tags
 
 !####
@@ -1257,18 +1257,18 @@ LEXICON VTA_IMPER_TAG
 !+ThmInv+3+Prt:              igopan2      # ; !0 v 3sg, 3obv v 3sg
 !+ThmInv+3+Pl+Dub:           igowaagwenh # ; !0 v 3pl, 3obv v 3pl !cons
 !+ThmInv+3+Dub:              igoogwenh      # ; !0 v 3sg, 3obv v 3sg !less anomalous than it seems, just lengthen igo in this context (compensatory lenghtenging?) (don't use igoo, that disrupts orderliness)
-!+Thm1Pl+Neg+2+Pl:           igoosiweg # ; !1pl v 2pl
-!+Thm1Pl+Neg+2:              igoosiwan    # ; !1pl v 2sg
-!+Thm1Pl+Neg+2+Pl+Prt:       igoosiwegoban2 # ; !1pl v 2pl
-!+Thm1Pl+Neg+2+Prt:          igoosiwamban2  # ; !1pl v 2sg !book indicates optional siiw (yikes)
-!+Thm1Pl+Neg+2+Pl+Dub:       igoosiwegwenh # ; !1pl v 2pl
-!+Thm1Pl+Neg+2+Dub:          igoosiwanenh    # ; !1pl v 2sg
-!+Thm1Pl+2+Pl:               igooyeg       # ; !1pl v 2pl
-!+Thm1Pl+2:                  igooyan       # ; !1pl v 2sg
-!+Thm1Pl+2+Pl+Prt:           igooyegoban2 # ; !1pl v 2pl
-!+Thm1Pl+2+Prt:              igooyamban2 # ; !1pl v 2sg
-!+Thm1Pl+2+Pl+Dub:           igoowegwenh # ; !1pl v 2pl
-!+Thm1Pl+2+Dub:              igoowanenh    # ; !1pl v 2sg !cons (?)
+!+Thm1Pl2+Neg+2+Pl:           igoosiweg # ; !1pl v 2pl
+!+Thm1Pl2+Neg+2:              igoosiwan    # ; !1pl v 2sg
+!+Thm1Pl2+Neg+2+Pl+Prt:       igoosiwegoban2 # ; !1pl v 2pl
+!+Thm1Pl2+Neg+2+Prt:          igoosiwamban2  # ; !1pl v 2sg !book indicates optional siiw (yikes)
+!+Thm1Pl2+Neg+2+Pl+Dub:       igoosiwegwenh # ; !1pl v 2pl
+!+Thm1Pl2+Neg+2+Dub:          igoosiwanenh    # ; !1pl v 2sg
+!+Thm1Pl2+2+Pl:               igooyeg       # ; !1pl v 2pl
+!+Thm1Pl2+2:                  igooyan       # ; !1pl v 2sg
+!+Thm1Pl2+2+Pl+Prt:           igooyegoban2 # ; !1pl v 2pl
+!+Thm1Pl2+2+Prt:              igooyamban2 # ; !1pl v 2sg
+!+Thm1Pl2+2+Pl+Dub:           igoowegwenh # ; !1pl v 2pl
+!+Thm1Pl2+2+Dub:              igoowanenh    # ; !1pl v 2sg !cons (?)
 !+Thm2a+Neg+2+Pl:            isinoonagog # ; !1sg v 2pl'
 !+Thm2a+Neg+2:               isinoonaanh     # ; !1sg v 2sg
 !+Thm2a+Neg+2+1+Pl+3+Pl:     isinowangwaa  # ; !3pl v 21pl
@@ -1391,7 +1391,7 @@ LEXICON VTA_CNJ_THM
 +ThmNul:aaw      THMNUL_AA_LOC ; !w likely epenthetic
 +Thm2a+Neg:isin  THM2A_NEG_FRAG ; 
 +Thm2a:inin  THM2A_POS_LOC ; 
-+Thm1Pl:igoo     THM1PL_NEG ;
++Thm1Pl2:igoo     THM1PL_NEG ;
 +ThmInv:igo     THMINV_NEG ;
 +Thm1:i2        THM1_NEG ;
 !below not in brute force

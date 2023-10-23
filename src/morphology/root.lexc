@@ -73,14 +73,14 @@ VRED1
 
 !VTA features (used in deciding theme sign)
 +ThmDir  !aa        (3rd obj) 
-+Thm2    !i         (1st obj, 2 sub) 
-+Thm1Pl  !igoo      (2nd obj, 1.pl sub) 
-!+Thm1Sg  !in        (2nd obj, 1.sg sub) (replaced by Thm1. in independent order, Thm1 undergoes inversion, in conjunct order it remains object agreement)
++Thm2    !in        (2nd obj, 1.sg sub) (replaced by Thm1. in independent order, Thm1 undergoes inversion, in conjunct order it remains object agreement)
++Thm1Pl2  !igoo      (2nd obj, 1.pl sub) 
+!+Thm1Sg !formerly -in 1sg v 2obj  in independent order, inverted local theme sign, now Thm2
 !+ThmNeg  !isinoon   (2nd obj, 1.sg sub, neg)... broken into +Thm1Sg +Neg :D
 +ThmInv  !igo       (pre=obj, 0/3 sub) 
 +ThmPas  !igoo, aa, ind  (passive)
 !conjunct order theme signs
-+Thm1   !i     1 obj (uninverted in conjunct order, indexes subject in independent order (so it is inverted))
++Thm1   !i         (1st obj, 2 sub) in independent order,  1 obj in conjunct order 
 +Thm2a  !inin  2 obj (non-3 sub)
 +Thm2b  !ik    2 obj (3 sub)
 !+Thm1Pl !igoo  2 obj, 1pl sub
