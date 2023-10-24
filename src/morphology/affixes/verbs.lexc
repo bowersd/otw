@@ -1845,18 +1845,18 @@ LEXICON VTA_CNJ_PCP_INAN_PL
 
 !{ imp order
 LEXICON VTA_IMPER
-+2+1:i2shin # ; !p 304 reports optional palatalization
-+2+1+Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
-+2+Pl+1+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
-+2+Pl+1:i2shik # ;
-+2+3:i2 # ; !p 304 only reports pal for this slot, but I extended to others
-+2+3:i2n # ;
-+2+3+Pl:i2 # ;
-+2+3+Pl:i2n # ;
-+2+1+Pl+3:aadaa # ;
-+2+1+Pl+3+Pl:%>miinaadaanik # ;
-+2+Pl+3:i2k # ;
-+2+Pl+3+Pl:i2k # ;
++1+2:i2shin # ; !p 304 reports optional palatalization
++1+Pl+2:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
++1+Pl+2+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
++1+2+Pl:i2shik # ;
++3+2:i2 # ; !p 304 only reports pal for this slot, but I extended to others
++3+2:i2n # ;
++3+Pl+2:i2 # ;
++3+Pl+2:i2n # ;
++3+2+1+Pl:aadaa # ;
++3+Pl+2+1+Pl:%>miinaadaanik # ;
++3+2+Pl:i2k # ;
++3+Pl+2+Pl:i2k # ;
 !+Imm+2+1:i2shin # ; !p 304 reports optional palatalization
 !+Imm+2+1+Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
 !+Imm+2+Pl+1+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
@@ -1870,25 +1870,25 @@ LEXICON VTA_IMPER
 !+Imm+2+Pl+3:i2k # ;
 !+Imm+2+Pl+3+Pl:i2k # ;
 
-+Del+2+1:i2shikan # ;
++Del+1+2:i2shikan # ;
 !+Del+2+1+Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
 !+Del+2+Pl+1+Pl:0 # ;
-+Del+2+Pl+1:i2shiikek # ;
-+Del+2+3:aakan # ;
-+Del+2+3+Pl:aakan # ;
++Del+1+2+Pl:i2shiikek # ;
++Del+3+2:aakan # ;
++Del+3+Pl+2:aakan # ;
 !+Del+2+1+Pl+3:0 # ;
 !+Del+2+1+Pl+3+Pl:0 # ;
-+Del+2+Pl+3:aakek # ;
-+Del+2+Pl+3+Pl:%>miinaakek # ;
++Del+3+2+Pl:aakek # ;
++Del+3+Pl+2+Pl:%>miinaakek # ;
 
-+Neg+2+1:i2shiken2 # ;
++Neg+1+2:i2shiken2 # ;
 !+Neg+2+1+Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
 !+Neg+2+Pl+1+Pl:0 # ;
-+Neg+2+Pl+1:i2shikego # ;
-+Neg+2+3:aaken2 # ;
-+Neg+2+3+Pl:aaken2 # ;
-+Neg+2+1+Pl+3:aasiidaa # ;
-+Neg+2+1+Pl+3+Pl:aasiidaanig # ;
++Neg+1+2+Pl:i2shikego # ;
++Neg+3+2:aaken2 # ;
++Neg+3+Pl+2:aaken2 # ;
++Neg+3+2+1+Pl:aasiidaa # ;
++Neg+3+Pl+2+1+Pl:aasiidaanig # ;
 !+Neg+2+Pl+3:0 # ;
 !+Neg+2+Pl+3+Pl:0 # ;
 
