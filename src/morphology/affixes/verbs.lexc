@@ -1924,7 +1924,7 @@ LEXICON VTI_INDEP_OBV
                         !inan pl number tricky here, because never indexed in conjunct/conjunct derived forms
 
 LEXICON VTI_INDEP_NUM
-+%0:n           VTI_INDEP_PRE_MODE ;
+0:n           VTI_INDEP_PRE_MODE ; !multiple analyses possible here: non-plural actor, or inanimate goal. Originally had +%0, but the info was redundant with VTI and could not be used in interpretation because it isn't always present, so opted to just not write it
 @D.Person.3@    VTI_INDEP_1_OR_2_NUM ;
 @D.Person.1@    VTI_INDEP_3_OR_2_NUM ;
 @R.Person.3@    VTI_INDEP_PRT_DUB ;
