@@ -390,7 +390,7 @@ Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyn
 @R.Person@
 
 !####
-!#3 periph flags (pl, obv redundantly marked in participles), also flags to stop singular object marking with plural subjects in VAIOs
+!#3 periph flags (pl, obv redundantly marked in participles)
 !####
 
 !##setting flags
@@ -398,14 +398,11 @@ Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyn
 @P.3Num.Pl@
 @P.3Num.InanPl@
 
-@P.PlSubj.1@
-
 !## checking flags
 @R.3Num.Obv@
 @R.3Num.Pl@
 @R.3Num.InanPl@
 
-@D.PlSubj.1@
 !####
 !#Animacy flags (animacy is inherent to nouns)
 !####
