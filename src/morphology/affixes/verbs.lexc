@@ -292,7 +292,7 @@ Redup+:CRED1VRED1   VERBS ; !reduplication is standardly pre-stem
                     VERBS ; !reduplication is standardly pre-stem
 
 !{ VAIO
-!VAIO description in Valentine 2001 is incomplete (p 243) (no prt dub, no mode for neg, positive pcps but no conjunct)
+!VAIO only differ from VAIs in independent and imperative orders, plus certain participles (Valentine 2001:242). The description in Valentine 2001 says nothing about independent prt dub, has a blank table for neg pcps)
 !no passives
 !recommended strategy for tag abstraction: open up object position for 3/0, fill subject position with remainder (don't fret about lack of theme sign)
 LEXICON VAIO_ORDERS_GET
