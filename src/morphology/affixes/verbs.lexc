@@ -334,8 +334,8 @@ LEXICON VAIO_INDEP_PRENUM
         VAIO_INDEP_PL_NUM_GET ;
 
 LEXICON VAIO_INDEP_PL_NUM_GET
-@D.Person.1@    VAIO_INDEP_PL_ILESS ;
-@D.Person.3@    VAIO_INDEP_PL_IFULL ;
+@P.PlSubj.1@@D.Person.1@    VAIO_INDEP_PL_ILESS ;
+@P.PlSubj.1@@D.Person.3@    VAIO_INDEP_PL_IFULL ;
 
 LEXICON VAIO_INDEP_PL_IFULL
 +1+Pl:naan2y1   VAIO_INDEP_PERIPH_GET ;
@@ -347,6 +347,18 @@ LEXICON VAIO_INDEP_PL_ILESS
 LEXICON VAIO_INDEP_SG_PREMODE
 0:aa    VAIO_INDEP_MODE ;
         VAIO_INDEP_PERIPH_GET ;
+
+LEXICON VAIO_INDEP_SG_PREMODE_PERS_GET
+@D.Person.3@    VAIO_INDEP_SG_3 ;
+@R.Person.3@    VAIO_INDEP_SG_3OBV ;
+
+LEXICON VAIO_INDEP_SG_3
++3:%>an # ; 
+        # ; !marked as 0sg in book, but this is due to filling in the blanks (absence of 3, 3pl, 0pl = 0sg)
+
+LEXICON VAIO_INDEP_SG_OBV
+        # ; !marked as 0sg in book, but this is due to filling in the blanks (absence of 3, 3pl, 0pl = 0sg)
+        VAIO_INDEP_PERIPH_3OBV ; 
 
 LEXICON VAIO_INDEP_MODE
 +Prt:ban2i1 VAIO_INDEP_PERIPH_GET ;
