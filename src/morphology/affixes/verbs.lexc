@@ -354,10 +354,10 @@ LEXICON VAIO_INDEP_SG_PREMODE_PERS_GET
 
 LEXICON VAIO_INDEP_SG_3
 +3:%>an # ; 
-        # ; !marked as 0sg in book, but this is due to filling in the blanks (absence of 3, 3pl, 0pl = 0sg)
++%0:0   # ; !this is bad for many reasons, but because there is overt singular animate object marking here, we need a tag to show the difference.
 
 LEXICON VAIO_INDEP_SG_OBV
-        # ; !marked as 0sg in book, but this is due to filling in the blanks (absence of 3, 3pl, 0pl = 0sg)
++%0:0   # ; !this is bad for many reasons, but because there is overt singular animate object marking here, we need a tag to show the difference.
         VAIO_INDEP_PERIPH_3OBV ; 
 
 LEXICON VAIO_INDEP_MODE
