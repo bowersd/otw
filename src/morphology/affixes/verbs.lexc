@@ -80,10 +80,6 @@ PV/a+:a-   V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 where;  2 when;  3 which, that 
 !NO LONGER MUST BE LISTED PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET " 1 the changed form of the past tense preverb <nish>gii-</nish>";
 PV/gaa+:gaa-  V_PREVERBS_SUBORDINATOR_ORDER_SET "that" ;!formerly changed form of gii, has life of own now 
         V_PREVERBS_TENSE ;
-LEXICON THMINV_NEG_SIW_LOC_SPECIAL_PCP
-    # ;
-    VTA_CNJ_PCP_INAN_PL ; 
-
 
 LEXICON V_PREVERBS_CCNJ_SET
 @P.Ccnj.Yes@    V_PREVERBS_SUBORDINATOR_ORDER_SET ;
@@ -1564,6 +1560,10 @@ LEXICON THMINV_NEG_SIW_OPT_3
 
 LEXICON THMINV_NEG_SIW_OPT_3_PCP_SET
 @P.3Num.Pl@ VTA_CNJ_PRT_OR_END ; !(hypo) verb number and pcp number only have to agree when it is 3v3, so ok for disagreement here, where it is 3sg v 2pl
+
+LEXICON THMINV_NEG_SIW_LOC_SPECIAL_PCP
+    # ;
+    VTA_CNJ_PCP_INAN_PL ; 
 
 LEXICON THMINV_W_LOC_PCP_SET
 @P.3Num.InanPl@ VTA_CNJ_DUB_OR_PRT_DUB ; 
