@@ -1561,9 +1561,9 @@ LEXICON THMINV_NEG_SIW_OPT_3
 LEXICON THMINV_NEG_SIW_OPT_3_PCP_SET
 @P.3Num.Pl@ VTA_CNJ_PRT_OR_END ; !(hypo) verb number and pcp number only have to agree when it is 3v3, so ok for disagreement here, where it is 3sg v 2pl
 
-LEXICON THMINV_NEG_SIW_LOC_SPECIAL_PCP
-    # ;
-    VTA_CNJ_PCP_INAN_PL ; 
+!LEXICON THMINV_NEG_SIW_LOC_SPECIAL_PCP !this was orphaned. the apparent parent sublexicon has continuations to THMINV_Y_LOC_SPECIAL_PCP, which exactly duplicates this, so commenting it out
+!    # ;
+!    VTA_CNJ_PCP_INAN_PL ; 
 
 LEXICON THMINV_W_LOC_PCP_SET
 @P.3Num.InanPl@ VTA_CNJ_DUB_OR_PRT_DUB ; 
