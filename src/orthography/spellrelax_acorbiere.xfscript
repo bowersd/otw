@@ -26,7 +26,7 @@ define mergeLen [
 define wag2oog [w a  (->) o o || _ [g|n] .#.] ; 
 define iioo2io [i (->) i i || \[i] _ [g|n|n g] .#.,, !variation in vowel length before pl/obv/loc
                 o (->) o o || \[o] _ [g|n|n g] .#.,,
-                i i (->) i , o o (->) o || [g|n|n g] .#.
+                i i (->) i , o o (->) o || _ [g|n|n g] .#.
                 ] ; 
 
 !define mndmd    [m n d (->) m d || .#. _ ] ; !captured by stranded nasal dropping rule in phonology module
