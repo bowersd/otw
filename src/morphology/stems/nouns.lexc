@@ -1418,7 +1418,7 @@ bakjigan:baakijigan    NI_SET    " 1 hand planter" ; !Rand key:n72975859898n
 bakjigan:badakijigan    NI_SET    " 1 hand planter" ; !Rand key:n72975859898n
 bangii:bangii    NI_SET    " 1 a few, a little, a little bit, a small amount" ; !Rand key:n72975860957n
 baskawaan:Vv1basikawaan    NI_SET    " 1 shinny bag" ; !Rand key:n72975864816n
-bayoo:bayoo†    NI_SET    " 1 baby's hammock" ; !Rand key:n72975865222n
+bayoo:bayoo    NI_SET    " 1 baby's hammock" ; !Rand key:n72975865222n !† removed
 bbaamziwin:babaamiziwin    NI_SET    " 1 personal business, personal dealings, personal concern" ; !Rand key:n72976143859n
 bbagooyaan:babagooyaan    NI_SET    " 1 cloth, bolt of cloth; fabric" ; !Rand key:n72976159743n
 bbagooyaan:babagVi1wayaan    NI_SET    " 1 shirt" ; !Rand key:n72976159795n

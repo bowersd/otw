@@ -147,8 +147,8 @@ baataasin:baataasin    VII_TAG    " 1 be stuck" ; !Rand2key:n72975845186n
 baataawaakdin:baataawaakodin    VII_TAG    " 1 be frozen stuck to something" ; !Rand2key:n72975845449n ![gk]Vo1 replaced with [gk]o
 baate:baate    VII_TAG    " 1 dry, be dry (an object);  2 be dry weather" ; !Rand2key:n72975846625n
 baatiinat:baatiinad2   VII_TAG    " 1 be lots, be many, be numerous, be in plenty" ; !Rand key:n72975846817n
-bangiishengat:bangiishenVo1gad†    VII_TAG    " 1 be a few, be a little bit, be scarce, be small in number" ; !Rand2key:n72975861486n
-bangiishengat:bangiishenogad†    VII_TAG    " 1 be a few, be a little bit, be scarce, be small in number" ; !Rand2key:n72975861486n
+bangiishengat:bangiishenVo1gad    VII_TAG    " 1 be a few, be a little bit, be scarce, be small in number" ; !Rand2key:n72975861486n !† removed
+bangiishengat:bangiishenogad    VII_TAG    " 1 be a few, be a little bit, be scarce, be small in number" ; !Rand2key:n72975861486n !† removed
 bashkbiite:abashkobiite    VII_TAG    " 1 be lukewarm, be tepid2(of liquids)" ; !Rand key:n73004846565n
 bbaamendaagot:bVi1baamendaagod2   VII_TAG    " 1 matter" ; !Rand key:n7297601365n ![gk]Vo1 replaced with [gk]o
 bbaatiinat:babaatiinad2   VII_TAG    " 1 be many, be numerous" ; !Rand key:n72976156443n
@@ -2154,8 +2154,8 @@ baazhgwaadzi:baazhigwaadizi    VAI_TAG    " 1 exert oneself" ; !Rand key:n730011
 bakmaabgo:abakamaabogo    VAI_TAG    " 1 float downstream" ; !Rand key:n72975859999n
 baktendbe'ge:bakitendibehige    VAI_TAG    " 1 beat people on the head, hit people on the head" ; !Rand key:n72975863991n
 bangiishengizi:bangiishenVv1gizi    VAI_TAG    " 1 be a few, be a little bit, be scarce, be small in number" ; !Rand key:n72975861080n
-bashkzhige:bashkozige†    VAI_TAG    " 1 cut hay" ; !Rand key:n72975864617n
-bashkzi:bashkozi†    VAI_TAG    " 1 be featherless, be hairless" ; !Rand key:n72975864718n
+bashkzhige:bashkozige    VAI_TAG    " 1 cut hay" ; !Rand key:n72975864617n !† removed
+bashkzi:bashkozi    VAI_TAG    " 1 be featherless, be hairless" ; !Rand key:n72975864718n !† removed
 baskawe:Vv1basikawe    VAI_TAG    " 1 play shinny (a women's game)" ; !Rand key:n72975865502n
 bbaa-mshkikiiwe:bVi1baa-mashkikiiwe    VAI_TAG    " 1 go out looking for medicinal herbs" ; !Rand key:n72976149592n
 bbaa-nda-bezhgoogzhiiye:bVi1baa-anda-bezhigooganzhiiwe    VAI_TAG    " 1 go out looking for the horses" ; !Rand key:n72976151304n
@@ -7128,7 +7128,7 @@ baazgwaadwaa:baazagwaadahw    VTA_TAG    " 1 scratch sth. (an.) [with an instrum
 baazgwaakjimaa:baazagwaakojim    VTA_TAG    " 1 snag sth. (an.) and scratch it" ; !Rand key:n72975857290n
 baazgwaawganebnaa:baazagwaawiganebin1    VTA_TAG    " 1 scratch smb. on the back [wounding person]" ; !Rand key:n72975851001n
 baazmaa:baazim    VTA_TAG    " 1 twist smb.'s words" ; !Rand key:n72975859163n
-bazgimaa:bazVv1gim†    VTA_TAG    " 1 have smb. for a boyfriend, have smb. for a girlfriend, have smb. for a sweetheart" ; !Rand key:n72975865760n
+bazgimaa:bazVv1gim    VTA_TAG    " 1 have smb. for a boyfriend, have smb. for a girlfriend, have smb. for a sweetheart" ; !Rand key:n72975865760n !† removed
 bbaa-wiijiiwaa:bVi1baa-wiijiiw    VTA_TAG    " 1 accompany smb. somewhere; go with smb. somewhere" ; !Rand key:n72976159127n
 bbaa-wiijiiwaa:bVi1baa-wiijiiw    VTA_TAG    " 1 date smb., go out with smb., go steady with smb." ; !Rand key:n73010541973n
 bbaagskidyewaa:bVi1baagaskidiyehw    VTA_TAG    " 1 spank smb., give smb. a spanking" ; !Rand key:n72976161429n
@@ -9402,7 +9402,7 @@ aabmiitaw:aabamiitaw    VTA_TAG    " 1 fight against smb., rise up against smb.,
 baasbinaa:baasibin    VTA_TAG    " 1 crack sth. (an.), smash sth. (an.)" ; !Rand key:n65305794747n
 bengshkawaa:bengoshkaw    VTA_TAG    " 1 wear sth. (an.) until it dries" ; !Rand key:n200581110-51-24n
 bengwaashmaa:bengwaashim    VTA_TAG    " 1 dry sth. (an.) [in a dryer]" ; !Rand key:n200581111-28-27n
-bengwegwaa:†bengwegahw    VTA_TAG    " 1 iron sth. (an.) dry" ; !Rand key:n200581111-35-27n
+bengwegwaa:bengwegahw    VTA_TAG    " 1 iron sth. (an.) dry" ; !Rand key:n200581111-35-27n !† removed
 bengdinaa:bengodin    VTA_TAG    " 1 knead sth. (an.) (of dough)" ; !Rand key:n200581611-33-51n
 bzwaabiishmaa:bizwaabiishim    VTA_TAG    " 1 wind sth. (an.)" ; !Rand key:n2005121914-19-29n
 giibjiiwebnaa:giibijiiwebin1    VTA_TAG    " 1 [see giibjiiyebnaa]" ; !Rand key:n201013117-52-41n
