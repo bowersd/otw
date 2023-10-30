@@ -151,8 +151,7 @@ gaataayiing:gaataayVi1hiing    AV_TAG    " 1 around, all around" ; !Rand key:n73
 gaawaanh:agaawaanh    AV_TAG    " 1 barely, hardly, scarcely" ; !Rand key:n73017374047n
 gaawtaagmik:gaawitaagamig    AV_TAG    " 1 all around the building" ; !Rand key:n73017579755n
 gaay:gaay2   AV_TAG    " 1 not" ; !Rand key:n73017579808n
-!TRUNCATED_STEM_REMOVEDgamiing:gamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n
-gamiing:agamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n
+gamiing:agamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 gashki:gashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n
 gashki:gigashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n
 gbe-bboon:gabe-biboon    AV_TAG    " 1 all winter" ; !Rand key:n73017936268n
@@ -415,8 +414,7 @@ nsodbik:nisodibik    AV_TAG    " 1 for three nights, three nights" ; !Rand key:n
 ntam:nitam    AV_TAG    " 1 first;  2 [someone's] turn" ; !Rand key:n71435060710n
 nwaagshkaa:nVv1waagVv1shkaa    AV_TAG    " 1 my roll [in dice]" ; !Rand key:n71435061392n
 nwanj:nawanj    AV_TAG    " 1 more, to a greater degree than some reference point" ; !Rand key:n71435082621n
-!TRUNCATED_STEM_REMOVEDnwesh:nwezh    AV_TAG    " 1 [for] a long time" ; !Rand key:n71435144029n
-nwesh:ginwezh    AV_TAG    " 1 [for] a long time" ; !Rand key:n71435144029n
+nwesh:ginwezh    AV_TAG    " 1 [for] a long time" ; !Rand key:n71435144029n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 nyaangim:nayaangim    AV_TAG    " 1 until" ; !Rand key:n71435144325n
 nzaam:onzaam    AV_TAG    " 1 because" ; !Rand key:n71435144353n
 odi:odi    AV_TAG    " 1 there, over there" ; !Rand key:n71435145100n
@@ -468,8 +466,7 @@ wnjida:wanjida    AV_TAG    " 1 [see njida]" ; !Rand key:n73072143419n
 yaawnaadkamik:ayaawVv1naadakamig    AV_TAG    " 1 extremely" ; !Rand key:n73072239819n
 yawenh:yawenh    AV_TAG    " 1 ouch" ; !Rand key:n73072239938n
 yekwaay'iing:ayekwaayVi1hiing    AV_TAG    " 1 at the end [of a physical structure]" ; !Rand key:n73072241221n
-!TRUNCATED_STEM_REMOVEDyeshkat:ayeshkad    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877070n
-yeshkat:wayeshkad    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877070n
+yeshkat:wayeshkad    AV_TAG    " 1 at first, initially" ; !Rand key:n73015877070n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 yeyiidooy'ii:ayeyiidooyVi1hii    AV_TAG    " 1 at both ends, on both ends" ; !Rand key:n73072241962n
 yeyiidwagaat:ayeyiidawagaad    AV_TAG    " 1 on both legs" ; !Rand key:n73072242268n
 yeyiidwikna:ayeyiidawikana    AV_TAG    " 1 on both sides of the road" ; !Rand key:n73072242313n

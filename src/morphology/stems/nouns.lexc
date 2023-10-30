@@ -58,8 +58,7 @@ daabaanaatik:odaabaanaatigo    NA_SET    " 1 runner (on a sled or sleigh)" ; !Ra
 Datgaagmin-giizis:odatagaagomin-giiziso    NA_SET    " 1 Blackberry Moon (August)" ; !Rand key:n72989353634n
 dbik-giizis:dibik-giiziso    NA_SET    " 1 moon" ; !Rand key:n72994040743n
 Dewmin-giizis:odewimin-giiziso    NA_SET    " 1 Strawberry Moon (June)" ; !Rand key:n73002754854n
-!TRUNCATED_STEM_REMOVEDdoodem-mtik:doodem-mitigo    NA_SET    " 1 totem pole" ; !Rand key:n73102083931n
-doodem-mtik:odoodem-mitigo    NA_SET    " 1 totem pole" ; !Rand key:n73102083931n
+doodem-mtik:odoodem-mitigo    NA_SET    " 1 totem pole" ; !Rand key:n73102083931n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 emkwaansaak:emikwaansaako    NA_SET    " 1 white ash (a kind of tree)" ; !Rand key:n73015757426n
 gaabgebak:gaabagebago    NA_SET    " 1 prince's pine (evergreen plant with jagged astringent leaves)" ; !Rand key:n73016037168n
 gaadi-gnebik:gaadi-ginebigo    NA_SET    " 1 immature northern water snake" ; !Rand key:n73016040633n
@@ -221,13 +220,11 @@ zhaangwesh:zhaangweshiw2    NA_SET    " 1 mink" ; !Rand key:n73033448980n
 zhaangweshi:zhaangweshiw2    NA_SET    " 1 mink" ; !Rand key:n73033449045n
 zhaashaawnibiisi:zhaashaawanibiisiw2    NA_SET    " 1 tree swallow" ; !Rand key:n73033479823n
 zhaawshkzi:ozhaawashkoziw2    NA_SET    " 1 the green part of a plant" ; !Rand key:n73033514486n
-!TRUNCATED_STEM_REMOVEDzhigewnini:zhigewVi1niniw2    NA_SET    " 1 builder" ; !Rand key:n73033586222n
-zhigewnini:ozhigewVi1niniw2    NA_SET    " 1 builder" ; !Rand key:n73033586222n
+zhigewnini:ozhigewVi1niniw2    NA_SET    " 1 builder" ; !Rand key:n73033586222n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zhoodaawnini:zhoodaawVi1niniw2    NA_SET    " 1 Jew" ; !Rand key:n73032711925n
 ziignigewnini:ziiginigewVi1niniw2    NA_SET    " 1 bartender;  2 bootlegger [of liquor]" ; !Rand key:n73032836870n
 giishkaankwezhoonini:giishkaanikwezhoowVi1niniw2    NA_SET    " 1 male barber" ; !Rand key:n20109209-48-56n
-!TRUNCATED_STEM_REMOVEDshkode-bzhiki:shkode-bizhikiw2    NA_SET    " 1 buffalo" ; !Rand key:n201092016-50-21n
-shkode-bzhiki:mashkode-bizhikiw2    NA_SET    " 1 buffalo" ; !Rand key:n201092016-50-21n
+shkode-bzhiki:mashkode-bizhikiw2    NA_SET    " 1 buffalo" ; !Rand key:n201092016-50-21n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 mookdaasoownini:mookodaasoowVi1niniw2    NA_SET    " 1 [male] carver, [male] who carves things" ; !Rand key:n201092019-12-1n
 gaagiigdoownini:gaagiigidoowVi1niniw2    NA_SET    " 1 [male] councillor, [male] band councillor" ; !Rand key:n201092112-31-55n
 moozhwenini:moozhwewVi1niniw2    NA_SET    " 1 [male] barber" ; !Rand key:n201092118-43-21n
@@ -489,8 +486,7 @@ baapaasaandip:baapaasaandib    NA_SET    " 1 director, executive, head, boss, ho
 baapaase:baapaase    NA_SET    " 1 woodpecker" ; !Rand key:n72974660217n
 baashkzigan:baashkizigan    NA_SET    " 1 penis" ; !Rand key:n72975361742n
 baataazwin:baataaziwin    NA_SET    " 1 sin" ; !Rand key:n72975846582n
-!TRUNCATED_STEM_REMOVEDbagnaa:bagVv1naa    NA_SET    " 1 cornbread" ; !Rand key:n72975859702n
-bagnaa:nVv1mbagVv1naa    NA_SET    " 1 cornbread" ; !Rand key:n72975859702n
+bagnaa:nVv1mbagVv1naa    NA_SET    " 1 cornbread" ; !Rand key:n72975859702n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 bbaamgaajgan:bibaamigaajigan    NA_SET    " 1 toy top" ; !Rand key:n72976144426n
 bbiig-makii:babiig-omagakii    NA_SET    " 1 toad" ; !Rand key:n72976243788n
 bebiins:bebiins    NA_SET    " 1 baby" ; !Rand key:n72976544163n
@@ -640,8 +636,7 @@ maashtaanish:maashtaanish    NA_SET    " 1 sheep" ; !Rand key:n71429263891n
 maazhi-gnoozhe:maazhi-ginoozhe    NA_SET    " 1 muskelunge" ; !Rand key:n71429342362n
 maazhi-nmegos:maazhi-namegos    NA_SET    " 1 coho salmon" ; !Rand key:n71429342736n
 magkii:omagakii    NA_SET    " 1 frog, toad" ; !Rand key:n71429343655n
-!TRUNCATED_STEM_REMOVEDmandaagkwe:amandaagokwe    NA_SET    " 1 lady, beautiful woman" ; !Rand key:n71429344051n
-mandaagkwe:mamandaagokwe    NA_SET    " 1 lady, beautiful woman" ; !Rand key:n71429344051n
+mandaagkwe:mamandaagokwe    NA_SET    " 1 lady, beautiful woman" ; !Rand key:n71429344051n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 mbaasjigan:ombaasijigan    NA_SET    " 1 airplane" ; !Rand key:n71429446806n
 mbadnis:mbadVv1nis    NA_SET    " 1 button" ; !Rand key:n72975859340n
 mbes:mbes    NA_SET    " 1 base " ; !Rand key:n71429448722n
@@ -787,8 +782,7 @@ Shkaabewis:oshkaabewis    NA_SET    " 1 helper in ceremonies" ; !Rand key:n72913
 shki'aa:Va1shkihaa    NA_SET    " 1 new thing" ; !Rand key:n73031412413n
 Shki-bboon-giisoons:oshki-biboon-giizisoons    NA_SET    " 1 January (Little New-winter Moon)" ; !Rand key:n73031411766n
 shkiniigish:Va1shkiniigish    NA_SET    " 1 [male] teenager, young man, youth" ; !Rand key:n73034010442n
-!TRUNCATED_STEM_REMOVEDshkiniigkwe:shkiniigikwe    NA_SET    " 1 teenage girl, young woman" ; !Rand key:n73031480001n
-shkiniigkwe:Va1shkiniigikwe    NA_SET    " 1 teenage girl, young woman" ; !Rand key:n73031480001n
+shkiniigkwe:Va1shkiniigikwe    NA_SET    " 1 teenage girl, young woman" ; !Rand key:n73031480001n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shkinwe:Va1shkinawe    NA_SET    " 1 young man, [male] youth" ; !Rand key:n73031480180n
 shkode-daabaan:Vi1shkode-odaabaan    NA_SET    " 1 train, railroad train" ; !Rand key:n73031481377n
 shkode-jiimaan:Vv1shkode-jiimaan    NA_SET    " 1 steamboat" ; !Rand key:n73031481736n
@@ -825,10 +819,8 @@ wiinis:wiinis    NA_SET    " 1 lech, lecher" ; !Rand key:n73034130980n
 ya'aa:ayahaa    NA_SET    " 1 the person that..., what's-her-name, what's-his-name, who, whoojmacall" ; !Rand key:n73033180040n
 yaabesmosh:ayaabesimosh    NA_SET    " 1 [see yaabesim]" ; !Rand key:n73072237542n
 zaasgan:zaasigan    NA_SET    " 1 bacon rind" ; !Rand key:n73033319240n
-!TRUNCATED_STEM_REMOVEDzaawaadnimnese:zaawaadinimanese    NA_SET    " 1 Baltimore oriole" ; !Rand key:n73033320941n
-zaawaadnimnese:ozaawaadinimanese    NA_SET    " 1 Baltimore oriole" ; !Rand key:n73033320941n
-!TRUNCATED_STEM_REMOVEDzaawi-san'goo:zaawi-asanagoo    NA_SET    " 1 fox squirrel" ; !Rand key:n73033322274n
-zaawi-san'goo:ozaawi-asanagoo    NA_SET    " 1 fox squirrel" ; !Rand key:n73033322274n
+zaawaadnimnese:ozaawaadinimanese    NA_SET    " 1 Baltimore oriole" ; !Rand key:n73033320941n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+zaawi-san'goo:ozaawi-asanagoo    NA_SET    " 1 fox squirrel" ; !Rand key:n73033322274n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zagdebwe:Vv1zagidebwe    NA_SET    " 1 ?burdock or thistle" ; !Rand key:n73034213541n
 zegdebwe:zegidebwe    NA_SET    " 1 [see zagdebwe]" ; !Rand key:n73034213665n
 zgaat:zagaad    NA_SET    " 1 cigar" ; !Rand key:n73035814146n
@@ -1179,8 +1171,7 @@ wiikwet:wiikwedo    NI_SET    " 1 bay" ; !Rand key:n73033049148n
 wiingash:wiingasho    NI_SET    " 1 sweet grass" ; !Rand key:n73033083319n
 wiingash:wiingashko    NI_SET    " 1 sweet grass" ; !Rand key:n73033083319n
 wiingashk:wiingashko    NI_SET    " 1 sweet grass" ; !Rand key:n73033083429n
-!TRUNCATED_STEM_REMOVEDzaawaabik:zaawaabiko    NI_SET    " 1 brass" ; !Rand key:n73033320874n
-zaawaabik:ozaawaabiko    NI_SET    " 1 brass" ; !Rand key:n73033320874n
+zaawaabik:ozaawaabiko    NI_SET    " 1 brass" ; !Rand key:n73033320874n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zenbaawegin:zenibaawegino    NI_SET    " 1 silk cloth" ; !Rand key:n73033384933n
 zhaweshk:Vv1zhaweshko    NI_SET    " 1 muskrat spear;  2 rifle;  3 sword" ; !Rand key:n73033518176n
 zhiigin:zhiigino    NI_SET    " 1 cloth, fabric" ; !Rand key:n73035131693n
@@ -1499,8 +1490,7 @@ bnagzignaaboo:banagiziganaaboo    NI_SET    " 1 Indian corn soup (typically usin
 bngii:bangii    NI_SET    " 1 a few, a little, a little bit" ; !Rand key:n72978957973n
 Bngoonaang:bingoonaang    NI_SET    " 1 Moraviantown, Ont." ; !Rand key:n72978963933n
 bngwi:bingwi    NI_SET    " 1 ashes" ; !Rand key:n72978964111n
-!TRUNCATED_STEM_REMOVEDbodyegwaazon:ibodiyegwaazon    NI_SET    " 1 pants, trousers" ; !Rand key:n72979759387n
-bodyegwaazon:gibodiyegwaazon    NI_SET    " 1 pants, trousers" ; !Rand key:n72979759387n
+bodyegwaazon:gibodiyegwaazon    NI_SET    " 1 pants, trousers" ; !Rand key:n72979759387n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 boodaajgaans:boodaajigaans    NI_SET    " 1 whistle (ref. to the device)" ; !Rand key:n72979765741n
 boodaajgan:boodaajigan    NI_SET    " 1 horn" ; !Rand key:n72979766140n
 boodwaajgan:boodawaajigan    NI_SET    " 1 chimney" ; !Rand key:n72980065379n
@@ -1536,8 +1526,7 @@ daakan:odaakaan    NI_SET    " 1 rudder" ; !Rand key:n72985843501n
 daashkga'gan:daashkigahigan    NI_SET    " 1 wedge" ; !Rand key:n72987348003n
 damnawaagan:odaminawaagan    NI_SET    " 1 doll" ; !Rand key:n72989343362n
 damnawin:odaminVa1win    NI_SET    " 1 toy" ; !Rand key:n72989347908n
-!TRUNCATED_STEM_REMOVEDdatgaagon:datagaagon     NI_SET    " 1 driveshaft;  2 keel (of a boat)" ; !Rand key:n72989353816n
-datgaagon:odatagaagon     NI_SET    " 1 driveshaft;  2 keel (of a boat)" ; !Rand key:n72989353816n
+datgaagon:odatagaagon     NI_SET    " 1 driveshaft;  2 keel (of a boat)" ; !Rand key:n72989353816n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 dba'gaans:dibahigaans    NI_SET    " 1 minute;  2 hour (Wp)" ; !Rand key:n72992951172n
 dba'gaans:dibahigaans    NI_SET    " 1 hour" ; !Rand key:n72992951322n
 dba'gan:dibahigan    NI_SET    " 1 hour;  2 mile" ; !Rand key:n72992952266n
@@ -1589,10 +1578,8 @@ gaashkgwaajgan:gaashkigwaajigan    NI_SET    " 1 scraper, rake" ; !Rand key:n730
 gaasiiyaakzawning:gaasiiyaakizowining    NI_SET    " 1 purgatory" ; !Rand key:n73017371659n
 gaawendmowin:gaawendamowin    NI_SET    " 1 jealousy" ; !Rand key:n73017375132n
 gaawyekaajgan:gaawayekaajigan    NI_SET    " 1 quillbox" ; !Rand key:n7303069645n
-!TRUNCATED_STEM_REMOVED!gamii:gamii    NI_SET    " 1 lake" ; !Rand key:n73017580702n
-gamii:agamii    NI_SET    " 1 lake" ; !Rand key:n73017580702n
-!TRUNCATED_STEM_REMOVED!gamiing:gamiing    NI_SET    " 1 lakeshore" ; !Rand key:n73017580824n
-gamiing:agamiing    NI_SET    " 1 lakeshore" ; !Rand key:n73017580824n
+gamii:agamii    NI_SET    " 1 lake" ; !Rand key:n73017580702n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+gamiing:agamiing    NI_SET    " 1 lakeshore" ; !Rand key:n73017580824n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 gawaatewin:agawaatewin    NI_SET    " 1 umbrella" ; !Rand key:n73017878170n
 gba'gan:gibahigan    NI_SET    " 1 cover, lid" ; !Rand key:n73017935329n
 gbaabka'gan:gibaabikahigan    NI_SET    " 1 damper" ; !Rand key:n73017582297n
@@ -1693,8 +1680,7 @@ jiiskaan:jiisakaan    NI_SET    " 1 shaker's tent (used in traditional ceremonie
 jiitat:jiitad    NI_SET    " 1 sinew" ; !Rand key:n73032652469n
 kaaden'gan:okaadenigan    NI_SET    " 1 braid" ; !Rand key:n73016754245n
 kajgaate'win:akajigaatewin    NI_SET    " 1 umbrella, parasol" ; !Rand key:n73017348884n
-!TRUNCATED_STEM_REMOVEDkakde-dba'gan:kakVv1de-dibahigan    NI_SET    " 1 builder's square" ; !Rand key:n73017351300n
-kakde-dba'gan:gakakVv1de-dibahigan    NI_SET    " 1 builder's square" ; !Rand key:n73017351300n
+kakde-dba'gan:gakakVv1de-dibahigan    NI_SET    " 1 builder's square" ; !Rand key:n73017351300n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 kakmineshkoojgan:Vv1kakVv1mineshkoojigan    NI_SET    " 1 sheller" ; !Rand key:n73017351901n
 kakzhe:akakanzhe    NI_SET    " 1 charcoal, a piece of charcoal, [burning] coal" ; !Rand key:n73028446408n
 kanjiish:Vv1kanjiish    NI_SET    " 1 bud, calyx (part of flower protecting bud)" ; !Rand key:n73017353176n
@@ -1964,8 +1950,7 @@ shkonjgan:ishkonjigan    NI_SET    " 1 leftovers" ; !Rand key:n73031483593n
 shkozhgan:Vi1shkozhigan    NI_SET    " 1 remnants [from cutting]" ; !Rand key:n73031484910n
 shkwaandem:ishkwaandem    NI_SET    " 1 door" ; !Rand key:n730315362n
 shkwenoozwin:ishkwenoozowin    NI_SET    " 1 last name, surname" ; !Rand key:n73034010646n
-!TRUNCATED_STEM_REMOVEDshoogan:shoogan    NI_SET    " 1 butter, spread (condiment)" ; !Rand key:n7303156471n
-shoogan:zhashoogan    NI_SET    " 1 butter, spread (condiment)" ; !Rand key:n7303156471n
+shoogan:zhashoogan    NI_SET    " 1 butter, spread (condiment)" ; !Rand key:n7303156471n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 sin'kiki:asinVv1kiki    NI_SET    " 1 rocky ground" ; !Rand key:n73035540401n
 sindbepzowin:asindibepizowin    NI_SET    " 1 [decorative] headband" ; !Rand key:n73031980345n
 siniikaajgan:asiniikaajigan    NI_SET    " 1 stone foundation, stone structure" ; !Rand key:n73034022193n
@@ -1976,8 +1961,7 @@ ska'win:oskahowin    NI_SET    " 1 cane, crutch" ; !Rand key:n73034013650n
 skaan:skaan    NI_SET    " 1 [scone-type] biscuit, scone" ; !Rand key:n74339366092n
 soodii:soodii    NI_SET    " 1 baking soda" ; !Rand key:n730321688n
 soodiins:soodiins    NI_SET    " 1 a pinch of baking soda" ; !Rand key:n730321771n
-!TRUNCATED_STEM_REMOVEDswewebnigan:swewebinigan    NI_SET    " 1 spreader" ; !Rand key:n73034024683n
-swewebnigan:zaswewebinigan    NI_SET    " 1 spreader" ; !Rand key:n73034024683n
+swewebnigan:zaswewebinigan    NI_SET    " 1 spreader" ; !Rand key:n73034024683n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 taasjigan:ataasojigan    NI_SET    " 1 doily" ; !Rand key:n7303219504n
 taaswin:ataasowin    NI_SET    " 1 cabinet, cupboard, dresser" ; !Rand key:n7303219774n
 tibdoowan:ditibidoowan    NI_SET    " 1 wheel [of a vehicle]" ; !Rand key:n73032111752n
@@ -2050,8 +2034,7 @@ wzhashk-weyaan:ozhashk-weyaan    NI_SET    " 1 muskrat pelt" ; !Rand key:n730331
 wzhashk-wiizh:ozhashkw-wiizh    NI_SET    " 1 muskrat lodge" ; !Rand key:n73033167339n
 ya'ii:ayahii    NI_SET    " 1 the thing that..., what..., whatchamacall" ; !Rand key:n73033180182n
 yekziwin:ayekoziwin    NI_SET    " 1 fatigue, tiredness" ; !Rand key:n73033181719n
-!TRUNCATED_STEM_REMOVEDzaabwin:zaabiwin    NI_SET    " 1 lookout tower, observation point" ; !Rand key:n72977660017n
-zaabwin:ozaabiwin    NI_SET    " 1 lookout tower, observation point" ; !Rand key:n72977660017n
+zaabwin:ozaabiwin    NI_SET    " 1 lookout tower, observation point" ; !Rand key:n72977660017n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zaag'igan:zaagahigan    NI_SET    " 1 lake" ; !Rand key:n730333773n
 zaagbiichgan:zaagibiichigan    NI_SET    " 1 [sense missing]" ; !Rand key:n73034132857n
 Zaagiinaang:zaagiinaang    NI_SET    " 1 Saginaw, Mich." ; !Rand key:n73072250235n
@@ -2059,14 +2042,10 @@ zaagkii:zaagakii    NI_SET    " 1 plant" ; !Rand key:n73033311471n
 zaagkiichgan:zaagakiichigan    NI_SET    " 1 plant, seedling; houseplant" ; !Rand key:n73033311830n
 zaasgan:zaasigan    NI_SET    " 1 grease" ; !Rand key:n73033319343n
 Zaatewang:zaatewang    NI_SET    " 1 Saturday" ; !Rand key:n73033319894n
-!TRUNCATED_STEM_REMOVEDzaaw-bmide:zaaw-bimide    NI_SET    " 1 butter" ; !Rand key:n73033322191n
-zaaw-bmide:ozaaw-bimide    NI_SET    " 1 butter" ; !Rand key:n73033322191n
-!TRUNCATED_STEM_REMOVEDzaaw-jiis:zaaw-jiis    NI_SET    " 1 carrot" ; !Rand key:n73033322449n
-zaaw-jiis:ozaaw-jiis    NI_SET    " 1 carrot" ; !Rand key:n73033322449n
-!TRUNCATED_STEM_REMOVEDzaaw-zhoon'yaa:zaaw-zhooniyaa    NI_SET    " 1 gold" ; !Rand key:n73033322647n
-zaaw-zhoon'yaa:ozaaw-zhooniyaa    NI_SET    " 1 gold" ; !Rand key:n73033322647n
-!TRUNCATED_STEM_REMOVEDzaawaabaan:zaawaabaan    NI_SET    " 1 bile" ; !Rand key:n73033319992n
-zaawaabaan:ozaawaabaan    NI_SET    " 1 bile" ; !Rand key:n73033319992n
+zaaw-bmide:ozaaw-bimide    NI_SET    " 1 butter" ; !Rand key:n73033322191n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+zaaw-jiis:ozaaw-jiis    NI_SET    " 1 carrot" ; !Rand key:n73033322449n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+zaaw-zhoon'yaa:ozaaw-zhooniyaa    NI_SET    " 1 gold" ; !Rand key:n73033322647n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+zaawaabaan:ozaawaabaan    NI_SET    " 1 bile" ; !Rand key:n73033319992n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zaazgokwaan:zaazagokwaan    NI_SET    " 1 frying pan" ; !Rand key:n73033319413n
 zak'on:zakahon    NI_SET    " 1 cane (assistive device for walking)" ; !Rand key:n73033323029n
 zamwaakbijgan:azamwaakobijigan    NI_SET    " 1 tripod for a cooking fire, tent-frame" ; !Rand key:n73033323278n
@@ -2092,8 +2071,7 @@ zhaabzigan:zhaabozigan    NI_SET    " 1 laxative" ; !Rand key:n73034219029n
 zhaagenjgan:azhaagenjigan    NI_SET    " 1 crayfish's claw" ; !Rand key:n73033435166n
 zhaangwesh-weyaan:zhaangwesh-weyaan    NI_SET    " 1 mink pelt" ; !Rand key:n73033449107n
 zhaawshko-jiis:ozhaawashko-jiis    NI_SET    " 1 turnip" ; !Rand key:n73033513988n
-!TRUNCATED_STEM_REMOVEDzhaawshkojiimin:zhaawashkojiimin    NI_SET    " 1 tomato" ; !Rand key:n73033513898n
-zhaawshkojiimin:ozhaawashkojiimin    NI_SET    " 1 tomato" ; !Rand key:n73033513898n
+zhaawshkojiimin:ozhaawashkojiimin    NI_SET    " 1 tomato" ; !Rand key:n73033513898n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zhashki:azhashki    NI_SET    " 1 dirt, earth, soil" ; !Rand key:n73033517129n
 zhashkwiki:azhashkwiki    NI_SET    " 1 muddy ground" ; !Rand key:n73033517845n
 zhebwaagan:azhebwaagan    NI_SET    " 1 oar" ; !Rand key:n73033518941n
@@ -2117,8 +2095,7 @@ zhiingbis:zhiingibis    NI_SET    " 1 boil, inflamed swelling on skin" ; !Rand k
 zhiishdagan:zhiishidahigan    NI_SET    " 1 broom" ; !Rand key:n73033632701n
 zhiishdagan:zhiishidagan    NI_SET    " 1 broom" ; !Rand key:n73033632701n
 zhiiwtaagan:zhiiwitaagan    NI_SET    " 1 salt" ; !Rand key:n73033635026n
-!TRUNCATED_STEM_REMOVEDzhnikaazwin:zhinikaazowin    NI_SET    " 1 name" ; !Rand key:n7303403619n
-zhnikaazwin:izhinikaazowin    NI_SET    " 1 name" ; !Rand key:n7303403619n
+zhnikaazwin:izhinikaazowin    NI_SET    " 1 name" ; !Rand key:n7303403619n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zhoomaan'kiwaabik:zhoomaanikiwaabik    NI_SET    " 1 copper" ; !Rand key:n73034013910n
 zhoomin:zhoomin    NI_SET    " 1 grape, raisin" ; !Rand key:n73034013998n
 zhoomnaabii:zhoominaabii    NI_SET    " 1 grape" ; !Rand key:n73034014052n
@@ -2150,13 +2127,11 @@ aachin'gan:aachinigan    NI_SET    " 1 room" ; !Rand key:n2005748-12-8n
 kii-bmide:akii-bimide    NI_SET    " 1 coal oil" ; !Rand key:n20106918-1-37n
 mdamoojgan:mVv1damoojVi1gan    NI_SET    " 1 fishing pole, fishing rod" ; !Rand key:n201091816-55-2n
 Daawaa-mnis:odaawaa-minis    NI_SET    " 1 Manitoulin Island" ; !Rand key:n201091822-18-8n
-!TRUNCATED_STEM_REMOVEDgaasmooni-jiimaan:gaasimooni-jiimaan    NI_SET    " 1 sailboat" ; !Rand key:n201091822-45-52n
-gaasmooni-jiimaan:ningaasimooni-jiimaan    NI_SET    " 1 sailboat" ; !Rand key:n201091822-45-52n
+gaasmooni-jiimaan:ningaasimooni-jiimaan    NI_SET    " 1 sailboat" ; !Rand key:n201091822-45-52n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 bdakigan:badakigan    NI_SET    " 1 [dinner] fork" ; !Rand key:n201091916-52-34n
 nshkaadziwin:nishkaadiziwin    NI_SET    " 1 anger" ; !Rand key:n201091918-19-7n
 paakzowin:apaakizowin    NI_SET    " 1 apron" ; !Rand key:n201091919-45-59n
-!TRUNCATED_STEM_REMOVEDtataagan:tataagan    NI_SET    " 1 bell" ; !Rand key:n201092013-52-30n
-tataagan:gitataagan    NI_SET    " 1 bell" ; !Rand key:n201092013-52-30n
+tataagan:gitataagan    NI_SET    " 1 bell" ; !Rand key:n201092013-52-30n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 doodooshmnjimnigan:Vv1doodooshiminjiminigan    NI_SET    " 1 bra" ; !Rand key:n201092015-18-40n
 ngaawebishkigan:nagaawebishkigan    NI_SET    " 1 brakes" ; !Rand key:n201092015-27-7n
 zoongde'ewin:zoongidehewin    NI_SET    " 1 bravery" ; !Rand key:n201092015-54-21n
