@@ -71,15 +71,15 @@ pishmon:apishimo    VAIO_TAG    "1 lie on something, use something as a mat [to 
 pisjigen:apisijige    VAIO_TAG    "1 use something as a pad [for an object to rest upon]" ; !Rand key:n73033955885n
 sanjgon:asanjigo    VAIO_TAG    "1 cache something, stash something" ; !Rand key:n730313516n
 shamaawson:ashamaawaso    VAIO_TAG    "1 feed something to one's livestock, feed something to one's offspring" ; !Rand key:n73031378966n
-shawgen:ashawVv1ge    VAIO_TAG    "1 use something as a spread (of food)" ; !Rand key:n7303407903n !flagged as reanalyzed by Rand Rand indicates /[zh]ashawVv1ge/
+shawgen:zhashawVv1ge    VAIO_TAG    "1 use something as a spread (of food)" ; !Rand key:n7303407903n !flagged as reanalyzed by Rand Rand indicates /[zh]ashawVv1ge/
 shkosen:Vi1shkose    VAIO_TAG    "1 have something left over" ; !Rand key:n73071836645n
-shoogaaden:ashoogaade    VAIO_TAG    "1 rub something [pasty] on one's legs" ; !Rand key:n74339362039n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoogaade/
-shoogen:shooge    VAIO_TAG    "1 spread something on something, use something as a spread [a condiment] (of food)" ; !Rand key:n74339359735n Rand indicates /[zhVi1]shooge/
-shoon'ken:ashoonike    VAIO_TAG    "1 rub something [pasty] on one's arms" ; !Rand key:n74339362102n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoonike/
-shoondben:ashoondibe    VAIO_TAG    "1 rub something [pasty] on one's head" ; !Rand key:n74339362206n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoondibe/
-shoonjiin:ashooninjii    VAIO_TAG    "1 rub something [pasty] on one's hands" ; !Rand key:n74339362269n !flagged as reanalyzed by Rand Rand indicates /[zh]ashooninjii/
-shoozden:ashoozide    VAIO_TAG    "1 rub something [pasty] on one's feet" ; !Rand key:n74339362146n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoozide/
-shoozhen:ashoozhe    VAIO_TAG    "1 rub something [pasty] on oneself" ; !Rand key:n74339361329n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoozhe/
+shoogaaden:zhashoogaade    VAIO_TAG    "1 rub something [pasty] on one's legs" ; !Rand key:n74339362039n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoogaade/
+shoogen:zhashooge    VAIO_TAG    "1 spread something on something, use something as a spread [a condiment] (of food)" ; !Rand key:n74339359735n Rand indicates /[zhVi1]shooge/
+shoon'ken:zhashoonike    VAIO_TAG    "1 rub something [pasty] on one's arms" ; !Rand key:n74339362102n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoonike/
+shoondben:zhashoondibe    VAIO_TAG    "1 rub something [pasty] on one's head" ; !Rand key:n74339362206n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoondibe/
+shoonjiin:zhashooninjii    VAIO_TAG    "1 rub something [pasty] on one's hands" ; !Rand key:n74339362269n !flagged as reanalyzed by Rand Rand indicates /[zh]ashooninjii/
+shoozden:zhashoozide    VAIO_TAG    "1 rub something [pasty] on one's feet" ; !Rand key:n74339362146n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoozide/
+shoozhen:zhashoozhe    VAIO_TAG    "1 rub something [pasty] on oneself" ; !Rand key:n74339361329n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoozhe/
 waabndamaagen:waabandamaage    VAIO_TAG    "1 see something belonging to smb." ; !Rand key:n73032184009n
 wepjigen:wepijige    VAIO_TAG    "1 hit an object with something" ; !Rand key:n73046341303n
 wi'wen:awihiwe    VAIO_TAG    "1 lend something" ; !Rand key:n73033032055n Rand indicates /[a]wihiwe/
