@@ -121,7 +121,7 @@ baagwaa:baagwaa    VII_TAG    " 1 be shallows" ; !Rand2key:n73036511212n
 baakaan'kot:baakaanakod2   VII_TAG    " 1 open up, part (of clouds)" ; !Rand key:n72974652233n ![gk]Vo1 replaced with [gk]o
 baakiigsin:baakiigisin    VII_TAG    " 1 lie [with its pages] open (of books, etc.)" ; !Rand2key:n73014376520n
 baakkamgise:baakakamigise    VII_TAG    " 1 be shaken open, shake open (of ground)" ; !Rand2key:n72974655699n
-Baakwan:Baakwan    VII_TAG    " 1 be Easter" ; !Rand2key:n72985054455n
+Baakwan:baakwan    VII_TAG    " 1 be Easter" ; !Rand2key:n72985054455n
 baapaagaakbii:baapaagaakVv1bii    VII_TAG    " 1 be full to the brim [with liquid], be full to capacity [with liquid]" ; !Rand2key:n72974658353n
 baapaagaakshkine:baapaagaakVv1shkine    VII_TAG    " 1 be full to capacity [with solid]" ; !Rand2key:n72974658567n
 baapaashkde:baapaashkide    VII_TAG    " 1 crackle (of wood2burning)" ; !Rand key:n73036812553n
@@ -2142,7 +2142,7 @@ bbaamdaabaan'go:bVi1baamidaabaanigo    VAI_TAG    " 1 go for a car ride, go for 
 bbaamdaabaazo:bVi1baamdaabaazo    VAI_TAG    " 1 drag one's family around, drag one's things around" ; !Rand key:n7297601149n
 bbaamgaa:bVi1baamigaa    VAI_TAG    " 1 dance about, dance around" ; !Rand key:n72975868803n
 bbaamkomii:bVi1baamVi1komii    VAI_TAG    " 1 walk around on the ice" ; !Rand key:n72976148478n
-bbaamkozhwe:bVi1baamkOzhiwe    VAI_TAG    " 1 ride around [in a rowboat], go for a ride [in a rowboat], row a boat around" ; !Rand key:n729760898n
+bbaamkozhwe:bVi1baamkozhiwe    VAI_TAG    " 1 ride around [in a rowboat], go for a ride [in a rowboat], row a boat around" ; !Rand key:n729760898n
 bbaamoode:bVi1baamoode    VAI_TAG    " 1 crawl around" ; !Rand key:n72976148836n
 bbaamse:bVi1baamVa1se    VAI_TAG    " 1 walk around, go for a walk" ; !Rand key:n72976149383n
 bbaamwebshkige:bVi1baamiwebishkige    VAI_TAG    " 1 go bicycling, go for a bicycle ride" ; !Rand key:n73101859493n
@@ -2211,7 +2211,7 @@ bengbiigese:bengobiigese    VAI_TAG    " 1 run out of ink (of pens)" ; !Rand key
 bengdin'ge:bengodinige    VAI_TAG    " 1 knead [dough], make bread" ; !Rand key:n72976552493n
 bengnaagne:bengonaagane    VAI_TAG    " 1 dry dishes [by wiping], wipe the dishes dry" ; !Rand key:n72976553518n
 bengsag'ige:bengosagahige    VAI_TAG    " 1 dry the floor, wipe the floor dry " ; !Rand key:n72976553567n
-bengwaakji:bengwaakOji    VAI_TAG    " 1 be frozen dry" ; !Rand key:n73032648714n
+bengwaakji:bengwaakoji    VAI_TAG    " 1 be frozen dry" ; !Rand key:n73032648714n
 bengwaapkishin:bengwaabikishin    VAI_TAG    " 1 air-dry" ; !Rand key:n73052045572n
 bengwaasjige:bengwaasijige    VAI_TAG    " 1 dry clothes [in a dryer]" ; !Rand key:n72976553712n
 bengza:bengozVa1    VAI_TAG    " 1 dry out [in being cooked], get dry [in being cooked]" ; !Rand key:n73017934961n
@@ -6269,7 +6269,7 @@ aaboojbijge:aaboojibijge    VAI_TAG    " 1 turn things inside out; turn things u
 aaboojdakiishin:aaboojidakiishin    VAI_TAG    " 1 be [positioned vertically] upside down" ; !Rand key:n20161215-30-16n
 aaboojdakiitaa:aaboojidakiitaa    VAI_TAG    " 1 do a handstand" ; !Rand key:n20161216-32-30n
 aaboojganegwaashkni:aaboojiganegwaashkoni    VAI_TAG    " 1 do a somersault" ; !Rand key:n20161216-35-5n
-aagwiitoo’ooza:aagwiitoo’oozVa1    VAI_TAG    " 1 have a passenger" ; !Rand key:n20161311-54-24n
+aagwiitoo’ooza:aagwiitoohoozVa1    VAI_TAG    " 1 have a passenger" ; !Rand key:n20161311-54-24n
 aakwaakdazo:aakwaakVv1dazo    VAI_TAG    " 1 be brittle, be dried out" ; !Rand key:n20161312-6-32n
 aakwaaznaagzi:aakwaazVv1naagozi    VAI_TAG    " 1 look stern;  2 look cross (CL)" ; !Rand key:n20161312-9-6n
 aakwendaagzi:aakwendaagozi    VAI_TAG    " 1 seem tough" ; !Rand key:n20161314-21-5n
@@ -6316,7 +6316,7 @@ baakgoojge:baakigoojige    VAI_TAG    " 1 open curtains or drapes" ; !Rand key:n
 baakshin:baakishin    VAI_TAG    " 1 be open, lie open, be uncovered, sit uncovered (containers)" ; !Rand key:n2016199-37-25n
 baakzhige:baakizhige    VAI_TAG    " 1 open up canned food" ; !Rand key:n20161910-25-49n
 baamaadgaazo:baamaadagaazo    VAI_TAG    " 1 wade" ; !Rand key:n20161910-45-17n
-baapaagbiig’ige:baapaagVv1biigi’ige    VAI_TAG    " 1 wash clothes by hand on rocks" ; !Rand key:n20161910-47-31n
+baapaagbiig’ige:baapaagVv1biigihige    VAI_TAG    " 1 wash clothes by hand on rocks" ; !Rand key:n20161910-47-31n
 baapaashkjiiza:baapaashikjiizVa1    VAI_TAG    " 1 crackle [as it’s (an.) frying], pop [from heat]" ; !Rand key:n20161912-16-55n
 baapaashkaakji:baapaashkaakoji    VAI_TAG    " 1 [tree] make cracking sounds from the cold" ; !Rand key:n20161912-47-4n
 baapaawnige:baapaawinige    VAI_TAG    " 1 run out of food, use up all one’s food" ; !Rand key:n20161913-6-59n
@@ -6328,7 +6328,7 @@ baashjikaazhwe:baashVv1jikaazhiwe    VAI_TAG    " 1 overtake people, pass people
 baashjizhaaza:baashVv1jizhaazVa1    VAI_TAG    " 1 overshoot the toilet bowl in urinating" ; !Rand key:n20161920-43-25n
 baashkjiiyaashi:baashkijiiyaashi    VAI_TAG    " 1 burst, explode" ; !Rand key:n20161921-47-12n
 baashzaabi:baashzaabi    VAI_TAG    " 1 look over [the top of something]" ; !Rand key:n20161922-2-39n
-baataab’iwe:baataaba’iwe    VAI_TAG    " 1 be cornered somewhere in fleeing, be trapped somewhere as one flees" ; !Rand key:n20161108-47-5n
+baataab’iwe:baataabahiwe    VAI_TAG    " 1 be cornered somewhere in fleeing, be trapped somewhere as one flees" ; !Rand key:n20161108-47-5n
 baataaboowe:baataaboowe    VAI_TAG    " 1 [see baataab’iwe]" ; !Rand key:n20161108-58-59n
 baatiinweyaan’gizi:baatiinweyaanagizi    VAI_TAG    " 1 be many types, be many varieties, be many species" ; !Rand key:n201611010-20-2n
 baazgogaadejin:baazagogaadejin    VAI_TAG    " 1 scratch [hurting] one’s leg [on a sticklike object]" ; !Rand key:n201611017-29-28n
@@ -6337,7 +6337,7 @@ babjiiyaasa:ababVv1jiiyaasVa1    VAI_TAG    " 1 warm oneself in the sun" ; !Rand
 bbaamdaabii:babaamidaabii    VAI_TAG    " 1 go about pulling a load;  2 take a baby out in the stroller;  3 go for a ride [in a vehicle] (Wp)" ; !Rand key:n20161118-11-29n
 bbaa-ndashkwe:babaa-andashkwe    VAI_TAG    " 1 look for medicinal plants" ; !Rand key:n20161118-49-20n
 bbaaskitawgese:babaasVv1kitawagese    VAI_TAG    " 1 have one’s ears flap" ; !Rand key:n20161119-0-11n
-bbaatka’ge:babaatVv1ka’ige    VAI_TAG    " 1 quilt, hand sew;  2 prick people with a massager [to treat arthritis pain] (Wp)" ; !Rand key:n20161119-14-46n
+bbaatka’ge:babaatVv1kahige    VAI_TAG    " 1 quilt, hand sew;  2 prick people with a massager [to treat arthritis pain] (Wp)" ; !Rand key:n20161119-14-46n
 bbaatkitawgese:babaatVv1kitawagese    VAI_TAG    " 1 one’s ears perk, one’s ears prick up" ; !Rand key:n20161119-42-35n
 bbaatkitawgetaa:babaatVv1kitawagetaa    VAI_TAG    " 1 perk one’s ears, prick up one’s ears" ; !Rand key:n20161119-58-13n
 bbangnaabse:babanganaabise    VAI_TAG    " 1 blink one’s eyes repeatedly" ; !Rand key:n201611110-3-38n
@@ -9123,7 +9123,7 @@ aanmaajmatwaa:aanmaajimVo1taw    VTA_TAG    " 1 tell smb. of one’s great hards
 aanmaajmatwaa:aanmaajimotaw    VTA_TAG    " 1 tell smb. of one’s great hardships" ; !Rand key:n20161410-56-34n
 aanminwaa:aanVv1minaw    VTA_TAG    " 1 trounce smb. in a contest, beat smb. soundly in a contest" ; !Rand key:n20161414-50-54n
 aannawaa:aanonaw    VTA_TAG    " 1 wound sth. (an.)" ; !Rand key:n20161415-0-42n
-aanooj’aa:aanooji’    VTA_TAG    " 1 pester smb. terribly" ; !Rand key:n20161514-34-8n
+aanooj’aa:aanoojih    VTA_TAG    " 1 pester smb. terribly" ; !Rand key:n20161514-34-8n
 aanoojiikwaa:aanoojiikaw    VTA_TAG    " 1 pester smb. terribly" ; !Rand key:n20161514-37-6n
 aanoozmaa:aanoozim    VTA_TAG    " 1 pester smb. terribly with demands" ; !Rand key:n20161514-40-56n
 aanzwekwaa:aanzwekaw    VTA_TAG    " 1 [see aanzweshkwaa]" ; !Rand key:n20161514-49-23n
@@ -9134,9 +9134,9 @@ aazhgijwebnaa:aazhigijiwebin1    VTA_TAG    " 1 [see aazhgidwebnaa]" ; !Rand key
 aazhigijiitwaa:aazhigijiitaw    VTA_TAG    " 1 ???" ; !Rand key:n20161711-4-2n
 baabaagjiiwaa:baabaagijiihw    VTA_TAG    " 1 pound sth. (an.)" ; !Rand key:n20161714-16-51n
 baabgoknaa:baabVv1gokon1    VTA_TAG    " 1 cut sth. (an.) loose from a surface, remove sth. (an.) stuck on something by cutting it" ; !Rand key:n20161714-28-25n
-bmibzoo’aa:bimibizoo’    VTA_TAG    " 1 run sth. (an) [with a motor]" ; !Rand key:n2016187-35-54n
+bmibzoo’aa:bimibizooh    VTA_TAG    " 1 run sth. (an) [with a motor]" ; !Rand key:n2016187-35-54n
 baabkizwaa:baabikizw    VTA_TAG    " 1 warm up sth. (an.) [metallic]" ; !Rand key:n20161810-13-49n
-baagaaksa’aa:baagaakosa’    VTA_TAG    " 1 slam sth. (an.)" ; !Rand key:n20161815-9-17n
+baagaaksa’aa:baagaakosah    VTA_TAG    " 1 slam sth. (an.)" ; !Rand key:n20161815-9-17n
 baakdaamkagnebnaa:baakVv1daamikaganebin1    VTA_TAG    " 1 force smb.’s jaws open" ; !Rand key:n20161815-41-46n
 baakdenmaa:baakVv1denim    VTA_TAG    " 1 become permanently biased against smb., be unable to change one’s feelings about smb." ; !Rand key:n2016198-32-59n
 baakdonebnaa:baakidonebin1    VTA_TAG    " 1 force smb.’s mouth open, open smb.’s mouth" ; !Rand key:n2016198-51-20n
@@ -9177,7 +9177,7 @@ biinjtawgebnaa:biinjitawagebin1    VTA_TAG    " 1 poke smb. in the ear with one�
 biipiigmaa:biipiigim    VTA_TAG    " 1 chew sth. (an.) to bits, shreds" ; !Rand key:n201611412-25-28n
 biisbiiwaa:biisibiihw    VTA_TAG    " 1 write sth. (an.) in fine print, write sth. (an.) in tiny print" ; !Rand key:n201611413-3-15n
 binoojiinkaanaa:abinoojiinyikaan1    VTA_TAG    " 1 coddle smb., treat smb. like a baby" ; !Rand key:n201611515-32-20n
-bkaabiigsa’aa:bakaabiigVv1sa’    VTA_TAG    " 1 break sth. (an.) [stringlike] in yanking it" ; !Rand key:n201611515-37-20n
+bkaabiigsa’aa:bakaabiigVv1sah    VTA_TAG    " 1 break sth. (an.) [stringlike] in yanking it" ; !Rand key:n201611515-37-20n
 bkaabiigwaa:bakaabiigahw    VTA_TAG    " 1 break sth. (an.) by overwinding it [of a timepiece]" ; !Rand key:n201611515-41-29n
 bkewnaa:bakewin1    VTA_TAG    " 1 lead smb. astray" ; !Rand key:n201611516-3-1n
 bkidaabiiggoonaa:bakidaabiigagoon1    VTA_TAG    " 1 hang sth. (an.) [stringlike] up over something" ; !Rand key:n201611516-12-40n
@@ -9192,9 +9192,9 @@ bkwenedaawngishmaa:bakwenedaawangishm    VTA_TAG    " 1 throw sth. (an.) down ma
 bkwenedyeshkwaa:bakwenediyeshkaw    VTA_TAG    " 1 kick smb. in the rear end" ; !Rand key:n201611520-53-44n
 bmaabiignaa:bimaabiigin    VTA_TAG    " 1 go out with smb., date smb." ; !Rand key:n201611610-3-16n
 bmaapnemaa:bimaapinem    VTA_TAG    " 1 berate smb. as one goes along, go along berating smb." ; !Rand key:n201611610-36-23n
-bmagsa’aa:bVv1magVv1sa’    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611611-42-32n
+bmagsa’aa:bVv1magVv1sah    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611611-42-32n
 bmagwebnaa:bimagwebin1    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611611-50-20n
-bmigsa’aa:bVv1dmgVv1sa’    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611613-12-43n
+bmigsa’aa:bVv1dmgVv1sah    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611613-12-43n
 bmigwebnaa:bimigwebin1    VTA_TAG    " 1 shake sth. (an.)" ; !Rand key:n201611613-19-2n
 bminaazhwaa:biminaazhahw    VTA_TAG    " 1 direct sth. (an.) (CL);  2 drive sth. (an.) (Wp);  3 control smb. (e.g., one’s spouse)" ; !Rand key:n201611613-36-18n
 bnaadaabiignaa:banaadaabiigin    VTA_TAG    " 1 string sth. (an.) the wrong way;  2 lead smb. astray (figurative)" ; !Rand key:n201611614-11-24n

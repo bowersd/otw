@@ -34,7 +34,7 @@ biiway:biiway2   NA_SET    " 1 fur, wool, yarn" ; !Rand key:n72977485939n
 baapaas-ledii:baapaas-ledii    NA_SET    " 1 ritzy lady" ; !Rand key:n72974660507n
 !}
 !{ o (ook pl)
-Gchi-bboon-giizis:Gichi-biboon-giiziso    NA_SET    " 1 Big-Winter Moon (December)" ; !Rand key:n73019341970n
+Gchi-bboon-giizis:gichi-biboon-giiziso    NA_SET    " 1 Big-Winter Moon (December)" ; !Rand key:n73019341970n
 Mdaamin-giizis:mandaamin-giiziso    NA_SET    " 1 September (Corn moon)" ; !Rand key:n71429464867n
 Miin-giizis:miin-giiziso    NA_SET    " 1 July (Blueberry moon)" ; !Rand key:n71429681234n
 Mko-giizis:mako-giiziso    NA_SET    " 1 February (Bear moon)" ; !Rand key:n71429749819n
@@ -50,8 +50,8 @@ bepeshignebik:bepeshiginebigo    NA_SET    " 1 garter snake" ; !Rand key:n729765
 bgaanaak:bagaanaako    NA_SET    " 1 black walnut (a type of tree)" ; !Rand key:n7297662490n
 bgesaanaatik:bagesaanaatigo    NA_SET    " 1 plum tree" ; !Rand key:n73033133222n
 biigjiisak:biigijiisago    NA_SET    " 1 decaying wood, rotten log" ; !Rand key:n72976965198n
-Bnaakwe-giizis:Binaakwe-giiziso    NA_SET    " 1 Leaves-Fall Moon (October)" ; !Rand key:n72978660082n
-Bnaakwii-giizis:Binaakwii-giiziso    NA_SET    " 1 Harvest Moon (October)" ; !Rand key:n72978660240n
+Bnaakwe-giizis:binaakwe-giiziso    NA_SET    " 1 Leaves-Fall Moon (October)" ; !Rand key:n72978660082n
+Bnaakwii-giizis:binaakwii-giiziso    NA_SET    " 1 Harvest Moon (October)" ; !Rand key:n72978660240n
 bsagaak:basagaako    NA_SET    " 1 board; plank" ; !Rand key:n72985146170n
 bwaayaak:bwaayaako    NA_SET    " 1 white ash (type of tree)" ; !Rand key:n72985136958n
 daabaanaatik:odaabaanaatigo    NA_SET    " 1 runner (on a sled or sleigh)" ; !Rand key:n72985835240n
@@ -511,7 +511,7 @@ biitoojiishkwegnigan:biitoojiishkweginigan    NA_SET    " 1 pie" ; !Rand key:n72
 biiwaabko-bezhgoogzhii:biiwaabiko-bezhigoogazhii    NA_SET    " 1 tractor" ; !Rand key:n72977484927n
 biiwyaans:biiwayaans    NA_SET    " 1 wool" ; !Rand key:n72977543256n
 biiwyens:biiwayens    NA_SET    " 1 a (small) piece of wool, cotton ball" ; !Rand key:n73036918999n
-Biiyen:Biiyen    NA_SET    " 1 Peter" ; !Rand key:n72977543498n
+Biiyen:biiyen    NA_SET    " 1 Peter" ; !Rand key:n72977543498n
 binoojiins:abinoojiins    NA_SET    " 1 baby, toddler" ; !Rand key:n72977545214n
 bkweg'asaan:bakwegVv1hasaan    NA_SET    " 1 [wood] chip" ; !Rand key:n73101868974n
 bkwezhgaans:bakwezhigaans    NA_SET    " 1 cookie, sweet roll, doughnut" ; !Rand key:n72977664459n
@@ -520,7 +520,7 @@ bmiboojgan:bimiboojigan    NA_SET    " 1 plow (farm implement)" ; !Rand key:n729
 bmidoosh:bimidoosh    NA_SET    " 1 caterpillar; any worm-like bug" ; !Rand key:n72978046274n
 bmidsaa:bimidasaa    NA_SET    " 1 rafter, canoe thwart (structural crosspiece)" ; !Rand key:n72978046764n
 bmikwaan:bimikwaan    NA_SET    " 1 gunwhale (part of a boat)" ; !Rand key:n73037149163n
-Bnadiin:Banadiin    NA_SET    " 1 Bernadine (name)" ; !Rand key:n72978661026n
+Bnadiin:banadiin    NA_SET    " 1 Bernadine (name)" ; !Rand key:n72978661026n
 bnagzigan:banagizigan    NA_SET    " 1 kernel of hominy; kernel of shelled corn" ; !Rand key:n72978954941n
 bne:bine    NA_SET    " 1 ruffed grouse" ; !Rand key:n72978956556n
 bngii:bangii    NA_SET    " 1 a few, a little, a little bit" ; !Rand key:n72978958364n
@@ -889,7 +889,7 @@ gchi-gimaakwens:gichi-pgimaakwens    NA_SET    " 1 princess" ; !Rand key:n201133
 gchi-kwe:gchi-Vi1kwe    NA_SET    " 1 a grown woman, an adult woman" ; !Rand key:n201133013-34-13n
 Gchi-mookmaani-shkinwe:gichi-mookomaani-oshkinawe    NA_SET    " 1 young white American male" ; !Rand key:n201133014-8-22n
 Gchi-mookmaani-zhmaagnish:gichi-mookomaani-zhimaaganish    NA_SET    " 1 American soldier" ; !Rand key:n201133014-12-6n
-Gchi-mookmaanens:Gichi-mookomaanens    NA_SET    " 1 young white American" ; !Rand key:n201133014-21-5n
+Gchi-mookmaanens:gichi-mookomaanens    NA_SET    " 1 young white American" ; !Rand key:n201133014-21-5n
 Gchi-mookmaanii-gimaa:gichi-mookomaanii-ogimaa    NA_SET    " 1 American leader, esp. an American political or military leader" ; !Rand key:n201133014-27-48n
 Gchi-wesii:gichi-awesii    NA_SET    " 1 any of a class of large mythological creatures, such as the <nish>Mshibzhii</nish>, 'the Great Lynx,' or <nish>Mshi-gnebik</nish>, 'the Great Serpent'" ; !Rand key:n201133015-39-5n
 giigdooniniikwe:giigidoowVi1niniikwe    NA_SET    " 1 female councillor, female band councillor" ; !Rand key:n201133020-38-58n
@@ -899,7 +899,7 @@ Jibwe-kwe:ojibwe-Vi1kwe    NA_SET    " 1 an Ojibwe woman, Ojibway woman" ; !Rand
 Maamii:omaamii    NA_SET    " 1 Miami Indian (Maumee)" ; !Rand key:n20114322-22-47n
 mzinniins:mVi1zininiins    NA_SET    " 1 figurine" ; !Rand key:n20114916-47-21n
 zaazgokwaan:zaazagokwaan    NA_SET    " 1 frying pan" ; !Rand key:n20114916-50-52n
-Endroo:Endroo    NA_SET    " 1 Andrew" ; !Rand key:n20114920-0-40n
+Endroo:endroo    NA_SET    " 1 Andrew" ; !Rand key:n20114920-0-40n
 miigis:miigis    NA_SET    " 1 bead, sacred shell" ; !Rand key:n20114922-24-6n
 miigwaans:miigwaans    NA_SET    " 1 feather" ; !Rand key:n20114922-27-43n
 miigwan:miigwan    NA_SET    " 1 feather" ; !Rand key:n20114922-31-52n
@@ -913,7 +913,7 @@ zhooshkwaadeniniikwe:zhooshkwaadewVi1niniiwVi1kwe    NA_SET    " 1 skater (femal
 mookdaasooniniikwe:mookodaasooniniikwe    NA_SET    " 1 [female] carpenter" ; !Rand key:n201141016-28-48n
 mookdaasooniniikwe:mookodaasooniniiwVi1kwe    NA_SET    " 1 [female] carpenter" ; !Rand key:n201141016-28-48n
 baataayens:baataayens    NA_SET    " 1 burr, sticky (informal term for this burr)" ; !Rand key:n201611010-7-25n
-bbooni-yi’aa:bibooni-ayi’aa    NA_SET    " 1 winter-type, type of thing used in winter, etc." ; !Rand key:n201611111-13-20n
+bbooni-yi’aa:bibooni-ayihaa    NA_SET    " 1 winter-type, type of thing used in winter, etc." ; !Rand key:n201611111-13-20n
 bebskiigsenh:bebiskiigisenh    NA_SET    " 1 mosquito larva" ; !Rand key:n201611117-47-1n
 bgaanmizhiins:bgaanimizhiins    NA_SET    " 1 hazel shrub (Corylus americana)" ; !Rand key:n201611117-58-36n
 bgoshens:bigoshens    NA_SET    " 1 blackfly (CL, M'Ch);  2 sandfly (Sg)" ; !Rand key:n201611217-17-28n
@@ -2200,13 +2200,13 @@ niibiishaaboo-naagaans:aniibiishaaboo-onaagaans    NI_SET    " 1 teacup" ; !Rand
 aasmisak:aasamisag    NI_SET    " 1 wall" ; !Rand key:n2016167-0-44n
 aaspidyepjigan:aaspidiyepijigan    NI_SET    " 1 strap that goes around the rear of a horse" ; !Rand key:n2016167-20-54n
 aaswaakogan:aaswaakwahigan    NI_SET    " 1 blaze [on a tree]" ; !Rand key:n20161610-32-9n
-aaswaakogan:aaswaakwa’igan    NI_SET    " 1 brace [giving structural support]" ; !Rand key:n20161613-19-21n
+aaswaakogan:aaswaakwahigan    NI_SET    " 1 brace [giving structural support]" ; !Rand key:n20161613-19-21n
 baakwaan:baakwaan    NI_SET    " 1 fruit [cluster] of the staghorn sumac" ; !Rand key:n20161910-0-57n
-baashkjii’gan:baashkjii’igan    NI_SET    " 1 nutcracker" ; !Rand key:n20161921-18-59n
+baashkjii’gan:baashkjiihigan    NI_SET    " 1 nutcracker" ; !Rand key:n20161921-18-59n
 baatko’gan:baatikohigan    NI_SET    " 1 massager (made of hickory with small nails at the end), for treating arthritis." ; !Rand key:n201611012-56-22n
-bbaatka’gan:bVv1baatVv1ka’igan    NI_SET    " 1 massager (made of hickory with small nails at end) for treating arthritis" ; !Rand key:n20161119-9-50n
+bbaatka’gan:bVv1baatVv1kahigan    NI_SET    " 1 massager (made of hickory with small nails at end) for treating arthritis" ; !Rand key:n20161119-9-50n
 bbooni-yi’ii:bibooni-ayihii    NI_SET    " 1 winter-type,  type of thing used in winter, etc." ; !Rand key:n201611111-8-8n
-bdakiig’igan:badakiigVv1’igan    NI_SET    " 1 quilt" ; !Rand key:n201611115-52-34n
+bdakiig’igan:badakiigVv1higan    NI_SET    " 1 quilt" ; !Rand key:n201611115-52-34n
 biimskobjigan:biimiskobijigan    NI_SET    " 1 Mason jar" ; !Rand key:n20161139-29-42n
 biimskobjigan:biimiskobijigan    NI_SET    " 1 wrench" ; !Rand key:n20161139-36-48n
 biimskogwewebjigan:biimiskogwewebijigan    NI_SET    " 1 Mason jar" ; !Rand key:n20161139-46-0n
