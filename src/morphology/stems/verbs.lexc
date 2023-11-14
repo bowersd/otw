@@ -6997,9 +6997,9 @@ bgosaabmaa:bogosaabam    VTA_TAG    " 1 look at smb. pleadingly" ; !Rand key:n72
 bgosaabmaa:bagosaabam VTA_TAG    " 1 look at smb. pleadingly" ; !Rand key:n72976859054n
 bgosenmaa:bogosenim    VTA_TAG    " 1 beg of smb., request something of smb., appeal to smb. for something;  2 wish something good for someone" ; !Rand key:n72976859304n
 bgosenmaa:bagosenim VTA_TAG    " 1 beg of smb., request something of smb., appeal to smb. for something;  2 wish something good for someone" ; !Rand key:n72976859304n
-bgosh'bogoshih    VTA_TAG    " 1 bum something off smb." ; !Rand key:n72976860269n
+bgosh'aa:bogoshih    VTA_TAG    " 1 bum something off smb." ; !Rand key:n72976860269n
 bgosh'aa:bagoshih VTA_TAG    " 1 bum something off smb." ; !Rand key:n72976860269n
-bgosh'bogoshih    VTA_TAG    " 1 gain points off smb. (esp. in Deuce-is-Wild)" ; !Rand key:n72976860530n
+bgosh'aa:bogoshih    VTA_TAG    " 1 gain points off smb. (esp. in Deuce-is-Wild)" ; !Rand key:n72976860530n
 bgosh'aa:bagoshih VTA_TAG    " 1 gain points off smb. (esp. in Deuce-is-Wild)" ; !Rand key:n72976860530n
 bgowaa:bagohw    VTA_TAG    " 1 patch sth. (an.) a patch on sth. (an.), darn sth. (an.)" ; !Rand key:n72976842169n ![gk]Vo1 replaced with [gk]o
 bgowaa:bogohw    VTA_TAG    " 1 chop a hole in sth. (an.)" ; !Rand key:n72976861509n ![gk]Vo1 replaced with [gk]o
