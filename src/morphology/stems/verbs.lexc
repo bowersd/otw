@@ -668,8 +668,7 @@ gwaagsin:agwaagosin    VII_TAG    " 1 be moldy, get moldy, turn moldy" ; !Rand2k
 gwaakse:gawaakose    VII_TAG    " 1 fall over [from an upright position]" ; !Rand2key:n73031638771n
 gwaaksin:gawaakosin    VII_TAG    " 1 stick fast, cling;  2 be wide open" ; !Rand2key:n73031638944n
 gwaan'kodyeyaa:gwaanVv1kodiyeyaa    VII_TAG    " 1 be rounded2at the bottom, have a round bottom" ; !Rand key:n73031639283n
-gwaansagaakginde:gwaanisagaakVv1ginde    VII_TAG    " 1 be outrageously expensive" ; !Rand2key:n73045852429n
-gwaansagaakginde:gagwaanisagaakVv1ginde    VII_TAG    " 1 be outrageously expensive" ; !Rand2key:n73045852429n
+gwaansagaakginde:gagwaanisagaakVv1ginde    VII_TAG    " 1 be outrageously expensive" ; !Rand2key:n73045852429n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 gwaashkndagoode:gwaashkVv1ndagoode    VII_TAG    " 1 fall off [from a vehicle]" ; !Rand2key:n73031641792n
 gwaashkwebiise:gwaashkwebiise    VII_TAG    " 1 splash" ; !Rand2key:n73102067103n
 gwaashkweyaasin:gwaashkweyaasin    VII_TAG    " 1 ricochet" ; !Rand2key:n73031641117n
@@ -988,8 +987,7 @@ n'kewebde:nakewebide    VII_TAG    " 1 drive out of view behind2something, fall 
 n'kwema:nakwemVa1    VII_TAG    " 1 join another road, join another path, join another trail" ; !Rand2key:n71433641028n
 n'kwetgweyaa:nakwetigweyaa    VII_TAG    " 1 the rivers meet" ; !Rand2key:n71433641681n
 n'kweyaaksin:nakweyaakosin    VII_TAG    " 1 smack into something" ; !Rand2key:n73036950653n
-naa'chigaade:naahichigaade    VII_TAG    " 1 [see nnaa'chigaade]" ; !Rand2key:n71430941619n
-naa'chigaade:nanaahichigaade    VII_TAG    " 1 [see nnaa'chigaade]" ; !Rand2key:n71430941619n
+naa'chigaade:nanaahichigaade    VII_TAG    " 1 [see nnaa'chigaade]" ; !Rand2key:n71430941619n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naabdat:inaabadad2   VII_TAG    " 1 be put to a certain use, be used in a certain way" ; !Rand key:n71430660293n
 naabdin:naabadin    VII_TAG    " 1 be crusty (of snow conditions)" ; !Rand2key:n73033330606n
 naabdoosknegeyaate:naabVv1dooskonegeyaate    VII_TAG    " 1 be romantic (of moonlight)" ; !Rand2key:n73033331512n ![gk]Vo1 replaced with [gk]o
@@ -1192,8 +1190,7 @@ pangbiisaa:bapangibiisaa    VII_TAG    " 1 drizzle" ; !Rand2key:n73031177378n
 pangbiisaan:apangibiisaan    VII_TAG    " 1 drizzle" ; !Rand2key:n73031177638n
 pangnjibde:apanganjibide    VII_TAG    " 1 arrive at a certain destination, go to a certain destination" ; !Rand2key:n7303705315n
 pasaande:apVi1saande    VII_TAG    " 1 be bruised, have bruises" ; !Rand2key:n73033930629n
-paswewe:baswewe    VII_TAG    " 1 echo" ; !Rand2key:n73031179355n
-paswewe:babaswewe    VII_TAG    " 1 echo" ; !Rand2key:n73031179355n
+paswewe:babaswewe    VII_TAG    " 1 echo" ; !Rand2key:n73031179355n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 pide:ipide    VII_TAG    " 1 drive in a certain direction, drive to a certain place, fly in a certain direction, fly to a certain  place, head2in a certain direction, head to a certain place" ; !Rand key:n73031181010n
 piichaa:apiichaa    VII_TAG    " 1 be a certain distance along, be a certain distance away" ; !Rand2key:n73031183224n
 piichgin:apiichigin    VII_TAG    " 1 be grown a certain amount, grow to a certain amount" ; !Rand2key:n73031183865n
@@ -2121,8 +2118,7 @@ bashkzhige:bashkozige    VAI_TAG    " 1 cut hay" ; !Rand key:n72975864617n !† 
 bashkzi:bashkozi    VAI_TAG    " 1 be featherless, be hairless" ; !Rand key:n72975864718n !† removed
 baskawe:Vv1basikawe    VAI_TAG    " 1 play shinny (a women's game)" ; !Rand key:n72975865502n
 bbaa-mshkikiiwe:bVi1baa-mashkikiiwe    VAI_TAG    " 1 go out looking for medicinal herbs" ; !Rand key:n72976149592n
-bbaa-nda-bezhgoogzhiiye:bVi1baa-anda-bezhigooganzhiiwe    VAI_TAG    " 1 go out looking for the horses" ; !Rand key:n72976151304n
-bbaa-nda-bezhgoogzhiiye:bVi1baa-anda-bezhigoogazhiiwe    VAI_TAG    " 1 go out looking for the horses" ; !Rand key:n72976151304n
+bbaa-nda-bezhgoogzhiiye:bVi1baa-anda-bezhigoogazhiiwe    VAI_TAG    " 1 go out looking for the horses" ; !Rand key:n72976151304n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 bbaa-nda-bzhikiiwe:bVi1baa-anda-bizhikiiwe    VAI_TAG    " 1 go out looking for the cows" ; !Rand key:n72976151065n
 bbaa-nikaa:bVi1baa-inikaa    VAI_TAG    " 1 be around on business, go around in business" ; !Rand key:n72976156158n
 bbaa-wiijiiwe:bVi1baa-wiijiiwe    VAI_TAG    " 1 accompany others, go along " ; !Rand key:n72976159336n
@@ -3279,12 +3275,9 @@ geshwishin:geshawishin    VAI_TAG    " 1 be loose (of objects attached to someth
 geskwaabaawe:geskwaabaawe    VAI_TAG    " 1 get caught in the rain" ; !Rand key:n73020048593n
 gete-'aawi:gete-ahaawi    VAI_TAG    " 1 be an old thing, be old (usually not said of people)" ; !Rand key:n73020053476n
 geteyaajma:geteyaajimVa1    VAI_TAG    " 1 tell old stories, talk about the old days" ; !Rand key:n73020052751n
-getnaamgaadese:getinaamigaadese    VAI_TAG    " 1 walk determinedly" ; !Rand key:n73020054338n
-getnaamgaadese:gagetinaamigaadese    VAI_TAG    " 1 walk determinedly" ; !Rand key:n73020054338n
-getnaamiingweni:getinaamiingweni    VAI_TAG    " 1 have a serious expression, look serious, look determined" ; !Rand key:n73020054250n
-getnaamiingweni:gagetinaamiingweni    VAI_TAG    " 1 have a serious expression, look serious, look determined" ; !Rand key:n73020054250n
-getnaamzi:getinaamizi    VAI_TAG    " 1 make a determined effort, try really hard, work really hard [on something]" ; !Rand key:n73020053817n
-getnaamzi:gagetinaamizi    VAI_TAG    " 1 make a determined effort, try really hard, work really hard [on something]" ; !Rand key:n73020053817n
+getnaamgaadese:gagetinaamigaadese    VAI_TAG    " 1 walk determinedly" ; !Rand key:n73020054338n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+getnaamiingweni:gagetinaamiingweni    VAI_TAG    " 1 have a serious expression, look serious, look determined" ; !Rand key:n73020054250n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+getnaamzi:gagetinaamizi    VAI_TAG    " 1 make a determined effort, try really hard, work really hard [on something]" ; !Rand key:n73020053817n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 gezbaangdaasa:gezibaangVv1daasVa1    VAI_TAG    " 1 put away things [that are lying around] " ; !Rand key:n73024350803n
 gezbijiin'ge:gezibijiinige    VAI_TAG    " 1 gather up things [to tidy up]" ; !Rand key:n73020158822n
 gezbin'ge:gezibinige    VAI_TAG    " 1 tidy things up, tidy up" ; !Rand key:n73020176355n
@@ -3447,8 +3440,7 @@ giinaadzi:giinaadizi    VAI_TAG    " 1 be rough on things" ; !Rand key:n73023050
 giinbooza:giiniboozVa1    VAI_TAG    " 1 be ground to a sharp edge" ; !Rand key:n73023051398n
 giinpoonzhe:giinVv1poonzhe    VAI_TAG    " 1 bear a child resembling something one has looked at" ; !Rand key:n73023657305n
 giinsendam:giinVv1sendam    VAI_TAG    " 1 be relieved [of anxiety]" ; !Rand key:n73023657522n
-giinwi:giinawi    VAI_TAG    " 1 lie, tell a lie" ; !Rand key:n73023657977n
-giinwi:gagiinawi    VAI_TAG    " 1 lie, tell a lie" ; !Rand key:n73023657977n
+giinwi:gagiinawi    VAI_TAG    " 1 lie, tell a lie" ; !Rand key:n73023657977n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 giinwishkaadzi:giinawishkaadizi    VAI_TAG    " 1 be a liar, tell lies habitually" ; !Rand key:n73023658598n
 giinwishkaajma:giinawishkaajimVa1    VAI_TAG    " 1 tell lies, tell untrue stories" ; !Rand key:n73023658442n
 ggiinwishki:gVi1giinawishki    VAI_TAG    " 1 lie, tell a lie (NE);  2  be a liar (CL)" ; !Rand key:n73023658058n
@@ -3700,8 +3692,7 @@ gwaakse:gawaakose    VAI_TAG    " 1 fall over [from an upright position]" ; !Ran
 gwaakshin:gawaakoshin    VAI_TAG    " 1 stick fast, cling;  2 be wide open" ; !Rand key:n73031638826n
 gwaakwaapge:gwaakwaapVv1ge    VAI_TAG    " 1 bail one's boat out" ; !Rand key:n73031639108n
 gwaanaaso:gawaanaaso    VAI_TAG    " 1 suffer sunstroke" ; !Rand key:n73031639191n
-gwaansagaakgiza:gwaanisagaakVv1gizVa1    VAI_TAG    " 1 be outrageously expensive" ; !Rand key:n73045852498n
-gwaansagaakgiza:gagwaanisagaakVv1gizVa1    VAI_TAG    " 1 be outrageously expensive" ; !Rand key:n73045852498n
+gwaansagaakgiza:gagwaanisagaakVv1gizVa1    VAI_TAG    " 1 be outrageously expensive" ; !Rand key:n73045852498n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 gwaapge:gwaapige    VAI_TAG    " 1 take a taste from the pot" ; !Rand key:n73031639611n
 gwaapi:gwaapi    VAI_TAG    " 1 fall over from laughing, laugh so hard one falls over" ; !Rand key:n73031639694n
 gwaapi:gawaapi    VAI_TAG    " 1 fall over from laughing, laugh so hard one falls over" ; !Rand key:n73031639694n
@@ -4130,8 +4121,7 @@ magii:omagii    VAI_TAG    " 1 have a scab, be scabby" ; !Rand key:n73032438771n
 majgidaaza:amajigidaazVa1    VAI_TAG    " 1 wake up angry, wake up mad" ; !Rand key:n73032438213n
 mandoomi:Vv1mandoomi    VAI_TAG    " 1 leave tracks" ; !Rand key:n71429344353n
 mansa:amanisVa1    VAI_TAG    " 1 be spooked, sense something supernatural" ; !Rand key:n71429344792n
-mazhwe:mazhiwe    VAI_TAG    " 1 [see mmazhwe]" ; !Rand key:n71429345357n
-mazhwe:mamazhiwe    VAI_TAG    " 1 [see mmazhwe]" ; !Rand key:n71429345357n
+mazhwe:mamazhiwe    VAI_TAG    " 1 [see mmazhwe]" ; !Rand key:n71429345357n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 mba'go:ombahogo    VAI_TAG    " 1 get a swelling, swell up" ; !Rand key:n71429447511n
 mbaabiignigaaza:ombaabiiginigaazVa1    VAI_TAG    " 1 be hoisted, be raised [on a rope]" ; !Rand key:n71429446181n
 mbaabsa:ombaabVi1sVa1    VAI_TAG    " 1 steam, smoke" ; !Rand key:n71429446331n
@@ -4241,13 +4231,11 @@ mgozi:magozi    VAI_TAG    " 1 have a boil, have boils (of a skin condition)" ; 
 miggaade:omigigaade    VAI_TAG    " 1 get scabs on one's legs, get sores on one's legs, have scabs on one's legs, have sores on one's legs" ; !Rand key:n71429645418n
 migii:omigii    VAI_TAG    " 1 get scabs, get sores, have scabs, have sores;  2 get leprosy, have leprosy" ; !Rand key:n71429645554n
 migiiyiingwe:omigiiyiingwe    VAI_TAG    " 1 get pimples, get sores on one's face, have pimples, have sores on one's face" ; !Rand key:n71429650382n
-migkweni:migokweni    VAI_TAG    " 1 [see mmigkweni]" ; !Rand key:n71429650544n
-migkweni:mamigokweni    VAI_TAG    " 1 [see mmigkweni]" ; !Rand key:n71429650544n
+migkweni:mamigokweni    VAI_TAG    " 1 [see mmigkweni]" ; !Rand key:n71429650544n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 migndibe:omigindibe    VAI_TAG    " 1 get scabs on one's head, get sores on one's head, have scabs on one's head, have sores on one's head" ; !Rand key:n71429650632n
 mignike:omiginike    VAI_TAG    " 1 get scabs on one's arms, get sores on one's arms, have scabs on one's arms, have sores on one's arms" ; !Rand key:n71429650880n
 migninjii:omigininjii    VAI_TAG    " 1 get scabs on one's hands, get sores on one's hands, have scabs on one's hands, have sores on one's h" ; !Rand key:n71429651056n
-migwii:migwii    VAI_TAG    " 1 [see mmigwii]" ; !Rand key:n71429651540n
-migwii:mVv1migwii    VAI_TAG    " 1 [see mmigwii]" ; !Rand key:n71429651540n
+migwii:mVv1migwii    VAI_TAG    " 1 [see mmigwii]" ; !Rand key:n71429651540n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 migzhe:omigazhe    VAI_TAG    " 1 get a rash, get scabs on one's body, get sores on one's body, have a rash, have scabs on one's body," ; !Rand key:n71429651602n
 miidaawendam:miidaawendam    VAI_TAG    " 1 [see mmiidaawendam]" ; !Rand key:n73096950145n
 miidngwaami:miidVv1ngwaami    VAI_TAG    " 1 defecate in one's sleep" ; !Rand key:n71429652670n
@@ -4290,12 +4278,9 @@ miishzhe:miishizhe    VAI_TAG    " 1 [see miishaakzhe]" ; !Rand key:n71429737554
 miizhaawendam:miizhaawendam    VAI_TAG    " 1 be distressed about something" ; !Rand key:n71429737756n
 miizhaawshkoozo:miizhaawVv1shkoozo    VAI_TAG    " 1 struggle [under a burden]" ; !Rand key:n71429738258n
 miizii:miizii    VAI_TAG    " 1 defecate" ; !Rand key:n71429738829n
-minaadzi:minaadizi    VAI_TAG    " 1 be fussy [about food], be picky [about food]" ; !Rand key:n71429739641n
-minaadzi:maminaadizi    VAI_TAG    " 1 be fussy [about food], be picky [about food]" ; !Rand key:n71429739641n
-minbii:minobii    VAI_TAG    " 1 [see mminbii]" ; !Rand key:n71429739736n
-minbii:maminobii    VAI_TAG    " 1 [see mminbii]" ; !Rand key:n71429739736n
-miniingwe:miniingwe    VAI_TAG    " 1 have sand in one's eyes [from sleeping], have sleep in one's eyes" ; !Rand key:n71429740129n
-miniingwe:maminiingwe    VAI_TAG    " 1 have sand in one's eyes [from sleeping], have sleep in one's eyes" ; !Rand key:n71429740129n
+minaadzi:maminaadizi    VAI_TAG    " 1 be fussy [about food], be picky [about food]" ; !Rand key:n71429739641n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+minbii:maminobii    VAI_TAG    " 1 [see mminbii]" ; !Rand key:n71429739736n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+miniingwe:maminiingwe    VAI_TAG    " 1 have sand in one's eyes [from sleeping], have sleep in one's eyes" ; !Rand key:n71429740129n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 minkwe:minikwe    VAI_TAG    " 1 [see mminkwe]" ; !Rand key:n71429740275n
 mji-bmaadzi:maji-bimaadizi    VAI_TAG    " 1 be evil, live a bad life" ; !Rand key:n71429741301n
 mji-giizhwe:maji-giizhiwe    VAI_TAG    " 1 curse, swear" ; !Rand key:n71429742020n
@@ -4641,10 +4626,8 @@ n'kweyaakndibeshin:nakweyaakondibeshin    VAI_TAG    " 1 knock one's head agains
 n'kweyaakshin:nakweyaakoshin    VAI_TAG    " 1 run head-on into something, smack into something" ; !Rand key:n73036950560n
 na'aangbi:nahaangVv1bi    VAI_TAG    " 1 stay with one's in-laws" ; !Rand key:n71431153633n
 na'aangshiimi:Vv1nahaangishiimi    VAI_TAG    " 1 have a son-in-law" ; !Rand key:n71431153985n
-naa'chigaaza:naahichigaazVa1    VAI_TAG    " 1 [see nnaa'chigaaza]" ; !Rand key:n71430941722n
-naa'chigaaza:nanaahichigaazVa1    VAI_TAG    " 1 [see nnaa'chigaaza]" ; !Rand key:n71430941722n
-naa'ii:naahii    VAI_TAG    " 1 [see nnaa'ii]" ; !Rand key:n71430941803n
-naa'ii:nanaahii    VAI_TAG    " 1 [see nnaa'ii]" ; !Rand key:n71430941803n
+naa'chigaaza:nanaahichigaazVa1    VAI_TAG    " 1 [see nnaa'chigaaza]" ; !Rand key:n71430941722n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+naa'ii:nanaahii    VAI_TAG    " 1 [see nnaa'ii]" ; !Rand key:n71430941803n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naabdam:inaabadam    VAI_TAG    " 1 have a certain dream, dream in such a way;  2 have a vision" ; !Rand key:n71430660412n
 naabdam:inaabandam    VAI_TAG    " 1 have a certain dream, dream in such a way;  2 have a vision" ; !Rand key:n71430660412n
 naabdendam:inaabadendam    VAI_TAG    " 1 derive a certain benefit [from something]" ; !Rand key:n71430660505n
@@ -4698,11 +4681,9 @@ naajtaasa:onaajitaasVa1    VAI_TAG    " 1 lose [something of value], suffer a lo
 naaknige:inaakonige    VAI_TAG    " 1 do things in a certain way, have a certain custom;  2 plan to do something" ; !Rand key:n71430946479n
 naakoon'gishin:inaakoonagishin    VAI_TAG    " 1 lie in a certain position (of vehicles)" ; !Rand key:n73099283886n
 naakshkooza:inaakVv1shkoozVa1    VAI_TAG    " 1 be bent a certain way by a load" ; !Rand key:n73033411738n
-naakwii:naakwii    VAI_TAG    " 1 [see nnaakwii]" ; !Rand key:n71430946589n
-naakwii:nanaakwii    VAI_TAG    " 1 [see nnaakwii]" ; !Rand key:n71430946589n
+naakwii:nanaakwii    VAI_TAG    " 1 [see nnaakwii]" ; !Rand key:n71430946589n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naakza:inaakizVa1    VAI_TAG    " 1 burn in a certain way, be burned in a certain way" ; !Rand key:n71431051694n
-naamdabi:naamadabi    VAI_TAG    " 1 [see nnaamdabi]" ; !Rand key:n71431052104n
-naamdabi:nanaamadabi    VAI_TAG    " 1 [see nnaamdabi]" ; !Rand key:n71431052104n
+naamdabi:nanaamadabi    VAI_TAG    " 1 [see nnaamdabi]" ; !Rand key:n71431052104n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naammendaagzi:anaamimendaagozi    VAI_TAG    " 1 be considered guilty" ; !Rand key:n71431052534n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 naan'gidoon:inaanagidoon    VAI_TAG    " 1 talk on in a certain way, talk on on a certain topic" ; !Rand key:n71431059135n
 naanaagdawendam:naanaagadawendam    VAI_TAG    " 1 deliberate, meditate, reflect on things, think things over, " ; !Rand key:n71431053604n
@@ -4759,8 +4740,7 @@ nam'eske:anamihesike    VAI_TAG    " 1 celebrate mass (from French, la masse)" ;
 namnji'o:inamanjiho    VAI_TAG    " 1 feel a certain way [physically]" ; !Rand key:n71431160972n
 namnjige:Vi1namanjige    VAI_TAG    " 1 be aware of events, have an inkling about things" ; !Rand key:n73033564499n
 nan'kii:inanVa1kii    VAI_TAG    " 1 do something, do such things" ; !Rand key:n71431167364n
-nangbiza:nVi1ngibizVa1    VAI_TAG    " 1 [see nnangbiza]" ; !Rand key:n71431166426n
-nangbiza:nanVi1ngibizVa1    VAI_TAG    " 1 [see nnangbiza]" ; !Rand key:n71431166426n
+nangbiza:nanVi1ngibizVa1    VAI_TAG    " 1 [see nnangbiza]" ; !Rand key:n71431166426n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 nangji:nangaji    VAI_TAG    " 1 [see nnangji]" ; !Rand key:n71431166663n
 nangji:nanangaji    VAI_TAG    " 1 [see nnangji]" ; !Rand key:n71431166663n
 nangshkaa:nangishkaa    VAI_TAG    " 1 [see nnangshkaa]" ; !Rand key:n71431166951n
@@ -4906,8 +4886,7 @@ nese:nese    VAI_TAG    " 1 breathe" ; !Rand key:n71431562263n
 nesebzo:nesebizo    VAI_TAG    " 1 breathe fast (of people)" ; !Rand key:n71431562194n
 nesegwaabde'o:nesegwaabideho    VAI_TAG    " 1 pick one's teeth" ; !Rand key:n71431562353n
 newebi:newebi    VAI_TAG    " 1 rest" ; !Rand key:n71431562699n
-ngaasmoon'gamgwe:ngaasmoonigamigwe    VAI_TAG    " 1 camp out in a tent, live in a tent, spend the night in a tent" ; !Rand key:n73098737494n
-ngaasmoon'gamgwe:ningaasmoonigamigwe    VAI_TAG    " 1 camp out in a tent, live in a tent, spend the night in a tent" ; !Rand key:n73098737494n
+ngaasmoon'gamgwe:ningaasmoonigamigwe    VAI_TAG    " 1 camp out in a tent, live in a tent, spend the night in a tent" ; !Rand key:n73098737494n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 ngigke:nigigoke    VAI_TAG    " 1 trap otters" ; !Rand key:n71431646593n
 ngodaabaan'gizi:ningodaabaanagizi    VAI_TAG    " 1 be a carload" ; !Rand key:n73098743054n
 ngodoon'gizi:ningodoonagizi    VAI_TAG    " 1 be a boatload" ; !Rand key:n71431648440n
@@ -4981,8 +4960,7 @@ niiskshin:niiskishin    VAI_TAG    " 1 be an annoyance, be annoying, clutter up 
 niisktaagzi:niiskitaagozi    VAI_TAG    " 1 annoy someone with one's crying or whining, annoy somebody with one's requests" ; !Rand key:n73033725907n
 niisoomgo:niisoomigo    VAI_TAG    " 1 dismount" ; !Rand key:n71431841755n
 niisse:niisise    VAI_TAG    " 1 slide [to the edge] and fall over" ; !Rand key:n71431841813n
-niiwendam:niiwendam    VAI_TAG    " 1 [see nniiwendam]" ; !Rand key:n71431843023n
-niiwendam:naniiwendam    VAI_TAG    " 1 [see nniiwendam]" ; !Rand key:n71431843023n
+niiwendam:naniiwendam    VAI_TAG    " 1 [see nniiwendam]" ; !Rand key:n71431843023n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 niizaanzi:niizaanizi    VAI_TAG    " 1 be at risk, be in danger;  2 be dangerous" ; !Rand key:n71431844406n
 niizhgonendi:niizhogonendi    VAI_TAG    " 1 be absent for two days" ; !Rand key:n71431844678n
 niizhoognzhii:niizhooganzhii    VAI_TAG    " 1 have cloven hooves" ; !Rand key:n71431845900n
@@ -5067,10 +5045,8 @@ nmetoo:nimetoo    VAI_TAG    " 1 leave signs of one's presence" ; !Rand key:n714
 nnaa'chigaaza:nanaahichigaazVa1    VAI_TAG    " 1 be fixed, be repaired, get fixed" ; !Rand key:n71433646132n
 nnaa'ii:nanaahii    VAI_TAG    " 1 fix oneself up, put makeup on" ; !Rand key:n71433646241n
 nnaakndam:nanaakondam    VAI_TAG    " 1 talk back [defiantly]" ; !Rand key:n73033817109n
-nnaakwii:naakwii    VAI_TAG    " 1 defend oneself, fight back, resist" ; !Rand key:n71433648221n
-nnaakwii:nanaakwii    VAI_TAG    " 1 defend oneself, fight back, resist" ; !Rand key:n71433648221n
-nnaamdabi:naamadabi    VAI_TAG    " 1 sit a while, sit and sit, sit around;  2 sit (with plural subjects, especially first person plural)" ; !Rand key:n71433648324n
-nnaamdabi:nanaamadabi    VAI_TAG    " 1 sit a while, sit and sit, sit around;  2 sit (with plural subjects, especially first person plural)" ; !Rand key:n71433648324n
+nnaakwii:nanaakwii    VAI_TAG    " 1 defend oneself, fight back, resist" ; !Rand key:n71433648221n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+nnaamdabi:nanaamadabi    VAI_TAG    " 1 sit a while, sit and sit, sit around;  2 sit (with plural subjects, especially first person plural)" ; !Rand key:n71433648324n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 nnaandwi'o:nanaandawiho    VAI_TAG    " 1 be cured [of an illness]" ; !Rand key:n73033561595n
 nnaantkozi:nanaandVv1kozi    VAI_TAG    " 1 be capricious, be unpredictable" ; !Rand key:n73033415806n
 nnaapgaandgoojin:nanaapagaandagoojin    VAI_TAG    " 1 fall with one's limbs all akimbo" ; !Rand key:n73046312958n
@@ -5267,14 +5243,12 @@ pangnjii:apanganjii    VAI_TAG    " 1 disembark at some place [in travelling], s
 pangse:apangise    VAI_TAG    " 1 fall while moving, pitch and fall" ; !Rand key:n73031178176n
 pangshin:apangishin    VAI_TAG    " 1 fall while moving, pitch and fall" ; !Rand key:n73031178363n
 pangwage:bangwage    VAI_TAG    " 1 [see bngo'ge]" ; !Rand key:n73033931572n
-pangwage:bangwahige    VAI_TAG    " 1 [see bngo'ge]" ; !Rand key:n73033931572n
-pangwage:babangwage    VAI_TAG    " 1 [see bngo'ge]" ; !Rand key:n73033931572n
+pangwage:babangwage    VAI_TAG    " 1 [see bngo'ge]" ; !Rand key:n73033931572n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 pangwage:babangwahige    VAI_TAG    " 1 [see bngo'ge]" ; !Rand key:n73033931572n
 parkwi:parkiwi    VAI_TAG    " 1 park [a car]" ; !Rand key:n73031179192n
 pasaanza:apVi1saanzVa1    VAI_TAG    " 1 be bruised, have bruises" ; !Rand key:n73033930578n
 pasaanzaawe:apVi1saanzaawe    VAI_TAG    " 1 have a black eye, have a shiner" ; !Rand key:n73033930963n
-pasweweshin:basweweshin    VAI_TAG    " 1 echo" ; !Rand key:n7306447992n
-pasweweshin:babasweweshin    VAI_TAG    " 1 echo" ; !Rand key:n7306447992n
+pasweweshin:babasweweshin    VAI_TAG    " 1 echo" ; !Rand key:n7306447992n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 patoo:apatoo    VAI_TAG    " 1 run to a certain place" ; !Rand key:n73031179782n
 paw'we:apawiwe    VAI_TAG    " 1 escape to a certain place" ; !Rand key:n73033930425n
 penmo:apenimo    VAI_TAG    " 1 be dependent, be helpless" ; !Rand key:n73033930050n
@@ -6062,8 +6036,7 @@ baabaapi:baabaapi    VAI_TAG    " 1 laugh and laugh, keep laughing" ; !Rand key:
 Aanmaama:aanimaamo    VAI_TAG    " 1 speak German, speak the German language" ; !Rand key:n65306611100n
 baa-yaa:baa-yaa    VAI_TAG    " 1 go around, go about" ; !Rand key:n65306650676n
 baabiibaagndam:baabiibaagindam    VAI_TAG    " 1 keep shouting, shout and shout" ; !Rand key:n65306664389n
-baamaadzi:baamaadizi    VAI_TAG    " 1 [see bbaamaadzi]" ; !Rand key:n65306724456n
-baamaadzi:babaamaadizi    VAI_TAG    " 1 [see bbaamaadzi]" ; !Rand key:n65306724456n
+baamaadzi:babaamaadizi    VAI_TAG    " 1 [see bbaamaadzi]" ; !Rand key:n65306724456n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 dpine:dapine    VAI_TAG    " 1 die in a certain place, suffer in a certain place;  2 Get lost!;  3 Drop dead!" ; !Rand key:n65665173497n
 binoojiinswi:abinoojiinsiwi    VAI_TAG    " 1 be an infant, be a baby" ; !Rand key:n200562319-15-10n
 binoojiinywi:abinoojiinyiwi    VAI_TAG    " 1 be a child, be a smalll child" ; !Rand key:n200562319-19-24n
@@ -6251,8 +6224,7 @@ zegendaagzi:zegendaagozi    VAI_TAG    " 1 be dangerous" ; !Rand key:n201141020-
 dbikaanza:dibikaanzVa1    VAI_TAG    " 1 be dark in colour" ; !Rand key:n201141020-44-4n
 mkadewzhe:makadewazhe    VAI_TAG    " 1 be dark-skinned" ; !Rand key:n201141020-47-33n
 zegaachge:zegaachige    VAI_TAG    " 1 decorate" ; !Rand key:n201141020-52-22n
-getnaamendam:getinaamendam    VAI_TAG    " 1 be determined, be serious about something" ; !Rand key:n201141021-9-59n
-getnaamendam:gagetinaamendam    VAI_TAG    " 1 be determined, be serious about something" ; !Rand key:n201141021-9-59n
+getnaamendam:gagetinaamendam    VAI_TAG    " 1 be determined, be serious about something" ; !Rand key:n201141021-9-59n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 bmaaknige:bimaakonige    VAI_TAG    " 1 dictate" ; !Rand key:n201141021-15-24n
 naagaazi:naagaazi    VAI_TAG    " 1 look forward (to something)" ; !Rand key:n201141114-36-2n
 miinkiige:miinVv1kiige    VAI_TAG    " 1 catch one's balance" ; !Rand key:n20114168-6-35n
@@ -6906,8 +6878,7 @@ bazgimaa:bazVv1gim    VTA_TAG    " 1 have smb. for a boyfriend, have smb. for a 
 bbaa-wiijiiwaa:bVi1baa-wiijiiw    VTA_TAG    " 1 accompany smb. somewhere; go with smb. somewhere" ; !Rand key:n72976159127n
 bbaa-wiijiiwaa:bVi1baa-wiijiiw    VTA_TAG    " 1 date smb., go out with smb., go steady with smb." ; !Rand key:n73010541973n
 bbaagskidyewaa:bVi1baagaskidiyehw    VTA_TAG    " 1 spank smb., give smb. a spanking" ; !Rand key:n72976161429n
-bbaagskinjiiwaa:bVi1baagaskinijiihw    VTA_TAG    " 1 slap smb. on the hand repeatedly" ; !Rand key:n72976161558n
-bbaagskinjiiwaa:bVi1baagaskininjiihw    VTA_TAG    " 1 slap smb. on the hand repeatedly" ; !Rand key:n72976161558n
+bbaagskinjiiwaa:bVi1baagaskininjiihw    VTA_TAG    " 1 slap smb. on the hand repeatedly" ; !Rand key:n72976161558n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 bbaamaajmaa:bVi1baamaajim    VTA_TAG    " 1 spread a story about smb." ; !Rand key:n72975867918n
 bbaamenmaa:bVi1baamenim    VTA_TAG    " 1 [see bbaanenmaa]" ; !Rand key:n72976156065n
 bbaamgaa'aa:bVi1baamVi1gaah    VTA_TAG    " 1 dance smb. around, whirl smb. around [in dancing]" ; !Rand key:n72976144214n
@@ -7609,10 +7580,8 @@ gdinaa:godin1    VTA_TAG    " 1 try lifting sth. (an.) [to gauge its weight]" ; 
 gdiskaabiignaa:gidiskaabiigin1    VTA_TAG    " 1 unplug sth. (an.)" ; !Rand key:n73019557922n
 gdiskbinaa:gidiskibin1    VTA_TAG    " 1 pull sth. (an.) off something" ; !Rand key:n73019558366n
 gdiskninjiibnaa:gidiskininjiibin1    VTA_TAG    " 1 pull something from smb.'s hands, yank something from smb.'s hands" ; !Rand key:n73019558487n
-getnaamiikwaa:getinaamiikaw    VTA_TAG    " 1 work really hard on sth. (an.), give sth. (an.) a serious effort" ; !Rand key:n73020054090n
-getnaamiikwaa:gagetinaamiikaw    VTA_TAG    " 1 work really hard on sth. (an.), give sth. (an.) a serious effort" ; !Rand key:n73020054090n
-getnaamtawaa:getinaamVv1taw    VTA_TAG    " 1 take smb. seriously" ; !Rand key:n73102053603n
-getnaamtawaa:gagetinaamVv1taw    VTA_TAG    " 1 take smb. seriously" ; !Rand key:n73102053603n
+getnaamiikwaa:gagetinaamiikaw    VTA_TAG    " 1 work really hard on sth. (an.), give sth. (an.) a serious effort" ; !Rand key:n73020054090n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+getnaamtawaa:gagetinaamVv1taw    VTA_TAG    " 1 take smb. seriously" ; !Rand key:n73102053603n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 gezbaabiignaa:gezibaabiigin1    VTA_TAG    " 1 roll sth. (an.) up [to tidy up] (of stringlike objects)" ; !Rand key:n73020157678n
 gezbamaa:gezibam    VTA_TAG    " 1 eat sth. (an.) up [so it won't be left over]" ; !Rand key:n72916442285n
 gezbi'aa:gezibih    VTA_TAG    " 1 put sth. (an.) in order, straighten sth. (an.) up" ; !Rand key:n73020158086n
@@ -8065,8 +8034,7 @@ madsaa:mawadis1    VTA_TAG    " 1 visit smb." ; !Rand key:n71429343531n
 maj'aa:amajih    VTA_TAG    " 1 wake smb. up" ; !Rand key:n71429343713n
 majwebnaa:amajwebin    VTA_TAG    " 1 wake smb. up [intentionally]" ; !Rand key:n71429343804n
 mansadwaa:amanisadaw    VTA_TAG    " 1 haunt smb." ; !Rand key:n73033250424n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-mawaa:maw    VTA_TAG    " 1 [see mmawaa]" ; !Rand key:n71429345279n
-mawaa:mamaw    VTA_TAG    " 1 [see mmawaa]" ; !Rand key:n71429345279n
+mawaa:mamaw    VTA_TAG    " 1 [see mmawaa]" ; !Rand key:n71429345279n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 mazkawaa:amazikaw    VTA_TAG    " 1 wake smb. up [with one's weight]" ; !Rand key:n71429345434n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 mazmaa:amazom    VTA_TAG    " 1 wake smb. up [with one's voice]" ; !Rand key:n71429345586n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 mbaabiigbinaa:ombaabiigibin1    VTA_TAG    " 1 pull sth. (an.) up [on a rope]" ; !Rand key:n71429346010n
@@ -8112,10 +8080,8 @@ mgokmigwaa:magokamigaw    VTA_TAG    " 1 bury smb. in a mound" ; !Rand key:n7142
 mgoshkaadenmaa:mogoshkaadenim    VTA_TAG    " 1 find smb. annoying, think smb. annoying, find smb. a nuisance, think smb. a nuisance;  2 upset smb., cause smb. upset (PI)" ; !Rand key:n7303298663n
 mgoshkaaj'aa:migoshkaajih    VTA_TAG    " 1 bother smb., hassle smb." ; !Rand key:n71429644596n
 mgoshkaajiikwaa:migoshkaajiikaw    VTA_TAG    " 1 bother smb., pester smb." ; !Rand key:n71429644895n
-migshkaas'aa:migoshkaasah    VTA_TAG    " 1 [see mmigshkaas'aa]" ; !Rand key:n71429651167n
-migshkaas'aa:mamigoshkaasah    VTA_TAG    " 1 [see mmigshkaas'aa]" ; !Rand key:n71429651167n
-migwebnaa:migwebin    VTA_TAG    " 1 [see mmigwebnaa]" ; !Rand key:n71429651447n
-migwebnaa:mamigwebin    VTA_TAG    " 1 [see mmigwebnaa]" ; !Rand key:n71429651447n
+migshkaas'aa:mamigoshkaasah    VTA_TAG    " 1 [see mmigshkaas'aa]" ; !Rand key:n71429651167n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+migwebnaa:mamigwebin    VTA_TAG    " 1 [see mmigwebnaa]" ; !Rand key:n71429651447n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 miidaawenmaa:miidaawenim    VTA_TAG    " 1 save smb. from a bad situation, have mercy on smb." ; !Rand key:n71429652515n
 miigaadii'aa:miigaadiih    VTA_TAG    " 1 make smb. fight" ; !Rand key:n71429652967n
 miigaanaa:miigaan1    VTA_TAG    " 1 fight smb. [physically], fight with smb. [physically]" ; !Rand key:n71429653200n
@@ -8274,14 +8240,10 @@ n'kweyaakshkawaa:nakweyaakoshkaw    VTA_TAG    " 1 run head-on into smb., smack 
 na'aangshiimaa:Vv1nahaangishiim    VTA_TAG    " 1 have smb. as a son-in-law" ; !Rand key:n73098541461n
 !naa:in1    VTA_TAG    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
 naa+VTA:0       VTA_NAA_MANAGEMENT ; !managing 0-stem in independent order inverse
-naa'aa:naah    VTA_TAG    " 1 [see nnaa'aa]" ; !Rand key:n71430941362n
-naa'aa:nanaah    VTA_TAG    " 1 [see nnaa'aa]" ; !Rand key:n71430941362n
-naa'shimaa:naahVv1shim    VTA_TAG    " 1 [see nnaa'shimaa]" ; !Rand key:n71430941906n
-naa'shimaa:nanaahVv1shim    VTA_TAG    " 1 [see nnaa'shimaa]" ; !Rand key:n71430941906n
-naa'tamawaa:naahVv1tamaw    VTA_TAG    " 1 [see nnaa'tamwaa]" ; !Rand key:n71430942190n
-naa'tamawaa:nanaahVv1tamaw    VTA_TAG    " 1 [see nnaa'tamwaa]" ; !Rand key:n71430942190n
-naa'tawaa:naahVv1taw    VTA_TAG    " 1 [see nnaa'tamwaa]" ; !Rand key:n71430943056n
-naa'tawaa:nanaahVv1taw    VTA_TAG    " 1 [see nnaa'tamwaa]" ; !Rand key:n71430943056n
+naa'aa:nanaah    VTA_TAG    " 1 [see nnaa'aa]" ; !Rand key:n71430941362n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+naa'shimaa:nanaahVv1shim    VTA_TAG    " 1 [see nnaa'shimaa]" ; !Rand key:n71430941906n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+naa'tamawaa:nanaahVv1tamaw    VTA_TAG    " 1 [see nnaa'tamwaa]" ; !Rand key:n71430942190n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+naa'tawaa:nanaahVv1taw    VTA_TAG    " 1 [see nnaa'tamwaa]" ; !Rand key:n71430943056n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naab'aa:inaabih    VTA_TAG    " 1 face smb. in a certain direction;  2 see smb. in a vision" ; !Rand key:n71430662621n
 naabdoosknewaa:naabVv1dooskonew    VTA_TAG    " 1 be arm in arm with smb., link arms with smb. by the elbow" ; !Rand key:n73033331081n ![gk]Vo1 replaced with [gk]o
 naabdoowaa:naabadoohw    VTA_TAG    " 1 string sth. (an.);  2 thread the eye of sth. (an.)" ; !Rand key:n71430661199n
@@ -8321,8 +8283,7 @@ naajdaabaanaa:naajidaabaan1    VTA_TAG    " 1 go get smb. and bring him back in 
 naajmotwaa:inaajimotaw    VTA_TAG    " 1 give smb. a certain report, give smb. a certain story, tell smb. a certain story, tell smb. a story " ; !Rand key:n71430944401n
 naakma'aa:inaakomah    VTA_TAG    " 1 build the frame of sth. (an.)" ; !Rand key:n71430944936n
 naaknaa:inaakon    VTA_TAG    " 1 elect smb. [to office] (Wp);  2 charge smb. with something, sentence smb. (Wk)" ; !Rand key:n71430945196n
-naaknaa:naakon    VTA_TAG    " 1 [see nnaaknaa]" ; !Rand key:n71430945304n
-naaknaa:nanaakon    VTA_TAG    " 1 [see nnaaknaa]" ; !Rand key:n71430945304n
+naaknaa:nanaakon    VTA_TAG    " 1 [see nnaaknaa]" ; !Rand key:n71430945304n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naakoon'gishmaa:inaakoonagishim    VTA_TAG    " 1 position sth. (an.) in a certain way (of vehicles)" ; !Rand key:n73099283943n
 naakzwaa:inaakizw    VTA_TAG    " 1 burn sth. (an.) in a certain way" ; !Rand key:n71431051768n
 naamenmaa:anaamenim    VTA_TAG    " 1 consider smb. to blame" ; !Rand key:n73033413147n
@@ -8330,10 +8291,8 @@ naammaa:anaamim    VTA_TAG    " 1 accuse smb. [of something], blame smb. [for so
 naanaa:naan1    VTA_TAG    " 1 go get smb.; go get sth. (an.)" ; !Rand key:n71431053001n
 naanaagdawaabmaa:naanaagadawaabam    VTA_TAG    " 1 look after sth. (an.) [for a long while], look sth. (an.) over carefully" ; !Rand key:n71431053211n
 naanaazhaan'kwenaa:naanaazhaanikwen    VTA_TAG    " 1 stroke smb.'s hair" ; !Rand key:n71431054504n
-naandwi'aa:naandawih    VTA_TAG    " 1 [see nnaandwi'aa]" ; !Rand key:n71431058477n
-naandwi'aa:nanaandawih    VTA_TAG    " 1 [see nnaandwi'aa]" ; !Rand key:n71431058477n
-naandwi'gawaa:naandawihVv1gaw    VTA_TAG    " 1 [see nnaandwi'gawaa]" ; !Rand key:n71431058580n
-naandwi'gawaa:nanaandawihVv1gaw    VTA_TAG    " 1 [see nnaandwi'gawaa]" ; !Rand key:n71431058580n
+naandwi'aa:nanaandawih    VTA_TAG    " 1 [see nnaandwi'aa]" ; !Rand key:n71431058477n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+naandwi'gawaa:nanaandawihVv1gaw    VTA_TAG    " 1 [see nnaandwi'gawaa]" ; !Rand key:n71431058580n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naaniibwi'aa:naaniibawih    VTA_TAG    " 1 make smb. stand up, stand smb. up" ; !Rand key:n71431059962n
 naaniimnaa:naaniimin    VTA_TAG    " 1 dangle sth. (an.)" ; !Rand key:n71431060071n
 naaniimnamwaa:naaniiminamaw    VTA_TAG    " 1 dangle something in front of smb." ; !Rand key:n71431060154n
@@ -8362,8 +8321,7 @@ naazhnaa:naazhin    VTA_TAG    " 1 lower smb." ; !Rand key:n71431149275n
 naazkawaa:naazikaw    VTA_TAG    " 1 [see naaskawaa]" ; !Rand key:n71431149507n
 nadnaa:nadin1    VTA_TAG    " 1 knead sth. (an.) into shape" ; !Rand key:n71431149637n
 nagmaa:inagim    VTA_TAG    " 1 charge a certain amount for sth. (an.);  2 elect smb., nominate smb." ; !Rand key:n71431152006n
-nagmotwaa:nagamotaw    VTA_TAG    " 1 [see nnagmatwaa]" ; !Rand key:n71431151922n
-nagmotwaa:nanagamotaw    VTA_TAG    " 1 [see nnagmatwaa]" ; !Rand key:n71431151922n
+nagmotwaa:nanagamotaw    VTA_TAG    " 1 [see nnagmatwaa]" ; !Rand key:n71431151922n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 nagnaamaa:inaganaam    VTA_TAG    " 1 hit sth. (an.) in a certain direction, hit sth. (an.) in a certain way, hit sth. (an.) to a certain place" ; !Rand key:n71431152161n
 nagnaandmawaa:inaganaandamaw    VTA_TAG    " 1 hit something to smb. in a certain way" ; !Rand key:n71431152468n
 nagndamwaa:inagindamaw    VTA_TAG    " 1 charge smb. a certain amount" ; !Rand key:n71431152589n
@@ -8539,15 +8497,11 @@ nnaa'aa:nanaah    VTA_TAG    " 1 fix sth. (an.), repair sth. (an.)" ; !Rand key:
 nnaa'chigaanaa:nanaahichigaan1    VTA_TAG    " 1 fix smb., straighten smb. out" ; !Rand key:n73099354442n
 nnaa'konaa:nnaahikon1    VTA_TAG    " 1 cut sth. (an.) [again] to fix it" ; !Rand key:n73099359020n
 nnaa'shimaa:nanaahishim    VTA_TAG    " 1 put sth. (an.) in place, straighten sth. (an.) out [by moving it]" ; !Rand key:n71433646450n
-nnaa'tamwaa:naahitamaw    VTA_TAG    " 1 fix something for smb." ; !Rand key:n71433647727n
-nnaa'tamwaa:nanaahitamaw    VTA_TAG    " 1 fix something for smb." ; !Rand key:n71433647727n
+nnaa'tamwaa:nanaahitamaw    VTA_TAG    " 1 fix something for smb." ; !Rand key:n71433647727n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 nnaakmaa:nanaakim    VTA_TAG    " 1 talk back to smb. [defiantly]" ; !Rand key:n73033817277n
-nnaaknaa:naakon    VTA_TAG    " 1 resist smb., struggle against smb., fight back against smb." ; !Rand key:n71433648025n
-nnaaknaa:nanaakon    VTA_TAG    " 1 resist smb., struggle against smb., fight back against smb." ; !Rand key:n71433648025n
-nnaandwi'aa:naandawih    VTA_TAG    " 1 cure smb., heal smb." ; !Rand key:n71433648427n
-nnaandwi'aa:nanaandawih    VTA_TAG    " 1 cure smb., heal smb." ; !Rand key:n71433648427n
-nnaandwi'gawaa:naandawihVv1gaw    VTA_TAG    " 1 doctor somebody for smb." ; !Rand key:n71433648590n
-nnaandwi'gawaa:nanaandawihVv1gaw    VTA_TAG    " 1 doctor somebody for smb." ; !Rand key:n71433648590n
+nnaaknaa:nanaakon    VTA_TAG    " 1 resist smb., struggle against smb., fight back against smb." ; !Rand key:n71433648025n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+nnaandwi'aa:nanaandawih    VTA_TAG    " 1 cure smb., heal smb." ; !Rand key:n71433648427n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+nnaandwi'gawaa:nanaandawihVv1gaw    VTA_TAG    " 1 doctor somebody for smb." ; !Rand key:n71433648590n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 nnagmatwaa:nanagmVa1taw    VTA_TAG    " 1 sing and sing for smb., sing and sing to smb." ; !Rand key:n71433648833n
 nnandwagaanaa:nandawagaan1    VTA_TAG    " 1 interrogate smb., question smb. thoroughly" ; !Rand key:n71433648933n
 nnandwagaanaa:nanandawagaan1    VTA_TAG    " 1 interrogate smb., question smb. thoroughly" ; !Rand key:n71433648933n
@@ -10835,8 +10789,7 @@ gdigshkaan:godigoshk    VTI_AM_THEME    " 1 tip sth. over [with one's weight] (u
 gdigwebnaan:godigwebin    VTI_AM_THEME    " 1 tip sth. over [with the hands]" ; !Rand key:n73019555688n
 gdinaan:godin    VTI_AM_THEME    " 1 try lifting sth. [to gauge its weight]" ; !Rand key:n73019734838n
 gdiskaabiignaan:gidiskaabiigin    VTI_AM_THEME    " 1 unplug sth." ; !Rand key:n73019557999n
-getnaamiikaan:getinaamiik    VTI_AM_THEME    " 1 work really hard on sth., give sth. a serious effort" ; !Rand key:n73020053948n
-getnaamiikaan:gagetinaamiik    VTI_AM_THEME    " 1 work really hard on sth., give sth. a serious effort" ; !Rand key:n73020053948n
+getnaamiikaan:gagetinaamiik    VTI_AM_THEME    " 1 work really hard on sth., give sth. a serious effort" ; !Rand key:n73020053948n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 gezbaabiignaan:gezibaabiigin    VTI_AM_THEME    " 1 roll sth. up [to tidy up] (of stringlike objects)" ; !Rand key:n73020157809n
 gezbaaknaan:gezibaakVv1n    VTI_AM_THEME    " 1 fold sth. up [to store] (of objects made with rods)" ; !Rand key:n73041610378n
 gezbandaan:geziband    VTI_AM_THEME    " 1 eat sth. up [so it won't be left over]" ; !Rand key:n73020157583n
@@ -11120,8 +11073,7 @@ n'kwegnaandaan:nakweganaand    VTI_AM_THEME    " 1 hit sth. [flying at one] back
 n'kweshkaan:nakweshk    VTI_AM_THEME    " 1 meet sth." ; !Rand key:n71433641302n
 n'kwetaan:nakwet    VTI_AM_THEME    " 1 answer sth., respond to sth." ; !Rand key:n71433641565n
 n'kwewebshkaan:nakwewebishk    VTI_AM_THEME    " 1 knock sth. back [with one's weight]" ; !Rand key:n73033814283n
-naa'taapnaan:naahVv1taapin    VTI_AM_THEME    " 1 [see nnaa'taapnaan]" ; !Rand key:n71430942128n
-naa'taapnaan:nanaahVv1taapin    VTI_AM_THEME    " 1 [see nnaa'taapnaan]" ; !Rand key:n71430942128n
+naa'taapnaan:nanaahVv1taapin    VTI_AM_THEME    " 1 [see nnaa'taapnaan]" ; !Rand key:n71430942128n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naabdoo'aan:naabidooh    VTI_AM_THEME    " 1 lace sth., tie sth. (of shoes);  2 string sth.;  3 thread the eye of sth. (of needles, shoes)" ; !Rand key:n71430660919n
 naabiignaan:inaabiigin    VTI_AM_THEME    " 1 string sth. together in a certain direction, string sth. together in a certain way" ; !Rand key:n71430663261n
 naabkaadaan:naabikaad    VTI_AM_THEME    " 1 bind sth. securely" ; !Rand key:n71430664281n
@@ -11140,8 +11092,7 @@ naagzawaabndaan:naagazawaaband    VTI_AM_THEME    " 1 [see naagdawaabndaan]" ; !
 naagzokwe'aan:naagazokweh    VTI_AM_THEME    " 1 follow the tracks of sth." ; !Rand key:n71430941121n
 naagzotaan:naagazot    VTI_AM_THEME    " 1 follow sth. (of music or things said)" ; !Rand key:n71430941001n
 naajdaabaadaan:naajidaabaad    VTI_AM_THEME    " 1 go get sth. and bring it back in a vehicle, go get sth. and haul it back" ; !Rand key:n71430943221n
-naaknaan:naakon    VTI_AM_THEME    " 1 [see nnaaknaan]" ; !Rand key:n71430946327n
-naaknaan:nanaakon    VTI_AM_THEME    " 1 [see nnaaknaan]" ; !Rand key:n71430946327n
+naaknaan:nanaakon    VTI_AM_THEME    " 1 [see nnaaknaan]" ; !Rand key:n71430946327n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naakzaan:inaakiz    VTI_AM_THEME    " 1 burn sth. in a certain way" ; !Rand key:n71431051602n
 naamendaan:anaamend    VTI_AM_THEME    " 1 consider sth. to blame" ; !Rand key:n73033413095n
 naanaagdawaabndaan:naanaagadawaaband    VTI_AM_THEME    " 1 look after sth. [for a long while], look sth. over carefully" ; !Rand key:n71431053448n
@@ -11234,8 +11185,7 @@ nme'aawziikndaan:anVv1mehaawaziikVv1nd    VTI_AM_THEME    " 1 oversee sth. as ho
 nnaa'chigaadaan:nanaahichigaad    VTI_AM_THEME    " 1 fix sth., straighten sth. out" ; !Rand key:n73099354566n
 nnaa'kodaan:nnaahikod    VTI_AM_THEME    " 1 cut sth. [again] to fix it" ; !Rand key:n73099358946n
 nnaa'taapnaan:nanaahVv1taapin    VTI_AM_THEME    " 1 tie sth. in shape" ; !Rand key:n71433647587n
-nnaaknaan:naakon    VTI_AM_THEME    " 1 resist sth., struggle against sth., fight back against sth." ; !Rand key:n71433648135n
-nnaaknaan:nanaakon    VTI_AM_THEME    " 1 resist sth., struggle against sth., fight back against sth." ; !Rand key:n71433648135n
+nnaaknaan:nanaakon    VTI_AM_THEME    " 1 resist sth., struggle against sth., fight back against sth." ; !Rand key:n71433648135n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 nnangwebnaan:nangwebin    VTI_AM_THEME    " 1 shake sth." ; !Rand key:n71433652331n
 nnangwebnaan:nVv1nangwebin    VTI_AM_THEME    " 1 shake sth." ; !Rand key:n71433652331n
 nniizaanaaddaan:naniizaanaadad    VTI_AM_THEME    " 1 foretell danger for sth., foretell dangerous things about sth." ; !Rand key:n73045912732n
@@ -11835,10 +11785,8 @@ mchaatoon:michaat    VTI_OO_THEME    " 1 make sth. big, make sth. bigger, enlarg
 mdesdoon:mVi1desid    VTI_OO_THEME    " 1 ring sth. (of bells);  2 make noise moving sth." ; !Rand key:n71429471704n
 mdwesdoon:mVi1dwesid    VTI_OO_THEME    " 1 [see mdesdoon]" ; !Rand key:n71429534700n
 mdwewetoon:mVi1dwewet    VTI_OO_THEME    " 1 play something, turn sth. on (of music, radios and the like)" ; !Rand key:n71429559058n
-migshkaastoon:migoshkaasat    VTI_OO_THEME    " 1 [see mmigshkaastoon]" ; !Rand key:n71429651255n
-migshkaastoon:mamigoshkaasat    VTI_OO_THEME    " 1 [see mmigshkaastoon]" ; !Rand key:n71429651255n
-migwebdoon:migwebid    VTI_OO_THEME    " 1 [see mmigwebdoon]" ; !Rand key:n71429651346n
-migwebdoon:mamigwebid    VTI_OO_THEME    " 1 [see mmigwebdoon]" ; !Rand key:n71429651346n
+migshkaastoon:mamigoshkaasat    VTI_OO_THEME    " 1 [see mmigshkaastoon]" ; !Rand key:n71429651255n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+migwebdoon:mamigwebid    VTI_OO_THEME    " 1 [see mmigwebdoon]" ; !Rand key:n71429651346n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 mkobdoon:mVi1kobid    VTI_OO_THEME    " 1 find sth. while rummaging around for it, find sth. while searching with one's hands" ; !Rand key:n71429748924n
 mmigsatoon:mVi1migosat    VTI_OO_THEME    " 1 shake sth." ; !Rand key:n73033212110n
 mmigshkaastoon:mVi1migoshkaasit    VTI_OO_THEME    " 1 shake sth." ; !Rand key:n71430043304n
@@ -11848,8 +11796,7 @@ mmoon:mam    VTI_OO_THEME    " 1 remove sth., take sth. away, take sth. out of s
 mnaabjitoon:minaabajit    VTI_OO_THEME    " 1 make good use of sth." ; !Rand key:n71430044359n
 mnaajtoon:minaajVv1t    VTI_OO_THEME    " 1 commemorate sth., honour sth." ; !Rand key:n71430047137n
 mnjimshkoodoon:minjimishkood    VTI_OO_THEME    " 1 keep sth. down with a weight, pin sth. down with a weight" ; !Rand key:n73033130279n
-moon:m    VTI_OO_THEME    " 1 [see mmoon]" ; !Rand key:n71430355679n
-moon:mam    VTI_OO_THEME    " 1 [see mmoon]" ; !Rand key:n71430355679n
+moon:mam    VTI_OO_THEME    " 1 [see mmoon]" ; !Rand key:n71430355679n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 mooshk'oodoon:mooshkahood    VTI_OO_THEME    " 1 flood sth." ; !Rand key:n71430359197n
 mooshknadoon:mooshVv1knad    VTI_OO_THEME    " 1 fill sth." ; !Rand key:n71430359882n
 mooshknebdoon:mooshkinebid    VTI_OO_THEME    " 1 fill sth. with liquid" ; !Rand key:n71430361101n
@@ -11870,10 +11817,8 @@ n'kawebdoon:nakawebid    VTI_OO_THEME    " 1 stop and pick sth. up" ; !Rand key:
 n'kwe'doon:nakwehad    VTI_OO_THEME    " 1 come to sth. [in walking, especially a road, trail]" ; !Rand key:n71433640710n
 n'kwebdoon:nakwebid    VTI_OO_THEME    " 1 catch sth. [flying], catch sth. [thrown]" ; !Rand key:n71433056989n
 n'kwewdoon:nakwewid    VTI_OO_THEME    " 1 carry sth. to a point where the road passes" ; !Rand key:n71433642157n
-naa'sidoon:naahVv1sid    VTI_OO_THEME    " 1 [see nnaa'sidoon]" ; !Rand key:n71430942033n
-naa'sidoon:nanaahVv1sid    VTI_OO_THEME    " 1 [see nnaa'sidoon]" ; !Rand key:n71430942033n
-naa'toon:naahVv1t    VTI_OO_THEME    " 1 [see nnaa'toon]" ; !Rand key:n71430943137n
-naa'toon:nanaahVv1t    VTI_OO_THEME    " 1 [see nnaa'toon]" ; !Rand key:n71430943137n
+naa'sidoon:nanaahVv1sid    VTI_OO_THEME    " 1 [see nnaa'sidoon]" ; !Rand key:n71430942033n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+naa'toon:nanaahVv1t    VTI_OO_THEME    " 1 [see nnaa'toon]" ; !Rand key:n71430943137n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naabaaksidoon:naabaakosid    VTI_OO_THEME    " 1 attach sth." ; !Rand key:n71430657465n
 naabiisdoon:inaabiisid    VTI_OO_THEME    " 1 arrange sth. in line in a certain direction, arrange sth. in line in a certain way" ; !Rand key:n71430663449n
 naabjitoon:inaabajit    VTI_OO_THEME    " 1 use sth. in a certain way" ; !Rand key:n71430664184n
@@ -11916,10 +11861,8 @@ nimaangdoon:inimaangod    VTI_OO_THEME    " 1 drop sth. in a line trailing away"
 nimkosdoon:animikosid    VTI_OO_THEME    " 1 place sth. so that it faces away, place sth. upside down" ; !Rand key:n71431950558n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 nitoon:onit    VTI_OO_THEME    " 1 lose sth." ; !Rand key:n71433039004n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 njibdoon:onjibid    VTI_OO_THEME    " 1 pull sth. from a certain place, take sth. from a certain place" ; !Rand key:n71433041263n
-nnaa'sidoon:naahisid    VTI_OO_THEME    " 1 put sth. in place, straighten sth. out [by moving it]" ; !Rand key:n71433647429n
-nnaa'sidoon:nanaahisid    VTI_OO_THEME    " 1 put sth. in place, straighten sth. out [by moving it]" ; !Rand key:n71433647429n
-nnaa'toon:naahit    VTI_OO_THEME    " 1 fix sth., repair sth." ; !Rand key:n71433647915n
-nnaa'toon:nanaahit    VTI_OO_THEME    " 1 fix sth., repair sth." ; !Rand key:n71433647915n
+nnaa'sidoon:nanaahisid    VTI_OO_THEME    " 1 put sth. in place, straighten sth. out [by moving it]" ; !Rand key:n71433647429n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
+nnaa'toon:nanaahit    VTI_OO_THEME    " 1 fix sth., repair sth." ; !Rand key:n71433647915n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 nnaandwitoon:nanaandawit    VTI_OO_THEME    " 1 cure sth. (of diseases and injuries)" ; !Rand key:n71433648690n
 nnangshkaastoon:nVv1nangVv1shkaasat    VTI_OO_THEME    " 1 make sth. shake, shake sth." ; !Rand key:n71433649253n
 nniizaansidoon:naniizaanisid    VTI_OO_THEME    " 1 arrange sth. precariously, put sth. in a precarious position" ; !Rand key:n73045911431n

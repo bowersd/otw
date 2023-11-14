@@ -152,8 +152,7 @@ gaawaanh:agaawaanh    AV_TAG    " 1 barely, hardly, scarcely" ; !Rand key:n73017
 gaawtaagmik:gaawitaagamig    AV_TAG    " 1 all around the building" ; !Rand key:n73017579755n
 gaay:gaay2   AV_TAG    " 1 not" ; !Rand key:n73017579808n
 gamiing:agamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-gashki:gashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n
-gashki:gigashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n
+gashki:gigashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 gbe-bboon:gabe-biboon    AV_TAG    " 1 all winter" ; !Rand key:n73017936268n
 gbe-dbik:gabe-dibik    AV_TAG    " 1 all night" ; !Rand key:n73017936343n
 gbe-giizhik:gabe-giizhig    AV_TAG    " 1 all day" ; !Rand key:n73017936376n
