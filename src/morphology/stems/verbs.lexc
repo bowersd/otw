@@ -1836,7 +1836,7 @@ aabziingshi:aabiziingoshi    VAI_TAG    " 1 be unable to sleep, have insomnia" ;
 aabziingweyaashi:aabiziingweyaashi    VAI_TAG    " 1 be refreshed [from wind on one's face]" ; !Rand key:n72985053825n
 aabziishin:aabiziishin    VAI_TAG    " 1 recover from an illness" ; !Rand key:n72972461414n
 aabziiwnaagzi:aabiziiwinaagozi    VAI_TAG    " 1 look as if one is getting better" ; !Rand key:n73003542062n
-aabziiwshin :aabiziiwishin     VAI_TAG    " 1 [see aabziishin]" ; !Rand key:n72972563645n
+aabziiwshin:aabiziiwishin     VAI_TAG    " 1 [see aabziishin]" ; !Rand key:n72972563645n
 aabziiwzi:aabiziiwizi    VAI_TAG    " 1 recover from an illness" ; !Rand key:n72972461451n
 aabziiyendam:aabiziiyendam    VAI_TAG    " 1 be heartened, feel more hopeful, regain hope" ; !Rand key:n72972540969n
 aadaagmishin:aadaagamishin    VAI_TAG    " 1 be stranded [by water]" ; !Rand key:n72973746490n
@@ -1984,7 +1984,7 @@ aawsaabi:aawasaabi    VAI_TAG    " 1 hallucinate" ; !Rand key:n72974059235n
 aawshkwe:aawashkwe    VAI_TAG    " 1 haul hay" ; !Rand key:n72974061062n
 aawzabii:aawazabii    VAI_TAG    " 1 haul water" ; !Rand key:n72974061284n
 aayaabtawzi:aayaabitawizi    VAI_TAG    " 1 be a half-breed" ; !Rand key:n72974061362n
-aayaan'koobza :aayaanikoobizVa1    VAI_TAG    " 1 [see aan'koopza]" ; !Rand key:n72974061598n
+aayaan'koobza:aayaanikoobizVa1    VAI_TAG    " 1 [see aan'koopza]" ; !Rand key:n72974061598n
 aayaazhkwe:aayaazhVv1kwe    VAI_TAG    " 1 scream [in fright]" ; !Rand key:n72974061629n
 aayaazhwe:aayaazhwe    VAI_TAG    " 1 [see aayaazhkwe]" ; !Rand key:n72974061785n
 aazhda-boozi:aazhVv1da-boozi    VAI_TAG    " 1 [see aashta-boozi]" ; !Rand key:n72974064327n
@@ -6765,7 +6765,7 @@ aanjdaabaanaa:aanjidaabaan1    VTA_TAG    " 1 drag sth. (an.) to a different loc
 aanjpinaa:aanjapin1    VTA_TAG    " 1 change smb's (a baby's) diaper" ; !Rand key:n72973385287n
 aanjshimaa:aanjishim    VTA_TAG    " 1 change smb.'s mind [about doing sth.], dissuade smb." ; !Rand key:n72973385967n
 aanjwinaa:aanjiwin1    VTA_TAG    " 1 carry sth. (an.) elsewhere, relocate sth. (an.)" ; !Rand key:n729734204n
-aanmenmaa :aanimenim     VTA_TAG    " 1 be exasperated with smb." ; !Rand key:n72973448524n
+aanmenmaa:aanimenim     VTA_TAG    " 1 be exasperated with smb." ; !Rand key:n72973448524n
 aanmi'aa:aanimih    VTA_TAG    " 1 beleaguer smb.; greatly annoy smb." ; !Rand key:n729734919n
 aanmimaa:aanimim    VTA_TAG    " 1 berate smb., disparage smb. severely" ; !Rand key:n72973449601n
 aanoodwewemaa:aanoodwewem    VTA_TAG    " 1 exasperate smb. with incessant demands" ; !Rand key:n72973451027n
