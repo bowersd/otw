@@ -10498,10 +10498,10 @@ bgidendaan:bagidend    VTI_AM_THEME    " 1 give up sth., let go of sth. [emotion
 bgidnaan:bagidin    VTI_AM_THEME    " 1 let go of sth., release sth., relinquish sth., put sth. down" ; !Rand key:n72976747407n
 bgidoondaan:bagidoond    VTI_AM_THEME    " 1 set sth. down off one's back" ; !Rand key:n72976749250n
 bgijwebnaan:bagijiwebin    VTI_AM_THEME    " 1 drop sth. [deliberately], let sth. fall" ; !Rand key:n72976839384n
-bgo'bogoh    VTI_AM_THEME    " 1 patch sth., sew a patch on sth., darn sth." ; !Rand key:n72976841991n
-bgo'bogoh    VTI_AM_THEME    " 1 chop a hole in sth." ; !Rand key:n72976842392n
-bgone'bogoneh    VTI_AM_THEME    " 1 make a hole in sth. [with an instrument], put a hole in sth. [with an instrument]" ; !Rand key:n72976846814n
-bgonegnaandaan:bogonegandaand    VTI_AM_THEME    " 1 knock a hole in sth., punch a hole in sth." ; !Rand key:n72976845812n
+bgo'aan:bogoh    VTI_AM_THEME    " 1 patch sth., sew a patch on sth., darn sth." ; !Rand key:n72976841991n
+bgo'aan:bogoh    VTI_AM_THEME    " 1 chop a hole in sth." ; !Rand key:n72976842392n
+bgone'aan:bogoneh    VTI_AM_THEME    " 1 make a hole in sth. [with an instrument], put a hole in sth. [with an instrument]" ; !Rand key:n72976846814n
+bgonegaan:naandaan:bogonegandaand    VTI_AM_THEME    " 1 knock a hole in sth., punch a hole in sth." ; !Rand key:n72976845812n
 bgonejiishkaan:bogonejiishk    VTI_AM_THEME    " 1 kick a hole in sth. [3-dimensional], put a hole in sth. [3-dimensional, with the foot]" ; !Rand key:n72976848325n
 bgonekdaan:bogonekod    VTI_AM_THEME    " 1 cut a hole in sth." ; !Rand key:n72976849049n
 bgonesga'bogonesagah    VTI_AM_THEME    " 1 put a hole in sth. [made of wood]" ; !Rand key:n72976854198n
