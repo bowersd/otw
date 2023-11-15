@@ -716,7 +716,7 @@ mzhiwens:mVv1zhiwens    NA_SET    " 1 cottontail rabbit" ; !Rand key:n7143056736
 mzhwe:mVv1zhwe    NA_SET    " 1 cottontail rabbit" ; !Rand key:n71430567852n
 mzinchigan:mazinichigan    NA_SET    " 1 picture, painting" ; !Rand key:n71430648640n
 mzise:mizise    NA_SET    " 1 turkey" ; !Rand key:n71430650678n
-na'aa:nahaa    NA_SET    " 1 [see ni'aa]" ; !Rand key:n71431153540n
+na'aa:Bv1nahaa    NA_SET    " 1 [see ni'aa]" ; !Rand key:n71431153540n
 naabese:naabese    NA_SET    " 1 rooster" ; !Rand key:n73098382290n
 naabesmosh:naabesimosh    NA_SET    " 1 male dog" ; !Rand key:n71430661760n
 naabkawaagan:naabikawaagan    NA_SET    " 1 necklace;  2 necktie" ; !Rand key:n71430846582n
@@ -735,7 +735,7 @@ nenooshkaashiins:nenooshkaashiins    NA_SET    " 1 [see nenookaashiins]" ; !Rand
 nepaajnikesens:nepaajinikesens    NA_SET    " 1 mole [i.e. the animal]" ; !Rand key:n73098678561n
 ngodwaasbii'gan:ningodwaasibiihigan    NA_SET    " 1 [the numeral] six, 6;  2 six [in cards]" ; !Rand key:n71431654825n
 ngodwaasoobii'gan:ningodwaasoobiihigan    NA_SET    " 1 [see ngodwaasbii'gan]" ; !Rand key:n73098743716n
-ni'aa:nihaa    NA_SET    " 1 what, what's-her-name, what's-his-name, what's-its-name, who" ; !Rand key:n73098540559n
+ni'aa:Bv1nihaa    NA_SET    " 1 what, what's-her-name, what's-his-name, what's-its-name, who" ; !Rand key:n73098540559n
 niibmin:aniibimin    NA_SET    " 1 high-bush cranberry" ; !Rand key:n73033655760n
 niiwoobii'gan:niiwoobiihigan    NA_SET    " 1 [the numeral] four, 4;  2 four [in cards]" ; !Rand key:n71431843996n
 niizhoobii'gan:niizhoobiihigan    NA_SET    " 1 [the numeral] two, 2;  2 two [in cards], deuce" ; !Rand key:n71431845518n
@@ -1827,7 +1827,7 @@ mzise-miijim:mizise-miijim    NI_SET    " 1 species of fern" ; !Rand key:n714306
 n'gamwin:nagamowin    NI_SET    " 1 song" ; !Rand key:n71431579579n
 n'gamwinmazna'gan:nagamowinimazinahigan    NI_SET    " 1 songbook" ; !Rand key:n71431579609n
 n'gokaan:nVi1ngohakaan    NI_SET    " 1 cemetery, graveyard" ; !Rand key:n71431657225n ![gk]Vo1 replaced with [gk]o
-na'ii:nahii    NI_SET    " 1 what, whatchamacallit" ; !Rand key:n71431154158n
+na'ii:Bv1nahii    NI_SET    " 1 what, whatchamacallit" ; !Rand key:n71431154158n
 naabdoochgaans:naabidoochigaans    NI_SET    " 1 shoelace" ; !Rand key:n71430660794n
 naabdoochgan:naabidoochigan    NI_SET    " 1 shoelace" ; !Rand key:n71430660856n
 naabiingwaagan:naabiingwaagan    NI_SET    " 1 bridle" ; !Rand key:n73033331793n
@@ -1885,7 +1885,7 @@ ngig-weyaan:nigig-weyaan    NI_SET    " 1 otter pelt" ; !Rand key:n71431646760n
 +dba'aabaan:dVi1bahaabaan    NI_SET    " 1 used with a number root to indicate a number of miles" ; !Rand key:n71431647199n
 ngokiins:ningokiins    NI_SET    " 1 one acre of land" ; !Rand key:n71431657274n
 ngwaagan:nagwaagan    NI_SET    " 1 trap;  2 rainbow;  3 spider's web" ; !Rand key:n71431660228n
-ni'ii:nihii    NI_SET    " 1 [see na'ii]" ; !Rand key:n71431746217n
+ni'ii:Bv1nihii    NI_SET    " 1 [see na'ii]" ; !Rand key:n71431746217n
 niibiish:aniibiish    NI_SET    " 1 leaf" ; !Rand key:n71431748979n
 niibiishaaboo:aniibiishaaboo    NI_SET    " 1 tea" ; !Rand key:n71431749016n
 niibiishaaboo-naagaans:aniibiishaaboo-onaagaans    NI_SET    " 1 tea cup" ; !Rand key:n71431749063n
