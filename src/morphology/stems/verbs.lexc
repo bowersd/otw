@@ -3467,8 +3467,8 @@ giishkshin:giishkishin    VAI_TAG    " 1 get cut [from striking something]" ; !R
 giishkzideshin:giishkizideshin    VAI_TAG    " 1 cut one's foot [by striking something], cut one's foot on something" ; !Rand key:n73102060594n
 giishpnadaasa:giishpVi1nadaasVa1    VAI_TAG    " 1 buy things, shop" ; !Rand key:n73023754451n
 giishpnajge:giishpVi1najige    VAI_TAG    " 1 buy things, shop" ; !Rand key:n73023754516n
-giiskizne:giisakizine    VAI_TAG    " 1 take one's shoes off" ; !Rand key:n73023759216n
-giiskonye:giiskonaye    VAI_TAG    " 1 take one's clothes off, undress" ; !Rand key:n73023759040n
+giiskizne:giizikizine    VAI_TAG    " 1 take one's shoes off" ; !Rand key:n73023759216n
+giiskonye:giizikonaye    VAI_TAG    " 1 take one's clothes off, undress" ; !Rand key:n73023759040n
 giitaagoojin:giitaagoojin    VAI_TAG    " 1 hang in a circle" ; !Rand key:n73042943029n
 giitaangzhe:giitaangazhe    VAI_TAG    " 1 finish one's job" ; !Rand key:n73023759504n
 giiwaadshe:giiwaadishe    VAI_TAG    " 1 hear things incorrectly" ; !Rand key:n73023777375n
@@ -7707,7 +7707,7 @@ giishkzidewaa:giishkizidehw    VTA_TAG    " 1 cut smb.'s foot [by striking]" ; !
 giishpnadmawaa:giishpVi1nadamaw    VTA_TAG    " 1 buy something for smb., buy something from smb." ; !Rand key:n73023753234n
 giishpnadwaa:giishpVi1nadaw    VTA_TAG    " 1 buy something for smb., buy something from smb." ; !Rand key:n73023753611n
 giishpnanaa:giishpVi1nan1    VTA_TAG    " 1 buy sth. (an.)" ; !Rand key:n73023753954n
-giiskawaa:giiskaw    VTA_TAG    " 1 take sth. (an.) off (of clothes)" ; !Rand key:n73023758980n
+giiskawaa:giizikaw    VTA_TAG    " 1 take sth. (an.) off (of clothes)" ; !Rand key:n73023758980n
 giiskon'ye'aa:giizikonayeh    VTA_TAG    " 1 take smb.'s clothes off, undress smb." ; !Rand key:n73023759314n ![gk]Vo1 replaced with [gk]o
 giiskon'yebnaa:giizikonayebin1    VTA_TAG    " 1 pull smb.'s clothes off, take smb.'s clothes off" ; !Rand key:n73023759125n
 giitaabiignaa:giitaabiigin1    VTA_TAG    " 1 outrun sth. (an.)" ; !Rand key:n73102061266n
