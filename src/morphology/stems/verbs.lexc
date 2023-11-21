@@ -86,8 +86,8 @@ aapdagoode:aapidagoode    VII_TAG    " 1 fall out of reach" ; !Rand2key:n7297375
 aapdwewe:aapidwewe    VII_TAG    " 1 make noise without stopping [due to a malfunction]" ; !Rand2key:n72973754199n
 aapjibde:aapijibide    VII_TAG    " 1 fly away irretrievably, fly off irretrievably" ; !Rand2key:n72973752131n
 aasaabde:aasaabide    VII_TAG    " 1 be blindingly bright (of light conditions)" ; !Rand2key:n72974059871n
-aashtawse:aashtawise    VII_TAG    " 1 be passed2on, get passed on (of an illness)" ; !Rand key:n72973759744n
-aashtema:aashtemVa1    VII_TAG    " 1 be a crossroad" ; !Rand2key:n72973759838n
+aashtawse:aazhidawise    VII_TAG    " 1 be passed2on, get passed on (of an illness)" ; !Rand key:n72973759744n
+aashtema:aazhidemVa1    VII_TAG    " 1 be a crossroad" ; !Rand2key:n72973759838n
 aaspide:aasopide    VII_TAG    " 1 be bandaged" ; !Rand2key:n72973944590n
 aassin:aasosin    VII_TAG    " 1 lean against something" ; !Rand2key:n72973761391n
 aaswaaksin:aaswaakosin    VII_TAG    " 1 lean against something (of sticklike objects)" ; !Rand2key:n72973761483n
@@ -1945,9 +1945,9 @@ aapzikooza:aapizikoozVa1    VAI_TAG    " 1 be killed by the weight of something"
 aasaabza:aasaabizVa1    VAI_TAG    " 1 be blinded by the sun, be blinded by a light, have the sun in one's eyes, have the light in one's eye" ; !Rand key:n72974059532n
 aasdibepza:aasondibepizVa1    VAI_TAG    " 1 wear a bandage around one's head, be bandaged around the head" ; !Rand key:n72973759465n
 aasdibepza:aasodibepizVa1    VAI_TAG    " 1 wear a bandage around one's head, be bandaged around the head" ; !Rand key:n72973759465n
-aasht'oon'gii:aashtahoonagii    VAI_TAG    " 1 move from one vehicle to another" ; !Rand key:n72973760419n
-aashta-boozi:aashta-boozi    VAI_TAG    " 1 transfer from one vehicle to another" ; !Rand key:n72973756450n
-aashtawgwaashkni:aashtawigwaashkoni    VAI_TAG    " 1 jump from one place to another, jump to another side;  2 change sides (among contending groups), take another's side" ; !Rand key:n72973757214n
+aasht'oon'gii:aazhidahoonagii    VAI_TAG    " 1 move from one vehicle to another" ; !Rand key:n72973760419n
+aashta-boozi:aazhida-boozi    VAI_TAG    " 1 transfer from one vehicle to another" ; !Rand key:n72973756450n
+aashtawgwaashkni:aazhidawigwaashkoni    VAI_TAG    " 1 jump from one place to another, jump to another side;  2 change sides (among contending groups), take another's side" ; !Rand key:n72973757214n
 aasnikepza:aasonikepizVa1    VAI_TAG    " 1 wear a bandage on one's arm, be bandaged around one's arm" ; !Rand key:n72973759629n
 aasninjiipza:aasoninjiipizVa1    VAI_TAG    " 1 wear a bandage on one's hand, be bandaged around one's hand" ; !Rand key:n72973858786n
 aasooke:aasooke    VAI_TAG    " 1 tell a legend, tell a myth, tell a sacred story" ; !Rand key:n72973860903n
@@ -6762,10 +6762,10 @@ aasaabzwaa:aasaabizw    VTA_TAG    " 1 blind smb. with a light" ; !Rand key:n729
 aash'aa:aashih    VTA_TAG    " 1 give one's illness to another, pass one's illness on to another" ; !Rand key:n72973747522n
 aashdikmaanaa:aashidikomaan    VTA_TAG    " 1 pass lice on to another, pass fleas on to another" ; !Rand key:n73003282882n
 aashdoonemaa:aashVv1doonem    VTA_TAG    " 1 pass one's way of talking to another" ; !Rand key:n72974065446n
-aashtaw'aa:aashtawah    VTA_TAG    " 1 take revenge on smb., pay smb. back for wrongdoing" ; !Rand key:n72973757534n
-aashtewmaa:aashtewim    VTA_TAG    " 1 [see aazhdemaa]" ; !Rand key:n72973760369n
-aashtooshknanaa:aashtooshkinan1    VTA_TAG    " 1 transfer sth. (an.) to another container (of solids)" ; !Rand key:n72973760696n
-aashtowebnaa:aashtowebin    VTA_TAG    " 1 throw sth. (an.) onto another vehicle" ; !Rand key:n72974454943n
+aashtaw'aa:aazhidawah    VTA_TAG    " 1 take revenge on smb., pay smb. back for wrongdoing" ; !Rand key:n72973757534n
+aashtewmaa:aazhidewim    VTA_TAG    " 1 [see aazhdemaa]" ; !Rand key:n72973760369n
+aashtooshknanaa:aazhidooshkinan1    VTA_TAG    " 1 transfer sth. (an.) to another container (of solids)" ; !Rand key:n72973760696n
+aashtowebnaa:aazhidowebin    VTA_TAG    " 1 throw sth. (an.) onto another vehicle" ; !Rand key:n72974454943n
 aasnaa:aasin    VTA_TAG    " 1 hold smb. upright [to keep smb. from falling over]" ; !Rand key:n73004849540n
 aasndibepnaa:aasondibepin1    VTA_TAG    " 1 bandage smb.'s head" ; !Rand key:n73008144042n
 aasnikepnaa:aasonikepin1    VTA_TAG    " 1 bandage smb.'s arm" ; !Rand key:n73008143899n
@@ -10365,8 +10365,8 @@ aansaabwaadaan:aanVv1saabwaad    VTI_AM_THEME    " 1 dilute sth. [a bit] (of bev
 aanwaabndaan:aanawaaband    VTI_AM_THEME    " 1 dislike the look of sth., find fault with sth., see sth. as unacceptable, see sth. as unsatisfactory" ; !Rand key:n72973469261n
 aanwendaan:aanawend    VTI_AM_THEME    " 1 be dissatisfied with sth., find sth. unsatisfactory, reject sth." ; !Rand key:n72973452204n
 aanzkaan:aanzik    VTI_AM_THEME    " 1 change sth.  (of clothes)" ; !Rand key:n72973741621n
-aashtooziignaan:aashtooziigin    VTI_AM_THEME    " 1 pour sth. into another container" ; !Rand key:n72973760965n
-aashtowebnaan:aashtowebin    VTI_AM_THEME    " 1 throw sth. onto another vehicle" ; !Rand key:n72974455036n
+aashtooziignaan:aazhidooziigin    VTI_AM_THEME    " 1 pour sth. into another container" ; !Rand key:n72973760965n
+aashtowebnaan:aazhidowebin    VTI_AM_THEME    " 1 throw sth. onto another vehicle" ; !Rand key:n72974455036n
 aasnaan:aasin    VTI_AM_THEME    " 1 hold sth. upright [to keep sth. from falling over]" ; !Rand key:n73004849789n
 aate'aan:aateh    VTI_AM_THEME    " 1 extinguish sth., put sth. out (of fire, something on fire)" ; !Rand key:n72973947521n
 aateboodaadaan:aateboodaad    VTI_AM_THEME    " 1 blow sth. out (of fire, something on fire)" ; !Rand key:n72973946549n
@@ -11511,8 +11511,8 @@ aanwitoon:aanawit    VTI_OO_THEME    " 1 fail to budge sth., be unable to get st
 aapdaabka'oodoon:aapidaabikahood    VTI_OO_THEME    " 1 knot sth. up securely" ; !Rand key:n72973742553n
 aapdaaptoon:aapidaapit    VTI_OO_THEME    " 1 die laughing at sth." ; !Rand key:n72973744079n
 aapjiwdoon:aapijiwid    VTI_OO_THEME    " 1 take sth. away and never return it" ; !Rand key:n73035129805n
-aashta-booztoon:aashta-boozit    VTI_OO_THEME    " 1 transfer sth. from one vehicle to another" ; !Rand key:n72973756661n
-aashtooshknadoon:aashtooshkinad    VTI_OO_THEME    " 1 transfer sth. to another container (of solids)" ; !Rand key:n72973760540n
+aashta-booztoon:aazhida-boozit    VTI_OO_THEME    " 1 transfer sth. from one vehicle to another" ; !Rand key:n72973756661n
+aashtooshknadoon:aazhidooshkinad    VTI_OO_THEME    " 1 transfer sth. to another container (of solids)" ; !Rand key:n72973760540n
 aaspidoon:aasopid    VTI_OO_THEME    " 1 bandage sth., put a bandage on sth." ; !Rand key:n72973945389n
 aaswaaksidoon:aaswaakosid    VTI_OO_THEME    " 1 lean sth. against something" ; !Rand key:n72973944441n
 aatebdoon:aatebid    VTI_OO_THEME    " 1 turn sth. off (of lights, appliances)" ; !Rand key:n72973945483n
