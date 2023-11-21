@@ -5,8 +5,8 @@ define hApos [h -> ' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> ' || n _ k ] ; 
 define oa  [o -> a || \[o]  _ (  
                             p|t|k|c h|
-                            [[s(h)](p|t|k)]|
-                            [[m(b)]|[n(d|g|j|z(h)|s|h)]]|
+                            [[s (h)](p|t|k)]|
+                            [[m (b)]|[n (d|g|j|z (h)|s|h)]]|
                             w|y|'
                             )
                              .#.] ; 
