@@ -468,7 +468,7 @@ aanak:aanak    NA_SET    " 1 brown thrasher (a kind of bird)" ; !Rand key:n72973
 Aanmaa:aanimaanh    NA_SET    " 1 German" ; !Rand key:n72973448007n
 aanzhenii:aanzheniiy     NA_SET    " 1 angel" ; !Rand key:n72973741514n
 aapda'aagan:aapVv1dahaagan    NA_SET    " 1 drudge, errand boy, errand girl" ; !Rand key:n72973744898n
-aasookaan:aasookaan    NA_SET    " 1 legend, myth, sacred story" ; !Rand key:n72973860633n !reduced from aadisookaan, which is also listed
+!aasookaan:aasookaan    NA_SET    " 1 legend, myth, sacred story" ; !Rand key:n72973860633n !reduced from aadisookaan, which is also listed
 aazhoon'kogan:aazhoonikogan    NA_SET    " 1 suspender" ; !Rand key:n72974452235n
 aazmagmaabzowin:aazimagomaabizowin    NA_SET    " 1 suspender" ; !Rand key:n72974453186n
 abwi:abwiw2    NA_SET    " 1 [see bwi]" ; !Rand key:n72974453567n
