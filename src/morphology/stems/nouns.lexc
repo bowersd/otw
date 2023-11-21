@@ -468,10 +468,10 @@ aanak:aanak    NA_SET    " 1 brown thrasher (a kind of bird)" ; !Rand key:n72973
 Aanmaa:aanimaanh    NA_SET    " 1 German" ; !Rand key:n72973448007n
 aanzhenii:aanzheniiy     NA_SET    " 1 angel" ; !Rand key:n72973741514n
 aapda'aagan:aapVv1dahaagan    NA_SET    " 1 drudge, errand boy, errand girl" ; !Rand key:n72973744898n
-aasookaan:aasookaan    NA_SET    " 1 legend, myth, sacred story" ; !Rand key:n72973860633n
+aasookaan:aasookaan    NA_SET    " 1 legend, myth, sacred story" ; !Rand key:n72973860633n !reduced from aadisookaan, which is also listed
 aazhoon'kogan:aazhoonikogan    NA_SET    " 1 suspender" ; !Rand key:n72974452235n
 aazmagmaabzowin:aazimagomaabizowin    NA_SET    " 1 suspender" ; !Rand key:n72974453186n
-abwi:abwi    NA_SET    " 1 [see bwi]" ; !Rand key:n72974453567n
+abwi:abwiw2    NA_SET    " 1 [see bwi]" ; !Rand key:n72974453567n
 abwiins:abwiins    NA_SET    " 1 [see bwiins]" ; !Rand key:n72974455306n
 Anishinaabe:anishinaabe    NA_SET    " 1 [see Nishnaabe]" ; !Rand key:n72974456923n
 Anishnaabekwe:anishinaabekwe    NA_SET    " 1 [see Nishnaabe-kwe]" ; !Rand key:n72974456979n
@@ -530,7 +530,7 @@ bookdoonsh:bookVv1doonzh    NA_SET    " 1 pear (fruit)" ; !Rand key:n7298011617n
 boonse:boonise    NA_SET    " 1 chicken hawk" ; !Rand key:n72980954918n
 boonse:boonise    NA_SET    " 1 sharp-shinned hawk" ; !Rand key:n72980954973n
 bshagjiit:bVv1shagVv1jiid    NA_SET    " 1 jerk, obnoxious person" ; !Rand key:n73101880097n
-bwi:abwii    NA_SET    " 1 propeller" ; !Rand key:n72974455392n
+bwi:abwiw2    NA_SET    " 1 propeller" ; !Rand key:n72974455392n
 bwiins:abwiins    NA_SET    " 1 fan (implement used for cooling)" ; !Rand key:n72974455535n
 bwiins:abwiins    NA_SET    " 1 small fan" ; !Rand key:n72985139724n
 bzaan:bazaan    NA_SET    " 1 burdock (a type of plant)" ; !Rand key:n72985144271n
@@ -697,7 +697,7 @@ mshiimin:mishiimin    NA_SET    " 1 apple" ; !Rand key:n71430435167n
 mshiimnens:mishiiminens    NA_SET    " 1 slice of apple" ; !Rand key:n71430435699n
 mshkikiininiikwe:mashkikiininiiwikwe    NA_SET    " 1 [female] nurse;  2 [female] doctor, [female] physician" ; !Rand key:n73098038709n
 mshkikiininiikwe:mashkikiiwVi1niniiwikwe    NA_SET    " 1 [female] nurse;  2 [female] doctor, [female] physician" ; !Rand key:n73098038709n
-mshkawmin'gizi:mashkawiminagizi    NA_SET    " 1 hard corn, kernel of hard corn" ; !Rand key:n71430465916n
+mshkawmin'gizi:mashkawiminagiziw2    NA_SET    " 1 hard corn, kernel of hard corn" ; !Rand key:n71430465916n
 mshkikiins:mashkikiins    NA_SET    " 1 pill" ; !Rand key:n71430467841n
 mshkode-daabaan:mVi1shkode-odaabaan    NA_SET    " 1 train" ; !Rand key:n71430546231n
 mshkode-jiimaan:mVv1shkode-jiimaan    NA_SET    " 1 steamboat" ; !Rand key:n71430546324n
@@ -1397,7 +1397,7 @@ baagndibe'gan:baagindibehogan    NI_SET    " 1 war club" ; !Rand key:n7297464510
 Baakwang:baakwang    NI_SET    " 1 Easter, Eastertime" ; !Rand key:n73008358326n
 baan'shaawaan:baanazhaawaan    NI_SET    " 1 piece of meat jerky, strip of jerky" ; !Rand key:n72974659789n
 baapaagi-shka'ii:baapaagi-oshkahii    NI_SET    " 1 brand spanking new thing" ; !Rand key:n72976956601n
-baapaashki:baapaashki    NI_SET    " 1 balsam sap" ; !Rand key:n72974660268n
+baapaashki:baapaashkiw2    NI_SET    " 1 balsam sap" ; !Rand key:n72974660268n
 baashdaagwaan:baashdaagwaan    NI_SET    " 1 plantain (low-growing plant with rosette of leaves and green flower spike)" ; !Rand key:n72975264711n
 baashkmin'sigan:baashkiminVv1sigan    NI_SET    " 1 jam, preserves; fruit pie filling" ; !Rand key:n72975360644n
 baashknjibgwaan:baashkonjibagwaan    NI_SET    " 1 trillium (a kind of plant)" ; !Rand key:n72975357312n
@@ -1489,7 +1489,7 @@ bnagjiikjigan:bVi1nagijiikojigan    NI_SET    " 1 peeler" ; !Rand key:n729789522
 bnagzignaaboo:banagiziganaaboo    NI_SET    " 1 Indian corn soup (typically using hominy or shelled corn)" ; !Rand key:n72978955773n
 bngii:bangii    NI_SET    " 1 a few, a little, a little bit" ; !Rand key:n72978957973n
 Bngoonaang:bingoonaang    NI_SET    " 1 Moraviantown, Ont." ; !Rand key:n72978963933n
-bngwi:bingwi    NI_SET    " 1 ashes" ; !Rand key:n72978964111n
+bngwi:bingwiw2    NI_SET    " 1 ashes" ; !Rand key:n72978964111n
 bodyegwaazon:gibodiyegwaazon    NI_SET    " 1 pants, trousers" ; !Rand key:n72979759387n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 boodaajgaans:boodaajigaans    NI_SET    " 1 whistle (ref. to the device)" ; !Rand key:n72979765741n
 boodaajgan:boodaajigan    NI_SET    " 1 horn" ; !Rand key:n72979766140n
@@ -1591,7 +1591,7 @@ gboobjigan:giboobijigan    NI_SET    " 1 bag [with a drawstring]" ; !Rand key:n7
 gboojgan:giboojigan    NI_SET    " 1 curtain" ; !Rand key:n73019337268n
 gchi'ii:gchi-ahii    NI_SET    " 1 important thing, significant thing" ; !Rand key:n73019339894n
 gchi-gaaming:gichi-gaaming    NI_SET    " 1 overseas" ; !Rand key:n73019342200n
-gchi-gmi:gichi-gami    NI_SET    " 1 sea, ocean" ; !Rand key:n73019342316n
+gchi-gmi:gichi-gamiw2    NI_SET    " 1 sea, ocean" ; !Rand key:n73019342316n
 Gchi-gmiing:gichi-gamiing    NI_SET    " 1 Lake Superior" ; !Rand key:n73019342454n
 Gchi-gwaamwining:gichi-agwaamowining    NI_SET    " 1 Tobermory, Ont." ; !Rand key:n73019343320n
 gchi-miin:gichi-miin    NI_SET    " 1 highbush blueberry" ; !Rand key:n73019343372n
@@ -1615,7 +1615,7 @@ Giiwdenaaning:giiwidenaaning    NI_SET    " 1 St. Ignace, Mich." ; !Rand key:n73
 giiwedin:giiwedin    NI_SET    " 1 north wind" ; !Rand key:n73023777754n
 giizhgiken:giizhVv1giken    NI_SET    " 1 tinder" ; !Rand key:n73024179891n
 giizhgoong:giizhigoong    NI_SET    " 1 heaven, in heaven, to heaven" ; !Rand key:n73024173408n
-giizhkiki:giizhikiki    NI_SET    " 1 cedar bush[lot]" ; !Rand key:n73024351567n
+giizhkiki:giizhikikiw2    NI_SET    " 1 cedar bush[lot]" ; !Rand key:n73024351567n
 ginjgewin:aginjigewin    NI_SET    " 1 reading" ; !Rand key:n73024536541n
 gjibzowin:gijibizowin    NI_SET    " 1 belt" ; !Rand key:n73024540873n
 gnawaajchigan:ganawaajichigan    NI_SET    " 1 blaze [on a trail], street sign" ; !Rand key:n7302919395n
@@ -1684,7 +1684,7 @@ kakde-dba'gan:gakakVv1de-dibahigan    NI_SET    " 1 builder's square" ; !Rand ke
 kakmineshkoojgan:Vv1kakVv1mineshkoojigan    NI_SET    " 1 sheller" ; !Rand key:n73017351901n
 kakzhe:akakanzhe    NI_SET    " 1 charcoal, a piece of charcoal, [burning] coal" ; !Rand key:n73028446408n
 kanjiish:Vv1kanjiish    NI_SET    " 1 bud, calyx (part of flower protecting bud)" ; !Rand key:n73017353176n
-ki:aki    NI_SET    " 1 earth, ground, land;  2 one's sovereign land, the land one owns" ; !Rand key:n71428959500n !DAB: changed UR from akii to aki because I have only seen [kii] in verbs, all nouns are [ki]
+ki:aki      NI_SET    " 1 earth, ground, land;  2 one's sovereign land, the land one owns" ; !Rand key:n71428959500n !DAB: changed UR from akii to aki because I have only seen [kii] in verbs, all nouns are [ki]
 kidwin:ikidowin    NI_SET    " 1 word, saying, speech form, way of speaking;  2 a message, a communication;  3 a voice, an agency by which to represent one's point of view" ; !Rand key:n71428960188n
 kii-bmide:akii-bimide    NI_SET    " 1 kerosene" ; !Rand key:n7303277013n
 kiibmidekaan:akiibimidekaan    NI_SET    " 1 site where crude oil is obtained" ; !Rand key:n7303277034n
@@ -1747,7 +1747,7 @@ miishkiinzhgwaagan:miishkiinzhigwaagan    NI_SET    " 1 eyelash" ; !Rand key:n71
 miishko-gtigaan:miishko-gitigaan    NI_SET    " 1 hayfield" ; !Rand key:n71429736696n
 miishkogwaam:miishkogwaam    NI_SET    " 1 barn" ; !Rand key:n71429736788n
 miishkomiin'kaan:miishkomiinikaan    NI_SET    " 1 hayseed, grass seed obtained from hay" ; !Rand key:n73032933399n
-miishkooki:miishkooki    NI_SET    " 1 marsh" ; !Rand key:n71429736941n
+miishkooki:miishkookiw2  NI_SET    " 1 marsh" ; !Rand key:n71429736941n
 miishkoons:miishkoons    NI_SET    " 1 grass, blade of grass;  2 marijuana" ; !Rand key:n71429736992n
 miishkosh:miishkosh    NI_SET    " 1 weed" ; !Rand key:n71429737404n
 miishkwaan:miishigwaan    NI_SET    " 1 a strand of pubic hair" ; !Rand key:n71429737460n
@@ -1863,7 +1863,7 @@ nam'ew-giizhgat:anamihewigiizhigad    NI_SET    " 1 week" ; !Rand key:n714311608
 nam'ewaaboo:anamihewaaboo    NI_SET    " 1 holy water" ; !Rand key:n73033612856n
 nam'ewin:anamihewin    NI_SET    " 1 prayer" ; !Rand key:n71431160868n
 nbaagan:nibaagan    NI_SET    " 1 bed" ; !Rand key:n71431170108n
-nbi:nibi    NI_SET    " 1 water" ; !Rand key:n71431240218n
+nbi:nibiw2  NI_SET    " 1 water" ; !Rand key:n71431240218n
 nbiish:nibiish    NI_SET    " 1 water, an amount of water" ; !Rand key:n71431240354n
 nbiishwaaboo:nibiishwaaboo    NI_SET    " 1 liquid" ; !Rand key:n71431345296n
 nbis:nibis    NI_SET    " 1 lake" ; !Rand key:n71431347914n
@@ -2072,8 +2072,8 @@ zhaagenjgan:azhaagenjigan    NI_SET    " 1 crayfish's claw" ; !Rand key:n7303343
 zhaangwesh-weyaan:zhaangwesh-weyaan    NI_SET    " 1 mink pelt" ; !Rand key:n73033449107n
 zhaawshko-jiis:ozhaawashko-jiis    NI_SET    " 1 turnip" ; !Rand key:n73033513988n
 zhaawshkojiimin:ozhaawashkojiimin    NI_SET    " 1 tomato" ; !Rand key:n73033513898n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-zhashki:azhashki    NI_SET    " 1 dirt, earth, soil" ; !Rand key:n73033517129n
-zhashkwiki:azhashkwiki    NI_SET    " 1 muddy ground" ; !Rand key:n73033517845n
+zhashki:azhashkiw2  NI_SET    " 1 dirt, earth, soil" ; !Rand key:n73033517129n
+zhashkwiki:azhashkwikiw2  NI_SET    " 1 muddy ground" ; !Rand key:n73033517845n
 zhebwaagan:azhebwaagan    NI_SET    " 1 oar" ; !Rand key:n73033518941n
 zhebwyaagan:azhebwayaagan    NI_SET    " 1 [see zhebwaagan]" ; !Rand key:n73033519125n
 Zhgaagoong:zhigaagoong    NI_SET    " 1 Chicago, Illinois" ; !Rand key:n73033536357n
@@ -2183,7 +2183,7 @@ gchi-miikna:gichi-miikana    NI_SET    " 1 highway, major road" ; !Rand key:n201
 Gchi-mookmaanii-kiwewin:gichi-mookomaanii-gikiwewin    NI_SET    " 1 American flag" ; !Rand key:n201133014-31-49n
 Gchi-mookmaanii-kiwewin:gichi-mookomaanii-ikiwewin    NI_SET    " 1 American flag" ; !Rand key:n201133014-31-49n
 ggwejkandiwin:gagwejikanidiwin    NI_SET    " 1 a race, a contest" ; !Rand key:n201133019-17-46n
-gii'nwaaknwi:giihanwaakonwi    NI_SET    " 1 fighting arrow, war arrow" ; !Rand key:n201133019-48-51n
+gii'nwaaknwi:giihanwaakonwiw2    NI_SET    " 1 fighting arrow, war arrow" ; !Rand key:n201133019-48-51n
 gkizhe:gakizhe    NI_SET    " 1 charcoal, piece of charcoal" ; !Rand key:n20114117-3-46n
 gowaans:agowaans    NI_SET    " 1 little garment, child's clothing" ; !Rand key:n20114122-33-2n
 gowin:agowin    NI_SET    " 1 garment, item of clothing" ; !Rand key:n20114122-35-37n
