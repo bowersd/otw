@@ -3,14 +3,14 @@ define finDevoi [b -> p || \[m] _ .#. ,,
                 d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ;
 define hApos [h -> ' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> ' || n _ k ] ; 
-define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%'] \[o]  _ (  
+define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  
                                                             p|t|k|c h|
                                                             [[s (h)](p|t|k)]|
                                                             [[m (b)]|[n (d|g|j|z (h)|s|h)]]|
                                                             w|y|'
                                                             )
                                                              .#.] .o.
-            [o -> a || [d|t|c h|j|y] \[o]  _ (  
+            [o -> a || [d|t|c h|j|y]  _ (  
                                                             p|t|k|c h|
                                                             [[s (h)](p|t|k)]|
                                                             [[m (b)]|[n (d|g|j|z (h)|s|h)]]|
