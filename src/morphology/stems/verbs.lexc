@@ -2588,8 +2588,8 @@ bmiiwzi:bimiiwizi    VAI_TAG    " 1 be in charge [of serving]" ; !Rand key:n7297
 bmikwe:bimikawe    VAI_TAG    " 1 leave footprints, leave tracks" ; !Rand key:n72978047502n
 bmikzhiwe:bimikozhiwe    VAI_TAG    " 1 [see bmakzhiwe]" ; !Rand key:n72978046236n
 bminaadzi:biminaadizi    VAI_TAG    " 1 be fussy, be picky" ; !Rand key:n7303329522n
-bminaashkaage:biminaashkaage    VAI_TAG    " 1 chase somebody, chase" ; !Rand key:n72978048561n
-bminaazh'ige:biminaazhVv1hige    VAI_TAG    " 1 drive, drive [along], drive by" ; !Rand key:n72978049334n
+bminaashkaage:biminaazhikaage    VAI_TAG    " 1 chase somebody, chase" ; !Rand key:n72978048561n
+bminaazh'ige:biminaazhihige    VAI_TAG    " 1 drive, drive [along], drive by" ; !Rand key:n72978049334n
 bmise:bimise    VAI_TAG    " 1 go flying [along], go flying by" ; !Rand key:n72978051289n
 bmishkaa:bVv1mishkaa    VAI_TAG    " 1 go [along] in a boat, go by in a boat" ; !Rand key:n72978052205n
 bmishkaa:bVv1mishkaa    VAI_TAG    " 1 come off, become detached" ; !Rand key:n72978052351n
@@ -6715,7 +6715,7 @@ aagnetwaa:aagonwetaw    VTA_TAG    " 1 disagree with smb." ; !Rand key:n72972746
 aagoowaa:aagoohw    VTA_TAG    " 1 close sth. (an.) off from view" ; !Rand key:n72972747160n
 aagwaabiigbinaa:aagwaabiigibin1    VTA_TAG    " 1 pull sth. (an.) closed (of drapes or curtains)" ; !Rand key:n72972748527n
 aajkonaa:aajikon    VTA_TAG    " 1 stop smb. from drawing all the tricks [in euchre]" ; !Rand key:n72972576437n
-aajnaashkowaa:aajinaashkaw    VTA_TAG    " 1 chase smb. into a corner, corner smb. trying to escape" ; !Rand key:n72973244232n
+aajnaashkowaa:aajinaazhikaw    VTA_TAG    " 1 chase smb. into a corner, corner smb. trying to escape" ; !Rand key:n72973244232n
 aakjinnjiinaa:aakijininjiin    VTA_TAG    " 1 unclench smb.'s fingers " ; !Rand key:n72973062974n
 aakmenmaa:aakVv1menim    VTA_TAG    " 1 be mindful of sth. (an.)" ; !Rand key:n72973063525n
 aakziiwkawaa:aakoziiwikaw    VTA_TAG    " 1 make smb. sick  (of things perceived)" ; !Rand key:n72973259140n
@@ -7264,7 +7264,7 @@ bsitwaa:bisitaw    VTA_TAG    " 1 be offended by smb.'s remarks, take offence at
 bskaabganaamaa:biskaabaganaam    VTA_TAG    " 1 hit sth. (an.) back" ; !Rand key:n72983658602n
 bskaabnaa:biskaabin    VTA_TAG    " 1 return sth. (an.) [as unsatisfactory]" ; !Rand key:n72983242262n
 bskaabnaashkawaa:biskaabinaazhikaw    VTA_TAG    " 1 send sth. (an.) back;  2 chase smb., pursue smb." ; !Rand key:n72983242582n
-bskaabnaazhkawaa:biskaabnaazhVv1kaw    VTA_TAG    " 1 [see bskaabnaashkawaa]" ; !Rand key:n72983659006n
+bskaabnaazhkawaa:biskaabnaazhikaw    VTA_TAG    " 1 [see bskaabnaashkawaa]" ; !Rand key:n72983659006n
 bskaabwebnaa:biskaabiwebin1    VTA_TAG    " 1 throw sth. (an.) back" ; !Rand key:n72983659739n
 bskaabwebnamwaa:biskaabiwebinamaw    VTA_TAG    " 1 throw something back to smb. " ; !Rand key:n72983660085n
 bskaabwidmawaa:biskaabiwidamaw    VTA_TAG    " 1 bring something back for smb., bring something back to smb., take something back for smb., take some" ; !Rand key:n72983659051n
@@ -7713,7 +7713,7 @@ giiskon'yebnaa:giizikonayebin1    VTA_TAG    " 1 pull smb.'s clothes off, take s
 giitaabiignaa:giitaabiigin1    VTA_TAG    " 1 outrun sth. (an.)" ; !Rand key:n73102061266n
 giiwaajbinaa:giiwaajibin1    VTA_TAG    " 1 make sth. (an.) go awry" ; !Rand key:n73023778762n
 giiwe'aa:giiweh    VTA_TAG    " 1 make smb. go home, send smb. home" ; !Rand key:n73023778536n
-giiwenaashkawaa:giiwenaashkaw    VTA_TAG    " 1 chase smb. home, send smb. home" ; !Rand key:n73023778616n
+giiwenaashkawaa:giiwenaazhikaw    VTA_TAG    " 1 chase smb. home, send smb. home" ; !Rand key:n73023778616n
 giiwenaazhkawaa:giiwenaazhikaw    VTA_TAG    " 1 [see giiwenaashkawaa]" ; !Rand key:n73023778865n
 giiwewnaa:giiwewin1    VTA_TAG    " 1 take smb. home" ; !Rand key:n73023779332n
 giiwnaadnawaa:giiwanaadVv1naw    VTA_TAG    " 1 drive smb. crazy by beating him [in a game]" ; !Rand key:n73023779623n
@@ -7998,7 +7998,7 @@ maajiidwaa:maajiidaw    VTA_TAG    " 1 take something [away] for smb., take some
 maajiig'aa:maajiigih    VTA_TAG    " 1 cultivate sth. (an.), grow sth. (an.)" ; !Rand key:n71429073609n
 maajiikwaa:maajiikaw    VTA_TAG    " 1 begin working on sth. (an.), start working on sth. (an.)" ; !Rand key:n73035439238n
 maajiinaa:maajiin1    VTA_TAG    " 1 take sth. (an.) away, take sth. (an.) somewhere, take sth. (an.) with one" ; !Rand key:n71429138363n
-maajiinaashkwaa:maajiinaashkaw    VTA_TAG    " 1 [see maajiinaazhkawaa]" ; !Rand key:n71429138801n
+maajiinaashkwaa:maajiinaazhikaw    VTA_TAG    " 1 [see maajiinaazhkawaa]" ; !Rand key:n71429138801n
 maajiishkaa'aa:maajiishkaah    VTA_TAG    " 1 make sth. (an.) start (of vehicles)" ; !Rand key:n7308603958n
 maajiiwdamwaa:maajiiwidamaw    VTA_TAG    " 1 take something [away] for smb., take something [away] from smb., take something [away] to smb." ; !Rand key:n71429139935n
 maajiiwdawaa:maajiiwidaw    VTA_TAG    " 1 [see maajiiwdamwaa]" ; !Rand key:n71429140225n
@@ -8345,7 +8345,7 @@ nangwebnaa:nanangiwebin    VTA_TAG    " 1 [see nnangwebnaa]" ; !Rand key:n714311
 napnaa:inapin1    VTA_TAG    " 1 tie sth. (an.) in a certain manner, tie sth. (an.) [in preparation];  2 put a harness on sth. (an.)" ; !Rand key:n71431169183n
 nawaa:inaw    VTA_TAG    " 1 look like smb. [e.g., a forebear], resemble smb. [e.g., a forebear], take after smb." ; !Rand key:n71431169745n
 nawemaa:Vi1nawem    VTA_TAG    " 1 be related to smb." ; !Rand key:n73033613144n
-nbaanaashkawaa:nibaanaashkaw    VTA_TAG    " 1 chase smb. to bed, send smb. to bed" ; !Rand key:n71431170590n
+nbaanaashkawaa:nibaanaazhikaw    VTA_TAG    " 1 chase smb. to bed, send smb. to bed" ; !Rand key:n71431170590n
 nbaanaazhkawaa:nibaanaazhikaw    VTA_TAG    " 1 [see nbaanaashkawaa]" ; !Rand key:n71431170732n
 nbagbinaa:nabagibin1    VTA_TAG    " 1 flatten sth. (an.) [with the hands]" ; !Rand key:n71431171486n
 nbagganaamaa:nabagaganaam    VTA_TAG    " 1 pound sth. (an.) flat" ; !Rand key:n71431171842n
@@ -8395,7 +8395,7 @@ ndamaabmaa:ondamaabam    VTA_TAG    " 1 be preoccupied with watching smb." ; !Ra
 ndamaakmaanaa:nandamaakomaan    VTA_TAG    " 1 look for lice on smb.'s head, pick lice from smb.'s head" ; !Rand key:n73098653051n
 ndamiikwaa:ondamiikaw    VTA_TAG    " 1 be busy with sth. (an.), be preoccupied with sth. (an.)" ; !Rand key:n72989348162n
 ndanaas'aa:ondanaasih    VTA_TAG    " 1 check smb. for nits, check smb. for lice" ; !Rand key:n73033633038n
-ndanaashkawaa:nandanaashkaw    VTA_TAG    " 1 run around in search of smb." ; !Rand key:n71431364093n
+ndanaashkawaa:nandanaazhikaw    VTA_TAG    " 1 run around in search of smb." ; !Rand key:n71431364093n
 ndanaazhkawaa:nandanaazhikaw    VTA_TAG    " 1 [see ndanaashkawaa]" ; !Rand key:n71431364298n
 ndane'mawaa:nandanehamaw    VTA_TAG    " 1 search for something for smb." ; !Rand key:n71431439538n
 ndanewaa:nandanehw    VTA_TAG    " 1 look for smb., search for smb.;  2 take sth. (an.) out [of a container]" ; !Rand key:n71431439644n
@@ -8575,7 +8575,7 @@ nzamwaa:onzamaw    VTA_TAG    " 1 boil something for smb." ; !Rand key:n71435144
 nzwaa:onzw    VTA_TAG    " 1 boil sth. (an.)" ; !Rand key:n71435144885n
 paa'aa:apaah    VTA_TAG    " 1 keep smb. awake, prevent smb. from sleeping, wake smb. up [accidentally]" ; !Rand key:n73031079761n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 paamaa:apaam    VTA_TAG    " 1 awaken smb. [accidentally] by talking or shouting or laughing, wake smb. up [accidentally] by talking, shouting or laughing, keep smb. awake by talking, shouting or laughing" ; !Rand key:n73033848376n
-paanaashkwaa:apaanaashkaw    VTA_TAG    " 1 keep smb. awake by chasing him around" ; !Rand key:n73031082392n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+paanaashkwaa:apaanaazhikaw    VTA_TAG    " 1 keep smb. awake by chasing him around" ; !Rand key:n73031082392n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 paanaazhkawaa:apaanaazhikaw    VTA_TAG    " 1 [see paanaashkwaa]" ; !Rand key:n73031082932n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 pagdamwaa:apagidamaw    VTA_TAG    " 1 throw something to smb., throw something belonging to smb." ; !Rand key:n7303114670n
 pagdawaa:apagidaw    VTA_TAG    " 1 throw something to smb., throw something belonging to smb." ; !Rand key:n7303703323n
@@ -8935,8 +8935,8 @@ zhiitaawshimaa:ozhiitaawishim    VTA_TAG    " 1 make sth. (an.) ready, prepare s
 zhijiinaa:izhijiin    VTA_TAG    " 1 hold sth. (an.) in a certain way" ; !Rand key:n73033635797n
 zhiknaa:izhikon1    VTA_TAG    " 1 cut sth. (an.) in a certain way" ; !Rand key:n73033636900n
 zhin'kaanaa:izhinikaan1    VTA_TAG    " 1 call smb. by a certain name" ; !Rand key:n73033639328n
-zhinaashkamwaa:izhinaashkamaw    VTA_TAG    " 1 chase someone to smb." ; !Rand key:n73033637815n
-zhinaashkawaa:izhinaashkaw    VTA_TAG    " 1 send smb. to a certain place;  2 chase smb. in a certain direction, chase smb. to a certain place" ; !Rand key:n73033638000n
+zhinaashkamwaa:izhinaazhikamaw    VTA_TAG    " 1 chase someone to smb." ; !Rand key:n73033637815n
+zhinaashkawaa:izhinaazhikaw    VTA_TAG    " 1 send smb. to a certain place;  2 chase smb. in a certain direction, chase smb. to a certain place" ; !Rand key:n73033638000n
 zhinaazhkawaa:izhinaazhikaw    VTA_TAG    " 1 [see zhinaashkawaa]" ; !Rand key:n73033638733n
 zhinaazhwaa:izhinaazhaw    VTA_TAG    " 1 send smb. to a certain place" ; !Rand key:n73033638840n
 zhinmaa:Vi1zhinim    VTA_TAG    " 1 have smb. as an in-law" ; !Rand key:n73033639841n
@@ -11139,7 +11139,7 @@ ndakdaan:nandakod    VTI_AM_THEME    " 1 cut into something in search of sth." ;
 ndakwe'aan:nandakweh    VTI_AM_THEME    " 1 look for the tracks of sth." ; !Rand key:n71431363171n
 ndamaabndaan:ondamaaband    VTI_AM_THEME    " 1 be preoccupied with watching sth." ; !Rand key:n73032538852n
 ndamiikaan:ondamiik    VTI_AM_THEME    " 1 be busy with sth., be preoccupied with sth." ; !Rand key:n72989347969n
-ndanaashkaan:nandanaashk    VTI_AM_THEME    " 1 run around in search of sth." ; !Rand key:n71431363986n
+ndanaashkaan:nandanaazhik    VTI_AM_THEME    " 1 run around in search of sth." ; !Rand key:n71431363986n
 ndanaazhkaan:nandanaazhik    VTI_AM_THEME    " 1 [see ndanaashkaan]" ; !Rand key:n71431364214n
 ndandaan:nandand    VTI_AM_THEME    " 1 taste sth. looking for a particular taste" ; !Rand key:n71431439176n
 ndane'aan:nandaneh    VTI_AM_THEME    " 1 look for sth.; search for sth.;  2 take sth. out [of a container]" ; !Rand key:n71431439366n
