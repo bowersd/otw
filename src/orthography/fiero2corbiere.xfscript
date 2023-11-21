@@ -1,6 +1,6 @@
 
 define finDevoi [b -> p || \[m] _ .#. ,,
-                d -> t, g -> k, z -> s, z h -> s h, j -> ch || \[n] _ .#. ] ;
+                d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ;
 define hApos [h -> ' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> ' || n _ k ] ; 
 define oa  [o -> a || \[o]  _ (  
