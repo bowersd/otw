@@ -1404,8 +1404,6 @@ baashkzigan:baashkizigan    NI_SET    " 1 gun" ; !Rand key:n72975361676n
 baashkzigewin:baashkizigewin    NI_SET    " 1 semen" ; !Rand key:n72975361832n
 baataa-doodwin:baataa-doodVv1win    NI_SET    " 1 sin" ; !Rand key:n72975844443n
 babgiwyaan:Vv1babagiwayaan    NI_SET    " 1 shirt" ; !Rand key:n72975859246n
-bakjigan:baakijigan    NI_SET    " 1 hand planter" ; !Rand key:n72975859898n
-bakjigan:badakijigan    NI_SET    " 1 hand planter" ; !Rand key:n72975859898n
 bangii:bangii    NI_SET    " 1 a few, a little, a little bit, a small amount" ; !Rand key:n72975860957n
 baskawaan:Vv1basikawaan    NI_SET    " 1 shinny bag" ; !Rand key:n72975864816n
 bayoo:bayoo    NI_SET    " 1 baby's hammock" ; !Rand key:n72975865222n !† removed
@@ -1414,6 +1412,7 @@ bbagooyaan:babagooyaan    NI_SET    " 1 cloth, bolt of cloth; fabric" ; !Rand ke
 bbagooyaan:babagVi1wayaan    NI_SET    " 1 shirt" ; !Rand key:n72976159795n
 bbagwayaan:babagiwayaan    NI_SET    " 1 shirt" ; !Rand key:n72976159581n
 bbigon:bibigon    NI_SET    " 1 flute" ; !Rand key:n72976243741n
+bakjigan:badakijigan    NI_SET    " 1 hand planter" ; !Rand key:n72975859898n
 bdakji'gan:badakijihigan    NI_SET    " 1 fork" ; !Rand key:n72976254596n
 bdakjii'gan:badakajiihigan    NI_SET    " 1 [dinner] fork" ; !Rand key:n72976254652n
 bdakshka'gan:badakashkahigan    NI_SET    " 1 hay fork, pitchfork" ; !Rand key:n72976254860n
