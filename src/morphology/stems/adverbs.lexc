@@ -274,7 +274,7 @@ mewnzha:mewinzha    AV_TAG    " 1 long ago, long since, a long time ago, a long 
 mii:mii    AV_TAG    " 1 that's how..., that's what..., that's when..., that's where..., that's who...;  2 that's...;  3 then (in narrative sequence)" ; !Rand key:n71429652087n
 mii'sh:mii-sh    AV_TAG    " 1 and so, and that's..., and then" ; !Rand key:n71429682069n
 miinwaa:miinawaa    AV_TAG    " 1 and;  2 again;  3 more" ; !Rand key:n71429681783n
-minwaa:minawaa    AV_TAG    " 1 [see miinwaa]" ; !Rand key:n71429740443n
+!minwaa:miinawaa    AV_TAG    " 1 [see miinwaa]" ; !Rand key:n71429740443n !this should be handled by a near neighbor matching system
 mji-mnidoonaang:maji-manidoonaang    AV_TAG    " 1 hell, in hell" ; !Rand key:n71429743061n
 mma'iing:mamahiing    AV_TAG    " 1 out in the open" ; !Rand key:n73032751062n
 mmaandaa:mamaandaa    AV_TAG    " 1 amazing, incredible, miraculous;  2 it's a wonder that... (indicating something that is contrary to reasonable expectation);  3 strange" ; !Rand key:n71429840205n
