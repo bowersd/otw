@@ -1801,7 +1801,7 @@ maazhma:maazhVv1mVa1    VAI_TAG    " 1 {check}" ; !Rand key:n73032750757n
 aabdaan'gidoon:aabidaanagidoon    VAI_TAG    " 1 talk continually, talk incesssantly" ; !Rand key:n72983051230n
 aabdaangzhe:aabidaangazhe    VAI_TAG    " 1 have a steady job; work steadily, have steady work" ; !Rand key:n7291536867n
 aabdewebza:aabidewebizVa1    VAI_TAG    " 1 make a constant noise, make noise incessantly  (of motorized things)" ; !Rand key:n7291537471n
-aabdewebzo:aabidewebizo    VAI_TAG    " 1 [see aabdwebza]" ; !Rand key:n65119627863n
+!aabdewebzo:aabidewebizo    VAI_TAG    " 1 [see aabdwebza]" ; !Rand key:n65119627863n
 aabdizi:aabadizi    VAI_TAG    " 1 be used, be put to use [for a certain purpose];  2 be useful, be of use" ; !Rand key:n7291538084n
 aabdwewe:aabidwewe    VAI_TAG    " 1 be on constantly" ; !Rand key:n73006056995n
 aabdwewebza:aabidwewebizVa1    VAI_TAG    " 1 [see aabdewebza]" ; !Rand key:n7297124335n
@@ -6038,7 +6038,7 @@ baamaadzi:babaamaadizi    VAI_TAG    " 1 [see bbaamaadzi]" ; !Rand key:n65306724
 dpine:dapine    VAI_TAG    " 1 die in a certain place, suffer in a certain place;  2 Get lost!;  3 Drop dead!" ; !Rand key:n65665173497n
 binoojiinswi:abinoojiinsiwi    VAI_TAG    " 1 be an infant, be a baby" ; !Rand key:n200562319-15-10n
 binoojiinywi:abinoojiinyiwi    VAI_TAG    " 1 be a child, be a smalll child" ; !Rand key:n200562319-19-24n
-aaboojbizo:aaboojibizo    VAI_TAG    " 1 [see aaboojbiza]" ; !Rand key:n2005716-23-34n
+!aaboojbizo:aaboojibizo    VAI_TAG    " 1 [see aaboojbiza]" ; !Rand key:n2005716-23-34n
 niibdegaabwi:niibidegaabawi    VAI_TAG    " 1 stand in line" ; !Rand key:n20058514-7-5n
 damoojige:gondamoojige    VAI_TAG    " 1 [see gndamoojge]" ; !Rand key:n20058516-41-39n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 bweyaakgwewe:abweyaakogwewe    VAI_TAG    " 1 have a sweaty neck, have one's neck get sweaty" ; !Rand key:n20058914-58-55n
