@@ -1384,7 +1384,7 @@ aandaabdesjigan:aandaabidesijigan    NI_SET    " 1 gearshift" ; !Rand key:n72973
 aandaabka'gan:aandaabikahigan    NI_SET    " 1 key" ; !Rand key:n72973264348n
 aanzyaan:aanziyaan    NI_SET    " 1 diaper (comm);  2 breech cloth (LH)" ; !Rand key:n72973742701n
 aapwewin:aapawewin    NI_SET    " 1 bad dream, nightmare" ; !Rand key:n72973756016n
-aasookaan:aasookaan    NI_SET    " 1 legend, myth, sacred story" ; !Rand key:n72973860815n
+aasookaan:aadisookaan    NI_SET    " 1 legend, myth, sacred story" ; !Rand key:n72973860815n
 aazhdaadiwin:aazhidaadiwin    NI_SET    " 1 mutual revenge" ; !Rand key:n72974064386n
 aazhdawwin:aazhidawiwin    NI_SET    " 1 revenge" ; !Rand key:n72974064661n
 aazhdeyaakbii'gan:aazhideyaakobiihigan    NI_SET    " 1 mark, an X" ; !Rand key:n72974445544n
