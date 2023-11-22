@@ -42,7 +42,7 @@ Naaban-giizis:onaaban-giiziso    NA_SET    " 1 February (Crust-on-the-snow moon)
 Naabni-giizis:onaabani-giiziso    NA_SET    " 1 February (Crust-on-the-snow moon)" ; !Rand key:n71430848891n
 Nmebin-giizis:namebin-giiziso    NA_SET    " 1 January (Sucker moon);  2 April (Sucker moon)" ; !Rand key:n71433644297n
 Nmebni-giizis:namebini-giiziso    NA_SET    " 1 [see Nmebin-giizis]" ; !Rand key:n71433644838n
-Waawaaskone-giizis:waawaaskone-giiziso    NA_SET    " 1 May (Flower Moon)" ; !Rand key:n73071849941n
+Waawaaskone-giizis:waawaazakone-giiziso    NA_SET    " 1 May (Flower Moon)" ; !Rand key:n73071849941n
 Ziizbaakdoke-giizis:ziizibaakodoke-giiziso    NA_SET    " 1 Sugaring Moon (March)" ; !Rand key:n73035750040n ![gk]Vo1 replaced with [gk]o
 baakwaanaatik:baakwaanaatigo    NA_SET    " 1 staghorn sumac (a type of bush or small tree)" ; !Rand key:n72974659055n
 baapaashkwaatik:baapaashkiwaatigo    NA_SET    " 1 balsam (a kind of tree)" ; !Rand key:n72974660394n
@@ -1345,7 +1345,7 @@ noon'kenh:noonVv1keny    NI_SET    " 1 crock, earthenware jar, bean jar" ; !Rand
 pashkwaajiinh:apashkwaajiiny    NI_SET    " 1 balloon; ??air bladder [of a fish]" ; !Rand key:n73031179677n
 shibaayiigni-mjigoodenh:Vv1shibaayiigini-majigoodeny    NI_SET    " 1 dress made of chiffon" ; !Rand key:n7303409556n
 waab-gookookoonh:waab-gookookoony    NI_SET    " 1 wedding cake" ; !Rand key:n73032181171n
-waawaaskonenh:waawaasikoneny    NI_SET    " 1 flower" ; !Rand key:n73032685124n
+waawaaskonenh:waawaazakoneny    NI_SET    " 1 flower" ; !Rand key:n73032685124n !za changed from si!
 wewiinbaanh:wewiinVv1baany    NI_SET    " 1 squash" ; !Rand key:n73032949250n
 wiig'asiinh:wiigahasiiny    NI_SET    " 1 dustballs" ; !Rand key:n73034128473n
 wiikenh:wiikeny    NI_SET    " 1 sweet flag (waterside plant), sweet flag root;  2  iris" ; !Rand key:n73033038835n
@@ -1855,7 +1855,7 @@ nakiiwin:anVa1kiiwin    NI_SET    " 1 work ;  2 engine, machine" ; !Rand key:n71
 nakmaan:anakamaan    NI_SET    " 1 suspender" ; !Rand key:n73033564152n
 nam'e-mzin'igan:anamahe-mazinahigan    NI_SET    " 1 prayer book" ; !Rand key:n73033565001n
 nam'e-n'gamwin:anamahe-nagamowin    NI_SET    " 1 hymn" ; !Rand key:n73033612674n
-nam'e-waaskonenjgaans:anamahe-waasakonenjgaans    NI_SET    " 1 votive candle" ; !Rand key:n73033565126n
+nam'e-waaskonenjgaans:anamahe-waazakonenjgaans    NI_SET    " 1 votive candle" ; !Rand key:n73033565126n
 nam'eskaan:anamihesikaan    NI_SET    " 1 altar" ; !Rand key:n71431160535n
 nam'ew-giizhgat:anamihewigiizhigad    NI_SET    " 1 week" ; !Rand key:n71431160810n
 nam'ewaaboo:anamihewaaboo    NI_SET    " 1 holy water" ; !Rand key:n73033612856n
@@ -1985,11 +1985,11 @@ waanzh:waanzh    NI_SET    " 1 cave, den, lair" ; !Rand key:n73032485241n
 waasechgan:waasechigan    NI_SET    " 1 window" ; !Rand key:n73032486310n
 waasgan:waasagan    NI_SET    " 1 pepper [the spice]" ; !Rand key:n7303256683n
 waasgang-kosmaan:waasgang-okosimaan    NI_SET    " 1 bell pepper, sweet pepper" ; !Rand key:n7303256797n
-waaskonechgaans:waasVi1konechigaans    NI_SET    " 1 flashlight;  2 light bulb" ; !Rand key:n7303256982n
-waaskonechgan:waasVi1konechigan    NI_SET    " 1 lamp, lantern, light" ; !Rand key:n7303257084n
-waaskonechganaaboo:waasVi1konechiganaaboo    NI_SET    " 1 kerosene" ; !Rand key:n7303257185n
-waaskonenjgan:waasVi1konenjigan    NI_SET    " 1 light (for illumination)" ; !Rand key:n73034029571n
-waaskosga'gan:waasVi1kosagahigan    NI_SET    " 1 varnish" ; !Rand key:n73034030148n
+waaskonechgaans:waazakonechigaans    NI_SET    " 1 flashlight;  2 light bulb" ; !Rand key:n7303256982n
+waaskonechgan:waazakonechigan    NI_SET    " 1 lamp, lantern, light" ; !Rand key:n7303257084n
+waaskonechganaaboo:waazakonechiganaaboo    NI_SET    " 1 kerosene" ; !Rand key:n7303257185n
+waaskonenjgan:waazakonenjigan    NI_SET    " 1 light (for illumination)" ; !Rand key:n73034029571n
+waaskosga'gan:waazakosagahigan    NI_SET    " 1 varnish" ; !Rand key:n73034030148n
 waasmowin:waasamowin    NI_SET    " 1 electricity, hydro;  2 lightning" ; !Rand key:n73032513468n
 waawaabmowin:waawaabamowin    NI_SET    " 1 mirror" ; !Rand key:n73032684495n
 waawaashkeshi-weyaan:waawaashkeshi-weyaan    NI_SET    " 1 deer pelt, deer hide" ; !Rand key:n73032685567n
