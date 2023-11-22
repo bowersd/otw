@@ -1,8 +1,8 @@
 
-define finDevoi [b -> p || \[m] _ .#. ,,
-                d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ;
 define hApos [h -> %' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> %' || n _ k ] ; 
+define finDevoi [b -> p || \[m] _ .#. ,,
+                d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ;
 define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added to accomodate areas where o's observed in corbiere final sylls
                                                             p|t|k|c h|
                                                             [[s (h)](p|t|k)]|
@@ -19,13 +19,15 @@ define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added 
                                                              .#.
                                                              ] ; 
 
+define yayi [a (->) i || y _ ] ; 
 define stridDevoi [z h (->) s h, z (->) s || _ [p|t|k|b|d|g] ] ; !other devoicing possible, may expand rule, but these set up apparent primary clusters, so they got the first look !!j (->) c h also a strident, but does not make a cluster
 define postStridDevoi [b (->) p, d (->) t, g (->) k || [s|s h] _  ] ; !This rounds out the false strident cluster generation. I don't think lenes fortite if the first member of the cluster stays lenis
 
-regex [ finDevoi .o.
-        hApos .o.
-        aposEpen .o.
+regex [ aposEpen .o. !character set differences
+        hApos .o. 
+        finDevoi .o. !surfacey phonology
         oa .o.
+        yayi .o. !this is fed by oa, not sure if that is right
         stridDevoi .o.
         postStridDevoi
         ] ;
