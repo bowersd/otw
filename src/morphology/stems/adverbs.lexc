@@ -422,7 +422,7 @@ pane:apane    AV_TAG    " 1 all the time, always, for all time; since, ever sinc
 pii:apii    AV_TAG    " 1 at a certain time, when" ; !Rand key:n73031182181n
 piich:apiich    AV_TAG    " 1 in a while" ; !Rand key:n73031183008n
 piichin:apiichin    AV_TAG    " 1 continually, keep [doing...], every now and then, from time to time" ; !Rand key:n73031184500n
-pipiichin:pipiichin    AV_TAG    " 1 from time to time" ; !Rand key:n73031210275n
+pipiichin:pipiichin    AV_TAG    " 1 from time to time" ; !Rand key:n73031210275n !this looks like novel reduplication (yapiichin expected with /apiichin/ above)
 pooch:pooch    AV_TAG    " 1 have to, must" ; !Rand key:n73031213440n
 pooj:pooj    AV_TAG    " 1 [see booch]" ; !Rand key:n73031276943n
 sha:osha    AV_TAG    " 1 emphatic (emphatic of contradiction)" ; !Rand key:n7303131304n
