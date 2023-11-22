@@ -1950,7 +1950,7 @@ aashta-boozi:aazhida-boozi    VAI_TAG    " 1 transfer from one vehicle to anothe
 aashtawgwaashkni:aazhidawigwaashkoni    VAI_TAG    " 1 jump from one place to another, jump to another side;  2 change sides (among contending groups), take another's side" ; !Rand key:n72973757214n
 aasnikepza:aasonikepizo    VAI_TAG    " 1 wear a bandage on one's arm, be bandaged around one's arm" ; !Rand key:n72973759629n
 aasninjiipza:aasoninjiipizo    VAI_TAG    " 1 wear a bandage on one's hand, be bandaged around one's hand" ; !Rand key:n72973858786n
-aasooke:aasooke    VAI_TAG    " 1 tell a legend, tell a myth, tell a sacred story" ; !Rand key:n72973860903n
+aasooke:aadisooke    VAI_TAG    " 1 tell a legend, tell a myth, tell a sacred story" ; !Rand key:n72973860903n
 aaspiza:aasopizo    VAI_TAG    " 1 be bandaged" ; !Rand key:n72973944749n
 aasshin:aasoshin    VAI_TAG    " 1 lean against something" ; !Rand key:n72973761771n
 aaswaakdabi:aaswaakodabi    VAI_TAG    " 1 sit leaning against something" ; !Rand key:n7303648698n
