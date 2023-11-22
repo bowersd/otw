@@ -164,7 +164,7 @@ bdaksin:badakisin    VII_TAG    " 1 stand2erect (of sticklike objects)" ; !Rand 
 bdangbide:badangibide    VII_TAG    " 1 change course, turn" ; !Rand2key:n72983852827n
 bdikwewe:bidikwewe    VII_TAG    " 1 be thumping sounds, rumble" ; !Rand2key:n72976265657n
 bedaanzhe:bedaanzhe    VII_TAG    " 1 be dim, shine dimly (of (one's) lights)" ; !Rand2key:n73004653246n
-bedaaskone:bedaasVv1kone    VII_TAG    " 1 be dim, shine dimly (of (one's) lights)" ; !Rand2key:n73004652834n
+bedaaskone:bedaazakone    VII_TAG    " 1 be dim, shine dimly (of (one's) lights)" ; !Rand2key:n73004652834n
 bedwewe:bedwewe    VII_TAG    " 1 be low in volume" ; !Rand2key:n73024180838n
 bejbide:bejibide    VII_TAG    " 1 fly slowly, go slowly;  2 run slowly (of things with motors)" ; !Rand2key:n72976545947n
 bejiiwiimgat:bejiiwiimagad2   VII_TAG    " 1 be [physically] weak, grow [physically] weak" ; !Rand key:n72976548030n
@@ -404,7 +404,7 @@ dbinwaa:dibinwaa    VII_TAG    " 1 be sheltered2[from the wind]" ; !Rand key:n72
 dbishkoose:dibishkoose    VII_TAG    " 1 mark a certain unit of time elapsed2[since an event], come around  (of time)" ; !Rand key:n72994043708n
 dboosko-yaa:dVv1boosko-ayaa    VII_TAG    " 1 be deep (of concave objects)" ; !Rand2key:n72994052143n
 ddaaknagweyaa:dadaakonagweyaa    VII_TAG    " 1 be short-sleeved, have short sleeves" ; !Rand2key:n73098540251n ![gk]Vo1 replaced with [gk]o
-ddanaaskone:dadanaasakone    VII_TAG    " 1 shine (away); keep shining (of a light)" ; !Rand2key:n73033131812n
+ddanaaskone:dadanaazakone    VII_TAG    " 1 shine (away); keep shining (of a light)" ; !Rand2key:n73033131812n
 ddanwewe:dadanwewe    VII_TAG    " 1 play away; keep playing (of radios)" ; !Rand2key:n73033131986n
 ddibewemat:dadibewemad2   VII_TAG    " 1 follow the shore (of roads)" ; !Rand key:n73001158119n
 dditbijiise:daditibijiise    VII_TAG    " 1 roll " ; !Rand2key:n73001156932n
@@ -560,7 +560,7 @@ ggwetaan'gamde:gagwetaanigamide    VII_TAG    " 1 boil exceedingly hard" ; !Rand
 ggwetaan'ginde:gagwetaanaginde    VII_TAG    " 1 cost an awful lot, be exceedingly expensive" ; !Rand2key:n73021177196n
 ggwetaanaagmi:gagwetaanaagami    VII_TAG    " 1 taste exceedingly good2(of liquids)" ; !Rand key:n73021176283n
 ggwetaanaagnagaa:gagwetaanaagonagaa    VII_TAG    " 1 be exceedingly snowy (of amount on the ground)" ; !Rand2key:n73021175617n
-ggwetaanaaskone:gagwetaanaasakone    VII_TAG    " 1 be ablaze [with light], be bright, blaze [with light], shine brightly (of lights)" ; !Rand2key:n730901714n
+ggwetaanaaskone:gagwetaanaazakone    VII_TAG    " 1 be ablaze [with light], be bright, blaze [with light], shine brightly (of lights)" ; !Rand2key:n730901714n
 ggwetaanaate:gagwetaanaate    VII_TAG    " 1 be exceedingly hot [from the sun]" ; !Rand2key:n73021175795n
 ggwetaanat:gagwetaanad2   VII_TAG    " 1 be marvelous, be remarkable" ; !Rand key:n73021175915n
 ggwetaanbide:gagwetaanibide    VII_TAG    " 1 fly exceedingly fast, move exceedingly fast" ; !Rand2key:n73021176014n
@@ -703,7 +703,7 @@ gzhiibde:gizhiibide    VII_TAG    " 1 go fast;  2 drive fast;  3 fly fast" ; !Ra
 gzhiigde:gizhiigide    VII_TAG    " 1 be hot (of cloth)" ; !Rand2key:n73098752295n
 gzhiijwan:gizhiijiwan    VII_TAG    " 1 flow fast, run fast  (of liquids)" ; !Rand2key:n73032347440n
 gzhiiyaanzhe:gizhiiyaanzhe    VII_TAG    " 1 be bright, shine brightly" ; !Rand2key:n730901834n
-gzhiiyaaskone:gizhiiyaaskone    VII_TAG    " 1 be bright, shine brightly" ; !Rand2key:n7309011135n
+gzhiiyaaskone:gizhiiyaazakone    VII_TAG    " 1 be bright, shine brightly" ; !Rand2key:n7309011135n
 gzhinaamde:gizhinaamode    VII_TAG    " 1 be hot and2humid" ; !Rand key:n73032348445n
 gzigon:gozigon    VII_TAG    " 1 be heavy" ; !Rand2key:n73032441630n ![gk]Vo1 replaced with [gk]o
 gzigwan:gozigwan    VII_TAG    " 1 [see gzigon]" ; !Rand2key:n73032441677n
@@ -1287,8 +1287,8 @@ waaseyaa:waaseyaa    VII_TAG    " 1 be light out" ; !Rand2key:n7303256165n
 waaseyaagmi:waaseyaagami    VII_TAG    " 1 be clear (of water)" ; !Rand2key:n7303256306n
 waasheyaagmi:waasheyaagami    VII_TAG    " 1 be translucent (of water)" ; !Rand2key:n7303257396n
 waaskode:waasVi1kode    VII_TAG    " 1 shine, be bright, be glossy, be shiny" ; !Rand2key:n7303257797n
-waaskone:waasVi1kone    VII_TAG    " 1 glow, be lit, be on, give off light, shine " ; !Rand2key:n73032512268n
-waaskonese:waasVi1konese    VII_TAG    " 1 come on, flash on (of lights)" ; !Rand2key:n73032512362n
+waaskone:waazakone    VII_TAG    " 1 glow, be lit, be on, give off light, shine " ; !Rand2key:n73032512268n
+waaskonese:waazakonese    VII_TAG    " 1 come on, flash on (of lights)" ; !Rand2key:n73032512362n
 waasnoode:waasVi1noode    VII_TAG    " 1 be northern lights, shimmer [of northern lights]" ; !Rand2key:n73032513553n
 waaswat:waasawad2   VII_TAG    " 1 be distant, be far" ; !Rand key:n73032513836n
 waaswendaagot:waasawendaagod2   VII_TAG    " 1 seem far" ; !Rand key:n73098440347n ![gk]Vo1 replaced with [gk]o
@@ -1752,7 +1752,7 @@ dbasgin:dabasigin    VII_TAG    " 1 be low-growing, [plant] grow to a low height
 ddibaaksin:didibaakosin    VII_TAG    " 1 be wound2around something" ; !Rand key:n20161237-42-30n
 ddibaakwegnigaade:didibaakweginigaade    VII_TAG    " 1 be rolled2up (of sheetlike objects)" ; !Rand key:n20161237-44-31n
 dditbijiiyaasin:diditibijiiyaasin    VII_TAG    " 1 be blown rolling, be rolled2by the wind" ; !Rand key:n20161237-47-15n
-debaaskone:debaasakone    VII_TAG    " 1 shine in the distance" ; !Rand2key:n20161238-5-30n
+debaaskone:debaazakone    VII_TAG    " 1 shine in the distance" ; !Rand2key:n20161238-5-30n
 debbii:debibii    VII_TAG    " 1 fit [into a container] (of liquids)" ; !Rand2key:n20161238-26-34n
 debshkinemgat:debashkinemagad2   VII_TAG    " 1 fit [into a container], fit [in a vehicle]" ; !Rand key:n20161239-16-5n
 desaangeyaa:desaangeyaa    VII_TAG    " 1 be wide-brimmed, have a wide brim (of hats)" ; !Rand2key:n20161239-34-23n
@@ -2187,8 +2187,8 @@ bebkaanshin:bebakaanishin    VAI_TAG    " 1 sleep in separate beds" ; !Rand key:
 bedaadzi:bedaadizi    VAI_TAG    " 1 be slow by nature, be slow [in one's approach to things]" ; !Rand key:n72976551738n
 bedaagzi:bedaagizi    VAI_TAG    " 1 be weak [physically]" ; !Rand key:n72976547038n
 bedaanzhe:bedaanzhe    VAI_TAG    " 1 be dim, shine dimly (of (one's) lights)" ; !Rand key:n73090180n
-bedaaskone:bedaasVv1kone    VAI_TAG    " 1 be dim, shine dimly (of (one's) lights)" ; !Rand key:n73004653094n
-bedaaskonwe:bedaasVv1konVv1we    VAI_TAG    " 1 be dim, have one's place dimly lit, shine dimly (of one's place)" ; !Rand key:n7309011246n
+bedaaskone:bedaazakone    VAI_TAG    " 1 be dim, shine dimly (of (one's) lights)" ; !Rand key:n73004653094n
+bedaaskonwe:bedaazakonVv1we    VAI_TAG    " 1 be dim, have one's place dimly lit, shine dimly (of one's place)" ; !Rand key:n7309011246n
 bedwewe:bedwewe    VAI_TAG    " 1 talk in a low voice" ; !Rand key:n73024181114n
 bedwewechge:bedwewechige    VAI_TAG    " 1 play music at a low volume, play a radio at a low volume" ; !Rand key:n73052043064n
 begde:begade    VAI_TAG    " 1 belch, burp" ; !Rand key:n72976545542n
@@ -3339,8 +3339,8 @@ ggwetaan'gidaaza:gagwetaanigidaazo    VAI_TAG    " 1 be furious" ; !Rand key:n73
 ggwetaan'giza:gagwetaanagizo    VAI_TAG    " 1 cost an awful lot, be exceedingly expensive" ; !Rand key:n73021177328n
 ggwetaanaabkizaawe:gagwetaanaabikizaawe    VAI_TAG    " 1 be extremely drunk, be really inebriated" ; !Rand key:n73102055554n
 ggwetaanaadgaa:gagwetaanaadagaa    VAI_TAG    " 1 swim exceedingly fast" ; !Rand key:n73021175393n
-ggwetaanaaskone:gagwetaanaasakone    VAI_TAG    " 1 be ablaze [with light], be bright, blaze [with light], shine brightly (of lights, of one's lights)" ; !Rand key:n730901503n
-ggwetaanaaskonwe:gagwetaanaasakoniwe    VAI_TAG    " 1 have one's [house] lights blazing, have one's [house] lights all ablaze" ; !Rand key:n73031720478n
+ggwetaanaaskone:gagwetaanaazakone    VAI_TAG    " 1 be ablaze [with light], be bright, blaze [with light], shine brightly (of lights, of one's lights)" ; !Rand key:n730901503n
+ggwetaanaaskonwe:gagwetaanaazakoniwe    VAI_TAG    " 1 have one's [house] lights blazing, have one's [house] lights all ablaze" ; !Rand key:n73031720478n
 ggwetaanbagza:gagwetaanbagizo    VAI_TAG    " 1 jump really high [from being startled]" ; !Rand key:n73102055195n
 ggwetaanbatoo:gagwetaanibatoo    VAI_TAG    " 1 run exceedingly fast, run very quickly" ; !Rand key:n73031721987n
 ggwetaanbiza:gagwetaanibizo    VAI_TAG    " 1 drive exceedingly fast, fly exceedingly fast, move exceedingly fast" ; !Rand key:n73021176133n
@@ -3804,7 +3804,7 @@ gzhiiwe:gizhiiwe    VAI_TAG    " 1 be loud, speak loudly" ; !Rand key:n730323483
 gzhiiwgaadese:gizhiiwVv1gaadese    VAI_TAG    " 1 walk fast" ; !Rand key:n73032440643n
 gzhiiwse:gizhiiwVv1se    VAI_TAG    " 1 [see gzhiiwgaadese]" ; !Rand key:n73032440594n
 gzhiiyaanzhe:gizhiiyaanzhe    VAI_TAG    " 1 be bright, shine brightly" ; !Rand key:n730901776n
-gzhiiyaaskone:gizhiiyaaskone    VAI_TAG    " 1 be bright, shine brightly (of lights, of one's lights)" ; !Rand key:n7309011089n
+gzhiiyaaskone:gizhiiyaazakone    VAI_TAG    " 1 be bright, shine brightly (of lights, of one's lights)" ; !Rand key:n7309011089n
 gzhikooza:gizhikoozo    VAI_TAG    " 1 be hurt [from striking or being struck by something], be injured [from striking or being struck by s" ; !Rand key:n73032441056n
 gzhishin:gizhishin    VAI_TAG    " 1 be hurt [by striking something], be injured [by striking something]" ; !Rand key:n73032348510n
 gzhiza:gizhizo    VAI_TAG    " 1 be hot;  2 have a fever" ; !Rand key:n73032328495n
@@ -4841,7 +4841,7 @@ ndaw'doon:ondawadoon    VAI_TAG    " 1 walk from someplace" ; !Rand key:n7303363
 ndawaabi:nandawaabi    VAI_TAG    " 1 look around [for something], search around" ; !Rand key:n71431440156n
 ndawaangzhe:nandawaangazhe    VAI_TAG    " 1 look for a job;  2 apply for a job" ; !Rand key:n71431441110n
 ndawaanzhechge:nandawaanzhechige    VAI_TAG    " 1 look for workers, recruit workers" ; !Rand key:n73098654784n
-ndawaaskonenjge:nandawaasakonenjige    VAI_TAG    " 1 search out things with a light" ; !Rand key:n73034030498n
+ndawaaskonenjge:nandawaazakonenjige    VAI_TAG    " 1 search out things with a light" ; !Rand key:n73034030498n
 ndawaatoo:nandawaatoo    VAI_TAG    " 1 spy" ; !Rand key:n71431441209n
 ndawendaagzi:nandawendaagozi    VAI_TAG    " 1 be needed, be wanted" ; !Rand key:n71431441456n
 ndawenjge:nandawenjige    VAI_TAG    " 1 hunt" ; !Rand key:n71431441780n
@@ -5453,14 +5453,14 @@ waaseyaabi:waaseyaabi    VAI_TAG    " 1 see light" ; !Rand key:n7303255872n
 waaseyaazi:waaseyaazi    VAI_TAG    " 1 be radiant, be shiny" ; !Rand key:n7303256566n
 waashkiiwgizde:waashkiiwVv1gizide    VAI_TAG    " 1 have one's skin peel off on one's foot [due to skin condition]" ; !Rand key:n7304608382n
 waashkiiwgizi:waashkiiwVv1gizi    VAI_TAG    " 1 have one's dermis exposed [due to skin condition], have one's skin peel off [due to skin condition]" ; !Rand key:n73034028047n
-waaskogzhiichge:waasVi1kogazhiichige    VAI_TAG    " 1 put nail polish on, use nail polish" ; !Rand key:n73034030019n
-waaskogzhiichge:waasVi1koganzhiichige    VAI_TAG    " 1 put nail polish on, use nail polish" ; !Rand key:n73034030019n
-waaskone:waasVi1kone    VAI_TAG    " 1 glow, be lit, be on, give off light, shine " ; !Rand key:n73071844864n
-waaskonebjige:waasVi1konebijige    VAI_TAG    " 1 turn the lights on" ; !Rand key:n73032511953n
-waaskonenjge:waasVi1konenjige    VAI_TAG    " 1 shine a light somewhere" ; !Rand key:n73034029506n
-waaskonese:waasVi1konese    VAI_TAG    " 1 come on, flash on (of lights)" ; !Rand key:n73071845241n
-waaskosga'ge:waasVi1kosagahige    VAI_TAG    " 1 polish the floor, varnish the floor, wax the floor" ; !Rand key:n73034029807n
-waaskozi:waasVi1kozi    VAI_TAG    " 1 shine, be bright, be glossy, be shiny" ; !Rand key:n73071844270n
+waaskogzhiichge:waazakogazhiichige    VAI_TAG    " 1 put nail polish on, use nail polish" ; !Rand key:n73034030019n
+waaskogzhiichge:waazakoganzhiichige    VAI_TAG    " 1 put nail polish on, use nail polish" ; !Rand key:n73034030019n
+waaskone:waazakone    VAI_TAG    " 1 glow, be lit, be on, give off light, shine " ; !Rand key:n73071844864n
+waaskonebjige:waazakonebijige    VAI_TAG    " 1 turn the lights on" ; !Rand key:n73032511953n
+waaskonenjge:waazakonenjige    VAI_TAG    " 1 shine a light somewhere" ; !Rand key:n73034029506n
+waaskonese:waazakonese    VAI_TAG    " 1 come on, flash on (of lights)" ; !Rand key:n73071845241n
+waaskosga'ge:waazakosagahige    VAI_TAG    " 1 polish the floor, varnish the floor, wax the floor" ; !Rand key:n73034029807n
+waaskozi:waazakozi    VAI_TAG    " 1 shine, be bright, be glossy, be shiny" ; !Rand key:n73071844270n
 waasmo:waasamo    VAI_TAG    " 1 flash [lightning] (commonly attributed to Thunderers)" ; !Rand key:n73071845415n
 waaswaa:waaswaa    VAI_TAG    " 1 jacklight, esp. use a light for fishing" ; !Rand key:n73032513731n
 waatko'ge:waatakohige    VAI_TAG    " 1 signal someone to come" ; !Rand key:n73032513912n
@@ -6322,7 +6322,7 @@ bdikzideyaashi:bidikozideyaashi    VAI_TAG    " 1 one’s footfalls rumble from 
 bejgamza:bejigamzo    VAI_TAG    " 1 boil slowly, be slow to boil" ; !Rand key:n201611117-32-24n
 bgaktaagzi:bagakotaagozi    VAI_TAG    " 1 sound clearly" ; !Rand key:n201611118-2-7n
 bgamaanzhe:bagamaanzhe    VAI_TAG    " 1 [vehicle] arrive with lights shining, arrive with one’s vehicle lights shining" ; !Rand key:n201611118-24-23n
-bgamaaskonenjge:bagamaasakonenjige    VAI_TAG    " 1 arrive shining one’s lantern, arrive with one’s lantern shining" ; !Rand key:n201611118-41-44n
+bgamaaskonenjge:bagamaazakonenjige    VAI_TAG    " 1 arrive shining one’s lantern, arrive with one’s lantern shining" ; !Rand key:n201611118-41-44n
 bgamb’iwe:bagamibahiwe    VAI_TAG    " 1 arrive in fleeing from somewhere" ; !Rand key:n201611118-55-27n
 bgamgaabwi:bagamigaabawi    VAI_TAG    " 1 come and stand near somebody" ; !Rand key:n201611118-59-32n
 bgamgaadewse:bagamigaadewVv1se    VAI_TAG    " 1 arrive walking" ; !Rand key:n20161127-9-55n
@@ -6511,8 +6511,8 @@ ddibaakshin:didibaakoshin    VAI_TAG    " 1 be wound around something" ; !Rand k
 dditbijiiyaashi:diditibijiiyaashi    VAI_TAG    " 1 be blown rolling, be rolled by the wind" ; !Rand key:n20161237-45-59n
 de-piichjiiza:de-apiichijiizo    VAI_TAG    " 1 be baked to an adequate degree (e.g. of cake)" ; !Rand key:n20161237-50-57n
 debaabi:debaabi    VAI_TAG    " 1 be able to see things in the distance, be able to see things beyond a barrier" ; !Rand key:n20161237-53-4n
-debaaskone:debaasakone    VAI_TAG    " 1 shine in the distance" ; !Rand key:n20161237-59-49n
-debaaskonwe:debaasakoniwe    VAI_TAG    " 1 have one’s lights be on in the distance, have one’s lights shine in the distance" ; !Rand key:n20161238-12-49n
+debaaskone:debaazakone    VAI_TAG    " 1 shine in the distance" ; !Rand key:n20161237-59-49n
+debaaskonwe:debaazakoniwe    VAI_TAG    " 1 have one’s lights be on in the distance, have one’s lights shine in the distance" ; !Rand key:n20161238-12-49n
 debbii:debibii    VAI_TAG    " 1 have had enough to drink" ; !Rand key:n20161238-31-3n
 debjiin’ge:debijiinige    VAI_TAG    " 1 be able to hold everything" ; !Rand key:n20161238-37-17n
 debkoozi:debikoozi    VAI_TAG    " 1 be able to reach [someplace]" ; !Rand key:n20161238-42-39n
@@ -8397,7 +8397,7 @@ ndanaazhkawaa:nandanaazhikaw    VTA_TAG    " 1 [see ndanaashkawaa]" ; !Rand key:
 ndane'mawaa:nandanehamaw    VTA_TAG    " 1 search for something for smb." ; !Rand key:n71431439538n
 ndanewaa:nandanehw    VTA_TAG    " 1 look for smb., search for smb.;  2 take sth. (an.) out [of a container]" ; !Rand key:n71431439644n
 ndawaabmaa:nandawaabam    VTA_TAG    " 1 look for smb., search for smb." ; !Rand key:n71431440458n
-ndawaaskonendwaa:nandawaasakonendaw    VTA_TAG    " 1 search smb. out with a light" ; !Rand key:n73034030807n
+ndawaaskonendwaa:nandawaazakonendaw    VTA_TAG    " 1 search smb. out with a light" ; !Rand key:n73034030807n
 ndawenmaa:nandawenim    VTA_TAG    " 1 need smb. [to do something], need sth. (an.), want smb. [to do something], want sth. (an.);  2 hunt sth. (an.)" ; !Rand key:n71431442069n
 ndawewemaa:nandawewem    VTA_TAG    " 1 call out for smb. to come" ; !Rand key:n71431442364n
 ndinaa:ondin    VTA_TAG    " 1 get sth. (an.) from a certain source" ; !Rand key:n71431443402n
@@ -8679,11 +8679,11 @@ waan'aa:waanih    VTA_TAG    " 1 make good use of sth. (an.)" ; !Rand key:n73032
 waan'kaanaa:waanikaan1    VTA_TAG    " 1 dig sth. (an.) out" ; !Rand key:n73032480976n
 waannishkwaa:waaninishkw    VTA_TAG    " 1 circle sth. (an.), go around sth. (an.)" ; !Rand key:n73032484522n
 waasenjgamwaa:waasenjigamaw    VTA_TAG    " 1 shine a light for smb." ; !Rand key:n7303255561n
-waaskojiimawaa:waasVi1kojiimaw    VTA_TAG    " 1 polish something for smb., shine something for smb." ; !Rand key:n73034030210n
-waaskojiimawaa:waasVi1kojiihamaw    VTA_TAG    " 1 polish something for smb., shine something for smb." ; !Rand key:n73034030210n
-waaskojiiwaa:waasVi1kojiihw    VTA_TAG    " 1 polish sth. (an.), shine sth. (an.) (of 3-dimensional objects)" ; !Rand key:n7303258086n
-waaskonendwaa:waasVi1konendaw    VTA_TAG    " 1 shine a light on smb." ; !Rand key:n73034030305n
-waaskosgawaa:waasVi1kosagahw    VTA_TAG    " 1 polish sth. (an.), varnish sth. (an.)" ; !Rand key:n73034029913n
+waaskojiimawaa:waazakojiimaw    VTA_TAG    " 1 polish something for smb., shine something for smb." ; !Rand key:n73034030210n
+waaskojiimawaa:waazakojiihamaw    VTA_TAG    " 1 polish something for smb., shine something for smb." ; !Rand key:n73034030210n
+waaskojiiwaa:waazakojiihw    VTA_TAG    " 1 polish sth. (an.), shine sth. (an.) (of 3-dimensional objects)" ; !Rand key:n7303258086n
+waaskonendwaa:waazakonendaw    VTA_TAG    " 1 shine a light on smb." ; !Rand key:n73034030305n
+waaskosgawaa:waazakosagahw    VTA_TAG    " 1 polish sth. (an.), varnish sth. (an.)" ; !Rand key:n73034029913n
 waatko'mawaa:waatakohamaw    VTA_TAG    " 1 signal smb. to come" ; !Rand key:n73032514037n
 waawaabmaa:waawaabam    VTA_TAG    " 1 stare at smb." ; !Rand key:n73032684355n
 waawaatko'aa:waawaatakoh    VTA_TAG    " 1 beckon to smb., wave at smb., wave to smb. [to come]" ; !Rand key:n73032685743n
@@ -11141,7 +11141,7 @@ ndanaazhkaan:nandanaazhik    VTI_AM_THEME    " 1 [see ndanaashkaan]" ; !Rand key
 ndandaan:nandand    VTI_AM_THEME    " 1 taste sth. looking for a particular taste" ; !Rand key:n71431439176n
 ndane'aan:nandaneh    VTI_AM_THEME    " 1 look for sth.; search for sth.;  2 take sth. out [of a container]" ; !Rand key:n71431439366n
 ndawaabndaan:nandawaaband    VTI_AM_THEME    " 1 look for sth., search for sth." ; !Rand key:n71431440822n
-ndawaaskonendaan:nandawaasakonend    VTI_AM_THEME    " 1 search sth. out with a light" ; !Rand key:n73034030671n
+ndawaaskonendaan:nandawaazakonend    VTI_AM_THEME    " 1 search sth. out with a light" ; !Rand key:n73034030671n
 ndawendaan:nandawend    VTI_AM_THEME    " 1 need sth., want sth., want sth. [to happen];  2 hunt for sth." ; !Rand key:n71431441535n
 ndawewendaan:nandawewend    VTI_AM_THEME    " 1 call out for sth." ; !Rand key:n71431442553n
 ndinaan:ondin    VTI_AM_THEME    " 1 buy sth. from a certain place, get sth. from a certain source" ; !Rand key:n71431443483n
@@ -11265,9 +11265,9 @@ waabshkidsaan:waabishkidis    VTI_AM_THEME    " 1 paint sth. white" ; !Rand key:
 waakaashkaan:waakaashk    VTI_AM_THEME    " 1 circle sth., go around [the perimeter of] sth." ; !Rand key:n73032478489n
 waan'kaadaan:waanikaad    VTI_AM_THEME    " 1 dig sth. out" ; !Rand key:n73032480589n
 waannishkaan:waaninishk    VTI_AM_THEME    " 1 circle sth., go around sth." ; !Rand key:n73032484278n
-waaskojii'aan:waasVi1kojiih    VTI_AM_THEME    " 1 polish sth., shine sth. (of 3-dimensional objects)" ; !Rand key:n7303257924n
-waaskonendaan:waasVi1konend    VTI_AM_THEME    " 1 shine a light on sth." ; !Rand key:n73034030372n
-waaskosga'aan:waasVi1kosagah    VTI_AM_THEME    " 1 polish sth., varnish sth." ; !Rand key:n73034029855n
+waaskojii'aan:waazakojiih    VTI_AM_THEME    " 1 polish sth., shine sth. (of 3-dimensional objects)" ; !Rand key:n7303257924n
+waaskonendaan:waazakonend    VTI_AM_THEME    " 1 shine a light on sth." ; !Rand key:n73034030372n
+waaskosga'aan:waazakosagah    VTI_AM_THEME    " 1 polish sth., varnish sth." ; !Rand key:n73034029855n
 waaswendaan:waasawend    VTI_AM_THEME    " 1 have sth. seem far to one, think sth. far" ; !Rand key:n73098440136n
 waawaabndaan:waawaaband    VTI_AM_THEME    " 1 stare at sth." ; !Rand key:n73032684638n
 waawiindaan:waawiind    VTI_AM_THEME    " 1 name sth." ; !Rand key:n73032778n
