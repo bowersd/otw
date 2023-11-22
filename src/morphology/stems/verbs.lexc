@@ -3955,9 +3955,7 @@ kenjge:gikenjige    VAI_TAG    " 1 [see gkenjge]" ; !Rand key:n71428959050n !TRU
 kiwenziinywi:akewenziinyiwi    VAI_TAG    " 1 be an old man, become an old man" ; !Rand key:n71428962739n
 kewgidaazo:akewVv1gidaazo    VAI_TAG    " 1 be easy to anger, be very irritable, get mad easily" ; !Rand key:n71428959306n
 kida:ikidVa1    VAI_TAG    " 1 say something" ; !Rand key:n71428959913n
-kinoomaagzi:kinoommaagozi    VAI_TAG    " 1 [see gkinoo'maagzi]" ; !Rand key:n73028948835n
-kinoomaagzi:gikinoommaagozi    VAI_TAG    " 1 [see gkinoo'maagzi]" ; !Rand key:n73028948835n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-kinoomaagzi:gikinoohamaagozi    VAI_TAG    " 1 [see gkinoo'maagzi]" ; !Rand key:n73028948835n
+kinoomaagzi:gikinoohamaagozi    VAI_TAG    " 1 [see gkinoo'maagzi]" ; !Rand key:n73028948835n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 kinwaajbiige:akinawaajibiige    VAI_TAG    " 1 mark things [to remind], note things [in writing to remind]" ; !Rand key:n7303278919n
 kinwaajbiige:akinawaajibiihige    VAI_TAG    " 1 mark things [to remind], note things [in writing to remind]" ; !Rand key:n7303278919n
 kizhebaa-jiibaakwe:gigizhebaa-jiibaakwe    VAI_TAG    " 1 cook breakfast, cook the morning meal" ; !Rand key:n73099844451n
