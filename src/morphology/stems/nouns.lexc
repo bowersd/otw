@@ -1485,7 +1485,7 @@ bmoonjgan:bimoonjigan    NI_SET    " 1 yoke [for carrying pails]" ; !Rand key:n7
 bnaakwaan:binaakwaan    NI_SET    " 1 comb" ; !Rand key:n72978660758n
 bnagjiikjigan:bVi1nagijiikojigan    NI_SET    " 1 peeler" ; !Rand key:n72978952282n
 bnagzignaaboo:banagiziganaaboo    NI_SET    " 1 Indian corn soup (typically using hominy or shelled corn)" ; !Rand key:n72978955773n
-bngii:bangii    NI_SET    " 1 a few, a little, a little bit" ; !Rand key:n72978957973n
+bngii:bangii    NI_SET    " 1 a few, a little, a little bit" ; !Rand key:n72978957973n !doesn't Angeline Williams have abangii? but this also has bgii, which would be an oversyncopation from that UR
 Bngoonaang:bingoonaang    NI_SET    " 1 Moraviantown, Ont." ; !Rand key:n72978963933n
 bngwi:bingwiw2    NI_SET    " 1 ashes" ; !Rand key:n72978964111n
 bodyegwaazon:gibodiyegwaazon    NI_SET    " 1 pants, trousers" ; !Rand key:n72979759387n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
