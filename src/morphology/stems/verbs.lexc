@@ -5313,7 +5313,7 @@ shaweshin:ashaweshin    VAI_TAG    " 1 lie on one's side, be tilted" ; !Rand key
 shaweshkaa:ashaweshkaa    VAI_TAG    " 1 be tilted" ; !Rand key:n73031382391n
 shawetaa:ashawetaa    VAI_TAG    " 1 lean to the side" ; !Rand key:n7303407527n
 bshibjige:bashibijige    VAI_TAG    " 1 lose one's footing, lose one's grip" ; !Rand key:n7303144003n
-shidaakpiza:sahidaakVv1piza    VAI_TAG    " 1 be fastened tightly against something, be tied fast" ; !Rand key:n7303144396n
+shidaakpiza:ashidaakVv1piza    VAI_TAG    " 1 be fastened tightly against something, be tied fast" ; !Rand key:n7303144396n
 shigkamga'ge:zhashigokamigahige    VAI_TAG    " 1 break up the ground, cultivate" ; !Rand key:n7303408939n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shigshin:zhashigoshin    VAI_TAG    " 1 fall to pieces, get shattered [from striking something]" ; !Rand key:n7303408499n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shigshkaa:zhashigoshkaa    VAI_TAG    " 1 crumble" ; !Rand key:n73033956844n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
