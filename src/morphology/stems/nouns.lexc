@@ -1440,8 +1440,8 @@ biindsaagan:biindasaagan    NI_SET    " 1 raft" ; !Rand key:n72977380674n
 biisaagzhigan:biisaagVv1zhigan    NI_SET    " 1 splint divider" ; !Rand key:n72977454157n
 biisaangboojgan:biisaangVv1boojigan    NI_SET    " 1 harrows" ; !Rand key:n72977454599n
 biiskamgiboojgan:biisakamigiboojigan    NI_SET    " 1 harrows" ; !Rand key:n72977457573n
-biiskawaagaans:biisakawaagaans    NI_SET    " 1 lightweight jacket" ; !Rand key:n72977458209n
-biiskawaagan:biisakawaagan    NI_SET    " 1 coat, jacket" ; !Rand key:n72977458287n
+biiskawaagaans:biisikawaagaans    NI_SET    " 1 lightweight jacket" ; !Rand key:n72977458209n
+biiskawaagan:biisikawaagan    NI_SET    " 1 coat, jacket" ; !Rand key:n72977458287n
 biite:biite    NI_SET    " 1 foam, lather, suds" ; !Rand key:n72977460802n
 biitoo-babgiwyaan:biitoo-babagiwayaan    NI_SET    " 1 undershirt" ; !Rand key:n72977464573n
 biitoo-miiknoodens:biitoo-miikanoodens    NI_SET    " 1 panty, panties" ; !Rand key:n72977465981n
@@ -1506,7 +1506,7 @@ bshanzhegan:bashanzhegan    NI_SET    " 1 strap, whip" ; !Rand key:n72982139683n
 bshkozhgan:bashkozhigan    NI_SET    " 1 mower" ; !Rand key:n72982353594n
 bshkwegaans:bashkwegaans    NI_SET    " 1 condom" ; !Rand key:n72982354742n
 bshkwegin:bashkwegin    NI_SET    " 1 leather, piece of leather" ; !Rand key:n72982354563n
-bshkwegni-biiskawaagan:bashkwegini-biiskawaagan    NI_SET    " 1 leather coat" ; !Rand key:n72982354674n
+bshkwegni-biiskawaagan:bashkwegini-biisikawaagan    NI_SET    " 1 leather coat" ; !Rand key:n72982354674n
 bsikwebzowin:basikwebizowin    NI_SET    " 1 halo" ; !Rand key:n72982438397n
 bskaaknenjgan:biskaakonenjigan    NI_SET    " 1 kindling" ; !Rand key:n73101880208n
 bte:bate     NI_SET    " 1 give off smoke; smoke" ; !Rand key:n73101880256n
