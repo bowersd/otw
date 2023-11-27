@@ -42,6 +42,7 @@ define homorgObsMerge [
 
 regex [ aposEpen .o. !character set differences
         hApos .o. 
+        aposDel .o.
         finDevoi .o. !surfacey phonology
         oa .o.
         yayi .o. !this is fed by oa, not sure if that is right
