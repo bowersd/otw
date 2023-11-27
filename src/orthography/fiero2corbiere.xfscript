@@ -22,7 +22,8 @@ define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added 
 
 define yayi [a (->) i || y _ \[a]] ; 
 
-define wy [w (->) y || [e|i] _ ] ; 
+define wy [w (->) y || [e|i] _ ,,
+          y (->) w || o _ ] ; 
 
 define gnMetath [ g n (->) n g] ; 
 
@@ -38,7 +39,9 @@ define homorgObsMerge [
                     z z (->) s, z s (->) s, s z (->) s, s s (->) s,
                     z h z h (->) s h, z h s h (->) s h, s h z h (->) s, sh sh (->) sh,
                     j j (->) c h, j c h (->) c h, c h j (->) c h, c h c h (->) c h
-                    ]; 
+                    ]; !ds -> s
+
+define initialHomorgMerge [ b b (->) b, g g (->) g, d d (->) d || .#. _ ] ; 
 
 regex [ aposEpen .o. !character set differences
         hApos .o. 
@@ -51,7 +54,8 @@ regex [ aposEpen .o. !character set differences
         stridDevoi .o.
         postStridDevoi .o.
         clustDevoi .o.
-        homorgObsMerge
+        homorgObsMerge .o.
+        initialHomorgMerge
         ] ;
 
 save stack fiero2corbiere.hfst
