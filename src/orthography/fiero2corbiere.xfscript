@@ -44,8 +44,8 @@ define homorgObsMerge [
 
 define lenisNasAssim [ b (->) m, g (->) n g, d (->) n ||  _ [m|n] ] ; !from Rhodes 1985b p 468
 define lenisFortition [ b (->) p, g (->) k, d (->) t, j (->) c h, z h (->) s h, z (->) s ||  _ [p|t|k|s|c h] ] ; !from Rhodes 1985b p 468
-define initialHomorgMerge [ b b (->) b, g g (->) g, d d (->) d || .#. _ ] ; !from Rhodes 1985b p 469
-define initialHomorgSonMerge [ m m (->) m, n n (->) n, w w (->) w || .#. _ ] ; !from Rhodes 1985b p 468
+define initialHomorgMerge [ b b (->) b, g g (->) g, d d (->) d || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
+define initialHomorgSonMerge [ m m (->) m, n n (->) n, w w (->) w || [.#.|%-] _ ] ; !from Rhodes 1985b p 468
 
 regex [ aposEpen .o. !character set differences
         hApos .o. 
