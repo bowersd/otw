@@ -1,6 +1,9 @@
 !#####
 !#VTA Based Derivation
 !#####
+LEXICON VALENCE_INCREASING
++Caus:ishkaw    VTA_TAG !causative in body, i epenthetic?
+
 LEXICON VTA_DETRANSITIVE_GET
                 VTA_DETRANSITIVE ; 
                 VTA_PREORDER_GET ;
