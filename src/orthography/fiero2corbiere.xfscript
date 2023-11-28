@@ -1,6 +1,7 @@
 
 define hApos [h -> %' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> %' || n _ k ] ; 
+define hyphEpen [[..] (->) %- ||  _ [s|z] i i ] ; 
 define aposHyphDel [[%'|%-] (->) 0] ;
 define finDevoi [b -> p || \[m] _ .#. ,,
                 d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ;
