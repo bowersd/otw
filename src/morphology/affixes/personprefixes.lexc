@@ -35,6 +35,6 @@ LEXICON EXTENDED_PREFIX
 
 LEXICON EXTENDED_PREFIX_HYPHEN
 0:-     NOUNS ; 
-        NOUNS ; 
+!        NOUNS ; 
 0:-     VERBS ;
-        VERBS ;
+!        VERBS ;
