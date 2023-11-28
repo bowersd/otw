@@ -127,7 +127,7 @@ shwii:shwii    PT_TAG    " 1 but, though" ; !Rand key:n73071454021n
 was:awas    PT_TAG    " 1 Scat! Shoo! Go away!" ; !Rand key:n7303279059n
 !these end immediately because they are too short to undergo apocope, and so can't pick up protective w
 na+Ipc:na    #    " 1 {particle marking yes/no questions}" ; !Rand key:n71430657090n
-sa+Ipc:sa    #    " 1 so, so then, well" ; !Rand key:n73031277207n
+sa+Ipc:isa    #    " 1 so, so then, well" ; !Rand key:n73031277207n
 go+Ipc:go    #    " 1 indeed;  2 it's up to (with personal pronoun), it depends on (with personal pronoun)" ; !Rand key:n2010123111-11-13n ![gk]Vo1 replaced with [gk]o
 gwa+Ipc:gwa    #    " 1 [see go]" ; !Rand key:n2010123111-11-47n
 
