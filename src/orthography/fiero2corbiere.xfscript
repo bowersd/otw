@@ -41,7 +41,8 @@ define homorgObsMerge [
                     j j (->) c h, j c h (->) c h, c h j (->) c h, c h c h (->) c h
                     ]; !ds -> s
 
-define initialHomorgMerge [ b b (->) b, g g (->) g, d d (->) d || .#. _ ] ; 
+define initialHomorgMerge [ b b (->) b, g g (->) g, d d (->) d || .#. _ ] ; !from Rhodes 1985b p 469
+define initialHomorgSonMerge [ m m (->) m, n n (->) n, w w (->) w || .#. _ ] ; !from Rhodes 1985b p 468
 
 regex [ aposEpen .o. !character set differences
         hApos .o. 
@@ -55,7 +56,8 @@ regex [ aposEpen .o. !character set differences
         postStridDevoi .o.
         clustDevoi .o.
         homorgObsMerge .o.
-        initialHomorgMerge
+        initialHomorgMerge .o.
+        initialHomorgSonMerge
         ] ;
 
 save stack fiero2corbiere.hfst
