@@ -22,7 +22,7 @@ define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added 
 
 define yayi [a (->) i || y _ \[a]] ; 
 
-define wy [w (->) y || [e|i] _ ,,
+define wy [w (->) y || [a|e|i] _ ,,
           y (->) w || o _ ] ; 
 
 define gnMetath [ g n (->) n g] ; 
