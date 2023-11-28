@@ -793,7 +793,7 @@ maanaaznaagot:maanaazinaagod2   VII_TAG    " 1 look bad, look ugly" ; !Rand key:
 maandaa-zhiwebat:maandaa-izhiwebad2   VII_TAG    " 1 [see mmaandaa-zhiwebat]" ; !Rand key:n73088811049n
 maangaashkaa:mamaangaashkaa    VII_TAG    " 1 be big, be high (of waves)" ; !Rand2key:n71429180420n
 maangte:maangVv1te    VII_TAG    " 1 scatter, be scattered" ; !Rand2key:n71429181016n
-maaskaakmigat:maaskaakamigad2   VII_TAG    " 1 be a brawl, be a brawl going on" ; !Rand key:n7309013723n
+maaskaakmigat:mamaazakaakamigad2   VII_TAG    " 1 be a brawl, be a brawl going on" ; !Rand key:n7309013723n
 maawndooshkbiiyaa:maawandooshkibiiyaa    VII_TAG    " 1 be marshy, pool (of water)" ; !Rand2key:n7309017194n
 maawnjise:maawanjise    VII_TAG    " 1 coincide; come together (usually of unfortunate events)" ; !Rand2key:n73032440146n
 mbaa:ombaa    VII_TAG    " 1 be up" ; !Rand2key:n71429446480n
@@ -866,7 +866,7 @@ mkomnaanwan:mVi1komVv1naanVv1wan    VII_TAG    " 1 be sleet, sleet" ; !Rand2key:
 mmaachdemgat:mVi1maachidemVi1gad2   VII_TAG    " 1 be wide" ; !Rand key:n71429751711n
 mmaadaasin:mamaadaasin    VII_TAG    " 1 move slightly in the wind, quiver in the wind" ; !Rand2key:n73033132628n
 mmaandaa-zhiwebat:mamaandaa-izhiwebad2   VII_TAG    " 1 something amazing happen, something incredible happen, something miraculous happen" ; !Rand key:n73088810666n
-mmaaskaa:mVv1maaskaa    VII_TAG    " 1 budge, move, shift" ; !Rand2key:n71430041229n
+mmaaskaa:mamaazakaa    VII_TAG    " 1 budge, move, shift" ; !Rand2key:n71430041229n
 mnaabaawe:minaabaawe    VII_TAG    " 1 be soaked" ; !Rand2key:n71430044073n
 mnaabminaagwat:minaabaminaagwad2   VII_TAG    " 1 look beautiful, look good, look nice" ; !Rand key:n71430044651n
 mnaagmaagot:minaagomaagod2   VII_TAG    " 1 stink" ; !Rand key:n71430046096n
@@ -4085,9 +4085,9 @@ maangshe:maangishe    VAI_TAG    " 1 [see mmaangshe]" ; !Rand key:n71429180868n
 maangshkiinzhgwe:maangishkiinzhigwe    VAI_TAG    " 1 [see mmaangshkiinzhgwe]" ; !Rand key:n71429180930n
 maangtawge:maangitawage    VAI_TAG    " 1 [see mmaangtawge]" ; !Rand key:n73088813257n
 maangzide:maangizide    VAI_TAG    " 1 [see mmaangzide]" ; !Rand key:n71429181144n
-maaskaa:maaskaa    VAI_TAG    " 1 brawl, be in a brawl, start a brawl" ; !Rand key:n71429263710n
-maaskaachge:maaskaachige    VAI_TAG    " 1 lose control [in driving], lose control [in riding a horse]" ; !Rand key:n71429263601n
-maaskaaji-zhiyaa:maaskaaji-izhi-ayaa    VAI_TAG    " 1 be in a brawling mood" ; !Rand key:n7309013924n
+maaskaa:mamaazakaa    VAI_TAG    " 1 brawl, be in a brawl, start a brawl" ; !Rand key:n71429263710n
+maaskaachge:mamaazakaachige    VAI_TAG    " 1 lose control [in driving], lose control [in riding a horse]" ; !Rand key:n71429263601n
+maaskaaji-zhiyaa:mamaazakaaji-izhi-ayaa    VAI_TAG    " 1 be in a brawling mood" ; !Rand key:n7309013924n
 maatgozhetaa:maatVv1gozhetaa    VAI_TAG    " 1 push one's blankets off" ; !Rand key:n73032439337n
 maawdaagenmo:maawVv1daagenimo    VAI_TAG    " 1 anticipate something with apprehension, be apprehensive" ; !Rand key:n73032651810n
 maawnd'age:maawandVv1hage    VAI_TAG    " 1 collect money [from various contributors], collect money [e.g., by donation or by virtue of people chipping in]" ; !Rand key:n73032439117n
@@ -4328,8 +4328,8 @@ mmaangshkiinzhgwetaa:mamaangishkiinzhigwetaa    VAI_TAG    " 1 have one's eyes g
 mmaangtawge:mamaangitawage    VAI_TAG    " 1 have big ears" ; !Rand key:n73045628066n
 mmaangzide:mamaangizide    VAI_TAG    " 1 have big feet" ; !Rand key:n71430040951n
 mmaanjmizi:mamaanjimizi    VAI_TAG    " 1 be paralyzed" ; !Rand key:n73033134152n
-mmaaskaa:mVv1maaskaa    VAI_TAG    " 1 budge, move, shift (of inert objects)" ; !Rand key:n71430041120n
-mmaaskaachge:mVv1maaskaachige    VAI_TAG    " 1 [see maaskaachge]" ; !Rand key:n71430041029n
+mmaaskaa:mamaazakaa    VAI_TAG    " 1 budge, move, shift (of inert objects)" ; !Rand key:n71430041120n
+mmaaskaachge:mamaazakaachige    VAI_TAG    " 1 [see maaskaachge]" ; !Rand key:n71430041029n
 mmaazaabi:mamaazaabi    VAI_TAG    " 1 hallucinate [visually], imagine seeing things, see hallucinations, see imaginary things" ; !Rand key:n71430041702n
 mmaazhiiwii:mamaazhiiwii    VAI_TAG    " 1 be bad [at something], do something poorly, err" ; !Rand key:n71429342463n
 mmagwii:mVv1magwii    VAI_TAG    " 1 move, stir" ; !Rand key:n73032750810n
