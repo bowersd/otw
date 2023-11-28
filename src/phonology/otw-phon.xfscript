@@ -110,7 +110,6 @@ define rmspecialv [
                     Bv1 -> i 
                 ];
 
-define hw2w [ h -> 0 || \[s|z|c|n] _ w] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear
 
 !####
 !#rules that require morpheme boundary reference
@@ -291,6 +290,8 @@ define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]
 
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
+define hw2w [ h -> 0 || \[s|z|c|n] _ w] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9, we allow the h to appear when word final, otherwise, h (this is a guess)
+
 define y2y  [y2 -> y ];
 
 define n2del  [ n2 (->) 0 || _ .#. ]; !deleting n2s are strictly Odawa, variable in Medler
@@ -360,7 +361,6 @@ define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init
 
 read regex [ ! Morphology.l .o.
     rmspecialv    .o. !special char killer
-    hw2w        .o.
     preGli      .o.
     optinitV    .o. !allows post syncope n-nokii < n[d]-ankii < nidanokii. Comment out for syncope/non-syncope
     preDel      .o.
@@ -437,6 +437,7 @@ read regex [ ! Morphology.l .o.
     Ei          .o.
     apocope     .o.
     glidedel    .o.
+    hw2w        .o.
     y2y         .o.
     n2del       .o.
     n2def       .o.
