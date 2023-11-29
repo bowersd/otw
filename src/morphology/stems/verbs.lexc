@@ -3272,7 +3272,7 @@ gdoode:gidoode    VAI_TAG    " 1 crawl out [from under something]" ; !Rand key:n
 gechwibza:gechVv1wibizo    VAI_TAG    " 1 attain smooth running speed" ; !Rand key:n73019558814n
 geshwaakshin:geshawaakoshin    VAI_TAG    " 1 be loose (of objects attached to something)" ; !Rand key:n73020047528n
 geshwishin:geshawishin    VAI_TAG    " 1 be loose (of objects attached to something)" ; !Rand key:n73019735256n
-geskwaabaawe:geskwaabaawe    VAI_TAG    " 1 get caught in the rain" ; !Rand key:n73020048593n
+geskwaabaawe:gezikwaabaawe    VAI_TAG    " 1 get caught in the rain" ; !Rand key:n73020048593n
 gete-'aawi:gete-ahaawi    VAI_TAG    " 1 be an old thing, be old (usually not said of people)" ; !Rand key:n73020053476n
 geteyaajma:geteyaajimo    VAI_TAG    " 1 tell old stories, talk about the old days" ; !Rand key:n73020052751n
 getnaamgaadese:gagetinaamigaadese    VAI_TAG    " 1 walk determinedly" ; !Rand key:n73020054338n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
