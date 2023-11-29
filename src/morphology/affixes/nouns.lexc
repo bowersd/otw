@@ -80,10 +80,11 @@ PN/mji+:maji-    NOUNS    " 1 bad, evil, mischievous, naughty" ; !Rand key:n7142
 PN/mkade+:makade-    NOUNS    " 1 black" ; !Rand key:n71429743236n
 PN/mshi+:mishi-    NOUNS    " 1 big" ; !Rand key:n71430434048n
 PN/msko+:misko-    NOUNS    " 1 red" ; !Rand key:n71430546577n
-PN/zhaawshko+:zhaawshko-    NOUNS    " 1 green/blue" ; !DAB addition
+PN/zhaawshko+:ozhaawashko-    NOUNS    " 1 green/blue" ; !DAB addition
 PN/zaaw+:ozaaw-        NOUNS    " 1 orange/yellow/brown" ; !DAB addition
 PN/waabi+:waabi-        NOUNS    " 1 white/gray" ; !DAB addition
-PN/waabshki+:waabshki-        NOUNS    " 1 white/gray" ; !DAB addition
+PN/waabshki+:waabishki-        NOUNS    " 1 white/gray" ; !DAB addition
+PN/mtigo+:mitigo-        NOUNS    " 1 wooden" ; !DAB addition
 PN/myagi+:mayagi-    NOUNS    " 1 foreign, strange" ; !Rand key:n71430565470n
 PN/naami+:anaami-    NOUNS    " 1 under" ; !Rand key:n71431052170n
 PN/naano+:naano-    NOUNS    " 1 five" ; !Rand key:n71431061169n
