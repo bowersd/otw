@@ -62,7 +62,8 @@ regex [ aposEpen .o. !character set differences
         lenisFortition .o.
         homorgObsMerge .o.
         initialHomorgMerge .o.
-        initialHomorgSonMerge
+        initialHomorgSonMerge .o.
+        hyphEpen
         ] ;
 
 save stack fiero2corbiere.hfst
