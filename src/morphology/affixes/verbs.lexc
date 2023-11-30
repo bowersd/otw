@@ -818,21 +818,6 @@ LEXICON VTA_INDEP_THEME_INVERSE_SET
 @P.Theme.Inv@   VTA_INDEP_THEME_INVERSE_NEG ;
 !new flag diacritic
 
-!{Passives  
-!ROUTE THROUGH VAI
-LEXICON VTA_INDEP_THEME_LOCAL_PASSIVE
-+ThmPas+VAI:igoo       VAI_INDEP_NEG ;
-!new tags
-
-LEXICON VTA_INDEP_NONLOCAL_PASSIVE
-+ThmPas+VAI:aa   VAI_INDEP_NEG ; 
-!new tags
-
-!LEXICON VTA_INDEP_PASSIVE_FLAG
-!!needed for 3rd person passives to not pick up -m (+X VAI infl) ... are we sure they can't be further passivized?
-!@P.Passive.1@ VAI_INDEP_GET ; 
-!} passive end
-
 !##Second persons
 !{ local preds
 LEXICON VTA_INDEP_THEME_SECOND_PERSON 
@@ -1150,8 +1135,30 @@ LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
 LEXICON VTA_PREORDER_GET
 @D.Order.Cnj@   VTA_INDEP_THEME_GET ;
 @D.Person@      VTA_NON_INDEP_GET ;
-@D.Person.3@    VTA_INDEP_THEME_LOCAL_PASSIVE ; !derived VAIs (passives) 
-@D.Person@      VTA_INDEP_NONLOCAL_PASSIVE ; !derived VAIs (passives) 
+                VTA_INFLECTIONAL_PASSIVE ;
+
+LEXICON VTA_INFLECTIONAL_PASSIVE
++ThmPas+VAI:igoo    VTA_INFLECTIONAL_PASSIVE_IGOO_GET ; !takes 1,2 prefixes in indep order
++ThmPas+VAI+Cnj:0   VTA_INFLECTIONAL_PASSIVE_NULL_GET ;!takes special 3rd person suffixes ind+waa
++ThmPas+VAI:aa      VTA_INFLECTIONAL_PASSIVE_AA_GET ; !never takes person prefixes IIRC
+
+LEXICON VTA_INFLECTIONAL_PASSIVE_IGOO_GET
+@D.Person.3@    VAI_INDEP_NEG ; !first or second person prefixes legal in independent order
+@D.Person@      VTA_INFLECTIONAL_PASSIVE_IGOO_CNJ ; 
+
+LEXICON VTA_INFLECTIONAL_PASSIVE_IGOO_CNJ
++Cnj:c1         THMPAS_LOCAL_SET ; 
+
+LEXICON VTA_INFLECTIONAL_PASSIVE_NULL_GET
+@D.Person@  VAI_PASSIVE_3 ; 
+
+LEXICON VTA_INFLECTIONAL_PASSIVE_AA_GET
+@D.Person@      VAI_INDEP_NEG ; 
+@D.Person@      THMPAS_NON_LOCAL_NEG_SET ; !would be nice to just send this to conjunct order VAI, but there is the null thmpas in conjuct order for third persons, and consequent suffix restrictions. Not sure how much overlap there is otherwise with standard VAI conjunct suffixes
+
+!LEXICON VTA_INDEP_PASSIVE_FLAG
+!!needed for 3rd person passives (independent order) to not pick up -m (+X VAI infl) ... are we sure they can't be further passivized?
+!@P.Passive.1@ VAI_INDEP_GET ; 
 
 LEXICON VTA_NON_INDEP_GET
 +Cnj:0 VTA_CNJ_THM ; !semi-compressed prefix tree of BRUTE
@@ -1401,10 +1408,6 @@ LEXICON VTA_CNJ_THM
 +Thm1Pl2:igoo     THM1PL_NEG ;
 +ThmInv:igo     THMINV_NEG ;
 +Thm1:i2        THM1_NEG ;
-!below not in brute force
-+ThmPas+VAI:igooc1    THMPAS_LOCAL_SET ; 
-+ThmPas+VAI:0       VAI_PASSIVE_3 ; !takes special 3rd person suffixes ind+waa
-+ThmPas+VAI:aa      THMPAS_NON_LOCAL_NEG_SET ; 
 !} thm end
 
 !{thmpas cont
