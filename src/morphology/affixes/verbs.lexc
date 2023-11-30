@@ -802,8 +802,6 @@ LEXICON VII_CNJ_DUB_PRT_DUB
 
 LEXICON VTA_INDEP_THEME_GET 
 @R.Person@      VTA_INDEP_THEME_GATEWAY ;
-@D.Person.3@    VTA_INDEP_THEME_LOCAL_PASSIVE ; !derived VAIs (passives) 
-@D.Person@    VTA_INDEP_NONLOCAL_PASSIVE ; !derived VAIs (passives) 
 @R.Person.2@      VTA_INDEP_THEME_SECOND_PERSON ;
 !style on new line for substantively different entries of sublexicon
 
@@ -1152,6 +1150,8 @@ LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
 LEXICON VTA_PREORDER_GET
 @D.Order.Cnj@   VTA_INDEP_THEME_GET ;
 @D.Person@      VTA_NON_INDEP_GET ;
+@D.Person.3@    VTA_INDEP_THEME_LOCAL_PASSIVE ; !derived VAIs (passives) 
+@D.Person@      VTA_INDEP_NONLOCAL_PASSIVE ; !derived VAIs (passives) 
 
 LEXICON VTA_NON_INDEP_GET
 +Cnj:0 VTA_CNJ_THM ; !semi-compressed prefix tree of BRUTE
