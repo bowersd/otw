@@ -859,7 +859,7 @@ zhoomnens:zhoominens    NA_SET    " 1 raisin" ; !Rand key:n73034018353n
 zhooshkjiwaan:zhooshkojiwaan    NA_SET    " 1 dumpling" ; !Rand key:n73035430851n
 zhwaashksens:zhwaashkosens    NA_SET    " 1 toboggan" ; !Rand key:n73035440443n
 ziin'kiigmaan:ziinikiigomaan    NA_SET    " 1 nasal mucus, snot" ; !Rand key:n7303656145n
-ziitaagni-gookoosh:ziitaagani-gookoosh    NA_SET    " 1 salt pork" ; !Rand key:n73035751138n
+ziitaagni-gookoosh:ziiwitaagani-gookoosh    NA_SET    " 1 salt pork" ; !Rand key:n73035751138n
 zkwaajge-kikoons:zVi1kwaajige-akikoons    NA_SET    " 1 spitoon" ; !Rand key:n73035812464n
 baanaabe:baanaabe    NA_SET    " 1 mermaid" ; !Rand key:n65306482327n
 binoojii:abinoojii    NA_SET    " 1 [see binoojiinh]" ; !Rand key:n200562318-55-52n
@@ -2109,8 +2109,8 @@ ziibiikaan:ziibiikaan    NI_SET    " 1 ditch" ; !Rand key:n73035426498n
 ziibiins:ziibiins    NI_SET    " 1 brook, creek, stream" ; !Rand key:n73035444003n
 ziibwaagan:ziibwaagan    NI_SET    " 1 corn stalk" ; !Rand key:n73035444402n
 ziindpizwin:ziindapizowin    NI_SET    " 1 girdle" ; !Rand key:n73035546664n
-ziitaagan:ziitaagan    NI_SET    " 1 salt" ; !Rand key:n73035751095n
-ziitaagnaaboo:ziitaagnaaboo    NI_SET    " 1 brine, salt water" ; !Rand key:n73035752969n
+ziitaagan:ziiwitaagan    NI_SET    " 1 salt" ; !Rand key:n73035751095n
+ziitaagnaaboo:ziiwitaagnaaboo    NI_SET    " 1 brine, salt water" ; !Rand key:n73035752969n
 ziiwaaboo:ziiwaaboo    NI_SET    " 1 vinegar" ; !Rand key:n73035751780n
 ziiwaagmide:ziiwaagamide    NI_SET    " 1 syrup" ; !Rand key:n73035751809n
 ziiwsijgan:ziiwisijigan    NI_SET    " 1 sourdough starter" ; !Rand key:n73035752868n

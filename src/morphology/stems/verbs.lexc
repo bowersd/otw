@@ -1517,8 +1517,8 @@ ziinde:ziinde    VII_TAG    " 1 sizzle" ; !Rand2key:n73036350783n
 ziingbakweyaa:ziingVv1bakweyaa    VII_TAG    " 1 have a peak  (of a roof)" ; !Rand2key:n73035426601n
 ziingmat:ziingamVo1d2   VII_TAG    " 1 be a corner (of a road)" ; !Rand key:n73035720164n
 ziingmat:ziingamod2   VII_TAG    " 1 be a corner (of a road)" ; !Rand key:n73035720164n
-ziitaagnipgot:ziitaaganipogod2   VII_TAG    " 1 taste salty" ; !Rand key:n73035751174n ![gk]Vo1 replaced with [gk]o
-ziitaagniwan:ziitaaganiwan    VII_TAG    " 1 be salty" ; !Rand2key:n73035751670n
+ziitaagnipgot:ziiwitaaganipogod2   VII_TAG    " 1 taste salty" ; !Rand key:n73035751174n ![gk]Vo1 replaced with [gk]o
+ziitaagniwan:ziiwitaaganiwan    VII_TAG    " 1 be salty" ; !Rand2key:n73035751670n
 ziiwaagmi:ziiwaagami    VII_TAG    " 1 be sour (of liquids)" ; !Rand2key:n73035751904n
 ziiwan:ziiwan    VII_TAG    " 1 be sour" ; !Rand2key:n73035751949n
 ziiwmaagot:ziiwimaagod2   VII_TAG    " 1 smell sour" ; !Rand key:n73035752304n ![gk]Vo1 replaced with [gk]o
@@ -5981,9 +5981,9 @@ ziinnige:ziininige    VAI_TAG    " 1 do milking, milk [an animal]" ; !Rand key:n
 ziinskiigme:ziiniskiigome    VAI_TAG    " 1 [see ziin'kiigme]" ; !Rand key:n73035749512n
 ziinskiigmejaane:ziiniskiigomejaane    VAI_TAG    " 1 be snotty nosed, have a snotty nose" ; !Rand key:n73035749753n
 ziinza:ziinizo    VAI_TAG    " 1 sizzle" ; !Rand key:n73035750479n
-ziitaagnage:ziitaaganage    VAI_TAG    " 1 salt one's food, use salt" ; !Rand key:n73035751480n
-ziitaagnipgozi:ziitaaganipogozi    VAI_TAG    " 1 taste salty" ; !Rand key:n73035751248n
-ziitaagniwi:ziitaaganiwi    VAI_TAG    " 1 be salty" ; !Rand key:n73035751710n
+ziitaagnage:ziiwitaaganage    VAI_TAG    " 1 salt one's food, use salt" ; !Rand key:n73035751480n
+ziitaagnipgozi:ziiwitaaganipogozi    VAI_TAG    " 1 taste salty" ; !Rand key:n73035751248n
+ziitaagniwi:ziiwitaaganiwi    VAI_TAG    " 1 be salty" ; !Rand key:n73035751710n
 ziiwaagmideke:ziiwaagamideke    VAI_TAG    " 1 make syrup" ; !Rand key:n73035751841n
 ziiwaakgan:ziiwaakVv1gan    VAI_TAG    " 1 have heartburn" ; !Rand key:n73035752142n
 ziiwmaagzi:ziiwimaagozi    VAI_TAG    " 1 smell sour" ; !Rand key:n73035752355n
@@ -8986,7 +8986,7 @@ ziinmaa:ziinim    VTA_TAG    " 1 suck liquid out of sth. (an.)" ; !Rand key:n730
 ziinnaa:ziinin1    VTA_TAG    " 1 milk sth. (an.)" ; !Rand key:n73035748928n
 ziinshkawaa:ziinVv1shkaw    VTA_TAG    " 1 wear sth. (an.) tight" ; !Rand key:n73035749280n
 ziinzwaa:ziinVv1zw    VTA_TAG    " 1 fry sth. (an.) to produce drippings, bake sth. (an.) to produce drippings (typically of pork rind)" ; !Rand key:n73035750352n
-ziitaagnawaa:ziitaaganaw    VTA_TAG    " 1 salt sth. (an.)" ; !Rand key:n73035751426n
+ziitaagnawaa:ziiwitaaganaw    VTA_TAG    " 1 salt sth. (an.)" ; !Rand key:n73035751426n
 ziizningwaamaa:ziizVv1ningwaam    VTA_TAG    " 1 carry sth. (an.) squeezed under one's arm, hold sth. (an.) squeezed under one's arm" ; !Rand key:n73035753283n
 zka'mawaa:zakahamaw    VTA_TAG    " 1 light something for smb." ; !Rand key:n73035811023n
 zkaabiignaa:zakaabiigin1    VTA_TAG    " 1 plug sth. (an.) in" ; !Rand key:n73034022069n
@@ -11383,7 +11383,7 @@ ziind'aan:ziindah    VTI_AM_THEME    " 1 wedge rags into cracks around sth." ; !
 ziindaaknaan:ziindaakon    VTI_AM_THEME    " 1 wedge sth. in a space, insert sth. into a narrow opening (of sticklike objects)" ; !Rand key:n73035719583n
 ziinndaan:ziinind    VTI_AM_THEME    " 1 suck liquid out of sth." ; !Rand key:n73035749031n
 ziinshkaan:ziinVv1shk    VTI_AM_THEME    " 1 wear sth. tight (of clothes)" ; !Rand key:n73035749181n
-ziitaagna'aan:ziitaaganah    VTI_AM_THEME    " 1 salt sth." ; !Rand key:n73035751343n
+ziitaagna'aan:ziiwitaaganah    VTI_AM_THEME    " 1 salt sth." ; !Rand key:n73035751343n
 ziizningwaandaan:ziizVv1ningwaand    VTI_AM_THEME    " 1 carry sth. squeezed under one's armhold sth. squeezed under one's arm" ; !Rand key:n73035753192n
 zka'aan:zakah    VTI_AM_THEME    " 1 light sth., set sth. on fire" ; !Rand key:n7303589657n
 zkaabiignaan:zakaabiigin    VTI_AM_THEME    " 1 plug sth. in" ; !Rand key:n73034022032n
