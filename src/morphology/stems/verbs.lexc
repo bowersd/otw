@@ -5707,7 +5707,7 @@ zaagninjiishin:zaagininjiishin    VAI_TAG    " 1 have one's hand sticking out" ;
 zaagwewe:zaagwewe    VAI_TAG    " 1 call out [from inside]" ; !Rand key:n73033313009n
 zaagzi:zaagizi    VAI_TAG    " 1 be stingy" ; !Rand key:n73033313153n
 zaagzideshin:zaagizideshin    VAI_TAG    " 1 lie with one's foot sticking out" ; !Rand key:n73033313257n
-zaakam:zaaam    VAI_TAG    " 1 go to the bathroom [to pee]" ; !Rand key:n73033313440n
+!zaakam:zaaam    VAI_TAG    " 1 go to the bathroom [to pee]" ; !Rand key:n73033313440n
 zaakam:zaagaham    VAI_TAG    " 1 go to the bathroom [to pee]" ; !Rand key:n73033313440n
 zaam'o:ozaamaho    VAI_TAG    " 1 have too much " ; !Rand key:n73028854671n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zaamaabewzi:ozaamaabewizi    VAI_TAG    " 1 be excessively obese, be excessively overweight" ; !Rand key:n73028855666n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
