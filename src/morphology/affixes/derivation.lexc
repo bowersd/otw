@@ -2,7 +2,7 @@
 !#VTA Based Derivation
 !#####
 LEXICON VALENCE_INCREASING
-+Caus:ishkaw    VTA_TAG ; !causative in body, i epenthetic?
++Caus:%>%>shkaw    VTA_TAG ; !causative in body, i epenthetic?
 
 LEXICON VTA_DETRANSITIVE_GET
                 VTA_DETRANSITIVE ; 
@@ -14,8 +14,8 @@ LEXICON VTA_DETRANSITIVE
 !, -(i)we (apply to h/N/S/n final VTAs, lots of palatalization)
 !, -aaso (remove VTI theme)
 !p 413 for productive VAI secondary finals
-+Rcpl:idi       VAI_TAG ;
-+Rflx:idizo     VAI_TAG ;
++Rcpl:%>%>di       VAI_TAG ;
++Rflx:%>%>dizo     VAI_TAG ;
                 VTI_BASE_DERIV_VAI ; 
 
 LEXICON VAI_DERIV_GATEWAY
