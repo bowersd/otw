@@ -124,6 +124,7 @@ define optinitV [shortv (->) 0 || _ %< shortv cons ] ; !comment this rule for po
 define preLen [ [..] -> o || shortv %< _ o ];
 define preEpen [ [..] ->  d || shortv _ %< vowel ];
 !}
+define conDimMutation [[m|n] (->) 0 || _ %> e1 n [y|s] ] ; 
 define conPl [ shortv -> i || e1 n y %>  _ ]; !would be nice to have y1 here, but then it is the only y1 that doesn't delete !DAB 2023 this duplicates a ya->yi rule we have more generally in spelling relaxation
 
 define a1toshort    [a1 %> a  ->  a %>] ;
@@ -309,7 +310,7 @@ define w1Coal2 [w1 a -> o]; !only Odawa
 !define w1Faith [w1 a -> w a]; !other dialects
 define w1Del [w1 -> 0]; 
 !define nyCoal [shortv -> i || n y _ ];
-define wiCoal [w i (->) o]; !Medler does this (could be more widespread, optional?)
+define wiCoal [w i (->) o]; !Medler does this (could be more widespread, optional?) !this makes awi -> ao, feeding vCoal -> aa ... which is right, but mandatory AFAIK in some contexts
 
 !will need to apply vowel deletion over nasal
 !giigoonhe1ns -> giigoons
@@ -366,6 +367,7 @@ read regex [ ! Morphology.l .o.
     preDel      .o.
     preLen      .o.
     preEpen     .o. 
+    conDimMutation .o.
     conPl       .o.
     a1toshort   .o.
     a1toe       .o.
