@@ -27,6 +27,9 @@ define yayi [a (->) i || y _ \[a]] ;
 define wy [w (->) y || [a|e|i] _ ,,
           y (->) w || o _ ] ; 
 
+define lengthGlide [[..] (->) o || \[o] o _ w ,,
+                    [..] (->) i || \[i] i _ y ] ; !some ambiguity before nasals too. consider expanding?
+
 define gnMetath [ g n (->) n g] ; 
 
 define stridDevoi [z h (->) s h, z (->) s || _ [p|t|k|b|d|g] ] ; !other devoicing possible, may expand rule, but these set up apparent primary clusters, so they got the first look !!j (->) c h also a strident, but does not make a cluster
