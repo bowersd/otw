@@ -124,7 +124,7 @@ define optinitV [shortv (->) 0 || _ %< shortv cons ] ; !comment this rule for po
 define preLen [ [..] -> o || shortv %< _ o ];
 define preEpen [ [..] ->  d || shortv _ %< vowel ];
 !}
-define conPl [ shortv -> i || e1 n y %>  _ ]; !would be nice to have y1 here, but then it is the only y1 that doesn't delete
+define conPl [ shortv -> i || e1 n y %>  _ ]; !would be nice to have y1 here, but then it is the only y1 that doesn't delete !DAB 2023 this duplicates a ya->yi rule we have more generally in spelling relaxation
 
 define a1toshort    [a1 %> a  ->  a %>] ;
 define a1toe        [a1 %> e1  -> %> e] ;
