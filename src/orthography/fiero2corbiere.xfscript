@@ -1,4 +1,5 @@
 
+define hw [h (->) w || \[c|s|n|z] _ ] ; 
 define hApos [h -> %' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> %' || n _ k ] ; 
 define hyphEpen [[..] (->) %- ||  _ [s|z] i i ] ; 
@@ -47,8 +48,9 @@ define lenisFortition [ b (->) p, g (->) k, d (->) t, j (->) c h, z h (->) s h, 
 define initialHomorgMerge [ b b (->) b, g g (->) g, d d (->) d || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
 define initialHomorgSonMerge [ m m (->) m, n n (->) n, w w (->) w || [.#.|%-] _ ] ; !from Rhodes 1985b p 468
 
-regex [ aposEpen .o. !character set differences
-        hApos .o. 
+regex [ hw .o. !surfacey phonology that should not be mixed in to the practice of marking n'k clusters
+        hApos .o. !character set differences
+        aposEpen .o. 
         aposHyphDel .o.
         finDevoi .o. !surfacey phonology
         oa .o.
