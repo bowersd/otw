@@ -216,8 +216,8 @@ geget:geget    AV_TAG    " 1 really, for sure, truly, definitely" ; !Rand key:n7
 gegeti:gegeti    AV_TAG    " 1 really, for sure" ; !Rand key:n73019737618n
 gego:gego    AV_TAG    " 1 also, as well" ; !Rand key:n73019738250n
 gegpii:gegapii    AV_TAG    " 1 finally;  2 eventually, sooner or later" ; !Rand key:n73020045617n
-geshtine:gezhidine    AV_TAG    " 1 now [while there's an opportunity], while one is at it" ; !Rand key:n73020047296n
-geskana:geskana    AV_TAG    " 1 suddenly, all of a sudden;  2 immediately" ; !Rand key:n73020047757n
+geshtine:gezhidine    AV_TAG    " 1 now [while there's an opportunity], while one is at it" ; !Rand key:n73020047296n !DAB OPD has gezhidine
+geskana:gezikana    AV_TAG    " 1 suddenly, all of a sudden;  2 immediately" ; !Rand key:n73020047757n
 gesnaa:gesVv1naa    AV_TAG    " 1 ever, how, what" ; !Rand key:n72981366758n
 gesnaa:gesVv1naa    AV_TAG    " 1 ever, if... ever" ; !Rand key:n73020048750n
 geyaabi:geyaabi    AV_TAG    " 1 anymore, more, still, yet" ; !Rand key:n73020082882n
