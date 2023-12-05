@@ -22,7 +22,8 @@ define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added 
                                                              .#.
                                                              ] ; 
 
-define ye2e [y (->) 0 || .#.  _ e ] ; 
+define initGlideDel [y (->) 0 || .#.  _ [i|e],
+                    w (->) 0 || .#. _ o] ; 
 define yayi [a (->) i || y _ \[a]] ; 
 
 define wy [w (->) y || [a|e|i] _ ,,
@@ -58,7 +59,7 @@ regex [ hw .o. !surfacey phonology that should not be mixed in to the practice o
         aposHyphDel .o.
         finDevoi .o. !surfacey phonology
         oa .o.
-        ye2e .o.
+        initGlideDel .o.
         yayi .o. !this is fed by oa, not sure if that is right
         wy .o.
         lengthGlide .o.
