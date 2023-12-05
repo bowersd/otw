@@ -3,6 +3,9 @@ define hw [h (->) w || \[c|s|n|z] _ ] ;
 define hApos [h -> %' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> %' || n _ k ] ; 
 define hyphEpen [[..] (->) %- ||  _ [s|z] i i ] ; 
+define nasalPlaceAssim [ m (->) n || _ [d|t] ,,
+                        m (->) n %' || _ [s|z] ,,
+                        n (->) m || _ [b|p] ] ; 
 define aposHyphDel [[%'|%-] (->) 0] ;
 define finDevoi [b -> p || \[m] _ .#. ,,
                 d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ;
@@ -56,6 +59,7 @@ define initialHomorgSonMerge [ m m (->) m, n n (->) n, w w (->) w || [.#.|%-] _ 
 regex [ hw .o. !surfacey phonology that should not be mixed in to the practice of marking n'k clusters
         hApos .o. !character set differences
         aposEpen .o. 
+        nasalPlaceAssim .o.
         aposHyphDel .o.
         finDevoi .o. !surfacey phonology
         oa .o.
