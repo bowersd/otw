@@ -121,7 +121,7 @@ define preDel [ shortv -> 0 || _ %< %^ vowel ];
 !}
 !{prefix adjustments
 define optinitV [shortv (->) 0 || _ %< shortv cons ] ; !comment this rule for post-rhythmic syncope stage, could use trushortv
-define preLen [ [..] -> o ||  %< _ o ];
+define preLen [ [..] -> o || shortv %< _ o ];
 define preEpen [ [..] ->  d || shortv _ %< vowel ];
 !}
 define conPl [ shortv -> i || e1 n y %>  _ ]; !would be nice to have y1 here, but then it is the only y1 that doesn't delete
