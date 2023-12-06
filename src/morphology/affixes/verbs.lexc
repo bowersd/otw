@@ -2100,6 +2100,18 @@ LEXICON VTI_CNJ_DUB
 +Dub:%>en2 # ;
 !} dub end
 
+!{Participles
+LEXICON VTI_CNJ_PCP_GET
+@R.Ccnj@@R.3Num.Pl@     VTI_CNJ_PCP_PL ;
+@R.Ccnj@@R.3Num.Obv@    VTI_CNJ_PCP_OBV ; 
+                    # ; 
+
+LEXICON VTI_CNJ_PCP_PL
++Pcp+3+Pl:%>ag # ; 
+LEXICON VTI_CNJ_PCP_OBV
++Pcp+3+Pl:%>an # ; 
+
+!} participles end
 !} Cnj end
 
 !{ imperative
