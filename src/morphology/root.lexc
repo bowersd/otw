@@ -53,6 +53,7 @@ VRED1
 +Rflx !reflexive (VTA->VAI)
 +Rcpl !reciprocal (VTA->VAI)
 +Pass !passive (VTA/VTI->VAI/VII) possibly VAI -> VAI
++AntPass !Antipassive (actor focus detransitive) (VTA/VTI->VAI/VII) possibly VAI -> VAI
 +Poss !possessive VAI (N->VAI)
 +Caus !causative
 
