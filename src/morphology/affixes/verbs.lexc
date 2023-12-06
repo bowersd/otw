@@ -2047,10 +2047,19 @@ LEXICON VTI_CNJ_3PL_MODE_GET
 LEXICON VTI_CNJ_3PL
 +3+Pl:w4aad1       VTI_CNJ_DUB_EARLY_B ; !Irregularity when negated and this is last morpheme/followed by prt
 
+LEXICON VTI_CNJ_3PL_GATEWAY 
+0:y1        VTI_CNJ_PCP_PL  ;
+@P.3Num.Pl@ VTI_CNJ_DUB_EARLY_B ; 
+
+
 LEXICON VTI_CNJ_3 
 +3:%>d1               VTI_CNJ_DUB_EARLY_B ; !d1 phon in root.lexc
-+3+4:%>nid1           VTI_CNJ_DUB_EARLY_B ; !nas morph inid?
++3+4:%>nid1           VTI_CNJ_3OBV_GATEWAY ; !nas morph inid?
 +X:%>nd1              VTI_CNJ_MODE_GET ; !nd1b -> ngib, this realization only compatible with prt, not dub
+
+LEXICON VTI_CNJ_3OBV_GATEWAY 
+0:y1        VTI_CNJ_PCP_OBV ;
+@P.3Num.Obv@ VTI_CNJ_DUB_EARLY_B ; 
 
 LEXICON VTI_CNJ_DUB_EARLY_B !letters or numbers for ordered? 
 0:w4    VTI_CNJ_DUB_SET_B ;
@@ -2083,21 +2092,23 @@ LEXICON VTI_CNJ_MODE_GET
 @D.Mode.Dub@    # ; !may end if Dub wasn't set earlier 
 
 LEXICON VTI_CNJ_PRT 
-+Prt:%>b1an2   VTI_CNJ_DUB_GET ; !i1 should be included for participles, but grammar pretty unclear vti participles
++Prt:%>b1an2   VTI_CNJ_DUB_GET ; !i1 included for participles later to avoid prtdub morpheme boundary triggering ii,
 @R.Mode.Dub@    VTI_CNJ_DUB ;
 !@D.Mode@    VTI_CNJ_DUB_GET ;
 !@R.Mode@    VTI_CNJ_DUB ; !otherwise, you can end, or pick up +Dub
 !unclear why commented out section here behaved differently from  VTI_CNJ_PRT_1
 
 LEXICON VTI_CNJ_DUB_GET
-@D.Mode.Dub@    # ;
+@D.Mode.Dub@    VTI_CNJ_PRT_I1 ;
 @R.Mode.Dub@    VTI_CNJ_DUB ;
 
+LEXICON VTI_CNJ_PRT_I1
+0:i1        VTI_CNJ_PCP_GET ;
 !} prt end
 
 !{dubitative slot
 LEXICON VTI_CNJ_DUB 
-+Dub:%>en2 # ;
++Dub:%>en2 VTI_CNJ_PCP_GET ;
 !} dub end
 
 !{Participles
@@ -2108,6 +2119,7 @@ LEXICON VTI_CNJ_PCP_GET
 
 LEXICON VTI_CNJ_PCP_PL
 +Pcp+3+Pl:%>ag # ; 
+
 LEXICON VTI_CNJ_PCP_OBV
 +Pcp+3+Pl:%>an # ; 
 
