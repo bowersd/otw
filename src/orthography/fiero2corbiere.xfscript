@@ -25,7 +25,7 @@ define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added 
                                                              .#.
                                                              ] ; 
 
-define initGlideDel [y (->) 0 || .#.  _ [i|e],
+define initGlideDel [y (->) 0 || .#.  _ [i|e],,
                     w (->) 0 || .#. _ o] ; 
 define yayi [a (->) i || y _ \[a]] ; 
 
