@@ -2053,7 +2053,7 @@ LEXICON VTI_CNJ_3PL_GATEWAY
 
 
 LEXICON VTI_CNJ_3 
-+3:%>d1               VTI_CNJ_DUB_EARLY_B ; !d1 phon in root.lexc
++3:%>d1               VTI_CNJ_3PL_GATEWAY ; !d1 phon in root.lexc
 +3+4:%>nid1           VTI_CNJ_3OBV_GATEWAY ; !nas morph inid?
 +X:%>nd1              VTI_CNJ_MODE_GET ; !nd1b -> ngib, this realization only compatible with prt, not dub
 
