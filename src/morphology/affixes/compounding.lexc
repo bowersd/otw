@@ -20,6 +20,6 @@ LEXICON NOMINAL_COMPOUNDING
 !I don't see why this would diagnose prenouns vs compounds. could compounds not have a phonological boundary between them? I certainly thought types 1 and 2 had a boundary (type 3 isn't written with a hyphen, I assume there is no pword boundary inside these compounds). Was I wrong on types 1 and 2?
 
 LEXICON NOMINAL_COMPOUNDING_GATEWAY !pick up right element (only NA, NI?)
-    NI ;
-    NA ; 
+    NI "weight: 1";
+    NA "weight: 1"; 
     !what is the correct behavior of dependent nouns in compounds? if the second member, are they prefixed, or is the prefix on the first member?
