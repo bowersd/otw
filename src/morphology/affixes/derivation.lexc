@@ -2,7 +2,7 @@
 !#VTA Based Derivation
 !#####
 LEXICON VALENCE_INCREASING
-+Caus:%>%>shkaw        VTA_TAG ; !causative in body, i epenthetic?
++Caus:%>%>shkaw        VTA_TAG "weight: 1"; !causative in body, i epenthetic?
 
 LEXICON VTA_DETRANSITIVE_GET
                 VTA_DETRANSITIVE ; 
@@ -14,9 +14,9 @@ LEXICON VTA_DETRANSITIVE
 !, -(i)we (apply to h/N/S/n final VTAs, lots of palatalization)
 !, -aaso (remove VTI theme)
 !p 413 for productive VAI secondary finals
-+Rcpl:%>%>idi       VAI_TAG ;
-+Rflx:%>%>idizo     VAI_TAG ;
-+AntPass:%>%>ge     VAI_TAG ; 
++Rcpl:%>%>idi       VAI_TAG "weight: 1";
++Rflx:%>%>idizo     VAI_TAG "weight: 1";
++AntPass:%>%>ge     VAI_TAG "weight: 1"; 
                 VTI_BASE_DERIV_VAI ; 
 
 LEXICON VAI_DERIV_GATEWAY
@@ -36,33 +36,33 @@ LEXICON VTI_BASE_DERIV
         VTI_BASE_DERIV_VII ;
 
 LEXICON VTI_BASE_DERIV_VAI !also fed by VTA_DETRANSITIVE, since many VTAs were showing up with -gaazo
-+Pass:%>%>gaazo  VAI_TAG ; 
++Pass:%>%>gaazo  VAI_TAG "weight: 1"; 
 
 LEXICON VTI_BASE_DERIV_VII 
-+Pass:%>%>gaade  VII_TAG ;
++Pass:%>%>gaade  VII_TAG "weight: 1";
 
 LEXICON DERIV_VII
-0:%>%>magad2 VII_TAG ; !what is base for magad?->VAI/VII need to enforce preceding V lengthening
+0:%>%>magad2 VII_TAG "weight: 1"; !what is base for magad?->VAI/VII need to enforce preceding V lengthening
 
 LEXICON VAI_BASE_DERIV_NI
-0:win NI_SET ;
-0:gan NI_SET ;
+0:win NI_SET "weight: 1";
+0:gan NI_SET "weight: 1";
 
 LEXICON VAI_N_BASE_DERIV_NI
-0:wi        VAI_N_BASE_DERIV_NI_GAMIG ; !this is extensional w and triggers lengthening, w2 dropping (these attributes are not implemented 11/29/2023)
+0:wi        VAI_N_BASE_DERIV_NI_GAMIG "weight: 1"; !this is extensional w and triggers lengthening, w2 dropping (these attributes are not implemented 11/29/2023)
             VAI_N_BASE_DERIV_NI_GAMIG ; 
 
 LEXICON VAI_N_BASE_DERIV_NI_GAMIG
-0:gamigo    NI_SET ;
+0:gamigo    NI_SET "weight: 1";
 
 LEXICON N_BASE_DERIV_VAI
 @R.Person.3@@C.Person@    N_BASE_DERIV_VAI_POSSESSION ; !this only allows third person possession verbs to exist. ... you need to be able to pick up a prefix for the verb, then pick up 3 on the noun, then drop 3, but keep the person information of the verbal prefixes
                                                 !so use a verbperson diacritic and a nounperson diacritic, plus disassociate noun and verb prefixation
 LEXICON N_BASE_DERIV_VAI_POSSESSION 
-+Poss:i  VAI_TAG ; !'have' (listed in V 2001 index) per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
++Poss:i  VAI_TAG "weight: 1"; !'have' (listed in V 2001 index) per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
 
 LEXICON NA_BASE_DERIV_VAI
-0:wi VAI_TAG ; !'be' what flavor of w is this (phonologically)? 
+0:wi VAI_TAG "weight: 1"; !'be' what flavor of w is this (phonologically)? 
 
 LEXICON N_BASE_DERIV_VII
-0:wan VII_TAG ; !'be' what flavor of w is this (phonologically)? 
+0:wan VII_TAG "weight: 1"; !'be' what flavor of w is this (phonologically)? 
