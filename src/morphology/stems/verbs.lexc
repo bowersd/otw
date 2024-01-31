@@ -6128,7 +6128,7 @@ daapnigaaza:daapinigaazo    VAI_TAG    " 1 be seized, be taken" ; !Rand key:n201
 dengwyaa:odengwayaa    VAI_TAG    " 1 have a face" ; !Rand key:n201132719-36-45n
 dezhii:dezhii    VAI_TAG    " 1 have time (to do something)" ; !Rand key:n201132719-55-59n
 dgwaagshi:dagwaagishi    VAI_TAG    " 1 spend fall (in such place), spend autumn (in such place)" ; !Rand key:n201132720-26-59n
-di:di    VAI_TAG    " 1 have happen to one in a certain way; have something be wrong with one" ; !Rand key:n201132720-52-40n
+di:idi    VAI_TAG    " 1 have happen to one in a certain way; have something be wrong with one" ; !Rand key:n201132720-52-40n !original UR is di, which is subminimal. OPD has di too, but a reduplicated form ayindi, which indicates it is not subminimal (is it an error?)
 dkon'gaaza:dakonigaazo    VAI_TAG    " 1 be arrested" ; !Rand key:n201132722-17-44n
 dswewaan'gizi:daswewaanagizi    VAI_TAG    " 1 be a certain number of (different) kinds" ; !Rand key:n201132821-1-11n
 dtaa:dataa    VAI_TAG    " 1 dwell for some time" ; !Rand key:n201132821-6-4n
