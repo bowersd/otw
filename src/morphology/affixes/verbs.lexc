@@ -168,6 +168,11 @@ PV/nji+:onji-  V_PREVERBS_ASPECT " 1 at a certain place, from a certain place, f
 !wnji-:onji    V_PREVERBS_ASPECT    " 1 [see nji-]" ; !Rand key:n73072141838n
 PV/dzhi+:dazhi-   V_PREVERBS_ASPECT " 1 at a certain place, where";
 PV/dso+:daso-     V_PREVERBS_ASPECT " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
+!DUP REMOVE!PV/aana+:aana-   V_PREVERBS_ASPECT " 1 in vain, to no avail" ; !Rand key:n72973263339n
+PV/aano+:aano-   V_PREVERBS_ASPECT   " 1 [see aana-]"; !Valentine 2001 doesn't specify slot -> it precedes ntaa- (in aspect class), so moved up from V_PREVERBS_MANNER DAB 2024-01-31
+!DUP REMOVE!PV/aana+:X2aana-   V_PREVERBS_ASPECT " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
+PV/aano+:X2aano-   V_PREVERBS_ASPECT   " 1 [see aana-]"; !optional blocker to stop ccnj yaano!Valentine 2001 doesn't specify slot -> it precedes ntaa- (in aspect class), so moved up from V_PREVERBS_MANNER DAB 2024-01-31
+PV/aanwii+:aanawii-    V_PREVERBS_ASPECT    " 1 even though, despite;  2 try to..." ; !Rand key:n201012516-47-22n !moved up from V_PREVERBS_ASPECT due to similarity to aano DAB 2024-01-31
             V_PREVERBS_ASPECT ;
 
 LEXICON V_PREVERBS_RELATIVE_ORDER_SET
@@ -176,7 +181,6 @@ LEXICON V_PREVERBS_RELATIVE_ORDER_SET
 LEXICON V_PREVERBS_ASPECT
 !{ uncertain of position
 PV/ntami+:nitami-    V_PREVERBS_MANNER    " 1 first [before others, i.e., relative position in a sequence]" ; !Rand key:n73099772452n
-PV/aanwii+:aanawii-    V_PREVERBS_MANNER    " 1 even though, despite;  2 try to..." ; !Rand key:n201012516-47-22n
 PV/bgami+:bagami-    V_PREVERBS_MANNER    " 1 become, commence, arrive" ; !Rand key:n201132615-13-29n
 PV/ekwaa+:ekwaa-    V_PREVERBS_MANNER    " 1 finish" ; !Rand key:n73024180454n
 PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
@@ -243,10 +247,6 @@ PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_GET    " 1 special, classy, gourmet" 
 !}
 PV/nboodwewi+:niboodwewi- V_REDUPLICATION_GET " 1 embarassedly" ;
 PV/gnibi+:ginibi- V_REDUPLICATION_GET " 1 quickly" ;
-!DUP REMOVE!PV/aana+:aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !Rand key:n72973263339n
-PV/aano+:aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !Valentine 2001 doesn't specify slot
-!DUP REMOVE!PV/aana+:X2aana-   V_REDUPLICATION_GET " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
-PV/aano+:X2aano-   V_REDUPLICATION_GET " 1 [see aana-]"; !optional blocker to stop ccnj yaano!Valentine 2001 doesn't specify slot
 PV/aabji+:aabaji- V_REDUPLICATION_GET " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
 PV/aapji+:aapaji- V_REDUPLICATION_GET " 1 very;  2 completely, entirely, fully";
 PV/baakji+:baakaji- V_REDUPLICATION_GET " 1 irreversible, irreversibly";
