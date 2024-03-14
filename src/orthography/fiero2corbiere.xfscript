@@ -13,14 +13,14 @@ define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added 
                                                             p|t|k|c h|
                                                             [[s (h)](p|t|k)]|
                                                             [[m (b)]|[n (d|g|j|z (h)|s|h)]]|
-                                                            w|y|'
+                                                            w|y|%'
                                                             )
                                                              .#.] .o.
             [o -> a || [d|t|c h|j|y]  _ (  
                                                             p|t|k|c h|
                                                             [[s (h)](p|t|k)]|
                                                             [[m (b)]|[n (d|g|j|z (h)|s|h)]]|
-                                                            w|y|'
+                                                            w|y|%'
                                                             )
                                                              .#.
                                                              ] ; 
@@ -70,7 +70,7 @@ regex [ hw .o. !surfacey phonology that should not be mixed in to the practice o
         yayi .o. !this is fed by oa, not sure if that is right
         wy .o.
         lengthGlide .o.
-        gnMetath .o.
+        !gnMetath .o.
         stridDevoi .o.
         postStridDevoi .o.
         clustDevoi .o.
