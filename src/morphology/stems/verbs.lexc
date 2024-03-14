@@ -11359,7 +11359,7 @@ zhiishiigdaan:zhiishiigid    VTI_AM_THEME    " 1 pee on sth., urinate on sth." ;
 zhijiinaan:izhijiin    VTI_AM_THEME    " 1 hold sth. in a certain way" ; !Rand key:n73033636025n
 zhikdaan:izhikod    VTI_AM_THEME    " 1 cut sth. in a certain way" ; !Rand key:n73033636166n
 zhin'kaadaan:izhinikaad    VTI_AM_THEME    " 1 call sth. by a certain name" ; !Rand key:n73033639025n
-zhinaashkaan:izhinaashk    VTI_AM_THEME    " 1 send sth. to a certain place" ; !Rand key:n73072769930n
+zhinaashkaan:izhinaazhik    VTI_AM_THEME    " 1 send sth. to a certain place" ; !Rand key:n73072769930n
 zhinoo'aan:izhinooh    VTI_AM_THEME    " 1 point to sth., point sth. out" ; !Rand key:n73033640029n
 zhiwdaan:izhiwid    VTI_AM_THEME    " 1 take sth. in a certain direction, take sth. in a certain way, take sth. to a certain place (of smaller objects)" ; !Rand key:n73033982261n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zhiweb'aan:izhiwebah    VTI_AM_THEME    " 1 shove sth. in a certain way [with an instrument], shove sth. in a certain way [with an instrument]" ; !Rand key:n73033982711n
