@@ -29,11 +29,6 @@ def lexc_to_dict_and_extras(filename):
             for x in extras: f_out.write(x)
     return {x:h[x] for x in h if h[x]} #this does remove the ability to reconstruct the lexc file with the current structure of the lexc files... would be better to have them structured right and just return h
 
-def panda_ize(lexdict):
-    h = []
-    for x in lexdict: h.extend(lexdict[x])
-    return pandas.DataFrame(h)
-
 def main(*args):
     h = []
     for a in args:
