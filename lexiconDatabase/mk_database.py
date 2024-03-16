@@ -33,6 +33,9 @@ def left_alts(string):
     if re.match("[aio]?[^aioe]*[aio](?![^aio]*$)", string): return True
     return False
 
+def mult_alts(string):
+    pass
+
 def main(*args):
     h = []
     for a in args:
