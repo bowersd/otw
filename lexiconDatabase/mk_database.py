@@ -29,6 +29,10 @@ def lexc_to_dict_and_extras(filename):
             for x in extras: f_out.write(x)
     return {x:h[x] for x in h if h[x]} #this does remove the ability to reconstruct the lexc file with the current structure of the lexc files... would be better to have them structured right and just return h
 
+def left_alts(string):
+    if re.match("[aio]?[^aioe]*[aio](?![^aio]*$)", string): return True
+    return False
+
 def main(*args):
     h = []
     for a in args:
