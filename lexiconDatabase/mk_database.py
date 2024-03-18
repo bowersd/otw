@@ -31,9 +31,11 @@ def lexc_to_dict_and_extras(filename):
 
 regexen = {
         "v_init":"[aioe]",
-        "left_alt":"[^aioe]*[aioe]",
-        "two_alt":"([^aioe]*[aioe]){2}(?![^aioe]*$)",
+        "left_alt":"[^aioe]*[aioe][^aio]*",
+        "two_alt":"([^aioe]*[aioe][^aio]*){2}(?!$)",
+        "three_alt":"([^aioe]*[aioe][^aio]*){3}(?!$)",
         }
+
 def test(regex, string):
     return bool(re.match(regex, string))
 
@@ -41,7 +43,10 @@ def main(*args):
     h = []
     for a in args:
         core_words = lexc_to_dict_and_extras(a)
-        for x in core_words:
+        for x in core_words: 
+            for y in core_words[x]:
+                for z in regexen:
+                    core_words[x][y][z] = int(test(regexen[z], core_words[x][y]["rv_full_vowels"]))
             h.extend(core_words[x])
     h_df = pandas.DataFrame(h)
     with duckdb.connect("lexicon.db") as cxn:
