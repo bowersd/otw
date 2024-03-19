@@ -35,9 +35,9 @@ def fix_vowels(string):
 
 regexen = {
         "v_init":"[aioe]",
-        "left_alt":"[^aioe]*[aio][^aioe]*",
-        "two_alt":"([^aioe]*[aio][^aioe]*){2}(?!$)",
-        "three_alt":"([^aioe]*[aio][^aioe]*){3}(?!$)",
+        "left_alt":"[^aioe]*[aio][^aioe]+",
+        "two_alt":"([^aioe]*[aio][^aioe]+){2}(?!$)",
+        "three_alt":"([^aioe]*[aio][^aioe]+){3}(?!$)",
         }
 
 def test(regex, string):
