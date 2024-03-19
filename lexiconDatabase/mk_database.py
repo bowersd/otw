@@ -29,11 +29,15 @@ def lexc_to_dict_and_extras(filename):
             for x in extras: f_out.write(x)
     return {x:h[x] for x in h if h[x]} #this does remove the ability to reconstruct the lexc file with the current structure of the lexc files... would be better to have them structured right and just return h
 
+short_vowels = "(a[^a]|i[^i]|o[^o]|Va1|Vi1|Vo1|Vo2|Vv1|Bv1)"
+def fix_vowels(string):
+    return re.sub("Bv1", "i", re.sub("Vo2", "a", re.sub("Vo1", "wa", re.sub("Vv1", "i", re.sub("Vi1", "a", re.sub("Va1", "o", string))))))
+
 regexen = {
         "v_init":"[aioe]",
-        "left_alt":"[^aioe]*[aioe][^aio]*",
-        "two_alt":"([^aioe]*[aioe][^aio]*){2}(?!$)",
-        "three_alt":"([^aioe]*[aioe][^aio]*){3}(?!$)",
+        "left_alt":"[^aioe]*[aio][^aioe]*",
+        "two_alt":"([^aioe]*[aio][^aioe]*){2}(?!$)",
+        "three_alt":"([^aioe]*[aio][^aioe]*){3}(?!$)",
         }
 
 def test(regex, string):
@@ -44,9 +48,11 @@ def main(*args):
     for a in args:
         core_words = lexc_to_dict_and_extras(a)
         for x in core_words: 
-            for y in core_words[x]:
+            for i in range(len(core_words[x])):
+                core_words[x][i]["rv_special_vowels_translated"] = fix_vowels(core_words[x][i]["rv_full_vowels"])
+                core_words[x][i]["rv_special_vowels_translated_diff"] = core_words[x][i]["rv_full_vowels"] != core_words[x][i]["rv_special_vowels_translated"]
                 for z in regexen:
-                    core_words[x][y][z] = int(test(regexen[z], core_words[x][y]["rv_full_vowels"]))
+                    core_words[x][i][z] = test(regexen[z], core_words[x][i]["rv_special_vowels_translated"])
             h.extend(core_words[x])
     h_df = pandas.DataFrame(h)
     with duckdb.connect("lexicon.db") as cxn:
