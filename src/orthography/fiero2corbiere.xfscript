@@ -65,21 +65,21 @@ regex [ hw .o. !surfacey phonology that should not be mixed in to the practice o
         aposHyphDel .o.
         finDevoi .o. !surfacey phonology
         oa .o.
-        nh2n .o.
-        initGlideDel .o.
-        yayi .o. !this is fed by oa, not sure if that is right
-        wy .o.
-        lengthGlide .o.
-        !gnMetath .o.
-        stridDevoi .o.
-        postStridDevoi .o.
-        clustDevoi .o.
-        lenisNasAssim .o.
-        lenisStopDeletion .o.
-        lenisFortition .o.
-        homorgObsMerge .o.
-        initialHomorgMerge .o.
-        initialHomorgSonMerge .o.
+        !nh2n .o.
+        !initGlideDel .o.
+        !yayi .o. !this is fed by oa, not sure if that is right
+        !wy .o.
+        !lengthGlide .o.
+        !!gnMetath .o.
+        !stridDevoi .o.
+        !postStridDevoi .o.
+        !clustDevoi .o.
+        !lenisNasAssim .o.
+        !lenisStopDeletion .o.
+        !lenisFortition .o.
+        !homorgObsMerge .o.
+        !initialHomorgMerge .o.
+        !initialHomorgSonMerge .o.
         hyphEpen
         ] ;
 
