@@ -21,7 +21,7 @@ gchi-zhashkwedo:gichi-azhashkwedow2    NA_SET    " 1 lifebelt" ; !Rand key:n2011
 zhaangwesh:zhaangweshw    NA_SET    " 1 mink" ; !Rand key:n73033448980n
 waawaashkesh:waawaashkeshw    NA_SET    " 1 deer" ; !Rand key:n73032685219n
 maawmaaw:maawimaaw    NA_SET    " 1 eyebrow" ; !Rand key:n7309016223n
-n'ka:niko    NA_SET    " 1 Canada goose" ; !Rand key:n71433050235n
+!n'ka:niko    NA_SET    " 1 Canada goose" ; !Rand key:n71433050235n !there must have been something indicating variation in Rand's original files, but this can't stay
 n'ka:nika    NA_SET    " 1 Canada goose" ; !Rand key:n71433050235n
 zhegaagom:zhegaagomw1    NA_SET    " 1 pinworm? roundworm?" ; !Rand key:n73034220491n (!!!!w1 not after velar!)
 daalii:daalii    NA_SET    " 1 doll" ; !Rand key:n201092215-42-9n
