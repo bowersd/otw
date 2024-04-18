@@ -8,10 +8,10 @@ LEXICON NOMINAL_COMPOUNDING_SET
 @C.Animate@ NOMINAL_COMPOUNDING ;
 
 LEXICON NOMINAL_COMPOUNDING
-+:-     NOMINAL_COMPOUNDING_GATEWAY ;  !type one, no special linkage (separate phonological words? yes)
-+:i-    NOMINAL_COMPOUNDING_GATEWAY ;  !type 2, add i and THEN: i1 vocalizes and lengthens, iw2 drops w2 and lengthens i, treat zhmaagnish as if it were zhmaagnishiw? what happens to other final segments?
++Cmpd+:-     NOMINAL_COMPOUNDING_GATEWAY ;  !type one, no special linkage (separate phonological words? yes)
++Cmpd+:i-    NOMINAL_COMPOUNDING_GATEWAY ;  !type 2, add i and THEN: i1 vocalizes and lengthens, iw2 drops w2 and lengthens i, treat zhmaagnish as if it were zhmaagnishiw? what happens to other final segments?
 !there are a few cases of extra length given to roots that do not end in i1
-+:w    NOMINAL_COMPOUNDING_GATEWAY ;  !type 3, extensional w and preceding vowel lengthens
++Cmpd+:w    NOMINAL_COMPOUNDING_GATEWAY ;  !type 3, extensional w and preceding vowel lengthens
 !1 exe: mashkikiiwnini ends in w2 per model (mashkiki)
 !1 exe: kawaabiiwnini ends in i per model (kawaabi)
 
