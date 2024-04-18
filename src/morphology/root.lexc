@@ -57,6 +57,9 @@ VRED1
 +Poss !possessive VAI (N->VAI)
 +Caus !causative
 
+!Mark compounds explicitly
++Cmpd
+
 !! Verb Negation
 +Neg  
 !opposed by +Pos in "abstract" mode, but +Pos plays no role in core transducer
