@@ -1802,7 +1802,7 @@ msko-jiisens:misko-jiisens    NI_SET    " 1 radish" ; !Rand key:n71430547338n
 mskodoonechgan:miskodoonechigan    NI_SET    " 1 lipstick" ; !Rand key:n73033250256n
 mskosnii:miskosinii    NI_SET    " 1 brick" ; !Rand key:n73098041574n
 mskwaasechgan:miskwaasechigan    NI_SET    " 1 red sash" ; !Rand key:n71430554784n
-mskwi:miskwii    NI_SET    " 1 blood" ; !Rand key:n71430555129n
+mskwi:miskwi    NI_SET    " 1 blood" ; !Rand key:n71430555129n !DAB changed from miskwii after Rand said aki = akii and mskwi = miskwii must have been typos
 Mskwiiwjiibkokaaning:miskwiiwijiiibikokaaning    NI_SET    " 1 Sandfield, Ont." ; !Rand key:n73035718750n
 mtigmin:mitigomin    NI_SET    " 1 acorn [of the pin oak]" ; !Rand key:n71430561653n
 mtignaagan:mitigonaagan    NI_SET    " 1 wooden bowl" ; !Rand key:n71430561863n
