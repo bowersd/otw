@@ -70,7 +70,7 @@ VRED1
 !these may be preceded by number to make +2+Pl, +3+4, etc (going to fuse them, cf complex person-number) (also, I am sick of +4, let's just use Obv)
 !could be good to bring back +2Pl et al
 +Pl +Obv
-+4
+!+4
 
 !Complex Person-Number
 +1Pl +2Pl +21Pl +3Pl  +3Obv +0Pl +0Obv
@@ -327,6 +327,7 @@ PA/ewaanji+
 !####
 !#Special symbols for phonology
 !###
+L1  !used in some loans and a handful of native words that do not undergo apocope.
 a1  !aang (loc)
 i1  !iig
 i2  !palatalizing i
