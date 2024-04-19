@@ -150,14 +150,14 @@ LEXICON N_POS_NUM_GET
 
 LEXICON N_POS_NUM_2_1
 !2 prefix may be followed by 1pl suff=1.pl.inc
-+1+Pl:%>naan2y1     N_MOOD_GET ;
++1Pl:%>naan2y1     N_MOOD_GET ;
 
 LEXICON N_POS_NUM_2_3
 !3 prefix may be followed by 2pl suff=3.pl
-+2+Pl:%>waa   N_MOOD_GET ;
++2Pl:%>waa   N_MOOD_GET ;
 
 LEXICON N_POS_NUM_3
-+3+4:%>niw2   N_MOOD_GET ;
++3Obv:%>niw2   N_MOOD_GET ;
 
 !style/syntax note
 !the following might be intuitive, but it is wrong
