@@ -12,7 +12,7 @@ maagan:maagan   NA_SET "spouse" ; !back formation from wiidgemaagan?
 LEXICON NA
 !{oddballs
 truck:truck    NA_SET    " 1 truck" ; !Rand key:n201141011-10-58n
-pizza:pizza    NA_SET    " 1 pizza" ; !Rand key:n20114108-39-42n
+pizza:pizzaL1    NA_SET    " 1 pizza" ; !Rand key:n20114108-39-42n
 pie:pie    NA_SET    " 1 pie" ; !Rand key:n20114108-34-59n
 mbacon:mbacon    NA_SET    " 1 bacon" ; !Rand key:n20114916-28-2n
 mbus:bus    NA_SET    " 1 bus" ; !Rand key:n2011497-13-43n
@@ -555,7 +555,7 @@ dewe'gan:dewehigan    NA_SET    " 1 drum" ; !Rand key:n73004560631n
 dkonwewniniikwe:dkonwewVi1niniikwe    NA_SET    " 1 policewoman" ; !Rand key:n73013752377n
 dkonwewniniikwe:dkonwewVi1niniiwVi1kwe    NA_SET    " 1 policewoman" ; !Rand key:n73013752377n
 ebgoons:ebigoons    NA_SET    " 1 ant" ; !Rand key:n73015357873n
-empaaya:empaaya    NA_SET    " 1 umpire" ; !Rand key:n73015757568n
+empaaya:empaayaL1    NA_SET    " 1 umpire" ; !Rand key:n73015757568n
 en'goons:enigoons    NA_SET    " 1 ant" ; !Rand key:n73015782678n
 esban:esiban    NA_SET    " 1 raccoon" ; !Rand key:n73015782939n
 eshkan:eshkan    NA_SET    " 1 chisel" ; !Rand key:n73015876741n
@@ -611,7 +611,7 @@ jiiskiiwniniikwe:jiisakiiwVi1niniiwVi1kwe    NA_SET    " 1 [female] conjuror, sh
 kagoo:Vv1kagoo    NA_SET    " 1 Canada goose" ; !Rand key:n73016755462n
 kakjiish:akakojiish    NA_SET    " 1 groundhog, woodchuck" ; !Rand key:n73017351716n
 kanaak-pwaagan:Vv1kanaak-opwaagan    NA_SET    " 1 corn cob pipe" ; !Rand key:n73017353032n
-kecha:kecha    NA_SET    " 1 [baseball] catcher" ; !Rand key:n71428957775n
+kecha:kechaL1    NA_SET    " 1 [baseball] catcher" ; !Rand key:n71428957775n
 kewis:Vv1kewis    NA_SET    " 1 herring" ; !Rand key:n71428959452n
 kinoomaagewniniikwe:gikinoohamaagewVi1niniikwe    NA_SET    " 1 [female] teacher, instructor" ; !Rand key:n7308186352n
 kinoomaagewniniikwe:gikinoohamaagewVi1niniiwVi1kwe    NA_SET    " 1 [female] teacher, instructor" ; !Rand key:n7308186352n
@@ -1731,7 +1731,7 @@ miigwan:miigwan    NI_SET    " 1 feather" ; !Rand key:n71429655982n
 miijim:miijim    NI_SET    " 1 food, a serving of food" ; !Rand key:n71429656858n
 miijmaknjigan:miijimakVv1njigan    NI_SET    " 1 [fish] bait" ; !Rand key:n73032924349n
 miikan:miikan    NI_SET    " 1 road, street" ; !Rand key:n71429657015n
-miikna:miikana    NI_SET    " 1 [see miikan]" ; !Rand key:n71429657099n
+miikna:miikanaL1    NI_SET    " 1 [see miikan]" ; !Rand key:n71429657099n
 miiknaans:miikanaans    NI_SET    " 1 path, trail" ; !Rand key:n71429657154n
 miiknoot:miikinood    NI_SET    " 1 pants, slacks, trousers" ; !Rand key:n71429657225n
 miin:miin    NI_SET    " 1 blueberry, huckleberry" ; !Rand key:n71429680336n
@@ -1808,9 +1808,9 @@ mtigmin:mitigomin    NI_SET    " 1 acorn [of the pin oak]" ; !Rand key:n71430561
 mtignaagan:mitigonaagan    NI_SET    " 1 wooden bowl" ; !Rand key:n71430561863n
 mtigo-dsoonaagan:mitigo-dasoonaagan    NI_SET    " 1 wooden trap" ; !Rand key:n71430562110n
 mtigoons:mitigoons    NI_SET    " 1 stick [of wood], branch [of a tree or other woody plant];  2 stick or shoot used as a switch or other makeshift tool;  3 bush, small plant (SI)" ; !Rand key:n71430562256n
-mtigoonski:mitigoonsaki    NI_SET    " 1 an area with many shrubs, an area with many small trees" ; !Rand key:n71430562468n
+mtigoonski:mitigoonsakiL1    NI_SET    " 1 an area with many shrubs, an area with many small trees" ; !Rand key:n71430562468n
 mtigwaaboo:mitigwaaboo    NI_SET    " 1 sap" ; !Rand key:n71430562874n
-mtigwaaki:mitigwaaki    NI_SET    " 1 forest, woodland" ; !Rand key:n71430562914n
+mtigwaaki:mitigwaakiL1    NI_SET    " 1 forest, woodland" ; !Rand key:n71430562914n
 mtigwaakiins:mitigwaakiins    NI_SET    " 1 stand of trees" ; !Rand key:n71430562967n
 mzimin:mizimin    NI_SET    " 1 wheat" ; !Rand key:n71430647340n
 mzimnens:miziminens    NI_SET    " 1 grain of wheat" ; !Rand key:n71430647383n
@@ -1949,7 +1949,7 @@ shkozhgan:Vi1shkozhigan    NI_SET    " 1 remnants [from cutting]" ; !Rand key:n7
 shkwaandem:ishkwaandem    NI_SET    " 1 door" ; !Rand key:n730315362n
 shkwenoozwin:ishkwenoozowin    NI_SET    " 1 last name, surname" ; !Rand key:n73034010646n
 shoogan:zhashoogan    NI_SET    " 1 butter, spread (condiment)" ; !Rand key:n7303156471n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-sin'kiki:asinVv1kiki    NI_SET    " 1 rocky ground" ; !Rand key:n73035540401n
+sin'kiki:asinVv1kikiL1    NI_SET    " 1 rocky ground" ; !Rand key:n73035540401n
 sindbepzowin:asindibepizowin    NI_SET    " 1 [decorative] headband" ; !Rand key:n73031980345n
 siniikaajgan:asiniikaajigan    NI_SET    " 1 stone foundation, stone structure" ; !Rand key:n73034022193n
 siniiswidaawang:asiniinsiwidaawang    NI_SET    " 1 gravel bed" ; !Rand key:n7303589906n
@@ -1975,7 +1975,7 @@ waabooyaan:waabooyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n
 waaboowyaan:waaboowiyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n !DUSTIN SYNTH:matches transcription of Andrew Medler 
 waabshkiigaans:waabishkiigaans    NI_SET    " 1 handkerchief" ; !Rand key:n7303227735n
 waabshkiigin:waabishkiigin    NI_SET    " 1 white cloth" ; !Rand key:n7303227876n
-waabshkoki:waabishkoki    NI_SET    " 1 marsh" ; !Rand key:n7303228435n
+waabshkoki:waabishkokiL1    NI_SET    " 1 marsh" ; !Rand key:n7303228435n
 waagaakdoons:waagaakodoons    NI_SET    " 1 hatchet" ; !Rand key:n73032210896n
 waagkaagan:waagikaagan    NI_SET    " 1 rainbow" ; !Rand key:n73032212370n
 waagosh-weyaan:waagosh-weyaan    NI_SET    " 1 fox pelt" ; !Rand key:n73032212718n
@@ -2177,7 +2177,7 @@ dsosgoons:dasosgoons    NI_SET    " 1 so many thousands of dollars" ; !Rand key:
 dswaak:daswaak    NI_SET    " 1 so many hundreds, a specified number of hundreds" ; !Rand key:n201132820-14-12n
 Emtigoozhii-zhiibiing:emitigoozhii-zhiibiing    NI_SET    " 1 French River, Ontario" ; !Rand key:n201132916-14-12n
 gchi-gindaaswin:gichi-agindaasVa1win    NI_SET    " 1 formal account, formal narrative; formal interpretation (of, e.g., an historical event)" ; !Rand key:n201133011-39-32n
-gchi-miikna:gichi-miikana    NI_SET    " 1 highway, major road" ; !Rand key:n201133013-58-7n
+gchi-miikna:gichi-miikanaL1    NI_SET    " 1 highway, major road" ; !Rand key:n201133013-58-7n
 Gchi-mookmaanii-kiwewin:gichi-mookomaanii-gikiwewin    NI_SET    " 1 American flag" ; !Rand key:n201133014-31-49n
 Gchi-mookmaanii-kiwewin:gichi-mookomaanii-ikiwewin    NI_SET    " 1 American flag" ; !Rand key:n201133014-31-49n
 ggwejkandiwin:gagwejikanidiwin    NI_SET    " 1 a race, a contest" ; !Rand key:n201133019-17-46n
