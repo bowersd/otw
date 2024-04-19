@@ -39,10 +39,6 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !#Concrete features (associated with a particular morpheme)
 !####
 
-!Simple Person
-1+ 2+ 3+ X+   !prefixes, last is only used on nouns
-+1 +2 +3 +X       !suffixes, if used, occur in Local Person Number slot
-+%0          !not really a person, but inanimates sometimes trigger special agreement
 
 !Reduplication
 Redup+
@@ -64,11 +60,20 @@ VRED1
 +Neg  
 !opposed by +Pos in "abstract" mode, but +Pos plays no role in core transducer
 
+!Simple Person
+1+ 2+ 3+ X+   !prefixes, last is only used on nouns
++1 +2 +3 +X       !suffixes, if used, occur in Local Person Number slot
++%0          !not really a person, but inanimates sometimes trigger special agreement
+
 !! Local Person Number
 
-!these may be preceded by number to make +2+Pl, +3+4, etc
+!these may be preceded by number to make +2+Pl, +3+4, etc (going to fuse them, cf complex person-number) (also, I am sick of +4, let's just use Obv)
 !could be good to bring back +2Pl et al
-+Pl +4
++Pl +Obv
++4
+
+!Complex Person-Number
++1Pl +2Pl +21Pl +3Pl +0Pl +3Obv
 
 !Mood
 +Prt +Dub ! abs: Prt, Neu
