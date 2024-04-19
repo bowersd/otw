@@ -34,6 +34,7 @@ define sigma [
                 d1| !nd1 -> ng, d1b1 -> p, d1y1 -> j, else: d 
                 d2| !deletable d in vii
                 c1| !conjunct, negation linker (nasal-neg[s] -> nz, v-v -> vyv)
+                L1| !final vowel protector (used mostly on a handful of loans, hence the L, but also a couple of tightly bound compounds with aki, and miikna)
                 X2| !'segment' to allow special phonology in ccnjs
                 Va1| !Valen special char, instant remap: a lowered from o
                 Vi1| !Valen special char, instant remap: a that in other dialects is i
@@ -240,6 +241,11 @@ define vfill [ !this will be tripped up by cluster-initial words (probably good 
     VRED1 -> a          ||            _ cons [i|a|o|e]     !Valentine p 915 has ? for what to do with o
     ] ;
 
+!###
+!#abnormal rule to get rid of L1 before it causes trouble. note, the behavior of the vowel preceding L1 before a suffix is not known
+!###
+
+define L1del [ L1 -> 0 || _ ? ] ; 
 
 !####
 !#normal rules
@@ -288,7 +294,7 @@ define ny [[y|y1] -> h || n _ [%-|.#.]] ;
 !                 [w|y|absv|w1|w2|y1] -> 0 || _ .#.]; !these rules apply "at the same time"
 !accounting for word-minimality
 define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] cseqs _ .#. ,, !cons specified because 'i' in 'ii' shouldn't delete
-                 [w|y|absv|w1|w2|y1] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] (cseqs) _ .#.]; !these rules apply "at the same time"
+                 [L1|w|y|absv|w1|w2|y1] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] (cseqs) _ .#.]; !these rules apply "at the same time"
 
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
@@ -362,6 +368,7 @@ define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init
 ! define Morphology ;
 
 read regex [ ! Morphology.l .o.
+    L1del        .o.
     rmspecialv    .o. !special char killer
     preGli      .o.
     optinitV    .o. !allows post syncope n-nokii < n[d]-ankii < nidanokii. Comment out for syncope/non-syncope
