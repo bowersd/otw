@@ -313,11 +313,11 @@ LEXICON VAIO_IMPER_NEG
             VAIO_IMPER_NEG_DAA ;
 
 LEXICON VAIO_IMPER_NEG_DAA
-+2+1+Pl:daan2y1 VAIO_IMPER_NEG_DAA_PERIPH ; 
++21Pl:daan2y1 VAIO_IMPER_NEG_DAA_PERIPH ; 
 
 LEXICON VAIO_IMPER_NEG_DAA_PERIPH
-+3+Pl:%>ag # ; 
-+%0+Pl:%>an # ; 
++3Pl:%>ag # ; 
++%0Pl:%>an # ; 
 !}Imperative order end
 
 !{Independent order
@@ -334,11 +334,11 @@ LEXICON VAIO_INDEP_PL_NUM_GET
 @D.Person.3@    VAIO_INDEP_PL_IFULL ;
 
 LEXICON VAIO_INDEP_PL_IFULL
-+1+Pl:naan2y1   VAIO_INDEP_PERIPH_GET ;
-+1+Pl:minaa   VAIO_INDEP_MODE ;
++1Pl:naan2y1   VAIO_INDEP_PERIPH_GET ;
++1Pl:minaa   VAIO_INDEP_MODE ;
 
 LEXICON VAIO_INDEP_PL_ILESS
-+2+Pl:naawaa     VAIO_INDEP_PERIPH_GET ;
++2Pl:naawaa     VAIO_INDEP_PERIPH_GET ;
 
 LEXICON VAIO_INDEP_SG_PREMODE
 0:aa    VAIO_INDEP_MODE ;
@@ -370,13 +370,13 @@ LEXICON VAIO_INDEP_PERIPH_GET
                 VAIO_INDEP_PERIPH_0PL ;
 
 LEXICON VAIO_INDEP_PERIPH_0PL
-+%0+Pl:%>an   # ;
++%0Pl:%>an   # ;
 
 LEXICON VAIO_INDEP_PERIPH_3OBV
-+3+4:%>an # ;
++3Obv:%>an # ;
 
 LEXICON VAIO_INDEP_PERIPH_3PL_END
-+3+Pl:%>ag   # ;
++3Pl:%>ag   # ;
              # ; 
 !}Independent order end
 !} VAIO end
@@ -417,19 +417,19 @@ LEXICON VAI_INDEP_NEG_GET
 
 !{number slot 
 LEXICON VAI_INDEP_1_OR_2_GATEWAY 
-+1+Pl:min2   VAI_INDEP_NUMBER ;
++1Pl:min2   VAI_INDEP_NUMBER ;
 0:naa       VAI_INDEP_LOCAL_MODE ;
 
 LEXICON VAI_INDEP_2_PL
-+2+Pl:mw    VAI_INDEP_NUMBER ;
++2Pl:mw    VAI_INDEP_NUMBER ;
 
 LEXICON VAI_INDEP_NUMBER
 0:aa        VAI_INDEP_LOCAL_MODE ;
     # ;
 
 LEXICON VAI_INDEP_3_OR_X_GATEWAY
-+3+4:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
-+3+2+Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;!(should translate to +3Pl)
++3Obv:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3+2Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;!(should translate to +3Pl)
 +3:w5       VAI_INDEP_3 ;
 +X:m        VAI_INDEP_X_GATEWAY ;
 
@@ -440,9 +440,9 @@ LEXICON VAI_INDEP_X_GATEWAY
         # ;
 
 LEXICON VAI_INDEP_3
-!+3+Pl:ag  # ;
-!+3+4:an # ;
-!+2+Pl:aa  VAI_INDEP_NUM_MARKED_PRT_DUB ; !technically, its +2+Pl:waa 
+!+3Pl:ag  # ;
+!+3Obv:an # ;
+!+2Pl:aa  VAI_INDEP_NUM_MARKED_PRT_DUB ; !technically, its +2Pl:waa 
     # ; !figured ability to stop here made sublex part of number, not periph/mood
      VAI_INDEP_3_MODE ;
 
@@ -492,8 +492,8 @@ LEXICON VAI_INDEP_3_DUB_PERIPH
         # ;
 
 LEXICON VAI_INDEP_3_MODE_PERIPH
-+3+4:%>an # ;
-+3+Pl:%>ag  # ;
++3Obv:%>an # ;
++3Pl:%>ag  # ;
 
 
 !} periph end
@@ -522,7 +522,7 @@ LEXICON VAI_CNJ_NEG
 @D.Passive@     VAI_CNJ_IRREG_NEG ; !this is a mite local for using a flag
 
 LEXICON VAI_CNJ_IRREG_NEG
-+Neg+3+Pl:%>si%>gwaa  # ; 
++Neg+3Pl:%>si%>gwaa  # ; 
 
 LEXICON VAI_CNJ_NEG_SET
 @P.Negation.1@  VAI_CNJ_NEG_SPELLOUT ;
@@ -552,14 +552,14 @@ LEXICON VAI_CNJ_DUB_SET_A
 LEXICON VAI_CNJ_NOT_3
 +1:%>aan       VAI_CNJ_PRT_1 ; !breaking morpheme over continuation lexica. have pret cnj "b" trigger assimilation, sometimes nasalize V
 +2:%>an        VAI_CNJ_MODE_GET ; !ditto re assimilation: are there cases were nas-obs isn't modified to be homorganic?
-+1+Pl:%>aang      VAI_CNJ_MODE_GET ;
-+2+1+Pl:%>angw         VAI_CNJ_MODE_GET ;
-+2+Pl:%>egw       VAI_CNJ_MODE_GET ;
++1Pl:%>aang      VAI_CNJ_MODE_GET ;
++21Pl:%>angw         VAI_CNJ_MODE_GET ;
++2Pl:%>egw       VAI_CNJ_MODE_GET ;
 
 LEXICON VAI_CNJ_3 
 +3:%>d1               VAI_CNJ_NO_MODE_3PL_GATEWAY ; !d1 phon in root.lexc
-+3+Pl:w4aad1       VAI_CNJ_3PL_NEG_GET ; !Irregularity when negated and this is last morpheme
-+3+4:%>nid1           VAI_CNJ_NO_MODE_3OBV_GATEWAY ; !nas morph inid?
++3Pl:w4aad1       VAI_CNJ_3PL_NEG_GET ; !Irregularity when negated and this is last morpheme
++3Obv:%>nid1           VAI_CNJ_NO_MODE_3OBV_GATEWAY ; !nas morph inid?
 +X:%>nd1              VAI_CNJ_DUB_EARLY_B ; !nd1b -> ngib, nas morph ang?
 
 LEXICON VAI_PASSIVE_3
@@ -639,10 +639,10 @@ LEXICON VAI_CNJ_PCP_GET
                 # ;
 
 LEXICON VAI_CNJ_PCP_PL
-+Pcp+3+Pl:%>ag # ;
++Pcp+3Pl:%>ag # ;
 
 LEXICON VAI_CNJ_PCP_OBV
-+Pcp+3+4:%>an # ;
++Pcp+3Obv:%>an # ;
 
 !} participle end
 !} cnj end 
@@ -655,16 +655,16 @@ LEXICON VAI_CNJ_PCP_OBV
 !just one slot under our analysis
 LEXICON VAI_IMPER 
 +2:%>n       # ;
-+2+Pl:g       # ;
-+2+1+Pl:daa      # ;
++2Pl:g       # ;
++21Pl:daa      # ;
 !+Imm+2:%>n       # ;
-!+Imm+2+Pl:g       # ;
-!+Imm+2+1+Pl:daa      # ;
+!+Imm+2Pl:g       # ;
+!+Imm+21Pl:daa      # ;
 +Del+2:%>kan     # ; !stem-final short vowels may lengthen before this suff
-+Del+2+Pl:%>keg     # ; !stem-final short vowels may lengthen before this suff
++Del+2Pl:%>keg     # ; !stem-final short vowels may lengthen before this suff
 +Neg+2:%>ken2    # ;
-+Neg+2+Pl:%>kegon2  # ;
-+Neg+2+1+Pl:siidaa  # ;
++Neg+2Pl:%>kegon2  # ;
++Neg+21Pl:siidaa  # ;
 
 !} imp end
 !} VAI end
@@ -690,25 +690,25 @@ LEXICON VII_INDEP_NEG
 LEXICON VII_INDEP_OBV
 +%0:0       VII_INDEP_MODE ;
 +%0:w5      VII_INDEP_PERIPH ;
-+%0+4:iniw   VII_INDEP_OBV_GATEWAY ;
++%0Obv:iniw   VII_INDEP_OBV_GATEWAY ;
 
 LEXICON VII_INDEP_OBV_GATEWAY
                 VII_INDEP_MODE ;
                 VII_INDEP_PERIPH ;
 
 LEXICON VII_INDEP_MODE  !these morphemes are optional, enforced by routing prior morphemes around this slot 
-                        !necessary to get proper spellout of +0+Pl
+                        !necessary to get proper spellout of +0Pl
 +Prt:%>ban2i1     VII_INDEP_PERIPH ;
 +Dub:%>dig        VII_INDEP_DUB_PERIPH ;
 +Prt+Dub:%>goban2i1  VII_INDEP_PERIPH ;
 
 LEXICON VII_INDEP_PERIPH 
-+%0+Pl:%>an  # ; !0pl (no mode) is -wan (post v), -oon (post c), -noon (post-v, recut?)
-+%0+Pl:%>noon  # ; !would be nice to delete first n post-C (no, that would make needless ambiguity since phon generates oon from Cw5>an), better to prevent this allomorph entirely ... can't generate this from phonology because I don't know of n popping up elsewhere. 
++%0Pl:%>an  # ; !0pl (no mode) is -wan (post v), -oon (post c), -noon (post-v, recut?)
++%0Pl:%>noon  # ; !would be nice to delete first n post-C (no, that would make needless ambiguity since phon generates oon from Cw5>an), better to prevent this allomorph entirely ... can't generate this from phonology because I don't know of n popping up elsewhere. 
         # ; 
 
 LEXICON VII_INDEP_DUB_PERIPH 
-+%0+Pl:enan  # ; !0pl (no mode) is -wan (post v), -oon (post c), -noon (post-v, recut?)
++%0Pl:enan  # ; !0pl (no mode) is -wan (post v), -oon (post c), -noon (post-v, recut?)
         # ; 
 !} independent end
 
@@ -727,8 +727,8 @@ LEXICON VII_CNJ_SG
 0+%0:w4g       VII_CNJ_DUB_PRT_DUB ;
 
 LEXICON VII_CNJ_OBV
-+%0+4:%>nig   VII_CNJ_PRT_OR_END ;
-+%0+4:%>nig   VII_CNJ_DUB_PRT_DUB ;
++%0Obv:%>nig   VII_CNJ_PRT_OR_END ;
++%0Obv4:%>nig   VII_CNJ_DUB_PRT_DUB ;
 
 
 LEXICON VII_CNJ_PRT_OR_END  
@@ -836,8 +836,8 @@ LEXICON VTA_INDEP_2V1_NEG
             VTA_INDEP_2V1_GATEWAY ;
 
 LEXICON VTA_INDEP_2V1_GATEWAY 
-+1+Pl:min2 VTA_INDEP_LOCAL_PLURAL_PREMODE ;
-+2+Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++1Pl:min2 VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++2Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 !} 2v1 end
 
@@ -847,12 +847,12 @@ LEXICON VTA_INDEP_1PLV2_NEG
             VTA_INDEP_1PLV2_GATEWAY ;
 
 LEXICON VTA_INDEP_1PLV2_GATEWAY 
-+2+Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++2Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 !} 1pl v 2 end
 
 LEXICON VTA_INDEP_1SGV2 
-+2+Pl:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++2Pl:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 
 !####
@@ -896,17 +896,17 @@ LEXICON VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_SII_GET
 !{Direct plural negation 
 
 LEXICON VTA_INDEP_THEME_DIRECT_PLURAL_NEGATION_GET
-@D.Person.3@    VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_NO_MODE  ;  !siwaa bans 1+Pl+mode, sii is exceptionally used DAB 04/2017
+@D.Person.3@    VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_NO_MODE  ;  !siwaa bans 1Pl+mode, sii is exceptionally used DAB 04/2017
                                                  !note also: spring 2k16 visualization recognized 21, 1pl as distinct
                                                  !here they are emergent, and rather than R.1, R.2, we have D.3
 @R.Person.2@    VTA_INDEP_NUMBER_ILESS ;
 @R.Person.3@    VTA_INDEP_NUMBER_3 ;
 
 LEXICON VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_MODE
-+1+Pl:minaa     VTA_INDEP_MODE_GATEWAY ; 
++1Pl:minaa     VTA_INDEP_MODE_GATEWAY ; 
 
 LEXICON VTA_INDEP_THEME_DIRECT_NEGATION_IFULL_NO_MODE
-+1+Pl:naan2y1   VTA_INDEP_IFULL_PERIPH_GET ; 
++1Pl:naan2y1   VTA_INDEP_IFULL_PERIPH_GET ; 
 
 !} direct pl negation end
 
@@ -951,7 +951,7 @@ LEXICON VTA_INDEP_NUMBER_GET
 LEXICON VTA_INDEP_NUMBER_LOCAL_GATEWAY 
 !what exactly is driving me to diverge from a strict mirroring of graphviz?
 !feature style, and whether incoming arcs in graphviz read different strings
-+1+Pl:minaa    VTA_INDEP_MODE_GATEWAY ;
++1Pl:minaa    VTA_INDEP_MODE_GATEWAY ;
                 VTA_INDEP_NUMBER_IFULL_INV_GET;
                 VTA_INDEP_ILESS_GATEWAY ;
 
@@ -965,14 +965,14 @@ LEXICON VTA_INDEP_INVISIBLE_INAN
 
 LEXICON VTA_INDEP_NUMBER_IFULL 
 !style should include recommendations for marking when predication info is being collapsed
-+1+Pl:naan2y1 VTA_INDEP_IFULL_PERIPH_GET ;
-+1+Pl:minaa     VTA_INDEP_MODE_GATEWAY ; 
++1Pl:naan2y1 VTA_INDEP_IFULL_PERIPH_GET ;
++1Pl:minaa     VTA_INDEP_MODE_GATEWAY ; 
 !new tag
 !} I-full end
 
 !{second person "I-less" plurality 
 LEXICON VTA_INDEP_NUMBER_ILESS
-+2+Pl:waa  VTA_INDEP_ILESS_GATEWAY ;
++2Pl:waa  VTA_INDEP_ILESS_GATEWAY ;
 !new tag
 
 LEXICON VTA_INDEP_ILESS_GATEWAY 
@@ -991,7 +991,7 @@ LEXICON VTA_INDEP_ILESS_GATEWAY
 !{third person number 
 !fed by VTA_INDEP_NUMBER_GET, direct plural negation
 LEXICON VTA_INDEP_NUMBER_3
-+2+Pl:waa  VTA_INDEP_3_GATEWAY ;
++2Pl:waa  VTA_INDEP_3_GATEWAY ;
 
 !fed by VTA_INDEP_NUMBER_GET, direct singular negation
 LEXICON VTA_INDEP_3_GATEWAY
@@ -1081,13 +1081,13 @@ VTA_INDEP_PERIPH_INAN_PL ;
 !} gate-keeping end
 
 LEXICON VTA_INDEP_PERIPH_3PL
-+3+Pl:%>ag # ;
++3Pl:%>ag # ;
 
 LEXICON VTA_INDEP_PERIPH_3OBV
-+3+4:%>an # ;
++34:%>an # ;
 
 LEXICON VTA_INDEP_PERIPH_INAN_PL 
-+%0+Pl:%>an # ;
++%0Pl:%>an # ;
 !} periph end
 
 !#####
@@ -1111,21 +1111,21 @@ LEXICON VTA_INDEP_INAN_SUB_GET
 !##Number
 LEXICON VTA_INDEP_INAN_SUB_SG_OBJ 
 0:aa    VTA_INDEP_MODE_GATEWAY;
-+%0+Pl:an # ;
++%0Pl:an # ;
 # ;
 
 LEXICON VTA_INDEP_INAN_SUB_OBV_NEG 
-+3+4:ini   #;
++3Obv:ini   #;
 
 LEXICON VTA_INDEP_INAN_SUB_OBV 
 !-in here is the marking obv when periph can't ... -an in periph is inan agr!
-+3+4:inaa VTA_INDEP_MODE_GATEWAY;
++3Obv:inaa VTA_INDEP_MODE_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL
-+2+Pl:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
++2Pl:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
-+%0+Pl:an #;
++%0Pl:an #;
     VTA_INDEP_MODE_GATEWAY;
 #;
 
@@ -1178,221 +1178,221 @@ LEXICON VTA_IMPER_TAG
 
 !cnj brute force {
 !LEXICON VTA_CNJ_BRUTE
-!+Thm2b+3+Pl:                ikwaa              # ; !3pl v 2sg                                                               
+!+Thm2b+3Pl:                ikwaa              # ; !3pl v 2sg                                                               
 !+Thm2b+3:                   ik                 # ; !3sg v 2sg                                                               
-!+Thm2b+3+Pl+Prt:            ikwaaban2          # ; !3pl v 2sg                                                               
+!+Thm2b+3Pl+Prt:            ikwaaban2          # ; !3pl v 2sg                                                               
 !+Thm2b+3+Prt:               ikiban2            # ; !3sg v 2sg                                                               
-!+Thm2b+3+Pl+Dub:            ikwaawenh          # ; !3pl v 2sg !cons (?)                                                     
+!+Thm2b+3Pl+Dub:            ikwaawenh          # ; !3pl v 2sg !cons (?)                                                     
 !+Thm2b+3+Dub:               ikenh              # ; !3sg v 2sg !hm no w4                                                     
-!+Thm1+Neg+1+Pl:             i2siwaang          # ; !2pl v 1pl, 2sg v 1pl                                                    
-!+Thm1+Neg+2+Pl:             i2siweg            # ; !2pl v 1sg                                                               
+!+Thm1+Neg+1Pl:             i2siwaang          # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+Neg+2Pl:             i2siweg            # ; !2pl v 1sg                                                               
 !+Thm1+Neg+2:                i2siwan            # ; !2sg v 1sg                                                               
-!+Thm1+Neg+1+Pl+3+Pl:        i2siwangidwaa      # ; !3pl v 1pl                                                               
-!+Thm1+Neg+1+Pl+3:           i2siwangid         # ; !3sg v 1pl                                                               
-!+Thm1+Neg+1+Pl+3+Pl+Prt:    i2siwangidwaaban2  # ; !3pl v 1pl                                                               
-!+Thm1+Neg+1+Pl+3+Prt:       i2siwangidiban2    # ; !3sg v 1pl                                                               
-!+Thm1+Neg+1+Pl+3+Pl+Dub:    i2siiwangidwaawenh # ; !3pl v 1pl                                                               
-!+Thm1+Neg+1+Pl+3+Dub:       i2siiwangidenh     # ; !3sg v 1pl                                                               
-!+Thm1+Neg+1+Pl+Prt:         i2siwaangiban2     # ; !2pl v 1pl, 2sg v 1pl                                                    
-!+Thm1+Neg+2+Pl+Prt:         i2siwegiban2       # ; !2pl v 1sg                                                               
+!+Thm1+Neg+1Pl+3Pl:        i2siwangidwaa      # ; !3pl v 1pl                                                               
+!+Thm1+Neg+1Pl+3:           i2siwangid         # ; !3sg v 1pl                                                               
+!+Thm1+Neg+1Pl+3Pl+Prt:    i2siwangidwaaban2  # ; !3pl v 1pl                                                               
+!+Thm1+Neg+1Pl+3+Prt:       i2siwangidiban2    # ; !3sg v 1pl                                                               
+!+Thm1+Neg+1Pl+3Pl+Dub:    i2siiwangidwaawenh # ; !3pl v 1pl                                                               
+!+Thm1+Neg+1Pl+3+Dub:       i2siiwangidenh     # ; !3sg v 1pl                                                               
+!+Thm1+Neg+1Pl+Prt:         i2siwaangiban2     # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+Neg+2Pl+Prt:         i2siwegiban2       # ; !2pl v 1sg                                                               
 !+Thm1+Neg+2+Prt:            i2siwamban2        # ; !2sg v 1sg                                                               
-!+Thm1+Neg+1+Pl+Dub:         i2siiwaangenh      # ; !2pl v 1pl, 2sg v 1pl                                                    
-!+Thm1+Neg+2+Pl+Dub:         i2siiwegwenh       # ; !2pl v 1sg                                                               
+!+Thm1+Neg+1Pl+Dub:         i2siiwaangenh      # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+Neg+2Pl+Dub:         i2siiwegwenh       # ; !2pl v 1sg                                                               
 !+Thm1+Neg+2+Dub:            i2siiwnenh         # ; !2sg v 1sg                                                               
-!+Thm1+Neg+3+Pl:             i2sigwaa           # ; !3pl v 1sg                                                               
+!+Thm1+Neg+3Pl:             i2sigwaa           # ; !3pl v 1sg                                                               
 !+Thm1+Neg+3:                i2sig              # ; !3sg v 1sg                                                               
-!+Thm1+Neg+3+Pl+Prt:         i2sigwaaban2       # ; !3pl v 1sg !book unsure                                                  
+!+Thm1+Neg+3Pl+Prt:         i2sigwaaban2       # ; !3pl v 1sg !book unsure                                                  
 !+Thm1+Neg+3+Prt:            i2sigoban2         # ; !3sg v 1sg                                                               
-!+Thm1+Neg+3+Pl+Dub:         i2siigwaawenh      # ; !3pl v 1sg                                                               
+!+Thm1+Neg+3Pl+Dub:         i2siigwaawenh      # ; !3pl v 1sg                                                               
 !+Thm1+Neg+3+Dub:            i2siigwenh         # ; !3sg v 1sg                                                               
-!+Thm1+1+Pl:                 i2yaang            # ; !2pl v 1pl, 2sg v 1pl                                                    
-!+Thm1+2+Pl:                 i2yeg              # ; !2pl v 1sg                                                               
+!+Thm1+1Pl:                 i2yaang            # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+2Pl:                 i2yeg              # ; !2pl v 1sg                                                               
 !+Thm1+2:                    i2yan              # ; !2sg v 1sg                                                               
-!+Thm1+1+Pl+3+Pl:            i2yangidwaa        # ; !3pl v 1pl                                                               
-!+Thm1+1+Pl+3:               i2yangid           # ; !3sg v 1pl                                                               
-!+Thm1+1+Pl+3+Pl+Prt:        i2yangidwaaban2    # ; !3pl v 1pl                                                               
-!+Thm1+1+Pl+3+Prt:           i2yangidiban2      # ; !3sg v 1pl                                                               
-!+Thm1+1+Pl+3+Pl+Dub:        i2wangidwaawenh    # ; !3pl v 1pl                                                               
-!+Thm1+1+Pl+3+Dub:           i2wangidenh        # ; !3sg v 1pl                                                               
-!+Thm1+1+Pl+Prt:             i2yaangiban2       # ; !2pl v 1pl, 2sg v 1pl                                                    
-!+Thm1+2+Pl+Prt:             i2yegoban2         # ; !2pl v 1sg                                                               
+!+Thm1+1Pl+3Pl:            i2yangidwaa        # ; !3pl v 1pl                                                               
+!+Thm1+1Pl+3:               i2yangid           # ; !3sg v 1pl                                                               
+!+Thm1+1Pl+3Pl+Prt:        i2yangidwaaban2    # ; !3pl v 1pl                                                               
+!+Thm1+1Pl+3+Prt:           i2yangidiban2      # ; !3sg v 1pl                                                               
+!+Thm1+1Pl+3Pl+Dub:        i2wangidwaawenh    # ; !3pl v 1pl                                                               
+!+Thm1+1Pl+3+Dub:           i2wangidenh        # ; !3sg v 1pl                                                               
+!+Thm1+1Pl+Prt:             i2yaangiban2       # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+2Pl+Prt:             i2yegoban2         # ; !2pl v 1sg                                                               
 !+Thm1+2+Prt:                i2yamban2          # ; !2sg v 1sg                                                               
-!+Thm1+1+Pl+Dub:             i2waangenh         # ; !2pl v 1pl, 2sg v 1pl                                                    
-!+Thm1+2+Pl+Dub:             i2wegwenh          # ; !2pl v 1sg                                                               
+!+Thm1+1Pl+Dub:             i2waangenh         # ; !2pl v 1pl, 2sg v 1pl                                                    
+!+Thm1+2Pl+Dub:             i2wegwenh          # ; !2pl v 1sg                                                               
 !+Thm1+2+Dub:                i2wanenh           # ; !2sg v 1sg !cons (?)                                                     
-!+Thm1+3+Pl:                 i2waad             # ; !3pl v 1sg                                                               
+!+Thm1+3Pl:                 i2waad             # ; !3pl v 1sg                                                               
 !+Thm1+3:                    i2d                # ; !3sg v 1sg                                                               
-!+Thm1+3+Pl+Prt:             i2waapan2          # ; !3pl v 1sg                                                               
+!+Thm1+3Pl+Prt:             i2waapan2          # ; !3pl v 1sg                                                               
 !+Thm1+3+Prt:                i2pan2             # ; !3sg v 1sg                                                               
-!+Thm1+3+Pl+Dub:             i2waagwenh         # ; !3pl v 1sg                                                               
+!+Thm1+3Pl+Dub:             i2waagwenh         # ; !3pl v 1sg                                                               
 !+Thm1+3+Dub:                i2gwenh            # ; !3sg v 1sg                                                               
 !+ThmInv+Neg+1:              igosiwaanh         # ; !0   v 1sg                                                               
-!+ThmInv+Neg+1+Pl:           igosiwaang         # ; !0   v 1pl                                                               
-!+ThmInv+Neg+2+1+Pl:         igosiwang          # ; !0   v 21pl                                                              
-!+ThmInv+Neg+2+Pl:           igosiweg           # ; !0   v 2pl                                                               
+!+ThmInv+Neg+1Pl:           igosiwaang         # ; !0   v 1pl                                                               
+!+ThmInv+Neg+21Pl:         igosiwang          # ; !0   v 21pl                                                              
+!+ThmInv+Neg+2Pl:           igosiweg           # ; !0   v 2pl                                                               
 !+ThmInv+Neg+2:              igosiwan           # ; !0   v 2sg                                                               
-!+ThmInv+Neg+2+Pl+3:         igosiweg           # ; !3sg v 2pl !book has this (perhaps an error?)                            
-!+ThmInv+Neg+2+Pl+3+Prt:     igosiwegoban2      # ; !3sg v 2pl !expected if prt neg extends neg, but perhaps neg was wrong...
-!+ThmInv+Neg+2+Pl+3+Dub:     igosiiwegwenh      # ; !3sg v 2pl !cons                                                         
-!+ThmInv+Neg+1+Pl+Prt:       igosiwaangiban2    # ; !0 v 1pl !book unsure                                                    
+!+ThmInv+Neg+2Pl+3:         igosiweg           # ; !3sg v 2pl !book has this (perhaps an error?)                            
+!+ThmInv+Neg+2Pl+3+Prt:     igosiwegoban2      # ; !3sg v 2pl !expected if prt neg extends neg, but perhaps neg was wrong...
+!+ThmInv+Neg+2Pl+3+Dub:     igosiiwegwenh      # ; !3sg v 2pl !cons                                                         
+!+ThmInv+Neg+1Pl+Prt:       igosiwaangiban2    # ; !0 v 1pl !book unsure                                                    
 !+ThmInv+Neg+1+Prt:          igosiwaamban2      # ; !0 v 1sg                                                                 
-!+ThmInv+Neg+2+1+Pl+Prt:     igosiwangiban2     # ; !0 v 21pl !book unsure                                                   
-!+ThmInv+Neg+2+Pl+Prt:       igosiwegiban2      # ; !0 v 2pl !book unsure                                                    
+!+ThmInv+Neg+21Pl+Prt:     igosiwangiban2     # ; !0 v 21pl !book unsure                                                   
+!+ThmInv+Neg+2Pl+Prt:       igosiwegiban2      # ; !0 v 2pl !book unsure                                                    
 !+ThmInv+Neg+2+Prt:          igosiwamban2       # ; !0 v 2sg                                                                 
 !+ThmInv+Neg+1+Dub:          igosiiwaanenh      # ; !0 v 1sg  !cons best guess                                               
-!+ThmInv+Neg+1+Pl+Dub:       igosiiwaangenh     # ; !0 v 1pl    !cons best guess                                             
-!+ThmInv+Neg+2+1+Pl+Dub:     igosiiwangenh      # ; !0 v 21pl     !cons best guess                                           
-!+ThmInv+Neg+2+Pl+Dub:       igosiiwegwenh      # ; !0 v 2pl  !cons best guess                                               
+!+ThmInv+Neg+1Pl+Dub:       igosiiwaangenh     # ; !0 v 1pl    !cons best guess                                             
+!+ThmInv+Neg+21Pl+Dub:     igosiiwangenh      # ; !0 v 21pl     !cons best guess                                           
+!+ThmInv+Neg+2Pl+Dub:       igosiiwegwenh      # ; !0 v 2pl  !cons best guess                                               
 !+ThmInv+Neg+2+Dub:          igosiiwanenh       # ; !0 v 2sg !cons best guess                                                
-!+ThmInv+Neg+3+Pl:           igosigwaa          # ; !0 v 3pl, 3obv v 3pl                                                     
+!+ThmInv+Neg+3Pl:           igosigwaa          # ; !0 v 3pl, 3obv v 3pl                                                     
 !+ThmInv+Neg+3:              igosig             # ; !0 v 3sg, 3obv v 3sg                                                     
-!+ThmInv+Neg+3+Pl+Prt:       igosigwaaban2      # ; !0 v 3pl, 3obv v 3pl !book unsure                                        
+!+ThmInv+Neg+3Pl+Prt:       igosigwaaban2      # ; !0 v 3pl, 3obv v 3pl !book unsure                                        
 !+ThmInv+Neg+3+Prt:          igosigoban2        # ; !0 v 3sg, 3obv v 3sg !book semi-unsure                                   
-!+ThmInv+Neg+3+Pl+Dub:       igosiigwaawenh     # ; !0 v 3pl, 3obv v 3pl                                                     
+!+ThmInv+Neg+3Pl+Dub:       igosiigwaawenh     # ; !0 v 3pl, 3obv v 3pl                                                     
 !+ThmInv+Neg+3+Dub:          igosiigwenh        # ; !0 v 3sg, 3obv v 3sg                                                     
 !+ThmInv+1:                  igoyaanh           # ; !0 v 1sg                                                                 
-!+ThmInv+1+Pl:               igoyaang           # ; !0 v 1pl                                                                 
-!+ThmInv+2+1+Pl:             igoyang            # ; !0 v 21pl                                                                
-!+ThmInv+2+Pl:               igoyeg             # ; !0 v 2pl                                                                 
+!+ThmInv+1Pl:               igoyaang           # ; !0 v 1pl                                                                 
+!+ThmInv+21Pl:             igoyang            # ; !0 v 21pl                                                                
+!+ThmInv+2Pl:               igoyeg             # ; !0 v 2pl                                                                 
 !+ThmInv+2:                  igoyan             # ; !0 v 2sg                                                                 
-!+ThmInv+1+Pl+Prt:           igoyaangiban2      # ; !0 v 1pl                                                                 
+!+ThmInv+1Pl+Prt:           igoyaangiban2      # ; !0 v 1pl                                                                 
 !+ThmInv+1+Prt:              igoyaambaanh       # ; !0 v 1sg                                                                 
-!+ThmInv+2+1+Pl+Prt:         igoyangiban2       # ; !0 v 21pl                                                                
-!+ThmInv+2+Pl+Prt:           igoyegoban2        # ; !0 v 2pl                                                                 
+!+ThmInv+21Pl+Prt:         igoyangiban2       # ; !0 v 21pl                                                                
+!+ThmInv+2Pl+Prt:           igoyegoban2        # ; !0 v 2pl                                                                 
 !+ThmInv+2+Prt:              igoyamban2         # ; !0 v 2sg                                                                 
 !+ThmInv+1+Dub:              igowaanenh         # ; !0 v 1sg !cons (?)                                                       
-!+ThmInv+1+Pl+Dub:           igowaangenh        # ; !0 v 1pl                                                                 
-!+ThmInv+2+1+Pl+Dub:         igowangwenh        # ; !0 v 21pl                                                                
-!+ThmInv+2+Pl+Dub:           igowegwenh         # ; !0 v 2pl                                                                 
+!+ThmInv+1Pl+Dub:           igowaangenh        # ; !0 v 1pl                                                                 
+!+ThmInv+21Pl+Dub:         igowangwenh        # ; !0 v 21pl                                                                
+!+ThmInv+2Pl+Dub:           igowegwenh         # ; !0 v 2pl                                                                 
 !+ThmInv+2+Dub:              igowanenh          # ; !0 v 2sg !cons (?)                                                       
-!+ThmInv+3+Pl:               igowaad            # ; !0 v 3pl, 3obv v 3pl                                                     
+!+ThmInv+3Pl:               igowaad            # ; !0 v 3pl, 3obv v 3pl                                                     
 !+ThmInv+3:                  igod               # ; !0 v 3sg, 3obv v 3sg                                                     
-!+ThmInv+3+Pl+Prt:           igowaapan2 # ; !0 v 3pl, 3obv v 3pl
+!+ThmInv+3Pl+Prt:           igowaapan2 # ; !0 v 3pl, 3obv v 3pl
 !+ThmInv+3+Prt:              igopan2      # ; !0 v 3sg, 3obv v 3sg
-!+ThmInv+3+Pl+Dub:           igowaagwenh # ; !0 v 3pl, 3obv v 3pl !cons
+!+ThmInv+3Pl+Dub:           igowaagwenh # ; !0 v 3pl, 3obv v 3pl !cons
 !+ThmInv+3+Dub:              igoogwenh      # ; !0 v 3sg, 3obv v 3sg !less anomalous than it seems, just lengthen igo in this context (compensatory lenghtenging?) (don't use igoo, that disrupts orderliness)
-!+Thm1Pl2+Neg+2+Pl:           igoosiweg # ; !1pl v 2pl
+!+Thm1Pl2+Neg+2Pl:           igoosiweg # ; !1pl v 2pl
 !+Thm1Pl2+Neg+2:              igoosiwan    # ; !1pl v 2sg
-!+Thm1Pl2+Neg+2+Pl+Prt:       igoosiwegoban2 # ; !1pl v 2pl
+!+Thm1Pl2+Neg+2Pl+Prt:       igoosiwegoban2 # ; !1pl v 2pl
 !+Thm1Pl2+Neg+2+Prt:          igoosiwamban2  # ; !1pl v 2sg !book indicates optional siiw (yikes)
-!+Thm1Pl2+Neg+2+Pl+Dub:       igoosiwegwenh # ; !1pl v 2pl
+!+Thm1Pl2+Neg+2Pl+Dub:       igoosiwegwenh # ; !1pl v 2pl
 !+Thm1Pl2+Neg+2+Dub:          igoosiwanenh    # ; !1pl v 2sg
-!+Thm1Pl2+2+Pl:               igooyeg       # ; !1pl v 2pl
+!+Thm1Pl2+2Pl:               igooyeg       # ; !1pl v 2pl
 !+Thm1Pl2+2:                  igooyan       # ; !1pl v 2sg
-!+Thm1Pl2+2+Pl+Prt:           igooyegoban2 # ; !1pl v 2pl
+!+Thm1Pl2+2Pl+Prt:           igooyegoban2 # ; !1pl v 2pl
 !+Thm1Pl2+2+Prt:              igooyamban2 # ; !1pl v 2sg
-!+Thm1Pl2+2+Pl+Dub:           igoowegwenh # ; !1pl v 2pl
+!+Thm1Pl2+2Pl+Dub:           igoowegwenh # ; !1pl v 2pl
 !+Thm1Pl2+2+Dub:              igoowanenh    # ; !1pl v 2sg !cons (?)
-!+Thm2a+Neg+2+Pl:            isinoonagog # ; !1sg v 2pl'
+!+Thm2a+Neg+2Pl:            isinoonagog # ; !1sg v 2pl'
 !+Thm2a+Neg+2:               isinoonaanh     # ; !1sg v 2sg
-!+Thm2a+Neg+2+1+Pl+3+Pl:     isinowangwaa  # ; !3pl v 21pl
-!+Thm2a+Neg+2+1+Pl+3:        isinowang     # ; !3sg v 21pl
-!+Thm2a+Neg+2+Pl+3+Pl:       isinoowegwaa     # ; !3pl v 2pl
-!+Thm2a+Neg+2+1+Pl+3+Pl+Prt: isinowangwaaban2  # ; !3pl v 21pl
-!+Thm2a+Neg+2+1+Pl+3+Prt:    isinowangiban2     # ; !3sg v 21pl
-!+Thm2a+Neg+2+Pl+3+Pl+Prt:   isinoowegwaaban2   # ; !3pl v 2pl
-!+Thm2a+Neg+2+1+Pl+3+Pl+Dub: isinoowangwaawenh  # ; !3pl v 21pl
-!+Thm2a+Neg+2+1+Pl+3+Dub:    isinoowangenh     # ; !3sg v 21pl
-!+Thm2a+Neg+2+Pl+3+Pl+Dub:   isinoowegwaawenh     # ; !3pl v 2pl
-!+Thm2a+Neg+2+Pl+Prt:        isinoonagogoban2 # ; !1sg v 2pl !predict this
+!+Thm2a+Neg+21Pl+3Pl:     isinowangwaa  # ; !3pl v 21pl
+!+Thm2a+Neg+21Pl+3:        isinowang     # ; !3sg v 21pl
+!+Thm2a+Neg+2Pl+3Pl:       isinoowegwaa     # ; !3pl v 2pl
+!+Thm2a+Neg+21Pl+3Pl+Prt: isinowangwaaban2  # ; !3pl v 21pl
+!+Thm2a+Neg+21Pl+3+Prt:    isinowangiban2     # ; !3sg v 21pl
+!+Thm2a+Neg+2Pl+3Pl+Prt:   isinoowegwaaban2   # ; !3pl v 2pl
+!+Thm2a+Neg+21Pl+3Pl+Dub: isinoowangwaawenh  # ; !3pl v 21pl
+!+Thm2a+Neg+21Pl+3+Dub:    isinoowangenh     # ; !3sg v 21pl
+!+Thm2a+Neg+2Pl+3Pl+Dub:   isinoowegwaawenh     # ; !3pl v 2pl
+!+Thm2a+Neg+2Pl+Prt:        isinoonagogoban2 # ; !1sg v 2pl !predict this
 !+Thm2a+Neg+2+Prt:           isinoonaambaan2   # ; !1sg v 2sg !book unsure
-!+Thm2a+Neg+2+Pl+Dub:        isinoonagogwenh # ; !1sg v 2pl !cons best guess
+!+Thm2a+Neg+2Pl+Dub:        isinoonagogwenh # ; !1sg v 2pl !cons best guess
 !+Thm2a+Neg+2+Dub:           isinoonaanenh     # ; !1sg v 2sg !cons best guess
-!+Thm2a+Neg+3+Pl:            isinokwaa   # ; !3pl v 2sg
+!+Thm2a+Neg+3Pl:            isinokwaa   # ; !3pl v 2sg
 !+Thm2a+Neg+3:               isinog         # ; !3sg v 2sg
-!+Thm2a+Neg+3+Pl+Prt:        isinokwaaban2   # ; !3pl v 2sg !predict this, book totally unsure
+!+Thm2a+Neg+3Pl+Prt:        isinokwaaban2   # ; !3pl v 2sg !predict this, book totally unsure
 !+Thm2a+Neg+3+Prt:           isinogiban2         # ; !3sg v 2sg !predict this
-!+Thm2a+Neg+3+Pl+Dub:        isinokwaawenh   # ; !3pl v 2sg !book omits form
+!+Thm2a+Neg+3Pl+Dub:        isinokwaawenh   # ; !3pl v 2sg !book omits form
 !+Thm2a+Neg+3+Dub:           isinogwenh         # ; !3sg v 2sg !book omits form
-!+Thm2a+2+Pl:                ininagog        # ; !1sg v 2pl
+!+Thm2a+2Pl:                ininagog        # ; !1sg v 2pl
 !+Thm2a+2:                   ininaa          # ; !1sg v 2sg
-!+Thm2a+2+1+Pl+3+Pl:         ininangwaa   # ; !3pl v 21pl
-!+Thm2a+2+1+Pl+3:            ininang      # ; !3sg v 21pl
-!+Thm2a+2+Pl+3+Pl:           ininegwaa    # ; !3pl v 2pl
-!+Thm2a+2+Pl+3:              inineg       # ; !3sg v 2pl
-!+Thm2a+2+1+Pl+3+Pl+Prt:     ininangwaaban2  # ; !3pl v 21pl
-!+Thm2a+2+1+Pl+3+Prt:        ininangban2     # ; !3sg v 21pl
-!+Thm2a+2+Pl+3+Pl+Prt:       ininegwaaban2     # ; !3pl v 2pl
-!+Thm2a+2+Pl+3+Prt:          ininegban2           # ; !3sg v 2pl
-!+Thm2a+2+1+Pl+3+Pl+Dub:     ininangwaawenh  # ; !3pl v 21pl !cons (?)
-!+Thm2a+2+1+Pl+3+Dub:        ininangwenh     # ; !3sg v 21pl
-!+Thm2a+2+Pl+3+Pl+Dub:       ininegwaawenh     # ; !3pl v 2pl
-!+Thm2a+2+Pl+3+Dub:          ininegwenh           # ; !3sg v 2pl
-!+Thm2a+2+Pl+Prt:            ininagogoban2 # ; !1sg v 2pl
+!+Thm2a+21Pl+3Pl:         ininangwaa   # ; !3pl v 21pl
+!+Thm2a+21Pl+3:            ininang      # ; !3sg v 21pl
+!+Thm2a+2Pl+3Pl:           ininegwaa    # ; !3pl v 2pl
+!+Thm2a+2Pl+3:              inineg       # ; !3sg v 2pl
+!+Thm2a+21Pl+3Pl+Prt:     ininangwaaban2  # ; !3pl v 21pl
+!+Thm2a+21Pl+3+Prt:        ininangban2     # ; !3sg v 21pl
+!+Thm2a+2Pl+3Pl+Prt:       ininegwaaban2     # ; !3pl v 2pl
+!+Thm2a+2Pl+3+Prt:          ininegban2           # ; !3sg v 2pl
+!+Thm2a+21Pl+3Pl+Dub:     ininangwaawenh  # ; !3pl v 21pl !cons (?)
+!+Thm2a+21Pl+3+Dub:        ininangwenh     # ; !3sg v 21pl
+!+Thm2a+2Pl+3Pl+Dub:       ininegwaawenh     # ; !3pl v 2pl
+!+Thm2a+2Pl+3+Dub:          ininegwenh           # ; !3sg v 2pl
+!+Thm2a+2Pl+Prt:            ininagogoban2 # ; !1sg v 2pl
 !+Thm2a+2+Prt:               ininaambaanh     # ; !1sg v 2sg
-!+Thm2a+2+Pl+Dub:            ininagogwenh # ; !1sg v 2pl
+!+Thm2a+2Pl+Dub:            ininagogwenh # ; !1sg v 2pl
 !+Thm2a+2+Dub:               ininaanenh      # ; !1sg v 2sg !cons (?)
-!+ThmDir+Neg+1+Pl+3+Pl:      aasiwangidwaa    # ; !1pl v 3pl
-!+ThmDir+Neg+1+Pl+3:         aasiwangid      # ; !1pl v 3sg
-!+ThmDir+Neg+1+3+Pl:         aasiwagwaa      # ; !1sg v 3pl
+!+ThmDir+Neg+1Pl+3Pl:      aasiwangidwaa    # ; !1pl v 3pl
+!+ThmDir+Neg+1Pl+3:         aasiwangid      # ; !1pl v 3sg
+!+ThmDir+Neg+1+3Pl:         aasiwagwaa      # ; !1sg v 3pl
 !+ThmDir+Neg+1+3:            aasiwag         # ; !1sg v 3sg
-!+ThmDir+Neg+2+1+Pl+3+Pl:    aasiwangwaa     # ; !21pl v 3pl
-!+ThmDir+Neg+2+1+Pl+3:       aasiwang        # ; !21pl v 3sg
-!+ThmDir+Neg+2+Pl+3+Pl:      aasiwegwaa      # ; !2pl v 3pl
-!+ThmDir+Neg+2+Pl+3:         aasiweg         # ; !2pl v 3sg
-!+ThmDir+Neg+2+3+Pl:         aasiwadwaa      # ; !2sg v 3pl
+!+ThmDir+Neg+21Pl+3Pl:    aasiwangwaa     # ; !21pl v 3pl
+!+ThmDir+Neg+21Pl+3:       aasiwang        # ; !21pl v 3sg
+!+ThmDir+Neg+2Pl+3Pl:      aasiwegwaa      # ; !2pl v 3pl
+!+ThmDir+Neg+2Pl+3:         aasiweg         # ; !2pl v 3sg
+!+ThmDir+Neg+2+3Pl:         aasiwadwaa      # ; !2sg v 3pl
 !+ThmDir+Neg+2+3:            aasiwad         # ; !2sg v 3sg
-!+ThmDir+Neg+1+Pl+3+Pl+Prt:  aasiwangidwaaban2  # ; !1pl v 3pl
-!+ThmDir+Neg+1+Pl+3+Prt:     aasiwangidiban2      # ; !1pl v 3sg
-!+ThmDir+Neg+1+3+Pl+Prt:     aasiwagwaaban2    # ; !1sg v 3pl
+!+ThmDir+Neg+1Pl+3Pl+Prt:  aasiwangidwaaban2  # ; !1pl v 3pl
+!+ThmDir+Neg+1Pl+3+Prt:     aasiwangidiban2      # ; !1pl v 3sg
+!+ThmDir+Neg+1+3Pl+Prt:     aasiwagwaaban2    # ; !1sg v 3pl
 !+ThmDir+Neg+1+3+Prt:        aasiwagiban2       # ; !1sg v 3sg
-!+ThmDir+Neg+2+1+Pl+3+Pl+Prt:aasiwangwaaban2   # ; !21pl v 3pl
-!+ThmDir+Neg+2+1+Pl+3+Prt:   aasiwangiban2      # ; !21pl v 3sg
-!+ThmDir+Neg+2+Pl+3+Pl+Prt:  aasiwegwaaban2    # ; !2pl v 3pl
-!+ThmDir+Neg+2+Pl+3+Prt:     aasiwegoban2       # ; !2pl v 3sg
-!+ThmDir+Neg+2+3+Pl+Prt:     aasiwadwaaban2    # ; !2sg v 3pl
+!+ThmDir+Neg+21Pl+3Pl+Prt:aasiwangwaaban2   # ; !21pl v 3pl
+!+ThmDir+Neg+21Pl+3+Prt:   aasiwangiban2      # ; !21pl v 3sg
+!+ThmDir+Neg+2Pl+3Pl+Prt:  aasiwegwaaban2    # ; !2pl v 3pl
+!+ThmDir+Neg+2Pl+3+Prt:     aasiwegoban2       # ; !2pl v 3sg
+!+ThmDir+Neg+2+3Pl+Prt:     aasiwadwaaban2    # ; !2sg v 3pl
 !+ThmDir+Neg+2+3+Prt:        aasiwadiban2       # ; !2sg v 3sg
-!+ThmDir+Neg+1+Pl+3+Pl+Dub:  aasiiwangidwaawenh     # ; !1pl v 3pl
-!+ThmDir+Neg+1+Pl+3+Dub:     aasiiwangidenh      # ; !1pl v 3sg
-!+ThmDir+Neg+1+3+Pl+Dub:     aasiiwagwaawenh      # ; !1sg v 3pl
+!+ThmDir+Neg+1Pl+3Pl+Dub:  aasiiwangidwaawenh     # ; !1pl v 3pl
+!+ThmDir+Neg+1Pl+3+Dub:     aasiiwangidenh      # ; !1pl v 3sg
+!+ThmDir+Neg+1+3Pl+Dub:     aasiiwagwaawenh      # ; !1sg v 3pl
 !+ThmDir+Neg+1+3+Dub:        aasiiwagenh         # ; !1sg v 3sg
-!+ThmDir+Neg+2+1+Pl+3+Pl+Dub:aasiiwangwaawenh     # ; !21pl v 3pl
-!+ThmDir+Neg+2+1+Pl+3+Dub:   aasiiwangenh        # ; !21pl v 3sg
-!+ThmDir+Neg+2+Pl+3+Pl+Dub:  aasiiwegwaawenh      # ; !2pl v 3pl
-!+ThmDir+Neg+2+Pl+3+Dub:     aasiiwegenh         # ; !2pl v 3sg
-!+ThmDir+Neg+2+3+Pl+Dub:     aasiiwadwaawenh      # ; !2sg v 3pl
+!+ThmDir+Neg+21Pl+3Pl+Dub:aasiiwangwaawenh     # ; !21pl v 3pl
+!+ThmDir+Neg+21Pl+3+Dub:   aasiiwangenh        # ; !21pl v 3sg
+!+ThmDir+Neg+2Pl+3Pl+Dub:  aasiiwegwaawenh      # ; !2pl v 3pl
+!+ThmDir+Neg+2Pl+3+Dub:     aasiiwegenh         # ; !2pl v 3sg
+!+ThmDir+Neg+2+3Pl+Dub:     aasiiwadwaawenh      # ; !2sg v 3pl
 !+ThmDir+Neg+2+3+Dub:        aasiiwadenh         # ; !2sg v 3sg
-!+ThmDir+Neg+3+Pl:           aasigwaa   # ; !3pl v 3obv
+!+ThmDir+Neg+3Pl:           aasigwaa   # ; !3pl v 3obv
 !+ThmDir+Neg+3:              aasig     # ; !3sg v 3obv  !book omits form!
-!+ThmDir+Neg+3+Pl+Prt:       aasiiwaapan2   # ; !3pl v 3obv
+!+ThmDir+Neg+3Pl+Prt:       aasiiwaapan2   # ; !3pl v 3obv
 !+ThmDir+Neg+3+Prt:          aasiipan2   # ; !3sg v 3obv  
-!+ThmDir+Neg+3+Pl+Dub:       aasiigwaawenh   # ; !3pl v 3obv 
+!+ThmDir+Neg+3Pl+Dub:       aasiigwaawenh   # ; !3pl v 3obv 
 !+ThmDir+Neg+3+Dub:          aasiigwenh # ; !3sg v 3obv  
-!+ThmDir+3+Pl:               aawaad        # ; !3pl v 3obv
+!+ThmDir+3Pl:               aawaad        # ; !3pl v 3obv
 !+ThmDir+3:                  aad           # ; !3sg v 3obv
-!+ThmDir+3+Pl+Prt:           aawaapan2  # ; !3pl v 3obv
+!+ThmDir+3Pl+Prt:           aawaapan2  # ; !3pl v 3obv
 !+ThmDir+3+Prt:              aapan2        # ; !3sg v 3obv
-!+ThmDir+3+Pl+Dub:           aawaagwenh # ; !3pl v 3obv !book provides nothing, this is best guess
+!+ThmDir+3Pl+Dub:           aawaagwenh # ; !3pl v 3obv !book provides nothing, this is best guess
 !+ThmDir+3+Dub:              aagwenh    # ; !3sg v 3obv
-!+ThmNul+1+Pl+3+Pl:          angidwaa   # ; !1pl v 3pl
-!+ThmNul+1+Pl+3:             angid     # ; !1pl v 3sg
-!+ThmNul+1+3+Pl:             agwaa     # ; !1sg v 3pl
+!+ThmNul+1Pl+3Pl:          angidwaa   # ; !1pl v 3pl
+!+ThmNul+1Pl+3:             angid     # ; !1pl v 3sg
+!+ThmNul+1+3Pl:             agwaa     # ; !1sg v 3pl
 !+ThmNul+1+3:                ag        # ; !1sg v 3sg
-!+ThmNul+2+1+Pl+3+Pl:        angwaa    # ; !21pl v 3pl
-!+ThmNul+2+1+Pl+3:           ang       # ; !21pl v 3sg
-!+ThmNul+2+Pl+3+Pl:          egwaa     # ; !2pl v 3pl
-!+ThmNul+2+Pl+3:             eg        # ; !2pl v 3sg
-!+ThmNul+2+3+Pl:             adwaa     # ; !2sg v 3pl
+!+ThmNul+21Pl+3Pl:        angwaa    # ; !21pl v 3pl
+!+ThmNul+21Pl+3:           ang       # ; !21pl v 3sg
+!+ThmNul+2Pl+3Pl:          egwaa     # ; !2pl v 3pl
+!+ThmNul+2Pl+3:             eg        # ; !2pl v 3sg
+!+ThmNul+2+3Pl:             adwaa     # ; !2sg v 3pl
 !+ThmNul+2+3:                ad        # ; !2sg v 3sg
-!+ThmNul+1+Pl+3+Pl+Prt:      angidwaaban2  # ; !1pl v 3pl
-!+ThmNul+1+Pl+3+Prt:         angidiban2    # ; !1pl v 3sg
-!+ThmNul+1+3+Pl+Prt:         agwaaban2  # ; !1sg v 3pl
+!+ThmNul+1Pl+3Pl+Prt:      angidwaaban2  # ; !1pl v 3pl
+!+ThmNul+1Pl+3+Prt:         angidiban2    # ; !1pl v 3sg
+!+ThmNul+1+3Pl+Prt:         agwaaban2  # ; !1sg v 3pl
 !+ThmNul+1+3+Prt:            agoban2     # ; !1sg v 3sg
-!+ThmNul+2+1+Pl+3+Pl+Prt:    angwaaban2  # ; !21pl v 3pl
-!+ThmNul+2+1+Pl+3+Prt:       angiban2    # ; !21pl v 3sg
-!+ThmNul+2+Pl+3+Pl+Prt:      egwaaban2  # ; !2pl v 3pl
-!+ThmNul+2+Pl+3+Prt:         egoban2    # ; !2pl v 3sg
-!+ThmNul+2+3+Pl+Prt:         adwaaban2  # ; !2sg v 3pl
+!+ThmNul+21Pl+3Pl+Prt:    angwaaban2  # ; !21pl v 3pl
+!+ThmNul+21Pl+3+Prt:       angiban2    # ; !21pl v 3sg
+!+ThmNul+2Pl+3Pl+Prt:      egwaaban2  # ; !2pl v 3pl
+!+ThmNul+2Pl+3+Prt:         egoban2    # ; !2pl v 3sg
+!+ThmNul+2+3Pl+Prt:         adwaaban2  # ; !2sg v 3pl
 !+ThmNul+2+3+Prt:            adiban2    # ; !2sg v 3sg
-!+ThmNul+1+Pl+3+Pl+Dub:      aawangidwaawenh  # ; !1pl v 3pl
-!+ThmNul+1+Pl+3+Dub:         aawangidenh    # ; !1pl v 3sg
-!+ThmNul+1+3+Pl+Dub:         aawagwaawenh  # ; !1sg v 3pl
+!+ThmNul+1Pl+3Pl+Dub:      aawangidwaawenh  # ; !1pl v 3pl
+!+ThmNul+1Pl+3+Dub:         aawangidenh    # ; !1pl v 3sg
+!+ThmNul+1+3Pl+Dub:         aawagwaawenh  # ; !1sg v 3pl
 !+ThmNul+1+3+Dub:            aawagenh     # ; !1sg v 3sg
-!+ThmNul+2+1+Pl+3+Pl+Dub:    aawangwaawenh  # ; !21pl v 3pl
-!+ThmNul+2+1+Pl+3+Dub:       aawangwenh    # ; !21pl v 3sg
-!+ThmNul+2+Pl+3+Pl+Dub:      aawegwaawenh  # ; !2pl v 3pl
-!+ThmNul+2+Pl+3+Dub:         aawegwenh    # ; !2pl v 3sg
-!+ThmNul+2+3+Pl+Dub:         aawadwaawenh  # ; !2sg v 3pl
+!+ThmNul+21Pl+3Pl+Dub:    aawangwaawenh  # ; !21pl v 3pl
+!+ThmNul+21Pl+3+Dub:       aawangwenh    # ; !21pl v 3sg
+!+ThmNul+2Pl+3Pl+Dub:      aawegwaawenh  # ; !2pl v 3pl
+!+ThmNul+2Pl+3+Dub:         aawegwenh    # ; !2pl v 3sg
+!+ThmNul+2+3Pl+Dub:         aawadwaawenh  # ; !2sg v 3pl
 !+ThmNul+2+3+Dub:            aawadenh    # ; !2sg v 3sg
 !} brute force end
 
@@ -1435,7 +1435,7 @@ LEXICON THM1_NEG
                         THM1_NEG_3A ; !end or prt or dub or prt dub
 
 LEXICON THM1_NEG_3A 
-+3+Pl:waad1        THM1_NEG_3A_PRE_MODE ; !3pl v 1sg
++3Pl:waad1        THM1_NEG_3A_PRE_MODE ; !3pl v 1sg
 +3:d1              THM1_NEG_3A_PCP ; !3sg v 1sg
 
 !could remove this lexicon and just infl with +3:d1y1
@@ -1451,7 +1451,7 @@ LEXICON THM1_NEG_3A_PRE_MODE
         VTA_CNJ_PRT_OR_END ;
 
 LEXICON THM1_NEG_SIIG_3B !dub or prt dub
-+3+Pl:waa  THM1_NEG_SIIG_3B_PRE_DUB ; !waawenh, waabanenh (delete w4 V_b1)
++3Pl:waa  THM1_NEG_SIIG_3B_PRE_DUB ; !waawenh, waabanenh (delete w4 V_b1)
 +3:0       THM1_NEG_SIIG_3B_PCP_SET ;     !wenh, obanenh (w4->o C_C)
 
 LEXICON THM1_NEG_SIIG_3B_PCP_SET
@@ -1461,16 +1461,16 @@ LEXICON THM1_NEG_SIIG_3B_PRE_DUB
 0:w4   VTA_CNJ_DUB_OR_PRT_DUB  ;
 
 LEXICON THM1_NEG_SIIW_LOC !dub or prt dub
-+1+Pl:angi   VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
-+1+Pl:aang   VTA_CNJ_DUB_OR_PRT_DUB ; !aangenh, aangibanenh (hypo) 2pl v 1pl, 2sg v 1pl
-+2+Pl:egw4   VTA_CNJ_DUB_OR_PRT_DUB ; !egwenh, egobanenh (hypo)
++1Pl:angi   VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
++1Pl:aang   VTA_CNJ_DUB_OR_PRT_DUB ; !aangenh, aangibanenh (hypo) 2pl v 1pl, 2sg v 1pl
++2Pl:egw4   VTA_CNJ_DUB_OR_PRT_DUB ; !egwenh, egobanenh (hypo)
 +2:an     VTA_CNJ_DUB_OR_PRT_DUB ; !anenh, ambanenh (hypo)
 
 LEXICON THM1_NEG_LOC !end or prt
-+1+Pl:aang         VTA_CNJ_PRT_OR_END ; !aang, aangiban
-+2+Pl:egw4         VTA_CNJ_PRT_OR_END ; !eg, (book has siwegiban, egoban, regularizing to egoban)
++1Pl:aang         VTA_CNJ_PRT_OR_END ; !aang, aangiban
++2Pl:egw4         VTA_CNJ_PRT_OR_END ; !eg, (book has siwegiban, egoban, regularizing to egoban)
 +2:an           VTA_CNJ_PRT_OR_END ; !an, amban
-+1+Pl:angi         VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++1Pl:angi         VTA_CNJ_3C_PRE_PRT ; !i epenthetic
 
 !}thm1
 !{thminv cont
@@ -1484,7 +1484,7 @@ LEXICON THMINV_NEG
             THMINV_3A ;
 
 LEXICON THMINV_3A !end, dub, prt
-+3+Pl:waad1y1           THMINV_3A_PL_PCP_SET ; !y1 for pcp, removed otherwise
++3Pl:waad1y1           THMINV_3A_PL_PCP_SET ; !y1 for pcp, removed otherwise
 +3:d1y1                 THMINV_3A_SG_PCP_SET ; !dubs are irregular, so just re-use pre-existing for prt, list dubs
 !+3+Dub:ogwen2           THMINV_3A_SG_DUB_PCP ; !Medler
 !+3+Prt+Dub:ogobanen2    THMINV_3A_SG_DUB_PCP ; !Medler
@@ -1511,9 +1511,9 @@ LEXICON THMINV_3A_PRE_MODE
 
 LEXICON THMINV_W_LOC !dub or prt dub
 +1:aan   THMINV_W_LOC_PCP_SET  ; !aanenh, aambanenh   
-+1+Pl:aang  THMINV_W_LOC_PCP_SET  ; !aangenh, aangibanenh
-+2+1+Pl:angw4 THMINV_W_LOC_PCP_SET  ; !angwenh, angobanenh 
-+2+Pl:egw4  THMINV_W_LOC_PCP_SET  ; !egwenh, egobanenh   
++1Pl:aang  THMINV_W_LOC_PCP_SET  ; !aangenh, aangibanenh
++21Pl:angw4 THMINV_W_LOC_PCP_SET  ; !angwenh, angobanenh 
++2Pl:egw4  THMINV_W_LOC_PCP_SET  ; !egwenh, egobanenh   
 +2:an    THMINV_W_LOC_PCP_SET  ; !anenh, ambanenh     
 
 LEXICON THMINV_Y_LOC !end or prt
@@ -1521,9 +1521,9 @@ LEXICON THMINV_Y_LOC !end or prt
 !+1+Prt:aambaan2i1 THMINV_Y_LOC_SPECIAL_PCP ; !Medler
 +1:aany1     THMINV_Y_LOC_SPECIAL_PCP ; !0 v 1sg
 +1+Prt:aambaany1 THMINV_Y_LOC_SPECIAL_2_PCP ; !0 v 1sg
-+1+Pl:aang     THMINV_Y_LOC_PCP_SET ; !i epenthesis
-+2+1+Pl:ang      THMINV_Y_LOC_PCP_SET ; !i epenthesis
-+2+Pl:egw4     THMINV_Y_LOC_PCP_SET ; !w4 -> o
++1Pl:aang     THMINV_Y_LOC_PCP_SET ; !i epenthesis
++21Pl:ang      THMINV_Y_LOC_PCP_SET ; !i epenthesis
++2Pl:egw4     THMINV_Y_LOC_PCP_SET ; !w4 -> o
 +2:an       THMINV_Y_LOC_PCP_SET ; !n->m _ b
 
 LEXICON THMINV_Y_LOC_SPECIAL_PCP
@@ -1536,9 +1536,9 @@ LEXICON THMINV_Y_LOC_SPECIAL_2_PCP
 
 LEXICON THMINV_NEG_SIIW_LOC !dub or prt dub
 +1:aan    THMINV_W_LOC_PCP_SET   ; !0 v 1sg  !cons best guess
-+1+Pl:aang   THMINV_W_LOC_PCP_SET ; !0 v 1pl    !cons best guess
-+2+1+Pl:ang    THMINV_W_LOC_PCP_SET ; !0 v 21pl     !cons best guess
-+2+Pl:egw4   THMINV_NEG_SIIW_OPT_3      ; !3sg v 2pl !cons best guess, could be isinoowegwenh, though 3sg isn't general with isinoo
++1Pl:aang   THMINV_W_LOC_PCP_SET ; !0 v 1pl    !cons best guess
++21Pl:ang    THMINV_W_LOC_PCP_SET ; !0 v 21pl     !cons best guess
++2Pl:egw4   THMINV_NEG_SIIW_OPT_3      ; !3sg v 2pl !cons best guess, could be isinoowegwenh, though 3sg isn't general with isinoo
 +2:an     THMINV_W_LOC_PCP_SET    ; !0 v 2sg !cons best guess
 
 LEXICON THMINV_NEG_SIIW_OPT_3
@@ -1552,9 +1552,9 @@ LEXICON THMINV_NEG_SIW_LOC !end or prt
 !+1:aan2       THMINV_Y_LOC_SPECIAL_PCP ; !Medler
 +1:aany1       THMINV_Y_LOC_SPECIAL_PCP ; !Easier to just spell out variants here 
 +1+Prt:aamb1an2i1    THMINV_Y_LOC_SPECIAL_PCP ; 
-+1+Pl:aang       THMINV_Y_LOC_PCP_SET ; ! i epen to avoid CC 
-+2+1+Pl:ang        THMINV_Y_LOC_PCP_SET ; !i epen to avoid CC 
-+2+Pl:eg         THMINV_NEG_SIW_OPT_3   ; ! i epen to avoid CC # ; !0 v 2pl
++1Pl:aang       THMINV_Y_LOC_PCP_SET ; ! i epen to avoid CC 
++21Pl:ang        THMINV_Y_LOC_PCP_SET ; !i epen to avoid CC 
++2Pl:eg         THMINV_NEG_SIW_OPT_3   ; ! i epen to avoid CC # ; !0 v 2pl
 +2:an         THMINV_Y_LOC_PCP_SET ; ! n->m _ b1
 
 LEXICON THMINV_NEG_SIW_OPT_3
@@ -1583,7 +1583,7 @@ LEXICON THM1PL_NEG
 0:w                 THM1PL_LOC_W ; !dub or prt dub
 
 LEXICON THM1PL_LOC_W !dub or prt dub
-+2+Pl:egw4  VTA_CNJ_DUB_OR_PRT_DUB ;
++2Pl:egw4  VTA_CNJ_DUB_OR_PRT_DUB ;
 +2:an       VTA_CNJ_DUB_OR_PRT_DUB ;
 
 LEXICON THM1PL_NEG_LOC !end, prt, dub, prt dub
@@ -1591,7 +1591,7 @@ LEXICON THM1PL_NEG_LOC !end, prt, dub, prt dub
     THM1PL_LOC_W ;
 
 LEXICON THM1PL_LOC_Y !end or prt
-+2+Pl:egw4  VTA_CNJ_PRT_OR_END ; !yeg, yegoban
++2Pl:egw4  VTA_CNJ_PRT_OR_END ; !yeg, yegoban
 +2:an       VTA_CNJ_PRT_OR_END ; !yan, yam
 
 !}thm1pl end
@@ -1606,7 +1606,7 @@ LEXICON THM2A_NEG_FRAG
 
 LEXICON THM2A_NEG_O_3B
 !allophony is clear (fortition of d1), but not worth trouble
-+3+Pl:kwaa   THM2A_NEG_O_3B_MODE ; !kwaaban, kwaawenh, kwaa
++3Pl:kwaa   THM2A_NEG_O_3B_MODE ; !kwaaban, kwaawenh, kwaa
 +3:g         THM2A_NEG_O_3B_PCP_SET ; !giban (epen i), gwenh (w not epenthetic!), g
 
 LEXICON THM2A_NEG_O_3B_PCP_SET
@@ -1619,8 +1619,8 @@ LEXICON THM2A_NEG_O_3B_MODE
 +Prt+Dub:%>b1an2eny1  VTA_CNJ_PCP_GET ;
 
 LEXICON THM2A_NEG_OOW_2PL
-+2+1+Pl:ang     VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
-+2+Pl+3+Pl:egwaa THM2A_NEG_OOW_EGWAA_PRT ; !3sg v 2pl quite irregular/confusing
++21Pl:ang     VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
++2Pl+3Pl:egwaa THM2A_NEG_OOW_EGWAA_PRT ; !3sg v 2pl quite irregular/confusing
 
 LEXICON THM2A_NEG_OOW_EGWAA_PRT
                 VTA_CNJ_PRT_OR_END ;
@@ -1629,11 +1629,11 @@ LEXICON THM2A_NEG_OOW_EGWAA_PRT
 +Prt+Dub:%>b1an2eny1 VTA_CNJ_PCP_GET ; !ideally these would go through DUB_OR_PRT_DUB, but thew needs to be present for dub, and will trigger i insertion with w>b1
 
 LEXICON THM2A_NEG_OW_21PL
-+2+1+Pl:ang     VTA_CNJ_3B_PRE_PRT ; 
++21Pl:ang     VTA_CNJ_3B_PRE_PRT ; 
 
 LEXICON THM2A_NEG_LOC_ONLY
-+2+Pl:agogw4        VTA_CNJ_PRT_OR_END ; 
-+2+Pl:agogw4        VTA_CNJ_DUB_OR_PRT_DUB ; !duplicated till better arises
++2Pl:agogw4        VTA_CNJ_PRT_OR_END ; 
++2Pl:agogw4        VTA_CNJ_DUB_OR_PRT_DUB ; !duplicated till better arises
 !+2:aan2            VTA_CNJ_PCP_GET ; !Medler
 0:aanh            VTA_CNJ_PCP_GET ; !duplicated to allow pos forms to use same cont lexicon !no person specified bc thm2a is second person agr
 0:aan2            THM2A_POS_LOC_AAN2_PRT ; !aanh, aambaanh, aanenh        !no person specified bc thm2a is second person agr
@@ -1641,14 +1641,14 @@ LEXICON THM2A_NEG_LOC_ONLY
 
 !{ thm2a pos
 LEXICON THM2A_POS_LOC
-+2+Pl:agogw4     THM2A_POS_LOC_PRT ; !agogwenh, agog, agogoban (hyp: agogobanenh)
++2Pl:agogw4     THM2A_POS_LOC_PRT ; !agogwenh, agog, agogoban (hyp: agogobanenh)
 0:aan2       VTA_CNJ_PCP_GET ; !duplicated to allow neg forms to use same cont lexicon !no person specified bc thm2a is second person agr
 0:aan2       THM2A_POS_LOC_AAN2_PRT ; !aa, aambaanh, aanenh         !no person specified bc thm2a is second person agr
-+2+Pl:egw4       THM2A_POS_LOC_3B ; !eg, egwaaban, egoban, egwaawenh, egwenh
-+2+1+Pl:angw4      THM2A_POS_LOC_3B ;
++2Pl:egw4       THM2A_POS_LOC_3B ; !eg, egwaaban, egoban, egwaawenh, egwenh
++21Pl:angw4      THM2A_POS_LOC_3B ;
 
 LEXICON THM2A_POS_LOC_3B
-+3+Pl:waaw4   THM2A_POS_LOC_PRT ; 
++3Pl:waaw4   THM2A_POS_LOC_PRT ; 
 +3:0        THM2A_POS_LOC_3B_PCP_SET ;
 
 LEXICON THM2A_POS_LOC_3B_PCP_SET
@@ -1669,11 +1669,11 @@ LEXICON THM2A_POS_LOC_PRT
 !{thmnul cont
 !{actual nulls
 LEXICON THMNUL_LOC
-+1+Pl:angi     VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++1Pl:angi     VTA_CNJ_3C_PRE_PRT ; !i epenthetic
 +2:a        VTA_CNJ_3C_PRE_PRT ; 
 +1:agw4       VTA_CNJ_3B_PRE_PRT ; !w4w -> w, w4b -> o, w4 -> 0
-+2+1+Pl:ang        VTA_CNJ_3B_PRE_PRT ; !epenthetic i before b1
-+2+Pl:egw4       VTA_CNJ_3B_PRE_PRT ; 
++21Pl:ang        VTA_CNJ_3B_PRE_PRT ; !epenthetic i before b1
++2Pl:egw4       VTA_CNJ_3B_PRE_PRT ; 
 
 !}
 
@@ -1681,11 +1681,11 @@ LEXICON THMNUL_LOC
 !nearly identical to actual null forms, but must end in +Dub
 !phon difference too! agoban (Prt, o from w4) vs agenh (Dub, *agwenh)
 LEXICON THMNUL_AA_LOC
-+1+Pl:angi     VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
++1Pl:angi     VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
 +2:a        VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; 
 +1:ag        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; 
-+2+1+Pl:angw4       VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; !w4V -> wV, w4w -> w
-+2+Pl:egw4      VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; 
++21Pl:angw4       VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; !w4V -> wV, w4w -> w
++2Pl:egw4      VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; 
 
 !}
 !}thmnul end
@@ -1699,23 +1699,23 @@ LEXICON THMDIR_NEG
             THMDIR_POS_3 ;
 
 LEXICON THMDIR_NEG_SIW_LOCAL
-+1+Pl:angi           VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++1Pl:angi           VTA_CNJ_3C_PRE_PRT ; !i epenthetic
 +1:ag             VTA_CNJ_3B_PRE_PRT ;
-+2+1+Pl:ang            VTA_CNJ_3B_PRE_PRT ;
-+2+Pl:egw4           VTA_CNJ_3B_PRE_PRT ; !w4w -> w (egwaa, not egowaa), w4C -> o (egoban, not egiban), w4 -> 0 (eg, not egw/o)
++21Pl:ang            VTA_CNJ_3B_PRE_PRT ;
++2Pl:egw4           VTA_CNJ_3B_PRE_PRT ; !w4w -> w (egwaa, not egowaa), w4C -> o (egoban, not egiban), w4 -> 0 (eg, not egw/o)
 +2:a              VTA_CNJ_3C_PRE_PRT ; 
 
 LEXICON THMDIR_NEG_SIIW_LOCAL
-+1+Pl:angi       VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i certainly epenthetic
++1Pl:angi       VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i certainly epenthetic
 +2:a          VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ;
 +1:ag         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
-+2+1+Pl:ang        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
-+2+Pl:eg         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
++21Pl:ang        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
++2Pl:eg         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
 
 !{third person negatives
 !a lot of irregularity:sig, sigwaa, siiwaapan, siipan, siigwaawenh, siigwenh, hypo: siiwaagobanenh, siigobanenh
 LEXICON THMDIR_NEG_3_NO_MODE
-+3+Pl:waa  THMDIR_NEG_3_NO_MODE_PCP_PL_SET ; !could get sigwaa with phonology (d1<w4>aa)
++3Pl:waa  THMDIR_NEG_3_NO_MODE_PCP_PL_SET ; !could get sigwaa with phonology (d1<w4>aa)
 +3:0       THMDIR_NEG_3_NO_MODE_PCP_OBV_SET ; !ditto for sig
 
 LEXICON THMDIR_NEG_3_NO_MODE_PCP_PL_SET
@@ -1726,9 +1726,9 @@ LEXICON THMDIR_NEG_3_NO_MODE_PCP_OBV_SET
 @P.3Num.Obv@    VTA_CNJ_PCP_GET ;
 
 LEXICON THMDIR_NEG_3
-+3+Pl:waad1     THMDIR_NEG_3_PCP_PL_SET ; !notice, not dwaa, as dub would indicate
++3Pl:waad1     THMDIR_NEG_3_PCP_PL_SET ; !notice, not dwaa, as dub would indicate
 +3:d1           THMDIR_NEG_3_PCP_OBV_SET ;
-+3+Pl:gwaaw4    THMDIR_NEG_3_PCP_DUB_PL_SET ;  !siigwaawenh looks like d1<w4>aa<w>-enh, but then you break up a morpheme, problem for prt
++3Pl:gwaaw4    THMDIR_NEG_3_PCP_DUB_PL_SET ;  !siigwaawenh looks like d1<w4>aa<w>-enh, but then you break up a morpheme, problem for prt
 +3:gw4          THMDIR_NEG_3_PCP_DUB_OBV_SET ; !siigwenh looks like d1-w4enh, but problems with this analysis in pl
 
 LEXICON THMDIR_NEG_3_PCP_PL_SET
@@ -1752,7 +1752,7 @@ LEXICON THMDIR_NEG_3_PRT
 !{ positive third persons post-aa
 !much more regular than negatives:waad, d, waagwenh, gwenh, waapan, pan, waagobanenh, gobanenh
 LEXICON THMDIR_POS_3
-+3+Pl:waad1y1          THMDIR_POS_3_PCP_PL_SET ;
++3Pl:waad1y1          THMDIR_POS_3_PCP_PL_SET ;
 +3:d1y1                THMDIR_POS_3_PCP_OBV_SET ;
 
 LEXICON THMDIR_POS_3_PCP_PL_SET
@@ -1774,7 +1774,7 @@ LEXICON THMDIR_POS_3_MODE
 
 !{thm2b cont
 LEXICON THM2B_3
-+3+Pl:waa THM2B_3_PL_PREMODE ;
++3Pl:waa THM2B_3_PL_PREMODE ;
 +3:0   THM2B_3_PCP_SET ;
 
 LEXICON THM2B_3_PCP_SET
@@ -1797,16 +1797,16 @@ LEXICON THM2B_3_PRT
 !}
 
 LEXICON VTA_CNJ_3C_PRE_PRT
-+3+Pl:dwaa   VTA_CNJ_PRT_OR_END ;
-+3:d         VTA_CNJ_3C_PRE_PRT_PCP_SET ;!seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp !palatalizes in pcp (d1pal now targets d1 and d), but does not undergo d1%>b1 -> p
++3Pl:dwaa   VTA_CNJ_PRT_OR_END ;
++3:d         VTA_CNJ_3C_PRE_PRT_PCP_SET ;!seems very odd that +3 and not +3Pl would pick up possibility for 3Pl Pcp !palatalizes in pcp (d1pal now targets d1 and d), but does not undergo d1%>b1 -> p
 
 LEXICON VTA_CNJ_3C_PRE_PRT_PCP_SET
 0:y1        VTA_CNJ_PCP_PL ; 
 @P.3Num.Pl@ VTA_CNJ_PRT_OR_END ; 
 
 LEXICON VTA_CNJ_3B_PRE_PRT
-+3+Pl:waa   VTA_CNJ_PRT_OR_END ;
-+3:0        VTA_CNJ_3B_PRE_PRT_PCP_SET ; !seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp
++3Pl:waa   VTA_CNJ_PRT_OR_END ;
++3:0        VTA_CNJ_3B_PRE_PRT_PCP_SET ; !seems very odd that +3 and not +3Pl would pick up possibility for 3Pl Pcp
 
 LEXICON VTA_CNJ_3B_PRE_PRT_PCP_SET
 @P.3Num.Pl@ VTA_CNJ_PRT_OR_END ;
@@ -1816,15 +1816,15 @@ LEXICON VTA_CNJ_PRT_OR_END
 +Prt:%>b1an2i1    VTA_CNJ_PCP_GET  ;
 
 LEXICON VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB
-+3+Pl:waaw4     VTA_CNJ_DUB_OR_PRT_DUB ; !waawenh, waabanenh (hypo)
-+3:0      VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB_PCP_SET  ;!seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp
++3Pl:waaw4     VTA_CNJ_DUB_OR_PRT_DUB ; !waawenh, waabanenh (hypo)
++3:0      VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB_PCP_SET  ;!seems very odd that +3 and not +3Pl would pick up possibility for 3Pl Pcp
 
 LEXICON VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB_PCP_SET
 @P.3Num.Pl@ VTA_CNJ_DUB_OR_PRT_DUB ;
 
 LEXICON VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB
-+3+Pl:dwaaw4 VTA_CNJ_DUB_OR_PRT_DUB ; !dwaawenh, dwaabanenh (hypo)
-+3:d         VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB_PCP_SET ;!seems very odd that +3 and not +3+Pl would pick up possibility for 3Pl Pcp
++3Pl:dwaaw4 VTA_CNJ_DUB_OR_PRT_DUB ; !dwaawenh, dwaabanenh (hypo)
++3:d         VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB_PCP_SET ;!seems very odd that +3 and not +3Pl would pick up possibility for 3Pl Pcp
 
 LEXICON VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB_PCP_SET  
 @P.3Num.Pl@ VTA_CNJ_DUB_OR_PRT_DUB ; 
@@ -1847,64 +1847,64 @@ LEXICON VTA_CNJ_PCP_GET
                 # ;
 
 LEXICON VTA_CNJ_PCP_PL
-+Pcp+3+Pl:%>ig # ;
++Pcp+3Pl:%>ig # ;
 
 LEXICON VTA_CNJ_PCP_OBV
-+Pcp+3+4:%>in # ;
++Pcp+3Obv:%>in # ;
 
 LEXICON VTA_CNJ_PCP_INAN_PL
-+Pcp+%0+Pl:%>in # ;
++Pcp+%0Pl:%>in # ;
 !}vta cnj compressed end
 !} cnj end
 
 !{ imp order
 LEXICON VTA_IMPER
 +1+2:i2shin # ; !p 304 reports optional palatalization
-+1+Pl+2:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
-+1+Pl+2+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
-+1+2+Pl:i2shik # ;
++1Pl+2:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
++1Pl+2Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
++1+2Pl:i2shik # ;
 +3+2:i2 # ; !p 304 only reports pal for this slot, but I extended to others
 +3+2:i2n # ;
-+3+Pl+2:i2 # ;
-+3+Pl+2:i2n # ;
-+3+2+1+Pl:aadaa # ;
-+3+Pl+2+1+Pl:%>miinaadaanik # ;
-+3+2+Pl:i2k # ;
-+3+Pl+2+Pl:i2k # ;
++3Pl+2:i2 # ;
++3Pl+2:i2n # ;
++3+21Pl:aadaa # ;
++3Pl+21Pl:%>miinaadaanik # ;
++3+2Pl:i2k # ;
++3Pl+2Pl:i2k # ;
 !+Imm+2+1:i2shin # ; !p 304 reports optional palatalization
-!+Imm+2+1+Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
-!+Imm+2+Pl+1+Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
-!+Imm+2+Pl+1:i2shik # ;
+!+Imm+2+1Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
+!+Imm+2Pl+1Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
+!+Imm+2Pl+1:i2shik # ;
 !+Imm+2+3:i2 # ; !p 304 only reports pal for this slot, but I extended to others
 !+Imm+2+3:i2n # ;
-!+Imm+2+3+Pl:i2 # ;
-!+Imm+2+3+Pl:i2n # ;
-!+Imm+2+1+Pl+3:aadaa # ;
-!+Imm+2+1+Pl+3+Pl:%>miinaadaanik # ;
-!+Imm+2+Pl+3:i2k # ;
-!+Imm+2+Pl+3+Pl:i2k # ;
+!+Imm+2+3Pl:i2 # ;
+!+Imm+2+3Pl:i2n # ;
+!+Imm+2+1Pl+3:aadaa # ;
+!+Imm+2+1Pl+3Pl:%>miinaadaanik # ;
+!+Imm+2Pl+3:i2k # ;
+!+Imm+2Pl+3Pl:i2k # ;
 
 +Del+1+2:i2shikan # ;
-!+Del+2+1+Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
-!+Del+2+Pl+1+Pl:0 # ;
-+Del+1+2+Pl:i2shiikek # ;
+!+Del+21Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
+!+Del+2Pl+1Pl:0 # ;
++Del+1+2Pl:i2shiikek # ;
 +Del+3+2:aakan # ;
-+Del+3+Pl+2:aakan # ;
-!+Del+2+1+Pl+3:0 # ;
-!+Del+2+1+Pl+3+Pl:0 # ;
-+Del+3+2+Pl:aakek # ;
-+Del+3+Pl+2+Pl:%>miinaakek # ;
++Del+3Pl+2:aakan # ;
+!+Del+21Pl+3:0 # ;
+!+Del+21Pl+3Pl:0 # ;
++Del+3+2Pl:aakek # ;
++Del+3Pl+2Pl:%>miinaakek # ;
 
 +Neg+1+2:i2shiken2 # ;
-!+Neg+2+1+Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
-!+Neg+2+Pl+1+Pl:0 # ;
-+Neg+1+2+Pl:i2shikego # ;
+!+Neg+21Pl:0 # ; !unknown first inclusive, disambiguate from 2 v 1pl ...
+!+Neg+2Pl+1Pl:0 # ;
++Neg+1+2Pl:i2shikego # ;
 +Neg+3+2:aaken2 # ;
-+Neg+3+Pl+2:aaken2 # ;
-+Neg+3+2+1+Pl:aasiidaa # ;
-+Neg+3+Pl+2+1+Pl:aasiidaanig # ;
-!+Neg+2+Pl+3:0 # ;
-!+Neg+2+Pl+3+Pl:0 # ;
++Neg+3Pl+2:aaken2 # ;
++Neg+3+21Pl:aasiidaa # ;
++Neg+3Pl+21Pl:aasiidaanig # ;
+!+Neg+2Pl+3:0 # ;
+!+Neg+2Pl+3Pl:0 # ;
 
 !} imp end
 !} VTA end
@@ -1933,8 +1933,8 @@ LEXICON VTI_INDEP_PERS_GET
 @D.Person@  VTI_INDEP_OBV ;
 
 LEXICON VTI_INDEP_OBV
-+3+4:iniw           VTI_INDEP_PRE_MODE ; !out on limb by allowing continuation
-+3+4+Prt+Dub:inigoban2  # ; 
++3Obv:iniw           VTI_INDEP_PRE_MODE ; !out on limb by allowing continuation
++3Obv+Prt+Dub:inigoban2  # ; 
                         !inan pl number tricky here, because never indexed in conjunct/conjunct derived forms
 
 LEXICON VTI_INDEP_NUM
@@ -1945,11 +1945,11 @@ LEXICON VTI_INDEP_NUM
 !passive unknown
 
 LEXICON VTI_INDEP_1_OR_2_NUM
-+1+Pl:naan2y1    VTI_INDEP_PRE_PERIPH ; !naan unattested w/ mode, but may end word
-+1+Pl:min2       VTI_INDEP_PRE_MODE ; !21pl assumed to be compatible with this too
++1Pl:naan2y1    VTI_INDEP_PRE_PERIPH ; !naan unattested w/ mode, but may end word
++1Pl:min2       VTI_INDEP_PRE_MODE ; !21pl assumed to be compatible with this too
 
 LEXICON VTI_INDEP_3_OR_2_NUM
-+2+Pl:naawaa    VTI_INDEP_2PL_PRE_MODE ; !3pl doesn't have dedicated morpheme, rides on 2pl
++2Pl:naawaa    VTI_INDEP_2PL_PRE_MODE ; !3pl doesn't have dedicated morpheme, rides on 2pl
 !} Num end
 
 !{Mode slot 
@@ -1978,7 +1978,7 @@ LEXICON VTI_INDEP_PRT_PRE_PERIPH
 !PrtDub restricted to third persons above
 !no inanimate plural information possible (conjuncty suffixes never do)
 LEXICON VTI_INDEP_PRT_DUB
-+2+Pl+Prt+Dub:%>gwaaban2 # ; !suspiciously non-prt-dub like g-2pl-ban
++2Pl+Prt+Dub:%>gwaaban2 # ; !suspiciously non-prt-dub like g-2pl-ban
 +Prt+Dub:%>goban2 # ;
 
 !}Mode end
@@ -1991,7 +1991,7 @@ LEXICON VTI_INDEP_PRE_PERIPH
         # ;
 
 LEXICON VTI_INDEP_PERIPH
-+%0+Pl:%>an   # ;
++%0Pl:%>an   # ;
 
 !} indep end
 
@@ -2001,7 +2001,7 @@ LEXICON VTI_CNJ_NEG
 +Neg:%>siiw3        VTI_CNJ_DUB_SET ; !must be followed by dub in vtis
 +Neg:%>siw3         VTI_CNJ_PRT_SET ; !may only be followed by prt in vtis
                 VTI_CNJ_PERSNUM ;
-+Neg+3+Pl:%>si%>gwaa  VTI_CNJ_IRREG_3PL_SUFFS ; !may be followed by prt in vtis
++Neg+3Pl:%>si%>gwaa  VTI_CNJ_IRREG_3PL_SUFFS ; !may be followed by prt in vtis
 
 LEXICON VTI_CNJ_IRREG_3PL_SUFFS 
     # ;
@@ -2032,9 +2032,9 @@ LEXICON VTI_CNJ_DUB_SET_A
 LEXICON VTI_CNJ_NOT_3
 +1:%>aan       VTI_CNJ_PRT_1 ; !breaking morpheme over continuation lexica. have pret cnj "b" trigger assimilation, sometimes nasalize V
 +2:%>an        VTI_CNJ_MODE_GET ; !ditto re assimilation: are there cases were nas-obs isn't modified to be homorganic?
-+1+Pl:%>aang      VTI_CNJ_MODE_GET ;
-+2+1+Pl:%>ang         VTI_CNJ_MODE_GET ; !VTI never shows w/o for mode suffs
-+2+Pl:%>eg       VTI_CNJ_MODE_GET ; !VTI only shows w for DUB, not PRT DUB
++1Pl:%>aang      VTI_CNJ_MODE_GET ;
++21Pl:%>ang         VTI_CNJ_MODE_GET ; !VTI never shows w/o for mode suffs
++2Pl:%>eg       VTI_CNJ_MODE_GET ; !VTI only shows w for DUB, not PRT DUB
 @R.Mode.Dub@    VTI_CNJ_DUB_UNSPEC_ACT ; !irregular realization for unspec act dub
 
 LEXICON VTI_CNJ_DUB_UNSPEC_ACT
@@ -2045,7 +2045,7 @@ LEXICON VTI_CNJ_3PL_MODE_GET
             VTI_CNJ_3 ;
 
 LEXICON VTI_CNJ_3PL
-+3+Pl:w4aad1       VTI_CNJ_DUB_EARLY_B ; !Irregularity when negated and this is last morpheme/followed by prt
++3Pl:w4aad1       VTI_CNJ_DUB_EARLY_B ; !Irregularity when negated and this is last morpheme/followed by prt
 
 LEXICON VTI_CNJ_3PL_GATEWAY 
 0:y1        VTI_CNJ_PCP_PL  ;
@@ -2054,7 +2054,7 @@ LEXICON VTI_CNJ_3PL_GATEWAY
 
 LEXICON VTI_CNJ_3 
 +3:%>d1               VTI_CNJ_3PL_GATEWAY ; !d1 phon in root.lexc
-+3+4:%>nid1           VTI_CNJ_3OBV_GATEWAY ; !nas morph inid?
++3Obv:%>nid1           VTI_CNJ_3OBV_GATEWAY ; !nas morph inid?
 +X:%>nd1              VTI_CNJ_MODE_GET ; !nd1b -> ngib, this realization only compatible with prt, not dub
 
 LEXICON VTI_CNJ_3OBV_GATEWAY 
@@ -2118,10 +2118,10 @@ LEXICON VTI_CNJ_PCP_GET
                     # ; 
 
 LEXICON VTI_CNJ_PCP_PL
-+Pcp+3+Pl:%>ag # ; 
++Pcp+3Pl:%>ag # ; 
 
 LEXICON VTI_CNJ_PCP_OBV
-+Pcp+3+Pl:%>an # ; 
++Pcp+3Pl:%>an # ; 
 
 !} participles end
 !} Cnj end
@@ -2129,21 +2129,21 @@ LEXICON VTI_CNJ_PCP_OBV
 !{ imperative
 LEXICON VTI_IMPER 
 +2:n4 # ; !no lengthening (amn -/> aan)
-+2+Pl:ok # ; !og optionally after vowels?
-+2+1+Pl+%0:daa # ;
-+2+1+Pl+%0+Pl:daanin # ;
++2Pl:ok # ; !og optionally after vowels?
++21Pl+%0:daa # ;
++21Pl+%0Pl:daanin # ;
 !+Imm+2:n4 # ; !no lengthening (amn -/> aan)
-!+Imm+2+Pl:ok # ; !og optionally after vowels?
-!+Imm+2+1+Pl+%0:daa # ;
-!+Imm+2+1+Pl+%0+Pl:daanin # ;
+!+Imm+2Pl:ok # ; !og optionally after vowels?
+!+Imm+21Pl+%0:daa # ;
+!+Imm+21Pl+%0Pl:daanin # ;
 +Del+2:%>kan # ; 
-+Del+2+Pl:%>keg # ; 
-+Del+2+1+Pl+%0:%>kang # ;
-+Del+2+1+Pl+%0+Pl:%>kang # ;
++Del+2Pl:%>keg # ; 
++Del+21Pl+%0:%>kang # ;
++Del+21Pl+%0Pl:%>kang # ;
 +Neg+2:%>ken # ; !gen after nasals
-+Neg+2+Pl:%>kegon # ; !gegon after nasals
-+Neg+2+1+Pl+%0:siidaa # ; !ziidaa after nasals
-+Neg+2+1+Pl+%0+Pl:siidaanin # ; !book gives suff daanin, exe waabndanziidaanin
++Neg+2Pl:%>kegon # ; !gegon after nasals
++Neg+21Pl+%0:siidaa # ; !ziidaa after nasals
++Neg+21Pl+%0Pl:siidaanin # ; !book gives suff daanin, exe waabndanziidaanin
 
 !} imp end
 !} VTI end
