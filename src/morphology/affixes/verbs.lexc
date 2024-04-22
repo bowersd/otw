@@ -1143,8 +1143,8 @@ LEXICON VTA_INFLECTIONAL_PASSIVE
 +ThmPas+VAI:aa      VTA_INFLECTIONAL_PASSIVE_AA_GET ; !never takes person prefixes IIRC
 
 LEXICON VTA_INFLECTIONAL_PASSIVE_IGOO_GET
-@D.Person.3@    VAI_INDEP_NEG ; !first or second person prefixes legal in independent order
-@D.Person@      VTA_INFLECTIONAL_PASSIVE_IGOO_CNJ ; 
+@D.Person.3@@D.Order.Cnj@    VAI_INDEP_NEG ; !first or second person prefixes legal in independent order
+@D.Person@                   VTA_INFLECTIONAL_PASSIVE_IGOO_CNJ ; 
 
 LEXICON VTA_INFLECTIONAL_PASSIVE_IGOO_CNJ
 +Cnj:c1         THMPAS_CNJ_LOCAL_SET ; 
