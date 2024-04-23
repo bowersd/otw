@@ -4626,8 +4626,7 @@ na'aangbi:nahaangVv1bi    VAI_TAG    " 1 stay with one's in-laws" ; !Rand key:n7
 na'aangshiimi:Vv1nahaangishiimi    VAI_TAG    " 1 have a son-in-law" ; !Rand key:n71431153985n
 naa'chigaaza:nanaahichigaazo    VAI_TAG    " 1 [see nnaa'chigaaza]" ; !Rand key:n71430941722n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naa'ii:nanaahii    VAI_TAG    " 1 [see nnaa'ii]" ; !Rand key:n71430941803n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
-naabdam:inaabadam    VAI_TAG    " 1 have a certain dream, dream in such a way;  2 have a vision" ; !Rand key:n71430660412n
-naabdam:inaabandam    VAI_TAG    " 1 have a certain dream, dream in such a way;  2 have a vision" ; !Rand key:n71430660412n
+naabdam:inaabandam    VAI_TAG    " 1 have a certain dream, dream in such a way;  2 have a vision" ; !Rand key:n71430660412n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naabdendam:inaabadendam    VAI_TAG    " 1 derive a certain benefit [from something]" ; !Rand key:n71430660505n
 naabdizi:inaabadizi    VAI_TAG    " 1 be put to a certain use, be used in a certain way" ; !Rand key:n71430660666n
 naabdooge:naabidooge    VAI_TAG    " 1 tie shoelaces;  2 add on to another's story" ; !Rand key:n73033331688n
@@ -6537,7 +6536,7 @@ dkipniishin:dakipiniishin    VAI_TAG    " 1 get chilled in the scrotum from sitt
 dkishkooza:dakishkoozo    VAI_TAG    " 1 cool off with a drink" ; !Rand key:n201613122-39-48n
 dnaagpii:danaagVv1pii    VAI_TAG    " 1 struggle [with a task] at a certain place" ; !Rand key:n201613122-43-43n
 dnaagshkooza:danaagVv1shkoozo    VAI_TAG    " 1 come weighted down with a load from a certain place" ; !Rand key:n201613122-48-17n
-dnaamdam:danaamdam    VAI_TAG    " 1 be at a certain place in one’s dream, dream that one is at a certain place" ; !Rand key:n201613122-51-21n
+dnaamdam:danaabandam    VAI_TAG    " 1 be at a certain place in one’s dream, dream that one is at a certain place" ; !Rand key:n201613122-51-21n
 dootookwewebza:dootookwewebizo    VAI_TAG    " 1 [vehicle] rumble, rumble [in driving one’s vehicle]" ; !Rand key:n201613123-6-36n
 dpanaama:dapanaamo    VAI_TAG    " 1 be able to breathe, have one’s breath be able to break through" ; !Rand key:n2016219-11-30n
 dpashkzi:dapashkizi    VAI_TAG    " 1 be able to be heard, have one’s voice break through" ; !Rand key:n2016219-14-9n
