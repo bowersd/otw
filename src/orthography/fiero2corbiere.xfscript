@@ -70,12 +70,12 @@ regex [ hw .o. !surfacey phonology that should not be mixed in to the practice o
         yayi .o. !this is fed by oa, not sure if that is right
         wy .o.
         lengthGlide .o.
-        !!gnMetath .o.
+        !gnMetath .o.
         stridDevoi .o.
         postStridDevoi .o.
         clustDevoi .o.
         lenisNasAssim .o.
-        lenisStopDeletion .o.
+        !lenisStopDeletion .o.
         lenisFortition .o.
         !homorgObsMerge .o.
         !initialHomorgMerge .o.
