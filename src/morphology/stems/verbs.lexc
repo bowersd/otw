@@ -1102,8 +1102,8 @@ niiskaangde:niiskaangVv1de    VII_TAG    " 1 be cluttered, be messy, clutter up 
 niiskaaznaagot:niiskaazinaagod2   VII_TAG    " 1 look stormy, look unsettled (of weather);  2 look problematic" ; !Rand key:n73099246169n ![gk]Vo1 replaced with [gk]o
 niisksin:niiskisin    VII_TAG    " 1 be an annoyance, be annoying, clutter up someplace (of things lying somewhere)" ; !Rand2key:n73033725814n
 niisse:niisise    VII_TAG    " 1 slide [to the edge] and2fall over" ; !Rand key:n73099253080n
-niizaanat:niizaanad2   VII_TAG    " 1 be at risk, be in danger;  2 be dangerous" ; !Rand key:n71431844200n
-niizaani-yaa:niizaani-ayaa    VII_TAG    " 1 be dangerous" ; !Rand2key:n71431844333n
+niizaanat:naniizaanad2   VII_TAG    " 1 be at risk, be in danger;  2 be dangerous" ; !Rand key:n71431844200n
+niizaani-yaa:naniizaani-ayaa    VII_TAG    " 1 be dangerous" ; !Rand2key:n71431844333n
 Niizhgiizhgat:niizh-giizhigad2   VII_TAG    " 1 be Tuesday" ; !Rand key:n71431844537n
 niizhgon'gat:niizhogonagad2   VII_TAG    " 1 be two days ago, be two days later, be two days since" ; !Rand key:n71431844825n
 niizhik:niizhi    VII_TAG    " 1 be two [in number]" ; !Rand2key:n73099257146n
@@ -4958,7 +4958,7 @@ niisktaagzi:niiskitaagozi    VAI_TAG    " 1 annoy someone with one's crying or w
 niisoomgo:niisoomigo    VAI_TAG    " 1 dismount" ; !Rand key:n71431841755n
 niisse:niisise    VAI_TAG    " 1 slide [to the edge] and fall over" ; !Rand key:n71431841813n
 niiwendam:naniiwendam    VAI_TAG    " 1 [see nniiwendam]" ; !Rand key:n71431843023n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
-niizaanzi:niizaanizi    VAI_TAG    " 1 be at risk, be in danger;  2 be dangerous" ; !Rand key:n71431844406n
+niizaanzi:naniizaanizi    VAI_TAG    " 1 be at risk, be in danger;  2 be dangerous" ; !Rand key:n71431844406n
 niizhgonendi:niizhogonendi    VAI_TAG    " 1 be absent for two days" ; !Rand key:n71431844678n
 niizhoognzhii:niizhooganzhii    VAI_TAG    " 1 have cloven hooves" ; !Rand key:n71431845900n
 niizhootooge:niizhootooge    VAI_TAG    " 1 have two ears" ; !Rand key:n71431848693n
