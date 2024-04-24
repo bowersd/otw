@@ -8,9 +8,9 @@ define nasalPlaceAssim [ m (->) [n::1] || _ [d|t] ,,
                         n (->) [m::1] || _ [b|p] ] ; 
 define aposHyphDel [[%'|%-] (->) [0::1]] ; !this is allowing PV/e+ to be written with no trailing hyphen... not good
 define finDevoi [b -> p || \[m] _ .#. ,,
-                b (->) p || m _ .#. ,,
+                b (->) [p::1] || m _ .#. ,,
                 d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ,,
-                d (->) t, g (->) k, z (->) s, z h (->) s h, j (->) c h || n _ .#.  ] ; !RV reports no devoicing after nasals, but it has been observed, so it is added as an option
+                d (->) [t::1], g (->) [k::1], z (->) [s::1], z h (->) [s h::1], j (->) [c h::1] || n _ .#.  ] ; !RV reports no devoicing after nasals, but it has been observed, so it is added as an option
 define oa  [o (->) a || [g|k|s (h)|z (h)|p|b|m|n|w|%']  _ (  !optionality added to accomodate areas where o's observed in corbiere final sylls
                                                             p|t|k|c h|
                                                             [[s (h)](p|t|k)]|
