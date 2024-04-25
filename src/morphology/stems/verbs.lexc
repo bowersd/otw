@@ -2026,10 +2026,10 @@ baachgamzekwe:baachigamizekwe    VAI_TAG    " 1 have something boil over on one"
 baagaakoge:baagaakohige    VAI_TAG    " 1 [see baagaakw'ige]" ; !Rand key:n72974481133n
 baagaakw'ige:baagaakwahige    VAI_TAG    " 1 pound wood [to make basket splints]" ; !Rand key:n72974480827n
 baagaakwige:baagaakwige    VAI_TAG    " 1 [see baagaakw'ige]" ; !Rand key:n72974643901n
-baagdoone:baagdoone    VAI_TAG    " 1 have a swollen lip or lips, have one's lip(s) swell" ; !Rand key:n72974644029n
-baagdooskne:baagdooskne    VAI_TAG    " 1 have a swollen elbow, have one's elbow swell" ; !Rand key:n72974644350n
+baagdoone:baagidoone    VAI_TAG    " 1 have a swollen lip or lips, have one's lip(s) swell" ; !Rand key:n72974644029n
+baagdooskne:baagidooskne    VAI_TAG    " 1 have a swollen elbow, have one's elbow swell" ; !Rand key:n72974644350n
 baaggidgwe:baagigidigwe    VAI_TAG    " 1 have a swollen knee, have one's knee swell" ; !Rand key:n72974644544n
-baagnagskwe:baagnagskwe    VAI_TAG    " 1 have a swollen palate, have one's palate swell" ; !Rand key:n72974644844n
+baagnagskwe:baaginagskwe    VAI_TAG    " 1 have a swollen palate, have one's palate swell" ; !Rand key:n72974644844n
 baagndibeshin:baagindibeshin    VAI_TAG    " 1 hit one's head on something accidentally" ; !Rand key:n72974645855n
 baagnige:baaginige    VAI_TAG    " 1 strike, flash a lightning bolt (of thunder)" ; !Rand key:n72974646063n
 baagniishkwe:baaginiishkwe    VAI_TAG    " 1 have swollen tonsils, have one's tonsils swell" ; !Rand key:n72974647604n
@@ -10378,8 +10378,8 @@ baabsaabiignaan:baabVv1saabiigin    VTI_AM_THEME    " 1 tighten sth. (of stringl
 baabsaakw'aan:baabVv1saakwah    VTI_AM_THEME    " 1 screw sth. tightly" ; !Rand key:n73030612135n
 baabsiboodaadaan:baabVv1siboodaad    VTI_AM_THEME    " 1 inflate sth." ; !Rand key:n72979760917n
 baabsikaan:baabVv1sik    VTI_AM_THEME    " 1 find sth. a tight fit, have sth. be tight on one (of clothes)" ; !Rand key:n72979760315n
-baagmizaan:baagmiz    VTI_AM_THEME    " 1 warm sth. up (of a liquid)" ; !Rand key:n72974645635n
-baagnaan:baagn    VTI_AM_THEME    " 1 strike sth. (of thunder)" ; !Rand key:n72974647341n
+baagmizaan:baagamiz    VTI_AM_THEME    " 1 warm sth. up (of a liquid)" ; !Rand key:n72974645635n
+baagnaan:baagin    VTI_AM_THEME    " 1 strike sth. (of thunder)" ; !Rand key:n72974647341n
 baakaabiignaan:baakaabiigin    VTI_AM_THEME    " 1 open [drapes or blinds of] sth. (of a window or doorway)" ; !Rand key:n72974650384n
 baakaaknaan:baakaakon    VTI_AM_THEME    " 1 open sth. (of canned food)" ; !Rand key:n72974651919n
 baakaakzaan:baakaakiz    VTI_AM_THEME    " 1 cut sth. open with a flame" ; !Rand key:n72974652382n
