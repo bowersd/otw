@@ -90,13 +90,13 @@ LEXICON V_PREVERBS_SUBORDINATOR_ORDER_SET
 LEXICON V_PREVERBS_TENSE
 !check Valentine ch 16 for more
 !{attention!
-PV/daa-gii+:daa-gii-    V_REDUPLICATION    " 1 would, would have; could; should; can" ; !Rand key:n201012716-46-13n
+PV/daa-gii+:daa-gii-    V_PREVERBS_DIRECTION    " 1 would, would have; could; should; can" ; !Rand key:n201012716-46-13n
 !}
-PV/wii+:wii-   V_REDUPLICATION " 1 going to [do something], want to [do something], intend [to do something], in order to [do something];  2 future tense, in the future;  3 be in need of (non-living things);  4 please;  5 seeking to [do something];  6 in order to [do something]"; 
-PV/gii+:gii-   V_REDUPLICATION " 1 [past tense]";
-PV/gii+:gii-   V_REDUPLICATION " 1 would, could"; !no changed form
+PV/wii+:wii-   V_PREVERBS_DIRECTION " 1 going to [do something], want to [do something], intend [to do something], in order to [do something];  2 future tense, in the future;  3 be in need of (non-living things);  4 please;  5 seeking to [do something];  6 in order to [do something]"; 
+PV/gii+:gii-   V_PREVERBS_DIRECTION " 1 [past tense]";
+PV/gii+:gii-   V_PREVERBS_DIRECTION " 1 would, could"; !no changed form
             V_PREVERBS_TENSE_IRREG_MODE_GET ;
-            V_REDUPLICATION ;
+            V_PREVERBS_DIRECTION ;
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_GET
 @D.Order@           V_PREVERBS_TENSE_IRREG_MODE_INDEP ;!use [RD].Order/Ccnj... elsewhere, since there is only one value of order, these are equivalent
@@ -104,20 +104,20 @@ LEXICON V_PREVERBS_TENSE_IRREG_MODE_GET
 @P.Order.Cnj@@R.Ccnj@   V_PREVERBS_TENSE_IRREG_MODE_CCNJ ;
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_INDEP
-PV/da+:da-    V_REDUPLICATION " 1 shall, will; should, could"; 
-PV/ga+:ga-    V_REDUPLICATION " 1 will, shall;  2 let's, let";
-PV/daa+:daa-   V_REDUPLICATION " 1 can, could, ought, should, would"; 
+PV/da+:da-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
+PV/ga+:ga-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
+PV/daa+:daa-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_CNJ
-PV/da+:ji-    V_REDUPLICATION " 1 shall, will; should, could"; 
-PV/ga+:ji-    V_REDUPLICATION " 1 will, shall;  2 let's, let";
-PV/daa+:da-   V_REDUPLICATION " 1 can, could, ought, should, would"; 
-PV/daa+:ji-   V_REDUPLICATION " 1 can, could, ought, should, would"; 
+PV/da+:ji-    V_PREVERBS_DIRECTION " 1 shall, will; should, could"; 
+PV/ga+:ji-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";
+PV/daa+:da-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
+PV/daa+:ji-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; 
 
 LEXICON V_PREVERBS_TENSE_IRREG_MODE_CCNJ !all of these undergo ccnj -> ge
-PV/da+:ga-    V_PREVERBS_DIRECTION " 1 shall, will; should, could";        !used to go to V_REDUPLICATION 
-PV/ga+:ga-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";        !used to go to V_REDUPLICATION 
-PV/daa+:ga-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; !used to go to  V_REDUPLICATION
+PV/da+:ga-    V_PREVERBS_DIRECTION " 1 shall, will; should, could";        !used to go to V_PREVERBS_DIRECTION 
+PV/ga+:ga-    V_PREVERBS_DIRECTION " 1 will, shall;  2 let's, let";        !used to go to V_PREVERBS_DIRECTION 
+PV/daa+:ga-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; !used to go to  V_PREVERBS_DIRECTION
 
 !LEXICON V_REDUPLICATION
 !Redup+:CRED1VRED1   V_REDUPLICATION_SET ; !bebooni-zegim puts redup before (lexical?) preverbs
