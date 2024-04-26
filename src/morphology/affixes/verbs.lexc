@@ -563,11 +563,12 @@ LEXICON VAI_CNJ_3
 +X:%>nd1              VAI_CNJ_DUB_EARLY_B ; !nd1b -> ngib, nas morph ang?
 
 LEXICON VAI_PASSIVE_3
-+3:ind  VAI_PASSIVE_3PL ; !participles!
+0:ind  VAI_PASSIVE_3PL ; !participles! tags to follow (didn't want to issue +3:ind, +3Pl:indwaa)
++3:in   .#. ; !this morpheme has been observed without d a lot in word final position (not sure about other positions), so I'm being conservative and listing it here as a word final variant.
 
 LEXICON VAI_PASSIVE_3PL
-+Pl:waa VAI_CNJ_DUB_EARLY_B ;
-        VAI_CNJ_MODE_GET ;
++3Pl:waa VAI_CNJ_DUB_EARLY_B ;
++3:0     VAI_CNJ_MODE_GET ;
 
 LEXICON VAI_CNJ_3PL_NEG_GET
 @D.Negation@    VAI_CNJ_DUB_EARLY_B ;
