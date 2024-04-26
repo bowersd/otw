@@ -186,7 +186,7 @@ LEXICON NA_VOCPL !Long feat name
 LEXICON N_NUM_GET 
 @R.Animate.1@@D.Person.3@   NA_NUM ; !3-possessed animates may not be pl 
 @R.Animate.%0@   NI_NUM ;
-+4:%>an1              # ;
++Obv:%>an1              # ;
 +Loc:%>ng             # ;
                 # ;
 !intended: take one or none  of obv, loc, pl suffs, but no more
