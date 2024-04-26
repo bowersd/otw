@@ -65,6 +65,8 @@ VRED1
 +1 +2 +3 +X       !suffixes, if used, occur in Local Person Number slot
 +%0          !not really a person, but inanimates sometimes trigger special agreement
 
+Ext+ !marking extended prefix allomorphs
+
 !! Local Person Number
 
 !these may be preceded by number to make +2+Pl, +3+4, etc (going to fuse them, cf complex person-number) (also, I am sick of +4, let's just use Obv)
