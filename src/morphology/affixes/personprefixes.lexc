@@ -29,9 +29,9 @@ LEXICON X_PERSON_SET
 LEXICON EXTENDED_PREFIX 
 !prenouns ok with extended prefixes?
 !need %* to stop vowel coalescence across prefix-stem boundary
-0:da%*    EXTENDED_PREFIX_HYPHEN ; 
-0:di%*    EXTENDED_PREFIX_HYPHEN ; 
-0:doo%*   EXTENDED_PREFIX_HYPHEN ; 
+Ext+:da%*    EXTENDED_PREFIX_HYPHEN ; 
+Ext+:di%*    EXTENDED_PREFIX_HYPHEN ; 
+Ext+:doo%*   EXTENDED_PREFIX_HYPHEN ; 
 
 LEXICON EXTENDED_PREFIX_HYPHEN
 0:-     NOUNS ; 
