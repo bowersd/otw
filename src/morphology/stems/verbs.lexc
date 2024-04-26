@@ -9202,7 +9202,8 @@ LEXICON VTA_NAA_MANAGEMENT
 @D.Order.Cnj@@R.Person.3@  VTA_NAA_INDEP_THEME_SECOND_PERSON ; 
 @D.Person@                  VTA_NAA_NON_INDEP_GET ; 
 @D.Person.3@                VTA_NAA_PRE_DETRANSITIVE ;
-                            VTA_INFLECTIONAL_PASSIVE ; 
+0:in1                       VTA_INFLECTIONAL_PASSIVE ; !fixing enind. OPD gives indigoo, which indicates we are on firm ground making in1 be present for all passives
+!OPD gives idiwag and idizo for the reciprocal and reflexive, so the null theme also happens with derivational morphemes
 
 LEXICON VTA_NAA_THEME
 +ThmDir:in1aa    VTA_INDEP_THEME_DIRECT_GATEWAY    " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
