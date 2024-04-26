@@ -1136,7 +1136,8 @@ LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
 LEXICON VTA_PREORDER_GET
 @D.Order.Cnj@   VTA_INDEP_THEME_GET ;
 @D.Person@      VTA_NON_INDEP_GET ;
-                VTA_INFLECTIONAL_PASSIVE ;
+0:in1           VTA_INFLECTIONAL_PASSIVE ; !fixing enind. OPD gives indigoo, which indicates we are on firm ground making in1 be present for all passives
+!OPD gives idiwag and idizo for the reciprocal and reflexive, so the null theme also happens with derivational morphemes
 
 LEXICON VTA_INFLECTIONAL_PASSIVE
 +ThmPas+VAI:igoo    VTA_INFLECTIONAL_PASSIVE_IGOO_GET ; !takes 1,2 prefixes in indep order
