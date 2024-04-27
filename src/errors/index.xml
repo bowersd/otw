@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hfstspeller dtdversion="1.0" hfstversion="3">
+    <info>
+        <locale>otw</locale>
+        <title>Nishnaabemwin Spellchecker</title>
+        <!--title xml:lang="en">North Sámi speller</title-->
+        <description>Spellchecker for the Nishnaabemwin dialects of Ojibwe (especially Odawa aka Daawaa)
+        produced by Dustin Bowers with support from the National Endowment for the Humanities</description>
+        <!--description xml:lang="nn">Ein stavekontroll for nordsamisk
+        laga av Divvun-prosjektet i samarbeid med Senter for samisk
+        språkteknologi, Universitetet i Tromsø</description-->
+        <version vcsrev="33459">0</version>
+        <date>2024-04-27</date>
+        <producer>Dustin Bowers</producer>
+        <contact email="dustin.a.bowers@gmail.com" website="https://www.bowersd.github.io/"/>
+    </info>
+    <acceptor type="general" transtype="analyzing" id="acceptor.default.hfst">
+        <title>Nishnaabemwin acceptor</title>
+        <description>Acceptor for words of Nishnaabemwin, answering 'is this a correctly spelled word of Nishnaabemwin</description>
+    </acceptor>
+    <errmodel>
+        <title>Default corrections</title>
+        <description>An error model for text typically entered in
+        a text editor. The model is balanced between fast response
+        times and more relevant correction suggestions.</description>
+        <type type="default"/>
+        <model>errormodel.default.hfst</model>
+    </errmodel>
+    <!--errmodel>
+        <title>Nishnaabemwin OCR corrector</title>
+        <description>An error model for correcting OCR output of typed (and perhaps handwritten) text</description>
+        <type type="ocr"/>
+        <type type="handwriting"/>
+        <model>errormodel.ocr.hfst</model>
+        <model>errormodel2.hfst</model>
+    </errmodel-->
+</hfstspeller>
