@@ -156,7 +156,6 @@ define cnjaepen     [[..] -> a || nas c1 _ w4 , !a epen for nas-final
                                   [nas|d2] c1 %>  _  g [w4|o], !d1w4 *= labiovelar gw? 
                                   d2 c1 %> _ g %> b !DAB 2023 added d2 bc shkwaakmigd_a_gba, a preterite form
                                   ] ; 
-define nvw5oLEVEL          [shortv w5 (->) o || cons _ %> a [n|g]] ; !DAB added for Al Corbiere. capturing a leveling found in Al Corbiere texts: baatiiniwag>baatiinoog, zhgi'gaazowag > zhgi'gaazoog
 define w5o          [w5 -> o || cons _ %> a [n|g]] ; !feed oa->oo ... expanded to cons _ from nas _ to accomodate VII Cwan->Coon
 define w5del          [w5 -> 0 || _ %> [[g o b a]|[n o o n]]  ] ; !bleed ccEpen
 define w5w          [w5 -> w] ; !doesn't require morph bound, but kept it here for contiguity with other w5 rules
@@ -394,7 +393,6 @@ read regex [ ! Morphology.l .o.
     cnjW3del    .o.
     cnjrmbound  .o.
     cnjaepen    .o.
-    !nvw5oLEVEL    .o.
     w5o         .o.
     w5del       .o.
     w5w         .o.
