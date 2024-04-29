@@ -1,13 +1,13 @@
 define cnjNasVowel                  [[..] -> h ||  e n _ .#.] ; 
 define finDevoi                     [b -> p || m _ .#. ,,
                                     d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
-define finLowering                  [o -> a || [g|k|[s|z] (h)|p|b|m|n|w|%'] _  (p|t|k|c h|
+define finLowering                  [o -> a, i -> e || [g|k|[s|z] (h)|p|b|m|n|w|%'] _  (p|t|k|c h|
                                                                         [s (h)](p|t|k)|
                                                                         [m (b)]|[n(d|g|j|z (h)|h)]|
                                                                         w|y|%') .#. ] 
 !!!!
 define nasalEmergence               [h -> 0 || n _ .#.] ; 
-define gnMetathesis                 [g n (->) n g] ;
+define gnMetathesis                 [g n (->) n g || _ \[a|e|i|o]] ;
 define indDeletion                  [d -> 0 || i n _ .#.] ;
 
 !!!!
@@ -37,7 +37,8 @@ define homorgObsMerge [
                     z h z h (->) s h, z h s h (->) s h, s h z h (->) s, sh sh (->) s h,
                     j j (->) c h, j c h (->) c h, c h j (->) c h, c h c h (->) c h
                     ]; 
-define lenisNasAssim [ b (->) [m::1], g (->) [n g::1], d (->) [n::1] ||  _ [m|n] ] ; !from Rhodes 1985b p 468
+define lenisNasAssim [ b (->) [m::1], g (->) [n g::1], d (->) [n::1] ||  _ [m|n] ,, !from Rhodes 1985b p 468
+                       b n (->) m || _ d ] ; !If I had a dime for every bndam -> mdam...
 define lenisStopDeletion [[d|b|g] (->) [0::1] || _ \[a|i|o|w|y]] ; 
 define lenisFortition [ b (->) [p::1], g (->) [k::1], d (->) [t::1], j (->) [c h::1], z h (->) [s h::1], z (->) [s::1] ||  _ [p|t|k|s|c h] ] ; !from Rhodes 1985b p 468
 define initialHomorgMerge    [ b b (->) [b::1], g g (->) [g::1], d d (->) [d::1] || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
@@ -49,6 +50,20 @@ define nasalPlaceAssimilation       [m (->) n || _ [d|t] ,,
 !!!!
 define negHyphEpenthesis            [[..] (->) %- || _  [s|z] i i] ; 
 define aposHyphDeletion             [[%'|%-] (->) 0] ; 
+
+!!!! Al rules
+define gratuitousNH                 [y (->) h || n _ ,, [..] (->) h || n _ s ] ; 
+define kaw2kow                      [a (->) o || k _ w] ; 
+define y2h                          [y (->) %' || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
+define glotGlide                    [h (->) w  || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
+define unrounding                   [o (->) a || \[o] _ , _ \[o]] ; 
+define ko2kwa                       [o (->) w a || [g|k] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
+define nvw5oLEVEL                   [[[\[a]a]|[\[i]i]|[\[o]o]] w a (->) o o || _  [n|g] .#. ] ; !DAB added for Al Corbiere. capturing a leveling found in Al Corbiere texts: baatiiniwag>baatiinoog, zhgi'gaazowag > zhgi'gaazoog
+define shortening [i (->) i i || \[i] _ [g|n|n g] .#.,, !variation in vowel length before pl/obv/loc
+                o (->) o o || \[o] _ [g|n|n g] .#.,,
+                i i (->) i , o o (->) o || _ [g|n|n g] .#.
+                ] ; 
+
 
 define errorUnion [cnjNasVowel|
         finDevoi|
