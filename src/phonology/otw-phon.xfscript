@@ -336,7 +336,7 @@ define Ei [e1 -> i];
 !devoicing, final lowering is written by non-Rhodes spelling (i->e not standard)
 define devoice [b -> p, d -> t, g -> k || _ .#.];
 define finlowo  [o  ->  a || _ .#.];  ! SNM: had to split the rule in two - it
-define finlowi  [i (->) e || _ .#.];  ! is not possible to combine -> and (->) in the same rule the way it was.
+!define finlowi  [i (->) e || _ .#.];  ! is not possible to combine -> and (->) in the same rule the way it was.
 
 define str1 [ [..] -> %& || vowel _ vowel, vowel vowel _, e _ ];
 define str2 [ [..] -> %& || shortv _ (codaseqs) [%-|.#.] ];
