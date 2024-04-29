@@ -564,7 +564,7 @@ LEXICON VAI_CNJ_3
 
 LEXICON VAI_PASSIVE_3
 0:ind  VAI_PASSIVE_3PL ; !participles! tags to follow (didn't want to issue +3:ind, +3Pl:indwaa)
-+3:in   # ; !this morpheme has been observed without d a lot in word final position (not sure about other positions), so I'm being conservative and listing it here as a word final variant. Maybe instead of listing it here, it can be part of error detection to allow a VTA+ThmPas+VAI+Cnj+3 to end in in?
+!+3:in   # ; !ALLOWING WORD FINAL ND TO BE N IN ERROR MODEL. this morpheme has been observed without d a lot in word final position (not sure about other positions), so I'm being conservative and listing it here as a word final variant. Maybe instead of listing it here, it can be part of error detection to allow a VTA+ThmPas+VAI+Cnj+3 to end in in?
 
 LEXICON VAI_PASSIVE_3PL
 +3Pl:waa VAI_CNJ_DUB_EARLY_B ;
