@@ -266,7 +266,7 @@ define cnjRmC1      [c1 -> 0] ; !no more use for special c1
 define cnjD1Gnas    [d1 -> g || nas _ ]; !oft-duplicated d1->g change (envi mildly different above
 define d1pal    [[d|d1] -> j || _ y1 vowel ]; !palatalization in participles, targets d now because -d `+3' in VTA 3C pattern does not fuse like d1 does, but it does palatalize
 define cnjD1d       [d1 -> d]; !elsewhere d1
-define cnjW4nas     [[..] -> h || w4 e n2 _ ]; !third person dub nasalization, Medler didn't do this
+!define cnjW4nas     [[..] -> h || w4 e n2 _ ]; !third person dub nasalization, Medler didn't do this MOVE TO ERROR MODEL
 define cnjW4w       [w4 -> w || _ vowel]; !w4 non-o realization
 define cnjw4Del     [w4 -> 0]; !elsewhere
 define cnjb1b       [b1 -> b]; !assimilator b now b
@@ -317,7 +317,7 @@ define w1Coal2 [w1 a -> o]; !only Odawa
 !define w1Faith [w1 a -> w a]; !other dialects
 define w1Del [w1 -> 0]; 
 !define nyCoal [shortv -> i || n y _ ];
-define wiCoal [w i (->) o]; !Medler does this (could be more widespread, optional?) !this makes awi -> ao, feeding vCoal -> aa ... which is right, but mandatory AFAIK in some contexts
+!define wiCoal [w i (->) o]; !Medler does this (could be more widespread, optional?) !this makes awi -> ao, feeding vCoal -> aa ... which is right, but mandatory AFAIK in some contexts MOVE TO ERROR MODEL
 
 !will need to apply vowel deletion over nasal
 !giigoonhe1ns -> giigoons
@@ -358,7 +358,7 @@ define clustsync [vowel -> %' || !crazy version (marking all prim/sec ambig clus
 
 define rsync [vowel -> 0 || _ \%& ]; 
 
-define codawdel [w (->) 0 || _ cons ]; !w variably deletes in coda Medler
+!define codawdel [w (->) 0 || _ cons ]; !w variably deletes in coda Medler MOVE TO ERROR MODEL
                                         !alternatively: the deleting w (VAI 3 suff) is irregularly present
 define strandedNas [[n|m] (->) 0 || cons  _ cons ]; 
 
@@ -419,7 +419,7 @@ read regex [ ! Morphology.l .o.
     cnjD1Gnas   .o.
     d1pal       .o.
     cnjD1d      .o.
-    cnjW4nas    .o. !Medler didn't have this rule
+    !cnjW4nas    .o. !Medler didn't have this rule
     cnjW4w      .o.
     cnjw4Del    .o.
     cnjb1b      .o.
@@ -441,7 +441,7 @@ read regex [ ! Morphology.l .o.
     w1Coal2      .o.
     !w1Faith     .o.
     w1Del       .o.
-    wiCoal      .o. !Might should include this rule (Medler, might be more general)
+    !wiCoal      .o. !Might should include this rule (Medler, might be more general)
     vCoal       .o.
     lenPreNas   .o.
     Ei          .o.
@@ -456,7 +456,7 @@ read regex [ ! Morphology.l .o.
     str3        .o.
     ambigsync   .o. !comment out for non-syncopated
     rsync       .o. !comment out for non-syncopated
-    codawdel    .o. !Medler, probably more general
+    !codawdel    .o. !Medler, probably more general
     strandedNas .o. !ngoji (not nngoji), etc
     cleanse     
     ]; 
