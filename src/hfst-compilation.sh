@@ -16,15 +16,15 @@ hfst-invert -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphophono
 hfst-fst2fst -O -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphophonologyclitics_generate_mcor_spelling.hfstol
 hfst-fst2fst -O -i morphophonologyclitics_analyze_mcor_spelling.hfst -o morphophonologyclitics_analyze_mcor_spelling.hfstol
 
-hfst-xfst -F orthography/spellrelax_acorbiere.xfscript
-hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 spellrelaxAcorbiere.hfst -o spellrelaxclitics_generate.hfst
-hfst-invert -i spellrelaxclitics_generate.hfst -o spellrelaxclitics_analyze.hfst
-hfst-fst2fst -O -i spellrelaxclitics_analyze.hfst -o spellrelaxclitics_analyze.hfstol
+#hfst-xfst -F orthography/spellrelax_acorbiere.xfscript
+#hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 spellrelaxAcorbiere.hfst -o spellrelaxclitics_generate.hfst
+#hfst-invert -i spellrelaxclitics_generate.hfst -o spellrelaxclitics_analyze.hfst
+#hfst-fst2fst -O -i spellrelaxclitics_analyze.hfst -o spellrelaxclitics_analyze.hfstol
 
-hfst-xfst -F orthography/spellrelax_valentine.xfscript
-hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 spellrelaxValentine.hfst -o spellrelaxclitics_valentine_generate.hfst
-hfst-invert -i spellrelaxclitics_generate.hfst -o spellrelaxclitics_valentine_analyze.hfst
-hfst-fst2fst -O -i spellrelaxclitics_analyze.hfst -o spellrelaxclitics_valentine_analyze.hfstol
+#hfst-xfst -F orthography/spellrelax_valentine.xfscript
+#hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 spellrelaxValentine.hfst -o spellrelaxclitics_valentine_generate.hfst
+#hfst-invert -i spellrelaxclitics_generate.hfst -o spellrelaxclitics_valentine_analyze.hfst
+#hfst-fst2fst -O -i spellrelaxclitics_analyze.hfst -o spellrelaxclitics_valentine_analyze.hfstol
 
 #rm tmp.lexc
 rm morphology.hfst
