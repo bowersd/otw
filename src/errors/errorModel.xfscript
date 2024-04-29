@@ -1,0 +1,79 @@
+define cnjNasVowel                  [[..] -> h ||  e n _ .#.] ; 
+define finDevoi                     [b -> p || m _ .#. ,,
+                                    d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
+define finLowering                  [o -> a || [g|k|[s|z] (h)|p|b|m|n|w|%'] _  (p|t|k|c h|
+                                                                        [s (h)](p|t|k)|
+                                                                        [m (b)]|[n(d|g|j|z (h)|h)]|
+                                                                        w|y|%') .#. ] 
+!!!!
+define nasalEmergence               [h -> 0 || n _ .#.] ; 
+define gnMetathesis                 [g n (->) n g] ;
+define indDeletion                  [d -> 0 || i n _ .#.] ;
+
+!!!!
+define initialGlideDeletion         [y -> 0 || .#. _ [i|e],,
+                                    w -> 0 || .#. _ o] ;
+define postYRaising                 [a (->) i || y _ \[a]] ; 
+define glideBacknessAssimilation    [w (->) y || [a|e|i] _ ,,
+                                    y (->) w || o _ ] ; 
+define preGlideLengthening          [[..] (->) o || o _ w ,,
+                                     [..] (->) i || i _ y]; !there may also be some ambiguity before nasals
+define wiCoalescence                [w i (->) o] ; 
+define codaWDeletion                [w (->) 0 || _ \[a|i|o|e]];
+define hw                           [h (->) w || \[c|s|n|z] _ ];
+
+
+!!!! Voice in clusters
+define stridentDevoicing            [z h (->) s h, z (->) s || [p|t|k|b|d|g] ; 
+define postStridentDevoicing        [b (->) p, d (->) t, g (->) k || [s (h)] _ ] ; 
+define clusterDevoicing             [b (->) p, d (->) t, z (->) s, j (->) c h, z h (->) s h || _ [p|t|k|s|c]] ;  
+
+!!!! Cluster adjustments
+define homorgObsMerge [
+                    b b (->) p, b p (->) p, p b (->) p, p p (->) p,
+                    d d (->) t, d t (->) t, t d (->) t, t t (->) t,
+                    g g (->) k, g k (->) k, k g (->) k, k k (->) k,
+                    z z (->) s, z s (->) s, s z (->) s, s s (->) s,
+                    z h z h (->) s h, z h s h (->) s h, s h z h (->) s, sh sh (->) s h,
+                    j j (->) c h, j c h (->) c h, c h j (->) c h, c h c h (->) c h
+                    ]; 
+define lenisNasAssim [ b (->) [m::1], g (->) [n g::1], d (->) [n::1] ||  _ [m|n] ] ; !from Rhodes 1985b p 468
+define lenisStopDeletion [[d|b|g] (->) [0::1] || _ \[a|i|o|w|y]] ; 
+define lenisFortition [ b (->) [p::1], g (->) [k::1], d (->) [t::1], j (->) [c h::1], z h (->) [s h::1], z (->) [s::1] ||  _ [p|t|k|s|c h] ] ; !from Rhodes 1985b p 468
+define initialHomorgMerge    [ b b (->) [b::1], g g (->) [g::1], d d (->) [d::1] || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
+define initialHomorgSonMerge [ m m (->) [m::1], n n (->) [n::1], w w (->) [w::1] || [.#.|%-] _ ] ; !from Rhodes 1985b p 468
+define nasalPlaceAssimilation       [m (->) n || _ [d|t] ,,
+                                    m (->) [n %'] || _ [z|s|g|k] ,,
+                                    n (->) m || _ [b|p] ]; 
+
+!!!!
+define negHyphEpenthesis            [[..] (->) %- || _  [s|z] i i] ; 
+define aposHyphDeletion             [[%'|%-] (->) 0] ; 
+
+define errorUnion [cnjNasVowel|
+        finDevoi|
+        finLowering|
+        nasalEmergence|
+        gnMetathesis|
+        initialGlideDeletion|
+        posYRaising|
+        glideBacknessAssimilation|
+        preGlideLengthening|
+        wiCoalescence|
+        codaWDeletion|
+        hw| 
+        stridentDevoicing|
+        postStridentDevoicing|
+        clusterDevoicing|
+        homorgObsMerge|
+        lenisNasAssim|
+        lenisStopDeletion|
+        lenisFortition|
+        initialHomorgMerge|
+        initialHomorgSonMerge|
+        nasalPlaceAssimilation|
+        negHyphEpenthesis|
+        aposHypDeletion]; 
+
+regex [errorUnion errorUnion] ; 
+save stack errorModel.hfst
