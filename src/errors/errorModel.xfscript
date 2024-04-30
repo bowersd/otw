@@ -1,6 +1,7 @@
 define cnjNasVowel                  [[..] -> h ||  e n _ .#.] ; 
-define finDevoi                     [b -> p || m _ .#. ,,
-                                    d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
+define finDevoi                     [b -> p, d -> t, g -> k, z -> s, z h -> s h, j -> c h   ||  _ .#. ]; 
+![b -> p || m _ .#. ,,
+!                                    d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
 define finLowering                  [o -> a, i -> e || [g|k|[s|z] (h)|p|b|m|n|w|%'] _  (p|t|k|c h|
                                                                         [s (h)](p|t|k)|
                                                                         [m (b)]|[n(d|g|j|z (h)|h)]|
