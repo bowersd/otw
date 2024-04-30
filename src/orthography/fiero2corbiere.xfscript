@@ -14,7 +14,7 @@ define oa  [o -> a ||  _ (  p|t|k|c h|
 regex [ hApos .o. !character set differences
         aposEpen .o. 
         finDevoi .o. !surfacey phonology
-        oa .o.
+        oa
         ] ;
 
 save stack fiero2corbiere.hfst
