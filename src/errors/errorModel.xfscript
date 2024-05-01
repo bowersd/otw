@@ -21,7 +21,7 @@ define preGlideLengthening          [[..] (->) o || o _ w ,,
                                      [..] (->) i || i _ y]; !there may also be some ambiguity before nasals
 define wiCoalescence                [w i (->) o] ; 
 define codaWDeletion                [w (->) 0 || _ \[a|i|o|e]];
-define hw                           [h (->) w || \[c|s|n|z] _ ];
+define hw                           [h (->) [w|%'|0] || \[c|s|n|z] _ ];
 
 
 !!!! Voice in clusters
@@ -51,6 +51,7 @@ define nasalPlaceAssimilation       [m (->) n || _ [d|t] ,,
 !!!!
 define negHyphEpenthesis            [[..] (->) %- || _  [s|z] i i] ; 
 define aposHyphDeletion             [[%'|%-] (->) 0] ; 
+define nkApos                       [[..] (->) %' || n _ k ] ; 
 
 !!!! Al rules
 define gratuitousNH                 [y (->) h || n _ ,, [..] (->) h || n _ s ] ; 
@@ -90,6 +91,7 @@ define errorUnion [cnjNasVowel|
         nasalPlaceAssimilation|
         negHyphEpenthesis|
         aposHyphDeletion|
+        nkApos|
         gratuitousNH|
         kaw2kow|
         y2h|
