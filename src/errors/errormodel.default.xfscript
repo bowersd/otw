@@ -103,4 +103,4 @@ define errorUnion [cnjNasVowel|
         ]; 
 
 regex [errorUnion errorUnion] ; 
-save stack errorModel.hfst
+save stack errormodel.default.hfst
