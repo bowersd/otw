@@ -8,3 +8,7 @@ hfst-fst2fst -i ../morphophonologyclitics_analyze.hfst -o acceptor.default.hfst 
 
 rm spellchecker.zhfst
 zip spellchecker.zhfst index.xml acceptor.default.hfst errmodel.default.hfst
+rm acceptor.default.hfst
+rm errormodel.hfst
+rm errormodel.default.hfst
+
