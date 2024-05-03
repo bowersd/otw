@@ -14,9 +14,9 @@ LEXICON VTA_DETRANSITIVE
 !, -(i)we (apply to h/N/S/n final VTAs, lots of palatalization)
 !, -aaso (remove VTI theme)
 !p 413 for productive VAI secondary finals
-+Rcpl:%>%>idi       VAI_TAG "weight: 1";
-+Rflx:%>%>idizo     VAI_TAG "weight: 1";
-+AntPass:%>%>ge     VAI_TAG "weight: 1"; 
++Rcpl:%>%>idi       VAI_TAG "weight: 1"; !conditions awi->aa
++Rflx:%>%>idizo     VAI_TAG "weight: 1"; !conditions awi->aa
++AntPass:%>%>ge     VAI_TAG "weight: 1";  !conditions awi->aa but rules will not put an [i] in the right spot for that (they put i2 before the boundary to get the palatalization)
                 VTI_BASE_DERIV_VAI ; 
 
 LEXICON VAI_DERIV_GATEWAY
