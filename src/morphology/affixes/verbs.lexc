@@ -811,7 +811,7 @@ LEXICON VTA_INDEP_THEME_GET
 
 
 LEXICON VTA_INDEP_THEME_GATEWAY
-+ThmInv:igo  VTA_INDEP_THEME_INVERSE_SET ;
++ThmInv:%>igo  VTA_INDEP_THEME_INVERSE_SET ;
 +ThmDir:aa   VTA_INDEP_THEME_DIRECT_GATEWAY ; !gateway usage unformalized now
 !new tags
 
@@ -823,8 +823,8 @@ LEXICON VTA_INDEP_THEME_INVERSE_SET
 !{ local preds
 LEXICON VTA_INDEP_THEME_SECOND_PERSON 
 +Thm1:i2          VTA_INDEP_2V1_NEG ; !first person object (2v1)
-+Thm1Pl2:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject (1pl v 2)
-+Thm2:in        VTA_INDEP_1SGV2 ; !first person (singular by default) subject (1 v 2 inversion)
++Thm1Pl2:%>igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject (1pl v 2)
++Thm2:%>in        VTA_INDEP_1SGV2 ; !first person (singular by default) subject (1 v 2 inversion)
 +Thm2+Neg:isinoon  VTA_INDEP_1SGV2 ;!negated first person (singular by default) subject (1pl v 2 inversion)
 !new tags
 
