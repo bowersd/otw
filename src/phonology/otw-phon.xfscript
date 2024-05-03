@@ -138,8 +138,9 @@ define ordAssim     [nas -> m || _ %> b1 ,, !cnj prets have assim, no epenthesis
                                 _ c1 %> [s|z|d|d1|j|g] , !cnj neg, else assim
                                 _ %> k !VAI, VTI imperatives are only affixes beginning with k
                     ] ; 
-define awiCoalescence [ a w %> i -> a a || _ [p|b|t|d|k|g|j|c h] ,, !non-continuants
-                        a w %> i -> o o || _ [m|n|k w a a]]; !consonantal sonorants and ikwaa cnj Thm2b+3Pl(see Kaye 1971, Piggott 1980 Ch 3.4, p. 300, further remarks in conclusion)
+define awiCoalescence [ a w %> i -> o o || _ [m|n|k w a a] .o. !consonantal sonorants and ikwaa cnj Thm2b+3Pl(see Kaye 1971, Piggott 1980 Ch 3.4, p. 300, further remarks in conclusion)
+                        a w %> i -> a a || _ [p|b|t|d|k|g|j|c h]  !non-continuants
+                        ]; 
 define NC           [%> k -> g || n _ ] ; !VAI VTI imperatives [m|n]k -> ng
 define cnjD1Gnasstem [ d1 -> g || nas c1 %>  _ ] ;
 define partexcise   [ y1 -> 0 || d1 _ w4, d1 _ %> b1 ] ; !keep d1 next to special mode consonants so d1 -> g / _ w4 (cnjd1w4), d1b1 -> p (cnjD1p)
