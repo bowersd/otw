@@ -16,7 +16,16 @@ hfst-invert -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphophono
 hfst-fst2fst -O -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphophonologyclitics_generate_mcor_spelling.hfstol
 hfst-fst2fst -O -i morphophonologyclitics_analyze_mcor_spelling.hfst -o morphophonologyclitics_analyze_mcor_spelling.hfstol
 
-hfst-xfst -F errors/errorModel.xfscript
+hfst-xfst -F errors/errormodel.default.xfscript
+hfst-compose -1 morphophonologyclitics_generate.hfst -2  errormodel.hfst -o morphophonologyclitics_generate_relaxed.hfst -F
+hfst-invert -i morphophonologyclitics_generate_relaxed.hfst -o morphophonologyclitics_analyze_relaxed.hfst
+hfst-compose -1 morphophonologyclitics_generate_mcor_spelling.hfst -2  errormodel.hfst -o morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -F
+hfst-invert -i morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -o morphophonologyclitics_analyze_mcor_spelling_relaxed.hfst
+hfst-fst2fst -O -i morphophonologyclitics_analyze_mcor_spelling_relaxed.hfst -o morphophonologyclitics_analyze_mcor_spelling_relaxed.hfstol
+hfst-fst2fst -O -i morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -o morphophonologyclitics_generate_mcor_spelling_relaxed.hfstol
+hfst-fst2fst -O -i morphophonologyclitics_analyze_relaxed.hfst -o morphophonologyclitics_analyze_relaxed.hfstol
+hfst-fst2fst -O -i morphophonologyclitics_generate_relaxed.hfst -o morphophonologyclitics_generate_relaxed.hfstol
+
 
 #hfst-xfst -F orthography/spellrelax_acorbiere.xfscript
 #hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 spellrelaxAcorbiere.hfst -o spellrelaxclitics_generate.hfst
@@ -34,6 +43,7 @@ rm phonology.hfst
 rm morphophonology.hfst
 rm clitics.hfst
 rm fiero2corbiere.hfst
-rm spellrelaxAcorbiere.hfst
-rm spellrelaxValentine.hfst
-rm spellrelaxclitics_generate.hfst
+rm errormodel.hfst
+#rm spellrelaxAcorbiere.hfst
+#rm spellrelaxValentine.hfst
+#rm spellrelaxclitics_generate.hfst
