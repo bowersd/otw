@@ -1864,14 +1864,14 @@ LEXICON VTA_IMPER
 +1Pl+2:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
 +1Pl+2Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
 +1+2Pl:i2shik # ;
-+3+2:i2 # ; !p 304 only reports pal for this slot, but I extended to others
-+3+2:i2n # ;
-+3Pl+2:i2 # ;
-+3Pl+2:i2n # ;
++3+2:i2 # ; !p 304 only reports pal for this slot, but I extended to others. Piggott 1980:197 indicates extending it is a mistake
++3+2:in # ;
++3Pl+2:i2 # ; !I kept i2 here since it looks so similar to +3+2
++3Pl+2:in # ;
 +3+21Pl:aadaa # ;
 +3Pl+21Pl:%>miinaadaanik # ;
-+3+2Pl:i2k # ;
-+3Pl+2Pl:i2k # ;
++3+2Pl:ik # ;  !Piggott 1980:197 explicitly states that this neither conditions palatalization nor triggers awi->aa/oo
++3Pl+2Pl:ik # ; !Piggott 1980:197 explicitly states that this neither conditions palatalization nor triggers awi->aa/oo
 !+Imm+2+1:i2shin # ; !p 304 reports optional palatalization
 !+Imm+2+1Pl:i2shinaang # ; !first inclusive, disambiguate from 2 v 1pl ...
 !+Imm+2Pl+1Pl:i2shinaang # ; !ambig between 2pl v 1pl and 2sg v 1pl
