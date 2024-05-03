@@ -1401,13 +1401,13 @@ LEXICON VTA_IMPER_TAG
 !{thm
 LEXICON VTA_CNJ_THM
 +ThmDir:aa      THMDIR_NEG ; !1pl v 3pl
-+Thm2b:ik          THM2B_3 ; 
++Thm2b:%>ik          THM2B_3 ; 
 +ThmNul:0       THMNUL_LOC ; 
 +ThmNul:aaw      THMNUL_AA_LOC ; !w likely epenthetic
 +Thm2a+Neg:isin  THM2A_NEG_FRAG ; 
-+Thm2a:inin  THM2A_POS_LOC ; 
-+Thm1Pl2:igoo     THM1PL_NEG ;
-+ThmInv:igo     THMINV_NEG ;
++Thm2a:%>inin  THM2A_POS_LOC ; 
++Thm1Pl2:%>igoo     THM1PL_NEG ;
++ThmInv:%>igo     THMINV_NEG ;
 +Thm1:i2        THM1_NEG ;
 !} thm end
 
