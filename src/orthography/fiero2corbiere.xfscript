@@ -3,12 +3,12 @@ define hApos [h -> %' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> %' || n _ k ] ; 
 define finDevoi [b -> p || \[m] _ .#. ,,
                 d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ; !RV reports no devoicing after nasals, cases where it is observed are handled as errors
-define oa  [o -> a ||  _ (  p|t|k|c h|
+define oa  [[o -> a || \[o] _ (  p|t|k|c h|
                             [[s (h)](p|t|k)]|
                             [[m (b)]|[n (d|g|j|z (h)|s|h)]]|
                             w|y|%'
                             )
-                            .#.
+                            .#.]
                             .o.
             [o (->) a || [g|k|[s|z] (h)|p|b|m|n|w|%'] _  (p|t|k|c h|
                                                                         [s (h)](p|t|k)|
