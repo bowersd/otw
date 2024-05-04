@@ -9,7 +9,12 @@ define oa  [o -> a ||  _ (  p|t|k|c h|
                             w|y|%'
                             )
                             .#.
-                            ] ; !this is not optional in theory, but quite a few final syllable o's are found after stridents, labials and velars. This is handled in the error model
+                            .o.
+            [o (->) a || [g|k|[s|z] (h)|p|b|m|n|w|%'] _  (p|t|k|c h|
+                                                                        [s (h)](p|t|k)|
+                                                                        [m (b)]|[n (d|g|j|z (h)|h)]|
+                                                                        w|y|%') .#. ] 
+                            ] ; !this is not optional in theory, but quite a few final syllable o's are found after stridents, labials and velars. 
 
 regex [ hApos .o. !character set differences
         aposEpen .o. 
