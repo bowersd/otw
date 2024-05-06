@@ -455,7 +455,7 @@ nwanj:nawanj    AV_TAG    " 1 more, to a greater degree than some reference poin
 nwesh:ginwezh    AV_TAG    " 1 [for] a long time" ; !Rand key:n71435144029n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 nyaangim:nayaangim    AV_TAG    " 1 until" ; !Rand key:n71435144325n
 nzaam:onzaam    AV_TAG    " 1 because" ; !Rand key:n71435144353n
-odi:odi    AV_TAG    " 1 there, over there" ; !Rand key:n71435145100n
+!odi:odi    AV_TAG    " 1 there, over there" ; !Rand key:n71435145100n !DAB there's already wadi (Oji iwidi) and oodi. this is pretty clearly awadi collapsed.
 oodi:oodi    AV_TAG    " 1 [see odi]" ; !Rand key:n71435145910n
 pane:apane    AV_TAG    " 1 all the time, always, for all time; since, ever since" ; !Rand key:n73031113395n
 pii:apii    AV_TAG    " 1 at a certain time, when" ; !Rand key:n73031182181n
@@ -483,7 +483,7 @@ waasa:waasa    AV_TAG    " 1 far, far away" ; !Rand key:n73032485416n
 waawaach:waawaach    AV_TAG    " 1 even, expressing a situation that is considered extreme or unlikely" ; !Rand key:n73032684873n
 waawaanak:waawaanak    AV_TAG    " 1 in ample time" ; !Rand key:n73034031881n
 waawiikaa:waawiikaa    AV_TAG    " 1 infrequently, sporadically" ; !Rand key:n73037254506n
-wadi:wadi    AV_TAG    " 1 there, over there" ; !Rand key:n73071852163n
+wadi:iwadi    AV_TAG    " 1 there, over there" ; !Rand key:n73071852163n !Rhodes has wadi, Baraga has iwidi, OPD has iwidi (also i'iwidi)
 was-odi:awas-odi    AV_TAG    " 1 way over there" ; !Rand key:n7303279371n
 was-oodi:awas-oodi    AV_TAG    " 1 way over there" ; !Rand key:n73032710808n
 washme:awashime    AV_TAG    " 1 more [than another], more [than at another time];  2 more than [some point of reference], beyond [some point of reference]" ; !Rand key:n7303279189n
