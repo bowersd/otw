@@ -1866,8 +1866,8 @@ LEXICON VTA_IMPER
 +1+2Pl:i2shik # ;
 +3+2:i2 # ; !p 304 only reports pal for this slot, but I extended to others. Piggott 1980:197 indicates extending it is a mistake
 +3+2:in # ;
-+3Pl+2:i2 # ; !I kept i2 here since it looks so similar to +3+2
-+3Pl+2:in # ;
+!+3Pl+2:i2 # ; !I kept i2 here since it looks so similar to +3+2 !2 v 3 is systematically ambiguous for 3/3pl in imperatives (VAIO is ambiguous for 2p v 3/3p as well), VTA delayed imperatives are not ambiguous for 2p v 3/3p
+!+3Pl+2:in # ; !2 v 3 is systematically ambiguous for 3/3pl in imperatives (VAIO is ambiguous for 2p v 3/3p as well), VTA delayed imperatives are not ambiguous for 2p v 3/3p
 +3+21Pl:aadaa # ;
 +3Pl+21Pl:%>miinaadaanik # ;
 +3+2Pl:ik # ;  !Piggott 1980:197 explicitly states that this neither conditions palatalization nor triggers awi->aa/oo
@@ -1890,7 +1890,7 @@ LEXICON VTA_IMPER
 !+Del+2Pl+1Pl:0 # ;
 +Del+1+2Pl:i2shiikek # ;
 +Del+3+2:aakan # ;
-+Del+3Pl+2:aakan # ;
+!+Del+3Pl+2:aakan # ; !2 v 3 is systematically ambiguous for 3/3pl in imperatives (VAIO is ambiguous for 2p v 3/3p as well), VTA delayed imperatives are not ambiguous for 2p v 3/3p
 !+Del+21Pl+3:0 # ;
 !+Del+21Pl+3Pl:0 # ;
 +Del+3+2Pl:aakek # ;
@@ -1901,7 +1901,7 @@ LEXICON VTA_IMPER
 !+Neg+2Pl+1Pl:0 # ;
 +Neg+1+2Pl:i2shikego # ;
 +Neg+3+2:aaken2 # ;
-+Neg+3Pl+2:aaken2 # ;
+!+Neg+3Pl+2:aaken2 # ;!2 v 3 is systematically ambiguous for 3/3pl in imperatives (VAIO is ambiguous for 2p v 3/3p as well), VTA delayed imperatives are not ambiguous for 2p v 3/3p
 +Neg+3+21Pl:aasiidaa # ;
 +Neg+3Pl+21Pl:aasiidaanig # ;
 !+Neg+2Pl+3:0 # ;
