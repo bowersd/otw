@@ -9213,7 +9213,20 @@ LEXICON VTA_NAA_INDEP_THEME_SECOND_PERSON
 0:in1    VTA_INDEP_THEME_SECOND_PERSON " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
 
 LEXICON VTA_NAA_NON_INDEP_GET
-0:in1    VTA_NON_INDEP_GET " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
+@D.Order.Cnj@       VTA_NAA_IMPER ; 
+!DUPLICATED FROM VTA_CNJ_THM (plus in1), EXCEPT FOR IGO (no in1)
++Cnj+ThmDir:in1aa      THMDIR_NEG ; !1pl v 3pl
++Cnj+Thm2b:in1%>ik          THM2B_3 ; 
++Cnj+ThmNul:in1       THMNUL_LOC ; 
++Cnj+ThmNul:in1aaw      THMNUL_AA_LOC ; !w likely epenthetic
++Cnj+Thm2a+Neg:in1isin  THM2A_NEG_FRAG ; 
++Cnj+Thm2a:in1%>inin  THM2A_POS_LOC ; 
++Cnj+Thm1Pl2:in1%>igoo     THM1PL_NEG ;
++Cnj+ThmInv:igo     THMINV_NEG ; !NULL STEM SPECIFIED HERE!
++Cnj+Thm1:in1i2        THM1_NEG ;
+
+LEXICON VTA_NAA_IMPER
+0:in1    VTA_IMPER_TAG     " 1 say something to smb., tell smb. something;  2 refer to smb., say something about smb." ; !Rand key:n73033330730n
 
 LEXICON VTA_NAA_PRE_DETRANSITIVE
 0:in1   VTA_DETRANSITIVE ; 
