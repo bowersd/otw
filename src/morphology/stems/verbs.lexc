@@ -9199,7 +9199,7 @@ ekwaa-dbawaa:ekwaa-dibahw    VTA_TAG    " 1 finish paying sth. (an.), pay sth. (
 
 LEXICON VTA_NAA_MANAGEMENT
 @D.Order.Cnj@@R.Person@  VTA_NAA_THEME ;
-@D.Order.Cnj@@R.Person.3@  VTA_NAA_INDEP_THEME_SECOND_PERSON ; 
+@D.Order.Cnj@@R.Person.2@  VTA_NAA_INDEP_THEME_SECOND_PERSON ; 
 @D.Person@                  VTA_NAA_NON_INDEP_GET ; 
 @D.Person.3@                VTA_NAA_PRE_DETRANSITIVE ;
 0:in1                       VTA_INFLECTIONAL_PASSIVE ; !fixing enind. OPD gives indigoo, which indicates we are on firm ground making in1 be present for all passives
