@@ -57,6 +57,7 @@ LEXICON VAI_N_BASE_DERIV_NI_GAMIG
 
 LEXICON N_BASE_DERIV_VAI
 @R.Person.3@@C.Person@    N_BASE_DERIV_VAI_POSSESSION ; !this only allows third person possession verbs to exist. ... you need to be able to pick up a prefix for the verb, then pick up 3 on the noun, then drop 3, but keep the person information of the verbal prefixes
++Caus:%>%>ke    VAI_TAG ; !make/do
                                                 !so use a verbperson diacritic and a nounperson diacritic, plus disassociate noun and verb prefixation
 LEXICON N_BASE_DERIV_VAI_POSSESSION 
 +Poss:i  VAI_TAG "weight: 1"; !'have' (listed in V 2001 index) per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
