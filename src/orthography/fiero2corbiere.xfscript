@@ -1,16 +1,17 @@
 
 define hApos [h -> %' || \[c|s|n|z] _ ] ;
 define aposEpen [[..] -> %' || n _ k ] ; 
-define finDevoi [b -> p || \[m] _ .#. ,,
-                d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[n] _ .#. ] ; !RV reports no devoicing after nasals, cases where it is observed are handled as errors
-define oa  [[o -> a || \[o] _ (  p|t|k|c h|
+define finDevoi [[b -> p, d -> t, g -> k, z -> s, z h -> s h, j -> c h ||  _ .#.] ! .o.
+                ![d -> t, g -> k, z -> s, z h -> s h, j -> c h    || \[n] _ .#.] 
+                ] ; !, g -> k, z -> s, z h -> s h, j -> c h   !!RV reports no devoicing after nasals, cases where it is observed are handled as errors
+define oa  [[o -> a || \[g|k|s|z|c|h|j|p|b|m|n|w|%'|o] _ (  p|t|k|c h|
                             [[s (h)](p|t|k)]|
                             [[m (b)]|[n (d|g|j|z (h)|s|h)]]|
                             w|y|%'
                             )
                             .#.]
                             .o.
-            [o (->) a || [g|k|[s|z] (h)|p|b|m|n|w|%'] _  (p|t|k|c h|
+            [o (->) a || [g|k|[s|z|c] (h)|j|p|b|m|n|w|%'] _  (p|t|k|c h|
                                                                         [s (h)](p|t|k)|
                                                                         [m (b)]|[n (d|g|j|z (h)|h)]|
                                                                         w|y|%') .#. ] 
