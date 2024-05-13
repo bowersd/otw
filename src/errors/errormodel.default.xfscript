@@ -1,4 +1,4 @@
-define cnjNasVowel                  [[..] -> h ||  e n _ .#.] ; 
+!define cnjNasVowel                  [[..] -> h ||  e n _ .#.] ; !redundant with nasalEmergence
 define finPostNasVoi                [p -> b, t -> d, k -> g, s -> z, s h -> z h, c h -> j   || [m|n]  _ .#. ]; 
 define finDevoi                     [b -> p, d -> t, g -> k, z -> s, z h -> s h, j -> c h   ||  _ .#. ]; 
 ![b -> p || m _ .#. ,,
@@ -70,7 +70,7 @@ define shortening [i (->) i i || \[i] _ [g|n|n g] .#. ,, !variation in vowel len
                 ] ; 
 
 
-define errorUnion [cnjNasVowel|
+define errorUnion [ !cnjNasVowel|
         finPostNasVoi|
         finDevoi|
         finLowering|
