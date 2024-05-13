@@ -1148,7 +1148,6 @@ Nam'e-giizhgat:anamVi1he-giizhigado    NI_SET    " 1 Sunday" ; !Rand key:n714311
 nbaagniigin:nibaaganiigino    NI_SET    " 1 bedsheet, bedspread" ; !Rand key:n71431170264n
 nbagash:nabagasho    NI_SET    " 1 cutweed, a blade of cutweed" ; !Rand key:n71431171261n
 nbagash:nabagashko    NI_SET    " 1 cutweed, a blade of cutweed" ; !Rand key:n71431171261n
-negaw:negao    NI_SET    " 1 sand" ; !Rand key:n71431556220n
 ngaasmooniigin:ningaasimooniigino    NI_SET    " 1 canvas" ; !Rand key:n71431572294n
 Ngodwaasoo-giizhgat:ningodwaasoo-giizhigado    NI_SET    " 1 Saturday" ; !Rand key:n71431655031n
 Niizhoo-giizhgat:niizhoo-giizhigado    NI_SET    " 1 Tuesday" ; !Rand key:n71431845862n
@@ -1282,6 +1281,7 @@ gweji-bkinaagewgamig:gweji-bakinaagewigamigo    NI_SET    " 1 casino" ; !Rand ke
 jiibaakwegamik:jiibaakweigamigo    NI_SET    " 1 kitchen" ; !Rand key:n20114311-6-22n
 !}
 !{ i1 
+negaw:negawi1    NI_SET    " 1 sand" ; !Rand key:n71431556220n
 mskweyaap:miskweyaabi1    NI_SET    "vein" ; !NOT IN DATABASE
 aakshkadewansh:aakoshkadewanzhi1    NI_SET    " 1 chamomile" ; !Rand key:n72973246073n
 bkwaakninch:bVi1kwaakoninji1    NI_SET    " 1 fist" ; !Rand key:n72975864166n
