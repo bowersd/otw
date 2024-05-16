@@ -10,7 +10,7 @@ gaawn-gegoon:gaawin-gegoon    PR_NI_TAG    " 1 nothing" ; !Rand key:n73017375493
 gchi-gegoo:gichi-gegoo    PR_NI_TAG    " 1 something big, something major, something of great significance" ; !Rand key:n73019342809n
 gegoo:gegoo    PR_NI_TAG    " 1 any, anything, something" ; !Rand key:n73019738575n
 gegoon:gegoon    PR_NI_TAG    " 1 [see gegoo]" ; !Rand key:n73020045271n
-gewii:gewii    PR_NI_TAG    " 1 it, it, too, [it] too;  2 as for..." ; !Rand key:n73020082697n
+gewii:ge-wii    PR_NI_TAG    " 1 it, it, too, [it] too;  2 as for..." ; !Rand key:n73020082697n
 iw:iw    PR_NI_TAG    " 1 that (in.);  2 it (in.)" ; !Rand key:n73028046927n
 !kaawn gegoo:kaawn gegoo    PR_NI_TAG    " 1 nothing" ; !Rand key:n73016755416n
 maanda:maanda    PR_NI_TAG    " 1 this;  2 here is a...; here it is!" ; !Rand key:n71429179465n
@@ -45,7 +45,7 @@ LEXICON PR_NI_TAG
 +Pron+NI:0  CLOSED_PROTECTION ;
 
 LEXICON PR_NA_DAB_ADDITIONS 
-gewiinwaa:gewiinawaa PR_NA_TAG "them (an.) too" ; !ge-PRON to mean PRON too ... used with NI referent in Al's sugarcamp story (emkwaanan 'spoons')
+gewiinwaa:ge-wiinawaa PR_NA_TAG "them (an.) too" ; !ge-PRON to mean PRON too ... used with NI referent in Al's sugarcamp story (emkwaanan 'spoons')
 
 LEXICON PR_NA
 !kaa waya:kaa awaya    PR_NA_TAG    " 1 nobody, no one" ; !Rand key:n73016755315n
@@ -54,17 +54,17 @@ aw:aw    PR_NA_TAG    " 1 this, this one;  2 that, that one;  3 the" ; !Rand key
 baaba:baaba    PR_NA_TAG    " 1 this, this one;  2 the" ; !Rand key:n65306589468n
 dnawa:dinawa    PR_NA_TAG    " 1 kind, sort" ; !Rand key:n72989351980n
 dwa:dowa    PR_NA_TAG    " 1 kind, sort" ; !Rand key:n201132911-12-7n
-gegii:gegii    PR_NA_TAG    " 1 you, you (sg.), too" ; !Rand key:n73020042667n
-gegiin:gegiin    PR_NA_TAG    " 1 [see gegii]" ; !Rand key:n73020042970n
-gegiinwaa:gegiinawaa    PR_NA_TAG    " 1 you (pl.), too" ; !Rand key:n20114910-20-2n
-gegiinwi:gegiinawi    PR_NA_TAG    " 1 we (including you) too;  2 us (including you) too" ; !Rand key:n73020043029n
-gegiinwin:gegiinawin    PR_NA_TAG    " 1 [see gegiinwi]" ; !Rand key:n73020043530n
-genii:genii    PR_NA_TAG    " 1 I, I, too, me, me, too" ; !Rand key:n73020043723n
-geniin:geniin    PR_NA_TAG    " 1 [see genii]" ; !Rand key:n73020043957n
-geniinwi:geniinawi    PR_NA_TAG    " 1 us, (exc.), us (exc.), too, we (exc.), we (exc.), too" ; !Rand key:n73020043395n
-geniinwin:geniinawin    PR_NA_TAG    " 1 [see geniinwi]" ; !Rand key:n73020043606n
-gewii:gewii    PR_NA_TAG    " 1 he, her, him, she, he, too, her, too, him, too, she, too" ; !Rand key:n73020082041n
-gewiin:gewiin    PR_NA_TAG    " 1 [see gewii]" ; !Rand key:n73020082241n
+gegii:ge-gii    PR_NA_TAG    " 1 you, you (sg.), too" ; !Rand key:n73020042667n !there sure are a lot of doublets that can be handled by a rule here (delete word final n)
+gegiin:ge-giin    PR_NA_TAG    " 1 [see gegii]" ; !Rand key:n73020042970n
+gegiinwaa:ge-giinawaa    PR_NA_TAG    " 1 you (pl.), too" ; !Rand key:n20114910-20-2n
+gegiinwi:ge-giinawi    PR_NA_TAG    " 1 we (including you) too;  2 us (including you) too" ; !Rand key:n73020043029n
+gegiinwin:ge-giinawin    PR_NA_TAG    " 1 [see gegiinwi]" ; !Rand key:n73020043530n
+genii:ge-nii    PR_NA_TAG    " 1 I, I, too, me, me, too" ; !Rand key:n73020043723n
+geniin:ge-niin    PR_NA_TAG    " 1 [see genii]" ; !Rand key:n73020043957n
+geniinwi:ge-niinawi    PR_NA_TAG    " 1 us, (exc.), us (exc.), too, we (exc.), we (exc.), too" ; !Rand key:n73020043395n
+geniinwin:ge-niinawin    PR_NA_TAG    " 1 [see geniinwi]" ; !Rand key:n73020043606n
+gewii:ge-wii    PR_NA_TAG    " 1 he, her, him, she, he, too, her, too, him, too, she, too" ; !Rand key:n73020082041n
+gewiin:ge-wiin    PR_NA_TAG    " 1 [see gewii]" ; !Rand key:n73020082241n
 gii:gii    PR_NA_TAG    " 1 you (sg)" ; !Rand key:n73021378415n
 giin:giin    PR_NA_TAG    " 1 you (sg)" ; !Rand key:n73023049231n
 giinwaa:giinawaa    PR_NA_TAG    " 1 you (pl.);  2 your (pl.), yours (pl.)" ; !Rand key:n73023657775n
