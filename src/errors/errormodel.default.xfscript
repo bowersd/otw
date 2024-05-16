@@ -61,7 +61,7 @@ define gratuitousNH                 [y (->) h || n _ ,, [..] (->) h || n _ s ] ;
 define kaw2kow                      [a (->) o || k _ w] ; 
 define y2h                          [y (->) %' || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
 define glotGlide                    [h (->) w  || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
-define unrounding                   [o (->) a || \[o] _ , _ \[o]] ; !this is a general dialectal feature (beyond the specific final syllable vowel lowering rule)
+define unrounding                   [o (->) a || \[o] _ \[o]] ; !this is a general dialectal feature (beyond the specific final syllable vowel lowering rule)
 define ko2kwa                       [o (->) w a || [g|k] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
 define nvw5oLEVEL                   [[[\[a]a]|[\[i]i]|[\[o]o]] w a (->) o o || _  [n|g] .#. ] ; !DAB added for Al Corbiere. capturing a leveling found in Al Corbiere texts: baatiiniwag>baatiinoog, zhgi'gaazowag > zhgi'gaazoog
 define shortening [i (->) i i || \[i] _ [g|n|n g] .#. ,, !variation in vowel length before pl/obv/loc
@@ -71,7 +71,7 @@ define shortening [i (->) i i || \[i] _ [g|n|n g] .#. ,, !variation in vowel len
 
 
 define errorUnion [ !cnjNasVowel|
-        finPostNasVoi|
+        !finPostNasVoi|
         finDevoi|
         finLowering|
         nasalEmergence|
@@ -98,7 +98,7 @@ define errorUnion [ !cnjNasVowel|
         negHyphEpenthesis|
         aposHyphDeletion|
         nkApos|
-        gratuitousNH|
+        gratuitousNH| 
         kaw2kow|
         y2h|
         glotGlide|
