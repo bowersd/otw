@@ -1,0 +1,9 @@
+define oversyncope [ [a|i|o] (->) 0 || [a|i|o] \[a|i|o] _ \[a|i|o] [a|i|o] ] ; !two sided open syllable (this environment should not be met with syncope definition ...
+                                                                                !there are more environments to be found in the dictionary itself)
+                                                                                !also, specifically look for cases within the scope of legal syllable margins
+define undersyncope [
+                        [ [..] (->) i ||  \[a|i|o] _ \[a|i|o]  ] .o.
+                        [ [..] (->) a ||  \[a|i|o] _ \[a|i|o]  ] .o.
+                        [ [..] (->) o ||  \[a|i|o] _ \[a|i|o]  ] 
+                        ] !this is certainly over general
+                        ; 
