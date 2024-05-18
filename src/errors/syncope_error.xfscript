@@ -49,4 +49,13 @@ define undersyncopePossible [
 !                        ] !this is certainly over general
 !                        ; 
 
-define undersyncopeFix [] ;  !make a hairy rule deleting vowels and inserting into clusters
+!the goal is to make two rules, one that inserts vowels, and one that deletes vowels, and configure them to alternately apply (since one leaves clusters behind and the other makes a preceding open syllable)
+!or maybe just apply to VCV and CC sequences?
+define undersyncopeFix [
+                         [
+                           [a|i|o] -> 0 // [e|a|i|o] \[e|a|i|o] _  \[e|a|i|o]+ [e|a|i|o]
+                         ],,
+                         [
+                           [..] -> a, [..] -> i, [..] -> o // \[e|a|i|o] \[e|a|i|o] _ \[e|a|i|o]
+                         ]
+                       ] ;  !delete a vowel if the left output context has VC and right input context has another syllable
