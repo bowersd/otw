@@ -9,7 +9,7 @@ define undersyncopeDefinite [
                               [ !followed by a singleton
                                 \[e|a|i|o]| !or
                                 [ !a digraph
-                                  [n s]|
+                                  [n s]| !nz can also signal a nasal vowel
                                   [n y]|
                                   [[z|s|c] h]
                                 ] 
@@ -49,4 +49,4 @@ define undersyncopePossible [
 !                        ] !this is certainly over general
 !                        ; 
 
-define syncopeFix [] ;  !make a hairy rule deleting vowels and inserting into clusters
+define undersyncopeFix [] ;  !make a hairy rule deleting vowels and inserting into clusters
