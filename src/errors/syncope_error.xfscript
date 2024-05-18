@@ -1,3 +1,4 @@
+!cases of oversyncope usually take some consonants with them, so this, while well intentioned, is not really helpful
 define oversyncopeDefinite [?* \[e|a|i|o] \[e|a|i|o] \[a|e|i|o] ?* ] ; !refine this to reflect syllable margins
 
 ![ [a|i|o] (->) 0 || [a|i|o] \[a|i|o] _ \[a|i|o] [a|i|o] ] ; !two sided open syllable (this environment should not be met with syncope definition ...
@@ -49,13 +50,9 @@ define undersyncopePossible [
 !                        ] !this is certainly over general
 !                        ; 
 
-!the goal is to make two rules, one that inserts vowels, and one that deletes vowels, and configure them to alternately apply (since one leaves clusters behind and the other makes a preceding open syllable)
-!or maybe just apply to VCV and CC sequences?
-define undersyncopeFix [
-                         [
-                           [a|i|o] -> 0 // [e|a|i|o] \[e|a|i|o] _  \[e|a|i|o]+ [e|a|i|o]
-                         ],,
-                         [
-                           [..] -> a, [..] -> i, [..] -> o // \[e|a|i|o] \[e|a|i|o] _ \[e|a|i|o]
-                         ]
-                       ] ;  !delete a vowel if the left output context has VC and right input context has another syllable
+!
+define syncopeFix [ !this performs as expected in hfst-xfst (niniwgimag -> ninwagmag, ninwogmag, ninwigmag). in xfst there is a strange ninwgimag (with the real rhythmic syncope rules in the phonology, xfst also maps makizin to mkizn...)
+                           [a|i|o] -> 0 // [e|a|i|o] \[e|a|i|o] _  \[e|a|i|o]+ [e|a|i|o] ,, !delete a vowel if the left output context has VC and right input context has another syllable
+                           [..] -> a, [..] -> i, [..] -> o // \[e|a|i|o] \[e|a|i|o] _ \[e|a|i|o] !insert a vowel if the left output context has CC and the right input context has C
+                       ] ;  
+
