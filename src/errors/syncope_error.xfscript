@@ -1,35 +1,45 @@
-define oversyncopeDefinite [?* \[a|i|e|o] \[a|i|e|o] \[a|e|i|o] ?* ] ; !refine this to reflect syllable margins
+define oversyncopeDefinite [?* \[e|a|i|o] \[e|a|i|o] \[a|e|i|o] ?* ] ; !refine this to reflect syllable margins
 
 ![ [a|i|o] (->) 0 || [a|i|o] \[a|i|o] _ \[a|i|o] [a|i|o] ] ; !two sided open syllable (this environment should not be met with syncope definition ...
                                                                                 !there are more environments to be found in the dictionary itself)
                                                                                 !also, specifically look for cases within the scope of legal syllable margins
-define undersyncopeDefinite [?* [a|i|e|o] [\[a|i|e|o]|[[n s]|[n (h) y]|[[z|s|c] h]] [[\[a]a]|[\[i]i]|[\[o]o]] ?*] ; !need to omit final syllables from this
+define undersyncopeDefinite [
+                              ?* 
+                              [e|a|i|o] !a syllable ...
+                              [ !followed by a singleton
+                                \[e|a|i|o]| !or
+                                [ !a digraph
+                                  [n s]|
+                                  [n y]|
+                                  [[z|s|c] h]
+                                ] 
+                              ]
+                              [a|i|o] !followed by a short vowel
+                              \[e|a|i|o]+ !followed by another syllable (aka not in the last syllable)
+                              [e|a|i|o]
+                              ?*] ; !need to omit final syllables from this
 define undersyncopePossible [
                               ?* 
-                              [a|i|e|o] 
-                                [
-                                  [
+                              [e|a|i|o] !a syllable ...
+                                [ !followed by
+                                  [ !primary clusters + optional w
                                     [
-                                     [[s (h)][p|t|k]]|
-                                     [[m b]|[n [d|j|z (h)]]]
+                                      [[s (h)][p|t|k]]|
+                                      [[m b]|[n [g|d|j|z (h)]]]
                                     ] 
                                     (w)
-                                  ]|
-                                  [
+                                  ]| !or
+                                  [ !consonants (less h, so +cons) + w
                                     [b|d|g|p|t|k|[s|z] (h)|c h|j|m|n]
                                   ]
                                   [w]
                                 ] 
-                                [ 
-                                  [
-                                    [a\[a]]|
-                                    [i\[i]]|
-                                    [o\[o]]
-                                  ]
-                                ]
+                              [a|i|o] !followed by a short vowel
+                              \[e|a|i|o]+ !followed by another syllable (aka not in the last syllable)
+                              [e|a|i|o]
                               ?*
                             ] ;  
-                                                        !need to omit final syllables from this
+                                                        
 !need to flag word initial short vowels
 !how about initial light syllables?? if it already is getting flagged as a non-form, sure, look at the initial syllable
 !define undersyncope [
