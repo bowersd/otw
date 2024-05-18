@@ -4,12 +4,31 @@ define oversyncopeDefinite [?* \[a|i|e|o] \[a|i|e|o] \[a|e|i|o] ?* ] ; !refine t
                                                                                 !there are more environments to be found in the dictionary itself)
                                                                                 !also, specifically look for cases within the scope of legal syllable margins
 define undersyncopeDefinite [?* [a|i|e|o] [\[a|i|e|o]|[[n s]|[n (h) y]|[[z|s|c] h]] [[\[a]a]|[\[i]i]|[\[o]o]] ?*] ; !need to omit final syllables from this
-define undersyncopePossible [?* [a|i|e|o] 
-                                            [
-                                            [[s (h)][p|t|k]]|
-                                            [[m b]|[n [d|j|z (h)]]]|
-                                            ] (w)
-                                                        [[\[a]a]|[\[i]i]|[\[o]o]] ?*] ;  
+define undersyncopePossible [
+                              ?* 
+                              [a|i|e|o] 
+                                [
+                                  [
+                                    [
+                                     [[s (h)][p|t|k]]|
+                                     [[m b]|[n [d|j|z (h)]]]
+                                    ] 
+                                    (w)
+                                  ]|
+                                  [
+                                    [b|d|g|p|t|k|[s|z] (h)|c h|j|m|n]
+                                  ]
+                                  [w]
+                                ] 
+                                [ 
+                                  [
+                                    [a\[a]]|
+                                    [i\[i]]|
+                                    [o\[o]]
+                                  ]
+                                ]
+                              ?*
+                            ] ;  
                                                         !need to omit final syllables from this
 !need to flag word initial short vowels
 !how about initial light syllables?? if it already is getting flagged as a non-form, sure, look at the initial syllable
