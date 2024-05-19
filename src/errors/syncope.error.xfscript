@@ -54,7 +54,14 @@ define undersyncopePossible [
 !!this performs as expected in hfst-xfst (niniwgimag -> ninwagmag, ninwogmag, ninwigmag). in xfst there is a strange ninwgimag (with the real rhythmic syncope rules in the phonology, xfst also maps makizin to mkizn...)
 !this will get really complicated in a full version that includes [a|i|o] -> %' and the various possibilities of syllable margins and digraphs
 define syncopeFixNarrow [ 
-                          [a|i|o] -> 0 // [e|a|i|o] \[e|a|i|o] _  \[e|a|i|o]+ [e|a|i|o] ,, !delete a vowel if the left output context has VC and right input context has another syllable
+                          [a|i|o] -> %' //  [e|a|i|o] [s|z]            _ [h]             \[e|a|i|o]* [e|a|i|o], 
+                                            [e|a|i|o] n                _ [s|y|h|g|z (h)] \[e|a|i|o]* [e|a|i|o] .o. !mark a deleted vowel with an apostrophe in orthographically ambiguous contexts
+                          [a|i|o] -> 0  //  [e|a|i|o] \[e|a|i|o] _      \[e|a|i|o]+                 [e|a|i|o] ,, !delete a vowel if the left output context has VC and right input context has another syllable
+
+
+                          %' -> a, %' -> i, %' -> o       //    \[e|a|i|o] [s|z]         _ [h],
+                                                                \[e|a|i|o] n             _ [s|y|h|g|z (h)] .o.
+                          ![..] -> a, [..] -> i, [..] -> o // \[e|a|i|o|%'] \[e|a|i|o|%'] _ \[e|a|i|o|%'] !APOSTROPHE SENSITIVE VERSION (IS IT RIGHT?) insert a vowel if the left output context has CC and the right input context has C
                           [..] -> a, [..] -> i, [..] -> o // \[e|a|i|o] \[e|a|i|o] _ \[e|a|i|o] !insert a vowel if the left output context has CC and the right input context has C
                         ] ;  
 
