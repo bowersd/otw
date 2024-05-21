@@ -1,3 +1,5 @@
+define initialShortVowel [[a\[a]]|[i\[i]]|o\[o]] ; 
+
 !cases of oversyncope usually take some consonants with them, so this, while well intentioned, is not really helpful
 define oversyncopeDefinite [?* \[e|a|i|o] \[e|a|i|o] \[a|e|i|o] ?* ] ; !refine this to reflect syllable margins
 
@@ -60,52 +62,52 @@ define syncopeFixNarrow [
                         ] ;  
 
 !regex to limit cases to adjacent singletons and no digraphs!!
-define narrowEligible [
-                        [e|a|i|o] 
-                        [
-                          \[e|a|i|o] !|
-                          ![
-                          !  [n s]|
-                          !  [n y]|
-                          !  [[z|s|c] h]
-                          !]
-                        ] 
-                      [a|i|o] 
-                      [
-                        [
-                          [b|d|g|p|t|k|j|w|y|h]
-                          [\[e|a|i|o|s|z|n|w|y]|[[s|z]\[h]]|n\[y|h]] ![b|d|g|p|t|k|j|h|m|[[s|z]\[h]]|n\[y|h]] !no w, y ... first element of digraphs but not if second element is there (cluster ambiguity can creep in here!!)
-                        ]|
-                        [
-                          [m]
-                          [\[e|a|i|o|s|z|n|b|w|y|]|[[s|z]\[h]]|n\[y|h]] ![d|g|p|t|k|j|h|m|[[s|z]\[h]]|n\[y|h]] !no b, w, y ... first element of digraphs but not if second element is there (cluster ambiguity can creep in here!!)
-                        ]|
-                        [
-                          [n]
-                          [\[e|a|i|o|s|z|n|g|d|j|w|y|h]|n\[y|h]] ![b|p|t|k|m|n\[y|h]] !no d, g, j, z, w, y ... first element of digraphs but not if second element is there (cluster ambiguity can creep in here!!)
-                        ]|
-                        [
-                          [s]
-                          [\[e|a|i|o|s|z|n|p|t|k|h|w|y|]|[[s|z]\[h]]|n\[y|h]] ![b|d|g|j|m|n\[y|h]] !no p, t, k, h, w, y. if we are assuming correct Fiero spelling, sh is not ambiguous with s'h ...
-                        ]|
-                        [
-                          [z]
-                          [\[e|a|i|o|s|z|n|h|w|y]|[[s|z]\[h]]|n\[y|h]] ![p|t|k|b|d|g|j|m|[[s|z]\[h]]|n\[y|h]]
-                        ]
-                      ]
-                    ] ;
+!define narrowEligible [
+!                        [e|a|i|o] 
+!                        [
+!                          \[e|a|i|o] !|
+!                          ![
+!                          !  [n s]|
+!                          !  [n y]|
+!                          !  [[z|s|c] h]
+!                          !]
+!                        ] 
+!                      [a|i|o] 
+!                      [
+!                        [
+!                          [b|d|g|p|t|k|j|w|y|h]
+!                          [\[e|a|i|o|s|z|n|w|y]|[[s|z]\[h]]|n\[y|h]] ![b|d|g|p|t|k|j|h|m|[[s|z]\[h]]|n\[y|h]] !no w, y ... first element of digraphs but not if second element is there (cluster ambiguity can creep in here!!)
+!                        ]|
+!                        [
+!                          [m]
+!                          [\[e|a|i|o|s|z|n|b|w|y|]|[[s|z]\[h]]|n\[y|h]] ![d|g|p|t|k|j|h|m|[[s|z]\[h]]|n\[y|h]] !no b, w, y ... first element of digraphs but not if second element is there (cluster ambiguity can creep in here!!)
+!                        ]|
+!                        [
+!                          [n]
+!                          [\[e|a|i|o|s|z|n|g|d|j|w|y|h]|n\[y|h]] ![b|p|t|k|m|n\[y|h]] !no d, g, j, z, w, y ... first element of digraphs but not if second element is there (cluster ambiguity can creep in here!!)
+!                        ]|
+!                        [
+!                          [s]
+!                          [\[e|a|i|o|s|z|n|p|t|k|h|w|y|]|[[s|z]\[h]]|n\[y|h]] ![b|d|g|j|m|n\[y|h]] !no p, t, k, h, w, y. if we are assuming correct Fiero spelling, sh is not ambiguous with s'h ...
+!                        ]|
+!                        [
+!                          [z]
+!                          [\[e|a|i|o|s|z|n|h|w|y]|[[s|z]\[h]]|n\[y|h]] ![p|t|k|b|d|g|j|m|[[s|z]\[h]]|n\[y|h]]
+!                        ]
+!                      ]
+!                    ] ;
 
 define syncopeFixBroad  [ 
                           [a|i|o] -> %' //   [e|a|i|o] [s|z] _ [h]             \[e|a|i|o]* [e|a|i|o], 
                                              [e|a|i|o] n     _ [s|y|h|g|z (h)] \[e|a|i|o]* [e|a|i|o] .o. !mark a deleted vowel with an apostrophe in orthographically ambiguous contexts
 
                           [a|i|o] (->) %' // [e|a|i|o] \[e|a|i|o] n     _ [s|y|h|g|z (h)] , 
-                                             [e|a|i|o] \[e|a|i|o] [s|z] _ h, 
+                                             [e|a|i|o] \[e|a|i|o] [s|z] _ h .o.
 
-                          [a|i|o] (->) 0 //  [e|a|i|o] \[e|a|i|o] n                                    _ d       \[e|a|i|o]* [e|a|i|o], 
-                                             [e|a|i|o] \[e|a|i|o] m                                    _ b       \[e|a|i|o]* [e|a|i|o], 
-                                             [e|a|i|o] \[e|a|i|o] s (h)                                _ [p|t|k] \[e|a|i|o]* [e|a|i|o], 
-                                             [e|a|i|o] \[e|a|i|o] [b|d|g|p|t|k|j|c h|[[s|z| (h)]]|m|n] _ w       \[e|a|i|o]* [e|a|i|o] .o.
+                          [a|i|o] (->) 0 //  [e|a|i|o] n                                     d       _ \[e|a|i|o]+ [e|a|i|o], 
+                                             [e|a|i|o] m                                     b       _ \[e|a|i|o]+ [e|a|i|o], 
+                                             [e|a|i|o] s (h)                                 [p|t|k] _ \[e|a|i|o]+ [e|a|i|o], 
+                                             [e|a|i|o] [b|d|g|p|t|k|j|c h|[[s|z| (h)]]|m|n]  w       _ \[e|a|i|o]+ [e|a|i|o] .o.
 
                           [a|i|o] -> 0  //   [e|a|i|o] \[e|a|i|o] _      \[e|a|i|o]+                 [e|a|i|o] ,, !delete a vowel if the left output context has VC and right input context has another syllable
 
