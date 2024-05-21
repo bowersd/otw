@@ -26,6 +26,7 @@ define sigma [
                 y2| !y2->y mooday, jiibay have a y that doesn't delete like a good little glide
                 s1| !s1->sh / _ i2
                 m1| !m1->a / _ [m|n] (comp len in vti)
+                m2| !m2-> [alpha place] / _ [b|d], or optionally deletes (also blocks syncope, make it add a vowel) this appears in loans with initial voiced stops
                 n1| !n1->zh / _ i2 (appears in vtas)
                 n2| !n2->0 / _ .#. (appears in inflectional morphemes)
                 n3| !n3->0 / _ \.#. (appears after some negations)
@@ -97,7 +98,7 @@ define absv [a1|i1|i2|o1|e1];
 define vowel [a (a)|i (i)|o (o)|e|a1|i1|i2|o1|e1];
 define nastrig [n [h|y|s]];
 
-define nas [n|n2|m|m1];  !should the other nasals be here (n4?)
+define nas [n|n2|m|m1];  !should the other nasals be here (n4?, m2?)
 
 !special y for raising a (-naan-ag -> naanig, -e1ny-ag-> enyig, -dy-ag (preterites) -> jig)
 
@@ -276,6 +277,9 @@ define cnjb1b       [b1 -> b]; !assimilator b now b
 
 
 !other rules
+define m2pseudoV [[..] -> a || .#. _ m2 ] ; 
+define m2Del   [m2 (->) 0 ] ; 
+define m2Assim [m2 -> n || _ d ,, m2 -> m || _ b] ; 
 define vtiVoi [m1 s -> n z ] ; !nas-final negation (duplicating a little!)
 define complen [m1 -> a || _ [m|n]] ;
 define m1n      [m1 n4 -> n] ;
@@ -427,6 +431,9 @@ read regex [ ! Morphology.l .o.
     cnjb1b      .o.
     vtiVoi      .o.
     complen     .o.
+    m2pseudoV   .o.
+    m2Del       .o.
+    m2Assim     .o.
     m1n         .o.
     n4n         .o.
     m1m         .o.
