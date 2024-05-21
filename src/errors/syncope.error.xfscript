@@ -98,11 +98,11 @@ define syncopeFixNarrow [
 !                    ] ;
 
 define syncopeFixBroad  [ 
-                          [a|i|o] -> %' //   [e|a|i|o] [s|z] _ [h]             \[e|a|i|o]* [e|a|i|o], 
-                                             [e|a|i|o] n     _ [s|y|h|g|z (h)] \[e|a|i|o]* [e|a|i|o] .o. !mark a deleted vowel with an apostrophe in orthographically ambiguous contexts
+                          [a|i|o] -> %' //   [e|a|i|o] [s|z]                                         _ [h]             \[e|a|i|o]* [e|a|i|o], 
+                                             [e|a|i|o] n                                             _ [s|y|h|g|z (h)] \[e|a|i|o]* [e|a|i|o] .o. !mark a deleted vowel with an apostrophe in orthographically ambiguous contexts
 
-                          [a|i|o] (->) %' // [e|a|i|o] \[e|a|i|o] n     _ [s|y|h|g|z (h)] , 
-                                             [e|a|i|o] \[e|a|i|o] [s|z] _ h .o.
+                          [a|i|o] (->) %' // [e|a|i|o] \[e|a|i|o]                            n       _ [s|y|h|g|z (h)] , 
+                                             [e|a|i|o] \[e|a|i|o]                            [s|z]   _ h .o.
 
                           [a|i|o] (->) 0 //  [e|a|i|o] n                                     d       _ \[e|a|i|o]+ [e|a|i|o], 
                                              [e|a|i|o] m                                     b       _ \[e|a|i|o]+ [e|a|i|o], 
@@ -123,3 +123,7 @@ define syncopeFixBroad  [
 
                           [..] -> a, [..] -> i, [..] -> o // \[e|a|i|o] \[e|a|i|o] _ \[e|a|i|o] !insert a vowel if the left output context has CC and the right input context has C
                         ] ;  
+regex                     [..] (->) a, [..] (->) i, [..] (->) o //  \[e|a|i|o] n _ [d|z (h)|g], 
+                                                                    \[e|a|i|o] m _ b, !insert a vowel if the left output context has CC and the right input context has C
+                                                                    \[e|a|i|o] s (h) _ [p|t|k], !insert a vowel if the left output context has CC and the right input context has C
+                                                                    \[e|a|i|o] [b|d|g|p|t|k|j|c h|[[s|z| (h)]]|m|n] _ w ; 
