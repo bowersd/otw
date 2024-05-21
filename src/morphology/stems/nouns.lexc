@@ -16,6 +16,8 @@ pizza:pizzaL1    NA_SET    " 1 pizza" ; !Rand key:n20114108-39-42n
 pie:pie    NA_SET    " 1 pie" ; !Rand key:n20114108-34-59n
 mbacon:mbacon    NA_SET    " 1 bacon" ; !Rand key:n20114916-28-2n
 mbus:bus    NA_SET    " 1 bus" ; !Rand key:n2011497-13-43n
+mbadnis:Bv1mbadVv1nis    NA_SET    " 1 button" ; !Rand key:n72975859340n
+mbadnis:Bv1badVv1nis    NA_SET    " 1 button" ; !Rand key:n72975859340n
 meskwaanzo:meskwaanzow2    NA_SET    " 1 vermilion" ; !Rand key:n20114919-37-21n
 gchi-zhashkwedo:gichi-azhashkwedow2    NA_SET    " 1 lifebelt" ; !Rand key:n201133015-46-46n
 zhaangwesh:zhaangweshw    NA_SET    " 1 mink" ; !Rand key:n73033448980n
@@ -637,7 +639,6 @@ maazhi-nmegos:maazhi-namegos    NA_SET    " 1 coho salmon" ; !Rand key:n71429342
 magkii:omagakii    NA_SET    " 1 frog, toad" ; !Rand key:n71429343655n
 mandaagkwe:mamandaagokwe    NA_SET    " 1 lady, beautiful woman" ; !Rand key:n71429344051n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 mbaasjigan:ombaasijigan    NA_SET    " 1 airplane" ; !Rand key:n71429446806n
-mbadnis:mbadVv1nis    NA_SET    " 1 button" ; !Rand key:n72975859340n
 mbes:mbes    NA_SET    " 1 base " ; !Rand key:n71429448722n
 mdaamin:mandaamin    NA_SET    " 1 corn, kernel of corn (the food);  2 corn (the growth on one's toes)" ; !Rand key:n71429464817n
 mdaasbii'gan:midaasobiihigan    NA_SET    " 1 [the numeral] ten, 10;  2 ten [in cards]" ; !Rand key:n71429465401n
