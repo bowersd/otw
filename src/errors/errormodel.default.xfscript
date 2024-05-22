@@ -12,7 +12,7 @@ define nasalEmergence               [h -> [[0]::1] || n _ .#.] ;
 define gnMetathesis                 [g n (->) [n g::1] || _ \[a|e|i|o]] ;
 define indDeletion                  [d -> [[0]::1] || i n _ .#.] ;
 define nDeletion                    [n -> [[0]::1] ||  _ .#.] ;
-define vvnTovvnh                    [[..] -> [h::1] || [i i|a a|o o|e] _ .#.] ; 
+define vvnTovvnh                    [[..] -> [h::1] || [i i|a a|o o|e] n _ .#.] ; 
 
 !!!!
 define initialGlideDeletion         [y -> [0::1] || .#. _ [i|e],,
