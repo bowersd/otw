@@ -1,3 +1,4 @@
+set encode-weights ON
 !define cnjNasVowel                  [[..] -> h ||  e n _ .#.] ; !redundant with nasalEmergence
 define finPostNasVoi                [p -> [b::1], t -> [d::1], k -> [g::1], s -> [z::1], s h -> [z h::1], c h -> [j::1]   || [m|n]  _ .#. ]; 
 define finDevoi                     [b -> [p::1], d -> [t::1], g -> [k::1], z -> [s::1], z h -> [s h::1], j -> [c h::1]   ||  _ .#. ]; 
