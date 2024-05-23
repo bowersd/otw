@@ -18,7 +18,7 @@ define vvnTovvnh                    [[..] -> [h::2] || [i i|a a|o o|e] n _ .#.] 
 !!!!
 define initialGlideDeletion         [y -> [0::2] || .#. _ [i|e],,
                                     w -> [0::2] || .#. _ o] ;
-define structuralW                  [[..] -> [w::2] || \[e|a|i|o|p|t|k|s (h)] (w) _ ] ; 
+define structuralW                  [[..] -> [w::2] || .#. _ \[e|a|i|o|p|t|k|s (h)] (w) [e|a|i|o] ] ; 
 define postYRaising                 [a (->) [i::2] || y _ \[a]] ; 
 define glideBacknessAssimilation    [w (->) [y::2] || [a|e|i] _ ,,
                                     y (->)  [w::2] || o _ ] ; 
