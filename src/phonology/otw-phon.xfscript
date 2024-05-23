@@ -280,7 +280,7 @@ define cnjb1b       [b1 -> b]; !assimilator b now b
 define m2pseudoV [[..] -> a || .#. _ m2 ] ; 
 define m2Del   [m2 (->) 0 ] ; 
 define m2Assim [m2 -> n || _ d ,, m2 -> m || _ b] ; 
-define w6Coal  [w6 [a|i|o] -> o || _ \[a|i|o]] ; 
+define w6Coal  [w6 i -> o || _ \[i]] ; 
 define w6ToW   [w6  -> w ] ; 
 define vtiVoi [m1 s -> n z ] ; !nas-final negation (duplicating a little!)
 define complen [m1 -> a || _ [m|n]] ;
