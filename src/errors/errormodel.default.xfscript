@@ -65,7 +65,7 @@ define kaw2kow                      [a (->) [o ::2]|| k _ w] ;
 define y2h                          [y (->) [%'::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
 define glotGlide                    [h (->) [w ::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
 define unrounding                   [o (->) [a ::2]|| \[o] _ \[o]] ; !this is a general dialectal feature (beyond the specific final syllable vowel lowering rule)
-define ko2kwa                       [o (->) [w a::2] || [g|k|m] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
+define ko2kwa                       [o (->) [w a::2], w a (->) [o::2] || [g|k|m] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
 define nvw5oLEVEL                   [[[\[a]a]|[\[i]i]|[\[o]o]] w a (->) [o o::2] || _  [n|g] .#. ] ; !DAB added for Al Corbiere. capturing a leveling found in Al Corbiere texts: baatiiniwag>baatiinoog, zhgi'gaazowag > zhgi'gaazoog
 define shortening [i (->)   [i i::1] || \[i] _ [g|n|n g] .#. ,, !variation in vowel length before pl/obv/loc
                    o (->)   [o o::1] || \[o] _ [g|n|n g] .#. ,,
