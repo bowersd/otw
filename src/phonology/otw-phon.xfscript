@@ -280,6 +280,8 @@ define cnjb1b       [b1 -> b]; !assimilator b now b
 define m2pseudoV [[..] -> a || .#. _ m2 ] ; 
 define m2Del   [m2 (->) 0 ] ; 
 define m2Assim [m2 -> n || _ d ,, m2 -> m || _ b] ; 
+define w6Coal  [w6 [a|i|o] -> o || _ \[a|i|o]] ; 
+define w6ToW   [w6  -> w ] ; 
 define vtiVoi [m1 s -> n z ] ; !nas-final negation (duplicating a little!)
 define complen [m1 -> a || _ [m|n]] ;
 define m1n      [m1 n4 -> n] ;
@@ -434,6 +436,8 @@ read regex [ ! Morphology.l .o.
     m2pseudoV   .o.
     m2Del       .o.
     m2Assim     .o.
+    w6Coal      .o.
+    w6ToW       .o.
     m1n         .o.
     n4n         .o.
     m1m         .o.
