@@ -77,11 +77,11 @@ PN/maapiitaa+:maapiitaa-    NOUNS    " 1 sometime during" ; !Rand key:n730324399
 PN/mndaago+:mandaago-    NOUNS    " 1 beautiful, fair, handsome (usually, of a person)" ; !Rand key:n71429344252n
 PN/megwe+:megwe-    NOUNS    " 1 among, in, in the middle of, in the midst of" ; !Rand key:n71429560148n
 PN/mji+:maji-    NOUNS    " 1 bad, evil, mischievous, naughty" ; !Rand key:n71429741132n
-PN/mkade+:makade-    NOUNS    " 1 black" ; !Rand key:n71429743236n
 PN/mshi+:mishi-    NOUNS    " 1 big" ; !Rand key:n71430434048n
+PN/mkade+:makade-    NOUNS    " 1 black" ; !Rand key:n71429743236n
 PN/msko+:misko-    NOUNS    " 1 red" ; !Rand key:n71430546577n
 PN/zhaawshko+:ozhaawashko-    NOUNS    " 1 green/blue" ; !DAB addition
-PN/zaaw+:ozaaw-        NOUNS    " 1 orange/yellow/brown" ; !DAB addition
+PN/zaawi+:ozaawi-        NOUNS    " 1 orange/yellow/brown" ; !DAB addition zaaw- is what Rhodes listed (not in text corpus though), zaawi- is in OPD (and in text corpus). some cases of zaaw- listed in rhodes. these are listed directly
 PN/waabi+:waabi-        NOUNS    " 1 white/gray" ; !DAB addition
 PN/waabshki+:waabishki-        NOUNS    " 1 white/gray" ; !DAB addition
 PN/mtigo+:mitigo-        NOUNS    " 1 wooden" ; !DAB addition
