@@ -85,6 +85,7 @@ Ext+ !marking extended prefix allomorphs
 !+3Obv +3Pl  ! verbs 4? (no 5) Does one indicate ambiguity explicitly or not: 4Sg/Pl?
 !+0Sg +0Pl   ! verbs
 +Loc !Nouns (other periph suffs (Pl, Obv) immediately above)
++DistLoc !The distributed locative, possibly described in the Jones grammar of Mani(k?)waki (per Rand)
 
 !VTA features (used in deciding theme sign)
 +ThmDir  !aa        (3rd obj) 
