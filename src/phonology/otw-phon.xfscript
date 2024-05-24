@@ -118,7 +118,7 @@ define rmspecialv [
 !####
 !{ morph bound
 !{dependent stems 
-define preGli [ o -> w || _ %< %^ vowel ]; !Bloomfield talks about this, but I haven't actually seen it. they all seem to delete
+define preGli [ o -> w || _ %< %^ vowel ]; !Bloomfield talks about this, but I haven't actually seen it. they all seem to delete (no longer part of cascade)
 define preDel [ shortv -> 0 || _ %< %^ vowel ];  
 !}
 !{prefix adjustments
