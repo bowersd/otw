@@ -25,7 +25,9 @@ define glideBacknessAssimilation    [w (->) [y::2] || [a|e|i] _ ,,
 define preGlideLengthening          [[..] (->) [o::2] || o _ w ,,
                                      [..] (->) [i::2] || i _ y]; !there may also be some ambiguity before nasals
 define wiCoalescence                [w i (->)  [o::2]] ; 
-define codaWDeletion                [w (->) [0::2] || _ \[a|i|o|e]];
+define codaWDeletion                [w (->) [0::2] || _ \[a|i|o|e],,
+                                     w (->) [0::3] || _ [a|i|o|e]
+                                    ];
 define hw                           [h (->) [[w|%'|0]::2] || \[c|s|n|z] _ ];
 
 define nVSzhAlternation             [z h (->) [n::2] || _ .#., _ i ] ; 
