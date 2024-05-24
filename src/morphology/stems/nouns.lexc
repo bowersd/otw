@@ -14,9 +14,9 @@ LEXICON NA
 truck:truck    NA_SET    " 1 truck" ; !Rand key:n201141011-10-58n
 pizza:pizzaL1    NA_SET    " 1 pizza" ; !Rand key:n20114108-39-42n
 pie:pie    NA_SET    " 1 pie" ; !Rand key:n20114108-34-59n
-mbacon:m1bacon    NA_SET    " 1 bacon" ; !Rand key:n20114916-28-2n
-mbus:m1bus    NA_SET    " 1 bus" ; !Rand key:n2011497-13-43n
-mbadnis:m1badVv1nis    NA_SET    " 1 button" ; !Rand key:n72975859340n
+mbacon:m2bacon    NA_SET    " 1 bacon" ; !Rand key:n20114916-28-2n
+mbus:m2bus    NA_SET    " 1 bus" ; !Rand key:n2011497-13-43n
+mbadnis:m2badVv1nis    NA_SET    " 1 button" ; !Rand key:n72975859340n
 meskwaanzo:meskwaanzow2    NA_SET    " 1 vermilion" ; !Rand key:n20114919-37-21n
 gchi-zhashkwedo:gichi-azhashkwedow2    NA_SET    " 1 lifebelt" ; !Rand key:n201133015-46-46n
 zhaangwesh:zhaangweshw    NA_SET    " 1 mink" ; !Rand key:n73033448980n
