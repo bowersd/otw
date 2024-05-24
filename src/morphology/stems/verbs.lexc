@@ -2838,7 +2838,7 @@ chaawse:chaawise    VAI_TAG    " 1 walk with a limp" ; !Rand key:n72985241575n
 chaawsebtoo:chaawisebatoo    VAI_TAG    " 1 run lame" ; !Rand key:n72985241511n
 chaawshin:chaawishin    VAI_TAG    " 1 [see chaashin]" ; !Rand key:n72985241671n
 chigaaza:achigaazo    VAI_TAG    " 1 be placed (in some location)" ; !Rand key:n72985241964n
-daa:daa    VAI_TAG    " 1 live in a certain place, reside in a certain place, dwell in a certain place;  2 where someone lives, one's house, one's home" ; !Rand key:n72985836009n
+daa:n5daa    VAI_TAG    " 1 live in a certain place, reside in a certain place, dwell in a certain place;  2 where someone lives, one's house, one's home" ; !Rand key:n72985836009n
 daabshkaa:daabishkaa    VAI_TAG    " 1 have convulsions, have a seizure" ; !Rand key:n72985835612n
 daadkogwaaza:daadVv1kogwaazo    VAI_TAG    " 1 be sewn together" ; !Rand key:n72985837891n
 daake:daake    VAI_TAG    " 1 steer, drive" ; !Rand key:n72985843639n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt

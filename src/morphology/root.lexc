@@ -358,6 +358,7 @@ n1  !palatalizing n
 n2  !deleting n#
 n3  !deleting n\# (negative morpheme)
 n4  !n that does not trigger m1 comp len
+n5  !phantom in that becomes en in CCNJ (limited to d-initial words, especially with relative roots dan/dazh
 
 d1  !special seg in 3/X for VAI CNJ, nd1 -> ng, nd1b1 -> ngib, d1b1 -> p, (n)d1w4b1 -> gob, d1w4 -> gw
 d2  !a highly deletable d that ends many viis
