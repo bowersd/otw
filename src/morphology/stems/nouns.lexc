@@ -1972,7 +1972,8 @@ waabgan:waabigan    NI_SET    " 1 clay" ; !Rand key:n73032179828n
 waabi-mnoomin:waabi-manoomin    NI_SET    " 1 white rice" ; !Rand key:n73032181454n
 waabkwaan:waabikwaan    NI_SET    " 1 a strand of gray hair, a strand of white hair" ; !Rand key:n73034026648n
 waabooyaan:waabooyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n
-waaboowyaan:waaboowiyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n !DUSTIN SYNTH:matches transcription of Andrew Medler 
+waabwayaan:waabowayaan    NI_SET    " 1 blanket" ; !DUSTIN UPDATE this form is found in the OPD and in a medler text
+!waaboowyaan:waaboowiyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n !DUSTIN SYNTH:matches transcription of Andrew Medler ... treating it as a mistake for now
 waabshkiigaans:waabishkiigaans    NI_SET    " 1 handkerchief" ; !Rand key:n7303227735n
 waabshkiigin:waabishkiigin    NI_SET    " 1 white cloth" ; !Rand key:n7303227876n
 waabshkoki:waabishkokiL1    NI_SET    " 1 marsh" ; !Rand key:n7303228435n
