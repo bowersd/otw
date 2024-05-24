@@ -1973,7 +1973,7 @@ waabi-mnoomin:waabi-manoomin    NI_SET    " 1 white rice" ; !Rand key:n730321814
 waabkwaan:waabikwaan    NI_SET    " 1 a strand of gray hair, a strand of white hair" ; !Rand key:n73034026648n
 waabooyaan:waabooyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n
 waabwayaan:waabowayaan    NI_SET    " 1 blanket" ; !DUSTIN UPDATE this form is found in the OPD and in a medler text
-!waaboowyaan:waaboowiyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n !DUSTIN SYNTH:matches transcription of Andrew Medler ... treating it as a mistake for now
+waaboowyaan:waaboowiyaan    NI_SET    " 1 blanket" ; !Rand key:n73032185622n !DUSTIN SYNTH:matches transcription of Andrew Medler ... treating it as a mistake for now -> NOT A MISTAKE. Bloomfield explicitly discusses such forms. Rand suggests there's a link to wayaan 'skin', while Bloomfield has -ayaan 'garment'
 waabshkiigaans:waabishkiigaans    NI_SET    " 1 handkerchief" ; !Rand key:n7303227735n
 waabshkiigin:waabishkiigin    NI_SET    " 1 white cloth" ; !Rand key:n7303227876n
 waabshkoki:waabishkokiL1    NI_SET    " 1 marsh" ; !Rand key:n7303228435n
