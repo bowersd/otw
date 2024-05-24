@@ -166,8 +166,8 @@ PV/piichi+:apiichi-  V_PREVERBS_ASPECT " 1 to a certain degree, to a certain ext
 PV/zhi+:izhi-  V_PREVERBS_ASPECT " 1 as [another], like a certain thing;  2 to a certain place, towards a certain place, in a certain direction;  3 how [to do something], in a certain manner, way [of doing something], thus (in such way), and so;  4 go ahead without preparation, go ahead despite not being ready";
 PV/nji+:onji-  V_PREVERBS_ASPECT " 1 at a certain place, from a certain place, from a certain point, where;  2 why;  3 have (in the sense of the English perfect tense)";
 !wnji-:onji    V_PREVERBS_ASPECT    " 1 [see nji-]" ; !Rand key:n73072141838n
-PV/dzhi+:dazhi-   V_PREVERBS_ASPECT " 1 at a certain place, where";
-PV/dso+:daso-     V_PREVERBS_ASPECT " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
+PV/dzhi+:n5dazhi-   V_PREVERBS_ASPECT " 1 at a certain place, where";
+PV/dso+:n5daso-     V_PREVERBS_ASPECT " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
 !DUP REMOVE!PV/aana+:aana-   V_PREVERBS_ASPECT " 1 in vain, to no avail" ; !Rand key:n72973263339n
 PV/aano+:aano-   V_PREVERBS_ASPECT   " 1 [see aana-]"; !Valentine 2001 doesn't specify slot -> it precedes ntaa- (in aspect class), so moved up from V_PREVERBS_MANNER DAB 2024-01-31
 !DUP REMOVE!PV/aana+:X2aana-   V_PREVERBS_ASPECT " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
