@@ -31,6 +31,7 @@ define sigma [
                 n2| !n2->0 / _ .#. (appears in inflectional morphemes)
                 n3| !n3->0 / _ \.#. (appears after some negations)
                 n4| !n4->n / (non comp len in vti)
+                n5| !n5->en / lexically specific d-initial ccnj, else 0 
                 b1| !d1b1 -> p (cnj preterites)
                 d1| !nd1 -> ng, d1b1 -> p, d1y1 -> j, else: d 
                 d2| !deletable d in vii
@@ -255,10 +256,11 @@ define L1del [ L1 -> 0 || _ ? ] ;
 !####
 
 !##Conjunct order rules
-define ccnjexcrspec [ [..] (->) i n || "PV/CCNJ+" _ d ] ; !this might be the obligatory way of doing excrescent nasals with d, if so, ccnjexcr must also change!!
+define ccnjexcrspec [ [n5] -> i n || "PV/CCNJ+" _ ] ; !updated to make this lexically specific 
+define n5Del        [ [n5] -> 0 ] ; 
 define ccnjlong  [i i -> X2 a a, a a -> X2 y a a, e -> X2 y e, o o -> X2 w a a || "PV/CCNJ+" (cseqs) _ ] ; !changed forms, X2 is a blocker to stop changed short from getting fed by this rule
 define ccnjshort [[i|a] -> X2 e, o -> X2 (w)e || "PV/CCNJ+" (cseqs) _ ] ; !changed forms
-define ccnjexcr [[..] (->) n || X2 (w|y)[e|a a] _ d ,, [..] (->) m || X2 (w|y)[e|a a] _ b ] ; 
+!define ccnjexcr [[..] (->) n || X2 (w|y)[e|a a] _ d ,, [..] (->) m || X2 (w|y)[e|a a] _ b ] ; !this is incorrect afaik. use ccnjexcrspec
 define rmccnj       [["PV/CCNJ+"|X2] -> 0] ;
 define cnjHiatus    [c1 -> y || vowel _ vowel] ; !V-final hiatus
 define cnjVoi       [s -> z  || nas c1 _ ] ; !nas-final negation
@@ -416,7 +418,6 @@ read regex [ ! Morphology.l .o.
     ccnjexcrspec .o.
     ccnjlong    .o.
     ccnjshort   .o.
-    ccnjexcr    .o.
     rmccnj      .o.
     cnjHiatus   .o.
     cnjVoi      .o.
