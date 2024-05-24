@@ -564,7 +564,6 @@ LEXICON VAI_CNJ_3
 
 LEXICON VAI_PASSIVE_3
 0:ind  VAI_PASSIVE_3PL ; !participles! tags to follow (didn't want to issue +3:ind, +3Pl:indwaa)
-+3Obv:nid1 VAI_CNJ_MODE_GET ; 
 !+3:in   # ; !ALLOWING WORD FINAL ND TO BE N IN ERROR MODEL. this morpheme has been observed without d a lot in word final position (not sure about other positions), so I'm being conservative and listing it here as a word final variant. Maybe instead of listing it here, it can be part of error detection to allow a VTA+ThmPas+VAI+Cnj+3 to end in in?
 
 LEXICON VAI_PASSIVE_3PL
@@ -1719,6 +1718,7 @@ LEXICON THMDIR_NEG_SIIW_LOCAL
 LEXICON THMDIR_NEG_3_NO_MODE
 +3Pl:waa  THMDIR_NEG_3_NO_MODE_PCP_PL_SET ; !could get sigwaa with phonology (d1<w4>aa)
 +3:0       THMDIR_NEG_3_NO_MODE_PCP_OBV_SET ; !ditto for sig
++3ObvPlus:nid1y1  THMDIR_NEG_3_NO_MODE_PCP_OBV_SET ; !ditto for sig
 
 LEXICON THMDIR_NEG_3_NO_MODE_PCP_PL_SET
 @P.3Num.Pl@     VTA_CNJ_PCP_GET ;
@@ -1730,8 +1730,10 @@ LEXICON THMDIR_NEG_3_NO_MODE_PCP_OBV_SET
 LEXICON THMDIR_NEG_3
 +3Pl:waad1     THMDIR_NEG_3_PCP_PL_SET ; !notice, not dwaa, as dub would indicate
 +3:d1           THMDIR_NEG_3_PCP_OBV_SET ;
++3ObvPlus:nid1y1  THMDIR_NEG_3_PCP_OBV_SET ; !ditto for sig
 +3Pl:gwaaw4    THMDIR_NEG_3_PCP_DUB_PL_SET ;  !siigwaawenh looks like d1<w4>aa<w>-enh, but then you break up a morpheme, problem for prt
 +3:gw4          THMDIR_NEG_3_PCP_DUB_OBV_SET ; !siigwenh looks like d1-w4enh, but problems with this analysis in pl
++3ObvPlus:nigw4  THMDIR_NEG_3_PCP_DUB_OBV_SET ; !Total guess here for what this morpheme should look like. check it if possible! 5/24/2024
 
 LEXICON THMDIR_NEG_3_PCP_PL_SET
 @P.3Num.Pl@     THMDIR_NEG_3_PRT ;
@@ -1756,10 +1758,11 @@ LEXICON THMDIR_NEG_3_PRT
 LEXICON THMDIR_POS_3
 +3Pl:waad1y1          THMDIR_POS_3_PCP_PL_SET ;
 +3:d1y1                THMDIR_POS_3_PCP_OBV_SET ;
++3ObvPlus:nid1y1        THMDIR_POS_3_PCP_OBV_SET ; ; 
 
 LEXICON THMDIR_POS_3_PCP_PL_SET
 @P.3Num.Pl@     THMDIR_POS_3_MODE ;
-@P.3Num.Obv@    THMDIR_POS_3_MODE ;
+@P.3Num.Obv@    THMDIR_POS_3_MODE ; !This does not seem immediately right, perhaps check it? 5/23/2024. I think the participles can be plural or obviative from this point. I wrote it this way elsewhere, so I doubt it is a mistake
 
 LEXICON THMDIR_POS_3_PCP_OBV_SET
 @P.3Num.Obv@    THMDIR_POS_3_MODE ;
