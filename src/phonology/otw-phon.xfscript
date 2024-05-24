@@ -416,6 +416,7 @@ read regex [ ! Morphology.l .o.
     fortite     .o.
     vfill       .o.
     ccnjexcrspec .o.
+    n5Del       .o.
     ccnjlong    .o.
     ccnjshort   .o.
     rmccnj      .o.
