@@ -118,7 +118,7 @@ define rmspecialv [
 !####
 !{ morph bound
 !{dependent stems 
-define preGli [ o -> w || _ %< %^ vowel ];  
+define preGli [ o -> w || _ %< %^ vowel ]; !Bloomfield talks about this, but I haven't actually seen it. they all seem to delete
 define preDel [ shortv -> 0 || _ %< %^ vowel ];  
 !}
 !{prefix adjustments
@@ -378,7 +378,7 @@ define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init
 read regex [ ! Morphology.l .o.
     L1del        .o.
     rmspecialv    .o. !special char killer
-    preGli      .o.
+    !preGli      .o. !This is a bloomfield rule that I haven't seen used elsewhere
     optinitV    .o. !allows post syncope n-nokii < n[d]-ankii < nidanokii. Comment out for syncope/non-syncope
     preDel      .o.
     preLen      .o.
