@@ -11311,7 +11311,7 @@ wnzaan:onz    VTI_AM_THEME    " 1 [see nzaan]" ; !Rand key:n73033151201n
 wwaabndaan:wawaaband    VTI_AM_THEME    " 1 see sth. over and over again" ; !Rand key:n73033162820n
 wzhibii'aan:ozhibiih    VTI_AM_THEME    " 1 [see zhibii'aan]" ; !Rand key:n73033167473n
 wzhigaadaan:ozhigaad    VTI_AM_THEME    " 1 [see zhigaadaan]" ; !Rand key:n73033169173n
-yaan:ay    VTI_AM_THEME    " 1 have sth., buy sth., get sth." ; !Rand key:n73033179619n
+yaan:ayaa  VTI_AM_THEME    " 1 have sth., buy sth., get sth." ; !Rand key:n73033179619n
 zaabendaan:zaabend    VTI_AM_THEME    " 1 care for sth., have an inclination towards sth." ; !Rand key:n72918041484n
 zaabndaan:ozaaband    VTI_AM_THEME    " 1 look at sth. from a certain distance, look at sth. from a certain vantage point" ; !Rand key:n72977659572n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 zaagaateshkaan:zaagaateshk    VTI_AM_THEME    " 1 sun shine on sth. " ; !Rand key:n73033276338n
