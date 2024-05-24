@@ -36,7 +36,7 @@ LEXICON    VII_DAB_ADDITIONS
 mnazgaade:mVa1nVa1zigaade   VII_TAG "be cooked" ; !mnaza VAI cook (Rhodes has mnozod)
 
 LEXICON VII_DEF
-dso-dba'gne:daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
+dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
 aadsin:aadisin    VII_TAG    " 1 be marooned, be stranded" ; !Rand2key:n72972576942n
 aakwaadat:aakwaadad2   VII_TAG    " 1 be dangerous, be threatening" ; !Rand key:n72973249593n
 aabdagin:aabidagin    VII_TAG    " 1 grow continually (of plants)" ; !Rand2key:n7291536976n
@@ -456,10 +456,10 @@ dkwaakwat:dakwaakwad2   VII_TAG    " 1 [see dkwaakot]" ; !Rand key:n73013955003n
 dkwegat:dakwegad2   VII_TAG    " 1 be short (of cloth)" ; !Rand key:n73102083511n
 dkwiindgwaanh:dakwiindVv1gwaanh    VII_TAG    " 1 be shallow (of water)" ; !Rand2key:n73013959186n
 dkwiindmaa:dakwiindamaa    VII_TAG    " 1 [see dkwiindgwaanh]" ; !Rand2key:n73013959370n
-dnaatesin:danaatesin    VII_TAG    " 1 be broadcast from a particular place (of TV programs)" ; !Rand2key:n73101885442n
-dnakmigat:danakamigad2   VII_TAG    " 1 happen at a particular place, go on at a particular place (of organized events)" ; !Rand key:n73013981363n
-dnide:danide    VII_TAG    " 1 be cooking [in a particular pot]; take a certain length of time to cook (of food)" ; !Rand2key:n73014377086n
-dnwewe:danwewe    VII_TAG    " 1 sound2from a certain place, come from a certain place (of sound)" ; !Rand key:n73014477230n
+dnaatesin:n5danaatesin    VII_TAG    " 1 be broadcast from a particular place (of TV programs)" ; !Rand2key:n73101885442n
+dnakmigat:n5danakamigad2   VII_TAG    " 1 happen at a particular place, go on at a particular place (of organized events)" ; !Rand key:n73013981363n
+dnide:n5danide    VII_TAG    " 1 be cooking [in a particular pot]; take a certain length of time to cook (of food)" ; !Rand2key:n73014377086n
+dnwewe:n5danwewe    VII_TAG    " 1 sound2from a certain place, come from a certain place (of sound)" ; !Rand key:n73014477230n
 dootoogan:dootoogan    VII_TAG    " 1 be soft and2uneven  (of unpaved roads esp. in spring)" ; !Rand key:n73101885617n
 dpaakgaa:dapaakogaa    VII_TAG    " 1 leak (typically of roofs)" ; !Rand2key:n72913567518n
 dpaanzhe:dapaanzhe    VII_TAG    " 1 shine through (of a light)" ; !Rand2key:n73030611582n
@@ -472,14 +472,14 @@ dpigaa:dapigaa    VII_TAG    " 1 seep through" ; !Rand2key:n73014683225n
 dpijwan:dapijiwan    VII_TAG    " 1 flow through an opening" ; !Rand2key:n73014683272n
 dpwewe:dapwewe    VII_TAG    " 1 be heard2through an opening" ; !Rand key:n73015153987n
 dpwewesin:dapwewesin    VII_TAG    " 1 sound2through an opening" ; !Rand key:n73015154192n
-dshin:dashin    VII_TAG    " 1 be a certain number, be so many" ; !Rand2key:n73015154533n
+dshin:n5dashin    VII_TAG    " 1 be a certain number, be so many" ; !Rand2key:n73015154533n
 dsigniwaagmi:disiganiwaagami    VII_TAG    " 1 be stained2(of a liquid)" ; !Rand key:n73015155028n
-dsobboon'gat:dasobiboonagad2   VII_TAG    " 1 be a certain number of years old" ; !Rand key:n73015155815n
-dso-dba'ganet:daso-dibahiganed2   VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand key:n73015156198n
-dsognagat:dasogonagad2   VII_TAG    " 1 be a certain date, be a certain number of days ago" ; !Rand key:n73015156905n
+dsobboon'gat:n5dasobiboonagad2   VII_TAG    " 1 be a certain number of years old" ; !Rand key:n73015155815n
+dso-dba'ganet:n5daso-dibahiganed2   VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand key:n73015156198n
+dsognagat:n5dasogonagad2   VII_TAG    " 1 be a certain date, be a certain number of days ago" ; !Rand key:n73015156905n
 dsoode:dasoode    VII_TAG    " 1 be pinned2down, be trapped" ; !Rand key:n73015342511n
 dwisin:dawisin    VII_TAG    " 1 be adequate room [for something or someone]; fit" ; !Rand2key:n73045825542n
-dzhitaamgat:dazhitaamagad2   VII_TAG    " 1 take a certain amount of time to do something" ; !Rand key:n73015354287n
+dzhitaamgat:n5dazhitaamagad2   VII_TAG    " 1 take a certain amount of time to do something" ; !Rand key:n73015354287n
 dzhweyaadgaa:dazhweyaadagaa    VII_TAG    " 1 flow out all over" ; !Rand2key:n73010456450n
 ekwisin:ekVv1wisin    VII_TAG    " 1 have an imprint of something be left somewhere; leave an imprint somewhere" ; !Rand2key:n73015756772n
 gaachaabiigat:gaachaabiigad2   VII_TAG    " 1 be thin (of stringlike objects)" ; !Rand key:n73016036332n
@@ -1586,7 +1586,7 @@ desaabkaa:desaabikaa    VII_TAG    " 1 be a flat rock ledge" ; !Rand2key:n201132
 dgomgat:dagomVi1gad2   VII_TAG    " 1 exist naturally in a certain place, be present naturally in a certain place" ; !Rand key:n201132720-6-38n
 dite:adite    VII_TAG    " 1 be ripe" ; !Rand2key:n201132721-50-55n
 dkaagmisin:dakaagamisin    VII_TAG    " 1 cool off (of liquids)" ; !Rand2key:n201132721-53-23n
-dswewaan'gat:daswewaanagat    VII_TAG    " 1 be such number of (different) be a certain number of (different) kinds" ; !Rand2key:n201132820-56-59n
+dswewaan'gat:n5daswewaanagat    VII_TAG    " 1 be such number of (different) be a certain number of (different) kinds" ; !Rand2key:n201132820-56-59n
 gaakiishkaa:gaakiishkaa    VII_TAG    " 1 be rectangular, be oblong" ; !Rand2key:n201132922-34-50n
 gaasdema:agaasademVa1    VII_TAG    " 1 be a narrow road, trail, or path" ; !Rand2key:n201132922-47-48n
 gaasin:agaasin    VII_TAG    " 1 be small" ; !Rand2key:n201132922-53-18n
@@ -1765,8 +1765,8 @@ dkambide:dakamibide    VII_TAG    " 1 drive across, fly across, go across [drivi
 dkamma:dakamamVa1    VII_TAG    " 1 [road] go across, [road] run across" ; !Rand2key:n201613122-26-4n
 dkigweweyaanmat:dakigweweyaanimad2   VII_TAG    " 1 be a neck-chilling wind" ; !Rand key:n201613122-31-1n
 dkijiiyaanmat:dakijiiyaanimad2   VII_TAG    " 1 be a chilly wind" ; !Rand key:n201613122-34-43n
-dnaatese:danaatese    VII_TAG    " 1 be broadcast [by television] at a certain place, be shown on TV at a certain place;;  2 [lightning] flash at a certain location " ; !Rand2key:n201613122-54-13n
-dnwewesin:danwewesin    VII_TAG    " 1 be broadcast [by radio] at a certain place, be playing [on radio] at a certain place" ; !Rand2key:n201613122-58-42n
+dnaatese:n5danaatese    VII_TAG    " 1 be broadcast [by television] at a certain place, be shown on TV at a certain place;;  2 [lightning] flash at a certain location " ; !Rand2key:n201613122-54-13n
+dnwewesin:n5danwewesin    VII_TAG    " 1 be broadcast [by radio] at a certain place, be playing [on radio] at a certain place" ; !Rand2key:n201613122-58-42n
 dootoobaa:dootoobaa    VII_TAG    " 1 be boggy, be spongy ground" ; !Rand2key:n201613123-2-55n
 dootoobjiishkwigaa:dootoobijiishkiwVi1gaa    VII_TAG    " 1 [ground] feel boggy" ; !Rand2key:n201613123-4-29n
 dootooskgamde:dootooskigamide    VII_TAG    " 1 boil gently, simmer" ; !Rand2key:n2016219-6-57n
@@ -3036,24 +3036,24 @@ dkwaan'kwe:dakwaanikwe    VAI_TAG    " 1 have short hair" ; !Rand key:n730139799
 dkwanjge:dakwanjige    VAI_TAG    " 1 [see dkonjge]" ; !Rand key:n73013958654n
 dkwegzi:dakwegizi    VAI_TAG    " 1 be short (of cloth)" ; !Rand key:n73102083600n
 dkwegpiza:dakwegipizo    VAI_TAG    " 1 wear a short dress, wear a short skirt" ; !Rand key:n73013957047n
-dnaabooza:danaaboozo    VAI_TAG    " 1 drink at a certain place, obtain drinks from a certain place" ; !Rand key:n73013980552n
+dnaabooza:n5danaaboozo    VAI_TAG    " 1 drink at a certain place, obtain drinks from a certain place" ; !Rand key:n73013980552n
 !dnaajma:ondVv1naajimo    VAI_TAG    " 1 relate something pertaining to a particular place;  2 relate something from a particular time back, talk about something from a particular time back" ; !Rand key:n73101885099n !DAB: commented out because this is even further removed from the dubious entry immediately above !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 dnaan'gidoon:danaanagidoon    VAI_TAG    " 1 speak, talk, give a speech" ; !Rand key:n73013959018n
 dnaan'gidooni:danaanagidooni    VAI_TAG    " 1 speak, talk, give a speech" ; !Rand key:n73013981179n
-dnaapi:danaapi    VAI_TAG    " 1 laugh at a certain location, laugh at a particular place" ; !Rand key:n73045852911n
-dnakii:danakii    VAI_TAG    " 1 live on a particular piece of land" ; !Rand key:n73013959463n
-dnakmigzi:danakamigizi    VAI_TAG    " 1 play in a particular place;  2 do something in a particular place, busy oneself in a particular place" ; !Rand key:n73013981598n
+dnaapi:n5danaapi    VAI_TAG    " 1 laugh at a certain location, laugh at a particular place" ; !Rand key:n73045852911n
+dnakii:n5danakii    VAI_TAG    " 1 live on a particular piece of land" ; !Rand key:n73013959463n
+dnakmigzi:n5danakamigizi    VAI_TAG    " 1 play in a particular place;  2 do something in a particular place, busy oneself in a particular place" ; !Rand key:n73013981598n
 dngishkaage:dangishkaage    VAI_TAG    " 1 kick out at people" ; !Rand key:n73013982578n
 dngishkge:dangishkige    VAI_TAG    " 1 kick;  2 go on strike, strike [against working conditions]" ; !Rand key:n73013982699n
-dnikaa:danikaa    VAI_TAG    " 1 take a certain amount of time on a trip" ; !Rand key:n73014377454n
-dningwaam:daningwaam    VAI_TAG    " 1 sleep in a certain place; sleep for a certain reason" ; !Rand key:n73014377821n
-dningwaamo:daningwaamo    VAI_TAG    " 1 sleep in a certain place" ; !Rand key:n73014378008n
-dniza:danizo    VAI_TAG    " 1 be cooking [in a particular pot] (of food)" ; !Rand key:n73014377196n
-dnizekwe:danizekwe    VAI_TAG    " 1 do cooking in a certain place" ; !Rand key:n73014378332n
-dnizi:danizi    VAI_TAG    " 1 board somewhere, live in a certain place temporarily, stay in a certain place " ; !Rand key:n73014378820n
-dnwewdam:danwewidam    VAI_TAG    " 1 cry out from a certain place, yell from a certain place" ; !Rand key:n73014477687n
-dnwewe:danwewe    VAI_TAG    " 1 sound from a certain place" ; !Rand key:n73039841113n
-dnwewechge:danwewechige    VAI_TAG    " 1 play music at a certain place" ; !Rand key:n73014477979n
+dnikaa:n5danikaa    VAI_TAG    " 1 take a certain amount of time on a trip" ; !Rand key:n73014377454n
+dningwaam:n5daningwaam    VAI_TAG    " 1 sleep in a certain place; sleep for a certain reason" ; !Rand key:n73014377821n
+dningwaamo:n5daningwaamo    VAI_TAG    " 1 sleep in a certain place" ; !Rand key:n73014378008n
+dniza:n5danizo    VAI_TAG    " 1 be cooking [in a particular pot] (of food)" ; !Rand key:n73014377196n
+dnizekwe:n5danizekwe    VAI_TAG    " 1 do cooking in a certain place" ; !Rand key:n73014378332n
+dnizi:n5danizi    VAI_TAG    " 1 board somewhere, live in a certain place temporarily, stay in a certain place " ; !Rand key:n73014378820n
+dnwewdam:n5danwewidam    VAI_TAG    " 1 cry out from a certain place, yell from a certain place" ; !Rand key:n73014477687n
+dnwewe:n5danwewe    VAI_TAG    " 1 sound from a certain place" ; !Rand key:n73039841113n
+dnwewechge:n5danwewechige    VAI_TAG    " 1 play music at a certain place" ; !Rand key:n73014477979n
 doodam:doodam    VAI_TAG    " 1 do something reprehensible" ; !Rand key:n73014379076n
 dooskaabi:dooskaabi    VAI_TAG    " 1 have one's eyes open, open one's eyes" ; !Rand key:n73014479859n
 dooskaabshin:dooskaabishin    VAI_TAG    " 1 lie with one's eyes open" ; !Rand key:n73014480024n
@@ -3067,9 +3067,9 @@ dpikweni:dapikweni    VAI_TAG    " 1 stick one's head through an opening, poke o
 dpoode:dapoode    VAI_TAG    " 1 crawl through an opening" ; !Rand key:n73014684357n
 dpwewe:dapwewe    VAI_TAG    " 1 be heard through an opening" ; !Rand key:n73014684426n
 dpweweshin:dapweweshin    VAI_TAG    " 1 sound through an opening" ; !Rand key:n73015154125n
-dsobboon'gizi:dasobiboonagizi    VAI_TAG    " 1 be a certain number of years old, be a certain age [in years]" ; !Rand key:n73015155581n
-dsogiisagzi:dasogiizisagizi    VAI_TAG    " 1 be a certain number of months old, be a certain age [in months]" ; !Rand key:n73015156051n
-dsognagzi:dasogonagizi    VAI_TAG    " 1 be a certain date" ; !Rand key:n73015156809n
+dsobboon'gizi:n5dasobiboonagizi    VAI_TAG    " 1 be a certain number of years old, be a certain age [in years]" ; !Rand key:n73015155581n
+dsogiisagzi:n5dasogiizisagizi    VAI_TAG    " 1 be a certain number of months old, be a certain age [in months]" ; !Rand key:n73015156051n
+dsognagzi:n5dasogonagizi    VAI_TAG    " 1 be a certain date" ; !Rand key:n73015156809n
 dsooza:dasoozo    VAI_TAG    " 1 be pinned down, be trapped" ; !Rand key:n73015342748n
 dwaa'ge:dwaahige    VAI_TAG    " 1 make hole in the ice" ; !Rand key:n73015344740n
 dwaabde:dwaabide    VAI_TAG    " 1 have teeth missing" ; !Rand key:n73015344453n
@@ -3077,14 +3077,14 @@ dwaabde:dawaabide    VAI_TAG    " 1 have teeth missing" ; !Rand key:n73015344453
 dwaashin:dwaashin    VAI_TAG    " 1 fall through the ice" ; !Rand key:n73015344874n
 dwin'ge:dawinige    VAI_TAG    " 1 clear things off, clear things away" ; !Rand key:n73014684633n
 dwishkmaage:dawishkamaage    VAI_TAG    " 1 make room for someone to sit, make way for someone to pass" ; !Rand key:n73015347372n
-dzhigaabwi:dazhigaabawi    VAI_TAG    " 1 stand in a certain place (usually of livestock)" ; !Rand key:n73015348598n
-dzhigneshin:dazhigVv1neshin    VAI_TAG    " 1 have one's remains rest somewhere" ; !Rand key:n73035540708n
-dzhiike:dazhiike    VAI_TAG    " 1 frequent a certain place, hang around someplace;  2 be occupied in a certain place, either working or playing" ; !Rand key:n73015351400n
-dzhikaa:dazhikaa    VAI_TAG    " 1 take a certain amount of time [in transit] to do something" ; !Rand key:n73015351768n
+dzhigaabwi:n5dazhigaabawi    VAI_TAG    " 1 stand in a certain place (usually of livestock)" ; !Rand key:n73015348598n
+dzhigneshin:n5dazhigVv1neshin    VAI_TAG    " 1 have one's remains rest somewhere" ; !Rand key:n73035540708n
+dzhiike:n5dazhiike    VAI_TAG    " 1 frequent a certain place, hang around someplace;  2 be occupied in a certain place, either working or playing" ; !Rand key:n73015351400n
+dzhikaa:n5dazhikaa    VAI_TAG    " 1 take a certain amount of time [in transit] to do something" ; !Rand key:n73015351768n
 dzhinge:dazhinge    VAI_TAG    " 1 gossip, talk about people" ; !Rand key:n73015353815n
 dzhingeshki:dazhingeshki    VAI_TAG    " 1 be a [habitual] gossip" ; !Rand key:n73015353889n
-dzhishin:dazhishin    VAI_TAG    " 1 lie buried in a certain place" ; !Rand key:n73015353989n
-dzhitaa:dazhitaa    VAI_TAG    " 1 take a certain amount of time to do something" ; !Rand key:n73015354120n
+dzhishin:n5dazhishin    VAI_TAG    " 1 lie buried in a certain place" ; !Rand key:n73015353989n
+dzhitaa:n5dazhitaa    VAI_TAG    " 1 take a certain amount of time to do something" ; !Rand key:n73015354120n
 dzhwegnige:dazhweginige    VAI_TAG    " 1 spread things out (of sheetlike objects)" ; !Rand key:n73015355266n
 ekdiiyebi:ayekodiiyebi    VAI_TAG    " 1 have one's rear end get tired from sitting" ; !Rand key:n73033727342n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 ekgaade:ayekogaade    VAI_TAG    " 1 have one's legs get tired, have tired legs" ; !Rand key:n73033727250n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
@@ -6026,7 +6026,7 @@ zoongzi:zoongizi    VAI_TAG    " 1 be sturdy" ; !Rand key:n73036026275n
 zwegoojin:zwegoojin    VAI_TAG    " 1 fall over with a load" ; !Rand key:n73036026915n
 zzagaan'kwe:zazagaanikwe    VAI_TAG    " 1 have tangled hair, have one's hair be tangled" ; !Rand key:n73036023268n
 gchi-aawi:gichi-aawi    VAI_TAG    " 1 be the eldest; be the oldest" ; !Rand key:n65161001842n
-dnaza:danazo    VAI_TAG    " 1 [see dniza]" ; !Rand key:n65296953188n
+dnaza:n5danazo    VAI_TAG    " 1 [see dniza]" ; !Rand key:n65296953188n
 bmase:bimVa1se    VAI_TAG    " 1 [see bmose]" ; !Rand key:n65297760035n
 baashkmin'sige:baashkiminVv1sige    VAI_TAG    " 1 make preserves, make jam" ; !Rand key:n65306129936n
 baapaag'ige:baapaagahige    VAI_TAG    " 1 knock" ; !Rand key:n65306412050n
@@ -6130,9 +6130,9 @@ dezhii:dezhii    VAI_TAG    " 1 have time (to do something)" ; !Rand key:n201132
 dgwaagshi:dagwaagishi    VAI_TAG    " 1 spend fall (in such place), spend autumn (in such place)" ; !Rand key:n201132720-26-59n
 di:idi    VAI_TAG    " 1 have happen to one in a certain way; have something be wrong with one" ; !Rand key:n201132720-52-40n !original UR is di, which is subminimal. OPD has di too, but a reduplicated form ayindi, which indicates it is not subminimal (is it an error?)
 dkon'gaaza:dakonigaazo    VAI_TAG    " 1 be arrested" ; !Rand key:n201132722-17-44n
-dswewaan'gizi:daswewaanagizi    VAI_TAG    " 1 be a certain number of (different) kinds" ; !Rand key:n201132821-1-11n
+dswewaan'gizi:n5daswewaanagizi    VAI_TAG    " 1 be a certain number of (different) kinds" ; !Rand key:n201132821-1-11n
 dtaa:dataa    VAI_TAG    " 1 dwell for some time" ; !Rand key:n201132821-6-4n
-dzhigaa:dazhigaa    VAI_TAG    " 1 dance in a certain place" ; !Rand key:n201132912-13-33n
+dzhigaa:n5dazhigaa    VAI_TAG    " 1 dance in a certain place" ; !Rand key:n201132912-13-33n
 niigi:niigi    VAI_TAG    " 1 be born, come into the world" ; !Rand key:n201132912-38-52n
 gaagiigda:gaagiigido    VAI_TAG    " 1 talk, speak, converse" ; !Rand key:n201132921-22-23n
 gaanzkamii:gaanzakamii    VAI_TAG    " 1 run off, hurry off" ; !Rand key:n201132922-41-28n
@@ -6535,9 +6535,9 @@ dkambiza:dakamibizo    VAI_TAG    " 1 drive across, fly across, go across [drivi
 dkamoodebtoo:dakamoodebatoo    VAI_TAG    " 1 scurry across on all fours" ; !Rand key:n201613122-28-8n
 dkipniishin:dakipiniishin    VAI_TAG    " 1 get chilled in the scrotum from sitting on something cold" ; !Rand key:n201613122-36-36n
 dkishkooza:dakishkoozo    VAI_TAG    " 1 cool off with a drink" ; !Rand key:n201613122-39-48n
-dnaagpii:danaagVv1pii    VAI_TAG    " 1 struggle [with a task] at a certain place" ; !Rand key:n201613122-43-43n
-dnaagshkooza:danaagVv1shkoozo    VAI_TAG    " 1 come weighted down with a load from a certain place" ; !Rand key:n201613122-48-17n
-dnaamdam:danaabandam    VAI_TAG    " 1 be at a certain place in one’s dream, dream that one is at a certain place" ; !Rand key:n201613122-51-21n
+dnaagpii:n5danaagVv1pii    VAI_TAG    " 1 struggle [with a task] at a certain place" ; !Rand key:n201613122-43-43n
+dnaagshkooza:n5danaagVv1shkoozo    VAI_TAG    " 1 come weighted down with a load from a certain place" ; !Rand key:n201613122-48-17n
+dnaamdam:n5danaabandam    VAI_TAG    " 1 be at a certain place in one’s dream, dream that one is at a certain place" ; !Rand key:n201613122-51-21n
 dootookwewebza:dootookwewebizo    VAI_TAG    " 1 [vehicle] rumble, rumble [in driving one’s vehicle]" ; !Rand key:n201613123-6-36n
 dpanaama:dapanaamo    VAI_TAG    " 1 be able to breathe, have one’s breath be able to break through" ; !Rand key:n2016219-11-30n
 dpashkzi:dapashkizi    VAI_TAG    " 1 be able to be heard, have one’s voice break through" ; !Rand key:n2016219-14-9n
@@ -7455,12 +7455,12 @@ dkwaatmawaa:dakwaatamaw    VTA_TAG    " 1 shorten something for smb." ; !Rand ke
 dkwamaa:dakwam    VTA_TAG    " 1 [see dkomaa]" ; !Rand key:n73013958327n
 dkweg'aa:dakwegih    VTA_TAG    " 1 make sth. (an.) short, shorten sth. (an.) (of cloth)" ; !Rand key:n73013958702n
 dkwegkonaa:dakwegikon1    VTA_TAG    " 1 cut sth. (an.) short, shorten sth. (an.) [by cutting it] (of cloth)" ; !Rand key:n73013980430n
-dnaajmaa:danaajim    VTA_TAG    " 1 relate smb. being at a particular place, say that smb. is at a particular place" ; !Rand key:n73101884932n
-dnenmaa:danenim    VTA_TAG    " 1 expect smb., expect smb. to be in a particular place; expect smb. at a particular time" ; !Rand key:n73013982190n
+dnaajmaa:n5danaajim    VTA_TAG    " 1 relate smb. being at a particular place, say that smb. is at a particular place" ; !Rand key:n73101884932n
+dnenmaa:n5danenim    VTA_TAG    " 1 expect smb., expect smb. to be in a particular place; expect smb. at a particular time" ; !Rand key:n73013982190n
 dngamaa:dangam    VTA_TAG    " 1 taste sth. (an.)" ; !Rand key:n73013982465n
 dngishkmawaa:dangishkamaw    VTA_TAG    " 1 kick something belonging to smb." ; !Rand key:n73014376849n
 dngishkwaa:dangishkaw    VTA_TAG    " 1 kick smb." ; !Rand key:n73013983086n
-dnizwaa:danizw    VTA_TAG    " 1 cook sth. (an.) in a certain pot" ; !Rand key:n73014378563n
+dnizwaa:n5danizw    VTA_TAG    " 1 cook sth. (an.) in a certain pot" ; !Rand key:n73014378563n
 doodmawaa:doodamaw    VTA_TAG    " 1 do something to something belonging to smb." ; !Rand key:n73014477128n
 doodoonaa:doodoon1    VTA_TAG    " 1 nurse smb." ; !Rand key:n73014478246n
 doodwaa:doodaw    VTA_TAG    " 1 do something reprehensible to smb." ; !Rand key:n73014379437n
@@ -7474,8 +7474,8 @@ dwishkmawaa:dwishkamaw    VTA_TAG    " 1 make room for smb. to go by, make room 
 dwishkmawaa:dawishkamaw    VTA_TAG    " 1 make room for smb. to go by, make room for smb. to sit" ; !Rand key:n73015344950n
 dzhiikwaa:dazhiikaw    VTA_TAG    " 1 work at sth. (an.), be occupied with sth. (an.)" ; !Rand key:n73015350367n
 dzhimaa:dazhim    VTA_TAG    " 1 discuss smb., gossip about smb., talk about smb." ; !Rand key:n73015351912n
-dzhinaashkawaa:dazhinaazhikaw    VTA_TAG    " 1 chase smb. from a certain place, chase smb. in a certain place" ; !Rand key:n73015353426n
-dzhweggoodoon:dzahwegagoodoon    VTA_TAG    " 1 hang sth. spread out (of sheetlike objects)" ; !Rand key:n73015357043n
+dzhinaashkawaa:n5dazhinaazhikaw    VTA_TAG    " 1 chase smb. from a certain place, chase smb. in a certain place" ; !Rand key:n73015353426n
+dzhweggoodoon:dazhwegagoodoon    VTA_TAG    " 1 hang sth. spread out (of sheetlike objects)" ; !Rand key:n73015357043n
 dzhweggoonaa:dazhwegagoon1    VTA_TAG    " 1 hang sth. (an.) spread out (of sheetlike objects)" ; !Rand key:n73015357171n
 dzhwegnaa:dazhwegin1    VTA_TAG    " 1 spread sth. (an.) out (of sheetlike objects)" ; !Rand key:n73015355428n
 dzhwegshimaa:dazhwegishim    VTA_TAG    " 1 spread sth. (an.) out and lay it on something, lay sth. (an.) spread out on something (of sheetlike objects)" ; !Rand key:n73015355783n
@@ -10721,10 +10721,10 @@ dkwaabiignaan:dakwaabiigin    VTI_AM_THEME    " 1 make sth. short, shorten sth. 
 dkwandaan:dakwand    VTI_AM_THEME    " 1 [see dkondaan]" ; !Rand key:n73013958397n
 dkweggwaadaan:dakwegigwaad    VTI_AM_THEME    " 1 sew sth. [to shorten], shorten sth. [by sewing]" ; !Rand key:n73102083772n
 dkwegkodaan:dakwegikod    VTI_AM_THEME    " 1 cut sth. short, shorten sth. [by cutting it] (of cloth)" ; !Rand key:n73013979983n
-dnaaddaan:danaadVv1d    VTI_AM_THEME    " 1 relate sth. being at a particular place, say that sth. is a particular place" ; !Rand key:n73101884730n
+dnaaddaan:n5danaadVv1d    VTI_AM_THEME    " 1 relate sth. being at a particular place, say that sth. is a particular place" ; !Rand key:n73101884730n
 dnendaan:danend    VTI_AM_THEME    " 1 expect sth., expect sth. to be in a particular place, expect sth. to happen at a particular time" ; !Rand key:n73013982030n
 dngishkaan:dangishk    VTI_AM_THEME    " 1 kick sth." ; !Rand key:n73013983030n
-dnizaan:daniz    VTI_AM_THEME    " 1 cook sth. in a certain pot;  2 cook sth. for a certain amount of time (Wp)" ; !Rand key:n73014378088n
+dnizaan:n5daniz    VTI_AM_THEME    " 1 cook sth. in a certain pot;  2 cook sth. for a certain amount of time (Wp)" ; !Rand key:n73014378088n
 doodaan:dood    VTI_AM_THEME    " 1 do something reprehensible to sth." ; !Rand key:n73014379260n
 dpagnaandaan:dapaganaand    VTI_AM_THEME    " 1 punch sth. through" ; !Rand key:n73014682016n
 dpinaan:dapin    VTI_AM_THEME    " 1 pass sth. through an opening" ; !Rand key:n73014683863n
