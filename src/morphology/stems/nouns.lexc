@@ -1872,15 +1872,15 @@ ndabaan:ondabaan    NI_SET    " 1 water hole, well" ; !Rand key:n71431360479n
 ndabaan:ondahibaan    NI_SET    " 1 water hole, well" ; !Rand key:n71431360479n
 nebaamaa-zhngobiins:nebaamaa-zhingobiins    NI_SET    " 1 Common juniper (evergreen tree or bush with small purple cones)" ; !Rand key:n71431555957n
 negmekwaan:negVv1mekwaan    NI_SET    " 1 spile" ; !Rand key:n7297173074n
-negweki:negawekii    NI_SET    " 1 sand" ; !Rand key:n73033637579n
+negwiiki:negawiikiw2    NI_SET    " 1 sand" ; !Rand key:n73033637579n !Revised to have a final short i (because that is what the surface form has), protected by a w2 (because that is usually what allows a noun-final i to evade apocope)
 nenaabgaan:nenaabagaan    NI_SET    " 1 porridge, rolled oats" ; !Rand key:n71431558079n
 nesegwaabde'gaans:nesegwaabidehigaans    NI_SET    " 1 pin" ; !Rand key:n71431562301n
 netmising:netamising    NI_SET    " 1 first base" ; !Rand key:n71431562658n
-neyaashi:neyaashii    NI_SET    " 1 point [of land], cape [of land]" ; !Rand key:n71431562974n
+neyaashi:neyaashiw2    NI_SET    " 1 point [of land], cape [of land]" ; !Rand key:n71431562974n !Revised to have a final short i (because that is what the surface form has), protected by a w2 (because that is usually what allows a noun-final i to evade apocope)
 ngaasmoon:ningaasimoon    NI_SET    " 1 sail" ; !Rand key:n71431572184n
 ngaasmoon'gaan:ningaasimoonigaan    NI_SET    " 1 tent" ; !Rand key:n71431572237n
 ngig-weyaan:nigig-weyaan    NI_SET    " 1 otter pelt" ; !Rand key:n71431646760n
-+dba'aabaan:dVi1bahaabaan    NI_SET    " 1 used with a number root to indicate a number of miles" ; !Rand key:n71431647199n
+dba'aabaan:dVi1bahaabaan    NI_SET    " 1 used with a number root to indicate a number of miles" ; !Rand key:n71431647199n
 ngokiins:ningokiins    NI_SET    " 1 one acre of land" ; !Rand key:n71431657274n
 ngwaagan:nagwaagan    NI_SET    " 1 trap;  2 rainbow;  3 spider's web" ; !Rand key:n71431660228n
 ni'ii:Bv1nihii    NI_SET    " 1 [see na'ii]" ; !Rand key:n71431746217n
