@@ -376,10 +376,8 @@ define strandedNas [[n|m] (->) 0 || cons  _ cons ];
 
 define cleanse [ [%>|%^|%<|%&|%*] -> 0 ]; !> = suff bound, < pre bound, ^ v-init dep stem marker, & stress marker, *extended prefix boundary
 
-! read lexc /Users/arppe/giellatekno/langs/otw/src/morphology/lexicon.tmp.lexc
-! define Morphology ;
 
-read regex [ ! Morphology.l .o.
+read regex [ 
     L1del        .o.
     rmspecialv    .o. !special char killer
     !preGli      .o. !This is a bloomfield rule that I haven't seen used elsewhere
