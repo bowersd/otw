@@ -1069,6 +1069,7 @@ ziizbaakdaaboo:ziizibaakodaaboo NI_SET "sap" ; !cf ziizibaak... vocab on sap/sug
 gkinoomaadwin:gikinoomaadVv1win     NI_SET "teaching" ; !cf gkin ... vocab on teaching
 gziibiignaagne'gan:giziibiinaaganehigan    NI_SET    "dishcloth, dishrag" ; ! see especially Rand key:n73102058769n
 mdaaswaabik:midaaswaabiko    NI_SET    "ten bucks" ; ! I assume this has something to do with $1 Canadian coins
+negwaki:negawakiw2    NI_SET    " 1 sand" ; !Revised form of negwiiki, this is clearly a compound. Rand key:n73033637579n !Revised to have a final short i (because that is what the surface form has), protected by a w2 (because that is usually what allows a noun-final i to evade apocope)
 
 LEXICON NI
 !{ oddballs (y-final)
