@@ -34,6 +34,7 @@ LEXICON TRANS_GET
 
 LEXICON    VII_DAB_ADDITIONS
 mnazgaade:mVa1nVa1zigaade   VII_TAG "be cooked" ; !mnaza VAI cook (Rhodes has mnozod)
+shekshin:zhazhekisin        VII_TAG "be placed in a row (leaning against something)" ; !(Rhodes has this)
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -8612,7 +8613,7 @@ shamaa:asham    VTA_TAG    " 1 feed smb., feed smb. something" ; !Rand key:n7303
 shawaa:zhashahw    VTA_TAG    " 1 butter sth. (an.), put a spread on sth. (an.), spread sth. (an.) [on an object]" ; !Rand key:n7303407823n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shawebnaa:ashawebin    VTA_TAG    " 1 tilt sth. (an.) aside" ; !Rand key:n73031381015n
 shawejiiyebnaa:ashawejiiyebin1    VTA_TAG    " 1 throw smb. onto his side" ; !Rand key:n73034012026n
-shekshimaa:ashekishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. (an.) in a row" ; !Rand key:n73031383418n
+shekshimaa:zhazhekishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. (an.) in a row" ; !Rand key:n73031383418n
 sheyaabiishmaa:asheyaabiishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. (an.) in a row" ; !Rand key:n73031385670n
 shigboonaa:zhashigoboon1    VTA_TAG    " 1 grind sth. (an.)" ; !Rand key:n7303408159n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shigjiiwaa:zhashigojiihw    VTA_TAG    " 1 crush sth. (an.)" ; !Rand key:n7303407017n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
@@ -11891,7 +11892,7 @@ shagboodoon:zhashagobood    VTI_OO_THEME    " 1 grind sth. into small pieces (LH
 shagjiibdoon:zhashagojiibid    VTI_OO_THEME    " 1 crumble sth." ; !Rand key:n7303136174n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shagsidoon:zhashagosid    VTI_OO_THEME    " 1 crush sth. by striking it against something" ; !Rand key:n73031310165n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shawebdoon:ashawebid    VTI_OO_THEME    " 1 tilt sth. aside" ; !Rand key:n73031379579n
-sheksidoon:ashekisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031384413n
+sheksidoon:zhazhekisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031384413n
 sheyaabiisdoon:asheyaabiisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031385051n
 shigboodoon:zhashigobood    VTI_OO_THEME    " 1 grind sth. " ; !Rand key:n7303408092n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shinaajtoon:Vv1shinaajit    VTI_OO_THEME    " 1 waste sth." ; !Rand key:n7303147566n
