@@ -73,7 +73,7 @@ define shortening [i (->)   [i i::1] || \[i] _ [g|n|n g] .#. ,, !variation in vo
                    o (->)   [o o::1] || \[o] _ [g|n|n g] .#. ,,
                    i i (->) [i ::1], o o (->) o || _ [g|n|n g] .#.
                 ] ; 
-define strandedNas [[n|m] (->) [0::2] || \[a|e|i|o]  _ \[a|e|i|o] ]; 
+define strandedNas [[n|m] (->) [0::2] || \[a|e|i|o]  _ \[a|e|i|o|w|y] ]; !adding further restrictions on the thinking that with an approximant following the cues to n would be less likely to be swallowed
 
 
 define errorUnion [ !cnjNasVowel|
