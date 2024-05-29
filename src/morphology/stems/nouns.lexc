@@ -940,6 +940,7 @@ kwe:ikwew2              NA_SET ; !wag pl, d-hiatus
 !waawaatesi:waawaatesiw2 NA_SET ; !wag pl (short v)
 
 LEXICON NAD
+nmamaanh:%^maamaa    NAD_SET    " 1 my mom, my mother" ; !long vowel variant of nmamaanh, a DAB addition
 !{ oddballs (y-final)
 nnagway:%^nagway2   NAD_SET    " 1 sleeve" ; !Rand key:n71431153168n
 nbaabaa:%^baabaay    NAD_SET    " 1 my dad" ; !Rand key:n72974462914n
