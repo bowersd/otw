@@ -1097,7 +1097,7 @@ mshkiig:mashkiigw1    NI_SET    " 1 marsh, swamp;  2 bush (woody plant) (R)" ; !
 !}
 !{ w2
 mshkiki:mashkikiw2    NI_SET    " 1 medicine, medicinal drug, medicinal herb;  2 herbicide (Wk);  3 (insect) repellant" ; !Rand key:n71430467667n
-bgwi:bigwiw2    NI_SET    " 1 ash, ashes" ; !Rand key:n72976865385n
+!bgwi:bigwiw2    NI_SET    " 1 ash, ashes" ; !Rand key:n72976865385n !this entry matches an entry in the Rhodes dictionary, but not in the OPD. Since we have a stranded nasal deletion rule in the error model, we can comment this one out.
 bgwi:bingwiw2   NI_SET    " 1 ash, ashes" ; !Rand key:n72976865385n
 oodenaw:oodenaw2    NI_SET    " 1 city, town" ; !Rand key:n71435145693n
 gchi-oodena:gichi-oodenaw2    NI_SET    " 1 city, big city, metropolis" ; !Rand key:n20109219-56-57n
