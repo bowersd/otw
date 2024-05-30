@@ -126,6 +126,11 @@ PV/daa+:ga-   V_PREVERBS_DIRECTION " 1 can, could, ought, should, would"; !used 
 !LEXICON V_REDUPLICATION_SET
 !@P.Redup.Red@   V_PREVERBS_DIRECTION ;
 
+LEXICON V_PREVERBS_DIRECTION_GATEWAY !slightly different structure because there is a preverb in this slot with an irregular CCNJ form and we have stacking: gii-bmi-ni-bgidnamwaanenh 'I went around and put it' from MAC
+    V_PREVERBS_RELATIVE ;
+    V_PREVERBS_DIRECTION_IRREGULAR_GET ;
+    V_PREVERBS_DIRECTION ; 
+
 LEXICON V_PREVERBS_DIRECTION
 !{ uncertain of position
 PV/zaagji+:zaagiji-    V_PREVERBS_RELATIVE    " 1 out of [a place], outside" ; !Rand key:n72972574762n
@@ -146,6 +151,7 @@ PV/wi+:wi-     V_PREVERBS_RELATIVE " 1 go and [do something], go [do something]"
                 V_PREVERBS_DIRECTION_IRREGULAR_GET ;
             V_PREVERBS_RELATIVE    ;
 
+
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_GET
 @D.Ccnj@   V_PREVERBS_DIRECTION_IRREGULAR_INDEP ;
 @R.Ccnj@   V_PREVERBS_DIRECTION_IRREGULAR_CCNJ ;
@@ -156,6 +162,11 @@ PV/bi+:abi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do someth
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_CCNJ
 PV/bi+:abi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
 PV/bi+:X2bi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+
+LEXICON V_PREVERBS_DIRECTION_STACKING
+    V_PREVERBS_RELATIVE ;
+    V_PREVERBS_DIRECTION ;
+    V_PREVERBS_DIRECTION_IRREGULAR_INDEP ; 
 
 LEXICON V_PREVERBS_RELATIVE
 !{unsure of position
