@@ -24,7 +24,7 @@ define glideBacknessAssimilation    [w (->) [y::2] || [a|e|i] _ ,,
                                     y (->)  [w::2] || o _ ] ; 
 define preGlideLengthening          [[..] (->) [o::2] || o _ w ,,
                                      [..] (->) [i::2] || i _ y]; !there may also be some ambiguity before nasals
-define wiCoalescence                [w i (->)  [o::2]] ; 
+define wiCoalescence                [w i (->)  [o::2] || [.#.|\[a|i|o|e]] _ ] ; !should this be post-consonantal wi?
 define codaWDeletionMAYBEONSET      [w (->) [0::2] || _ \[a|i|o|e],,
                                      w (->) [0::3] || _ [a|i|o|e]
                                     ];
