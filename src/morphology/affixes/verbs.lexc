@@ -133,23 +133,23 @@ LEXICON V_PREVERBS_DIRECTION_GATEWAY !slightly different structure because there
 
 LEXICON V_PREVERBS_DIRECTION
 !{ uncertain of position
-PV/zaagji+:zaagiji-    V_PREVERBS_RELATIVE    " 1 out of [a place], outside" ; !Rand key:n72972574762n
-PV/biindge+:biindige-    V_PREVERBS_RELATIVE    " 1 used to indicate action that involves entering a building or room" ; !Rand key:n2010113022-28-53n
-PV/bskaabii+:biskaabii-    V_PREVERBS_RELATIVE    " 1 go back, return" ; !Rand key:n201132712-36-52n
-PV/aazhda+:aazhVv1da-    V_PREVERBS_RELATIVE    " 1 from one to another" ; !Rand key:n72974064109n
-PV/mbi+:ombi-    V_PREVERBS_RELATIVE    " 1 go up [in doing something]" ; !Rand key:n71429448810n
+PV/zaagji+:zaagiji-    V_PREVERBS_DIRECTION_STACKING    " 1 out of [a place], outside" ; !Rand key:n72972574762n
+PV/biindge+:biindige-    V_PREVERBS_DIRECTION_STACKING    " 1 used to indicate action that involves entering a building or room" ; !Rand key:n2010113022-28-53n
+PV/bskaabii+:biskaabii-    V_PREVERBS_DIRECTION_STACKING    " 1 go back, return" ; !Rand key:n201132712-36-52n
+PV/aazhda+:aazhVv1da-    V_PREVERBS_DIRECTION_STACKING    " 1 from one to another" ; !Rand key:n72974064109n
+PV/mbi+:ombi-    V_PREVERBS_DIRECTION_STACKING    " 1 go up [in doing something]" ; !Rand key:n71429448810n
 !}
-PV/biiji+:biiji-  V_PREVERBS_RELATIVE " 1 towards this direction, [towards] this way"; !come in direction
-PV/ni+:ani-      V_PREVERBS_RELATIVE " 1 [do something] as one goes away, go away and [do something], go away, on one's way out, [doing something];  2 as time goes on, as time passes, in the course of time;  3 in the future";
-PV/bmi+:bimi-    V_PREVERBS_RELATIVE " 1 come by [and do something], go by [and do something], go by [doing something];  2 in the course of time, as time goes on, in time, through time;  3 going along [doing something], going about [doing something], going about [in the course of one's activities];  4 get around to [doing something]"; !aimless
-PV/bbaa+:bibaa-   V_PREVERBS_RELATIVE " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
-PV/bbaa+:babaa-   V_PREVERBS_RELATIVE " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
-PV/baa+:baa-   V_PREVERBS_RELATIVE " 1 around, about, out and about"; !circumference, exhaustive?
-PV/wa+:awa-     V_PREVERBS_RELATIVE " 1 go and [do sth.]";
-PV/oo+:oo-     V_PREVERBS_RELATIVE " 1 go [do something], go and [do something]";
-PV/wi+:wi-     V_PREVERBS_RELATIVE " 1 go and [do something], go [do something]";
+PV/biiji+:biiji-  V_PREVERBS_DIRECTION_STACKING " 1 towards this direction, [towards] this way"; !come in direction
+PV/ni+:ani-      V_PREVERBS_DIRECTION_STACKING " 1 [do something] as one goes away, go away and [do something], go away, on one's way out, [doing something];  2 as time goes on, as time passes, in the course of time;  3 in the future";
+PV/bmi+:bimi-    V_PREVERBS_DIRECTION_STACKING " 1 come by [and do something], go by [and do something], go by [doing something];  2 in the course of time, as time goes on, in time, through time;  3 going along [doing something], going about [doing something], going about [in the course of one's activities];  4 get around to [doing something]"; !aimless
+PV/bbaa+:bibaa-   V_PREVERBS_DIRECTION_STACKING " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
+PV/bbaa+:babaa-   V_PREVERBS_DIRECTION_STACKING " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
+PV/baa+:baa-   V_PREVERBS_DIRECTION_STACKING " 1 around, about, out and about"; !circumference, exhaustive?
+PV/wa+:awa-     V_PREVERBS_DIRECTION_STACKING " 1 go and [do sth.]";
+PV/oo+:oo-     V_PREVERBS_DIRECTION_STACKING " 1 go [do something], go and [do something]";
+PV/wi+:wi-     V_PREVERBS_DIRECTION_STACKING " 1 go and [do something], go [do something]";
                 V_PREVERBS_DIRECTION_IRREGULAR_GET ;
-            V_PREVERBS_RELATIVE    ;
+            V_PREVERBS_DIRECTION_STACKING    ;
 
 
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_GET
@@ -157,11 +157,11 @@ LEXICON V_PREVERBS_DIRECTION_IRREGULAR_GET
 @R.Ccnj@   V_PREVERBS_DIRECTION_IRREGULAR_CCNJ ;
 
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_INDEP
-PV/bi+:abi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+PV/bi+:abi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
 
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_CCNJ
-PV/bi+:abi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
-PV/bi+:X2bi-  V_PREVERBS_RELATIVE " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+PV/bi+:abi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+PV/bi+:X2bi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
 
 LEXICON V_PREVERBS_DIRECTION_STACKING
     V_PREVERBS_RELATIVE ;
