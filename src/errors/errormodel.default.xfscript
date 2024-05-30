@@ -28,6 +28,9 @@ define wiCoalescence                [w i (->)  [o::2] || [.#.|\[a|i|o|e]] _ ] ; 
 define codaWDeletionMAYBEONSET      [w (->) [0::2] || _ \[a|i|o|e],,
                                      w (->) [0::3] || _ [a|i|o|e]
                                     ];
+define glottalWCluster              [[..] -> h  || [a|e|i|o] [\[c|s|n|z]|[[c|s|n|z] h]] _ w,   !preceding even parity
+                                                   [a|e|i|o] _ w \[a|e|i|o]                    !preceding odd parity
+                                    ] ; !Texts in the Odawa Language Project have hw clusters on the surface (which Piggott and Grafstein were criticized for having these in their dictionary by Rhodes 1985b:462). these clusters are eliminated by the phonological module here. No weight because this should come for free
 define hw                           [h (->) [[w|%'|0]::2] || \[c|s|n|z] _ ];
 
 define nVSzhAlternation             [z h (->) [n::2] || \[%-] _ .#., \[%-] _ i ] ; 
@@ -93,6 +96,7 @@ define errorUnion [ !cnjNasVowel|
         wiCoalescence|
         codaWDeletionMAYBEONSET|
         hw| 
+        glottalWCluster| 
         stridentDevoicing|
         postStridentDevoicing|
         clusterDevoicing|
