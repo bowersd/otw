@@ -310,7 +310,7 @@ define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]
 
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
-define hw2w [ h -> 0 || \[s|z|c|n] _ w] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9, we allow the h to appear when word final, otherwise, h (this is a guess)
+define hw2w [ h -> 0 || \[s|z|c|n] _ w] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9, we allow the h to appear when word final, otherwise, w (this is a guess)
 
 define y2y  [y2 -> y ];
 
