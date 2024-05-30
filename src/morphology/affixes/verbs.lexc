@@ -148,8 +148,6 @@ PV/baa+:baa-   V_PREVERBS_DIRECTION_STACKING " 1 around, about, out and about"; 
 PV/wa+:awa-     V_PREVERBS_DIRECTION_STACKING " 1 go and [do sth.]";
 PV/oo+:oo-     V_PREVERBS_DIRECTION_STACKING " 1 go [do something], go and [do something]";
 PV/wi+:wi-     V_PREVERBS_DIRECTION_STACKING " 1 go and [do something], go [do something]";
-                V_PREVERBS_DIRECTION_IRREGULAR_GET ;
-            V_PREVERBS_DIRECTION_STACKING    ;
 
 
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_GET
