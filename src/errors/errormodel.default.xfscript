@@ -31,7 +31,7 @@ define codaWDeletionMAYBEONSET      [w (->) [0::2] || _ \[a|i|o|e],,
 define glottalWCluster              [[..] -> h  || [a|e|i|o] [\[c|s|n|z]|[[c|s|n|z] h]] _ w,   !preceding even parity
                                                    [a|e|i|o] _ w \[a|e|i|o]                    !preceding odd parity
                                     ] ; !Texts in the Odawa Language Project have hw clusters on the surface (which Piggott and Grafstein were criticized for having these in their dictionary by Rhodes 1985b:462). these clusters are eliminated by the phonological module here. No weight because this should come for free
-define hw                           [h (->) [[w|%'|0]::2] || \[c|s|n|z] _ ];
+!define hw                           [h (->) [[w|%'|0]::2] || \[c|s|n|z] _ ];
 
 define nVSzhAlternation             [z h (->) [n::2] || \[%-] _ .#., \[%-] _ i ] ; 
 
@@ -67,8 +67,11 @@ define nkApos                       [[..] (->) [%'::2] || n _ k ] ;
 !!!! Al rules
 define gratuitousNH                 [y (->) [h ::2]|| n _ ,, [..] (->) h || n _ s ] ; 
 define kaw2kow                      [a (->) [o ::2]|| k _ w] ; 
-define y2h                          [y (->) [%'::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
-define glotGlide                    [h (->) [w ::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
+!define y2h                          [y (->) [%'::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
+!define glotGlide                    [h (->) [w ::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
+define nonConsFluidity              [y (->) [[%'::2]|h::2|w::2], 
+                                     h (->) [[w::2]|y::2], 
+                                     w (->) [[%'::2]|h::2|y::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this combines the y2h, glotGlide, hw rules into one, with a bit more specificity for hw
 define unrounding                   [o (->) [a ::2]|| \[o] _ \[o]] ; !this is a general dialectal feature (beyond the specific final syllable vowel lowering rule)
 define ko2kwa                       [o (->) [w a::2], w a (->) [o::2] || [g|k|m] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
 define nvw5oLEVEL                   [n w a (->) [n o o::2] , [a|i|o] w a (->) [o o::2] || _  [n|g] .#. ] ; !DAB added for Al Corbiere. capturing a leveling found in Al Corbiere texts: baatiiniwag>baatiinoog, zhgi'gaazowag > zhgi'gaazoog. This isn't just an Al thing. it shows up in a text in Rand's corpus too (for baatiini/o). the first case is there to handle times where the post-consonantal vowel syncopated, but it is kept very specific because I am not sure how often this error happens
@@ -95,8 +98,8 @@ define errorUnion [ !cnjNasVowel|
         preGlideLengthening|
         wiCoalescence|
         codaWDeletionMAYBEONSET|
-        hw| 
-        glottalWCluster| 
+        !hw| 
+        !glottalWCluster| 
         stridentDevoicing|
         postStridentDevoicing|
         clusterDevoicing|
@@ -112,8 +115,9 @@ define errorUnion [ !cnjNasVowel|
         nkApos|
         gratuitousNH| 
         kaw2kow|
-        y2h|
-        glotGlide|
+       ! y2h|
+       ! glotGlide|
+        nonConsFluidity|
         unrounding|
         ko2kwa|
         nVSzhAlternation|
