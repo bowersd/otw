@@ -17,6 +17,7 @@ hfst-fst2fst -O -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphop
 hfst-fst2fst -O -i morphophonologyclitics_analyze_mcor_spelling.hfst -o morphophonologyclitics_analyze_mcor_spelling.hfstol
 
 hfst-xfst -F errors/errormodel.default.xfscript
+hfst-fst2fst -w -i errormodel.hfst -o errormodel.hfstol
 hfst-compose -1 morphophonologyclitics_generate.hfst -2  errormodel.hfst -o morphophonologyclitics_generate_relaxed.hfst -F
 hfst-invert -i morphophonologyclitics_generate_relaxed.hfst -o morphophonologyclitics_analyze_relaxed.hfst
 hfst-compose -1 morphophonologyclitics_generate_mcor_spelling.hfst -2  errormodel.hfst -o morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -F
