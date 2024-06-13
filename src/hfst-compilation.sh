@@ -43,7 +43,7 @@ hfst-fst2fst -w -i morphophonologyclitics_analyze_relaxed_slim.hfst -o morphopho
 #hfst-fst2fst -O -i spellrelaxclitics_analyze.hfst -o spellrelaxclitics_valentine_analyze.hfstol
 
 #rm tmp.lexc
-#rm morphology.hfst
+rm morphology.hfst
 rm phonology.hfst
 rm morphophonology.hfst
 rm clitics.hfst
