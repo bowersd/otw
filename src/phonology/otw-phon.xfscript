@@ -178,6 +178,17 @@ define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition pal
 define rmBound [[%>|%<|%^] -> 0]; 
 !} end morph bound
 
+!###
+!# c2 management
+!# some of these rules feed vowel coalescence (vCoal) below
+!###
+
+define c2o [[c2 -> o o || [m|n] _ k ] .o.
+            [c2 -> o   || [m|n] _ g ] .o.
+            [c2 (->) o || [a|i|o] _ k ] ]; ![c2 -> a || [m|n] _ ]
+define c2a [c2 -> a || [m|n] _ ] ; 
+define rmc2 [c2 -> 0] ; 
+
 !####
 !#reduplication template filling rules
 !####
@@ -413,7 +424,10 @@ read regex [
     vLenmagad   .o.
     ccEpen      .o.
     rmBound     .o. !rules at or above this line reference morpheme boundaries
-    cfill       .o.
+    c2o         .o. !imperative rules (at least for vai)
+    c2a         .o.
+    rmc2        .o.
+    cfill       .o. !reduplication rules
     fortite     .o.
     vfill       .o.
     ccnjexcrspec .o.

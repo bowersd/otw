@@ -6675,6 +6675,7 @@ LEXICON VAIO_TAG
 
 LEXICON VTA_DAB_ADDITIONS 
 nazwaa:inazw  VTA_TAG "cook in a certain way" ; !drawn from a print lexicon by MAC
+ndagkenmaa:nadagikenim    VTA_TAG    " 1 check sth. (animate), investigate sth. (animate)" ; !From Amy Debassige
 
 LEXICON VTA
 aabnaabndamwaa:aabanaabandamaw    VTA_TAG    " 1 look back at sth. belonging to smb." ; !Rand key:n72971766018n
@@ -10341,6 +10342,7 @@ LEXICON VTA_TAG
 
 LEXICON VTI_DAB_ADDITIONS 
 mookdaan:mookod  VTI_AM_THEME "carve st"; !many words with /mookod/ for carving/carpentry/building
+biindaabkinaan:biindaabikin    VTI_AM_THEME    " 1 put sth. in the oven" ; !From Amy Debassige
 
 LEXICON VTI
 baapiiw'aan:baapiiwih    VTI_AM_THEME    " 1 brush dust or crumbs from sth. [with an instrument]" ; !Rand key:n65306382067n

@@ -363,8 +363,12 @@ n5  !phantom in that becomes en in CCNJ (limited to d-initial words, especially 
 d1  !special seg in 3/X for VAI CNJ, nd1 -> ng, nd1b1 -> ngib, d1b1 -> p, (n)d1w4b1 -> gob, d1w4 -> gw
 d2  !a highly deletable d that ends many viis
 c1  !abstract connective for negation, conjuncts
-    !s->z / c1 _
+    !s->z / c1 _            (optional in VAI imperatives, handled by dual lexical entries for imperative negation)
     ![..] -> y / V c1 _ V
+c2  !abstract connective for imperatives. need to optionally lengthen a stem-final vowel, have a long oo between a nasal and a k, need an o before g, and a before n/d
+    !nas c2 -son -> nas V -son
+    !nas V  velar -> nas o velar
+    !nas V  else -> nas a velar
 b1  !b to trigger nasal place assimilation (conjunct order)
     !avoid general assimilation, because in other areas lang breaks up clusters rather than assimilating. Could probably hack it with general assimilation, but staying safe
         ! m>b -> mib in nouns
