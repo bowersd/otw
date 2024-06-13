@@ -664,17 +664,19 @@ LEXICON VAI_CNJ_PCP_OBV
 
 !just one slot under our analysis
 LEXICON VAI_IMPER 
-+2:%>n       # ;
-+2Pl:g       # ;
-+21Pl:daa      # ;
++2:c2n       # ;
++2Pl:c2g       # ;
++21Pl:c2daa      # ;
 !+Imm+2:%>n       # ;
 !+Imm+2Pl:g       # ;
 !+Imm+21Pl:daa      # ;
-+Del+2:%>kan     # ; !stem-final short vowels may lengthen before this suff
-+Del+2Pl:%>keg     # ; !stem-final short vowels may lengthen before this suff
-+Neg+2:%>ken2    # ;
-+Neg+2Pl:%>kegon2  # ;
++Del+2:c2kan     # ; !stem-final short vowels may lengthen before this suff
++Del+2Pl:c2keg     # ; !stem-final short vowels may lengthen before this suff
++Neg+2:%>ken2    # ;  !> for voicing
++Neg+2Pl:%>kegon2  # ; !> for voicing
 +Neg+21Pl:siidaa  # ;
++Neg+21Pl:c1siidaa  # ; !optional c1 to take advantage of the rule cnjVoi that voices sii in exactly the places we want it to be voiced here
+!<+Neg +21Pl:(c1) s i i d a a>  # ;
 
 !} imp end
 !} VAI end
