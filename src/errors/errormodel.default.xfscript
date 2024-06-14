@@ -5,6 +5,7 @@ define finDevoi                     [b -> [p::2], d -> [t::2], g -> [k::2], z ->
 ![b -> p || m _ .#. ,,
 !                                    d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
 define finLowering                  [o -> a, i -> e || \[a|i|o|e] _  (p|t|k|c h|
+                                                                        b|d|g|j|
                                                                         [s (h)](p|t|k)|
                                                                         [m (b)]|[n (d|g|j|z (h)|h)]|
                                                                         w|y|%'|h) .#. ] ;
