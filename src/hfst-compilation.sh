@@ -20,7 +20,7 @@ hfst-xfst -F errors/errormodel.default.xfscript
 hfst-fst2fst -w -i errormodel.hfst -o errormodel.hfstol
 hfst-compose -1 morphophonologyclitics_generate.hfst -2  errormodel.hfst -o morphophonologyclitics_generate_relaxed.hfst -F
 hfst-invert -i morphophonologyclitics_generate_relaxed.hfst -o morphophonologyclitics_analyze_relaxed.hfst
-hfst-compose -1 morphophonologyclitics_generate_mcor_spelling.hfst -2  errormodel.hfst -o morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -F
+hfst-compose -1 morphophonologyclitics_generate_mcor_spelling.hfst -2  errormodel_corbiere.hfst -o morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -F
 hfst-invert -i morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -o morphophonologyclitics_analyze_mcor_spelling_relaxed.hfst
 hfst-fst2fst -w -i morphophonologyclitics_analyze_mcor_spelling_relaxed.hfst -o morphophonologyclitics_analyze_mcor_spelling_relaxed.hfstol
 hfst-fst2fst -w -i morphophonologyclitics_generate_mcor_spelling_relaxed.hfst -o morphophonologyclitics_generate_mcor_spelling_relaxed.hfstol
@@ -28,7 +28,6 @@ hfst-fst2fst -w -i morphophonologyclitics_analyze_relaxed.hfst -o morphophonolog
 hfst-fst2fst -w -i morphophonologyclitics_generate_relaxed.hfst -o morphophonologyclitics_generate_relaxed.hfstol
 
 
-hfst-xfst -F errors/errormodel.slim.xfscript
 hfst-compose -1 morphophonologyclitics_generate.hfst -2  errormodel_slim.hfst -o morphophonologyclitics_generate_relaxed_slim.hfst -F
 hfst-invert -i morphophonologyclitics_generate_relaxed_slim.hfst -o  morphophonologyclitics_analyze_relaxed_slim.hfst 
 hfst-fst2fst -w -i morphophonologyclitics_analyze_relaxed_slim.hfst -o morphophonologyclitics_analyze_relaxed_slim.hfstol 
