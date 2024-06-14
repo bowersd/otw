@@ -672,6 +672,7 @@ LEXICON VAI_IMPER
 !+Imm+21Pl:daa      # ;
 +Del+2:c2kan     # ; !stem-final short vowels may lengthen before this suff
 +Del+2Pl:c2keg     # ; !stem-final short vowels may lengthen before this suff
++Del+21Pl:c2kang    # ; !nothing given for VAIs in Valentine 2001. Gap filled by comparing with VTI imperatives, which are basically identical (unsurprisingly). stem-final short vowels presumably may lengthen before this suff
 +Neg+2:%>ken2    # ;  !> for voicing
 +Neg+2Pl:%>kegon2  # ; !> for voicing
 +Neg+21Pl:siidaa  # ;
