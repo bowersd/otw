@@ -129,3 +129,50 @@ define errorUnion [ !cnjNasVowel|
 
 regex [errorUnion errorUnion] ; 
 save stack errormodel.hfst
+clear stack
+define errorSlim [ !cnjNasVowel|
+        !finPostNasVoi|
+        finDevoi|
+        finLowering|
+        nasalEmergence|
+        !gnMetathesis|
+        !initialGlideDeletion|
+        !structuralW|
+        !postYRaising|
+        !indDeletion|
+        !nDeletion|
+        !vvnTovvnh|
+        !glideBacknessAssimilation|
+        !preGlideLengthening|
+        !wiCoalescence|
+        !codaWDeletionMAYBEONSET|
+        !hw| 
+        !glottalWCluster| 
+        stridentDevoicing|
+        postStridentDevoicing|
+        !clusterDevoicing|
+        homorgObsMerge|
+        lenisNasAssim|
+        lenisStopDeletion|
+        lenisFortition|
+        initialHomorgMerge|
+        initialHomorgSonMerge|
+        nasalPlaceAssimilation|
+        !negHyphEpenthesis|
+        aposHyphDeletion|
+        !nkApos|
+        gratuitousNH| 
+        !kaw2kow|
+       ! y2h|
+       ! glotGlide|
+        nonConsFluidity|
+        unrounding|
+        ko2kwa !|
+        !nVSzhAlternation|
+        !nvw5oLEVEL|
+        !shortening|
+        !strandedNas
+        ]; 
+
+regex [errorSlim errorSlim] ; 
+save stack errormodel_slim.hfst
