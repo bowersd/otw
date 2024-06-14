@@ -36,7 +36,8 @@ LEXICON    VII_DAB_ADDITIONS
 mnazgaade:mVa1nVa1zigaade   VII_TAG "be cooked" ; !mnaza VAI cook (Rhodes has mnozod)
 shekshin:zhazhekisin        VII_TAG "be placed in a row (leaning against something)" ; !(Rhodes has this)
 mmaazkaa:mamaazikaa        VII_TAG "start to move" ; !(OPD has this)
-naakmat:inaakomad2          VII_TAG "be a frame/wall" ; !several naakm words here (naakmatoon, naakmagan, naakma'aa) OPD lacks anything relevant with inaak
+naakmat:inaakomod2          VII_TAG "go along a frame/wall" ; !several naakm words here (naakmatoon, naakmagan, naakma'aa) OPD lacks anything relevant with inaak
+mnose:minose              VII_TAG "go well" ; 
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -1796,6 +1797,7 @@ zhitmaagaazo:ozhitamaagaazo    VAI_TAG "be made to make st. for someone" ; !in d
 mnowaajmo:minowaajimo       VAI_TAG "tell good things" ; !VTA mnaajmaa, mnwaajmaa tell good things about sb
 naanniwak:naanani           VAI_TAG "be five in number" ; !dictionary has VAIP naanniwak. Once VAIP's are added this should go
 mmaazkaa:mamaazikaa        VAI_TAG "start to move" ; !(OPD has this)
+mnose:minose              VAI_TAG "go well" ; 
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
