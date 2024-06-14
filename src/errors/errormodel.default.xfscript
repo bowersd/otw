@@ -130,67 +130,12 @@ define errorUnion [ !cnjNasVowel|
 regex [errorUnion errorUnion] ; 
 save stack errormodel.hfst
 clear stack
-define errorSlim [ !cnjNasVowel|
-        !finPostNasVoi|
-        finDevoi|
-        finLowering|
-        nasalEmergence|
-        !gnMetathesis|
-        !initialGlideDeletion|
-        !structuralW|
-        !postYRaising|
-        !indDeletion|
-        !nDeletion|
-        !vvnTovvnh|
-        !glideBacknessAssimilation|
-        !preGlideLengthening|
-        !wiCoalescence|
-        !codaWDeletionMAYBEONSET|
-        !hw| 
-        !glottalWCluster| 
-        stridentDevoicing|
-        postStridentDevoicing|
-        !clusterDevoicing|
-        homorgObsMerge|
-        lenisNasAssim|
-        lenisStopDeletion|
-        lenisFortition|
-        initialHomorgMerge|
-        initialHomorgSonMerge|
-        nasalPlaceAssimilation|
-        !negHyphEpenthesis|
-        aposHyphDeletion|
-        !nkApos|
-        gratuitousNH| 
-        !kaw2kow|
-       ! y2h|
-       ! glotGlide|
-        nonConsFluidity|
-        unrounding|
-        ko2kwa !|
-        !nVSzhAlternation|
-        !nvw5oLEVEL|
-        !shortening|
-        !strandedNas
-        ]; 
-
-regex [errorSlim errorSlim] ; 
-save stack errormodel_slim.hfst
-clear stack
-
-define nonConsFluidity              [y (->) [[%'::1]|[h::1]|[w::1]], 
-                                     %' (->) [[w::1]|[y::1]|[h::1]],  !corbiere specific version that has apostrophes instead of h. test kinwaajbiiyan being mapped to corbiere-style kinwaajbii'an
-                                     w (->) [[%'::1]|h::1|y::1] || [a|e|i|o] _ [a|e|i|o] ] ;  !this combines the y2h, glotGlide, hw rules into one, with a bit more specificity for hw
-
-define errorCorbiere [ !cnjNasVowel|
-        !finPostNasVoi|
-        finDevoi|
-        finLowering|
-        nasalEmergence|
+define errorSlim [ errorUnion - 
+        [
         gnMetathesis|
         initialGlideDeletion|
         structuralW|
-        posYRaising|
+        postYRaising|
         indDeletion|
         nDeletion|
         vvnTovvnh|
@@ -198,33 +143,32 @@ define errorCorbiere [ !cnjNasVowel|
         preGlideLengthening|
         wiCoalescence|
         codaWDeletionMAYBEONSET|
-        !hw| 
-        !glottalWCluster| 
         stridentDevoicing|
         postStridentDevoicing|
         clusterDevoicing|
-        homorgObsMerge|
-        lenisNasAssim|
-        lenisStopDeletion|
-        lenisFortition|
-        initialHomorgMerge|
-        initialHomorgSonMerge|
-        nasalPlaceAssimilation|
         negHyphEpenthesis|
-        aposHyphDeletion|
         nkApos|
-        gratuitousNH| 
         kaw2kow|
-       ! y2h|
-       ! glotGlide|
-        nonConsFluidity|
         unrounding|
-        ko2kwa|
+        ko2kwa !|
         nVSzhAlternation|
         nvw5oLEVEL|
         shortening|
         strandedNas
+        ]
         ]; 
 
+regex [errorSlim errorSlim] ; 
+save stack errormodel_slim.hfst
+clear stack
+
+define errorCorbiere [errorUnion - nonConsFluidity
+        ]; 
+
+define nonConsFluidity              [y (->) [[%'::1]|[h::1]|[w::1]], 
+                                     %' (->) [[w::1]|[y::1]|[h::1]],  !corbiere specific version that has apostrophes instead of h. test kinwaajbiiyan being mapped to corbiere-style kinwaajbii'an
+                                     w (->) [[%'::1]|h::1|y::1] || [a|e|i|o] _ [a|e|i|o] ] ;  !this combines the y2h, glotGlide, hw rules into one, with a bit more specificity for hw
+
+define errorCorbiere [errorCorbiere|nonConsFluidity] ; 
 regex [errorCorbiere errorCorbiere] ; 
 save stack errormodel_corbiere.hfst
