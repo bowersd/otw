@@ -1156,7 +1156,8 @@ LEXICON VTA_INFLECTIONAL_PASSIVE
 +ThmPas+VAI:aa      VTA_INFLECTIONAL_PASSIVE_AA_GET ; !never takes person prefixes IIRC
 
 LEXICON VTA_INFLECTIONAL_PASSIVE_IGOO_GET
-@D.Person.3@@D.Order.Cnj@    VAI_INDEP_NEG ; !first or second person prefixes legal in independent order
+@R.Person.1@@D.Order.Cnj@    VAI_INDEP_NEG ; !first or second person prefixes legal in independent order. Since person is being required, and person is only assigned by prefixes, and cnj does not allow prefixes, the check for cnj is probably redundant (formerly check was just denying 3, which left cnj's able to creep in)
+@R.Person.2@@D.Order.Cnj@    VAI_INDEP_NEG ; !first or second person prefixes legal in independent order. Since person is being required, and person is only assigned by prefixes, and cnj does not allow prefixes, the check for cnj is probably redundant (formerly check was just denying 3, which left cnj's able to creep in)
 @D.Person@                   VTA_INFLECTIONAL_PASSIVE_IGOO_CNJ ; 
 
 LEXICON VTA_INFLECTIONAL_PASSIVE_IGOO_CNJ
