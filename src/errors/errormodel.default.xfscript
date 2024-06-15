@@ -28,7 +28,7 @@ define preGlideLengthening          [[..] (->) [o::2] || o _ w ,,
                                      [..] (->) [i::2] || i _ y]; !there may also be some ambiguity before nasals
 define wiCoalescence                [w i (->)  [o::2] || [.#.|\[a|i|o|e]] _ ] ; !should this be post-consonantal wi?
 define codaWDeletionMAYBEONSET      [w (->) [0::2], y (->) [0::2] || _ [b|d|g|p|t|k|z|s|j|c|m|n],,
-                                     w (->) [0::3] || _ [a|i|o|e]
+                                     w (->) [0::3], y (->) [0::2] || _ [a|i|o|e]
                                     ];
 define glottalWCluster              [[..] -> h  || [a|e|i|o] [\[c|s|n|z]|[[c|s|n|z] h]] _ w,   !preceding even parity
                                                    [a|e|i|o] _ w \[a|e|i|o]                    !preceding odd parity
