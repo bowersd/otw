@@ -55,8 +55,8 @@ define lenisNasAssim [ b (->) [m::2], g (->) [n g::2], d (->) [n::2] ||  _ [m|n]
                        b n (->) [m::2] || _ d ] ; !If I had a dime for every bndam -> mdam...
 define lenisStopDeletion [[d|b|g] (->) [0::2] ||  _ [[b|d|g|p|t|k|m (b)|n (d|[z (h)]|j)|[[z (h)]]|[[s] (h) (p|t|k)]j|c h] (w|y)] [a|i|o|e]] ; 
 define lenisFortition [ b (->) [p::2], g (->) [k::2], d (->) [t::2], j (->) [c h::2], z h (->) [s h::2], z (->) [s::2] ||  _ [p|t|k|s|c h] ] ; !from Rhodes 1985b p 468
-define initialHomorgMerge    [ b b -> [b::2], g g -> [g::2], d d -> [d::2] || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
-define initialHomorgSonMerge [ m m -> [m::2], n n -> [n::2], w w -> [w::2] || [.#.|%-] _ ] ; !from Rhodes 1985b p 468
+define initialHomorgMerge    [ b b -> [b::1], g g -> [g::1], d d -> [d::1] || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
+define initialHomorgSonMerge [ m m -> [m::1], n n -> [n::1], w w -> [w::1] || [.#.|%-] _ ] ; !from Rhodes 1985b p 468
 define nasalPlaceAssimilation       [m (->) [n::2] || _ [d|t|g|k|z|s] ,,
                                     m (->) [[n %']::2] || _ [z|s|g|k] ,,
                                     n (->) [m::2] || _ [b|p] ]; 
