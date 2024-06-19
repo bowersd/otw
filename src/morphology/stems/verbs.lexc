@@ -6215,7 +6215,7 @@ bgashknaabde:bagashkanaabide    VAI_TAG    " 1 have a cavity or cavities in one'
 maanenjge:maanenjige    VAI_TAG    " 1 challenge, compete" ; !Rand key:n201141016-52-56n
 aandaanza:aandaanzo    VAI_TAG    " 1 change colour, become a different colour" ; !Rand key:n201141016-57-30n
 wenpan'giza:wenipanagizo    VAI_TAG    " 1 be cheap, be priced cheap" ; !Rand key:n201141017-6-38n
-ndagkenjge:nadagikenjige    VAI_TAG    " 1 check things [out], investigate things, research things" ; !Rand key:n201141017-15-38n
+ndagkenjge:nandagikenjige    VAI_TAG    " 1 check things [out], investigate things, research things" ; !Rand key:n201141017-15-38n
 baashkdaakwii:baashkidaakwii    VAI_TAG    " 1 climb over a fence or railing" ; !Rand key:n201141017-34-42n
 niiskaangza:niiskaangizo    VAI_TAG    " 1 be messy, clutter up someplace" ; !Rand key:n201141017-56-19n
 niiskaangdaasa:niiskaangVv1daaso    VAI_TAG    " 1 clutter things up" ; !Rand key:n201141018-4-39n
@@ -6678,7 +6678,7 @@ LEXICON VAIO_TAG
 
 LEXICON VTA_DAB_ADDITIONS 
 nazwaa:inazw  VTA_TAG "cook in a certain way" ; !drawn from a print lexicon by MAC
-ndagkenmaa:nadagikenim    VTA_TAG    " 1 check sth. (animate), investigate sth. (animate)" ; !From Amy Debassige
+ndagkenmaa:nandagikenim    VTA_TAG    " 1 check sth. (animate), investigate sth. (animate)" ; !From Amy Debassige
 
 LEXICON VTA
 aabnaabndamwaa:aabanaabandamaw    VTA_TAG    " 1 look back at sth. belonging to smb." ; !Rand key:n72971766018n
@@ -7162,7 +7162,7 @@ bmiwnaa:bimiwin1    VTA_TAG    " 1 carry sth. (an.), transport sth. (an.)" ; !Ra
 bmoodes'aa:bimoodesih    VTA_TAG    " 1 shove smb. and make him crawl" ; !Rand key:n72978055103n
 bmoodeshmaa:bmoodeshim    VTA_TAG    " 1 shove smb. into a crawling position" ; !Rand key:n73037150423n
 bmoomaa:bimoom    VTA_TAG    " 1 carry smb. on one's back" ; !Rand key:n72978055633n
-bmwaa:bimw    VTA_TAG    " 1 shoot smb. [with an arrow], shoot at smb. [with an arrow]" ; !Rand key:n72978056771n
+bmwaa:bimw6    VTA_TAG    " 1 shoot smb. [with an arrow], shoot at smb. [with an arrow]" ; !Rand key:n72978056771n
 bna'naa:bVi1nahan1    VTA_TAG    " 1 lose smb.'s trail" ; !Rand key:n72978956361n
 bnaabmaa:bVi1naabam    VTA_TAG    " 1 overlook smb., fail to notice smb., lose sight of smb." ; !Rand key:n73000755641n
 bnaaj'aa:bVi1naajih    VTA_TAG    " 1 ruin sth. (an.), spoil sth. (an.)" ; !Rand key:n72978059532n
