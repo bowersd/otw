@@ -24,7 +24,7 @@ define gratuitousNH                 [y (->) [h ::3]|| n _ ,, [..] (->) h || n _ 
 define wiCoalescence                [w i (->)  [o::3] || [.#.|\[a|i|o|e]] _ ] ; !should this be post-consonantal wi?
 define postYRaising                 [a (->) [i::1] || y _ \[a]] ; 
 define preGlideLengthening          [[..] (->) [o::3] || o _ w ,,
-                                    w -> [0::3] || .#. _ o] ;
+                                     [..] (->) [i::3] || i _ y]; !there may also be some ambiguity before nasals
 define kaw2kow                      [a (->) [o ::3]|| k _ w] ; 
 define ko2kwa                       [o (->) [w a::3], w a (->) [o::3] || [g|k|m] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
 
@@ -32,13 +32,13 @@ define ko2kwa                       [o (->) [w a::3], w a (->) [o::3] || [g|k|m]
 !define y2h                          [y (->) [%'::3] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
 !define glotGlide                    [h (->) [w ::3] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
 define initialGlideDeletion         [y -> [0::3] || .#. _ [i|e],,
+                                    w -> [0::3] || .#. _ o] ;
 define structuralW                  [[..] -> [w::3] || .#. _ \[e|a|i|o|p|t|k|s (h)] (w) [e|a|i|o] ] ; 
 define glideBacknessAssimilation    [w (->) [y::3] || [a|e|i] _ ,,
                                     y (->)  [w::3] || o _ ] ; 
 define nonConsFluidity              [y (->) [[%'::2]|h::2|w::2], 
                                      h (->) [[w::2]|y::2],  !corbiere specific version below with apostrophes instead of h. 
                                      w (->) [[%'::2]|h::2|y::2] || [a|e|i|o] _ [a|e|i|o] ] ;  !this combines the y2h, glotGlide, hw rules into one, with a bit more specificity for hw
-                                     [..] (->) [i::3] || i _ y]; !there may also be some ambiguity before nasals
 define codaWDeletionMAYBEONSET      [w (->) [0::3], y (->) [0::3] || _ [b|d|g|p|t|k|z|s|j|c|m|n],,
                                      w (->) [0::4], y (->) [0::3] || _ [a|i|o|e]
                                     ];
