@@ -6,15 +6,15 @@ hfst-xfst -F phonology/otw-phon.xfscript
 hfst-compose-intersect -1 morphology.hfst -2 phonology.hfst -o morphophonology.hfst
 hfst-lexc clitics/clitics.lexc -o clitics.hfst
 hfst-concatenate -1 morphophonology.hfst -2 clitics.hfst -o morphophonologyclitics_generate.hfst
-hfst-fst2fst -O -i morphophonologyclitics_generate.hfst -o morphophonologyclitics_generate.hfstol
+hfst-fst2fst -w -i morphophonologyclitics_generate.hfst -o morphophonologyclitics_generate.hfstol
 hfst-invert -i morphophonologyclitics_generate.hfst -o morphophonologyclitics_analyze.hfst
-hfst-fst2fst -O -i morphophonologyclitics_analyze.hfst -o morphophonologyclitics_analyze.hfstol
+hfst-fst2fst -w -i morphophonologyclitics_analyze.hfst -o morphophonologyclitics_analyze.hfstol
 
 hfst-xfst -F orthography/fiero2corbiere.xfscript
 hfst-compose-intersect -1 morphophonologyclitics_generate.hfst -2 fiero2corbiere.hfst -o morphophonologyclitics_generate_mcor_spelling.hfst
 hfst-invert -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphophonologyclitics_analyze_mcor_spelling.hfst
-hfst-fst2fst -O -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphophonologyclitics_generate_mcor_spelling.hfstol
-hfst-fst2fst -O -i morphophonologyclitics_analyze_mcor_spelling.hfst -o morphophonologyclitics_analyze_mcor_spelling.hfstol
+hfst-fst2fst -w -i morphophonologyclitics_generate_mcor_spelling.hfst -o morphophonologyclitics_generate_mcor_spelling.hfstol
+hfst-fst2fst -w -i morphophonologyclitics_analyze_mcor_spelling.hfst -o morphophonologyclitics_analyze_mcor_spelling.hfstol
 
 hfst-xfst -F errors/errormodel.default.xfscript
 hfst-fst2fst -w -i errormodel.hfst -o errormodel.hfstol
