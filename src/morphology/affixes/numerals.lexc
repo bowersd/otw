@@ -18,11 +18,11 @@ nis+:nis            NUMERAL_STEM_FORMATION ;
 niiw+:niiw          NUMERAL_STEM_FORMATION ; 
 naan+:naanan            NUMERAL_STEM_FORMATION ; 
 naan+:naan          NUMERAL_STEM_FORMATION ; 
-ngodwaas+:ningodwaasw           NUMERAL_STEM_FORMATION ; 
-niizhwaas+:niizhwaasw           NUMERAL_STEM_FORMATION ; 
-nshwaas+:nishwaasw          NUMERAL_STEM_FORMATION ; 
-zhaangs+:zhaangasw          NUMERAL_STEM_FORMATION ; 
-mdaas+:midaasw          NUMERAL_STEM_FORMATION ; 
+ngodwaas+:ningodwaas           NUMERAL_STEM_FORMATION ; 
+niizhwaas+:niizhwaas           NUMERAL_STEM_FORMATION ; 
+nshwaas+:nishwaas          NUMERAL_STEM_FORMATION ; 
+zhaangs+:zhaangas          NUMERAL_STEM_FORMATION ; 
+mdaas+:midaas          NUMERAL_STEM_FORMATION ; 
 
 LEXICON NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN
 bezhig:bezhig               # ;
