@@ -24,7 +24,7 @@ nshwaas+:nishwaasw          NUMERAL_STEM_FORMATION ;
 zhaangs+:zhaangasw          NUMERAL_STEM_FORMATION ; 
 mdaas+:midaasw          NUMERAL_STEM_FORMATION ; 
 
-LEXICON NUMERAL_STANDALONE_FORMS
+LEXICON NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN
 bezhig:bezhig               # ;
 niizh:niizh                 # ;
 nswi:niswi                  # ;
@@ -35,4 +35,10 @@ ngodwaaswi:ningodwaaswi     # ;
 niizhwaaswi:niizhwaasawi    # ;
 nshwaaswi:nishwaaswi        # ;
 zhaangswi:zhaangaswi        # ;
-mdaaswi:mdaaswi             # ;
+
+LEXICON NUMERAL_STANDALONE_FORMS_TEN
+mdaaswi:mdaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
+
+LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
+    # ; 
++shi+:-ashi-    NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ; !form numbers 11-19
