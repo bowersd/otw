@@ -23,7 +23,7 @@ ngod:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana
 mdaas:midaas          NUMERAL_STEM_HUNDRED_GET "ten"; 
 
 LEXICON NUMERAL_ROOT_FORMS_TWO_NINE
-niizh:niizh             NUMERAL_ROOT_FORMS_GET "two"; 
+niizh:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two"; 
 nis:nis                 NUMERAL_ROOT_FORMS_GET "three"; 
 nii:nii                 NUMERAL_ROOT_FORMS_GET "four"; 
 !naan+:naanan           NUMERAL_ROOT_FORMS_GET "five"; 
