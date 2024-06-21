@@ -11,30 +11,59 @@ nshwaasoo+:nishwaasoo-                  NUMERAL_PRE_FORMATION ;
 zhaangsoo+:zhaangasoo-                  NUMERAL_PRE_FORMATION ;
 mdaaso+:mdaaso-                 NUMERAL_PRE_FORMATION ;
 
-LEXICON NUMERAL_ROOT_FORMS
-ngod+:ningod            NUMERAL_STEM_FORMATION ; 
-niizh+:niizh            NUMERAL_STEM_FORMATION ; 
-nis+:nis            NUMERAL_STEM_FORMATION ; 
-niiw+:niiw          NUMERAL_STEM_FORMATION ; 
-!naan+:naanan            NUMERAL_STEM_FORMATION ; 
-naan+:naan          NUMERAL_STEM_FORMATION ; 
-ngodwaas+:ningodwaas           NUMERAL_STEM_FORMATION ; 
-niizhwaas+:niizhwaas           NUMERAL_STEM_FORMATION ; 
-nshwaas+:nishwaas          NUMERAL_STEM_FORMATION ; 
-zhaangs+:zhaangas          NUMERAL_STEM_FORMATION ; 
-mdaas+:midaas          NUMERAL_STEM_FORMATION ; 
+LEXICON NUMERAL_ROOTS_GATEWAY
+        NUMERAL_ROOT_FORMS_ONE_TEN ; 
+        NUMERAL_ROOT_FORMS_TWO_NINE ; 
+
+LEXICON NUMERAL_ROOT_FORMS_ONE_TEN
+ngod:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100)
+mdaas:midaas          NUMERAL_STEM_HUNDRED_GET "ten"; 
+
+LEXICON NUMERAL_ROOT_FORMS_TWO_NINE
+niizh:niizh             NUMERAL_ROOT_FORMS_GET "two"; 
+nis:nis                 NUMERAL_ROOT_FORMS_GET "three"; 
+nii:nii                 NUMERAL_ROOT_FORMS_GET "four"; 
+!naan+:naanan           NUMERAL_ROOT_FORMS_GET "five"; 
+naan:naan               NUMERAL_ROOT_FORMS_GET "five"; 
+ngodwaas:ningodwaas     NUMERAL_ROOT_FORMS_GET "six"; 
+niizhwaas:niizhwaas     NUMERAL_ROOT_FORMS_GET "seven"; 
+nshwaas:nishwaas        NUMERAL_ROOT_FORMS_GET "eight"; 
+zhaangs:zhaangas        NUMERAL_ROOT_FORMS_GET "nine"; 
+
+LEXICON NUMERAL_ROOT_FORMS_GET
+@D.NUMERAL.TEN@         NUMERAL_STEM_TEN_SET ; 
+@D.NUMERAL.HUNDRED@     NUMERAL_STEM_HUNDRED_SET ;
+
+LEXICON NUMERAL_STEM_TEN_SET  
+@P.NUMERAL.TEN@     NUMERAL_STEM_TEN ;
+
+LEXICON NUMERAL_STEM_TEN
++mdana:%>midana     NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ; !need to trigger epenthesis when it is CC
+
+LEXICON NUMERAL_STEM_HUNDRED_GET
+@D.NUMERAL.HUNDRED@ NUMERAL_STEM_HUNDRED_SET ;
+
+LEXICON NUMERAL_STEM_HUNDRED_SET
+@P.NUMERAL.HUNDRED@ NUMERAL_STEM_HUNDRED ;
+
+LEXICON NUMERAL_STEM_HUNDRED
++waak:waak     NUMERAL_STEM_HUNDRED_GATEWAY ; 
+
+LEXICON NUMERAL_STEM_HUNDRED_GATEWAY
+            # ;
++shi+:-shi- NUMERAL_ROOTS_GATEWAY ; 
 
 LEXICON NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN
-bezhig:bezhig               # ;
-niizh:niizh                 # ;
-nswi:niswi                  # ;
-niiwin:niiwin               # ;
-naanan:naanan               # ;
-!naanin:naanin               # ;
-ngodwaaswi:ningodwaaswi     # ;
-niizhwaaswi:niizhwaasawi    # ;
-nshwaaswi:nishwaaswi        # ;
-zhaangswi:zhaangaswi        # ;
+bezhig:bezhig               # "one";
+niizh:niizh                 # "two";
+nswi:niswi                  # "three";
+niiwin:niiwin               # "four";
+naanan:naanan               # "five";
+!naanin:naanin               # "five";
+ngodwaaswi:ningodwaaswi     # "six";
+niizhwaaswi:niizhwaasawi    # "seven";
+nshwaaswi:nishwaaswi        # "eight";
+zhaangswi:zhaangaswi        # "nine";
 
 LEXICON NUMERAL_STANDALONE_FORMS_TEN
 mdaaswi:mdaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
