@@ -79,9 +79,9 @@ niizhwaaswi:niizhwaasawi    # "seven";
 nshwaaswi:nishwaaswi        # "eight";
 zhaangswi:zhaangaswi        # "nine";
 
-LEXICON NUMERAL_STANDALONE_FORMS_TEN
+LEXICON NUMERAL_STANDALONE_FORMS_TEN !THIS NEEDS TO BE CONNECTED UPSTREAM
 mdaaswi:mdaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
 
-LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
+LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY 
     # ; 
 +shi+:-ashi-    NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ; !form numbers X1-X9
