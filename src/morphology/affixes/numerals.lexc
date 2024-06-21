@@ -1,0 +1,38 @@
+
+LEXICON NUMERAL_PRE_FORMS
+ngo+:nigo-                  NUMERAL_PRE_FORMATION ;
+niizhoo+:niizhoo-                   NUMERAL_PRE_FORMATION ;
+nso+:niso-                  NUMERAL_PRE_FORMATION ;
+niiwoo+:niiwoo-                 NUMERAL_PRE_FORMATION ;
+naano+:naano-                   NUMERAL_PRE_FORMATION ;
+ngodwaasoo+:nigodwaasoo-                    NUMERAL_PRE_FORMATION ;
+niizhwaasoo+:niizhwaasoo-                   NUMERAL_PRE_FORMATION ;
+nshwaasoo+:nishwaasoo-                  NUMERAL_PRE_FORMATION ;
+zhaangsoo+:zhaangasoo-                  NUMERAL_PRE_FORMATION ;
+mdaaso+:mdaaso-                 NUMERAL_PRE_FORMATION ;
+
+LEXICON NUMERAL_ROOT_FORMS
+ngod+:ningod            NUMERAL_STEM_FORMATION ; 
+niizh+:niizh            NUMERAL_STEM_FORMATION ; 
+nis+:nis            NUMERAL_STEM_FORMATION ; 
+niiw+:niiw          NUMERAL_STEM_FORMATION ; 
+naan+:naanan            NUMERAL_STEM_FORMATION ; 
+naan+:naan          NUMERAL_STEM_FORMATION ; 
+ngodwaas+:ningodwaasw           NUMERAL_STEM_FORMATION ; 
+niizhwaas+:niizhwaasw           NUMERAL_STEM_FORMATION ; 
+nshwaas+:nishwaasw          NUMERAL_STEM_FORMATION ; 
+zhaangs+:zhaangasw          NUMERAL_STEM_FORMATION ; 
+mdaas+:midaasw          NUMERAL_STEM_FORMATION ; 
+
+LEXICON NUMERAL_STANDALONE_FORMS
+bezhig:bezhig               # ;
+niizh:niizh                 # ;
+nswi:niswi                  # ;
+niiwin:niiwin               # ;
+naanan:naanan               # ;
+naanin:naanin               # ;
+ngodwaaswi:ningodwaaswi     # ;
+niizhwaaswi:niizhwaasawi    # ;
+nshwaaswi:nishwaaswi        # ;
+zhaangswi:zhaangaswi        # ;
+mdaaswi:mdaaswi             # ;
