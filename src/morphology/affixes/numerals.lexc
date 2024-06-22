@@ -22,24 +22,24 @@ LEXICON NUMERAL_ROOTS_GATEWAY
 @R.NUMERAL.HUNDRED@@D.NUMERAL.TEN@  NUMERAL_HALF ; 
 
 LEXICON ORDINALS
-Ord+ntam:e-ntam     # ;
-Ord+ntam:shki-ntam     # ;
-Ord+ntam:aapji-ntam     # ;
-Ord+:eko-               ORDINALS_SET ;
+PV/e+ntam+Adv:e-ntam     # ; !first ordinal
+PV/shki+ntam+Adv:shki-ntam     # ; !first ordinal
+PV/aapji+ntam+Adv:aapji-ntam     # ; !first ordinal
+PV/CCNJ+PV/ko+:eko-               ORDINALS_SET ;
 
 LEXICON ORDINALS_SET
-@P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TWO_NINE ; 
+@P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TWO_NINE ;  !used to ensure ordinals end in repetitions. currently repetitions are limited to simple roots, can't build a more complex numeral (and so it is also impossible to build a more complex ordinal)
 @P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TEN ; 
 
 
 LEXICON NUMERAL_HALF
-aabta:aabta     # ; 
+aabta:aabta     # "half"; 
 
 LEXICON NUMERAL_ROOT_FORMS_ONE
-ngod:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100)
+ngod:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100). ordinal form is ntam (with just e-, not eko-)
 
 LEXICON NUMERAL_ROOT_FORMS_TEN
-mdaas:midaa          NUMERAL_ROOT_FORMS_TEN_GET "ten"; 
+mdaas:midaa          NUMERAL_ROOT_FORMS_TEN_GET "ten"; !mdaas everywhere except repetition forms (and thus ordinals as well, then mdaas/mdaach. can't combine with mdana, can combine with waak
 
 LEXICON NUMERAL_ROOT_FORMS_TEN_GET
 @D.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TEN_S ; 
@@ -53,15 +53,15 @@ LEXICON NUMERAL_ROOT_FORMS_TEN_S_CH
 0:ch        NUMERAL_ROOT_FORMS_REPETITION ; 
 
 LEXICON NUMERAL_ROOT_FORMS_TWO_NINE
-niizh:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two"; 
-nis:nis                 NUMERAL_ROOT_FORMS_35_GATEWAY "three"; 
-nii:nii                 NUMERAL_ROOT_FORMS_FOUR_GATEWAY "four"; 
-!naan+:naanan           NUMERAL_ROOT_FORMS_35_GATEWAY "five"; 
-naan:naan               NUMERAL_ROOT_FORMS_35_GATEWAY "five"; 
-ngodwaas:ningodwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "six"; 
-niizhwaas:niizhwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "seven"; 
-nshwaas:nishwaa        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "eight"; 
-zhaangs:zhaanga        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "nine"; 
+niizh:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two";        !20 is niizhdana (no m), otherwise regular
+nis:nis                 NUMERAL_ROOT_FORMS_35_GATEWAY "three";   !fully regular
+nii:nii                 NUMERAL_ROOT_FORMS_FOUR_GATEWAY "four";  !nii everywhere, except in repetition form, then niiwing
+!naan+:naanan           NUMERAL_ROOT_FORMS_35_GATEWAY "five";    !have not seen this variant, but it was mercurially listed in valentine 2001:874
+naan:naan               NUMERAL_ROOT_FORMS_35_GATEWAY "five";    !fully regular
+ngodwaas:ningodwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "six"; !ngodwaas everywhere but repetition forms (and thus ordinals as well), then ngodwaach
+niizhwaas:niizhwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "seven"; !niizhwaas everywhere but repetition forms (and thus ordinals as well), then niizhwaach
+nshwaas:nishwaa        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "eight"; !nshwaas everywhere but repetition forms (and thus ordinals as well), then nshwaach
+zhaangs:zhaanga        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "nine"; !zhaangs everywhere but repetition forms (and thus ordinals as well), then zhaangch
 
 LEXICON NUMERAL_ROOT_FORMS_35_GATEWAY
                     NUMERAL_ROOT_FORMS_REPETITION ; 
@@ -76,7 +76,7 @@ LEXICON NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY
 0:ch                NUMERAL_ROOT_FORMS_REPETITION  ; 
 
 LEXICON NUMERAL_ROOT_FORMS_REPETITION
-+Loc:ing # ; 
++VII+Cnj+0:ing # ; 
 
 LEXICON NUMERAL_ROOT_FORMS_GET_TWO
                                         NUMERAL_ROOT_FORMS_REPETITION ; 
@@ -108,6 +108,13 @@ LEXICON NUMERAL_STEM_HUNDRED
 LEXICON NUMERAL_STEM_HUNDRED_GATEWAY
             # ;
 +shi+:-shi- NUMERAL_ROOTS_GATEWAY ; 
+
+LEXICON DISTRIBUTIVE_REDUPLICATION
+Dist+CRED1e     DISTRIBUTIVE_REDUPLICATION_GATEWAY
+
+LEXICON DISTRIBUTIVE_REDUPLICATION_GATEWAY
+        NUMERAL_STANDALONE_FORMS_LESS_THAN_10 ;
+        NUMERAL_STANDALONE_FORMS_10 ;
 
 LEXICON NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN
 bezhig:bezhig               # "one";
