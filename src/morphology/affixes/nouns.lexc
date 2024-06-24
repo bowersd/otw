@@ -49,7 +49,7 @@
 !LEXICON N_EXTENDED_PREFIX_HYPHEN
 !0:-     NOUNS ; 
 !        NOUNS ; 
-!
+
 LEXICON N_PRENOUNS
 !{NOT IN DICT
 PN/gaami+:gaami-    NOUNS    " 1 across [a body of water]" ; !
