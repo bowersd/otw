@@ -55,7 +55,7 @@ LEXICON N_PRENOUNS
 PN/gaami+:gaami-    NOUNS    " 1 across [a body of water]" ; !
 !}
 PN/aabta+:aabita-    NOUNS    " 1 half " ; !Rand key:n72972558580n
-PN/baapaagi-shki+:baapaagi-oshki-    NOUNS    " 1 brand spanking new" ; !Rand key:n73010342316n
+PN/baapaagi+PN/shki+:baapaagi-oshki-    NOUNS    " 1 brand spanking new" ; !Rand key:n73010342316n
 PN/baate+:baate-    NOUNS    " 1 dried" ; !Rand key:n72975264705n
 PN/bbashko+:babashko-    NOUNS    " 1 bald, hairless" ; !Rand key:n72976161091n
 PN/bgoji+:bagVo1ji-    NOUNS    " 1 untame, wild" ; !Rand key:n72976843359n
@@ -87,14 +87,8 @@ PN/waabshki+:waabishki-        NOUNS    " 1 white/gray" ; !DAB addition
 PN/mtigo+:mitigo-        NOUNS    " 1 wooden" ; !DAB addition
 PN/myagi+:mayagi-    NOUNS    " 1 foreign, strange" ; !Rand key:n71430565470n
 PN/naami+:anaami-    NOUNS    " 1 under" ; !Rand key:n71431052170n
-PN/niiwo+:niiwo-    NOUNS    " 1 four" ; !Rand key:n71431061169n
-PN/naano+:naano-    NOUNS    " 1 five" ; !Rand key:n71431061169n
-PN/n'go+:ningo-    NOUNS    " 1 one" ; !Rand key:n71431647032n
 PN/niiji+:iiji-    NOUNS    " 1 my fellow [so-and-so]" ; !Rand key:n73082447790n needs a prefix?
 PN/nwiiji+:wiiji-    NOUNS    " 1 my fellow [person]" ; !Rand key:n73071982720n needs a prefix?
-PN/niizhoo+:niizhoo-    NOUNS    " 1 two" ; !Rand key:n71431845259n
-PN/n'so+:niso-    NOUNS    " 1 three" ; !Rand key:n71434558604n
-PN/shki+:oshki-    NOUNS    " 1 new;  2 young" ; !Rand key:n7303409726n
 PN/waawye+:waawiye-    NOUNS    " 1 round" ; !Rand key:n73071851611n
 PN/wenda+:wenda-    NOUNS    " 1 of no special kind, regular" ; !Rand key:n73034032619n
 PN/yekwaa+:ayekwaa-    NOUNS    " 1 at the end" ; !Rand key:n73072240567n
@@ -103,12 +97,20 @@ PN/zaaw+:ozaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
 PN/aagwi+:aagawi-    NOUNS    " 1 behind, located behind" ; !Rand key:n20101278-46-15n
 !PN/da+:oda-    NOUNS    " 1 his/her/their" ; !Rand key:n201132713-44-38n
 !PN/doo+:o-    NOUNS    " 1 <i>the third person possessor marker</i>" ; !Rand key:n20113286-58-47n
-PN/dso+:daso-    NOUNS    " 1 a certain number of, so many of" ; !Rand key:n201132819-26-23n
-PN/endso+:endaso-    NOUNS    " 1 each, every" ; !Rand key:n201132916-43-33n
 PN/ge+:ge-    NOUNS    " 1 on the one hand...on the other hand; however;  2 too, also" ; !Rand key:n201133016-48-3n
 PN/baashji+:baashiji-    NOUNS    " 1 over, beyond (a specified object or location)" ; !Rand key:n20114915-37-53n
 PN/bbooni+:bibooni-    NOUNS    " 1 winter [type], type used in winter, appropriate for winter, etc." ; !Rand key:n201611110-38-48n
 PN/bganji+:baganji-    NOUNS    " 1 stupid, useless" ; !Rand key:n20161128-27-41n
+!{used in counting 
+PN/shki+:oshki-    NOUNS    " 1 new;  2 young" ; !Rand key:n7303409726n
+PN/n'go+:ningo-    NOUNS    " 1 one" ; !Rand key:n71431647032n
+PN/niizhoo+:niizhoo-    NOUNS    " 1 two" ; !Rand key:n71431845259n
+PN/n'so+:niso-    NOUNS    " 1 three" ; !Rand key:n71434558604n
+PN/niiwo+:niiwo-    NOUNS    " 1 four" ; !Rand key:n71431061169n
+PN/naano+:naano-    NOUNS    " 1 five" ; !Rand key:n71431061169n
+PN/dso+:daso-    NOUNS    " 1 a certain number of, so many of" ; !Rand key:n201132819-26-23n
+PN/endso+:endaso-    NOUNS    " 1 each, every" ; !Rand key:n201132916-43-33n
+! end used in counting}
             NOUNS ;
 
 LEXICON N_CON_DIM   
