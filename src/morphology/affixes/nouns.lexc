@@ -52,64 +52,64 @@
 
 LEXICON N_PRENOUNS
 !{NOT IN DICT
-PN/gaami+:gaami-    NOUNS    " 1 across [a body of water]" ; !
+PN/gaami+:gaami-                        N_PRENOUNS    " 1 across [a body of water]" ; !
 !}
-PN/aabta+:aabita-    NOUNS    " 1 half " ; !Rand key:n72972558580n
-PN/baapaagi+PN/shki+:baapaagi-oshki-    NOUNS    " 1 brand spanking new" ; !Rand key:n73010342316n
-PN/baate+:baate-    NOUNS    " 1 dried" ; !Rand key:n72975264705n
-PN/bbashko+:babashko-    NOUNS    " 1 bald, hairless" ; !Rand key:n72976161091n
-PN/bgoji+:bagVo1ji-    NOUNS    " 1 untame, wild" ; !Rand key:n72976843359n
-PN/biinji+:biinji-    NOUNS    " 1 in, inside" ; !Rand key:n72976956595n
-PN/dbik+:dibik-    NOUNS    " 1 night" ; !Rand key:n72994040520n
-PN/de+:de-    NOUNS    " 1 fair (amount), moderate (amount)" ; !Rand key:n73000754739n
-PN/gaadi+:gaadi-    NOUNS    " 1 spotted" ; !Rand key:n73016040578n
-PN/gbe+:gabe-    NOUNS    " 1 all, whole [length of time], entire [length of time]" ; !Rand key:n73017881737n
-PN/gchi+:gichi-    NOUNS    " 1 big, great, major" ; !Rand key:n73019338764n
-PN/gchitwaa+:gichitwaa-    NOUNS    " 1 holy, revered, venerable, saint, saintly;  2 special; classy" ; !Rand key:n73019354833n
-PN/gdagi+:gidagi-    NOUNS    " 1 freckled, mottled, spotted" ; !Rand key:n73019358803n
-PN/gete+:gete-    NOUNS    " 1 old" ; !Rand key:n73020052657n
-PN/ggashki+:gVi1gashki-    NOUNS    " 1 raw, uncooked" ; !Rand key:n73020284244n
-PN/giimooji+:giimooji-    NOUNS    " 1 secret" ; !Rand key:n73023045613n
-PN/giji+:Va1giji-    NOUNS    " 1 on, on top of" ; !Rand key:n73024358573n
-PN/gnaaj+:gVo1naaj-    NOUNS    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029576n
-PN/jiigi+:jiigi-    NOUNS    " 1 near" ; !Rand key:n72916440151n
-PN/maapiitaa+:maapiitaa-    NOUNS    " 1 sometime during" ; !Rand key:n73032439911n
-PN/mndaago+:mandaago-    NOUNS    " 1 beautiful, fair, handsome (usually, of a person)" ; !Rand key:n71429344252n
-PN/megwe+:megwe-    NOUNS    " 1 among, in, in the middle of, in the midst of" ; !Rand key:n71429560148n
-PN/mji+:maji-    NOUNS    " 1 bad, evil, mischievous, naughty" ; !Rand key:n71429741132n
-PN/mshi+:mishi-    NOUNS    " 1 big" ; !Rand key:n71430434048n
-PN/mkade+:makade-    NOUNS    " 1 black" ; !Rand key:n71429743236n
-PN/msko+:misko-    NOUNS    " 1 red" ; !Rand key:n71430546577n
-PN/zhaawshko+:ozhaawashko-    NOUNS    " 1 green/blue" ; !DAB addition
-PN/zaawi+:ozaawi-        NOUNS    " 1 orange/yellow/brown" ; !DAB addition zaaw- is what Rhodes listed (not in text corpus though), zaawi- is in OPD (and in text corpus). some cases of zaaw- listed in rhodes. these are listed directly
-PN/waabi+:waabi-        NOUNS    " 1 white/gray" ; !DAB addition
-PN/waabshki+:waabishki-        NOUNS    " 1 white/gray" ; !DAB addition
-PN/mtigo+:mitigo-        NOUNS    " 1 wooden" ; !DAB addition
-PN/myagi+:mayagi-    NOUNS    " 1 foreign, strange" ; !Rand key:n71430565470n
-PN/naami+:anaami-    NOUNS    " 1 under" ; !Rand key:n71431052170n
-PN/niiji+:iiji-    NOUNS    " 1 my fellow [so-and-so]" ; !Rand key:n73082447790n needs a prefix?
-PN/nwiiji+:wiiji-    NOUNS    " 1 my fellow [person]" ; !Rand key:n73071982720n needs a prefix?
-PN/waawye+:waawiye-    NOUNS    " 1 round" ; !Rand key:n73071851611n
-PN/wenda+:wenda-    NOUNS    " 1 of no special kind, regular" ; !Rand key:n73034032619n
-PN/yekwaa+:ayekwaa-    NOUNS    " 1 at the end" ; !Rand key:n73072240567n
-PN/zaaw+:ozaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
-!DUP REMOVE!PN/zaaw+:zaaw-    NOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
-PN/aagwi+:aagawi-    NOUNS    " 1 behind, located behind" ; !Rand key:n20101278-46-15n
-!PN/da+:oda-    NOUNS    " 1 his/her/their" ; !Rand key:n201132713-44-38n
-!PN/doo+:o-    NOUNS    " 1 <i>the third person possessor marker</i>" ; !Rand key:n20113286-58-47n
-PN/ge+:ge-    NOUNS    " 1 on the one hand...on the other hand; however;  2 too, also" ; !Rand key:n201133016-48-3n
-PN/baashji+:baashiji-    NOUNS    " 1 over, beyond (a specified object or location)" ; !Rand key:n20114915-37-53n
-PN/bbooni+:bibooni-    NOUNS    " 1 winter [type], type used in winter, appropriate for winter, etc." ; !Rand key:n201611110-38-48n
-PN/bganji+:baganji-    NOUNS    " 1 stupid, useless" ; !Rand key:n20161128-27-41n
+PN/aabta+:aabita-                       N_PRENOUNS    " 1 half " ; !Rand key:n72972558580n
+PN/baapaagi+PN/shki+:baapaagi-oshki-    N_PRENOUNS    " 1 brand spanking new" ; !Rand key:n73010342316n
+PN/baate+:baate-                        N_PRENOUNS    " 1 dried" ; !Rand key:n72975264705n
+PN/bbashko+:babashko-                   N_PRENOUNS    " 1 bald, hairless" ; !Rand key:n72976161091n
+PN/bgoji+:bagVo1ji-                     N_PRENOUNS    " 1 untame, wild" ; !Rand key:n72976843359n
+PN/biinji+:biinji-                      N_PRENOUNS    " 1 in, inside" ; !Rand key:n72976956595n
+PN/dbik+:dibik-                         N_PRENOUNS    " 1 night" ; !Rand key:n72994040520n
+PN/de+:de-                              N_PRENOUNS    " 1 fair (amount), moderate (amount)" ; !Rand key:n73000754739n
+PN/gaadi+:gaadi-                        N_PRENOUNS    " 1 spotted" ; !Rand key:n73016040578n
+PN/gbe+:gabe-                           N_PRENOUNS    " 1 all, whole [length of time], entire [length of time]" ; !Rand key:n73017881737n
+PN/gchi+:gichi-                         N_PRENOUNS    " 1 big, great, major" ; !Rand key:n73019338764n
+PN/gchitwaa+:gichitwaa-                 N_PRENOUNS    " 1 holy, revered, venerable, saint, saintly;  2 special; classy" ; !Rand key:n73019354833n
+PN/gdagi+:gidagi-                       N_PRENOUNS    " 1 freckled, mottled, spotted" ; !Rand key:n73019358803n
+PN/gete+:gete-                          N_PRENOUNS    " 1 old" ; !Rand key:n73020052657n
+PN/ggashki+:gVi1gashki-                 N_PRENOUNS    " 1 raw, uncooked" ; !Rand key:n73020284244n
+PN/giimooji+:giimooji-                  N_PRENOUNS    " 1 secret" ; !Rand key:n73023045613n
+PN/giji+:Va1giji-                       N_PRENOUNS    " 1 on, on top of" ; !Rand key:n73024358573n
+PN/gnaaj+:gVo1naaj-                     N_PRENOUNS    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029576n
+PN/jiigi+:jiigi-                        N_PRENOUNS    " 1 near" ; !Rand key:n72916440151n
+PN/maapiitaa+:maapiitaa-                N_PRENOUNS    " 1 sometime during" ; !Rand key:n73032439911n
+PN/mndaago+:mandaago-                   N_PRENOUNS    " 1 beautiful, fair, handsome (usually, of a person)" ; !Rand key:n71429344252n
+PN/megwe+:megwe-                        N_PRENOUNS    " 1 among, in, in the middle of, in the midst of" ; !Rand key:n71429560148n
+PN/mji+:maji-                           N_PRENOUNS    " 1 bad, evil, mischievous, naughty" ; !Rand key:n71429741132n
+PN/mshi+:mishi-                         N_PRENOUNS    " 1 big" ; !Rand key:n71430434048n
+PN/mkade+:makade-                       N_PRENOUNS    " 1 black" ; !Rand key:n71429743236n
+PN/msko+:misko-                         N_PRENOUNS    " 1 red" ; !Rand key:n71430546577n
+PN/zhaawshko+:ozhaawashko-              N_PRENOUNS    " 1 green/blue" ; !DAB addition
+PN/zaawi+:ozaawi-                       N_PRENOUNS    " 1 orange/yellow/brown" ; !DAB addition zaaw- is what Rhodes listed (not in text corpus though), zaawi- is in OPD (and in text corpus). some cases of zaaw- listed in rhodes. these are listed directly
+PN/waabi+:waabi-                        N_PRENOUNS    " 1 white/gray" ; !DAB addition
+PN/waabshki+:waabishki-                 N_PRENOUNS    " 1 white/gray" ; !DAB addition
+PN/mtigo+:mitigo-                       N_PRENOUNS    " 1 wooden" ; !DAB addition
+PN/myagi+:mayagi-                       N_PRENOUNS    " 1 foreign, strange" ; !Rand key:n71430565470n
+PN/naami+:anaami-                       N_PRENOUNS    " 1 under" ; !Rand key:n71431052170n
+PN/niiji+:iiji-                         N_PRENOUNS    " 1 my fellow [so-and-so]" ; !Rand key:n73082447790n needs a prefix?
+PN/nwiiji+:wiiji-                       N_PRENOUNS    " 1 my fellow [person]" ; !Rand key:n73071982720n needs a prefix?
+PN/waawye+:waawiye-                     N_PRENOUNS    " 1 round" ; !Rand key:n73071851611n
+PN/wenda+:wenda-                        N_PRENOUNS    " 1 of no special kind, regular" ; !Rand key:n73034032619n
+PN/yekwaa+:ayekwaa-                     N_PRENOUNS    " 1 at the end" ; !Rand key:n73072240567n
+PN/zaaw+:ozaaw-                         N_PRENOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
+!DUP REMOVE!PN/zaaw+:zaaw-              N_PRENOUNS    " 1 brown, orange, yellow" ; !Rand key:n73072274211n
+PN/aagwi+:aagawi-                       N_PRENOUNS    " 1 behind, located behind" ; !Rand key:n20101278-46-15n
+!PN/da+:oda-                            N_PRENOUNS    " 1 his/her/their" ; !Rand key:n201132713-44-38n
+!PN/doo+:o-                             N_PRENOUNS    " 1 <i>the third person possessor marker</i>" ; !Rand key:n20113286-58-47n
+PN/ge+:ge-                              N_PRENOUNS    " 1 on the one hand...on the other hand; however;  2 too, also" ; !Rand key:n201133016-48-3n
+PN/baashji+:baashiji-                   N_PRENOUNS    " 1 over, beyond (a specified object or location)" ; !Rand key:n20114915-37-53n
+PN/bbooni+:bibooni-                     N_PRENOUNS    " 1 winter [type], type used in winter, appropriate for winter, etc." ; !Rand key:n201611110-38-48n
+PN/bganji+:baganji-                     N_PRENOUNS    " 1 stupid, useless" ; !Rand key:n20161128-27-41n
 !{used in counting 
-PN/shki+:oshki-    NOUNS    " 1 new;  2 young" ; !Rand key:n7303409726n
-PN/n'go+:ningo-    NOUNS    " 1 one" ; !Rand key:n71431647032n
-PN/niizhoo+:niizhoo-    NOUNS    " 1 two" ; !Rand key:n71431845259n
-PN/n'so+:niso-    NOUNS    " 1 three" ; !Rand key:n71434558604n
-PN/niiwo+:niiwo-    NOUNS    " 1 four" ; !Rand key:n71431061169n
-PN/naano+:naano-    NOUNS    " 1 five" ; !Rand key:n71431061169n
-PN/dso+:daso-    NOUNS    " 1 a certain number of, so many of" ; !Rand key:n201132819-26-23n
-PN/endso+:endaso-    NOUNS    " 1 each, every" ; !Rand key:n201132916-43-33n
+PN/shki+:oshki-                         N_PRENOUNS    " 1 new;  2 young" ; !Rand key:n7303409726n
+PN/n'go+:ningo-                         N_PRENOUNS    " 1 one" ; !Rand key:n71431647032n
+PN/niizhoo+:niizhoo-                    N_PRENOUNS    " 1 two" ; !Rand key:n71431845259n
+PN/n'so+:niso-                          N_PRENOUNS    " 1 three" ; !Rand key:n71434558604n
+PN/niiwo+:niiwo-                        N_PRENOUNS    " 1 four" ; !Rand key:n71431061169n
+PN/naano+:naano-                        N_PRENOUNS    " 1 five" ; !Rand key:n71431061169n
+PN/dso+:daso-                           N_PRENOUNS    " 1 a certain number of, so many of" ; !Rand key:n201132819-26-23n
+PN/endso+:endaso-                       N_PRENOUNS    " 1 each, every" ; !Rand key:n201132916-43-33n
 ! end used in counting}
             NOUNS ;
 
