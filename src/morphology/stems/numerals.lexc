@@ -58,6 +58,8 @@ mdaaching:midaaching                    NUM_TAG    " 1 ten times" ; !Rand key:n7
 mdaasing:midaasing                      NUM_TAG    " 1 ten times" ; !Rand key:n71429469698n
 !REPETITION END}
 !{ORDINAL START
+e-ntam:e-nitam                          NUM_TAG    " 1 the very first, the very first time" ; !Rand key:n73101858420n DAB: This is mentioned in the grammar
+shki-ntam:oshki-nitam                   NUM_TAG    " 1 the very first, the very first time" ; !Rand key:n73101858420n DAB: This is mentioned in the grammar
 aapji-ntam:aapiji-nitam                 NUM_TAG    " 1 the very first, the very first time" ; !Rand key:n73101858420n DAB: This once was an adverb in the model
 eko-niizhing:eko-niizhing               NUM_TAG    " 1 the second time" ; !Rand key:n201132915-1-23n
 eko-nsing:eko-nising                    NUM_TAG    " 1 the third time" ; !Rand key:n201132915-2-54n
