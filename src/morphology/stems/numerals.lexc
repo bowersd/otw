@@ -1,66 +1,77 @@
 !! Numerals
 
 LEXICON NM
-aabta:aabita    NUM_TAG    " 1 half" ; !Rand key:n7297243342n
-bezhig:bezhig    NUM_TAG    " 1 one;  2 a certain individual... (often used when making first reference to individuals in narration)" ; !Rand key:n7297662289n
-mdaaching:midaaching    NUM_TAG    " 1 ten times" ; !Rand key:n71429457847n
-mdaasing:midaasing    NUM_TAG    " 1 ten times" ; !Rand key:n71429469698n
-mdaaswaak:midaaswaak    NUM_TAG    " 1 one thousand, ten hundred, thousand" ; !Rand key:n71429470161n
-mdaaswi:midaaswi    NUM_TAG    " 1 ten" ; !Rand key:n71429470431n
-mnik-dshing:minik-dashing    NUM_TAG    " 1 number of times" ; !Rand key:n71430158675n
-naanan:naanan    NUM_TAG    " 1 five" ; !Rand key:n71431057896n
-naanin:naanin    NUM_TAG    " 1 five" ; !Rand key:n71431060501n
-naaning:naaning    NUM_TAG    " 1 five times" ; !Rand key:n71431060530n
-naanmidna:naanimidana    NUM_TAG    " 1 fifty" ; !Rand key:n71431060924n
-naanwaak:naanwaak    NUM_TAG    " 1 five hundred" ; !Rand key:n71431062767n
+!{COUNTING START
+aabta:aabita                            NUM_TAG    " 1 half" ; !Rand key:n7297243342n
+bezhig:bezhig                           NUM_TAG    " 1 one;  2 a certain individual... (often used when making first reference to individuals in narration)" ; !Rand key:n7297662289n
+niish:niizh                             NUM_TAG    " 1 two" ; !Rand key:n71431844474n
+nswi:niswi                              NUM_TAG    " 1 three" ; !Rand key:n71435059259n
+niiwin:niiwin                           NUM_TAG    " 1 four" ; !Rand key:n71431843754n
+naanan:naanan                           NUM_TAG    " 1 five" ; !Rand key:n71431057896n
+naanin:naanin                           NUM_TAG    " 1 five" ; !Rand key:n71431060501n
+ngodwaaswi:ningodwaaswi                 NUM_TAG    " 1 six" ; !Rand key:n71431656374n
+niizhwaaswi:niizhwaaswi                 NUM_TAG    " 1 seven" ; !Rand key:n71431850131n
+nshwaaswi:nishwaaswi                    NUM_TAG    " 1 eight" ; !Rand key:n71434553714n
+zhaangswi:zhaangaswi                    NUM_TAG    " 1 nine" ; !Rand key:n73033448914n
+mdaaswi:midaaswi                        NUM_TAG    " 1 ten" ; !Rand key:n71429470431n
+niishtana:niizhidana                    NUM_TAG    " 1 twenty" ; !Rand key:n71431844497n !i sourced from creedictionary.com, where nistana and nisitana are listed. Baraga, OPD do not list a vowel, Rhodes lists niizhdana
+nsimdana:nisimidana                     NUM_TAG    " 1 thirty" ; !Rand key:n71434557020n
+niimdana:niimidana                      NUM_TAG    " 1 forty" ; !Rand key:n71431757054n
+naanmidna:naanimidana                   NUM_TAG    " 1 fifty" ; !Rand key:n71431060924n
+ngodwaasmidna:ningodwaasVv1midana       NUM_TAG    " 1 sixty" ; !Rand key:n71431654926n
+niizhwaasmidna:niizhwaasVv1midana       NUM_TAG    " 1 seventy" ; !Rand key:n71431849639n
+nshwaasmidna:nishwaasVv1midana          NUM_TAG    " 1 eighty" ; !Rand key:n71434553008n
+zhaangsimdana:zhaangasimidana           NUM_TAG    " 1 ninety" ; !Rand key:n73033448206n
+ngodwaak:ningodwaak                     NUM_TAG    " 1 one hundred" ; !Rand key:n71431654764n
+niizhwaak:niizhwaak                     NUM_TAG    " 1 two hundred" ; !Rand key:n71431849517n
+nswaak:niswaak                          NUM_TAG    " 1 three hundred" ; !Rand key:n71435058978n
+niiwaak:niiwaak                         NUM_TAG    " 1 four hundred" ; !Rand key:n71431842786n
+naanwaak:naanwaak                       NUM_TAG    " 1 five hundred" ; !Rand key:n71431062767n
+ngodwaaswaak:ningodwaaswaak             NUM_TAG    " 1 six hundred" ; !Rand key:n71431656264n
+niizhwaaswaak:niizhwaaswaak             NUM_TAG    " 1 seven hundred" ; !Rand key:n71431850068n
+nshwaaswaak:nishwaaswaak                NUM_TAG    " 1 eight hundred" ; !Rand key:n71434553640n
+zhaangswaak:zhaangaswaak                NUM_TAG    " 1 nine hundred" ; !Rand key:n73033448817n
+mdaaswaak:midaaswaak                    NUM_TAG    " 1 one thousand, ten hundred, thousand" ; !Rand key:n71429470161n
+!COUNTING END}
+!{MEASURE START
 ngo-bkwaakninch:ningo-bikwaakVv1ninj    NUM_TAG    " 1 one fistful, one handful" ; !Rand key:n73098742879n
-ngo-dba'gaans:ningo-dibahigaans    NUM_TAG    " 1 one inch;  2 one hour;  3 one minute" ; !Rand key:n71431647234n
-ngodwaak:ningodwaak    NUM_TAG    " 1 one hundred" ; !Rand key:n71431654764n
-ngodwaasmidna:ningodwaasVv1midana    NUM_TAG    " 1 sixty" ; !Rand key:n71431654926n
-ngodwaaswaak:ningodwaaswaak    NUM_TAG    " 1 six hundred" ; !Rand key:n71431656264n
-ngodwaaswi:ningodwaaswi    NUM_TAG    " 1 six" ; !Rand key:n71431656374n
-niimdana:niimidana    NUM_TAG    " 1 forty" ; !Rand key:n71431757054n
-niish:niizh    NUM_TAG    " 1 two" ; !Rand key:n71431844474n
-niishtana:niizhidana    NUM_TAG    " 1 twenty" ; !Rand key:n71431844497n !i sourced from creedictionary.com, where nistana and nisitana are listed. Baraga, OPD do not list a vowel, Rhodes lists niizhdana
-niiwaak:niiwaak    NUM_TAG    " 1 four hundred" ; !Rand key:n71431842786n
-niiwin:niiwin    NUM_TAG    " 1 four" ; !Rand key:n71431843754n
-niiwing:niiwing    NUM_TAG    " 1 four times" ; !Rand key:n71431843781n
-niizhing:niizhing    NUM_TAG    " 1 twice, two times" ; !Rand key:n71431845065n
-niizhwaak:niizhwaak    NUM_TAG    " 1 two hundred" ; !Rand key:n71431849517n
-niizhwaasmidna:niizhwaasVv1midana    NUM_TAG    " 1 seventy" ; !Rand key:n71431849639n
-niizhwaaswaak:niizhwaaswaak    NUM_TAG    " 1 seven hundred" ; !Rand key:n71431850068n
-niizhwaaswi:niizhwaaswi    NUM_TAG    " 1 seven" ; !Rand key:n71431850131n
-nshwaasmidna:nishwaasVv1midana    NUM_TAG    " 1 eighty" ; !Rand key:n71434553008n
-nshwaaswaak:nishwaaswaak    NUM_TAG    " 1 eight hundred" ; !Rand key:n71434553640n
-nshwaaswi:nishwaaswi    NUM_TAG    " 1 eight" ; !Rand key:n71434553714n
-nsimdana:nisimidana    NUM_TAG    " 1 thirty" ; !Rand key:n71434557020n
-nsing:nising    NUM_TAG    " 1 three times" ; !Rand key:n71434557145n
-nsoozit:nisoozid    NUM_TAG    " 1 three feet [long or high]" ; !Rand key:n71434671576n
-nswaak:niswaak    NUM_TAG    " 1 three hundred" ; !Rand key:n71435058978n
-nswi:niswi    NUM_TAG    " 1 three" ; !Rand key:n71435059259n
-zhaangching:zhaangaching    NUM_TAG    " 1 nine times" ; !Rand key:n73072583118n
-zhaangsimdana:zhaangasimidana    NUM_TAG    " 1 ninety" ; !Rand key:n73033448206n
-zhaangswaak:zhaangaswaak    NUM_TAG    " 1 nine hundred" ; !Rand key:n73033448817n
-zhaangswi:zhaangaswi    NUM_TAG    " 1 nine" ; !Rand key:n73033448914n
-ngo-dba'aabaan:ningo-dibahaabaan    NUM_TAG    " 1 one mile" ; !Rand key:n20106517-36-31n
+ngo-dba'gaans:ningo-dibahigaans         NUM_TAG    " 1 one inch;  2 one hour;  3 one minute" ; !Rand key:n71431647234n
+nsoozit:nisoozid                        NUM_TAG    " 1 three feet [long or high]" ; !Rand key:n71434671576n
+ngo-dba'aabaan:ningo-dibahaabaan        NUM_TAG    " 1 one mile" ; !Rand key:n20106517-36-31n
+!MEASURE END}
+!{DISTRIBUTIVE START
+bebezhig:bebezhig                       NUM_TAG    " 1 one by one;  2 one each (comm);  3 only a few, a few, some few (SI)" ; !Rand key:n201132915-11-37n
+neniizh:neniizh                         NUM_TAG    " 1 two by two;  2 two each" ; !Rand key:n201132915-23-28n
+nenswi:neniswi                          NUM_TAG    " 1 three by three;  2 three each" ; !Rand key:n201132915-25-28n
+neniiwin:neniiwin                       NUM_TAG    " 1 four by four;  2 four each" ; !Rand key:n201132915-36-6n
+nenaanan:nenaanan                       NUM_TAG    " 1 five by five;  2 five each" ; !Rand key:n201132915-37-58n
+nen'godwaaswi:neningodwaaswi            NUM_TAG    " 1 six by six;  2 six each" ; !Rand key:n201132915-39-31n ![gk]Vo1 replaced with [gk]o
+!DISTRIBUTIVE END}
+!{REPETITION START
+mnik-dshing:minik-dashing               NUM_TAG    " 1 number of times" ; !Rand key:n71430158675n
+niizhing:niizhing                       NUM_TAG    " 1 twice, two times" ; !Rand key:n71431845065n
+nsing:nising                            NUM_TAG    " 1 three times" ; !Rand key:n71434557145n
+niiwing:niiwing                         NUM_TAG    " 1 four times" ; !Rand key:n71431843781n
+naaning:naaning                         NUM_TAG    " 1 five times" ; !Rand key:n71431060530n
+zhaangching:zhaangaching                NUM_TAG    " 1 nine times" ; !Rand key:n73072583118n
+mdaaching:midaaching                    NUM_TAG    " 1 ten times" ; !Rand key:n71429457847n
+mdaasing:midaasing                      NUM_TAG    " 1 ten times" ; !Rand key:n71429469698n
+!REPETITION END}
+!{ORDINAL START
+aapji-ntam:aapiji-nitam                 NUM_TAG    " 1 the very first, the very first time" ; !Rand key:n73101858420n DAB: This once was an adverb in the model
+eko-niizhing:eko-niizhing               NUM_TAG    " 1 the second time" ; !Rand key:n201132915-1-23n
+eko-nsing:eko-nising                    NUM_TAG    " 1 the third time" ; !Rand key:n201132915-2-54n
+eko-niiwing:eko-niiwing                 NUM_TAG    " 1 the fourth time" ; !Rand key:n201132915-6-33n
+eko-naaning:eko-naaning                 NUM_TAG    " 1 the fifth time" ; !Rand key:n201132915-43-9n
+eko-n'godwaaching:eko-ningodwaaching    NUM_TAG    " 1 the sixth time" ; !Rand key:n201132915-44-30n
+eko-niizhwaaching:eko-niizhwaaching     NUM_TAG    " 1 the seventh time" ; !Rand key:n201132915-47-35n
+eko-nswaaching:eko-niswaaching          NUM_TAG    " 1 the eighth time" ; !Rand key:n201132915-48-35n
+eko-zhaangching:eko-zhaangaching        NUM_TAG    " 1 the ninth time" ; !Rand key:n201132915-49-28n
+eko-mdaaching:eko-midaaching            NUM_TAG    " 1 the tenth time" ; !Rand key:n201132915-50-53n
+!ORDINAL END}
 !niizhing mdaaswaak:niizhing midaaswaak    NUM_TAG    " 1 two thousand" ; !Rand key:n20101189-53-13n
 !nsing mdaaswaak:nising midaaswaak    NUM_TAG    " 1 three thousand" ; !Rand key:n20101189-54-46n
 !niiwing mdaaswaak:niiwing midaaswaak    NUM_TAG    " 1 four thousand" ; !Rand key:n20101189-56-37n
-eko-niizhing:eko-niizhing    NUM_TAG    " 1 the second time" ; !Rand key:n201132915-1-23n
-eko-nsing:eko-nising    NUM_TAG    " 1 the third time" ; !Rand key:n201132915-2-54n
-eko-niiwing:eko-niiwing    NUM_TAG    " 1 the fourth time" ; !Rand key:n201132915-6-33n
-bebezhig:bebezhig    NUM_TAG    " 1 one by one;  2 one each (comm);  3 only a few, a few, some few (SI)" ; !Rand key:n201132915-11-37n
-neniizh:neniizh    NUM_TAG    " 1 two by two;  2 two each" ; !Rand key:n201132915-23-28n
-nenswi:neniswi    NUM_TAG    " 1 three by three;  2 three each" ; !Rand key:n201132915-25-28n
-neniiwin:neniiwin    NUM_TAG    " 1 four by four;  2 four each" ; !Rand key:n201132915-36-6n
-nenaanan:nenaanan    NUM_TAG    " 1 five by five;  2 five each" ; !Rand key:n201132915-37-58n
-nen'godwaaswi:neningodwaaswi    NUM_TAG    " 1 six by six;  2 six each" ; !Rand key:n201132915-39-31n ![gk]Vo1 replaced with [gk]o
-eko-naaning:eko-naaning    NUM_TAG    " 1 the fifth time" ; !Rand key:n201132915-43-9n
-eko-n'godwaaching:eko-ningodwaaching    NUM_TAG    " 1 the sixth time" ; !Rand key:n201132915-44-30n
-eko-niizhwaaching:eko-niizhwaaching    NUM_TAG    " 1 the seventh time" ; !Rand key:n201132915-47-35n
-eko-nswaaching:eko-niswaaching    NUM_TAG    " 1 the eighth time" ; !Rand key:n201132915-48-35n
-eko-zhaangching:eko-zhaangaching    NUM_TAG    " 1 the ninth time" ; !Rand key:n201132915-49-28n
-eko-mdaaching:eko-midaaching    NUM_TAG    " 1 the tenth time" ; !Rand key:n201132915-50-53n
 !mdaaswi shi bezhik:midaaswi ashi bezhig    NUM_TAG    " 1 eleven" ; !Rand key:n20114819-57-33n
 !mdaaswi shi niish:midaaswi ashi niizh    NUM_TAG    " 1 twelve" ; !Rand key:n20114819-58-34n
 !mdaaswi shi nswi:midaaswi ashi niswi    NUM_TAG    " 1 thirteen" ; !Rand key:n20114820-0-24n
