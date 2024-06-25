@@ -102,10 +102,10 @@ LEXICON NUMERAL_STEM_TEN_SET
 @P.NUMERAL.TEN@     NUMERAL_STEM_TEN ;
 
 LEXICON NUMERAL_ROOT_FORMS_TWO_TENS
-+mdana:%>dana     NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ; !need to trigger epenthesis when it is CC
++mdana+Num:%>dana     NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ; !need to trigger epenthesis when it is CC
 
 LEXICON NUMERAL_STEM_TEN
-+mdana:%>midana     NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ; !need to trigger epenthesis when it is CC
++mdana+Num:%>midana     NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ; !need to trigger epenthesis when it is CC
 
 LEXICON NUMERAL_STEM_HUNDRED_GET
 @D.NUMERAL.HUNDRED@ NUMERAL_STEM_HUNDRED_SET ;
@@ -114,11 +114,7 @@ LEXICON NUMERAL_STEM_HUNDRED_SET
 @P.NUMERAL.HUNDRED@ NUMERAL_STEM_HUNDRED ;
 
 LEXICON NUMERAL_STEM_HUNDRED
-+waak:waak     NUMERAL_STEM_HUNDRED_GATEWAY ; 
-
-LEXICON NUMERAL_STEM_HUNDRED_GATEWAY
-            # ;
-+shi+:-shi- NUMERAL_ROOTS_GATEWAY ; 
++waak+Num:waak     # ; 
 
 LEXICON DISTRIBUTIVE_REDUPLICATION
 Dist+CRED1e     DISTRIBUTIVE_REDUPLICATION_GATEWAY
@@ -128,20 +124,20 @@ LEXICON DISTRIBUTIVE_REDUPLICATION_GATEWAY
         NUMERAL_STANDALONE_FORMS_10 ;
 
 LEXICON NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN
-bezhig:bezhig               # "one";
-niizh:niizh                 # "two";
-nswi:niswi                  # "three";
-niiwin:niiwin               # "four";
-naanan:naanan               # "five";
+bezhig+Num:bezhig               # "one";
+niizh+Num:niizh                 # "two";
+nswi+Num:niswi                  # "three";
+niiwin+Num:niiwin               # "four";
+naanan+Num:naanan               # "five";
 !naanin:naanin               # "five";
-ngodwaaswi:ningodwaaswi     # "six";
-niizhwaaswi:niizhwaasawi    # "seven";
-nshwaaswi:nishwaaswi        # "eight";
-zhaangswi:zhaangaswi        # "nine";
+ngodwaaswi+Num:ningodwaaswi     # "six";
+niizhwaaswi+Num:niizhwaasawi    # "seven";
+nshwaaswi+Num:nishwaaswi        # "eight";
+zhaangswi+Num:zhaangaswi        # "nine";
 
 LEXICON NUMERAL_STANDALONE_FORMS_TEN !THIS NEEDS TO BE CONNECTED UPSTREAM
 mdaaswi:mdaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
 
 LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY 
     # ; 
-+shi+:-ashi-    NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ; !form numbers X1-X9
++shi+Conj:-ashi-    NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ; !form numbers X1-X9
