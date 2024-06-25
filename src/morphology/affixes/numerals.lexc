@@ -1,16 +1,22 @@
 !ALL THE FINAL VOWELS HERE NEED TO SURFACE!!
 
-LEXICON NUMERAL_PRE_FORMS
-ngo+:nigo-                  NUMERAL_PRE_FORMATION ;
-niizhoo+:niizhoo-                   NUMERAL_PRE_FORMATION ;
-nso+:niso-                  NUMERAL_PRE_FORMATION ;
-niiwoo+:niiwoo-                 NUMERAL_PRE_FORMATION ;
-naano+:naano-                   NUMERAL_PRE_FORMATION ;
-ngodwaasoo+:nigodwaasoo-                    NUMERAL_PRE_FORMATION ;
-niizhwaasoo+:niizhwaasoo-                   NUMERAL_PRE_FORMATION ;
-nshwaasoo+:nishwaasoo-                  NUMERAL_PRE_FORMATION ;
-zhaangsoo+:zhaangasoo-                  NUMERAL_PRE_FORMATION ;
-mdaaso+:mdaaso-                 NUMERAL_PRE_FORMATION ;
+!LEXICON NUMERAL_PRE_FORMS
+!PNum/ngo+:nigo-                              NUMERAL_PRE_FORMS_GATEWAY "one";
+!PNum/niizhoo+:niizhoo-                       NUMERAL_PRE_FORMS_GATEWAY "two";
+!PNum/nso+:niso-                              NUMERAL_PRE_FORMS_GATEWAY "three";
+!PNum/niiwoo+:niiwoo-                         NUMERAL_PRE_FORMS_GATEWAY "four";
+!PNum/naano+:naano-                           NUMERAL_PRE_FORMS_GATEWAY "five";
+!PNum/ngodwaasoo+:ningodwaasoo-                NUMERAL_PRE_FORMS_GATEWAY "six (1+5)";
+!PNum/niizhwaasoo+:niizhwaasoo-               NUMERAL_PRE_FORMS_GATEWAY "seven (2+5);
+!PNum/nshwaasoo+:nishwaasoo-                  NUMERAL_PRE_FORMS_GATEWAY "eight (3+5);
+!PNum/zhaangsoo+:zhaangasoo-                  NUMERAL_PRE_FORMS_GATEWAY "nine";
+!PNum/mdaaso+:midaaso-                         NUMERAL_PRE_FORMS_GATEWAY "ten (?+5)";
+!
+!LEXICON NUMERAL_PRE_FORMS_GATEWAY
+!!risky to run nouns and verbs through the same gateway. there are a lot of preverbs that would then be able to concatenate with nouns.
+!!instead, just put the numerical preverbs in the lexica for nouns and verbs separately. 
+!        V_REDUPLICATION_STEM ; 
+!        NOUNS ; 
 
 LEXICON NUMERAL_ROOTS_GATEWAY
         ORDINALS ; 
@@ -22,9 +28,9 @@ LEXICON NUMERAL_ROOTS_GATEWAY
 @R.NUMERAL.HUNDRED@@D.NUMERAL.TEN@  NUMERAL_HALF ; 
 
 LEXICON ORDINALS
-PV/e+ntam+Adv:e-ntam     # ; !first ordinal
-PV/shki+ntam+Adv:shki-ntam     # ; !first ordinal
-PV/aapji+ntam+Adv:aapji-ntam     # ; !first ordinal
+PV/e+ntam+Adv:e-nitam     # ; !first ordinal
+PV/shki+ntam+Adv:shki-nitam     # ; !first ordinal
+PV/aapji+ntam+Adv:aapji-nitam     # ; !first ordinal
 PV/CCNJ+PV/ko+:eko-               ORDINALS_SET ;
 
 LEXICON ORDINALS_SET
