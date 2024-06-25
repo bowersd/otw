@@ -104,10 +104,15 @@ PN/bganji+:baganji-                     N_PRENOUNS    " 1 stupid, useless" ; !Ra
 !{used in counting 
 PN/shki+:oshki-                         N_PRENOUNS    " 1 new;  2 young" ; !Rand key:n7303409726n
 PN/n'go+:ningo-                         N_PRENOUNS    " 1 one" ; !Rand key:n71431647032n
-PN/niizhoo+:niizhoo-                    N_PRENOUNS    " 1 two" ; !Rand key:n71431845259n
+PN/niizho+:niizho-                      N_PRENOUNS    " 1 two" ; !Rand key:n71431845259n
 PN/n'so+:niso-                          N_PRENOUNS    " 1 three" ; !Rand key:n71434558604n
 PN/niiwo+:niiwo-                        N_PRENOUNS    " 1 four" ; !Rand key:n71431061169n
 PN/naano+:naano-                        N_PRENOUNS    " 1 five" ; !Rand key:n71431061169n
+PN/n'godwaaso+:ningodwaaso-             N_PRENOUNS " 1 six"; 
+PN/niizhwaaso+:niizhwaaso-              N_PRENOUNS " 1 seven"; 
+PN/nshwaaso+:nishwaaso-                 N_PRENOUNS " 1 eight"; 
+PN/zhaangso+:zhaangaso-                 N_PRENOUNS " 1 nine"; 
+PN/mdaaso+:midaaso-                     N_PRENOUNS " 1 ten"; !this form used in reference grammar
 PN/dso+:daso-                           N_PRENOUNS    " 1 a certain number of, so many of" ; !Rand key:n201132819-26-23n
 PN/endso+:endaso-                       N_PRENOUNS    " 1 each, every" ; !Rand key:n201132916-43-33n
 ! end used in counting}

@@ -176,7 +176,6 @@ PV/zhi+:izhi-  V_PREVERBS_ASPECT " 1 as [another], like a certain thing;  2 to a
 PV/nji+:onji-  V_PREVERBS_ASPECT " 1 at a certain place, from a certain place, from a certain point, where;  2 why;  3 have (in the sense of the English perfect tense)";
 !wnji-:onji    V_PREVERBS_ASPECT    " 1 [see nji-]" ; !Rand key:n73072141838n
 PV/dzhi+:n5dazhi-   V_PREVERBS_ASPECT " 1 at a certain place, where";
-PV/dso+:n5daso-     V_PREVERBS_ASPECT " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
 !DUP REMOVE!PV/aana+:aana-   V_PREVERBS_ASPECT " 1 in vain, to no avail" ; !Rand key:n72973263339n
 PV/aano+:aano-   V_PREVERBS_ASPECT   " 1 [see aana-]"; !Valentine 2001 doesn't specify slot -> it precedes ntaa- (in aspect class), so moved up from V_PREVERBS_MANNER DAB 2024-01-31
 !DUP REMOVE!PV/aana+:X2aana-   V_PREVERBS_ASPECT " 1 in vain, to no avail" ; !optional blocker to stop ccnj yaano!Rand key:n72973263339n
@@ -192,7 +191,6 @@ LEXICON V_PREVERBS_ASPECT
 PV/ntami+:nitami-    V_PREVERBS_MANNER    " 1 first [before others, i.e., relative position in a sequence]" ; !Rand key:n73099772452n
 PV/bgami+:bagami-    V_PREVERBS_MANNER    " 1 become, commence, arrive" ; !Rand key:n201132615-13-29n
 PV/ekwaa+:ekwaa-    V_PREVERBS_MANNER    " 1 finish" ; !Rand key:n73024180454n
-PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
 PV/epiichi+:epiichi-    V_PREVERBS_MANNER    " 1 while" ; !Rand key:n72972557481n
 PV/gaagge+:gaagige-    V_PREVERBS_MANNER    " 1 forever, for all time" ; !Rand key:n73016041873n
 PV/giizhi+:giizhi-    V_PREVERBS_MANNER    " 1 finish [doing something]" ; !Rand key:n73024238614n
@@ -278,14 +276,27 @@ PV/wiinge+:wiinge- V_REDUPLICATION_STEM " 1 completely, entirely, thoroughly";
 PV/maanaaji+:maanaaji- V_REDUPLICATION_STEM " 1 bad, evil, harmful, wrong";
 PV/mji+:maji- V_REDUPLICATION_STEM " 1 badly, evilly";
 PV/mno+:mino- V_REDUPLICATION_STEM " 1 good, well;  2 nice, pleasant";
+!{USED IN COUNTING, ALSO APPEAR IN PRENOUNS
+PV/dso+:n5daso-     V_REDUPLICATION_STEM " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
+!PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
 PV/aabta+:aabita- V_REDUPLICATION_STEM " 1 half, halfway; mid, midway";
 PV/n'go+:ningo- V_REDUPLICATION_STEM " 1 one"; !should this be /ningo/ as in nouns.lexc?
 PV/niizho+:niizho- V_REDUPLICATION_STEM " 1 two"; 
+!PV/niizho+:niizhoo- V_REDUPLICATION_STEM " 1 two"; !this form used in reference grammar
 PV/n'so+:niso- V_REDUPLICATION_STEM " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
 PV/niiwoo+:niiwoo- V_REDUPLICATION_STEM " 1 four"; 
 !DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_STEM " 1 four" ; 
 PV/naano+:naano- V_REDUPLICATION_STEM " 1 five"; 
-PV/n'godwaaso+:nigodwaaso- V_REDUPLICATION_STEM " 1 six"; 
+PV/n'godwaaso+:ningodwaaso- V_REDUPLICATION_STEM " 1 six"; 
+!PV/n'godwaaso+:ningodwaasoo- V_REDUPLICATION_STEM " 1 six"; !this form used in reference grammar
+PV/niizhwaaso+:niizhwaaso- V_REDUPLICATION_STEM " 1 seven"; 
+!PV/niizhwaaso+:niizhwaasoo- V_REDUPLICATION_STEM " 1 seven"; !this form used in reference grammar
+PV/nshwaaso+:nishwaaso- V_REDUPLICATION_STEM " 1 eight"; 
+!PV/nshwaasoo+:nishwaasoo- V_REDUPLICATION_STEM " 1 eight"; !this form used in reference grammar
+PV/zhaangso+:zhaangaso- V_REDUPLICATION_STEM " 1 nine"; 
+!PV/zhaangso+:zhaangasoo- V_REDUPLICATION_STEM " 1 nine"; !this form used in reference grammar
+PV/mdaaso+:midaaso- V_REDUPLICATION_STEM " 1 ten"; !this form used in reference grammar
+!END USED IN COUNTING}
             V_REDUPLICATION_STEM    ;
 
 !LEXICON V_REDUPLICATION_GET
