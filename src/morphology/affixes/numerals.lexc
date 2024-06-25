@@ -19,7 +19,7 @@
 !        NOUNS ; 
 
 LEXICON NUMERAL_ROOTS_GATEWAY
-        ORDINALS ; 
+        !ORDINALS ; 
         NUMERAL_ROOT_FORMS_ONE ; 
         NUMERAL_ROOT_FORMS_TWO_NINE ; 
         NUMERAL_ROOT_FORMS_TEN ; 
@@ -27,11 +27,11 @@ LEXICON NUMERAL_ROOTS_GATEWAY
         NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ;
 @R.NUMERAL.HUNDRED@@D.NUMERAL.TEN@  NUMERAL_HALF ; 
 
-LEXICON ORDINALS
-PV/e+ntam+Adv:e-nitam     # ; !first ordinal
-PV/shki+ntam+Adv:shki-nitam     # ; !first ordinal
-PV/aapji+ntam+Adv:aapji-nitam     # ; !first ordinal
-PV/CCNJ+PV/ko+:eko-               ORDINALS_SET ;
+!LEXICON ORDINALS
+!PV/e+ntam+Adv:e-nitam     # ; !first ordinal
+!PV/shki+ntam+Adv:shki-nitam     # ; !first ordinal
+!PV/aapji+ntam+Adv:aapji-nitam     # ; !first ordinal
+!PV/CCNJ+PV/ko+:eko-               ORDINALS_SET ;
 
 LEXICON ORDINALS_SET
 @P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TWO_NINE ;  !used to ensure ordinals end in repetitions. currently repetitions are limited to simple roots, can't build a more complex numeral (and so it is also impossible to build a more complex ordinal)
@@ -145,3 +145,28 @@ mdaaswi:mdaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
 LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY 
     # ; 
 +shi+Conj:-ashi-    NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ; !form numbers X1-X9
+
+LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
+!you can follow these with VAI -izi, -VII -od (ad?)
++aatig+Num:waatig    # "stick";
++eg+Num:weg    # "cloth";
++aabik+Num:waabik    # "metal/glass";
++aabiig+Num:waabiig    # "string/row";
++aak+Num:waak    # "pole";
++ooshkin+Num:ooshkin    # "bag";
++bboon+Num:%>biboon    # "winter";
++bii'gan+Num:%>biihigan    # "card";
++dbahaabaan+Num:dibahaabaan    # "mile"; !ngod loses its d from the looks of it before d here
++dbik+Num:dibik    # "night"; !ngod loses its d from the looks of it before d here
++gamig+Num:%>gamig    # "building";
++gon+Num:%>gon    # "day";
++kiins+Num:akiins    # "acre";
++naagaans+Num:%>naagaans    # "cup";
++nik+Num:%>nik    # "arm";
++ninj+Num:%>ninj    # "hand";
++waakwagan+Num:%>waakBv1wagan    # "hand";
++oode+Num:oode    # "family";
++oonag+Num:oonag    # "boat";
++sag+Num:%>sag    # "barrel";
++wewaan+Num:wewaan    # "barrel";
++zid+Num:%>zid    # "barrel";
