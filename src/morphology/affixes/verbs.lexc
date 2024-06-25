@@ -183,6 +183,10 @@ PV/aano+:X2aano-   V_PREVERBS_ASPECT   " 1 [see aana-]"; !optional blocker to st
 PV/aanwii+:aanawii-    V_PREVERBS_ASPECT    " 1 even though, despite;  2 try to..." ; !Rand key:n201012516-47-22n !moved up from V_PREVERBS_ASPECT due to similarity to aano DAB 2024-01-31
             V_PREVERBS_ASPECT ;
 
+LEXICON V_PREVERBS_KO_GATEWAY
+    V_PREVERBS_ASPECT " 1 since, from such point in time;  2 as far as [a certain point];  3 [for] a long time, as long as";
+@R.CCNJ.YES@  
+
 LEXICON V_PREVERBS_RELATIVE_ORDER_SET
 @P.Order.Cnj@   V_PREVERBS_ASPECT ;
 
@@ -281,7 +285,7 @@ PV/dso+:n5daso-     V_REDUPLICATION_STEM " 1 each, every";  !DAB are we sure thi
 !PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
 PV/aabta+:aabita- V_REDUPLICATION_STEM " 1 half, halfway; mid, midway";
 PV/n'go+:ningo- V_REDUPLICATION_STEM " 1 one"; !should this be /ningo/ as in nouns.lexc?
-PV/niizho+:niizho- V_REDUPLICATION_STEM " 1 two"; 
+PV/niizhoo+:niizhoo- V_REDUPLICATION_STEM " 1 two"; 
 !PV/niizho+:niizhoo- V_REDUPLICATION_STEM " 1 two"; !this form used in reference grammar
 PV/n'so+:niso- V_REDUPLICATION_STEM " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
 PV/niiwoo+:niiwoo- V_REDUPLICATION_STEM " 1 four"; 
