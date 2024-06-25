@@ -41,11 +41,14 @@ LEXICON ORDINALS_SET
 LEXICON NUMERAL_HALF
 aabta:aabta     # "half"; 
 
+LEXICON NUMERAL_ROOT_FORMS_EXCEPTIONAL_ONE
+bezhig+Num:bezhigw6 NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+
 LEXICON NUMERAL_ROOT_FORMS_ONE
-ngod:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100). ordinal form is ntam (with just e-, not eko-)
+ngod+Num:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100). ordinal form is ntam (with just e-, not eko-)
 
 LEXICON NUMERAL_ROOT_FORMS_TEN
-mdaas:midaa          NUMERAL_ROOT_FORMS_TEN_GET "ten"; !mdaas everywhere except repetition forms (and thus ordinals as well, then mdaas/mdaach. can't combine with mdana, can combine with waak
+mdaas+Num:midaa          NUMERAL_ROOT_FORMS_TEN_GET "ten"; !mdaas everywhere except repetition forms (and thus ordinals as well, then mdaas/mdaach. can't combine with mdana, can combine with waak
 
 LEXICON NUMERAL_ROOT_FORMS_TEN_GET
 @D.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TEN_S ; 
@@ -55,40 +58,39 @@ LEXICON NUMERAL_ROOT_FORMS_TEN_S
 0:s         NUMERAL_STEM_HUNDRED_GET ;
 
 LEXICON NUMERAL_ROOT_FORMS_TEN_S_CH
-0:s         NUMERAL_ROOT_FORMS_REPETITION ; 
-0:ch        NUMERAL_ROOT_FORMS_REPETITION ; 
+0:s         NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+0:ch        NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
 
 LEXICON NUMERAL_ROOT_FORMS_TWO_NINE
-niizh:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two";        !20 is niizhdana (no m), otherwise regular
-nis:nis                 NUMERAL_ROOT_FORMS_35_GATEWAY "three";   !fully regular
-nii:nii                 NUMERAL_ROOT_FORMS_FOUR_GATEWAY "four";  !nii everywhere, except in repetition form, then niiwing
+niizh+Num:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two";        !20 is niizhdana (no m), otherwise regular
+nis+Num:nis                 NUMERAL_ROOT_FORMS_35_GATEWAY "three";   !fully regular
+nii+Num:nii                 NUMERAL_ROOT_FORMS_FOUR_GATEWAY "four";  !nii everywhere, except in repetition form, then niiwing
 !naan+:naanan           NUMERAL_ROOT_FORMS_35_GATEWAY "five";    !have not seen this variant, but it was mercurially listed in valentine 2001:874
-naan:naan               NUMERAL_ROOT_FORMS_35_GATEWAY "five";    !fully regular
-ngodwaas:ningodwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "six"; !ngodwaas everywhere but repetition forms (and thus ordinals as well), then ngodwaach
-niizhwaas:niizhwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "seven"; !niizhwaas everywhere but repetition forms (and thus ordinals as well), then niizhwaach
-nshwaas:nishwaa        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "eight"; !nshwaas everywhere but repetition forms (and thus ordinals as well), then nshwaach
-zhaangs:zhaanga        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "nine"; !zhaangs everywhere but repetition forms (and thus ordinals as well), then zhaangch
+naan+Num:naan               NUMERAL_ROOT_FORMS_35_GATEWAY "five";    !fully regular
+ngodwaas+Num:ningodwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "six"; !ngodwaas everywhere but repetition forms (and thus ordinals as well), then ngodwaach
+niizhwaas+Num:niizhwaa     NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "seven"; !niizhwaas everywhere but repetition forms (and thus ordinals as well), then niizhwaach
+nshwaas+Num:nishwaa        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "eight"; !nshwaas everywhere but repetition forms (and thus ordinals as well), then nshwaach
+zhaangs+Num:zhaanga        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "nine"; !zhaangs everywhere but repetition forms (and thus ordinals as well), then zhaangch
 
 LEXICON NUMERAL_ROOT_FORMS_35_GATEWAY
-                    NUMERAL_ROOT_FORMS_REPETITION ; 
+                    NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
                     NUMERAL_ROOT_FORMS_GET ; 
 
 LEXICON NUMERAL_ROOT_FORMS_FOUR_GATEWAY
-0:w                 NUMERAL_ROOT_FORMS_REPETITION ; 
+0:w                 NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
                     NUMERAL_ROOT_FORMS_GET ; 
 
 LEXICON NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY
 0:s                 NUMERAL_ROOT_FORMS_GET  ; 
-0:ch                NUMERAL_ROOT_FORMS_REPETITION  ; 
+0:ch                NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
 
-LEXICON NUMERAL_ROOT_FORMS_REPETITION
-+VII:in NUMERAL_ROOT_FORMS_REPETITION_2 ; 
+LEXICON NUMERAL_ROOT_FORMS_VERBISH_GATEWAY
++VII:in VII_ORDERS_GET ; !ordinals, repetition forms take +Cnj+0:g, presumably full on verbs of number can take the full suite. person prefixes will not be legitimate here because VII_ORDERS_GET rules them out
++VAI:i  VAI_ORDERS_GET ; !first and second person prefixes need to be routed here too
 
-LEXICON NUMERAL_ROOT_FORMS_REPETITION_2
-+Cnj+0:g # ; 
 
 LEXICON NUMERAL_ROOT_FORMS_GET_TWO
-                                        NUMERAL_ROOT_FORMS_REPETITION ; 
+                                        NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
 @D.NUMERAL.ORD@@D.NUMERAL.TEN@         NUMERAL_ROOT_FORMS_TWO_TENS ; 
 @D.NUMERAL.ORD@@D.NUMERAL.HUNDRED@     NUMERAL_STEM_HUNDRED_SET ; 
 
