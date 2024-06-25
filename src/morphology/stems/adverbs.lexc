@@ -88,7 +88,7 @@ aapiichin:aapiichin    AV_TAG    " 1 on occasion, from time to time" ; !Rand key
 aapiish:aapiish    AV_TAG    " 1 where (interrogative, used to ask questions of where)" ; !Rand key:n72973751535n
 aapin:aapin    AV_TAG    " 1 like, the same" ; !Rand key:n72973751577n
 aapji:aapiji    AV_TAG    " 1 very" ; !Rand key:n72973751696n
-aapji-ntam:aapiji-nitam    AV_TAG    " 1 the very first, the very first time" ; !Rand key:n73101858420n
+!aapji-ntam:aapiji-nitam    AV_TAG    " 1 the very first, the very first time" ; !Rand key:n73101858420n DAB: This should be a numeral
 aapji-shkwaach:aapiji-ishkwaaj    AV_TAG    " 1 the very last, the very last time" ; !Rand key:n73101858568n
 aasmaatik:aasmaatig    AV_TAG    " 1 on the wall;  2 against the wall" ; !Rand key:n72973859012n
 aasmagmik:aasamagamig    AV_TAG    " 1 against [the wall of] a building" ; !Rand key:n72973859684n
