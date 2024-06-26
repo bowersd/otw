@@ -572,6 +572,20 @@ Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyn
 !get
 @D.Redup@
 
+!###
+!#Numeral flags
+!###
+!set
+@P.NUMERAL.ORD@
+@P.NUMERAL.TEN@
+@P.NUMERAL.HUNDRED@
+
+!get
+@R.NUMERAL.HUNDRED@
+@D.NUMERAL.ORD@
+@D.NUMERAL.TEN@
+
+
 LEXICON Root !!= @CODE@ points to the other lexica
 ! Note that whenever a new part of speech, and a new file (like propernouns, etc.)
 ! is added, it must be specified in the src/morphology/Makefile.am
@@ -579,6 +593,7 @@ LEXICON Root !!= @CODE@ points to the other lexica
     !N_PREFIXES ;
     PREFIXES ; 
     NM ; !numerals
+    NUMERALS_META_GATEWAY ; !expanded numerals
     QNT ; !quantifiers
     PCL ; !particles
     PA ; !(pre-)adverbs

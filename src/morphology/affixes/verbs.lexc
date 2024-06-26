@@ -170,7 +170,7 @@ LEXICON V_PREVERBS_RELATIVE
 !{unsure of position
 PV/bwaa+:bwaa-  V_PREVERBS_RELATIVE_ORDER_SET " 1 lest, not, so that not"; !Valentine 2001 unclear on ordering, while requires conjunct like subordinators, may be preceded by e-, may also be preceded by wii-... semantics definitely not compatible with direction
 !}
-PV/ko+:ako-  V_PREVERBS_ASPECT " 1 since, from such point in time;  2 as far as [a certain point];  3 [for] a long time, as long as";
+PV/ko+:ako-  V_PREVERBS_KO_GATEWAY " 1 since, from such point in time;  2 as far as [a certain point];  3 [for] a long time, as long as";
 PV/piichi+:apiichi-  V_PREVERBS_ASPECT " 1 to a certain degree, to a certain extent, to such a degree, to such an extent, how, to what extent, so;  2 in the process of..., while";
 PV/zhi+:izhi-  V_PREVERBS_ASPECT " 1 as [another], like a certain thing;  2 to a certain place, towards a certain place, in a certain direction;  3 how [to do something], in a certain manner, way [of doing something], thus (in such way), and so;  4 go ahead without preparation, go ahead despite not being ready";
 PV/nji+:onji-  V_PREVERBS_ASPECT " 1 at a certain place, from a certain place, from a certain point, where;  2 why;  3 have (in the sense of the English perfect tense)";
