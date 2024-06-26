@@ -18,20 +18,19 @@
 !        V_REDUPLICATION_STEM ; 
 !        NOUNS ; 
 
+LEXICON NUMERALS_META_GATEWAY
+        NUMERAL_ROOTS_GATEWAY ; 
+        DISTRIBUTIVE_REDUPLICATION ; 
+
 LEXICON NUMERAL_ROOTS_GATEWAY
-        !ORDINALS ; 
+        !need to allow person prefixes just in case you end up with a VAI suffix, but not in any other cases
         NUMERAL_ROOT_FORMS_ONE ; 
         NUMERAL_ROOT_FORMS_TWO_NINE ; 
         NUMERAL_ROOT_FORMS_TEN ; 
-        NUMERAL_STANDALONE_FORMS_TEN ;
-        NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ;
+@D.Person@        NUMERAL_STANDALONE_FORMS_TEN ; !you should not ever have person prefixes on standalone numerals
+@D.Person@        NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ;
 @R.NUMERAL.HUNDRED@@D.NUMERAL.TEN@  NUMERAL_HALF ; 
 
-!LEXICON ORDINALS
-!PV/e+ntam+Adv:e-nitam     # ; !first ordinal
-!PV/shki+ntam+Adv:shki-nitam     # ; !first ordinal
-!PV/aapji+ntam+Adv:aapji-nitam     # ; !first ordinal
-!PV/CCNJ+PV/ko+:eko-               ORDINALS_SET ;
 
 LEXICON ORDINALS_SET
 @P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TWO_NINE ;  !used to ensure ordinals end in repetitions. currently repetitions are limited to simple roots, can't build a more complex numeral (and so it is also impossible to build a more complex ordinal)
@@ -121,7 +120,8 @@ LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY
 +shi+Conj:-ashi-    NUMERAL_ROOTS_GATEWAY ; 
 
 LEXICON DISTRIBUTIVE_REDUPLICATION
-Redup+:CRED1e     DISTRIBUTIVE_REDUPLICATION_GATEWAY
+Redup+:CRED1e     DISTRIBUTIVE_REDUPLICATION_GATEWAY ; 
+                    DISTRIBUTIVE_REDUPLICATION_GATEWAY ; 
 
 LEXICON DISTRIBUTIVE_REDUPLICATION_GATEWAY
 !this can also occur using roots in verbs (nen'godooshkne, nen'godwaasooshkne) (nenaannooshkne is not a root, would be naan)
