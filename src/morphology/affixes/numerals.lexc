@@ -14,7 +14,7 @@
 !
 !LEXICON NUMERAL_PRE_FORMS_GATEWAY
 !!risky to run nouns and verbs through the same gateway. there are a lot of preverbs that would then be able to concatenate with nouns.
-!!instead, just put the numerical preverbs in the lexica for nouns and verbs separately. 
+!!instead, just put the numerical preverbs/prenouns in the lexica for nouns and verbs separately. 
 !        V_REDUPLICATION_STEM ; 
 !        NOUNS ; 
 
@@ -39,7 +39,7 @@ LEXICON ORDINALS_SET
 
 
 LEXICON NUMERAL_HALF
-aabta:aabta     # "half"; 
+aabta+Num:aabta     # "half"; 
 
 LEXICON NUMERAL_ROOT_FORMS_EXCEPTIONAL_ONE
 bezhig+Num:bezhigw6 NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
