@@ -168,10 +168,11 @@ LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
 +oode+Num:oode    # "family";
 +oonag+Num:oonag    # "boat";
 +sag+Num:%>sag    # "barrel";
-+wewaan+Num:wewaan    # "barrel";
-+zid+Num:%>zid    # "barrel";
++wewaan+Num:wewaan    # "group";
++zid+Num:%>zid    # "foot";
 
 LEXICON NUMERAL_FINALS
+!nen'godooshkne ->neningod-ooshkin-e be a max of one to each... a distributive reduplicated form (NOT bebezhig!) plus -ooshkine
 +VII:oonagad2 VII_ORDERS_GET "be a boat load"; !Lumping classifier material with final oonag classifier exists, but I'm a bit leery of -ad2 as a final on its own.
 +VAI:oonagizi VAI_ORDERS_GET "be a boat load"; 
 +VII:%>doopwinigad2   VII_ORDERS_GET "be a tableful" ; !doopwin is clear, but then you have -igad2 in addition to -ad2 ... need to delete dd>d with ngod
