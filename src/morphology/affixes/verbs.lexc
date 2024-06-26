@@ -185,7 +185,7 @@ PV/aanwii+:aanawii-    V_PREVERBS_ASPECT    " 1 even though, despite;  2 try to.
 
 LEXICON V_PREVERBS_KO_GATEWAY
                 V_PREVERBS_ASPECT ;
-@R.Ccnj@    ORDINALS SET ; !also need to stop all preverbs BESIDES ccnj from preceding in numerals
+@R.Ccnj@    ORDINALS_SET ; !also need to stop all preverbs BESIDES ccnj from preceding in numerals
 
 LEXICON V_PREVERBS_RELATIVE_ORDER_SET
 @P.Order.Cnj@   V_PREVERBS_ASPECT ;
