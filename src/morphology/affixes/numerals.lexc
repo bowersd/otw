@@ -38,7 +38,7 @@ LEXICON ORDINALS_SET
 
 
 LEXICON NUMERAL_HALF
-aabta+Num:aabta     # "half"; 
+aabta+Num:aabita     CLOSED_PROTECTION "half"; 
 
 LEXICON NUMERAL_ROOT_FORMS_EXCEPTIONAL_ONE
 bezhig+Num:bezhigw6 NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
@@ -131,20 +131,20 @@ LEXICON DISTRIBUTIVE_REDUPLICATION_GATEWAY
 LEXICON NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN
 bezhig+Num:bezhig               # "one";
 niizh+Num:niizh                 # "two";
-nswi+Num:niswi                  # "three";
+nswi+Num:niswi                  CLOSED_PROTECTION "three";
 niiwin+Num:niiwin               # "four";
 naanan+Num:naanan               # "five";
 !naanin:naanin               # "five";
-ngodwaaswi+Num:ningodwaaswi     # "six";
-niizhwaaswi+Num:niizhwaasawi    # "seven";
-nshwaaswi+Num:nishwaaswi        # "eight";
-zhaangswi+Num:zhaangaswi        # "nine";
+ngodwaaswi+Num:ningodwaaswi     CLOSED_PROTECTION "six";
+niizhwaaswi+Num:niizhwaaswi     CLOSED_PROTECTION "seven";
+nshwaaswi+Num:nishwaaswi        CLOSED_PROTECTION "eight";
+zhaangswi+Num:zhaangaswi        CLOSED_PROTECTION "nine";
 
 LEXICON NUMERAL_STANDALONE_FORMS_TEN !THIS NEEDS TO BE CONNECTED UPSTREAM
 mdaaswi:midaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
 
 LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY 
-    # ; 
+    CLOSED_PROTECTION ; 
 +shi+Conj+:-ashi-    NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ; !form numbers X1-X9
 
 LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
