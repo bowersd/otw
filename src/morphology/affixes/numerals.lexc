@@ -141,7 +141,7 @@ nshwaaswi+Num:nishwaaswi        # "eight";
 zhaangswi+Num:zhaangaswi        # "nine";
 
 LEXICON NUMERAL_STANDALONE_FORMS_TEN !THIS NEEDS TO BE CONNECTED UPSTREAM
-mdaaswi:mdaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
+mdaaswi:midaaswi             NUMERAL_STANDALONE_FORMS_TEN_GATEWAY ;
 
 LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY 
     # ; 
