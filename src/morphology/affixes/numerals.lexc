@@ -1,4 +1,3 @@
-!ALL THE FINAL VOWELS HERE NEED TO SURFACE!!
 
 !LEXICON NUMERAL_PRE_FORMS
 !PNum/ngo+:nigo-                              NUMERAL_PRE_FORMS_GATEWAY "one";
@@ -41,7 +40,7 @@ LEXICON NUMERAL_HALF
 aabta+Num:aabita     CLOSED_PROTECTION "half"; 
 
 LEXICON NUMERAL_ROOT_FORMS_EXCEPTIONAL_ONE
-bezhig+Num:bezhigw6 NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+bezhig+Num:bezhigw6 NUMERAL_ROOT_FORMS_VERBISH ; 
 
 LEXICON NUMERAL_ROOT_FORMS_ONE
 ngod+Num:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100). ordinal form is ntam (with just e-, not eko-)
@@ -57,8 +56,8 @@ LEXICON NUMERAL_ROOT_FORMS_TEN_S
 0:s         NUMERAL_STEM_HUNDRED_GET ;
 
 LEXICON NUMERAL_ROOT_FORMS_TEN_S_CH
-0:s         NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
-0:ch        NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+0:s         NUMERAL_ROOT_FORMS_VERBISH ; 
+0:ch        NUMERAL_ROOT_FORMS_VERBISH ; 
 
 LEXICON NUMERAL_ROOT_FORMS_TWO_NINE
 niizh+Num:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two";        !20 is niizhdana (no m), otherwise regular
@@ -72,30 +71,31 @@ nshwaas+Num:nishwaa        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "eight"; !nshwaas
 zhaangs+Num:zhaanga        NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY "nine"; !zhaangs everywhere but repetition forms (and thus ordinals as well), then zhaangch
 
 LEXICON NUMERAL_ROOT_FORMS_35_GATEWAY
-                    NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+                    NUMERAL_ROOT_FORMS_VERBISH ; 
                     NUMERAL_ROOT_FORMS_GET ; 
 
 LEXICON NUMERAL_ROOT_FORMS_FOUR_GATEWAY
-0:w                 NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+0:w                 NUMERAL_ROOT_FORMS_VERBISH ; 
                     NUMERAL_ROOT_FORMS_GET ; 
 
 LEXICON NUMERAL_ROOT_FORMS_SIX_NINE_GATEWAY
 0:s                 NUMERAL_ROOT_FORMS_GET  ; 
-0:ch                NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+0:ch                NUMERAL_ROOT_FORMS_VERBISH ; 
 
-LEXICON NUMERAL_ROOT_FORMS_VERBISH_GATEWAY
+LEXICON NUMERAL_ROOT_FORMS_VERBISH
 +VII:in VII_ORDERS_GET ; !ordinals, repetition forms take +Cnj+0:g, presumably full on verbs of number can take the full suite. person prefixes will not be legitimate here because VII_ORDERS_GET rules them out
 +VAI:i  VAI_ORDERS_GET ; !first and second person prefixes need to be routed here too
 
-
 LEXICON NUMERAL_ROOT_FORMS_GET_TWO
-                                        NUMERAL_ROOT_FORMS_VERBISH_GATEWAY ; 
+                                        NUMERAL_ROOT_FORMS_VERBISH ; 
 @D.NUMERAL.ORD@@D.NUMERAL.TEN@         NUMERAL_ROOT_FORMS_TWO_TENS ; 
 @D.NUMERAL.ORD@@D.NUMERAL.HUNDRED@     NUMERAL_STEM_HUNDRED_SET ; 
 
 LEXICON NUMERAL_ROOT_FORMS_GET
 @D.NUMERAL.ORD@@D.NUMERAL.TEN@         NUMERAL_STEM_TEN_SET ; 
 @D.NUMERAL.ORD@@D.NUMERAL.HUNDRED@     NUMERAL_STEM_HUNDRED_SET ;
+                                        NUMERAL_CLASSIFICATORY_MEDIALS ; 
+                                        NUMERAL_FINALS ; 
 
 LEXICON NUMERAL_STEM_TEN_SET  
 @P.NUMERAL.TEN@     NUMERAL_STEM_TEN ;
@@ -157,8 +157,8 @@ LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
 +ooshkin+Num:ooshkin    # "bag";
 +bboon+Num:%>biboon    # "winter";
 +bii'gan+Num:%>biihigan    # "card";
-+dbahaabaan+Num:dibahaabaan    # "mile"; !ngod loses its d from the looks of it before d here
-+dbik+Num:dibik    # "night"; !ngod loses its d from the looks of it before d here
++dbahaabaan+Num:%>d2ibahaabaan    # "mile"; !ngod loses its d from the looks of it before d here
++dbik+Num:%>d2ibik    # "night"; !ngod loses its d from the looks of it before d here
 +gamig+Num:%>gamig    # "building";
 +gon+Num:%>gon    # "day";
 +kiins+Num:akiins    # "acre";
@@ -174,10 +174,10 @@ LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
 
 LEXICON NUMERAL_FINALS
 !nen'godooshkne ->neningod-ooshkin-e be a max of one to each... a distributive reduplicated form (NOT bebezhig!) plus -ooshkine. there are similar ones
-+VII:oonagad2 VII_ORDERS_GET "be a boat load"; !Lumping classifier material with final oonag classifier exists, but I'm a bit leery of -ad2 as a final on its own.
++VII:oonagad2 VII_ORDERS_GET "be a boat load"; !Lumping classifier material with final. oonag classifier exists, but I'm a bit leery of -ad2 as a final on its own.
 +VAI:oonagizi VAI_ORDERS_GET "be a boat load"; 
-+VII:%>doopwinigad2   VII_ORDERS_GET "be a tableful" ; !doopwin is clear, but then you have -igad2 in addition to -ad2 ... need to delete dd>d with ngod
-+VAI:%>doopwinigizi   VAI_ORDERS_GET "be a tableful" ; !doopwin is clear, but then you have -igad2 in addition to -ad2
++VII:%>d2oopwinigad2   VII_ORDERS_GET "be a tableful" ; !doopwin is clear, but then you have -igad2 in addition to -ad2 ... need to delete dd>d with ngod
++VAI:%>d2oopwinigizi   VAI_ORDERS_GET "be a tableful" ; !doopwin is clear, but then you have -igad2 in addition to -ad2
 +VII:ooshkine       VII_ORDERS_GET "be a containerful" ; 
 +VAI:ooshkine       VAI_ORDERS_GET "be a containerful" ; 
 +VII:%>gonagad2      VII_ORDERS_GET "be later" ; !gon 'day' + gad? 'absent'

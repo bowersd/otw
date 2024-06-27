@@ -34,7 +34,7 @@ define sigma [
                 n5| !n5->en / lexically specific d-initial ccnj, else 0 
                 b1| !d1b1 -> p (cnj preterites)
                 d1| !nd1 -> ng, d1b1 -> p, d1y1 -> j, else: d 
-                d2| !deletable d in vii
+                d2| !deletable d in vii, also for complex numerals
                 c1| !conjunct, negation linker (nasal-neg[s] -> nz, v-v -> vyv)
                 L1| !final vowel protector (used mostly on a handful of loans, hence the L, but also a couple of tightly bound compounds with aki, and miikna)
                 X2| !'segment' to allow special phonology in ccnjs
@@ -278,6 +278,7 @@ define rmccnj       [["PV/CCNJ+"|X2] -> 0] ;
 define cnjHiatus    [c1 -> y || vowel _ vowel] ; !V-final hiatus
 define cnjVoi       [s -> z  || nas c1 _ ] ; !nas-final negation
 define d2k          [d2 c1 g -> k || _ .#. ] ; !d-final vii cnj 0sg ends in k, not dg 
+define d2d2fuse       [d2 %> d2 -> d ] ; !ngod loses d before d-initial forms
 define d2del        [d2 c1 -> 0 || _ s ] ; !d-final vii loses d before s
 define d2d          [d2 -> d] ;
 define cnjRmC1      [c1 -> 0] ; !no more use for special c1
@@ -438,6 +439,7 @@ read regex [
     cnjHiatus   .o.
     cnjVoi      .o.
     d2k         .o.
+    d2d2fuse    .o.
     d2del       .o.
     d2d         .o.
     cnjRmC1     .o.
