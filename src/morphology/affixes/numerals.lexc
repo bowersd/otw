@@ -24,6 +24,7 @@ LEXICON NUMERALS_META_GATEWAY
 LEXICON NUMERAL_ROOTS_GATEWAY
         !need to allow person prefixes just in case you end up with a VAI suffix, but not in any other cases
         NUMERAL_ROOT_FORMS_ONE ; 
+        NUMERAL_ROOT_FORMS_EXCEPTIONAL_ONE ; 
         NUMERAL_ROOT_FORMS_TWO_NINE ; 
         NUMERAL_ROOT_FORMS_TEN ; 
 @D.Person@        NUMERAL_STANDALONE_FORMS_TEN ; !you should not ever have person prefixes on standalone numerals
@@ -43,7 +44,7 @@ LEXICON NUMERAL_ROOT_FORMS_EXCEPTIONAL_ONE
 bezhig+Num:bezhigw6 NUMERAL_ROOT_FORMS_VERBISH ; 
 
 LEXICON NUMERAL_ROOT_FORMS_ONE
-ngod+Num:ningod            NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100). ordinal form is ntam (with just e-, not eko-)
+ngod+Num:ningod2           NUMERAL_STEM_HUNDRED_GET "one"; !can't combine with mdana (10), can combine with waak (100). ordinal form is ntam (with just e-, not eko-)
 
 LEXICON NUMERAL_ROOT_FORMS_TEN
 mdaas+Num:midaa          NUMERAL_ROOT_FORMS_TEN_GET "ten"; !mdaas everywhere except repetition forms (and thus ordinals as well, then mdaas/mdaach. can't combine with mdana, can combine with waak
