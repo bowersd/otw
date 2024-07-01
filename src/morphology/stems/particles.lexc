@@ -1,6 +1,7 @@
 LEXICON PCL
 CJ ;
 IJ ;
+IJ_DAB_ADDITIONS ;
 PT ;
 
 LEXICON CJ
@@ -14,6 +15,11 @@ jibwaa:Vv1jibwaa    CJ_TAG    " 1 before, at a time preceding (some other event 
 
 LEXICON CJ_TAG
 +Conj:0 CLOSED_PROTECTION ;
+
+LEXICON IJ_DAB_ADDITIONS 
+giibaadkamik:giibaadakamig	 IJ_TAG  "1 It's absurd; It's ludricous; It's ridiculous" ; !Rand key:n20162256-35-28n
+gchi-myisaach:gichi-mVv1yisaach IJ_TAG "1 How unfortunate." ; !Rand_key:n201622211-27-5n
+gaansidam:gaanisidam	 IJ_TAG "1 too bad, regrettable, unfortunate" ; !Rand key:n201622114-30-44n
 
 LEXICON IJ
 wis:awis    IJ_TAG    " 1 Scat! Shoo!" ; !Rand key:n73072076663n
