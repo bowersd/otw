@@ -6682,6 +6682,46 @@ LEXICON VAIO_TAG
 LEXICON VTA_DAB_ADDITIONS 
 nazwaa:inazw  VTA_TAG "cook in a certain way" ; !drawn from a print lexicon by MAC
 ndagkenmaa:nandagikenim    VTA_TAG    " 1 check sth. (animate), investigate sth. (animate)" ; !From Amy Debassige
+!{Rand database dump 2024
+zhiishiigshkaagon:zhiishiigishkaw        VTAI_INVERSE_ONLY_SET    " 1 be made to urinate by sth." ; !Rand key:n73035143870n
+zhaabkaagon:zhaabokaw        VTAI_INVERSE_ONLY_SET    " 1 be given diarrhea by sth." ; !Rand key:n73033414208n
+sosnaamshkaagon:azosVv1naamVv1shkaw        VTAI_INVERSE_ONLY_SET    " 1 be made to cough by sth." ; !Rand key:n7303211291n
+gzhiibzheshkaagon:gizhiibVv1zheshkaw        VTAI_INVERSE_ONLY_SET    " 1 be made itchy by sth. touching one" ; !Rand key:n73032329741n
+gshkikaagon:gBv1shkikaw        VTAI_INVERSE_ONLY_SET    " 1 be affected by sth. [ingested], be affected by sth. [that one is struck by]" ; !Rand key:n7303275727n
+giiwshkweshkaag:giiwashkweshkaw        VTAI_INVERSE_ONLY_SET    " 1 be made dizzy by sth." ; !Rand key:n73024171982n
+ggwetaan'kaak:gagwetaanikaw        VTAI_INVERSE_ONLY_SET    " 1 be knocked off one's feet [by sth. (an.) ingested]" ; !Rand key:n73021179326n
+gbisgishkaak:gibisagishkaw        VTAI_INVERSE_ONLY_SET    " 1 be constipated by sth. (an.)" ; !Rand key:n73017943053n
+giigdashkaagon:giigidashkaw        VTAI_INVERSE_ONLY_SET    " 1 be made talkative by sth. ingested, sth. ingested make one talkative" ; !Rand key:n20162257-18-17n
+ggwetaanshkaagon:gagwetaanishkaw        VTAI_INVERSE_ONLY_SET    " 1 be hit really strongly by sth. ingested, get a big kick from sth. strong, be greatly affected by sth. ingested" ; !Rand key:n20162256-28-2n
+ggiibaazaabminaagshkaagon:gagiibaazaabaminaagoshkaw        VTAI_INVERSE_ONLY_SET    " 1 [be made to] look stupid by sth. worn, sth. worn look stupid on one" ; !Rand key:n20162245-9-22n
+debnoweshkaagon:debinoweshkaw        VTAI_INVERSE_ONLY_SET    " 1 be sated by the taste of sth. [solid, not liquid], sth. sate one's appetite" ; !Rand key:n20161238-47-40n
+bsidyeshkaagon:bisidiyeshkaw        VTAI_INVERSE_ONLY_SET    " 1 be affected by something imbibed, feel a sharp stimulant effect from sth. imbibed, get a kick from sth. imbibed" ; !Rand key:n201612117-5-3n
+bnikaagon:binikaw        VTAI_INVERSE_ONLY_SET    " 1 be bypassed by sth. (usually referring to bad weather)" ; !Rand key:n201611710-51-38n
+bkiteshkaagon:bakiteshkaw        VTAI_INVERSE_ONLY_SET    " 1 be affected by sth., feel a sharp stimulant effect from sth. imbibed (usually in reference to liquor)" ; !Rand key:n201611518-12-26n
+bdakshkaagon:badakishkaw        VTAI_INVERSE_ONLY_SET    " 1 be pricked by sth." ; !Rand key:n201611115-54-24n
+mzhikaagon:mizhikaw        VTAI_INVERSE_ONLY_SET    " 1 be hurt by sth., be adversely affected by sth." ; !Rand key:n73033328006n
+mno-mkawaa:mino-mikaw        VTAI_INVERSE_ONLY_SET    " 1 find sth. (an.) to be effective, find sth. (an.) to be good" ; !Rand key:n73097746022n
+maanaazkaagon:maanaazikaw        VTAI_INVERSE_ONLY_SET    " 1 be adversely affected by sth. [eaten or drunk]" ; !Rand key:n73098557889n
+maanaajganeshkaagon:maanaajiganeshkaw        VTAI_INVERSE_ONLY_SET    " 1 be made to feel sick by sth. [eaten or drunk]" ; !Rand key:n73098558197n
+maan'kaagon:maanikaw        VTAI_INVERSE_ONLY_SET    " 1 be made ill by sth., be made sick by sth." ; !Rand key:n73032750542n
+gaasknaabaagweshkaagon:gaaskanaabaagweshkaw        VTAI_INVERSE_ONLY_SET    " 1 be made thirsty by something" ; !Rand key:n73017371943n
+dewkweshkaagon:dewikweshkaw        VTAI_INVERSE_ONLY_SET    " 1 be given a headache [by sth.]" ; !Rand key:n73004651830n
+booz'igon:boozih        VTAI_INVERSE_ONLY_SET    " 1 be stung by sth. (of medicine)" ; !Rand key:n72981561074n
+bookwaabdeshkaagon:bookwaabideshkaw        VTAI_INVERSE_ONLY_SET    " 1 have one's tooth broken by sth." ; !Rand key:n72980780311n
+boogjishkaagon:boogijishkaw        VTAI_INVERSE_ONLY_SET    " 1 be made to fart by sth." ; !Rand key:n73021179578n
+bkwenshkaagon:bakwenishkaw        VTAI_INVERSE_ONLY_SET    " 1 choke on sth., have sth. choke one" ; !Rand key:n72977656904n
+biijnaweshkaagon:biijinaweshkaw        VTAI_INVERSE_ONLY_SET    " 1 be left with an aftertaste by sth." ; !Rand key:n72977252692n
+biijbii'mawaa:biijibiihamaw        VTAI_INVERSE_ONLY_SET    " 1 write a letter to smb. (verb not used of letter to be mailed out, commonly in inflections that have 1st or 2nd person goal, or 3rd person goal if writer is 4th person)" ; !Rand key:n72977248974n
+bgozdeshkaagon:bVv1gozideshkaw        VTAI_INVERSE_ONLY_SET    " 1 be given blisters by something [rubbing] on one's feet" ; !Rand key:n72976859706n
+bgoshkaagon:bVv1goshkaw        VTAI_INVERSE_ONLY_SET    " 1 be chafed by something" ; !Rand key:n72980776113n
+bgonjiishkaagon:bVv1gonjiishkaw        VTAI_INVERSE_ONLY_SET    " 1 be given blisters by something [rubbing] on one's hands" ; !Rand key:n72976860152n
+baapaagjiishkaagon:baapaagVv1jiishkaw        VTAI_INVERSE_ONLY_SET    " 1 be given gas pains [by sth. ingested]" ; !Rand key:n73032653465n
+aakziishkaagon:aakoziishkaw        VTAI_INVERSE_ONLY_SET    " 1 be made sick [by sth. ingested]" ; !Rand key:n72973258265n
+aakshkadeshkaagon:aakoshkadeshkaw        VTAI_INVERSE_ONLY_SET    " 1 be given a stomach ache by sth. [ingested]" ; !Rand key:n72973245168n
+!End Rand database dump 2024}
+
+LEXICON VTA_INVERSE_ONLY_SET
+@P.Theme.Inv@   VTA_TAG ; 
 
 LEXICON VTA
 aabnaabndamwaa:aabanaabandamaw    VTA_TAG    " 1 look back at sth. belonging to smb." ; !Rand key:n72971766018n
