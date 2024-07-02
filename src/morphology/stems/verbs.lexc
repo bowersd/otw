@@ -2005,6 +2005,42 @@ baataadbi:baataadabi    VAI_TAG    " 1 be stuck in one's seat, be stuck sitting 
 baashkaakjin:baashkaakojin    VAI_TAG    " 1 make a cracking sound from the cold (of trees)" ; !Rand key:n20161920-58-59n
 aawsaadzi:aawVv1saadizi    VAI_TAG    " 1 be crazy, be insane (M'Ch, Wk);  2 be forgetful [from dementia] (Sg)" ; !Rand key:n2016176-35-32n
 dnaajma:ondVv1naajimVa1    VAI_TAG    " 1 relate something pertaining to a particular place;  2 relate something from a particular time back, talk about something from a particular time back" ; !Rand key:n73101885099n
+!{Start original vaip
+!swekaawak:zaswekaa	vaip	 1 spread out, disperse through an area	n73034024863n
+!gchi-bmibzawak:gichi-bimibizVa1	vaip	 1 be a heavy flow of vehicular traffic, lots of cars be driving, lots of people be on the road [driving]	n201622210-58-30n
+!gchi-bmasewak:gichi-bmVa1se	vaip	 1 be a heavy flow of pedestrian traffic, do intense walking, lots of people be walking	n201622210-45-28n
+!bmaangsowak:bimaangVo1so	vaip	 1 lie in a row on the ground	n201132620-28-37n
+!maanddowak:maandido	vaip	 1 [see mmaanddowak]	n71429179771n
+sheyaabiishnook:zhazheyaabiishin    VAI_TAG    " 1 be arranged in a row" ; !Rand key:n73031385324n
+shekshinook:zhazhekishin    VAI_TAG    " 1 be arranged in a row, be placed in a row" ; !Rand key:n73031383856n
+giitaadbiwak:giitaadabi    VAI_TAG    " 1 [people] sit around in a circle" ; !Rand key:n73023759419n
+debwaakdabwak:debwaakodabi    VAI_TAG    " 1 all fit [sitting] somewhere, all have room to sit" ; !Rand key:n20161239-19-35n
+debdabwak:debidabi    VAI_TAG    " 1 all fit [sitting] somewhere, all have room to sit" ; !Rand key:n20161238-34-8n
+bkesewak:bakese    VAI_TAG    " 1 have a falling out, part ways, separate (generally of a couple)" ; !Rand key:n201611515-52-11n
+maawndoo-yaawak:maawandoo-ayaa    VAI_TAG    " 1 be together, live together" ; !Rand key:n20114717-36-40n
+ddaakzidewak:dadaakozide    VAI_TAG    " 1 have short feet, have small feet" ; !Rand key:n201132717-17-21n
+bmaakdabwak:bimaakVo1dabi    VAI_TAG    " 1 sit in a row" ; !Rand key:n201132620-24-48n
+nimaabiigmawak:animaabiigVv1mVa1    VAI_TAG    " 1 stream away (of a line of cars)" ; !Rand key:n73099873526n
+niisksewak:niiskVv1se    VAI_TAG    " 1 have a falling-out with each other" ; !Rand key:n73099246631n
+niibdeyaakbiwak:niibideyaakVv1bi    VAI_TAG    " 1 sit in a row" ; !Rand key:n71431748803n
+naaniizhoodbiwak:naaniizhoodabi    VAI_TAG    " 1 sit side by side" ; !Rand key:n73099255440n
+naan'gozwak:naanigozi    VAI_TAG    " 1 lie buried" ; !Rand key:n71431059388n
+mzweyaakdabwak:mizweyaakodabi    VAI_TAG    " 1 sit filling up an entire area" ; !Rand key:n73034031160n
+mzwewaakoon'gishnook:mizwewaakoonagishin    VAI_TAG    " 1 fill up an entire area, fill up an area from one end to the other (of parked cars)" ; !Rand key:n73033330054n
+mmaanddowak:mamaandido    VAI_TAG    " 1 be big (of a group)" ; !Rand key:n71430040258n
+maazhsewak:maazhise    VAI_TAG    " 1 have a falling out" ; !Rand key:n73032439022n
+maawndooshkaawak:maawandooshkaa    VAI_TAG    " 1 meet, gather (of groups)" ; !Rand key:n71429265401n
+maamwizwak:maamawizi    VAI_TAG    " 1 collaborate, work together" ; !Rand key:n73032746911n
+kwaabiigmawak:akwaabiigVv1mVa1    VAI_TAG    " 1 be a certain length (of a parade or lineup of people)" ; !Rand key:n73032724692n
+kojiishkdaadwak:akojiishkVv1daadi    VAI_TAG    " 1 huddle together, pile up" ; !Rand key:n73099735298n
+kobwak:akobi    VAI_TAG    " 1 sit crowded together, sit huddled together, sit together [in a group]" ; !Rand key:n71428978223n
+gaagiiwewak:gaagiiwe    VAI_TAG    " 1 go each to his own home" ; !Rand key:n73016048206n
+bnaagaabwiwak:binaagaabawi    VAI_TAG    " 1 mill about" ; !Rand key:n73046311527n
+bmaabiigmowak:bimaabiigamo    VAI_TAG    " 1 go by [in a stream], stream by" ; !Rand key:n72977665565n
+biidaabiigmawak:biidaabiigVv1mVa1    VAI_TAG    " 1 come streaming in this direction, come streaming this way, stream in this direction, stream this way" ; !Rand key:n73101863755n
+bgamiinwak:bagamiino    VAI_TAG    " 1 arrive in hordes, arrive in great numbers" ; !Rand key:n73025580573n
+bebkaanziwak:bebakaanizi    VAI_TAG    " 1 be different from each other" ; !Rand key:n73016754530n
+!End original vaip}
 !End Rand database dump 2024}
 
 LEXICON VAI
@@ -8923,7 +8959,7 @@ shawaa:zhashahw    VTA_TAG    " 1 butter sth. (an.), put a spread on sth. (an.),
 shawebnaa:ashawebin    VTA_TAG    " 1 tilt sth. (an.) aside" ; !Rand key:n73031381015n
 shawejiiyebnaa:ashawejiiyebin1    VTA_TAG    " 1 throw smb. onto his side" ; !Rand key:n73034012026n
 shekshimaa:zhazhekishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. (an.) in a row" ; !Rand key:n73031383418n
-sheyaabiishmaa:asheyaabiishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. (an.) in a row" ; !Rand key:n73031385670n
+sheyaabiishmaa:zhazheyaabiishim    VTA_TAG    " 1 arrange sth. (an.) in a row, place sth. (an.) in a row" ; !Rand key:n73031385670n
 shigboonaa:zhashigoboon1    VTA_TAG    " 1 grind sth. (an.)" ; !Rand key:n7303408159n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shigjiiwaa:zhashigojiihw    VTA_TAG    " 1 crush sth. (an.)" ; !Rand key:n7303407017n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shinaaj'aa:Vv1shinaajih    VTA_TAG    " 1 waste sth. (an.);  2 devastate smb." ; !Rand key:n7303147167n
@@ -12234,9 +12270,9 @@ shagbidoon:zhashagobid    VTI_OO_THEME    " 1 crumble sth., crush sth. [with one
 shagboodoon:zhashagobood    VTI_OO_THEME    " 1 grind sth. into small pieces (LH);  2 rake sth. and leave it in pieces (rare in Wk)" ; !Rand key:n7303134844n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shagjiibdoon:zhashagojiibid    VTI_OO_THEME    " 1 crumble sth." ; !Rand key:n7303136174n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shagsidoon:zhashagosid    VTI_OO_THEME    " 1 crush sth. by striking it against something" ; !Rand key:n73031310165n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-shawebdoon:ashawebid    VTI_OO_THEME    " 1 tilt sth. aside" ; !Rand key:n73031379579n
+shawebdoon:zhashawebid    VTI_OO_THEME    " 1 tilt sth. aside" ; !Rand key:n73031379579n
 sheksidoon:zhazhekisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031384413n
-sheyaabiisdoon:asheyaabiisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031385051n
+sheyaabiisdoon:zhazheyaabiisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031385051n
 shigboodoon:zhashigobood    VTI_OO_THEME    " 1 grind sth. " ; !Rand key:n7303408092n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shinaajtoon:Vv1shinaajit    VTI_OO_THEME    " 1 waste sth." ; !Rand key:n7303147566n
 shkoboodoon:Vi1shkobood    VTI_OO_THEME    " 1 leave sth. fallow (of fields of crops)" ; !Rand key:n73031480921n
