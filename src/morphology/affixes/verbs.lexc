@@ -255,6 +255,7 @@ PV/bzaani+:bizaani-    V_REDUPLICATION_STEM    " 1 quietly, in the sense of lack
 !DUP REMOVE!PV/dami+:ondami-    V_REDUPLICATION_STEM    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
 !DUP REMOVE!PV/dami+:odami-    V_REDUPLICATION_STEM    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
 PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_STEM    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
+PV/gbe+:gabe-  V_REDUPLICATION_STEM " 1 all, throughout"; !DAB ADDITION (found in OPD, also there are gbe-X adverbs here)
 !}
 PV/nboodwewi+:niboodwewi- V_REDUPLICATION_STEM " 1 embarassedly" ;
 PV/gnibi+:ginibi- V_REDUPLICATION_STEM " 1 quickly" ;

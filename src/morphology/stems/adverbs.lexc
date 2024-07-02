@@ -11,6 +11,7 @@ PA/de+:de-       AV_GATEWAY " 1 fair (amount), moderate (amount)"; !DAB ADDITION
 PA/ekwaa+:ekwaa-    AV_GATEWAY    " 1 finish" ; !DAB ADDITION
 PA/ni+:ani-      AV_GATEWAY " 1 [do something] as one goes away, go away and [do something], go away, on one's way out, [doing something];  2 as time goes on, as time passes, in the course of time;  3 in the future";
 PA/piichi+:apiichi-  AV_GATEWAY " 1 to a certain degree, to a certain extent, to such a degree, to such an extent, how, to what extent, so;  2 in the process of..., while";
+PA/gbe+:gabe-  AV_GATEWAY " 1 all, throughout"; !DAB ADDITION (found in OPD, also there are gbe-X adverbs here)
 !} PV->PA list end
 !FURTHER HYPHENATED ADVERBS WHICH MAY OR MAY NOT INCLUDE ADDITIONAL PRE-ADVERBS
 !endso-niibing:endaso-niibing    AV_TAG    " 1 every summer, each summer" ; !Rand key:n201132920-17-45n DAB: THIS JUST SEEMS LIKE A VERB, SHOULD IT EVEN BE LISTED?
