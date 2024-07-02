@@ -88,6 +88,14 @@ ekwaawiiwan:ekwaawiiwan    VII_TAG    " 1 end, come to an end" ; !Rand key:n2016
 ekwaamat:ekwaamVa1d2    VII_TAG    " 1 [road] end" ; !Rand key:n20162188-52-34n
 bedaabkide:bedaabikide    VII_TAG    " 1 be slow to heat up, be low in temperature" ; !Rand key:n201611117-21-39n
 mmaachaa:mVi1maachaa    VII_TAG    " 1 be big (of groups of things)" ; !Rand key:n71429751606n
+!{Start original viip
+sheyaabiisin:zhazheyaabiisin    VII_TAG    " 1 be arranged in a row" ; !Rand key:n73031385929n
+sheksinoon:zhazhekisin    VII_TAG    " 1 be arranged in a row, be placed in a row" ; !Rand key:n74339175535n
+ggaanwaak'oodenoon:gagaanwaakohoode    VII_TAG    " 1 hang in long shapes" ; !Rand key:n20162244-21-17n !this is listed with a -enoon plural, but ewan is expected
+bnaamnoon:banaamVo1n    VII_TAG    " 1 [roads] go this way and that, run this way and that" ; !Rand key:n20161178-47-35n
+mzwewaakoon'gisnoon:mizwewaakoonagisin    VII_TAG    " 1 fill up an entire area, fill up an area from one end to the other (of boats)" ; !Rand key:n73033330157n
+bebkaandoon:bebakaanad2    VII_TAG    " 1 be different from each other" ; !Rand key:n73016754723n
+!End original viip}
 !End Rand database dump 2024}
 
 LEXICON VII_DEF
@@ -2040,6 +2048,10 @@ bmaabiigmowak:bimaabiigamo    VAI_TAG    " 1 go by [in a stream], stream by" ; !
 biidaabiigmawak:biidaabiigVv1mVa1    VAI_TAG    " 1 come streaming in this direction, come streaming this way, stream in this direction, stream this way" ; !Rand key:n73101863755n
 bgamiinwak:bagamiino    VAI_TAG    " 1 arrive in hordes, arrive in great numbers" ; !Rand key:n73025580573n
 bebkaanziwak:bebakaanizi    VAI_TAG    " 1 be different from each other" ; !Rand key:n73016754530n
+sweb'idwak:zaswebahidi    VAI_TAG    " 1 disperse [running], scatter [running]" ; !Rand key:n73071453360n
+bmib'idwak:bimibahidi    VAI_TAG    " 1 run along in a group, run by in a group" ; !Rand key:n20113277-0-9n
+maajiib'idwak:maajiibahidi    VAI_TAG    " 1 run off together in a group" ; !Rand key:n73032731795n
+biijba'diwak:biijibahidi    VAI_TAG    " 1 come running this way (of a group)" ; !Rand key:n72977247521n
 !End original vaip}
 !End Rand database dump 2024}
 
