@@ -6976,6 +6976,7 @@ gaachkonaa:gaachikon1    VTA_TAG    " 1 cut a small piece of sth. (an.), cut sth
 bnagaakkonaa:banagaakokon1    VTA_TAG    " 1 debark sth. (an.)" ; !Rand key:n201611710-7-4n
 aanoodmaa:aanoodim    VTA_TAG    " 1 inflict terrible bites on smb." ; !Rand key:n20161512-20-39n
 maawndoodaabaanaawak:maawandoodaabaan1    VTA_TAG    " 1 drag (an.) things together" ; !Rand key:n20114717-43-37n
+biidaawnaak:biidaawin1    VTA_TAG    " 1 bring a bunch" ; !Rand key:n73101863100n !this requires a plural object (the only known vtap), but it will be a real pain to set up a restriction like that, so just allow it to combine with anything for now
 !end new vtas}
 !End Rand database dump 2024}
 
