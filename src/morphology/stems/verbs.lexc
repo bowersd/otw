@@ -6682,7 +6682,8 @@ LEXICON VAIO_TAG
 LEXICON VTA_DAB_ADDITIONS 
 nazwaa:inazw  VTA_TAG "cook in a certain way" ; !drawn from a print lexicon by MAC
 ndagkenmaa:nandagikenim    VTA_TAG    " 1 check sth. (animate), investigate sth. (animate)" ; !From Amy Debassige
-!{Rand database dump 2024
+!{start Rand database dump 2024
+!{start vta inverse only
 zhiishiigshkaagon:zhiishiigishkaw        VTAI_INVERSE_ONLY_SET    " 1 be made to urinate by sth." ; !Rand key:n73035143870n
 zhaabkaagon:zhaabokaw        VTAI_INVERSE_ONLY_SET    " 1 be given diarrhea by sth." ; !Rand key:n73033414208n
 sosnaamshkaagon:azosVv1naamVv1shkaw        VTAI_INVERSE_ONLY_SET    " 1 be made to cough by sth." ; !Rand key:n7303211291n
@@ -6718,6 +6719,7 @@ bgonjiishkaagon:bVv1gonjiishkaw        VTAI_INVERSE_ONLY_SET    " 1 be given bli
 baapaagjiishkaagon:baapaagVv1jiishkaw        VTAI_INVERSE_ONLY_SET    " 1 be given gas pains [by sth. ingested]" ; !Rand key:n73032653465n
 aakziishkaagon:aakoziishkaw        VTAI_INVERSE_ONLY_SET    " 1 be made sick [by sth. ingested]" ; !Rand key:n72973258265n
 aakshkadeshkaagon:aakoshkadeshkaw        VTAI_INVERSE_ONLY_SET    " 1 be given a stomach ache by sth. [ingested]" ; !Rand key:n72973245168n
+!end vta inverse only}
 !End Rand database dump 2024}
 
 LEXICON VTA_INVERSE_ONLY_SET
