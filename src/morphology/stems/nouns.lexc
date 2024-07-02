@@ -1104,6 +1104,22 @@ negwaki:negawakiw2    NI_SET    " 1 sand" ; !Revised form of negwiiki, this is c
 baasdaawngaak:baasadaawBv1ngaag NI_SET "1 flour" ; ! From Amy Debassige
 baasaawngaak:baasaawBv1ngaag NI_SET "1 flour" ; ! From Amy Debassige
 bzagwaaboo:bazagwaaboo       NI_SET "1 thickener (literally viscous/sticky liquid)" ; ! From Amy Debassige
+!{Start Rand database dump 2024
+zhiibaawaabnjigan:zhiibaawaabanjigan    NI_SET    " 1 binoculars, telescope, microscope" ; !Rand key:n73035131739n
+gwaabkizgan:gwaabikizigan    NI_SET    " 1 a type of scone fried in lightly greased fry pan" ; !Rand key:n20163513-8-30n
+gozhaan:agozhaan    NI_SET    " 1 cloak" ; !Rand key:n201622716-56-47n
+goopdinendaawdi'win:goopadinendaawidihiwin    NI_SET    " 1 insult" ; !Rand key:n201622716-51-25n
+gonjwinaagan:agonjiwinaagan    NI_SET    " 1 buoy, float [for a fishing net]" ; !Rand key:n201622716-39-31n
+gndaawoonak:gVv1ndaawoonag    NI_SET    " 1 bow of a boat" ; !Rand key:n201622715-50-44n
+gnaazgewin:gonaazongewin    NI_SET    " 1 commandment" ; !Rand key:n201622715-31-27n
+gmiwnaaboo:gimiwanaaboo    NI_SET    " 1 rainwater" ; !Rand key:n201622711-35-49n
+ggaanzgewin:gagaanzongewin    NI_SET    " 1 commandment" ; !Rand key:n20162244-23-3n
+getnaami'ii:getVv1naamihii    NI_SET    " 1 heavy-duty type, sturdy type" ; !Rand key:n20162237-3-19n
+gbodyegwaazwin:gibodiyegwaazowin    NI_SET    " 1 underwear" ; !Rand key:n20162229-6-45n
+gbiingwe'gan:gibiingwehigan    NI_SET    " 1 horse blinker" ; !Rand key:n20162228-54-18n
+gbaabkin'gan:gibaabikinigan    NI_SET    " 1 flue damper, air vent control" ; !Rand key:n201622116-1-42n
+gaanwzhiimin:gaanwazhiimin    NI_SET    " 1 juniper berry" ; !Rand key:n201622114-35-20n
+!End Rand database dump 2024}
 
 LEXICON NI
 !{ oddballs (y-final)
