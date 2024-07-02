@@ -6720,6 +6720,58 @@ baapaagjiishkaagon:baapaagVv1jiishkaw        VTA_INVERSE_ONLY_SET    " 1 be give
 aakziishkaagon:aakoziishkaw        VTA_INVERSE_ONLY_SET    " 1 be made sick [by sth. ingested]" ; !Rand key:n72973258265n
 aakshkadeshkaagon:aakoshkadeshkaw        VTA_INVERSE_ONLY_SET    " 1 be given a stomach ache by sth. [ingested]" ; !Rand key:n72973245168n
 !end vta inverse only}
+!{start new vtas
+jiishwebnaa:jiishwebin1    VTA_TAG    " 1 brush smb. off with one's hands, brush smb. away with one's hands" ; !Rand key:n201632410-36-37n
+bskaabi-gnoonaa:biskaabi-ganoon1    VTA_TAG    " 1 return a phone call to smb." ; !Rand key:n20163218-26-58n
+mbimaa:ombim    VTA_TAG    " 1 provoke smb., stir smb. up" ; !Rand key:n20163916-33-18n
+gtimiikwaa:gitimiikaw    VTA_TAG    " 1 work half-heartedly in taking care of smb." ; !Rand key:n20163512-27-28n
+gshko'oonaa:gashkohoon1    VTA_TAG    " 1 knot sth. (an.) securely" ; !Rand key:n20163117-5-23n
+goopdinwaa:goopadinaw    VTA_TAG    " 1 inflict a humiliating defeat on smb." ; !Rand key:n201622716-47-9n
+gonemaa:agonem    VTA_TAG    " 1 have sth. (an.) in one's mouth" ; !Rand key:n201622716-34-11n
+gndaajiishkwenaa:gondaajiishkwen1    VTA_TAG    " 1 push sth. (an.) into the mud" ; !Rand key:n201622715-53-45n
+gjwebshkawaa:gijwebishkaw    VTA_TAG    " 1 bump smb. from a job, take smb.'s position" ; !Rand key:n201622711-31-24n
+gjibnaa:gijibin1    VTA_TAG    " 1 jiggle sth. (an.) to see if it opens something, try turning sth. (an.);  2 take sth. (an.) out, remove sth. (an.);  3 " ; !Rand key:n201622711-18-23n
+giizhaajmaa:giizhaajim    VTA_TAG    " 1 finish recounting a story about smb., finish telling a story about smb." ; !Rand key:n20162278-6-3n
+giizhaabmaa:giizhaabamaa    VTA_TAG    " 1 finish looking at sth. (an.)" ; !Rand key:n201622615-50-35n
+giiwnaajshkoonaa:giiwanaajishkoon1    VTA_TAG    " 1 drive smb. crazy by giving him something to ingest" ; !Rand key:n201622615-46-22n
+giiwnaadziikaanaa:giiwanaadiziikaan1    VTA_TAG    " 1 drive smb. crazy" ; !Rand key:n201622615-35-16n
+giiwebzootmawaa:giiwebizootamaw    VTA_TAG    " 1 drive home for smb., drive smb. home" ; !Rand key:n201622516-38-38n
+giimoodaap'aa:giimoodaapih    VTA_TAG    " 1 snicker at smb." ; !Rand key:n201622510-52-28n
+giibnewenaa:giibVv1newen1    VTA_TAG    " 1 choke smb., hold smb. by the throat, strangle smb." ; !Rand key:n20162256-54-6n
+giibganaamaa:giibiganaam    VTA_TAG    " 1 knock sth. (an.) over the edge of something [such as a counter]" ; !Rand key:n20162256-48-59n
+ggwetaanbizoo'aa:gagwetaanibizooh    VTA_TAG    " 1 drive sth. (an.) fast, run sth. (an.) at great speed, make sth. (an.) go fast (of machines)" ; !Rand key:n201622418-10-58n
+giizhgwaanaa:giizhigwaan1    VTA_TAG    " 1 finish sewing sth. (an.)" ; !Rand key:n201622418-0-30n
+ggwetaan'ganaamaa:gagwetaaniganaam    VTA_TAG    " 1 wallop smb., give sth. (an.) a solid whack" ; !Rand key:n201622417-25-33n
+ggiibshimaa:gigiibishim    VTA_TAG    " 1 leave sth. (an.) in the way, place sth. (an.) so it's in the way" ; !Rand key:n20162245-28-12n
+ggiibnewes'aa:gigiibVv1newesih    VTA_TAG    " 1 strangle smb. forcefully" ; !Rand key:n20162245-19-43n
+ggiibnewenaa:gigiibVv1newen1    VTA_TAG    " 1 choke smb. [with the hands], strangle smb. [with the hands]" ; !Rand key:n20162245-15-26n
+ggiibaazaabmaa:gagiibaazaabam    VTA_TAG    " 1 think smb. looks stupid" ; !Rand key:n20162244-57-24n
+ggiibaajnikaanaa:gagiibaajinikaan1    VTA_TAG    " 1 give smb. a stupid name" ; !Rand key:n20162244-54-44n
+ggaanjshkin'aa:gagaanjishkinVi1h    VTA_TAG    " 1 force more food into smb. who's full, force smb. who's full to  eat more" ; !Rand key:n20162237-46-22n
+gezkowaabmaa:gezikowaabam    VTA_TAG    " 1 catch sight of smb." ; !Rand key:n20162237-21-20n
+gezkobnaa:gezVv1kobin1    VTA_TAG    " 1 be able to catch smb. [in time], be able to get hold of smb. [in time] (of moving objects)" ; !Rand key:n20162237-16-7n
+gdimaagenmaa:gidimaagenim    VTA_TAG    " 1 think smb. impoverished, think smb. poverty-stricken" ; !Rand key:n201622213-22-3n
+gdaakiiyedaabaanaa:gidaakiiwedaabaan1    VTA_TAG    " 1 drive sth. (an.) up the hill [hauling], haul sth. (an.) up the hill, pull sth. (an.) up the hill, tow sth. (an.) up the hill; drive smb. up the hill, give smb. a ride up the hill" ; !Rand key:n201622212-1-40n
+gchitwaawenmaa:gichitwaawenim    VTA_TAG    " 1 think smb. holy, revere smb., venerate smb. (CL, M’Ch, Sg, Wk, Wp);  2 esteem smb., think highly of smb." ; !Rand key:n201622211-33-48n
+gbonaamshkawaa:gVv1bonaamishkaw    VTA_TAG    " 1 smother smb. [with one's weight]" ; !Rand key:n201622210-30-4n
+gbesh'aa:gVi1beshih    VTA_TAG    " 1 put smb. up [to sleep], put smb. up temporarily [as a guest in one's house]" ; !Rand key:n20162228-39-44n
+gbagshimaa:gabagishim    VTA_TAG    " 1 lay sth. (an.) on thinly" ; !Rand key:n201622116-20-36n
+gaatwenmaa:gaatVv1wenim    VTA_TAG    " 1 be compassionate towards smb. grieving, condole with smb., have compassion for smb. grieving, be merciful towards smb. grieving, have mercy for smb. grieving" ; !Rand key:n201622115-43-47n
+gaaskiignaa:gaaskiigin1    VTA_TAG    " 1 rustle sth. (an.), cause sth. (an.) to make rustling sounds" ; !Rand key:n201622115-3-22n
+gaashkaawnaa:gaashkaawVi1n1    VTA_TAG    " 1 take all of sth. (an.) away" ; !Rand key:n201622114-48-49n
+gaashkaabkawaa:gaashkaabikaw    VTA_TAG    " 1 scrape sth. (an.)" ; !Rand key:n201622114-44-6n
+gaanjnaashkawaa:gaanjinaazhikaw    VTA_TAG    " 1 urge smb. to go do something" ; !Rand key:n201622114-27-59n
+gaandenmaa:gaandenim    VTA_TAG    " 1 hold a grudge against smb., resent smb." ; !Rand key:n201622114-26-17n
+gaakiizmaa:gaakiizim    VTA_TAG    " 1 console smb. verbally" ; !Rand key:n201622114-25-25n
+gaakaawaakdazwaa:gaakaawaakidazw    VTA_TAG    " 1 brown sth. (an.) to a crisp" ; !Rand key:n201622114-14-2n
+gaakaawaakjiizwaa:gaakaawaakijiizw    VTA_TAG    " 1 cook sth. (an.) to a crisp, fry sth. (an.) to a crisp" ; !Rand key:n201622114-12-15n
+zhiingaabmaa:zhiingaabam    VTA_TAG    " 1 be annoyed by how smb. looks, be annoyed by the look of smb., find smb.’s appearance annoying" ; !Rand key:n201622112-39-56n
+gaagiij'aa:gaagiijih    VTA_TAG    " 1 be easy on smb.;  2 comfort smb. (CL, M'Ch, Sg, Wk);  3 try to get on good side of smb. (M'Ch)" ; !Rand key:n201622112-7-36n
+gaachkonaa:gaachikon1    VTA_TAG    " 1 cut a small piece of sth. (an.), cut sth. (an.) into a small piece" ; !Rand key:n201621810-55-36n
+bnagaakkonaa:banagaakokon1    VTA_TAG    " 1 debark sth. (an.)" ; !Rand key:n201611710-7-4n
+aanoodmaa:aanoodim    VTA_TAG    " 1 inflict terrible bites on smb." ; !Rand key:n20161512-20-39n
+maawndoodaabaanaawak:maawandoodaabaan1    VTA_TAG    " 1 drag (an.) things together" ; !Rand key:n20114717-43-37n
+!end new vtas}
 !End Rand database dump 2024}
 
 LEXICON VTA_INVERSE_ONLY_SET
