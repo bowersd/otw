@@ -1122,7 +1122,8 @@ gbaabkin'gan:gibaabikinigan    NI_SET    " 1 flue damper, air vent control" ; !R
 gaanwzhiimin:gaanwazhiimin    NI_SET    " 1 juniper berry" ; !Rand key:n201622114-35-20n
 !end generic nouns}
 !{start place names
-Genada:genadaw    NI_PLACE_NAMES_TAG    " 1 Canada"    ; !Rand key:n73020046071n
+!Genada:genadaw    NI_PLACE_NAMES_TAG    " 1 Canada"    ; !Rand key:n73020046071n This will not syncopate correctly
+!Crossdeyaatik:crossdeyaatigo    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72985242027n This will not syncopate correctly, also foreign segment
 Wiikwemkoong:wiikwemikoong    NI_PLACE_NAMES_TAG    " 1 Wikwemikong, Ontario"    ; !Rand key:n201141011-25-4n
 Mchigiing:michigiing    NI_PLACE_NAMES_TAG    " 1 West Bay, Ontario"    ; !Rand key:n201141011-22-18n
 Waabgonoojiinaang:waabigonoojiinaang    NI_PLACE_NAMES_TAG    " 1 Wallaceburg, Ontario"    ; !Rand key:n201141011-19-24n
@@ -1150,7 +1151,6 @@ Neyaashii-nagmiing:neyaashii-onagamiing    NI_PLACE_NAMES_TAG    " 1 Cape Croker
 Nam'ewaatgoong:anamihewaatigoong    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456827n
 Moonyaang:mooniyaang    NI_PLACE_NAMES_TAG    " 1 Montreal, Quebec"    ; !Rand key:n71430358472n
 Mnisenh:miniseny    NI_PLACE_NAMES_TAG    " 1 Munising, Michigan;  2 Walpole Island, Ontario"    ; !Rand key:n71430242617n
-Crossdeyaatik:crossdeyaatigo    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72985242027n
 Bwa'ganing:bawahiganing    NI_PLACE_NAMES_TAG    " 1 rice-gathering place (near Saginaw, Michigan)"    ; !Rand key:n72985138197n
 Bkejwanong:bakejiwanong    NI_PLACE_NAMES_TAG    " 1 Walpole Island, Ontario"    ; !Rand key:n72977556328n
 Anam'ewaatgwenh:anamVi1hewaatigweny    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456729n
