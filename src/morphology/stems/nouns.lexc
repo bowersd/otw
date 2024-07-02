@@ -1105,6 +1105,7 @@ baasdaawngaak:baasadaawBv1ngaag NI_SET "1 flour" ; ! From Amy Debassige
 baasaawngaak:baasaawBv1ngaag NI_SET "1 flour" ; ! From Amy Debassige
 bzagwaaboo:bazagwaaboo       NI_SET "1 thickener (literally viscous/sticky liquid)" ; ! From Amy Debassige
 !{Start Rand database dump 2024
+!{start generic nouns
 zhiibaawaabnjigan:zhiibaawaabanjigan    NI_SET    " 1 binoculars, telescope, microscope" ; !Rand key:n73035131739n
 gwaabkizgan:gwaabikizigan    NI_SET    " 1 a type of scone fried in lightly greased fry pan" ; !Rand key:n20163513-8-30n
 gozhaan:agozhaan    NI_SET    " 1 cloak" ; !Rand key:n201622716-56-47n
@@ -1119,8 +1120,45 @@ gbodyegwaazwin:gibodiyegwaazowin    NI_SET    " 1 underwear" ; !Rand key:n201622
 gbiingwe'gan:gibiingwehigan    NI_SET    " 1 horse blinker" ; !Rand key:n20162228-54-18n
 gbaabkin'gan:gibaabikinigan    NI_SET    " 1 flue damper, air vent control" ; !Rand key:n201622116-1-42n
 gaanwzhiimin:gaanwazhiimin    NI_SET    " 1 juniper berry" ; !Rand key:n201622114-35-20n
+!end generic nouns}
+!{start place names
+Genada:genadaw    NI_PLACE_NAMES_TAG    " 1 Canada"    ; !Rand key:n73020046071n
+Wiikwemkoong:wiikwemikoong    NI_PLACE_NAMES_TAG    " 1 Wikwemikong, Ontario"    ; !Rand key:n201141011-25-4n
+Mchigiing:michigiing    NI_PLACE_NAMES_TAG    " 1 West Bay, Ontario"    ; !Rand key:n201141011-22-18n
+Waabgonoojiinaang:waabigonoojiinaang    NI_PLACE_NAMES_TAG    " 1 Wallaceburg, Ontario"    ; !Rand key:n201141011-19-24n
+N'Swakamok:niswakamog    NI_PLACE_NAMES_TAG    " 1 Sudbury, Ontario"    ; !Rand key:n201141010-22-50n
+Baagting:baagVv1ding    NI_PLACE_NAMES_TAG    " 1 Sault Ste. Marie"    ; !Rand key:n20114109-39-54n
+Sgamok:zagamok    NI_PLACE_NAMES_TAG    " 1 Sagamok, Ontario"    ; !Rand key:n20114109-37-58n
+Waasaaksing:waasaakosing    NI_PLACE_NAMES_TAG    " 1 Parry Island, Ontario"    ; !Rand key:n20114108-7-7n
+Kichi-kabekong:gichi-gakaabikong    NI_PLACE_NAMES_TAG    " 1 Niagara Falls"    ; !Rand key:n20114108-1-27n
+Mnidoowaaning:manidoowaaning    NI_PLACE_NAMES_TAG    " 1 Manitowaaning, Ontario"    ; !Rand key:n20114107-42-13n
+Wewebjiwang:wewebajiiwang    NI_PLACE_NAMES_TAG    " 1 Little Current, Ontario"    ; !Rand key:n20114107-39-59n
+Zhiibaawnaaning:ziibaawVi1naaning    NI_PLACE_NAMES_TAG    " 1 Killarney, Ontario"    ; !Rand key:n20114107-31-7n
+Poshkdinong:baashkodinong    NI_PLACE_NAMES_TAG    " 1 Gore Bay, Ontario"    ; !Rand key:n20114916-57-22n
+Gtigaan-ziibiing:gitigaan-ziibiing    NI_PLACE_NAMES_TAG    " 1 Garden River, Ontario"    ; !Rand key:n20114916-54-49n
+Gwii-giigiing:gwii-giigiing    NI_PLACE_NAMES_TAG    " 1 Canada"    ; !Rand key:n20114916-38-13n
+Giibiingwe-Ziibiing:giibiingwe-Ziibiing    NI_PLACE_NAMES_TAG    " 1 Blind River, Ontario"    ; !Rand key:n20114916-35-28n
+gchigmi:gichigami    NI_PLACE_NAMES_TAG    " 1 a great lake, e.g., Lake Michigan, Lake Huron;  2 sea, ocean"    ; !Rand key:n201133016-14-19n
+Gchigmiing:gichigamiing    NI_PLACE_NAMES_TAG    " 1 Lake Michigan"    ; !Rand key:n201133016-4-43n
+Nimwaanensing:animwaanensing    NI_PLACE_NAMES_TAG    " 1 Beaver Island, Michigan, called 'Little Dog Island' by Angeline Williams in a traditional story"    ; !Rand key:n201133015-0-7n
+Gchi-nimwaaning:gichi-animwaaning    NI_PLACE_NAMES_TAG    " 1 Fox Island, Michigan, called 'Big Dog Island,' by Angeline Williams in a traditional story"    ; !Rand key:n201133014-54-9n
+gchi-daawewniniikaang:gichi-adaawewininiikaang    NI_PLACE_NAMES_TAG    " 1 a Hudson Bay Company post"    ; !Rand key:n201133011-15-16n
+Baawting:baawiting    NI_PLACE_NAMES_TAG    " 1 Sault Ste. Marie"    ; !Rand key:n20113268-55-49n
+Baawtigoong:baawitigoong    NI_PLACE_NAMES_TAG    " 1 Sault Ste. Marie"    ; !Rand key:n20113268-52-17n
+Gchi-mnis:gichi-minis    NI_PLACE_NAMES_TAG    " 1 Christian Island, Ontario"    ; !Rand key:n201091822-41-27n
+Neyaashii-nagmiing:neyaashii-onagamiing    NI_PLACE_NAMES_TAG    " 1 Cape Croker, Ontario"    ; !Rand key:n201091822-38-14n
+Nam'ewaatgoong:anamihewaatigoong    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456827n
+Moonyaang:mooniyaang    NI_PLACE_NAMES_TAG    " 1 Montreal, Quebec"    ; !Rand key:n71430358472n
+Mnisenh:miniseny    NI_PLACE_NAMES_TAG    " 1 Munising, Michigan;  2 Walpole Island, Ontario"    ; !Rand key:n71430242617n
+Crossdeyaatik:crossdeyaatigo    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72985242027n
+Bwa'ganing:bawahiganing    NI_PLACE_NAMES_TAG    " 1 rice-gathering place (near Saginaw, Michigan)"    ; !Rand key:n72985138197n
+Bkejwanong:bakejiwanong    NI_PLACE_NAMES_TAG    " 1 Walpole Island, Ontario"    ; !Rand key:n72977556328n
+Anam'ewaatgwenh:anamVi1hewaatigweny    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456729n
+!end place names}
 !End Rand database dump 2024}
 
+LEXICON NI_PLACE_NAMES_TAG
++NI:0   # ; 
 LEXICON NI
 !{ oddballs (y-final)
 abooy:abooy2   NI_SET    " 1 sleep [dried mucus in eyes after sleeping]" ; !Rand key:n72974453428n
