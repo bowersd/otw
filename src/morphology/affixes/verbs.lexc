@@ -835,7 +835,6 @@ LEXICON VTA_INDEP_THEME_GET
 @R.Person.2@                 VTA_INDEP_THEME_SECOND_PERSON ;
 !style on new line for substantively different entries of sublexicon
 
-!trying just giving a name for theme signs, and letting interpretation come later
 
 LEXICON VTA_INDEP_THEME_INV
 +ThmInv:%>igo  VTA_INDEP_THEME_INVERSE_SET ;
