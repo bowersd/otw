@@ -830,18 +830,18 @@ LEXICON VII_CNJ_DUB_PRT_DUB
 !#####
 
 LEXICON VTA_INDEP_THEME_GET 
-@R.Person@      VTA_INDEP_THEME_GATEWAY ;
-@R.Person.2@      VTA_INDEP_THEME_SECOND_PERSON ;
+@R.Person@@D.Theme.Inv@      VTA_INDEP_THEME_DIR ;
+@R.Person@                   VTA_INDEP_THEME_INV ;
+@R.Person.2@                 VTA_INDEP_THEME_SECOND_PERSON ;
 !style on new line for substantively different entries of sublexicon
 
 !trying just giving a name for theme signs, and letting interpretation come later
 
-
-
-LEXICON VTA_INDEP_THEME_GATEWAY
+LEXICON VTA_INDEP_THEME_INV
 +ThmInv:%>igo  VTA_INDEP_THEME_INVERSE_SET ;
+
+LEXICON VTA_INDEP_THEME_DIR
 +ThmDir:aa   VTA_INDEP_THEME_DIRECT_GATEWAY ; !gateway usage unformalized now
-!new tags
 
 LEXICON VTA_INDEP_THEME_INVERSE_SET 
 @P.Theme.Inv@   VTA_INDEP_THEME_INVERSE_NEG ;
