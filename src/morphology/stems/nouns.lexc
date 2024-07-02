@@ -8,6 +8,36 @@ LEXICON NOUNS
 
 LEXICON NA_DAB_ADDITIONS 
 maagan:maagan   NA_SET "spouse" ; !back formation from wiidgemaagan?
+!{From Rand database dump 2024
+waabgon:waabigoni1     NA_SET     " 1 blossom" ; !Rand key:n73032180026n
+ggwetaanyi'aa:gagwetaanyihaa     NA_SET     " 1 a strikingly beautiful thing, a gorgeous thing (CL, M’Ch, Sg, Wk, Wp);  2 a beautifully-dressed person (M’Ch)" ; !Rand key:n73021177973n
+mikzaat:amikwazaadi1     NA_SET     " 1 a type of poplar having yellow bark (possibly large-toothed aspen Populus grandidentata)" ; !Rand key:n58fa1bd78a5c4721890c23320a01dd02n
+gwaakwaashknibiikenh:gwaakwaashkVo1nibiikeny     NA_SET     " 1 grasshopper" ; !Rand key:n20163513-10-4n
+gookoolii:gookoolii     NA_SET     " 1 whippoorwill (Caprimulgus vociferus)" ; !Rand key:n201622716-42-3n
+ggwedganaanjge-mjikaawan:gagwedaganaanjige-minjikaawan     NA_SET     " 1 boxing glove" ; !Rand key:n201622417-18-26n
+getziinh:getiziiny     NA_SET     " 1 old departed one" ; !Rand key:n20162237-6-52n
+getnaami'aa:getVv1naamihaa     NA_SET     " 1 heavy-duty type, sturdy type" ; !Rand key:n20162237-1-45n
+gdowaan:godawaan     NA_SET     " 1 big log;  2 hydro pole, telephone pole" ; !Rand key:n201622213-17-7n
+gchigmiikaawansh:gichigamiikaawanzhi1     NA_SET     " 1 Eastern juniper (Juniper virginiana) that grows on the shore" ; !Rand key:n201622211-7-36n
+gba'gaans:gibahigaans     NA_SET     " 1 bingo cover" ; !Rand key:n201622115-53-7n
+gaanwazh:gaanwazhi1     NA_SET     " 1 juniper" ; !Rand key:n201622114-33-40n
+gaagaagwish:gaagaagiwizhi1     NA_SET     " 1 eastern hemlock" ; !Rand key:n201622111-48-24n
+Miigwaans:miigwaans     NA_SET     " 1 Little Feather, the name of a warrior in a story by Sam Osawamick" ; !Rand key:n20114168-30-40n
+Miishgondaagan:miishigondaagan     NA_SET     " 1 Bearded Throat, the name of a warrior in a story by Sam Osawamick" ; !Rand key:n20114168-27-17n
+Mshi-Gekek:mishi-gekekw1   NA_SET     " 1 (Rough-legged) Hawk, the name of a warrior in a story by Sam Osawamick," ; !Rand key:n20114168-17-41n
+Tamaa:tamaay     NA_SET     " 1 Thomas" ; !Rand key:n201141010-30-31n
+Tanens:tanens     NA_SET     " 1 Theresa" ; !Rand key:n201141010-29-14n
+Debenh:debeny     NA_SET     " 1 David" ; !Rand key:n201141010-19-2n
+Etyen:etiyen     NA_SET     " 1 Steven" ; !Rand key:n201141010-13-33n
+Miishen:miishen     NA_SET     " 1 Michael" ; !Rand key:n20114107-50-15n
+MaanyAan:maanyaan     NA_SET     " 1 Mary Ann" ; !Rand key:n20114107-49-3n
+Maanii:maanii     NA_SET     " 1 Mary" ; !Rand key:n20114107-47-51n
+Maata:maata     NA_SET     " 1 Martha" ; !Rand key:n20114107-46-23n
+Maagniit:maaganiid     NA_SET     " 1 Margaret" ; !Rand key:n20114107-44-44n
+Zoosep:zoosep     NA_SET     " 1 Joseph" ; !Rand key:n20114107-29-3n
+Zaben:zaben     NA_SET     " 1 Isabelle" ; !Rand key:n20114107-18-0n
+gweji-zhoonyaakewgamig:[ga]gweji-zhooniyaakewigamigo     NA_SET     " 1 casino" ; !Rand key:n201092019-23-0n
+!End Rand database dump 2024}
 
 LEXICON NA
 !{oddballs
