@@ -38,6 +38,56 @@ shekshin:zhazhekisin        VII_TAG "be placed in a row (leaning against somethi
 mmaazkaa:mamaazikaa        VII_TAG "start to move" ; !(OPD has this)
 naakmat:inaakomod2          VII_TAG "go along a frame/wall" ; !several naakm words here (naakmatoon, naakmagan, naakma'aa) OPD lacks anything relevant with inaak
 mnose:minose              VII_TAG "go well" ; 
+!{Start Rand database dump 2024
+gwekiigse:gwekiigise    VII_TAG    " 1 [sheetlike object] flip to a different angle (e.g. of sails)" ; !Rand key:n20163514-41-59n
+gwekmat:gwayakamVa1d2    VII_TAG    " 1 [road] be straight, run straight" ; !Rand key:n20163514-19-26n
+gwaaweg'on:agwaawegahon    VII_TAG    " 1 be washed ashore" ; !Rand key:n20163513-59-51n
+gwaansagaabkide:gagwaanisagaabikide    VII_TAG    " 1 [metallic object] be extremely hot" ; !Rand key:n20163513-19-33n gtaangwiinad	gotaangwiinVa1d	vii	 1 abound, exist in great numbers, teem, there be an awful lot	n20163117-22-52n
+gshkibde:gishkibide    VII_TAG    " 1 change direction of motion, turn (M’Ch);  2 [motorized object] have enough power (Wk)" ; !Rand key:n201622717-38-25n
+gnwaakjiiyaa:ginwaakojiiyaa    VII_TAG    " 1 be elongated [in shape], have an elongated shape" ; !Rand key:n201622716-3-44n
+gnoozhaayenmat:ginoozhaayenamVa1d2    VII_TAG    " 1 be a straight stretch of road, [road] be straight" ; !Rand key:n201622715-59-13n
+gndaajiishkwesin:gondaajiishkwesin    VII_TAG    " 1 be sunk in mud" ; !Rand key:n201622715-58-8n
+gjigdamo:gijigVv1domo    VII_TAG    " 1 be a washboard road" ; !Rand key:n201622711-28-36n
+gjigaabdeyaa:gijigaabideyaa    VII_TAG    " 1 be serrated" ; !Rand key:n201622711-24-40n
+gjidyeshkaamgat:gijidiyeshkaamagad2    VII_TAG    " 1 have the bottom fall out, break open in the bottom" ; !Rand key:n201622711-22-22n
+giizhnaagot:giizhinaagVo1d2    VII_TAG    " 1 look completed, look finished" ; !Rand key:n20162278-36-23n
+giizhaagmisin:giizhaagamisin    VII_TAG    " 1 be done brewing" ; !Rand key:n20162277-58-22n
+giiwnaajndibeshkaagemgad:giiwanaajindibeshkaagemagad2    VII_TAG    " 1 sth. [ingested or smoked] make people crazy" ; !Rand key:n201622615-39-58n
+giiwaadsin:giiwaadisin    VII_TAG    " 1 be arranged awkwardly, rest somewhere in an awkward position, not be positioned properly" ; !Rand key:n201622516-31-35n
+giiwaadaabminaagot:giiwaadaabaminaagVo1d2    VII_TAG    " 1 look ill-matched, look incongruous" ; !Rand key:n201622516-1-24n
+giishkwewe:giishkwewe    VII_TAG    " 1 abruptly fall silent, abruptly go quiet" ; !Rand key:n201622511-15-7n
+giishkjiwan:giishkijiwan    VII_TAG    " 1 abruptly stop flowing" ; !Rand key:n201622511-13-51n
+giin'kopkweyaa:giinikopakweyaa    VII_TAG    " 1 have a pointed roof, have a sharp roof ridge" ; !Rand key:n201622511-2-37n
+giiknaamde:giikanaamode    VII_TAG    " 1 [air] be smoky" ; !Rand key:n201622510-50-55n
+giichgwaasin:giichigwaasin    VII_TAG    " 1 [an item one is wearing] get blown off" ; !Rand key:n20162257-11-5n
+giibsin:giibisin    VII_TAG    " 1 lie in the way" ; !Rand key:n20162257-7-32n
+giibaa:giibaa    VII_TAG    " 1 slope down into the shoulder (e.g., as a road might)" ; !Rand key:n20162256-33-58n
+ggwaansagmaagot:gagwaanisagmaagVo1d2    VII_TAG    " 1 smell horrible, stink awfully" ; !Rand key:n201622417-0-2n
+ggwaansagaakginde:gagwaanisagaakVv1ginde    VII_TAG    " 1 be extremely costly, be outrageously expensive" ; !Rand key:n201622416-51-52n
+ggwaansagaagmide:gagwaanisagaagamide    VII_TAG    " 1 [liquid] be extremey hot" ; !Rand key:n201622416-47-52n
+ggiibaajnikaade:gagiibaajinikaade    VII_TAG    " 1 have a stupid name" ; !Rand key:n20162244-52-20n
+gdagoode:gidagoode    VII_TAG    " 1 fall out [of a moving vehicle], fall out [of a carrier]" ; !Rand key:n201622213-14-0n
+gdaasin:gidaasin    VII_TAG    " 1 be blown off [a fast-moving vehicle]; fall out [of a fast-moving vehicle]" ; !Rand key:n201622213-1-4n
+gbonesemgat:gVv1bonesemagad2    VII_TAG    " 1 [stove] fail to light" ; !Rand key:n201622210-33-35n
+gbonaamde:gibonaamode    VII_TAG    " 1 [room] be hot and airless, be hot and stifling" ; !Rand key:n20162229-7-57n
+gbisin:gibisin    VII_TAG    " 1 be in the way, be [lying] in the way" ; !Rand key:n20162229-4-11n
+gbagsin:gabagisin    VII_TAG    " 1 be laid on thinly" ; !Rand key:n201622116-25-12n
+gbagiigat:gabagiigad2    VII_TAG    " 1 [sheetlike object] be thin" ; !Rand key:n201622116-15-54n
+gbagaa:gabagaa    VII_TAG    " 1 be thin" ; !Rand key:n201622116-14-51n
+gbaawngwe:gibaawangwe    VII_TAG    " 1 be plugged up with ashes or dust" ; !Rand key:n201622116-9-50n
+gaaste:gaasate    VII_TAG    " 1 be small (of a room or house)" ; !Rand key:n201622115-48-57n
+gaapjiide:gaapijiide    VII_TAG    " 1 be cooked to a crisp" ; !Rand key:n201622114-38-4n
+gaapaa:gaapaa    VII_TAG    " 1 be brittle" ; !Rand key:n201622114-36-41n
+gaakaapde:gaakaapide    VII_TAG    " 1 be cooked to a crisp; be crusty" ; !Rand key:n201622112-51-59n
+gaachwewesin:gaachwewesin    VII_TAG    " 1 have a feeble sound, sound small" ; !Rand key:n201622111-46-21n
+shkwaayaatese:ishkwaayaatese    VII_TAG    " 1 [movie or TV program] end, be over" ; !Rand key:n201621817-33-46n
+gaachkode:gaachikode    VII_TAG    " 1 be cut into a small piece, be cut small" ; !Rand key:n201621810-54-21n
+gaachbiiyaa:gaachibiiyaa    VII_TAG    " 1 [lake] be small" ; !Rand key:n201621810-48-56n
+ekwaawiiwan:ekwaawiiwan    VII_TAG    " 1 end, come to an end" ; !Rand key:n20162189-29-41n
+ekwaamat:ekwaamVa1d2    VII_TAG    " 1 [road] end" ; !Rand key:n20162188-52-34n
+bedaabkide:bedaabikide    VII_TAG    " 1 be slow to heat up, be low in temperature" ; !Rand key:n201611117-21-39n
+mmaachaa:mVi1maachaa    VII_TAG    " 1 be big (of groups of things)" ; !Rand key:n71429751606n
+!End Rand database dump 2024}
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -1801,6 +1851,160 @@ mnose:minose              VAI_TAG "go well" ;
 zhi-yaa:izhayaa    VAI_TAG    "weight: 1"  ; !meaning: "1 be a certain way, be in a certain state; act in a certain way" !Rand key:n201081816-20-51n !DAB: accomodating a common variant of zhi-yaa (/izhi-ayaa/). This variant (zhayaa) does not show the usual pattern of assimilation to a glide that we would expect with zhi-yaa as the target form. This is weighted to encourage izhi-ayaa to be used in generation
 naanmizi:inaanimizi VAI_TAG "s/he goes to a certain place in fear; s/he is scared in a certain way" ; !(OPD has this)
 naagzowaabi:naagazowaabi VAI_TAG "?" ; !MAC included this in a sentence. follow-sight (for matriarchal sentinel)?
+!{Start Rand database dump 2024
+!shockwi:«shock»iwi    VAI_TAG    " 1 get an electrical shock, receive an electrial shock, get shocked [electrically]" ; !Rand key:n20163239-40-18n
+!franchisewi:«franchise»iwi    VAI_TAG    " 1 enfranchise" ; !Rand key:n201621810-45-27n
+!flushwijiin'ge:«flush»wijiinige    VAI_TAG    " 1 have a flush [hand in a card game]" ; !Rand key:n201621810-41-31n
+!aabdewebzo:aabidewebizo    VAI_TAG    " 1 [see aabdwebza]" ; !Rand key:n65119627863n
+!aaboojbizo:aaboojibizo    VAI_TAG    " 1 [see aaboojbiza]" ; !Rand key:n2005716-23-34n
+gwekaashi:gwekaashi    VAI_TAG    " 1 change direction in sailing, turn and sail in a different direction (comm);  2 turn suddenly while driving (CL)" ; !Rand key:n20163514-35-23n
+gwayekwaadzi:gwayakwaadizi    VAI_TAG    " 1 be in one's right mind, be of sound mind, be lucid" ; !Rand key:n20163514-16-58n
+gwanjige:gVo1njige    VAI_TAG    " 1 swallow" ; !Rand key:n20163514-11-39n
+gwanaandam:gawanaandam    VAI_TAG    " 1 keel over from hunger, starve" ; !Rand key:n20163514-5-10n
+gwadema:gawademVv1    VAI_TAG    " 1 cry oneself to sleep, cry oneself to exhaustion" ; !Rand key:n20163514-2-51n
+gwaaweg'o:agwaawegaho    VAI_TAG    " 1 be washed ashore" ; !Rand key:n20163513-59-12n
+gwaataa:agwaataa    VAI_TAG    " 1 come out of the water" ; !Rand key:n20163513-51-42n
+gwaaskgizi:gwaaskVv1gizi    VAI_TAG    " 1 bleed to death" ; !Rand key:n20163513-27-59n
+gwaashkjigdaaza:gwaashkojigidaazVa1    VAI_TAG    " 1 get out of the car angrily, get out of the car out of anger" ; !Rand key:n20163513-22-30n
+gwaansagaabkiza:gagwaanisagaabikizVa1    VAI_TAG    " 1 [metallic object] be extremely hot" ; !Rand key:n20163513-21-10n
+gwaabiigtaa:gwaabiigitaa    VAI_TAG    " 1 come out of the water (snakelike creature)" ; !Rand key:n20163513-3-29n
+gwaadge:gwaadVv1ge    VAI_TAG    " 1 wade ashore, walk out of the water" ; !Rand key:n20163513-1-24n
+gwaademo:gwaademo    VAI_TAG    " 1 cry oneself to sleep" ; !Rand key:n20163512-42-34n
+gwaabooza:agwaabVv1goozVa1    VAI_TAG    " 1 be washed ashore" ; !Rand key:n20163512-40-42n
+gwaabdaang'ige:gwaaabdaangVv1hige    VAI_TAG    " 1 scoop up gravel, scoop up earth (M’Ch, Sg);  2 shovel up one's winnings (M’Ch, Wk)" ; !Rand key:n20163512-34-7n
+gtaangwiini:gotaangwiini    VAI_TAG    " 1 abound, exist in great numbers, teem, there be an awful lot" ; !Rand key:n20163117-31-34n
+gsingaadendaagzi:gosingaadendaagzi    VAI_TAG    " 1 be commendable, do something commendable" ; !Rand key:n20163117-20-31n
+gshkojiishin:goshkojiishin    VAI_TAG    " 1 be startled in striking something from falling" ; !Rand key:n20163117-18-34n
+gshkobgiza:goshkobagizVa1    VAI_TAG    " 1 be startled, jerk in startlement, start in surprise" ; !Rand key:n20163117-8-52n
+gshkijiipza:gishkijiipizVa1    VAI_TAG    " 1 wear a garment cinched at the waist" ; !Rand key:n20163117-0-3n
+ngodwaasobiboon'gizi:ningodwaasobiboonagizi    VAI_TAG    " 1 be six years old" ; !Rand key:n20163111-16-23n
+gshkibza:giskibizVa1    VAI_TAG    " 1 change course, turn (M’Ch, Wk);  2 [vehicle] have enough power to drive through or up some place (M’Ch, Wk)" ; !Rand key:n20163110-55-26n
+gshkamdiyegaabwi:gashkamVv1diyegaabawi    VAI_TAG    " 1 stand with one's buttocks clenched" ; !Rand key:n201622717-35-8n
+gshkamaakdiiyegaabwi:gashkamaakodiyegaabawi    VAI_TAG    " 1 stand with one's buttocks clenched" ; !Rand key:n201622717-23-33n
+gshkaanzge:gashkaanzige    VAI_TAG    " 1 get dye to take, get tinting to take" ; !Rand key:n201622717-15-37n
+gpagnagaakzide:gipagVi1nagaakozide    VAI_TAG    " 1 have calloused soles, have callouses on one's soles" ; !Rand key:n201622717-13-8n
+gpagnagaakninjii:gipagVi1nagaakoninjii    VAI_TAG    " 1 have calloused palms, have callouses on one's palms" ; !Rand key:n201622717-7-46n
+gpagbiiwye:gipagibiiwaye    VAI_TAG    " 1 have thick fur" ; !Rand key:n201622717-5-41n
+gpaashi:gopaashi    VAI_TAG    " 1 sail [towards the] inland, sail upriver" ; !Rand key:n201622717-2-48n
+goopzinaagzi:goopazinaagozi    VAI_TAG    " 1 look foolish, look shameful" ; !Rand key:n201622716-54-43n
+goonwaakzi:goonwaakozi    VAI_TAG    " 1 be covered with snow [sticklike objects, humans]" ; !Rand key:n201622716-43-41n
+gnwaakjiizi:ginwaakojiizi    VAI_TAG    " 1 be elongated [in shape], have an elongated shape" ; !Rand key:n201622716-4-55n
+gnwaagkiigmedema:ginwaagVv1kiigomedemVa1    VAI_TAG    " 1 have snot drip from one's nose in crying, cry with snot dripping from one's nose" ; !Rand key:n201622716-0-54n
+gndaajiishkweshkaa:gondaajiishkweshkaa    VAI_TAG    " 1 sink [gradually] into the mud" ; !Rand key:n201622715-57-9n
+gndaajiishkweshin:gondaajiishkweshin    VAI_TAG    " 1 be sunk in mud" ; !Rand key:n201622715-56-10n
+gndaabiigzidetaa:gondaabiigizidetaa    VAI_TAG    " 1 submerge one's foot in water" ; !Rand key:n201622715-49-18n
+gndaabiigzideni:gondaabiigizideni    VAI_TAG    " 1 submerge one's foot in water" ; !Rand key:n201622715-48-16n
+gndaabiigninjiitaa:gondaabiigininjiitaa    VAI_TAG    " 1 submerge one's hand in water" ; !Rand key:n201622715-41-29n
+gnawaabnjikme:ganawaamjikVv1me    VAI_TAG    " 1 browse through a magazine, read a magazine" ; !Rand key:n201622715-38-54n
+gnagnaama:ginaginaamVa1    VAI_TAG    " 1 have a ticklish throat" ; !Rand key:n201622715-37-31n
+gnaggonskwewe:ginagigoniskwewe    VAI_TAG    " 1 have a ticklish throat" ; !Rand key:n201622715-33-53n
+gjigaabdezi:gijigaabidezi    VAI_TAG    " 1 be serrated (e.g. of a gear)" ; !Rand key:n201622711-27-17n
+gjib'iwebtoo:ginjibahiwebatoo    VAI_TAG    " 1 flee running" ; !Rand key:n20162279-38-8n
+-giizsagzi:giizisagizi    VAI_TAG    " 1 be a certain number of months in age, be a certain number of months old" ; !Rand key:n20162278-44-35n
+giizhooknowe:giizhookonowe    VAI_TAG    " 1 dress warmly" ; !Rand key:n20162278-41-44n
+giizhoo'o:giizhooho    VAI_TAG    " 1 dress warmly" ; !Rand key:n20162278-40-27n
+giizhnaagzi:giizhinaagozi    VAI_TAG    " 1 look completed" ; !Rand key:n20162278-38-49n
+giizhendam:giizhendam    VAI_TAG    " 1 make up one's mind to do something, resolve to do something" ; !Rand key:n20162278-34-3n
+giizhaan'gidoon:giizhaanagidoon    VAI_TAG    " 1 finish talking, finish an utterance" ; !Rand key:n20162278-16-13n
+giizhaaknige:giizhaakonige    VAI_TAG    " 1 finalize plans, finish planning what to do" ; !Rand key:n20162278-7-24n
+giizhaajma:giizhaajimVa1    VAI_TAG    " 1 finish giving an account, finish telling a story" ; !Rand key:n20162278-1-32n
+giizhaabnjige:giizhaabanjige    VAI_TAG    " 1 finish watching a show" ; !Rand key:n201622615-52-42n
+giiwnaazaabi:giiwanaazaabi    VAI_TAG    " 1 hallucinate" ; !Rand key:n201622615-48-45n
+giiwnaajgidaaza:giiwanaajigidaazVa1    VAI_TAG    " 1 go crazy from rage" ; !Rand key:n201622615-38-11n
+giiwnaadne:giiwanaadVv1ne    VAI_TAG    " 1 go crazy from [physical] pain" ; !Rand key:n201622615-30-29n
+giiwnaadaapne:giiwnaaadaapine    VAI_TAG    " 1 be driven crazy by pain, go crazy from pain" ; !Rand key:n201622615-27-46n
+giiwedaabaan'go:giiwedaabaanigo    VAI_TAG    " 1 go home by car, ride home" ; !Rand key:n201622516-35-41n
+giiwaadshkooza:giiwaadishkoozVa1    VAI_TAG    " 1 be injured [in being struck], be wounded [in being struck]" ; !Rand key:n201622516-29-43n
+giiwaadshin:giiwaadishin    VAI_TAG    " 1 be arranged awkwardly, rest somewhere in an awkward position, not be positioned properly (M’Ch, Sg, Wk);  2 be injured [by striking something] but not seriously enough to prompt medical attention (M’Ch, Sg, Wk)" ; !Rand key:n201622516-17-42n
+giiwaadaabminaagzi:giiwaadaabaminaagozi    VAI_TAG    " 1 look ill-matched, look incongruous" ; !Rand key:n201622516-7-34n
+giitaawzi:giitaawazi    VAI_TAG    " 1 have heightened awareness (quality attributed to one near death)" ; !Rand key:n201622515-57-35n
+giiskonyebtoo:giizikonayebatoo    VAI_TAG    " 1 disrobe hurriedly, disrobe quickly, get one's clothes off hurriedly, get one's clothes off quickly" ; !Rand key:n201622511-26-5n
+giishkzangwaabshin:giishkazangwaabishin    VAI_TAG    " 1 lie down with one's eyes closed, be at rest with eyes closed" ; !Rand key:n201622511-23-35n
+giishkzangwaabi:giishkazangwaabi    VAI_TAG    " 1 close one's eyes, shut one's eyes" ; !Rand key:n201622511-21-46n
+giimoojgaabwi:giimoojigaabawi    VAI_TAG    " 1 have one's status be kept secret (CL, M'Ch, Sg, Wk);  2 stand out of sight (Wp)" ; !Rand key:n201622510-59-8n
+giimooji-niibwi:giimooji-niibiwi    VAI_TAG    " 1 marry in secret, wed secretly" ; !Rand key:n201622510-54-37n
+giikdiiyebi:giikidiyebi    VAI_TAG    " 1 scooch over" ; !Rand key:n20162257-51-57n
+giikbagza:giikibagizVa1    VAI_TAG    " 1 jump aside (comm);  2 twitch (CL)" ; !Rand key:n20162257-48-5n
+giik'amii:giikahamii    VAI_TAG    " 1 take a small step forward" ; !Rand key:n20162257-38-24n
+giichgwaashi:giichigwaashi    VAI_TAG    " 1 [an item one is wearing] get blown off" ; !Rand key:n20162257-9-8n
+giibshin:giibishin    VAI_TAG    " 1 lie in the way" ; !Rand key:n20162257-6-5n
+ggwetaanshkizi:gagwetaanishkizi    VAI_TAG    " 1 have a strikingly loud voice, have a strikingly powerful voice" ; !Rand key:n20162256-31-50n
+ggwetaazhiino:gagwetaazhiino    VAI_TAG    " 1 abound, exist in great numbers, teem, there be an awful lot [in number]" ; !Rand key:n20162256-25-10n
+ggwetaanaazhwe:gagwetaanaazhwe    VAI_TAG    " 1 one's houselights be all ablaze" ; !Rand key:n201622417-49-20n
+ggwetaanaapne:gagwetaanaapine    VAI_TAG    " 1 be extremely ill" ; !Rand key:n201622417-47-17n
+ggwetaan'ganese:gagwetaaniganese    VAI_TAG    " 1 walk really vigorously" ; !Rand key:n201622417-40-39n
+ggwetaan'gane:gagwetaanigane    VAI_TAG    " 1 feel great, be hale" ; !Rand key:n201622417-30-41n
+ggwenbaadzi:gagwenVv1baadizi    VAI_TAG    " 1 be greedy" ; !Rand key:n201622417-22-51n
+ggwedaagzi:gagwedaagizi    VAI_TAG    " 1 lift weights, do weightlifting" ; !Rand key:n201622417-15-20n
+ggwaansagmaagzi:gagwaanisagimaagozi    VAI_TAG    " 1 smell horrible, stink awfully" ; !Rand key:n201622417-6-17n
+ggwaansagmaagtoo:gagwaanisagmaagotoo    VAI_TAG    " 1 make an awful stink farting" ; !Rand key:n201622417-3-3n
+ggwaansagaakginza:gagwaanisagaakVv1ginzVa1    VAI_TAG    " 1 be extremely costly, be outrageously expensive" ; !Rand key:n201622416-55-49n
+ggiibsin:gigiibisin    VAI_TAG    " 1 lie in the way, [something at rest] obstruct" ; !Rand key:n201622416-33-27n
+ggiibshin:gigiibshin    VAI_TAG    " 1 lie in the way, [somebody at rest] obstruct" ; !Rand key:n20162245-47-59n
+ggiibaajnikaaza:gagiibaajinikaazVa1    VAI_TAG    " 1 have a stupid name" ; !Rand key:n20162244-53-42n
+ggetnaamzi:gagetinaamizi    VAI_TAG    " 1 make a determined effort, try earnestly, work hard at something, work in earnest [on something]" ; !Rand key:n20162244-32-18n
+ggetnaamendam:gagetinaamendam    VAI_TAG    " 1 be determined, be resolute" ; !Rand key:n20162244-27-58n
+ggenmo:gagenimo    VAI_TAG    " 1 take things wrongly as belonging to one, take things wrongly as being one's property" ; !Rand key:n20162244-26-25n
+ggaanwaabiigzide:gagaanwaabiigizide    VAI_TAG    " 1 have long feet" ; !Rand key:n20162244-18-16n
+ggaanwaabiignike:gagaanwaabiiginike    VAI_TAG    " 1 have long arms" ; !Rand key:n20162244-17-20n
+ggaanwaabiiggaade:gagaanwaabiigigaade    VAI_TAG    " 1 have long legs" ; !Rand key:n20162244-15-55n
+ggaanjshkine:gagaanjishkine    VAI_TAG    " 1 force more food down though full" ; !Rand key:n20162244-13-44n
+ggaandzi:gagaandizi    VAI_TAG    " 1 be provocative, deliberately annoy others (M’Ch, Sg, Wk);  2 tease good-naturedly (CL)" ; !Rand key:n20162237-40-14n
+gechwaangzhe:gechiwaangazhe    VAI_TAG    " 1 become permanently employed, one's employment become permanent, one's job become permanent" ; !Rand key:n201622213-32-24n
+gdiskganeshin:gidiskaganeshin    VAI_TAG    " 1 get a dislocated joint" ; !Rand key:n201622213-29-51n
+gdimaagnjige:gidimaaganjige    VAI_TAG    " 1 eat a poor meal" ; !Rand key:n201622213-26-8n
+gdagoojin:gidagoojin    VAI_TAG    " 1 fall out [of a moving vehicle], fall out [of a carrier]" ; !Rand key:n201622213-16-16n
+gdaashi:gidaashi    VAI_TAG    " 1 be blown off [a moving vehicle], fall out [of a fast-moving vehicle];  2 be eliminated in a card game" ; !Rand key:n201622212-58-4n
+gdaame:gidaame    VAI_TAG    " 1 eat up all one's provisions" ; !Rand key:n201622212-6-41n
+gdaakiiyedaabii:gidaakiiwedaabii    VAI_TAG    " 1 haul things uphill" ; !Rand key:n201622212-5-27n
+gchitwaawzekwe:gichitwaawizekwe    VAI_TAG    " 1 cook a very special dish, cook something very special" ; !Rand key:n201622211-53-24n
+gchitwaa-wiisni:gichitwaa-wiisini    VAI_TAG    " 1 eat something very special, have a very special meal" ; !Rand key:n201622211-50-51n
+gchitwaawenjgaaza:gichitwaawenjigaazVa1    VAI_TAG    " 1 be thought holy, be revered, be thought a saint" ; !Rand key:n201622211-29-59n
+gchi-nakii'we:gichi-anVa1kiihiwe    VAI_TAG    " 1 make a lot of work for others, make toil for others" ; !Rand key:n201622211-9-35n
+gchi-bmibza:gichi-bimibizVa1    VAI_TAG    " 1 do lots of driving" ; !Rand key:n201622210-56-40n
+gchi-bmase:gichi-bimVa1se    VAI_TAG    " 1 do lots of walking, walk extensively" ; !Rand key:n201622210-43-50n
+gbwaate:gibwaate    VAI_TAG    " 1 be stifling [from the sun] in an enclosed space" ; !Rand key:n201622210-42-29n
+gbwaasge:gibwaasige    VAI_TAG    " 1 [sun] stifle an enclosed space" ; !Rand key:n201622210-40-27n
+gbishin:gibishin    VAI_TAG    " 1 be in the way, be [lying] in the way" ; !Rand key:n20162228-58-49n
+gbagzi:gabagizi    VAI_TAG    " 1 be thin" ; !Rand key:n201622116-26-17n
+gbagshin:gabagishin    VAI_TAG    " 1 be laid on thinly" ; !Rand key:n201622116-22-53n
+gbagiigzi:gabagiigizi    VAI_TAG    " 1 [sheetlike object] be thin" ; !Rand key:n201622116-17-37n
+gbaagtawgeshkaa:gibaakotawageshkaa    VAI_TAG    " 1 feel as if one's ears are closing up, feel as if one's ears are plugged (as from flying)" ; !Rand key:n201622116-6-5n
+gbaabkin'ge:gibaabikinige    VAI_TAG    " 1 close the flue damper" ; !Rand key:n201622116-4-31n
+gaasweweshin:gaasweweshin    VAI_TAG    " 1 have light footfalls, have soft footfalls" ; !Rand key:n201622115-40-21n
+gaaskwewebtoo:gaaskwewebatoo    VAI_TAG    " 1 make rustling sound in scurrying" ; !Rand key:n201622115-10-53n
+gaaskiignige:gaaskiiginige    VAI_TAG    " 1 rustle things" ; !Rand key:n201622115-9-39n
+gaaskbooza:gaaskiboozVa1    VAI_TAG    " 1 have one's skates make scratching sounds as one skates" ; !Rand key:n201622115-0-19n
+gaasiibiiyge:gaasiibiihige    VAI_TAG    " 1 erase things" ; !Rand key:n201622114-59-2n
+gaashkgazhiishin:gaashkigazhiishin    VAI_TAG    " 1 claw at something" ; !Rand key:n201622114-50-35n
+gaapjiiza:gaapijiizVa1    VAI_TAG    " 1 be cooked to a crisp" ; !Rand key:n201622114-39-38n
+gaakiik'amii:gaakiikahamii    VAI_TAG    " 1 edge step-by-step, move carefully step-by-step" ; !Rand key:n201622114-18-22n
+gaakaawaakza:gaakaawaakizVa1    VAI_TAG    " 1 be cooked to a crisp" ; !Rand key:n201622114-17-6n
+gaakaashkgazhiibtoo:gaakaashkigazhiibatoo    VAI_TAG    " 1 run making scratching sounds with its claws, make scratching sounds with its claws in running" ; !Rand key:n201622112-56-24n
+gaakaapza:gaakaapizVa1    VAI_TAG    " 1 be cooked to a crisp" ; !Rand key:n201622112-54-53n
+gaakaanjgwewese:gaakaanjigwewese    VAI_TAG    " 1 jerk one's head be forward repeatedly, one's head be jerked forward repeatedly" ; !Rand key:n201622112-42-33n
+gaakaanjdiyese:gaakaanjidiyese    VAI_TAG    " 1 thrust one's hips forward repeatedly" ; !Rand key:n201622112-37-47n
+gaakaanjbiza:gaakaanjibizVa1    VAI_TAG    " 1 [vehicle] move forward in fits and starts, [vehicle] move forward jerkily" ; !Rand key:n201622112-27-58n
+gaagiizhootawgechge:gaagiizhootawagechige    VAI_TAG    " 1 cover one's ears to keep them warm (M’Ch, Sg, Wk, Wp);  2 [sun] have sun dogs (Wk)" ; !Rand key:n201622112-21-10n
+gaagiizhooshew'o:gaagiizhooshewiho    VAI_TAG    " 1 wear a shawl to keep warm;  2 [sun] have sun dogs" ; !Rand key:n201622112-17-26n
+gaagiijse:gaagiijise    VAI_TAG    " 1 feel pain from being jostled" ; !Rand key:n201622111-55-8n
+gaachtaagzi:gaachitaagozi    VAI_TAG    " 1 have a small voice" ; !Rand key:n201622111-39-18n
+gaachmo:gaachimo    VAI_TAG    " 1 talk babyishly (M’Ch, Sg, Wk, Wp);  2 be a crybaby, cry easily (CL, Sg, Wp)" ; !Rand key:n20162217-20-29n
+gaachkoza:gaachikozVa1    VAI_TAG    " 1 be cut into a small piece, be cut small" ; !Rand key:n201621810-56-53n
+ekwidyeshin:ekwidiyeshin    VAI_TAG    " 1 leave an imprint of one's rear end, one's rear end be imprinted somewhere, there be an imprint of someone's rear end" ; !Rand key:n20162189-36-54n
+ekwaawgane:ayekwaawigane    VAI_TAG    " 1 one's back be tired" ; !Rand key:n20162189-26-36n
+ekwaakshin:ayekwaakoshin    VAI_TAG    " 1 be tired from lying down" ; !Rand key:n20162188-46-27n
+ekwaakdabi:ayekwaakodabi    VAI_TAG    " 1 be tired from sitting" ; !Rand key:n20162188-42-45n
+ekwaagmishkiinzhgwe:ayekwaagamishkiinzhigwe    VAI_TAG    " 1 one's eyes be tired" ; !Rand key:n20162188-41-8n
+bnagninjiishkaa:banagininjiishkaa    VAI_TAG    " 1 one's hands peel (as from a reaction to some substance)" ; !Rand key:n201611710-13-54n
+bmikw'om:bimikwohom    VAI_TAG    " 1 go by thundering, pass by thundering" ; !Rand key:n201611613-29-44n
+bkomsadechge:bikomasadechige    VAI_TAG    " 1 pad one's stomach" ; !Rand key:n201611519-10-32n
+bchidoonaamo:bichidoonaamo    VAI_TAG    " 1 let slip a [negative] remark, make a slip of the tongue" ; !Rand key:n201611111-22-17n
+baataadbi:baataadabi    VAI_TAG    " 1 be stuck in one's seat, be stuck sitting somewhere" ; !Rand key:n20161109-1-1n
+baashkaakjin:baashkaakojin    VAI_TAG    " 1 make a cracking sound from the cold (of trees)" ; !Rand key:n20161920-58-59n
+aawsaadzi:aawVv1saadizi    VAI_TAG    " 1 be crazy, be insane (M'Ch, Wk);  2 be forgetful [from dementia] (Sg)" ; !Rand key:n2016176-35-32n
+dnaajma:ondVv1naajimVa1    VAI_TAG    " 1 relate something pertaining to a particular place;  2 relate something from a particular time back, talk about something from a particular time back" ; !Rand key:n73101885099n
+!End Rand database dump 2024}
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
