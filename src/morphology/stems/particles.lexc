@@ -3,6 +3,7 @@ CJ ;
 IJ ;
 IJ_DAB_ADDITIONS ;
 PT ;
+PT_DAB_ADDITIONS ;
 
 LEXICON CJ
 giishpin:giishpin    CJ_TAG    " 1 if;  2 or else, otherwise" ; !Rand key:n73023754109n
@@ -17,9 +18,44 @@ LEXICON CJ_TAG
 +Conj:0 CLOSED_PROTECTION ;
 
 LEXICON IJ_DAB_ADDITIONS 
-giibaadkamik:giibaadakamig	 IJ_TAG  "1 It's absurd; It's ludricous; It's ridiculous" ; !Rand key:n20162256-35-28n
+giibaadkamik:giibaadakamig      IJ_TAG  "1 It's absurd; It's ludricous; It's ridiculous" ; !Rand key:n20162256-35-28n
 gchi-myisaach:gichi-mVv1yisaach IJ_TAG "1 How unfortunate." ; !Rand_key:n201622211-27-5n
-gaansidam:gaanisidam	 IJ_TAG "1 too bad, regrettable, unfortunate" ; !Rand key:n201622114-30-44n
+gaansidam:gaanisidam            IJ_TAG "1 too bad, regrettable, unfortunate" ; !Rand key:n201622114-30-44n
+!{Start Rand database dump 2024
+zegendmaadkamik:zegendamaadakamig    IJ_TAG    " 1 It’s so frightful!" ; !Rand key:n103000769958n
+yaanh:yaany    IJ_TAG    " 1 Ah, poor kid. Ah, poor you. Oh, how cute. Oh, so cute. (expr said in a teasingly patronizing tone)" ; !Rand key:n103000767840n
+!wops    IJ_TAG    " 1 Oops! " ; !Rand key:n103000758283n !DAB this is English
+!wohoho    IJ_TAG    " 1 Ever silly. Ever ridiculous." ; !Rand key:n103000758275n !DAB: This won't play with syncope
+way:Bv1way2    IJ_TAG    " 1 Pardon? What?" ; !Rand key:n103000756202n
+wanh:Bv1wanh    IJ_TAG    " 1 Ha! (expr of triumph), Serves you right!" ; !Rand key:n103000756140n
+shtaataayaa:Bv1shtaataayaa    IJ_TAG    " 1 Holy cow! Holy jeez! Holy moly! Holy smokes! Wow." ; !Rand key:n103000745012n
+shisht:Bv1shisht    IJ_TAG    " 1 Holy cow! Holy jeez! Holy moly! Holy smokes! Wow. (said of something impressive)" ; !Rand key:n103000744451n
+shiishtaahaa:Bv1shiishtaahaa    IJ_TAG    " 1 Holy cow! Holy jeez! Holy moly! Holy smokes! Wow." ; !Rand key:n103000744407n
+she:Bv1she    IJ_TAG    " 1 Shame. (said to someone who says something coarse)" ; !Rand key:n103000743947n
+oshti:Bv1washti    IJ_TAG    " 1 then [said in grudging consent]" ; !Rand key:n103004166596n
+ngaa:Bv1ngaa    IJ_TAG    " 1 no" ; !Rand key:n103000711554n
+ne:ne    IJ_TAG    " 1 Look! (directing attention to something in sight)" ; !Rand key:n103000711247n
+ndakamik:Bv1ndagakmig    IJ_TAG    " 1 jeez (said in annoyance)" ; !Rand key:n103000697325n
+nashke:Bv1nishke    IJ_TAG    " 1 Look! (directing attention to something in sight)" ; !Rand key:n103000696439n
+mskwiigdeyaadkamik:miskwiigadeyaadkamig    IJ_TAG    " 1 So exasperating!, So frustrating!" ; !Rand key:n103000693857n
+gwetaan'kamig:gagwetaanakamig    IJ_TAG    " 1 Oh, my goodness! How terrible!" ; !Rand key:n103000643019n
+gwensaatkamig:gwenisaatakamig    IJ_TAG    " 1 How terrible. It’s terrible." ; !Rand key:n103000642977n
+gwaansagkamik:gagwaanisagakamig    IJ_TAG    " 1 How terrible! That’s terrible!" ; !Rand key:n103000642527n
+gwaansaatkamik:gagwaanisaatakamig    IJ_TAG    " 1 How terrible! That’s terrible!" ; !Rand key:n103000642503n
+gshkonweyaatkamik:goshkonaweyaatakamig    IJ_TAG    " 1 What a surprise!" ; !Rand key:n103000641759n
+giisaadkamik:giiwVv1saadakamig    IJ_TAG    " 1 too bad, unfortunate, regrettable" ; !Rand key:n103000596298n
+giisaadaadkamik:giiwVv1saadaadakamig    IJ_TAG    " 1 too bad, unfortunate, regrettable" ; !Rand key:n103000596294n
+giibaadaadkamik:giibaadaadakamig    IJ_TAG    " 1 How absurd!, So ludicrous!, So stupid! (of a plan or policy)" ; !Rand key:n103000583294n
+gegesnaa:gegesBv1naa    IJ_TAG    " 1 jeez (expr of exasperation)" ; !Rand key:n103000571223n
+aaniinda:aaniinda    IJ_TAG    " 1 For Pete’s sake, For goodness' sake, Oh jeez (expr of annoyance)" ; !Rand key:n102995930012n
+maajiikmik:maajiikamig    IJ_TAG    " 1 Jeez; what a thing [to do], what a thing [to happen]" ; !Rand key:n58fa1bdd24504d39bc1323320a01dd02n
+maagzhaa:maagizhaa    IJ_TAG    " 1 coming along, so-so (Wk);  2 maybe (Sg)" ; !Rand key:n58fa1bdd65bc4645b47823320a01dd02n
+nigaawaatkamik:inigaawaatakamig    IJ_TAG    " 1 hopeless" ; !Rand key:n58fa1bdb171041ddb0fa23320a01dd02n
+ni:Bv1ni    IJ_TAG    " 1 expr of triumph See! There you go! See what happened!" ; !Rand key:n58fa1bdbc9a04a1aa9fa23320a01dd02n
+mnwendmaatkamik:minwendamaatakamig    IJ_TAG    " 1 nice turn of events, a pleasing development" ; !Rand key:n58fa1bd838044961b43e23320a01dd02n
+wejeje:wejeje    IJ_TAG    " 1 expr. of mild alarm: oh-oh, uh-oh" ; !Rand key:n58fa1bd7142044f5ae3823320a01dd02n
+say:Bv1say2    IJ_TAG    " 1 yuck" ; !Rand key:n58fa1bd5441c4994a98023320a01dd02n
+!End Rand database dump 2024}
 
 LEXICON IJ
 wis:awis    IJ_TAG    " 1 Scat! Shoo!" ; !Rand key:n73072076663n
@@ -107,6 +143,15 @@ ni+Interj:ni    #    " 1 [see na]" ; !Rand key:n71431661160n
 
 LEXICON IJ_TAG
 +Interj:0 CLOSED_PROTECTION ;
+
+LEXICON PT_DAB_ADDITIONS
+!{Start Rand database dump 2024
+wesaadkamig:wesaadakamig PT_TAG " 1 too bad, regrettable" ; !Rand key:n103000756408n
+giiyenh:giiwenh PT_TAG "1 what (i.e. not catching what someone said)" ; !Rand key:n103000611077n
+gegnaa:geganaa  PT_TAG "1 anyway" ; !Rand key:n103000571232n
+!genaa:geganaa  PT_TAG "1 anyway" ; !Rand key:n103000573302n
+wegdagwen:wegadagwen	PT_TAG	"1 I don’t know why, who knows why, [wondering] why" ; !Rand key:n103000756309n !DAB this is a dubitative pronoun (these are missing IiRC) right?
+!}
 
 LEXICON PT
 aa:aa    PT_TAG    " 1 well; let's!, come on!;  2 oh!, well!" ; !Rand key:n7291535717n
