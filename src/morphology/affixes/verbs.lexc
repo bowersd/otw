@@ -752,21 +752,27 @@ LEXICON VII_CNJ_NUM_GATEWAY
         VII_CNJ_OBV ;
 
 LEXICON VII_CNJ_SG
-+%0:%>g       VII_CNJ_PRT_OR_END ;
++%0:%>g       VII_CNJ_PRT ;
 0+%0:w4g       VII_CNJ_DUB_PRT_DUB ;
 
 LEXICON VII_CNJ_OBV
-+%0Obv:%>nig   VII_CNJ_PRT_OR_END ;
++%0Obv:%>nig   VII_CNJ_PRT ;
 +%0Obv:%>nig   VII_CNJ_DUB_PRT_DUB ;
 
 
-LEXICON VII_CNJ_PRT_OR_END  
-+Prt:%>ban2    # ;
+LEXICON VII_CNJ_PRT
++Prt:%>ban2i1    VII_CNJ_CCNJ_GET ;
                 VII_CNJ_CCNJ_GET ;
-                # ;
 
 LEXICON VII_CNJ_CCNJ_GET 
-@R.Ccnj@    VII_CNJ_ITR ;
+@R.Ccnj@    VII_CNJ_ITR_OR_PCP_GATEWAY ;
+            # ; 
+
+LEXICON VII_CNJ_ITR_OR_PCP_GATEWAY
+            VII_CNJ_ITR ; 
+
+LEXICON VII_CNJ_PCP
+Pcp+%0+Pl:%>an    # ; 
 
 LEXICON VII_CNJ_ITR
 +Itr:%>n2    # ;
