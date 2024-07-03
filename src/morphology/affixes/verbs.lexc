@@ -768,19 +768,21 @@ LEXICON VII_CNJ_CCNJ_GET
 @R.Ccnj@    VII_CNJ_ITR_OR_PCP_GATEWAY ;
             # ; 
 
-LEXICON VII_CNJ_ITR_OR_PCP_GATEWAY
-            VII_CNJ_ITR ; 
 
-LEXICON VII_CNJ_PCP
-Pcp+%0+Pl:%>an    # ; 
-
-LEXICON VII_CNJ_ITR
-+Itr:%>n2    # ;
 
 LEXICON VII_CNJ_DUB_PRT_DUB
 +Dub:wenh   # ; !epenthetic i (c-final stems) becomes o (C_gwenh -> Cogwenh)
 +Prt+Dub:obanen2 # ; !epenthetic i becomes o as above,
 
+LEXICON VII_CNJ_ITR_OR_PCP_GATEWAY
+            VII_CNJ_ITR ; 
+            VII_CNJ_PCP ; 
+
+LEXICON VII_CNJ_ITR
++Itr:%>n2    # ; !it isn't really clear from Valentine 2001 which forms can be iteratives. only forms with no mode are listed in the grammar, but it could be possible that mode is allowed.
+
+LEXICON VII_CNJ_PCP
+Pcp+%0+Pl:%>an    # ; 
 !} conjunct end
 
 !} VII end
