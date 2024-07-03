@@ -277,7 +277,7 @@ define ccnjshort [[i|a] -> X2 e, o -> X2 (w)e || "PV/CCNJ+" (cseqs) _ ] ; !chang
 define rmccnj       [["PV/CCNJ+"|X2] -> 0] ;
 define cnjHiatus    [c1 -> y || vowel _ vowel] ; !V-final hiatus
 define cnjVoi       [s -> z  || nas c1 _ ] ; !nas-final negation
-define d2k          [d2 c1 g -> k || _ .#. ] ; !d-final vii cnj 0sg ends in k, not dg 
+define d2k          [d2 c1 g -> k || _ .#. ] ; !d-final vii cnj 0sg ends in k, not dg !but 'harrow' e-baazgobjigemgakin has k, not dg, so it seems to not just be word-final. what are the cases where we need d2 c1 g -/> k?
 define d2d2fuse       [d2 %> d2 -> d ] ; !ngod loses d before d-initial forms
 define d2del        [d2 c1 -> 0 || _ s ] ; !d-final vii loses d before s
 define d2d          [d2 -> d] ;
