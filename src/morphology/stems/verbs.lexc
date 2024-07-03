@@ -97,6 +97,7 @@ mzwewaakoon'gisnoon:mizwewaakoonagisin    VII_TAG    " 1 fill up an entire area,
 bebkaandoon:bebakaanad2    VII_TAG    " 1 be different from each other" ; !Rand key:n73016754723n
 !End original viip}
 !End Rand database dump 2024}
+wwaagaa:wawaagaa    VII_TAG    " 1 be bent, be crooked, be warped, warp. 2 banana (as participle)" ; !DAB: (anomalous) short vowel reduplication of waagaa. expected reduplication is wyaawaagaa. Rand2key:n73032210328n. participle form (derived, not listed) is word for banana (Rand key:n73032784725n)
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -7027,6 +7028,7 @@ maawndoodaabaanaawak:maawandoodaabaan1    VTA_TAG    " 1 drag (an.) things toget
 biidaawnaak:biidaawin1    VTA_TAG    " 1 bring a bunch" ; !Rand key:n73101863100n !this requires a plural object (the only known vtap), but it will be a real pain to set up a restriction like that, so just allow it to combine with anything for now
 !end new vtas}
 !End Rand database dump 2024}
+wiiknaa:wiikon            VTA_TAG " 1 feast, have a meal together 2 reception (participle form with PV/dazhi) " ; !base of the participle meaning 'reception' (endzhi-wiiknding PV/CCNJ+PV/dzhi+wiiknaa+VTA+Rcpl+VAI+Cnj+X) current phonology may make wiiknidi,) derived form (not listed) has Rand key:n20114108-54-48n
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
