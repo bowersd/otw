@@ -4,20 +4,26 @@
 LEXICON VALENCE_INCREASING
 +Caus:%>%>shkaw        VTA_TAG ; !"weight: 1"; !causative in body, i epenthetic?
 
-LEXICON VTA_DETRANSITIVE_GET
-                VTA_DETRANSITIVE ; 
-                VTA_PREORDER_GET ;
+LEXICON VTA_DETRANSITIVE_GATEWAY
+        VTA_PREORDER_GET ;
+        VTI_BASE_DERIV_VAI ; 
+        VTA_DETRANSITIVE_REFLEXIVE ; !these would ideally be in a single continuation lexicon, but there are apparent cases of VAI endam words that take reflexives (without the -dam)!
+        VTA_DETRANSITIVE_RECIPROCAL ; 
+        VTA_DETRANSITIVE_ANTIPASSIVE ; 
 
-LEXICON VTA_DETRANSITIVE
+LEXICON VTA_DETRANSITIVE_RECIPROCAL
 !(anti)-passives? we have indep order passives, but what about cnj?
 !-(i)ge (take -am off of VTI, palatalize t/d, assimilate VTA m to n)
 !, -(i)we (apply to h/N/S/n final VTAs, lots of palatalization)
 !, -aaso (remove VTI theme)
 !p 413 for productive VAI secondary finals
 +Rcpl:%>%>idi       VAI_TAG ; !"weight: 1"; !conditions awi->aa
+
+LEXICON VTA_DETRANSITIVE_REFLEXIVE
 +Rflx:%>%>idizo     VAI_TAG ; !"weight: 1"; !conditions awi->aa
+
+LEXICON VTA_DETRANSITIVE_ANTIPASSIVE
 +AntPass:%>%>ge     VAI_TAG ; !"weight: 1";  !conditions awi->aa but rules will not put an [i] in the right spot for that (they put i2 before the boundary to get the palatalization)
-                VTI_BASE_DERIV_VAI ; 
 
 LEXICON VAI_DERIV_GATEWAY
         VAI_ORDERS_GET ;
@@ -35,7 +41,7 @@ LEXICON VTI_BASE_DERIV
         VTI_BASE_DERIV_VAI ;
         VTI_BASE_DERIV_VII ;
 
-LEXICON VTI_BASE_DERIV_VAI !also fed by VTA_DETRANSITIVE, since many VTAs were showing up with -gaazo
+LEXICON VTI_BASE_DERIV_VAI !also fed by VTA_DETRANSITIVE_GATEWAY, since many VTAs were showing up with -gaazo
 +Pass:%>%>gaazo  VAI_TAG ; !"weight: 1"; 
 
 LEXICON VTI_BASE_DERIV_VII 
