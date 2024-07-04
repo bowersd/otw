@@ -7039,6 +7039,8 @@ biidaawnaak:biidaawin1    VTA_TAG    " 1 bring a bunch" ; !Rand key:n73101863100
 !end new vtas}
 !End Rand database dump 2024}
 wiiknaa:wiikon            VTA_TAG " 1 feast, have a meal together 2 reception (participle form with PV/dazhi) " ; !base of the participle meaning 'reception' (endzhi-wiiknding PV/CCNJ+PV/dzhi+wiiknaa+VTA+Rcpl+VAI+Cnj+X) current phonology may make wiiknidi,) derived form (not listed) has Rand key:n20114108-54-48n
+gon'aa:agonah    VTA_TAG    " 1 cover smb." ; !base of gon'odza 'cover oneself up' (n73030423701n), which we derive instead of list
+mshkikiikaanaa:mashkikiikaan1   VTA_TAG "put medicine on smb., treat smb. with medicine" ; !base of mshkikiikaandiza 'put medicine on yourself' (n73033249762n) which we derive here instead of listing. mashkikiikaazh is listed in the OPD.
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
