@@ -3,7 +3,7 @@ LEXICON NU_VAI
 LEXICON NU_VAIO
 
 LEXICON NU_VII
-wewebjiwan "when the current roils" # ;
+wewebjiwan # "when the current roils" ; !wewe-bjiwan-g
 LEXICON NU_VTI
 
 LEXICON NU_VTA
@@ -17,7 +17,8 @@ LEXICON NU_NI
 LEXICON NU_NA
 Ebiins:Abence # ; !name
 LEXICON NU_ADV
-mnopii "good distance" # ;
+mnopii # "good distance" ; !mno-pii
+Niibaakhom # ; !name
 LEXICON NU_PRON_NA
 
 LEXICON NU_PRON_NI
