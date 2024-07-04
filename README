@@ -26,17 +26,20 @@ useful.
 
 Note that the style of morphological analysis used here departs from common 
 practice in the Giellatekno community. Namely, the design here is modular.
-So there is a low level `what you see is what you get` analyzer, and if
+So there is a low level `what-you-see-is-what-you-get` analyzer, and if
 you do not want or like a tight morph-by-morph analysis, there is a companion
 analyzer that produces a more interpretable set of morphological features.
 This companion analyzer is produced by composing a transducer that reworks
 the tags. Because there are long-distance dependencies in Algonquian
 morphology, this transducer uses flag diacritics in rewrite rules. This
-makes xfst crash in compilation (as of 2017). 
+makes xfst crash in compilation (as of 2017). I personally prefer using a 
+python script to interpret the morphological tags (see the textAnalysis repo).
+
 
 Furthermore, the phonological rules here are not 2-level rules, but `replace
-rules` (rules familiar from SPE-style rule-based phonology). Foma interprets
-the rules in src/phonology/otw-phon.xfscript differently (as of 2017).
+rules` (rules familiar from SPE-style rule-based phonology). Foma and xfst interpret
+the rules in src/phonology/otw-phon.xfscript differently than hfst (as of 2017).
+Hfst interprets the rules as I intended them to be interpreted.
 
 So, only hfst works for compilation. Please check INSTALL for further 
 information on specific compilation information.
