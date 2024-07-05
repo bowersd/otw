@@ -1,18 +1,27 @@
 LEXICON NU_VAI
 baapoogdizi # "going around teasing" ; ! related to boog-
+bboon'gizi # ;
 inakamigizi # !syncope problems
 kida # ;
+mdaa'aagmishkaa # ; 
 naadge # "swim in such a way" ;
+wiijiiwaag # ;
 zaasaabza # "really blinds people" ;
+zhaa # "come over" ; !morphological problem
 
 LEXICON NU_VAIO
 
 LEXICON NU_VII
+aagwaate:aagawaate'o # "shade someone" ;
 bakise # "break apart" ; !in West
 bekaadendaagod # "be at peace, be content" ; !see bekaadendam
+naagmishkaa # "swirl" ;
+naagse # "flip" ;
 niibde'aabiigmod # "be in a line (of strings)" ;
 niizhin # "be two in number" ;
+waannamo # "the road is torturous" ; !related to waagnaagzi and -omo and waan-
 wewebjiwan # "when the current roils" ; !place name wewe-bjiwan-g
+shpimin # ; !from adv shpiming "high"
 
 LEXICON NU_VTI
 onjinaazhkaw # "using the body (as you might while chasing)" ; !need lex passive
@@ -36,6 +45,7 @@ mindimooyenh # "Mindemoya" ; !place name on Manitoulin syncope
 zaaghigan # ; !need compounding
 
 LEXICON NU_NA
+baanaabekwe # "mermaid" ; !related to baanaabe
 Ebiins:Abence # ; !name
 Niibaakhom # ; !name
 
@@ -44,6 +54,7 @@ giiwenh # "so it is said" ; !also giiyenh?
 maanaa # ; !negative
 mnopii # "good distance" ; !mno-pii
 nake # ; !already defined as adv, might be something else
+gaa'shii:gaashwii # ; !gaa(wiin)+dash+wiin
 
 LEXICON NU_PRON_NA
 
@@ -52,10 +63,19 @@ LEXICON NU_PRON_NI
 LEXICON NU_PA
 
 LEXICON NU_PV
+PV/ji- # "in order to" ; !West
+PV/maawnji- # ; !superlative
 
 LEXICON NU_PN
 PN/agaami- # "across a body of water" ; !similar to AV/gaaming
 
 LEXICON NU_IPC
+wiin # ; !negative contrastive discourse particle
 
 LEXICON NU_SUFFIX
+-g # "2pl imperative" ;
+-ini # "Indep" ;
+-nid # "Cnj" ;
+
+LEXICON NU_INTERJ
+inashke # "look" ;
