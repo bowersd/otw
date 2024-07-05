@@ -67,3 +67,6 @@ LEXICON NU_IPC
 wiin # ; !negative contrastive discourse particle
 
 LEXICON NU_SUFFIX
+
+LEXICON NU_INTERJ
+inashke # "look" ;
