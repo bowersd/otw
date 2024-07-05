@@ -229,6 +229,7 @@ LEXICON V_PREVERBS_MANNER
 !{ uncertain of position
 PV/o+:o-    V_REDUPLICATION_STEM    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n !need clarification on how this preverb is supposed to surface. does it just completely delete? no! finality trumps LR parse
 PV/waanji+:waanji-    V_REDUPLICATION_STEM    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
+PV/meyaaw+:meyaaw-    V_REDUPLICATION_STEM    " 1 most (superlative), -est" ; !Rand key:n103000677990n
 PV/nshinaaji+:nishinaaji-    V_REDUPLICATION_STEM    " 1 devastatingly" ; !Rand key:n73099738407n
 PV/niibaa+:niibaa-    V_REDUPLICATION_STEM    " 1 at night" ; !Rand key:n71431746367n
 PV/zaami+:ozaami-    V_REDUPLICATION_STEM    " 1 excessively, overly, too" ; !Rand key:n72977659543n

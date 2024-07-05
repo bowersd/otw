@@ -2070,6 +2070,31 @@ maajiiyaawnidwak:maajiiyaawin    VAI_MANDATORY_RECIPROCAL    " 1 leave marching,
 webiichge:webiichige    VAI_OPTIONAL_RECIPROCAL    " 1 race one another, race" ; !dict actually lists the reciprocal webiichgedwak Rand key:n73032713123n but we derive it on the model of niimi/niim'idwak 
 ggwen'gan:gagwenagan    VAI_OPTIONAL_RECIPROCAL    " 1 race against each other, race" ; !Rand key:n201622417-20-39n
 !End original vaip}
+!{start original vaip-recip
+wiijgaandwak:wiijigaandi    VAI_TAG    " 1 dance with each other" ; !Rand key:n73099238199n
+giikaandwak:giikaandi    VAI_TAG    " 1 quarrel with each other" ; !Rand key:n73022945091n
+maawnzondwak:maawanzondi    VAI_TAG    " 1 be in a group, be a group that has been called together" ; !Rand key:n20114718-55-54n (maawnzomaa 'call smb together', just a little too eroded)
+ggwedganaandwak:gagwedaganaandi    VAI_TAG    " 1 box with each other" ; !Rand key:n73021034330n (ggwedganaanjge 'box', ggwedganaamaa 'box with someone')
+nawendwak:Vi1nawendi    VAI_TAG    " 1 be cousins, be related to each other" ; !Rand key:n73033613208n (nawemaa ... so many almost cases with m->n and di instead of idi, it sure makes you wonder...)
+gdimaagi-n'kweshkdaadwak:gidimaagi-nakweshkodaadi    VAI_TAG    " 1 meet each other both in poor circumstances" ; !Rand key:n201622213-20-12n (n'kweshkwaa 'meet smb', but another mystery odaa
+ndaapnendiwak:ondaapinendi    VAI_TAG    " 1 quarrel with each other for a certain reason, quarrel with each other on account of something" ; !Rand key:n71431360295n (ndaapnemaa)
+mnwaangoondwak:minwaangoondi    VAI_TAG    " 1 get along well with each other, have good relations with each other" ; !Rand key:n73033215471n (mnaangwendam/mnwaangwendam vais be glad ... what is -oon though?)
+bdiknandiwak:bidikonandi    VAI_MANDATORY_RECIPROCAL    " 1 thump around while fighting each other" ; !Rand key:n72976265497n
+wiidoopndiwak:wiidoopondi    VAI_MANDATORY_RECIPROCAL    " 1 eat with each other" ; !Rand key:n73071972674n
+ggwejkandiwak:gagwejikandi    VAI_MANDATORY_RECIPROCAL    " 1 race with each other, race one another" ; !Rand key:n73021036295n
+samnaadwak:asaminaadi    VAI_MANDATORY_RECIPROCAL    " 1 play a close game" ; !Rand key:n73033956512n
+ggwedaagnidwak:gagwedaagVv1nidi    VAI_MANDATORY_RECIPROCAL    " 1 arm wrestle each other" ; !Rand key:n73031714605n
+maanendiwak:maanenindi    VAI_MANDATORY_RECIPROCAL    " 1 compete against each other, challenge each other" ; !Rand key:n20114622-15-20n (maanenmaa)
+nnaakwebdaadwak:nanaakwebidaadi    VAI_MANDATORY_RECIPROCAL    " 1 play catch with each other" ; !Rand key:n73033816769n I really want this to be derived from a VTA nnaakwebdawaa ... but I cannot find a good precedent for a VTA final webid-aw (there are VTIs though...)
+mnwaaksa'diwak:minwaakVv1sahidi    VAI_MANDATORY_RECIPROCAL    " 1 get along well with each other, hit it off" ; !Rand key:n73045653010n (nothing really with mnaak/mnwaak, some mnaag/mnwaag)
+miigaadwak:miigaadi    VAI_MANDATORY_RECIPROCAL    " 1 fight each other, wage a war with each other" ; !Rand key:n71429652881n (miigaadim vii, miigaadaan vti, no miigwaa vta)
+dawemaawndiwak:[o]dawemaawindi    VAI_MANDATORY_RECIPROCAL    " 1 be brother and sister to each other" ; !Rand key:n72989354762n
+btagndamaadwak:bitagandamaadi    VAI_MANDATORY_RECIPROCAL    " 1 get into an argument with each other, quarrel with each other" ; !Rand key:n72983853533n (btagnaandaan vti, btanaamaa vta (hit accidentally), no btagndamwaa)
+aabjinnidwak:aabijinanidi    VAI_MANDATORY_RECIPROCAL    " 1 fight each other constantly, fight with each other constantly" ; !Rand key:n72972555233n
+bkewdiwak:bakewidi    VAI_MANDATORY_RECIPROCAL    " 1 part ways; go separate ways from each other" ; !Rand key:n72977558469n (there is bke'aa, synthesized to make bke'diza, so is it underlying /bakehw/? getting w/h to show up will be tricky. this is not the first time I have had to pick h or w (phonology gives a consistent simplification depending on context, as suggested by Rhodes. maybe hw was simplified in different ways?)
+!bkite'diwak:bakitehodi    VAI_MANDATORY_RECIPROCAL    " 1 beat each other, hit each other, strike each other" ; !Rand key:n72975860683n (bkitewaa:bakitehw, currently makes bkitewdiwag)
+!baktewdiwak:bakite[h]widi    VAI_MANDATORY_RECIPROCAL    " 1 beat each other, hit each other, strike each other" ; !Rand key:n72975863691n (here's that strange incorrect syncope seen in baktewdiza)
+!end original vaip-recip}
 !{start original vai-reflex
 dbasendam:dabasen    VAI_ENDAM_CONTINUATION    " 1 be humble, think lowly of oneself" ; !dict actually lists the reflexive dbasendiza (Rand key:n72992969858n), which we derive from this form. the available VTA was not a good base due to having an m... (dbasenmaa, dbasenjgaaza exist)
 bmendam:bimen    VAI_ENDAM_CONTINUATION    " 1 be out on one's own, support oneself" ; !dict actually lists the reflexive bmendiza (Rand key:n72977958337n), but we derive it from this form because the available VTA was not a good base due to having an m (bmenmaa exists)
@@ -2846,7 +2871,7 @@ bmikwe:bimikawe    VAI_TAG    " 1 leave footprints, leave tracks" ; !Rand key:n7
 bmikzhiwe:bimikozhiwe    VAI_TAG    " 1 [see bmakzhiwe]" ; !Rand key:n72978046236n
 bminaadzi:biminaadizi    VAI_TAG    " 1 be fussy, be picky" ; !Rand key:n7303329522n
 bminaashkaage:biminaazhikaage    VAI_TAG    " 1 chase somebody, chase" ; !Rand key:n72978048561n
-bminaazh'ige:biminaazhihige    VAI_TAG    " 1 drive, drive [along], drive by" ; !Rand key:n72978049334n
+bminaazh'ige:biminaazhihige    VAI_TAG    " 1 drive, drive [along], drive by" ; !Rand key:n72978049334n ! root of enji-minaazh'igeng	ni-pt	 1 steering wheel			n103004117532n
 bmise:bimise    VAI_TAG    " 1 go flying [along], go flying by" ; !Rand key:n72978051289n
 bmishkaa:bVv1mishkaa    VAI_TAG    " 1 go [along] in a boat, go by in a boat" ; !Rand key:n72978052205n
 bmishkaa:bVv1mishkaa    VAI_TAG    " 1 come off, become detached" ; !Rand key:n72978052351n
@@ -7069,6 +7094,9 @@ wiiknaa:wiikon            VTA_TAG " 1 feast, have a meal together 2 reception (p
 gon'aa:agonah    VTA_TAG    " 1 cover smb." ; !base of gon'odza 'cover oneself up' (n73030423701n), which we derive instead of list
 mshkikiikaanaa:mashkikiikaan1   VTA_TAG "put medicine on smb., treat smb. with medicine" ; !base of mshkikiikaandiza 'put medicine on yourself' (n73033249762n) which we derive here instead of listing. mashkikiikaazh is listed in the OPD.
 bke'aa:bakeh    VTA_TAG    " 1 split people apart (as a reciprocal, have a falling out, part ways, separate, split up)" ; ! base of bke'diza 'have a falling out...' (Rand key:n201611515-46-0n) which we derive here instead of listing.
+twaa:ataw       VTA_TAG     "1 place sth. somewhere for smb. 2 gamble/bet/play cards/wager with sth." ; !base of taadwak " 1 bet one another, gamble with one another (Wp);  2 play cards with one another, play [some card game] with one another, play a [sports] game against each other (Wk)" ; !Rand key:n7303218992n, also base of already listed 'taage'. Now both can be derived! ataw can be found in OPD.
+natwaa:inataw   VTA_TAG     "1 place sth. for smb. in a certain way 2 play a certain game with each other" ; !base of nataadwak:Vi1nataadi    VAI_MANDATORY_RECIPROCAL    " 1 play a certain game with each other" ; !Rand key:n73098568568n, also base of nataage. built natwaa off of model of twaa. inataw is in OPD!
+ddibaajmotwaa:dadibaajimotaw VTA_TAG "1 relate a narrative to smb." ; !drawn from western forms. This is the base of the (reduplicated reciprocal) ddadbaajmotaadwak:dadadibaajimotaadi    VAI_MANDATORY_RECIPROCAL    " 1 engage in lively conversation with each other" ; !Rand key:n201132717-21-42n 
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
@@ -7501,7 +7529,7 @@ bkidshimaa:bakidishim    VTA_TAG    " 1 place sth. (an.) so it lies over the top
 bkigdoonewaa:bakigidoonehw    VTA_TAG    " 1 cut smb.'s lip [by hitting him]" ; !Rand key:n72977565295n
 bkijbinaa:bakijibin1    VTA_TAG    " 1 pull sth. (an.) up while leaning over" ; !Rand key:n72977567185n
 bkiknaa:bakikon1    VTA_TAG    " 1 cut sth. (an.) (of strings)" ; !Rand key:n72977582063n
-bkinwaa:bakinaw    VTA_TAG    " 1 beat smb. [in a game or contest], defeat smb." ; !Rand key:n72977583131n
+bkinwaa:bakinaw    VTA_TAG    " 1 beat smb. [in a game or contest], defeat smb." ; !Rand key:n72977583131n we derive ggweji-bkinaadwak from this root instead of listing ggweji-bkinaadwak:gagweji-bakinaadi  Rand key:n73021033814n (bkinaage 'win', bkinaadaan 'defeat sth')
 bkishkwaa:bakishkaw    VTA_TAG    " 1 break sth. (an.) [with one's weight]" ; !Rand key:n72977583498n
 bkiteyaakshimaa:bakitehaakshim    VTA_TAG    " 1 dash sth. (an.) against something" ; !Rand key:n72977583693n
 bkitewaa:bakitehw    VTA_TAG    " 1 beat smb., hit smb., strike smb.;  2 spank smb." ; !Rand key:n72977584056n
@@ -7772,7 +7800,7 @@ dbaabmaa:dibaabam    VTA_TAG    " 1 check on smb., look sth. (an.) over" ; !Rand
 dbaabndamwaa:dibaabandamaw    VTA_TAG    " 1 check on something for smb., look over something for smb." ; !Rand key:n72989777383n
 dbaadenmaa:dibaadenim    VTA_TAG    " 1 care for smb., have regard for smb." ; !Rand key:n72989778916n
 dbaajmaa:dibaajim    VTA_TAG    " 1 talk about smb., discuss smb." ; !Rand key:n72989778357n
-dbaajmatwaa:dibaajimVa1taw    VTA_TAG    " 1 tell smb. about something" ; !Rand key:n72989779478n
+dbaajmatwaa:dibaajimotaw    VTA_TAG    " 1 tell smb. about something" ; !Rand key:n72989779478n
 dbaaknaa:dibaakon1    VTA_TAG    " 1 judge smb., try smb. [in court]" ; !Rand key:n72989780455n
 dbasaanaa:dibasaan1    VTA_TAG    " 1 measure the length of sth. (an.) [by pacing]" ; !Rand key:n72992969752n
 dbasenmaa:dabasenim    VTA_TAG    " 1 think lowly of smb." ; !Rand key:n72992969985n
@@ -10771,6 +10799,7 @@ gaashkaabka'aan:gaashkaabikah                  VTI_AM_THEME           "1 scrape 
 gaakaashpjii'aan:gaakaashpijiih                  VTI_AM_THEME           "1 scrape sth. [with the hands or an instrument]" ; !Rand key:n201622112-59-54n
 gaachkodaan:gaachikod                          VTI_AM_THEME           "1 cut a small piece of sth., cut sth. into a small piece" ; !Rand key:n201621810-50-30n
 biidaagmipdaan:biidaagamipid                  VTI_AM_THEME           "1 be able to taste sth. [in a liquid], detect the taste of sth. [in a liquid]" ; !Rand key:n201611217-28-9n
+jiingdaasdoon:jiingadaasid                  VTI_OO_THEME            "1 throw a sinker, throw a splitter [in baseball]" ; !Rand key:n58fa1bdd3648454d851323320a01dd02n
 !Rand database dump end}
 
 LEXICON VTI

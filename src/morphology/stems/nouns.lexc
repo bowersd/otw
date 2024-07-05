@@ -1120,6 +1120,7 @@ gbodyegwaazwin:gibodiyegwaazowin    NI_SET    " 1 underwear" ; !Rand key:n201622
 gbiingwe'gan:gibiingwehigan    NI_SET    " 1 horse blinker" ; !Rand key:n20162228-54-18n
 gbaabkin'gan:gibaabikinigan    NI_SET    " 1 flue damper, air vent control" ; !Rand key:n201622116-1-42n
 gaanwzhiimin:gaanwazhiimin    NI_SET    " 1 juniper berry" ; !Rand key:n201622114-35-20n
+gdizgewanzh:gVv1dizVv1gewanzhi1 NI_SET  " 1 a certain medicinal herb (unidentified further)" ; !Rand key:n201133016-38-36n !the gender of this word is not known, just a guess
 !end generic nouns}
 !{start place names
 !Genada:genadaw    NI_PLACE_NAMES_TAG    " 1 Canada"    ; !Rand key:n73020046071n This will not syncopate correctly

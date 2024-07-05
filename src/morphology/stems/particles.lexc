@@ -55,6 +55,7 @@ ni:Bv1ni    IJ_TAG    " 1 expr of triumph See! There you go! See what happened!"
 mnwendmaatkamik:minwendamaatakamig    IJ_TAG    " 1 nice turn of events, a pleasing development" ; !Rand key:n58fa1bd838044961b43e23320a01dd02n
 wejeje:wejeje    IJ_TAG    " 1 expr. of mild alarm: oh-oh, uh-oh" ; !Rand key:n58fa1bd7142044f5ae3823320a01dd02n
 say:Bv1say2    IJ_TAG    " 1 yuck" ; !Rand key:n58fa1bd5441c4994a98023320a01dd02n
+aaniinda:aaniinda   IJ_TAG  "1 For Pete's sake! For goodness' sake, Jeez! My God!, Ever gross!, Ever sick!, How disgusting!" ; !Rand key:n200581212-36-27n
 !End Rand database dump 2024}
 
 LEXICON IJ
