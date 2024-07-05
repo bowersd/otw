@@ -2049,13 +2049,35 @@ bmaabiigmowak:bimaabiigamo    VAI_TAG    " 1 go by [in a stream], stream by" ; !
 biidaabiigmawak:biidaabiigVv1mVa1    VAI_TAG    " 1 come streaming in this direction, come streaming this way, stream in this direction, stream this way" ; !Rand key:n73101863755n
 bgamiinwak:bagamiino    VAI_TAG    " 1 arrive in hordes, arrive in great numbers" ; !Rand key:n73025580573n
 bebkaanziwak:bebakaanizi    VAI_TAG    " 1 be different from each other" ; !Rand key:n73016754530n
-sweb'idwak:zaswebahidi    VAI_TAG    " 1 disperse [running], scatter [running]" ; !Rand key:n73071453360n
-bmib'idwak:bimibahidi    VAI_TAG    " 1 run along in a group, run by in a group" ; !Rand key:n20113277-0-9n
-maajiib'idwak:maajiibahidi    VAI_TAG    " 1 run off together in a group" ; !Rand key:n73032731795n
-biijba'diwak:biijibahidi    VAI_TAG    " 1 come running this way (of a group)" ; !Rand key:n72977247521n
+wiijkewendam:wiijVi1kewen    VAI_ENDAM_CONTINUATION    " 1  be friends with one another (reciprocal), be friendly" ; !dictionary actually lists wiijkewendiwak Rand key:n73033034717n, but this looked like it went with the pattern I sniffed with -endam taking detransitivizing reflexive suffixes just below
+wiidgendam:wiidigen    VAI_ENDAM_CONTINUATION    " 1 live together, be married to one another, be joined together" ; !dictionary actually lists wiijkewendiwak Rand key:n73033053885n, but this looked like it went with the pattern I sniffed with -endam taking detransitivizing reflexive suffixes just below
+wiijiindwak:wiijiindi    VAI_TAG    " 1 accompany one another, go together" ; !Rand key:n73033059053n !assuming -ndwak is not an innovation, this maybe once reciprocal is too eroded now to be derived as one
+waabndiwak:waabandi    VAI_TAG    " 1 see one another" ; !Rand key:n73032184841n
+sweb'idwak:zaswebah    VAI_MANDATORY_RECIPROCAL    " 1 disperse [running], scatter [running]" ; !Rand key:n73071453360n
+bmib'idwak:bimibah    VAI_MANDATORY_RECIPROCAL    " 1 run along in a group, run by in a group" ; !Rand key:n20113277-0-9n
+maajiib'idwak:maajiibah    VAI_MANDATORY_RECIPROCAL    " 1 run off together in a group" ; !Rand key:n73032731795n
+biijba'diwak:biijibah    VAI_MANDATORY_RECIPROCAL    " 1 come running this way (of a group)" ; !Rand key:n72977247521n
+zaagdaawnidwak:zaagidaawan    VAI_MANDATORY_RECIPROCAL    " 1 march out, parade out, go out" ; !Rand key:n73032712330n there is a plausible groupness, hence reciprocal, but I wouldn't want to make a VTA for a base for this
+giitaawaanidwak:giitaawaan    VAI_MANDATORY_RECIPROCAL    " 1 [people] march around something, march around the perimeter, parade around something, parade around the perimeter" ; !Rand key:n73098639910n
+bgamaapnendwak:bagamaapinen    VAI_MANDATORY_RECIPROCAL    " 1 arrive quarrelling" ; !Rand key:n201611118-36-49n
+nimaawnidwak:Vi1nimaawan    VAI_MANDATORY_RECIPROCAL    " 1 march away, parade away" ; !Rand key:n73099873328n
+!maawnjidwak:maawanji[hi]di    VAI_MANDATORY_RECIPROCAL    " 1 assemble, gather, meet" ; !Rand key:n71429266109n
+maawnji'diwak:maawanjih    VAI_MANDATORY_RECIPROCAL    " 1 assemble, gather, meet" ; !Rand key:n71429266400n
+bmaawnidwak:bimaawan    VAI_MANDATORY_RECIPROCAL    " 1 parade" ; !Rand key:n72915859240n
+biindgeyaawnidwak:biindigeyaawan    VAI_MANDATORY_RECIPROCAL    " 1 march in, parade in" ; !Rand key:n73101868871n
+biimskwaawnidwak:biimiskwaawVv1n    VAI_MANDATORY_RECIPROCAL    " 1 march around in a circle, parade around in a circle (of groups)" ; !Rand key:n73098640023n
+maajiiyaawnidwak:maajiiyaawin    VAI_MANDATORY_RECIPROCAL    " 1 leave marching, leave parading" ; !Rand key:n73098672276n
+webiichge:webiichige    VAI_OPTIONAL_RECIPROCAL    " 1 race one another, race" ; !dict actually lists the reciprocal webiichgedwak Rand key:n73032713123n but we derive it on the model of niimi/niim'idwak 
+ggwen'gan:gagwenagan    VAI_OPTIONAL_RECIPROCAL    " 1 race against each other, race" ; !Rand key:n201622417-20-39n
 !End original vaip}
-!End Rand database dump 2024}
+!{start original vai-reflex
+dbasendam:dabasen    VAI_ENDAM_CONTINUATION    " 1 be humble, think lowly of oneself" ; !dict actually lists the reflexive dbasendiza (Rand key:n72992969858n), which we derive from this form. the available VTA was not a good base due to having an m... (dbasenmaa, dbasenjgaaza exist)
+bmendam:bimen    VAI_ENDAM_CONTINUATION    " 1 be out on one's own, support oneself" ; !dict actually lists the reflexive bmendiza (Rand key:n72977958337n), but we derive it from this form because the available VTA was not a good base due to having an m (bmenmaa exists)
+bkaanendam:bakaanen    VAI_ENDAM_CONTINUATION    " 1 feel different, think of oneself as being different" ; !dict actually lists the reflexive bdaanendiza (Rand key:n72977552423n), but we derive it from this because the available VTA was not a good base due to having an m (bkaanenmaa)
+bgidendam:bagiden    VAI_ENDAM_CONTINUATION    " 1 surrender, give oneself up" ; !dict actually lists the reflexive bgidendiza (Rand key:n72976745117n) and the reciprocal bgidendwak (n201132615-34-34n), but we derive it from this because the available VTA was not a good base due to having an m (bgidenmaa, bgidendaan)
 nwapwaan'kodaadza:nawapwaanikodaadizVa1    VAI_TAG    " 1 make a lunch [to take] for oneself, prepare provisions for oneself" ; !Rand key:n71435083087n I have avoided listing VAI reflexives, but I have to list this one. There is VTA nwapwaan'kawaa, but it doesn't have odaa/odaw (and I just can't see a plausible derivational suffix with that shape). There is vaio nwapwaan'kodaadzon, but that is less of a base for this than confirmation that this particular almost-suffix is definitely there.
+!end original vai-reflex}
+!End Rand database dump 2024}
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
@@ -5050,7 +5072,6 @@ niijaani:oniijaani    VAI_TAG    " 1 have a child" ; !Rand key:n71431756474n
 niijaansi:oniijaanisi    VAI_TAG    " 1 have a child" ; !Rand key:n71431756535n
 niikmo:niikimo    VAI_TAG    " 1 growl" ; !Rand key:n71431756956n
 niim'iwe:niimihiwe    VAI_TAG    " 1 hold a dance, put on a dance" ; !Rand key:n71431757349n
-niimi:niimi    VAI_TAG    " 1 dance" ; !Rand key:n71431757399n
 niimshka'ge:niimashkahige    VAI_TAG    " 1 have a crest of feathers" ; !Rand key:n71431764617n
 niinminaagzi:niinaminaagozi    VAI_TAG    " 1 look frail, look weak" ; !Rand key:n71431765364n
 niinmizi:niinamizi    VAI_TAG    " 1 be frail, be weak" ; !Rand key:n71431765467n
@@ -6818,14 +6839,19 @@ gwiinwi-nendam:gwiinawi-inen     VAI_ENDAM_CONTINUATION    " 1 not know what to 
 getnaamendam:gagetinaamen     VAI_ENDAM_CONTINUATION    " 1 be determined, be serious about something" ; !Rand key:n201141021-9-59n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 aanzwewendam:aanzwewen     VAI_ENDAM_CONTINUATION    " 1 be readily confused, be forgetful" ; !Rand key:n20161514-52-6n
 mshkawendam:mashkawen     VAI_ENDAM_CONTINUATION    " 1 be determined, be resolute" ; !Rand key:n71430465100n dict also has mshkawendiza 'act tough, think oneself strong' n73098035946n, which we derive instead of list
-dbasendam:dabasen    VAI_ENDAM_CONTINUATION    " 1 be humble, think lowly of oneself" ; !dict actually lists the reflexive dbasendiza (Rand key:n72992969858n), which we derive from this form. the available VTA was not a good base due to having an m... (dbasenmaa, dbasenjgaaza exist)
-bmendam:bimen    VAI_ENDAM_CONTINUATION    " 1 be out on one's own, support oneself" ; !dict actually lists the reflexive bmendiza (Rand key:n72977958337n), but we derive it from this form because the available VTA was not a good base due to having an m (bmenmaa exists)
-bkaanendam:bakaanen    VAI_ENDAM_CONTINUATION    " 1 feel different, think of oneself as being different" ; !dict actually lists the reflexive bdaanendiza (Rand key:n72977552423n), but we derive it from this because the available VTA was not a good base due to having an m (bkaanenmaa)
-bgidendam:bagiden    VAI_ENDAM_CONTINUATION    " 1 surrender, give oneself up" ; !dict actually lists the reflexive bgidendiza (Rand key:n72976745117n), but we derive it from this because the available VTA was not a good base due to having an m (bgidenmaa, bgidendaan)
 !end pseudo VTIs}
+niimi:niimi    VAI_OPTIONAL_RECIPROCAL    " 1 dance" ; !Rand key:n71431757399n
+
+LEXICON VAI_MANDATORY_RECIPROCAL
++VAI:0      VTA_DETRANSITIVE_RECIPROCAL ; 
+
+LEXICON VAI_OPTIONAL_RECIPROCAL !for verbs that are particularly likely to be done as collectives
++VAI:0      VTA_DETRANSITIVE_RECIPROCAL ; 
+            VAI_TAG ; 
 
 LEXICON VAI_ENDAM_CONTINUATION
 +VAI:0      VTA_DETRANSITIVE_REFLEXIVE ; 
++VAI:0      VTA_DETRANSITIVE_RECIPROCAL ; 
 0:dam       VAI_TAG ; 
 
 LEXICON VAI_TAG
@@ -7042,6 +7068,7 @@ biidaawnaak:biidaawin1    VTA_TAG    " 1 bring a bunch" ; !Rand key:n73101863100
 wiiknaa:wiikon            VTA_TAG " 1 feast, have a meal together 2 reception (participle form with PV/dazhi) " ; !base of the participle meaning 'reception' (endzhi-wiiknding PV/CCNJ+PV/dzhi+wiiknaa+VTA+Rcpl+VAI+Cnj+X) current phonology may make wiiknidi,) derived form (not listed) has Rand key:n20114108-54-48n
 gon'aa:agonah    VTA_TAG    " 1 cover smb." ; !base of gon'odza 'cover oneself up' (n73030423701n), which we derive instead of list
 mshkikiikaanaa:mashkikiikaan1   VTA_TAG "put medicine on smb., treat smb. with medicine" ; !base of mshkikiikaandiza 'put medicine on yourself' (n73033249762n) which we derive here instead of listing. mashkikiikaazh is listed in the OPD.
+bke'aa:bakeh    VTA_TAG    " 1 split people apart (as a reciprocal, have a falling out, part ways, separate, split up)" ; ! base of bke'diza 'have a falling out...' (Rand key:n201611515-46-0n) which we derive here instead of listing.
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
