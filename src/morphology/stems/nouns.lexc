@@ -36,7 +36,7 @@ Maata:maata     NA_SET     " 1 Martha" ; !Rand key:n20114107-46-23n
 Maagniit:maaganiid     NA_SET     " 1 Margaret" ; !Rand key:n20114107-44-44n
 Zoosep:zoosep     NA_SET     " 1 Joseph" ; !Rand key:n20114107-29-3n
 Zaben:zaben     NA_SET     " 1 Isabelle" ; !Rand key:n20114107-18-0n
-gweji-zhoonyaakewgamig:[ga]gweji-zhooniyaakewigamigo     NA_SET     " 1 casino" ; !Rand key:n201092019-23-0n
+gweji-zhoonyaakewgamig:gagweji-zhooniyaakewigamigo     NA_SET     " 1 casino" ; !Rand key:n201092019-23-0n
 !End Rand database dump 2024}
 
 LEXICON NA
