@@ -17,10 +17,10 @@ LEXICON VTA_DETRANSITIVE_RECIPROCAL
 !, -(i)we (apply to h/N/S/n final VTAs, lots of palatalization)
 !, -aaso (remove VTI theme)
 !p 413 for productive VAI secondary finals
-+Rcpl:%>%>idi       VAI_TAG ; !"weight: 1"; !conditions awi->aa
++Rcpl:%>%>di       VAI_TAG ; !"weight: 1"; !conditions awi->aa
 
 LEXICON VTA_DETRANSITIVE_REFLEXIVE
-+Rflx:%>%>idizo     VAI_TAG ; !"weight: 1"; !conditions awi->aa
++Rflx:%>%>dizo     VAI_TAG ; !"weight: 1"; !conditions awi->aa
 
 LEXICON VTA_DETRANSITIVE_ANTIPASSIVE
 +AntPass:%>%>ge     VAI_TAG ; !"weight: 1";  !conditions awi->aa but rules will not put an [i] in the right spot for that (they put i2 before the boundary to get the palatalization)

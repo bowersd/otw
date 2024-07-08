@@ -165,7 +165,9 @@ define cnjaepen     [[..] -> a || nas c1 _ w4 , !a epen for nas-final
 define w5o          [w5 -> o || cons _ %> a [n|g]] ; !feed oa->oo ... expanded to cons _ from nas _ to accomodate VII Cwan->Coon
 define w5del          [w5 -> 0 || _ %> [[g o b a]|[n o o n]]  ] ; !bleed ccEpen
 define w5w          [w5 -> w] ; !doesn't require morph bound, but kept it here for contiguity with other w5 rules
-define mgAssim      [m %> %> g -> n g ] ; !antipassive -ge does not trigger epenthesis, rather it triggers assimilation (Valentine p 405) ADD TO CASCADE
+define mgAssim      [m %> %> g -> n g,,
+                     [n|m] %> %> d -> n d
+                     ] ; !antipassive -ge does not trigger epenthesis, rather it triggers assimilation (Valentine p 405), same for reciprocal/reflexive di/dizo
 define noomagad     [[..] -> o o || nas _ %> %> m a g a d2] ; !bleed ccEpen
 define vLenmagad    [[..] -> i || \[i] i _ %> %> m a g a d2 ,, 
                     [..] -> o || \[o] o _ %> %> m a g a d2 ,,
@@ -423,6 +425,7 @@ read regex [
     w5w         .o.
     noomagad    .o.
     vLenmagad   .o.
+    mgAssim
     ccEpen      .o.
     rmBound     .o. !rules at or above this line reference morpheme boundaries
     c2o         .o. !imperative rules (at least for vai)
