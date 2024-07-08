@@ -2099,7 +2099,7 @@ dbasendam:dabasen    VAI_ENDAM_CONTINUATION    " 1 be humble, think lowly of one
 bmendam:bimen    VAI_ENDAM_CONTINUATION    " 1 be out on one's own, support oneself" ; !dict actually lists the reflexive bmendiza (Rand key:n72977958337n), but we derive it from this form because the available VTA was not a good base due to having an m (bmenmaa exists)
 bkaanendam:bakaanen    VAI_ENDAM_CONTINUATION    " 1 feel different, think of oneself as being different" ; !dict actually lists the reflexive bkaanendiza (Rand key:n72977552423n), but we derive it from this because the available VTA was not a good base due to having an m (bkaanenmaa)
 bgidendam:bagiden    VAI_ENDAM_CONTINUATION    " 1 surrender, give oneself up" ; !dict actually lists the reflexive bgidendiza (Rand key:n72976745117n) and the reciprocal bgidendwak (n201132615-34-34n), but we derive it from this because the available VTA was not a good base due to having an m (bgidenmaa, bgidendaan)
-nwapwaan'kodaadza:nawapwaanikodaadizVa1    VAI_TAG    " 1 make a lunch [to take] for oneself, prepare provisions for oneself" ; !Rand key:n71435083087n I have avoided listing VAI reflexives, but I have to list this one. There is VTA nwapwaan'kawaa, but it doesn't have odaa/odaw (and I just can't see a plausible derivational suffix with that shape). There is vaio nwapwaan'kodaadzon, but that is less of a base for this than confirmation that this particular almost-suffix is definitely there.
+nwapwaan'kodaadza:nawapwaanikodaa    VAI_MANDATORY_REFLEXIVE    " 1 make a lunch [to take] for oneself, prepare provisions for oneself" ; !Rand key:n71435083087n I have avoided listing VAI reflexives, but I have to list this one. There is VTA nwapwaan'kawaa, but it doesn't have odaa/odaw (and I just can't see a plausible derivational suffix with that shape). There is vaio nwapwaan'kodaadzon, but that is less of a base for this than confirmation that this particular almost-suffix is definitely there.
 !end original vai-reflex}
 !End Rand database dump 2024}
 
@@ -6866,6 +6866,9 @@ mshkawendam:mashkawen     VAI_ENDAM_CONTINUATION    " 1 be determined, be resolu
 !end pseudo VTIs}
 niimi:niimi    VAI_OPTIONAL_RECIPROCAL    " 1 dance" ; !Rand key:n71431757399n
 
+LEXICON VAI_MANDATORY_REFLEXIVE
++VAI:0      VTA_DETRANSITIVE_REFLEXIVE ; 
+
 LEXICON VAI_MANDATORY_RECIPROCAL
 +VAI:0      VTA_DETRANSITIVE_RECIPROCAL ; 
 
@@ -6874,8 +6877,8 @@ LEXICON VAI_OPTIONAL_RECIPROCAL !for verbs that are particularly likely to be do
             VAI_TAG ; 
 
 LEXICON VAI_ENDAM_CONTINUATION
-+VAI:0      VTA_DETRANSITIVE_REFLEXIVE ; 
-+VAI:0      VTA_DETRANSITIVE_RECIPROCAL ; 
++VAI:i      VTA_DETRANSITIVE_REFLEXIVE ; !the reflexives listed for these -endam verbs end in dizo, not dzo, so we need a vowel here, as awful as that is
++VAI:i      VTA_DETRANSITIVE_RECIPROCAL ; !the reflexives listed for these -endam verbs end in dizo, not dzo, so we need a vowel here, as awful as that is
 0:dam       VAI_TAG ; 
 
 LEXICON VAI_TAG
