@@ -1185,6 +1185,8 @@ gwinaanan:agwinaan    NI_SET    " 1 clothes" ; !Rand key:n73031817130n
 biitoo-gwiwnan:biitoo-agwiwin    NI_SET    " 1 underwear" ; !Rand key:n65660900682n
 piknan:apikan    NI_SET    " 1 harness" ; !Rand key:n73033954477n
 biiwekdamaagnan:biiwekodamaagan    NI_SET    " 1 shavings" ; !Rand key:n729775294n
+zhiibwaayaabjignan:zhiibwaayaabijigan    NI_SET    " 1 binoculars" ; !Rand key:n7303367511n
+shkiinzhgokaajganan:oshkiinzhigokaajigan    NI_SET    " 1 eyeglasses" ; !Rand key:n73031413316n
 !end potentially obligatory plurals}
 !End Rand database dump 2024}
 
