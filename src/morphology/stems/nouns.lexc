@@ -3,8 +3,7 @@ LEXICON NOUNS
   NI ;
   NI_DAB_ADDITIONS ; 
   NA_DAB_ADDITIONS ; 
-@R.Person@  NAD ;
-@R.Person@  NID ;
+@R.Person@  DEPENDENT_NOUN_GATEWAY ;
 
 LEXICON NA_DAB_ADDITIONS 
 maagan:maagan   NA_SET "spouse" ; !back formation from wiidgemaagan?
@@ -37,6 +36,9 @@ Maagniit:maaganiid     NA_SET     " 1 Margaret" ; !Rand key:n20114107-44-44n
 Zoosep:zoosep     NA_SET     " 1 Joseph" ; !Rand key:n20114107-29-3n
 Zaben:zaben     NA_SET     " 1 Isabelle" ; !Rand key:n20114107-18-0n
 gweji-zhoonyaakewgamig:gagweji-zhooniyaakewigamigo     NA_SET     " 1 casino" ; !Rand key:n201092019-23-0n
+!{start (potential) obligatory plurals
+waaknak:waakon  NA_SET " 1 lichen" ; !Rand key:n73032479432n SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
+!end (potential) obligatory plurals}
 !End Rand database dump 2024}
 
 LEXICON NA
@@ -969,6 +971,21 @@ kwe:ikwew2              NA_SET ; !wag pl, d-hiatus
 !gookookhoo:gookookohoo  NA_SET ; !g pl
 !waawaatesi:waawaatesiw2 NA_SET ; !wag pl (short v)
 
+LEXICON DEPENDENT_NOUN_GATEWAY
+        NAD ; 
+        NID ; 
+        NAD_DAB_ADDITIONS ;
+        NID_DAB_ADDITIONS ;
+
+LEXICON NAD_DAB_ADDITIONS
+!{start rand database dump
+!{start (potential) obligatory plurals
+nniishkok:niishkw1    NAD_SET    " 1 my tonsils" ; !Rand key:n71431840771n
+nda'iimak:ahii    NAD_SET    " 1 my belongings, my stuff" ; !Rand key:n72974456133n !this may require possessed theme, plural
+nbiiweziinmak:biiweziin    NAD_SET    " 1 my brood, my little ones" ; !Rand key:n7297751609n !this may require possessed theme, plural
+!end (potential) obligatory plurals}
+!end rand database dump}
+
 LEXICON NAD
 nmamaanh:%^maamaa    NAD_SET    " 1 my mom, my mother" ; !long vowel variant of nmamaanh, a DAB addition
 !{ oddballs (y-final)
@@ -1094,6 +1111,13 @@ nzhishenh:%^zhisheny    NAD_SET    " 1 my uncle" ; !Rand key:n73072869095n
 nzigos:%^zigos    NAD_SET    " 1 my aunt (new system)" ; !Rand key:n73035443508n
 nzigzis:%^zigozis    NAD_SET    " 1 my mother-in-law, my spouse's grandmother (old system), my spouse's cross-aunt (old system)" ; !Rand key:n73035443679n
 ndiniigan:%^diniigan    NAD_SET    " 1 my shoulder blade" ; !Rand key:n2010112211-51-39n
+
+LEXICON NID_DAB_ADDITIONS
+!{start rand database dump
+!{start potential obligatory plural
+nda'iiman:ahii    NID_SET    " 1 my belongings, my stuff" ; !Rand key:n72974456192n !this may require possessed theme, plural
+!end rand database dump}
+!end potential obligatory plural}
 
 LEXICON NI_DAB_ADDITIONS
 ziizbaakdaaboo:ziizibaakodaaboo NI_SET "sap" ; !cf ziizibaak... vocab on sap/sugaring ![gk]Vo1 replaced with [gk]o
