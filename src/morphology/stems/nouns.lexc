@@ -1180,6 +1180,12 @@ Bwa'ganing:bawahiganing    NI_PLACE_NAMES_TAG    " 1 rice-gathering place (near 
 Bkejwanong:bakejiwanong    NI_PLACE_NAMES_TAG    " 1 Walpole Island, Ontario"    ; !Rand key:n72977556328n
 Anam'ewaatgwenh:anamVi1hewaatigweny    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456729n
 !end place names}
+!{start potentially obligatory plurals
+gwinaanan:agwinaan    NI_SET    " 1 clothes" ; !Rand key:n73031817130n
+biitoo-gwiwnan:biitoo-agwiwin    NI_SET    " 1 underwear" ; !Rand key:n65660900682n
+piknan:apikan    NI_SET    " 1 harness" ; !Rand key:n73033954477n
+biiwekdamaagnan:biiwekodamaagan    NI_SET    " 1 shavings" ; !Rand key:n729775294n
+!end potentially obligatory plurals}
 !End Rand database dump 2024}
 
 LEXICON NI_PLACE_NAMES_TAG
