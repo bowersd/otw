@@ -1,15 +1,28 @@
 LEXICON NU_VAI
 baapoogdizi # "going around teasing" ; ! related to boog-
 bboon'gizi # ;
+gnawendaagzi    # ;
 inakamigizi # !syncope problems
 kida # ;
 mdaa'aagmishkaa # ; 
 naadge # "swim in such a way" ;
+niisaakiiwe # "s/he goes downhill" ;
 wiijiiwaag # ;
 zaasaabza # "really blinds people" ;
 zhaa # "come over" ; !morphological problem
+mnidoonaago    # ; !maybe related to mji-mnidoo
+zhi-yaa:izhi-ayaa    # "be a certain way" ; !looks to already be in the tmp.lexc file
+biinjgwaashkni    # "jump into" ;
+maakhigaazo    # "maim" ; !phonological problem a/o, o/_ need lexical passive
+sweb'iwe    # ; !phonological problem, missing derivation, _/z a/_, _/i need full root or concatenation of -bahiwe 'run' (this is primary derivation)
+mshkawzii:mashkawizii    # "be powerful" ; !phonology problem, weird syncope, also maybe actually something more like mshkwiizii?
+bmaajmo:bimaajimo    # "dance" ; missing derivation from bim and aajim
+wiin'za    # "have a name" ; !orthographic problems
+nishnaabewnikaaza:anishnaabewinikaaza    # ; missing derivation from nishnaabewi ("be a North American aboriginal person") and nikaazo ("be called")
 
 LEXICON NU_VAIO
+taason:ataason    # "store smt." ; !missing derivation, taaso is also possible
+naanzon:inaanzon    # "dye" ;
 
 LEXICON NU_VII
 aagwaate:aagawaate'o # "shade someone" ;
@@ -22,17 +35,46 @@ niizhin # "be two in number" ;
 waannamo # "the road is torturous" ; !related to waagnaagzi and -omo and waan-
 wewebjiwan # "when the current roils" ; !place name wewe-bjiwan-g
 shpimin # ; !from adv shpiming "high"
+naagmishkaa    # "swirl"? ;
+mdaa'aagmishkaa    # "stir" ; !final is weird
+zegwiindmaa    # ; !zeg- is about fear, wiindam is "great depths of water," maybe about fear of water?
+bmaabkaa    # "cliff" ; !first vowel is either a or i, based on CCNJ 
+bmaabkisin    # "cliff" ; !apparently an error for bmabkaa
+zhi-yaa:izhi-ayaa    # "be in a certain way" ; !listed as both a VAI and VII
+booniise:booniise    # "land" ;
+biisniiskaa    # "be in little stone pieces" ; !not clear where -iiskaa comes from
+mdaa'aagmishkaa    # "stir" ;
+zaagbii    # ; !maybe related to zaaggwiinde "stick out of the water"
+naabkaa:inaabikaa    # "be a rock shaped in such a way" ;
+niizhgon    # "two days" ; !might actually just be be niizhik+VII
+giizhgad    # "be day" ; !missing derivation. maybe already in tmp.lexc?
+gidaakiiwan:agidaakiiwan    # "be a hill" ;
+bgojgin:bagojigin    # "grow" ;
+piitaande    # ; !lots of piit but none with aande
 
 LEXICON NU_VTI
 onjinaazhkaw # "using the body (as you might while chasing)" ; !need lex passive
+baashdakaadaan    # ; !baashk- related to passing or bursting
+zhiwebnaan    # "whirl" ; !related to od-izhiwebin?
+gboobdoon    # ; !formed from gibo "block/cinch" and -bidoo "tie"
+giishkkwegdaan    # ; !formed from giishk (cut) kweg (neck) and dam (VTI), missing derivation
+giishkjaanegdaan    # ; !formed from giishk (cut) jaane (nose) and dam (VTI), missing derivation
+maajiibtwaadaan    # ; !morphological problem, waad could actually be waaN
+giiwebtwaadaan    # ; !morphological problem, waad could actually be waaN
+pagdood    # ; !morphological problem
 
 LEXICON NU_VTA
 baapchi'aa # "play tricks, make fun" ; !related to baapichigaade
 giishkjaanegnaamaa # "split nose by hitting" ; !syncope
 poogji'aa # ; !some relation to boog-
 njignaamaa # "smack with force" ; !nji- might be pv?
+naagdawenmaa    # ; "look after smt. for smb." ; !related to naagdawendmawaa, morphological problem
+kwaawaa    # "attack" ; 
+ggwejmaamaa    # ; !derived from ggweji "test" and maam "smell"
+nzwaa:onzw    # "boil" ; phonological problem
 
 LEXICON NU_NAD
+ngo-doodem    # "family, clan" ; !ngo- is paired with da- in the actual example, spelled dango-, doodem is a listed word for family
 
 LEXICON NU_NID
 
@@ -43,24 +85,35 @@ Mchigodnong # ; !place name
 Mindemoya # "Mindemoya" ; !place name on Manitoulin
 mindimooyenh # "Mindemoya" ; !place name on Manitoulin syncope
 zaaghigan # ; !need compounding
+Manitoulin    # ; !place name
+aankwaan    # "fort" ; !or maybe the northern word for hat?
+Baawting    # ; !place name (Sault Sainte Marie)
 
 LEXICON NU_NA
 baanaabekwe # "mermaid" ; !related to baanaabe
 Ebiins:Abence # ; !name
 Niibaakhom # ; !name
+Debaasge    # ; !name
+Ebiins    # ; !name
+Niibaakhom # "night thunderer" ; !name
 
 LEXICON NU_ADV
+gaa'shii:gaashwii # ; !gaa(wiin)+dash+wiin
 giiwenh # "so it is said" ; !also giiyenh?
 maanaa # ; !negative
 mnopii # "good distance" ; !mno-pii
 nake # ; !already defined as adv, might be something else
-gaa'shii:gaashwii # ; !gaa(wiin)+dash+wiin
+niiyiing    # "at that place" ; !analyzed as compound of niwi and ya'ii
+aabtoowyiinh    # "halfway up the hill" ; !syncope problems, aabtoo- is clearly half, but I can't find a word related to hill
+noonj    # "more" ; !contraction of nwanj
 
 LEXICON NU_PRON_NA
+wegwendig # "somebody" ; !dubitative pronoun
 
 LEXICON NU_PRON_NI
 
 LEXICON NU_PA
+PA/maanji-    # ; !phonological problem with first V not being deleted with reduplication
 
 LEXICON NU_PV
 PV/ji- # "in order to" ; !West
@@ -79,3 +132,4 @@ LEXICON NU_SUFFIX
 
 LEXICON NU_INTERJ
 inashke # "look" ;
+yaa-aa    # "oh my" ; variant of yaa
