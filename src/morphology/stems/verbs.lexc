@@ -2079,19 +2079,19 @@ nawendwak:Vi1nawendi    VAI_TAG    " 1 be cousins, be related to each other" ; !
 gdimaagi-n'kweshkdaadwak:gidimaagi-nakweshkodaadi    VAI_TAG    " 1 meet each other both in poor circumstances" ; !Rand key:n201622213-20-12n (n'kweshkwaa 'meet smb', but another mystery odaa
 ndaapnendiwak:ondaapinendi    VAI_TAG    " 1 quarrel with each other for a certain reason, quarrel with each other on account of something" ; !Rand key:n71431360295n (ndaapnemaa)
 mnwaangoondwak:minwaangoondi    VAI_TAG    " 1 get along well with each other, have good relations with each other" ; !Rand key:n73033215471n (mnaangwendam/mnwaangwendam vais be glad ... what is -oon though?)
-bdiknandiwak:bidikonandi    VAI_MANDATORY_RECIPROCAL    " 1 thump around while fighting each other" ; !Rand key:n72976265497n
-wiidoopndiwak:wiidoopondi    VAI_MANDATORY_RECIPROCAL    " 1 eat with each other" ; !Rand key:n73071972674n
-ggwejkandiwak:gagwejikandi    VAI_MANDATORY_RECIPROCAL    " 1 race with each other, race one another" ; !Rand key:n73021036295n
-samnaadwak:asaminaadi    VAI_MANDATORY_RECIPROCAL    " 1 play a close game" ; !Rand key:n73033956512n
-ggwedaagnidwak:gagwedaagVv1nidi    VAI_MANDATORY_RECIPROCAL    " 1 arm wrestle each other" ; !Rand key:n73031714605n
-maanendiwak:maanenindi    VAI_MANDATORY_RECIPROCAL    " 1 compete against each other, challenge each other" ; !Rand key:n20114622-15-20n (maanenmaa)
-nnaakwebdaadwak:nanaakwebidaadi    VAI_MANDATORY_RECIPROCAL    " 1 play catch with each other" ; !Rand key:n73033816769n I really want this to be derived from a VTA nnaakwebdawaa ... but I cannot find a good precedent for a VTA final webid-aw (there are VTIs though...)
-mnwaaksa'diwak:minwaakVv1sahidi    VAI_MANDATORY_RECIPROCAL    " 1 get along well with each other, hit it off" ; !Rand key:n73045653010n (nothing really with mnaak/mnwaak, some mnaag/mnwaag)
-miigaadwak:miigaadi    VAI_MANDATORY_RECIPROCAL    " 1 fight each other, wage a war with each other" ; !Rand key:n71429652881n (miigaadim vii, miigaadaan vti, no miigwaa vta)
-dawemaawndiwak:[o]dawemaawindi    VAI_MANDATORY_RECIPROCAL    " 1 be brother and sister to each other" ; !Rand key:n72989354762n
+dawemaawndiwak:odawemaawindi    VAI_TAG    " 1 be brother and sister to each other" ; !Rand key:n72989354762n
+bdiknandiwak:bidikonan    VAI_MANDATORY_RECIPROCAL    " 1 thump around while fighting each other" ; !Rand key:n72976265497n
+wiidoopndiwak:wiidoopon    VAI_MANDATORY_RECIPROCAL    " 1 eat with each other" ; !Rand key:n73071972674n
+ggwejkandiwak:gagwejikan    VAI_MANDATORY_RECIPROCAL    " 1 race with each other, race one another" ; !Rand key:n73021036295n
+samnaadwak:asaminaa    VAI_MANDATORY_RECIPROCAL    " 1 play a close game" ; !Rand key:n73033956512n
+ggwedaagnidwak:gagwedaagVv1n    VAI_MANDATORY_RECIPROCAL    " 1 arm wrestle each other" ; !Rand key:n73031714605n
+maanendiwak:maanen    VAI_MANDATORY_RECIPROCAL    " 1 compete against each other, challenge each other" ; !Rand key:n20114622-15-20n (maanenmaa)
+nnaakwebdaadwak:nanaakwebidaa    VAI_MANDATORY_RECIPROCAL    " 1 play catch with each other" ; !Rand key:n73033816769n I really want this to be derived from a VTA nnaakwebdawaa ... but I cannot find a good precedent for a VTA final webid-aw (there are VTIs though...)
+mnwaaksa'diwak:minwaakVv1sah    VAI_MANDATORY_RECIPROCAL    " 1 get along well with each other, hit it off" ; !Rand key:n73045653010n (nothing really with mnaak/mnwaak, some mnaag/mnwaag)
+miigaadwak:miigaa    VAI_MANDATORY_RECIPROCAL    " 1 fight each other, wage a war with each other" ; !Rand key:n71429652881n (miigaadim vii, miigaadaan vti, no miigwaa vta)
 btagndamaadwak:bitagandamaadi    VAI_MANDATORY_RECIPROCAL    " 1 get into an argument with each other, quarrel with each other" ; !Rand key:n72983853533n (btagnaandaan vti, btanaamaa vta (hit accidentally), no btagndamwaa)
 aabjinnidwak:aabijinanidi    VAI_MANDATORY_RECIPROCAL    " 1 fight each other constantly, fight with each other constantly" ; !Rand key:n72972555233n
-bkewdiwak:bakewidi    VAI_MANDATORY_RECIPROCAL    " 1 part ways; go separate ways from each other" ; !Rand key:n72977558469n (there is bke'aa, synthesized to make bke'diza, so is it underlying /bakehw/? getting w/h to show up will be tricky. this is not the first time I have had to pick h or w (phonology gives a consistent simplification depending on context, as suggested by Rhodes. maybe hw was simplified in different ways?)
+!bkewdiwak:bakewidi    VAI_MANDATORY_RECIPROCAL    " 1 part ways; go separate ways from each other" ; !Rand key:n72977558469n (there is bke'aa, synthesized to make bke'diza, so is it underlying /bakehw/? getting w/h to show up will be tricky. this is not the first time I have had to pick h or w (phonology gives a consistent simplification depending on context, as suggested by Rhodes. maybe hw was simplified in different ways?). This isn't principled, but the error model swaps h and w, so maybe we can have our cake and eat it too?
 !bkite'diwak:bakitehodi    VAI_MANDATORY_RECIPROCAL    " 1 beat each other, hit each other, strike each other" ; !Rand key:n72975860683n (bkitewaa:bakitehw, currently makes bkitewdiwag)
 !baktewdiwak:bakite[h]widi    VAI_MANDATORY_RECIPROCAL    " 1 beat each other, hit each other, strike each other" ; !Rand key:n72975863691n (here's that strange incorrect syncope seen in baktewdiza)
 !end original vaip-recip}
@@ -7093,7 +7093,7 @@ biidaawnaak:biidaawin1    VTA_TAG    " 1 bring a bunch" ; !Rand key:n73101863100
 wiiknaa:wiikon            VTA_TAG " 1 feast, have a meal together 2 reception (participle form with PV/dazhi) " ; !base of the participle meaning 'reception' (endzhi-wiiknding PV/CCNJ+PV/dzhi+wiiknaa+VTA+Rcpl+VAI+Cnj+X) current phonology may make wiiknidi,) derived form (not listed) has Rand key:n20114108-54-48n
 gon'aa:agonah    VTA_TAG    " 1 cover smb." ; !base of gon'odza 'cover oneself up' (n73030423701n), which we derive instead of list
 mshkikiikaanaa:mashkikiikaan1   VTA_TAG "put medicine on smb., treat smb. with medicine" ; !base of mshkikiikaandiza 'put medicine on yourself' (n73033249762n) which we derive here instead of listing. mashkikiikaazh is listed in the OPD.
-bke'aa:bakeh    VTA_TAG    " 1 split people apart (as a reciprocal, have a falling out, part ways, separate, split up)" ; ! base of bke'diza 'have a falling out...' (Rand key:n201611515-46-0n) which we derive here instead of listing.
+bke'aa:bakehw    VTA_TAG    " 1 split people apart (as a reciprocal, have a falling out, part ways, separate, split up)" ; ! base of bke'diza 'have a falling out...' (Rand key:n201611515-46-0n) which we derive here instead of listing.
 twaa:ataw       VTA_TAG     "1 place sth. somewhere for smb. 2 gamble/bet/play cards/wager with sth." ; !base of taadwak " 1 bet one another, gamble with one another (Wp);  2 play cards with one another, play [some card game] with one another, play a [sports] game against each other (Wk)" ; !Rand key:n7303218992n, also base of already listed 'taage'. Now both can be derived! ataw can be found in OPD.
 natwaa:inataw   VTA_TAG     "1 place sth. for smb. in a certain way 2 play a certain game with each other" ; !base of nataadwak:Vi1nataadi    VAI_MANDATORY_RECIPROCAL    " 1 play a certain game with each other" ; !Rand key:n73098568568n, also base of nataage. built natwaa off of model of twaa. inataw is in OPD!
 ddibaajmotwaa:dadibaajimotaw VTA_TAG "1 relate a narrative to smb." ; !drawn from western forms. This is the base of the (reduplicated reciprocal) ddadbaajmotaadwak:dadadibaajimotaadi    VAI_MANDATORY_RECIPROCAL    " 1 engage in lively conversation with each other" ; !Rand key:n201132717-21-42n 
