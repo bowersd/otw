@@ -38,6 +38,10 @@ Zaben:zaben     NA_SET     " 1 Isabelle" ; !Rand key:n20114107-18-0n
 gweji-zhoonyaakewgamig:gagweji-zhooniyaakewigamigo     NA_SET     " 1 casino" ; !Rand key:n201092019-23-0n
 !{start (potential) obligatory plurals
 waaknak:waakon  NA_SET " 1 lichen" ; !Rand key:n73032479432n SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
+zhoomaan'kensag:zhoomaanikens    NA_SET    " 1 small change" ; !Rand key:n73034013836n !very close to zhoomaan'kenh, but dim suffix SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
+waakoonsak:waakoons    NA_SET    " 1 fish eggs, roe" ; !Rand key:n73071838960n SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
+jiisak:jiis    NA_SET    " 1 fall fair organizers" ; !Rand key:n73032652413n SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
+nam'emnak:anamahemin    NA_SET    " 1 prayer beads, rosary" ; !Rand key:n73033565050n SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
 !end (potential) obligatory plurals}
 !End Rand database dump 2024}
 
