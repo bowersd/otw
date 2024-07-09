@@ -1,0 +1,20 @@
+define vowels [a|i|o|e] ; 
+define glides [w|y] ;
+define glottals [h|%'] ; 
+define lenisNonApproximants [b|d|g|m|n|j|z (h)] ;
+define fortis [p|t|k|c h|s (h)] ; 
+
+define wordInitialSingle  [lenisNonApproximants|glides] ; 
+define wordInitialComplex [lenisNonApproximants glides] ;
+
+define wordMedialSingle [lenisNonApproximants|fortis|glides|glottals] ;
+define nasalCluster [
+                        [m b]|
+                        [n [d|j|z (h)|s|y]]
+                    ] ; 
+define stridentCluster [[s (h)] (p|t|k)];
+define wordMedialComplex [
+                            [[lenisNonApproximants|fortis] glides]|
+                            [[nasalCluster|stridentCluster] (glides)]
+                            ] ; 
+
