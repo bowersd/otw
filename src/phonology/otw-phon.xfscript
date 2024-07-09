@@ -22,6 +22,7 @@ define sigma [
                 w3| !w3 -> 0 / C _, _C, _# (only surfaces in hiatus appears in negation)
                 w4| !w4 surfaces pre-vocalically, sometimes as o (appears (primarily?) in cnj dub)
                 w5| ![n|m]w5>a[n|g] -> [n|m]oa[n|g]->[n|m]oo[n|g], w5>goba -> >goba, else: w (VAI independent 3 infl)
+                w6| !amw eat= amwaa, amo
                 y1| !y1->0 (trigger for palatalization in participles, vowel raising in participles)
                 y2| !y2->y mooday, jiibay have a y that doesn't delete like a good little glide
                 s1| !s1->sh / _ i2
@@ -174,7 +175,7 @@ define vLenmagad    [[..] -> i || \[i] i _ %> %> m a g a d2 ,,
                     [..] -> a || \[a] a _ %> %> m a g a d2 ] ;
 define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization -> not in noun stems, so can't put i2 here and then trigger td palatalization
                             nas c1 _ %> nas .o.
-                [..] -> i2 || cons _ %> %> cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
+                [..] -> i2 || cons  %> %> _ cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
                             ]; !workaround for conjunct order
 
 define rmBound [[%>|%<|%^] -> 0]; 
@@ -341,6 +342,7 @@ define y1Coal [y1 shortv -> i ];
 define w1Coal [w1 [i|e1] -> o]; 
 define w1Coal2 [w1 a -> o]; !only Odawa
 !define w1Faith [w1 a -> w a]; !other dialects
+define w1Short [w1 -> o || .#. (cseqs) [a|i|o] cseqs _ .#. ]; 
 define w1Del [w1 -> 0]; 
 !define nyCoal [shortv -> i || n y _ ];
 !define wiCoal [w i (->) o]; !Medler does this (could be more widespread, optional?) !this makes awi -> ao, feeding vCoal -> aa ... which is right, but mandatory AFAIK in some contexts MOVE TO ERROR MODEL
@@ -407,7 +409,6 @@ read regex [
     a1tolong    .o.
     i1tolong    .o.
     ordAssim    .o.
-    awiCoalescence .o.
     NC          .o.
     cnjD1Gnasstem .o.
     partexcise  .o.
@@ -425,8 +426,9 @@ read regex [
     w5w         .o.
     noomagad    .o.
     vLenmagad   .o.
-    mgAssim
+    mgAssim     .o.
     ccEpen      .o.
+    awiCoalescence .o. !this is fed by ccEpen
     rmBound     .o. !rules at or above this line reference morpheme boundaries
     c2o         .o. !imperative rules (at least for vai)
     c2a         .o.
@@ -475,6 +477,7 @@ read regex [
     w1Coal      .o.
     w1Coal2      .o.
     !w1Faith     .o.
+    w1Short       .o.
     w1Del       .o.
     !wiCoal      .o. !Might should include this rule (Medler, might be more general)
     vCoal       .o.
