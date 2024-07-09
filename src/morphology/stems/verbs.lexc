@@ -2110,8 +2110,13 @@ bgidendam:bagiden    VAI_ENDAM_CONTINUATION    " 1 surrender, give oneself up" ;
 nwapwaan'kodaadza:nawapwaanikodaa    VAI_MANDATORY_REFLEXIVE    " 1 make a lunch [to take] for oneself, prepare provisions for oneself" ; !Rand key:n71435083087n I have avoided listing VAI reflexives, but I have to list this one. There is VTA nwapwaan'kawaa, but it doesn't have odaa/odaw (and I just can't see a plausible derivational suffix with that shape). There is vaio nwapwaan'kodaadzon, but that is less of a base for this than confirmation that this particular almost-suffix is definitely there.
 !end original vai-reflex}
 !{start stems added to make a base for derived nouns (participles, ni/na-pt)
-waabnda'di:waabandah     VAI_MANDATORY_RECIPROCAL " 1 exhibit things, show things, 2 endzhi-waabnda'ding a fair, public exhibition (as a participle)" !base of endzhi-waabnda'ding (Rand key:n201132919-50-21n), which we derive instead of list
+waabnda'di:waabandah     VAI_MANDATORY_RECIPROCAL " 1 exhibit things, show things, 2 endzhi-waabnda'ding a fair, public exhibition (as a participle)" ;  !base of endzhi-waabnda'ding (Rand key:n201132919-50-21n), which we derive instead of list
 nsawaakdiiye:nisawaakodiiye           VAI_TAG     "1 join as two limbs at one's bottom 2 crotch (as participle nsawaakdiiyed)" ; !base of nsawaakdiiyed (vai participle, n103004165510n)
+mko-bmose:mako-bimose                   VAI_TAG     "1 be a witch, be a bear-walker" ; !base of meko-bmaset (n20114919-17-36n), which we derive instead of listing (note that several variant derived nouns with nasalization are directly listed)
+debweyendam:debweyen                    VAI_ENDAM_CONTINUATION    "1 believe, be a Christian 2 a Christian (as a participle e-debweyendang)" ; !base of e-debweyendang (n201092019-52-37n), which we derive instead of listing
+niigaan'zitaage:niigaanizitaage               VAI_TAG     "1 own, have a controlling interest, manage 2 general manager, owner of a baseball team (as a participle naagaanzitaaget)" ; !base of naagaanzitaaget (n71430857853n), which we derive instead of listing 
+papgijge:apapagijige        VAI_TAG     "1 pitch 2 baseball pitcher (as a participle e-papgijget)" ; !base of epapgijget (n20114108-26-21n), which we derive instead of listing . the derived form needs a hyphen. This word looks like it has regular syncope with innovative reduplication (see pagjige below)
+pagjige:apagijige        VAI_TAG     "1 pitch 2 baseball pitcher (as a participle e-pagjiget)" ; !base of epagjiget (n73015876176n), which we derive instead of listing 
 !{end stems added to make a base for derived nouns (participles, ni/na-pt)
 !End Rand database dump 2024}
 
@@ -2431,7 +2436,7 @@ bbaagmaji:bVi1baagVv1maji    VAI_TAG    " 1 have chills come and go" ; !Rand key
 bbaagskidoonese:bVi1baagaskidoonese    VAI_TAG    " 1 smack one's lips" ; !Rand key:n73028948116n
 bbaamaadgaa:bVi1baamaadagaa    VAI_TAG    " 1 go for a swim, wade around" ; !Rand key:n72975867681n
 bbaamaadge:bVi1baamaadage    VAI_TAG    " 1 go for a swim, wade around" ; !Rand key:n72975867808n
-bbaamaadzi:bVi1baamaadizi    VAI_TAG    " 1 go on a tour, travel; travel around" ; !Rand key:n72975866566n
+bbaamaadzi:bVi1baamaadizi    VAI_TAG    " 1 go on a tour, travel; travel around" ; !Rand key:n72975866566n this is the base of bebaamaadzit	ç+babaamaadizi+d	na-pt	 1 traveller	n201132612-56-53n which we derive instead of list
 bbaamaajma:bVi1baamaajimo    VAI_TAG    " 1 spread a story" ; !Rand key:n72975868909n
 bbaamaandwe:bVi1baamaanadwe    VAI_TAG    " 1 climb around, go climbing" ; !Rand key:n72975869081n
 bbaamaandwebtoo:bVi1baamaandawebatoo    VAI_TAG    " 1 run around climbing" ; !Rand key:n72975939867n
@@ -2763,7 +2768,7 @@ bjigeshnookaaza:bajigeshinookaazo    VAI_TAG    " 1 pretend to trip" ; !Rand key
 bkaabiignikeshkooza:bakaabiiginikeshkoozo    VAI_TAG    " 1 have one's arm [stretched to] breaking from weight of something" ; !Rand key:n72977549376n
 bkaagii:bVv1kaagii    VAI_TAG    " 1 ruin one's health by having too much sex" ; !Rand key:n72977549103n
 bkaakza:bakaakizo    VAI_TAG    " 1 be burnt out (of light bulbs)" ; !Rand key:n72977549898n
-bkaan'zi:bakaanizi    VAI_TAG    " 1 be different, be someone different, be something different, be someone else, be something else" ; !Rand key:n72977551839n
+bkaan'zi:bakaanizi    VAI_TAG    " 1 be different, be someone different, be something different, be someone else, be something else" ; !Rand key:n72977551839n this is the base of bekaanzit	ç+bakaanizi+d	na-pt	 1 somebody else, something (an.) else, another [thing (an.)], another [kind]	n73001254348n, which we derive instead of list
 bkade:bakade    VAI_TAG    " 1 be hungry" ; !Rand key:n72977552616n
 bkan'kii:bVv1kanokii    VAI_TAG    " 1 ruin one's health by working too hard, have one's health ruined by working too hard" ; !Rand key:n72977553595n
 bkazhaawe:bakazhaawe    VAI_TAG    " 1 clean fish, gut fish" ; !Rand key:n72977554120n
@@ -2833,13 +2838,13 @@ bkweyaashi:bakweyaashi    VAI_TAG    " 1 be broken off [by the wind] (of ice)" ;
 bkwezhge:bakwezhige    VAI_TAG    " 1 slice a piece of something off" ; !Rand key:n72977664396n
 bmaabgo:bimaabogo    VAI_TAG    " 1 float [along] on the current, float by on the current" ; !Rand key:n72977664786n
 bmaabi:bimaabi    VAI_TAG    " 1 look as people go by" ; !Rand key:n72977665030n
-bmaabiignige:bimaabiiginige    VAI_TAG    " 1 hold the reins" ; !Rand key:n72977665208n
+bmaabiignige:bimaabiiginige    VAI_TAG    " 1 hold the reins" ; !Rand key:n72977665208n this is the base of bemaabiigniget	ç+bimaabiiginige+d	na-pt	 1 manager	n72976552069n, which we derive instead of list
 bmaabooza:bimaaboozo    VAI_TAG    " 1 float [along], float by" ; !Rand key:n72977665966n
 bmaadgaa:bimaadagaa    VAI_TAG    " 1 swim, wade" ; !Rand key:n72977666560n
 bmaadge:bimaadage    VAI_TAG    " 1 [see bmaadgaa]" ; !Rand key:n72977666676n
 bmaadkiiwzi:bimaadVv1kiiwizi    VAI_TAG    " 1 have initiative, show initiative" ; !Rand key:n72977666906n
 bmaadwe:bimaadwe    VAI_TAG    " 1 climb [along], climb by" ; !Rand key:n72977666706n
-bmaadzi:bimaadizi    VAI_TAG    " 1 be alive, live" ; !Rand key:n72977666790n
+bmaadzi:bimaadizi    VAI_TAG    " 1 be alive, live" ; !Rand key:n72977666790n !this is the base of bemaadzit 1 person, human being (n201132614-18-51n), which we derive instead of list
 bmaagnagii:bimaagonagii    VAI_TAG    " 1 walk [along] in deep snow, walk by in deep snow" ; !Rand key:n72977948477n
 bmaagne:bmaagone    VAI_TAG    " 1 walk [along] in the snow, walk in the snow" ; !Rand key:n72977948658n
 bmaakoon'gishin:bimaakoonagishin    VAI_TAG    " 1 lie extending across one's view (of a vehicle)" ; !Rand key:n73032732151n
@@ -3166,10 +3171,10 @@ dawkaani:odawakaani    VAI_TAG    " 1 have livestock, own livestock" ; !Rand key
 dayi:odayi    VAI_TAG    " 1 have a dog, own a dog" ; !Rand key:n72989359206n
 dba'ge:dibahige    VAI_TAG    " 1 pay" ; !Rand key:n72992967913n
 dbaabiishkoojge:dibaabiishkoojige    VAI_TAG    " 1 weigh things" ; !Rand key:n73038047670n
-dbaabndakwe:dibaabandakwe    VAI_TAG    " 1 forecast [weather], look at clouds [to forecast the weather] ;  2 be on guard" ; !Rand key:n72989360575n
+dbaabndakwe:dibaabandakwe    VAI_TAG    " 1 forecast [weather], look at clouds [to forecast the weather] ;  2 be on guard" ; !Rand key:n72989360575n this is the base of debaabndakwet	ç+dibaabandakwe+d	na-pt	 1 weatherman, weather forecaster	n2010121810-23-19n, which we derive instead of list
 dbaabndamaaza:dibaabandamaazo    VAI_TAG    " 1  look out for danger [to oneself]" ; !Rand key:n72989361656n
-dbaajma:dibaajimo    VAI_TAG    " 1 narrate, report, talk, tell" ; !Rand key:n72989779161n
-dbaaknige:dibaakonige    VAI_TAG    " 1 determine what to do;  2 judge" ; !Rand key:n72989780817n
+dbaajma:dibaajimo    VAI_TAG    " 1 narrate, report, talk, tell" ; !Rand key:n72989779161n !this is the base of debaajmat 'story teller' (n201141010-16-52n), which we derive instead of list
+dbaaknige:dibaakonige    VAI_TAG    " 1 determine what to do;  2 judge" ; !Rand key:n72989780817n this is the base of debaakniget	ç+dibaakonige+d	na-pt	 1 planner, decision maker	n2010121810-40-57n, which we derive instead of list
 dbaakshin:dVv1baakoshin    VAI_TAG    " 1 be on a spool" ; !Rand key:n72992949743n
 dbakii:dibakii    VAI_TAG    " 1 survey land" ; !Rand key:n72992968842n
 dbas'ooza:dabasahoozo    VAI_TAG    " 1 be suspended low (of vehicles)" ; !Rand key:n72992968962n
@@ -3560,7 +3565,7 @@ ggaanwaakgaade:gagaanwaakogaade    VAI_TAG    " 1 [see ggaan'gaade]" ; !Rand key
 ggaanwiziikaaza:gagaanVv1wiziikaazo    VAI_TAG    " 1 make it look like one is trying" ; !Rand key:n73024138041n
 ggiibaadaan'gidoon:gagiibaadaanagidoon    VAI_TAG    " 1 talk nonsense" ; !Rand key:n73020583485n
 ggiibaadaaknige:gagiibaadaakonige    VAI_TAG    " 1 make foolish plans, make stupid plans, plan something foolish, plan something stupid" ; !Rand key:n73020882710n
-ggiibaadzi:gagiibaadizi    VAI_TAG    " 1 be bad, be wicked" ; !Rand key:n73020881820n
+ggiibaadzi:gagiibaadizi    VAI_TAG    " 1 be bad, be wicked" ; !Rand key:n73020881820n this is the base of e-ggiibaadzit	ç+a-gagiibaadizi+d	na-pt	 1 clown	n73015754672n, which we derive instead of list
 ggiibaaj-giizhwe:gagiibaaj-giizhwe    VAI_TAG    " 1 speak in double entendres" ; !Rand key:n73020882474n
 ggiibaaji-kwedwe:gVi1giibaaji-gagwedwe    VAI_TAG    " 1 ask a stupid question" ; !Rand key:n73033751970n
 ggiibaandwe:gigiibaandawe    VAI_TAG    " 1 fall off [while climbing], slip [while climbing]" ; !Rand key:n73021379935n
@@ -3915,7 +3920,7 @@ gtimgane:gitimigane    VAI_TAG    " 1 feel lazy, be enervated" ; !Rand key:n7303
 gtimi:gitimi    VAI_TAG    " 1 be lazy" ; !Rand key:n73031617241n
 gtimjiiza:gitimjiizo    VAI_TAG    " 1 be lazy from the heat" ; !Rand key:n73031617287n
 gtimshki:gitimishki    VAI_TAG    " 1 be a lazy person" ; !Rand key:n73031617366n
-gtizi:gitizi    VAI_TAG    " 1 be old (in age)" ; !Rand key:n73031626122n
+gtizi:gitizi    VAI_TAG    " 1 be old (in age)" ; !Rand key:n73031626122n !this is the base of getzit 'elderly person, old person' (n20114213-7-54n), which we derive instead of list
 gwaabaawe:gawaabaawe    VAI_TAG    " 1 be knocked down by a torrent" ; !Rand key:n73031627291n
 gwaabkiza:agwaabikizo    VAI_TAG    " 1 stick to the pan [in being cooked]" ; !Rand key:n73031629684n
 gwaabkizekwe:agwaabikizekwe    VAI_TAG    " 1 cause things to stick [to the pan in cooking], make things stick [to the pan in cooking]" ; !Rand key:n73031630116n
@@ -4174,7 +4179,7 @@ kajgishin:akajigishin    VAI_TAG    " 1 [see kajgaateshin]" ; !Rand key:n7301735
 kakdejiiyaa:gakakVv1dejiiyaa    VAI_TAG    " 1 be square in shape, have a square shape" ; !Rand key:n73045312220n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 kakdezi:gakakVv1dezi    VAI_TAG    " 1 be square" ; !Rand key:n73017351412n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 kamoojiige:gakamoojiige    VAI_TAG    " 1 take a shortcut" ; !Rand key:n73017352446n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-kandoo:akandoo    VAI_TAG    " 1 be on the lookout, keep watch;  2 field (in baseball)" ; !Rand key:n73017354523n
+kandoo:akandoo    VAI_TAG    " 1 be on the lookout, keep watch;  2 field (in baseball)" ; !Rand key:n73017354523n this is the base of e-kandoot	ç+a-akandoo+d	na-pt	 1 fielder, baseman, shortstop	n73015755049n, which we derive instead of list
 kawaabi:akawaabi    VAI_TAG    " 1 watch, stand guard;  2 field" ; !Rand key:n73017354675n
 kawaatebiishin:akawaatebiishin    VAI_TAG    " 1 reflect on the water, cast a shadow on the water" ; !Rand key:n73017356387n
 kawaateshin:akawaateshin    VAI_TAG    " 1 be in the shade; cast a shadow" ; !Rand key:n71428957081n
@@ -4702,7 +4707,7 @@ mshkawji:mashkawaji    VAI_TAG    " 1 [see mshkawaakji]" ; !Rand key:n7143046558
 mshkawmin'gizi:mashkawiminagizi    VAI_TAG    " 1 be hard (of round objects)" ; !Rand key:n73098034470n
 mshkawnamaakwii:mashkawinamaakwii    VAI_TAG    " 1 hang on tightly" ; !Rand key:n73033249042n
 mshkawninjiiwji:mashkawininjiiwaji    VAI_TAG    " 1 get frostbite on one's hands, have frost-bitten hands" ; !Rand key:n71430466046n
-mshkawsagzi:mashkawisagizi    VAI_TAG    " 1 be hard (of boards)" ; !Rand key:n73097882590n
+mshkawsagzi:mashkawisagizi    VAI_TAG    " 1 be hard (of boards)" ; !Rand key:n73097882590n this is the base of meshkwisgizit	ç+mashkawisagizi+d	na-pt	 1 hardwood, hardwood [tree]	n71430652351n, which we derive instead of list
 mshkawshin:mashkawishin    VAI_TAG    " 1 be stuck fast;  2 harden, set" ; !Rand key:n71430466458n
 mshkawzi:mashkawizi    VAI_TAG    " 1 be powerful, be [physically] strong, be tough" ; !Rand key:n71430466806n
 mshkawzii:mashkawizii    VAI_TAG    " 1 be powerful, be [physically] strong, be tough" ; !Rand key:n71430466930n
@@ -4812,7 +4817,7 @@ n'kewe:nakewe    VAI_TAG    " 1 go out of view behind something" ; !Rand key:n71
 n'kewebza:nakewebizo    VAI_TAG    " 1 drive out of view behind something, fall out of view behind something, fly out of view behind someth" ; !Rand key:n73099346019n
 n'kwebiige:nakwebiige    VAI_TAG    " 1 write back, reply in writing, respond in writing, answer in writing" ; !Rand key:n73033815052n
 n'kwebiige:nakwebiihige    VAI_TAG    " 1 write back, reply in writing, respond in writing, answer in writing" ; !Rand key:n73033815052n
-n'kwebjige:nakwebijige    VAI_TAG    " 1 be a midwife" ; !Rand key:n73099346296n
+n'kwebjige:nakwebijige    VAI_TAG    " 1 be a midwife" ; !Rand key:n73099346296n! this is the base of en'kwebjiget 'catcher, midwife' (n73015782716n)
 n'kwebtoo:nakwebatoo    VAI_TAG    " 1 run to a point where the road passes, run up to the road" ; !Rand key:n71433640364n
 n'kwenwebi:nakwenVv1webi    VAI_TAG    " 1 rest for a  moment, rest for a while" ; !Rand key:n71433641189n
 n'kwewse:nakwewose    VAI_TAG    " 1 come to a road [in walking], walk out to the road, come to a trail [in walking], walk out to the trail" ; !Rand key:n71433642465n
@@ -4918,7 +4923,7 @@ nakshin:inakishin    VAI_TAG    " 1 be arranged [standing] in a certain way (of 
 nakzaawe:anakizaawe    VAI_TAG    " 1 do something bad, be up to something" ; !Rand key:n73033564183n
 nakzekwe:inakVv1zekwe    VAI_TAG    " 1 get dinner on [to cook]" ; !Rand key:n73033564337n
 nakzhiwe:inakozhiwe    VAI_TAG    " 1 paddle in a certain direction, paddle in a certain way, paddle to a certain place;  2 swim in a certain direction, swim in a certain way, swim to a certain place (especially of fish)" ; !Rand key:n71431159724n ![gk]Vo1 replaced with [gk]o
-nam'aa:anamVi1haa    VAI_TAG    " 1 go to church, pray" ; !Rand key:n71431160186n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+nam'aa:anamVi1haa    VAI_TAG    " 1 go to church, pray" ; !Rand key:n71431160186n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt this is the base of Enma'aat	ç+anamahaa+d	na-pt	 1 Christian	n73015782826n, which we derive instead of list
 nam'aakaaza:anamVi1haakaazo    VAI_TAG    " 1 pretend to be a Christian, pretend to pray" ; !Rand key:n71431160236n
 nam'aanzo:inamVv1haanzo    VAI_TAG    " 1 sing a certain way" ; !Rand key:n73033565171n
 nam'ekaaza:anamVi1hekaazo    VAI_TAG    " 1 [see nam'aakaaza]" ; !Rand key:n71431160436n
@@ -5103,8 +5108,8 @@ niigaanbi:niigaanabi    VAI_TAG    " 1 sit first in line, sit in front" ; !Rand 
 niigaanbiza:niigaanibizo    VAI_TAG    " 1 drive ahead, drive in front, fly ahead, fly in front;  2 fall forward" ; !Rand key:n71431755080n
 niigaanendiza:niigaanendizo    VAI_TAG    " 1 think one is ahead of others" ; !Rand key:n71431755295n
 niigaanii:niigaanii    VAI_TAG    " 1 be ahead, be in front, be in the lead, lead" ; !Rand key:n71431755639n
-niigaanzi:niigaanizi    VAI_TAG    " 1 be in charge" ; !Rand key:n71431755892n
-niijaani:oniijaani    VAI_TAG    " 1 have a child" ; !Rand key:n71431756474n
+niigaanzi:niigaanizi    VAI_TAG    " 1 be in charge" ; !Rand key:n71431755892n this is the base of naagaanzit	ç+niigaanizi+d	na-pt	 1 general manager, head [of an organization], owner	n71430857723n, which we derive instead of list
+niijaani:oniijaani    VAI_TAG    " 1 have a child" ; !Rand key:n71431756474n this is the base of weniijaanit 'mother' (n73032782317n) which we derive instead of list
 niijaansi:oniijaanisi    VAI_TAG    " 1 have a child" ; !Rand key:n71431756535n
 niikmo:niikimo    VAI_TAG    " 1 growl" ; !Rand key:n71431756956n
 niim'iwe:niimihiwe    VAI_TAG    " 1 hold a dance, put on a dance" ; !Rand key:n71431757349n
@@ -5489,7 +5494,7 @@ shkigi:Va1shkigi    VAI_TAG    " 1 be a new growth" ; !Rand key:n73031412078n
 shkiinzhgwaapne:oshkiinzhigwaapine    VAI_TAG    " 1 have an eye disease" ; !Rand key:n73034010339n
 shkime:Va1shkime    VAI_TAG    " 1 lace snowshoes" ; !Rand key:n73031477863n
 shkinaagzi:Va1shkinaagozi    VAI_TAG    " 1 look new" ; !Rand key:n73031479265n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-shkiniigi:Va1shkiniigi    VAI_TAG    " 1 be young" ; !Rand key:n73031479494n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+shkiniigi:Va1shkiniigi    VAI_TAG    " 1 be young" ; !Rand key:n73031479494n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt this is the base for eshkniigit 'young person, youth, young adult, adolescent' (n20114108-8-44n) which we derive instead of list
 shkiniigkaazo:Va1shkiniigikaazo    VAI_TAG    " 1 pretend to be young" ; !Rand key:n73031479829n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shkiniignaagzi:Va1shkiniiginaagozi    VAI_TAG    " 1 look young, look youthful" ; !Rand key:n73034010581n
 shkinwekaazo:Va1shkinawekaazo    VAI_TAG    " 1 pretend to be single, pretend to be young (of men)" ; !Rand key:n73031480276n
@@ -5570,7 +5575,7 @@ waabnjimzin'igne:waabanjimazinahigane    VAI_TAG    " 1 look at a magazine, read
 waabshkaabde:waabishkaabide    VAI_TAG    " 1 have white teeth" ; !Rand key:n73032186008n
 waabshkaabkizi:waabishkaabikizi    VAI_TAG    " 1 be white (of stone or metal)" ; !Rand key:n7303226357n
 waabshkaakgaabwi:waabishkaakogaabawi    VAI_TAG    " 1 be white (of trees)" ; !Rand key:n7303226682n
-waabshkiiwe:waabishkiiwe    VAI_TAG    " 1 be white (in race), have white skin" ; !Rand key:n7303227458n
+waabshkiiwe:waabishkiiwe    VAI_TAG    " 1 be white (in race), have white skin" ; !Rand key:n7303227458n !this is the base of yaabshkiiwet 'white person' (n73015877449n) which we derive instead of list
 waabshkindbe:waabishkindibe    VAI_TAG    " 1 be white-headed, have one's hair turn white, have white hair, be hoary" ; !Rand key:n7303228047n
 waabshkizi:waabishkizi    VAI_TAG    " 1 be gray, be white, turn gray, turn white" ; !Rand key:n7303228348n
 waabza:waabizo    VAI_TAG    " 1 be ripe, ripen" ; !Rand key:n7303229702n
@@ -5725,7 +5730,7 @@ wiisgitoo:wiisagitoo    VAI_TAG    " 1 suffer, be in [severe physical] pain" ; !
 wiisgizi:wiisagizi    VAI_TAG    " 1 be bitter" ; !Rand key:n7303318243n
 wiishkbanjge:wiishkobanjige    VAI_TAG    " 1 eat sweet stuff, eat sugary things" ; !Rand key:n73035543639n
 wiishkbipgozi:wiishkobipogozi    VAI_TAG    " 1 be sweet-tasting, taste sweet" ; !Rand key:n7303318863n
-wiishkbizi:wiishkobizi    VAI_TAG    " 1 be sweet" ; !Rand key:n7303319175n
+wiishkbizi:wiishkobizi    VAI_TAG    " 1 be sweet" ; !Rand key:n7303319175n this is the base of waashkobizid	ç+wiishkobizi+d	na-pt	 1 a general word for sweet confections, such as pastry and cake	n201092018-44-15n, which we derive instead of list
 wiishkbiziiwpogzi:wiishkobiziiwipogozi    VAI_TAG    " 1 taste sweet and sour" ; !Rand key:n7303319774n
 wiishktemaagzi:wiishkotemaagozi    VAI_TAG    " 1 smell smoky" ; !Rand key:n73072053701n
 wiiskgashkzi:wiiskVv1gashkizi    VAI_TAG    " 1 have a screechy voice" ; !Rand key:n73034131453n
@@ -6193,7 +6198,7 @@ zhibii'gaaza:izhibiihigaazo    VAI_TAG    " 1 be written about, be written;  2 b
 zhi-yaa:izhi-ayaa    VAI_TAG    " 1 be a certain way, be in a certain state; act in a certain way" ; !Rand key:n201081816-20-51n
 zhi'o:izhiho    VAI_TAG    " 1 dress in such a way, dress so" ; !Rand key:n201081916-4-5n
 znagzi:zanagizi    VAI_TAG    " 1 be difficult;  2 be expensive" ; !Rand key:n201082316-45-27n
-dbenjge:dibenjige    VAI_TAG    " 1 own things, be an owner" ; !Rand key:n20109611-21-49n
+dbenjge:dibenjige    VAI_TAG    " 1 own things, be an owner" ; !Rand key:n20109611-21-49n this is the base of Debenjget	ç+dibenjige+d	na-pt	 1 Creator, God	n73001355988n, which we derive instead of list
 dtibse:ditibise    VAI_TAG    " 1 roll, rotate" ; !Rand key:n20109614-15-51n
 shkiinzhgo:oshkiinzhigo    VAI_TAG    " 1 have eyes; have kernels (e.g., as corn does)" ; !Rand key:n201091816-38-35n
 aanzyaanpizo:aanziyaanapizo    VAI_TAG    " 1 wear a diaper" ; !Rand key:n201091914-59-0n
@@ -6276,7 +6281,7 @@ nikza:inikozo    VAI_TAG    " 1 be cut in such a way" ; !Rand key:n2011418-1-55n
 giza:agizo    VAI_TAG    " 1 be a day (enumerated in the month), be such date in the month;  2 count, matter" ; !Rand key:n20114114-53-25n
 giza:aginzo    VAI_TAG    " 1 be a day (enumerated in the month), be such date in the month;  2 count, matter" ; !Rand key:n20114114-53-25n
 gjiknayezgaaza:gijikonayezogaazo    VAI_TAG    " 1 be made into hominy (spiles for maple sugaring)" ; !Rand key:n20114115-11-35n
-gkinoo'maage:gVi1kinoohamaage    VAI_TAG    " 1 teach, do teaching" ; !Rand key:n20114116-43-43n
+gkinoo'maage:gVi1kinoohamaage    VAI_TAG    " 1 teach, do teaching" ; !Rand key:n20114116-43-43n !this is the base of eknoomaaget 'coach' (n73015755231n) which we derive instead of listing
 gmoodshki:gimoodishki    VAI_TAG    " 1 be thievish, be a thief" ; !Rand key:n20114117-42-24n
 gnjib'iwe:ginjibahiwe    VAI_TAG    " 1 flee, get away, escape" ; !Rand key:n20114120-4-39n
 gnwaanwe:ginwaanowe    VAI_TAG    " 1 have a long tail" ; !Rand key:n20114120-22-15n
@@ -6342,7 +6347,7 @@ nishnaabewzekwe:anishinaabewizekwe    VAI_TAG    " 1 cook Indian-style" ; !Rand 
 mji-giigda:maji-giigido    VAI_TAG    " 1 curse, swear" ; !Rand key:n201141020-27-38n
 zegendaagzi:zegendaagozi    VAI_TAG    " 1 be dangerous" ; !Rand key:n201141020-32-39n
 dbikaanza:dibikaanzo    VAI_TAG    " 1 be dark in colour" ; !Rand key:n201141020-44-4n
-mkadewzhe:makadewazhe    VAI_TAG    " 1 be dark-skinned" ; !Rand key:n201141020-47-33n
+mkadewzhe:makadewazhe    VAI_TAG    " 1 be dark-skinned" ; !Rand key:n201141020-47-33n this is the base of mekdewzhet	ç+makadewazhe+d	na-pt	 1 black person, black [person]	n71429561254n, which we derive instead of list
 zegaachge:zegaachige    VAI_TAG    " 1 decorate" ; !Rand key:n201141020-52-22n
 bmaaknige:bimaakonige    VAI_TAG    " 1 dictate" ; !Rand key:n201141021-15-24n
 naagaazi:naagaazi    VAI_TAG    " 1 look forward (to something)" ; !Rand key:n201141114-36-2n
@@ -6978,7 +6983,7 @@ shoonjiin:zhashooninjii    VAIO_TAG    "1 rub something [pasty] on one's hands" 
 shoozden:zhashoozide    VAIO_TAG    "1 rub something [pasty] on one's feet" ; !Rand key:n74339362146n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoozide/ !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 shoozhen:zhashoozhe    VAIO_TAG    "1 rub something [pasty] on oneself" ; !Rand key:n74339361329n !flagged as reanalyzed by Rand Rand indicates /[zh]ashoozhe/ !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 waabndamaagen:waabandamaage    VAIO_TAG    "1 see something belonging to smb." ; !Rand key:n73032184009n
-wepjigen:wepijige    VAIO_TAG    "1 hit an object with something" ; !Rand key:n73046341303n
+wepjigen:wepijige    VAIO_TAG    "1 hit an object with something" ; !Rand key:n73046341303n this is the base of ewepjiget	ç+a-wepijige+d	na-pt	 1 batter, hitter	n73015877643n, which we derive instead of list
 wi'wen:wihiwe    VAIO_TAG    "1 lend something" ; !Rand key:n73033032055n Rand indicates /[a]wihiwe/ !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 wiikwe'on:wiikweho    VAIO_TAG    "1 drape something over one's head, have something draped over one's head" ; !Rand key:n73034130566n
 wniike:waniike    VAIO_TAG    "1 forget sth. somewhere, leave sth. behind accidentally" ; !Rand key:n73033147700n
@@ -11147,7 +11152,7 @@ damiikaan:ondamiik    VTI_AM_THEME    " 1 be busy with sth., be preoccupied with
 danaamtaan:odanaamVv1t    VTI_AM_THEME    " 1 inhale sth. [particulate]" ; !Rand key:n72989348574n
 dba'aan:dibah    VTI_AM_THEME    " 1 pay for sth." ; !Rand key:n72992950183n
 dbaabiignaan:dibaabiigin    VTI_AM_THEME    " 1 measure the length of sth. [with a tape measure]" ; !Rand key:n72989359331n
-dbaabndaan:dibaaband    VTI_AM_THEME    " 1 check on sth., look sth. over" ; !Rand key:n72989777625n
+dbaabndaan:dibaaband    VTI_AM_THEME    " 1 check on sth., look sth. over" ; !Rand key:n72989777625n !this is the base of debaabndang 'umpire' (n73001253837n) which we derive instead of listing
 dbaaddaan:dibaadod    VTI_AM_THEME    " 1 talk about sth., discuss sth." ; !Rand key:n72989778131n
 dbaadendaan:dibaadend    VTI_AM_THEME    " 1 care for sth., have regard for sth." ; !Rand key:n72989778655n
 dbaajndaan:dibaajind    VTI_AM_THEME    " 1 talk about sth." ; !Rand key:n72989780261n
@@ -11429,7 +11434,7 @@ jiindaan:ojiind    VTI_AM_THEME    " 1 kiss sth." ; !Rand key:n73028439673n
 jiishaagne'aan:jiishaagoneh    VTI_AM_THEME    " 1 clear snow off sth., shovel snow off sth., brush snow off sth." ; !Rand key:n73079681884n
 jiishweb'aan:jiishwebah    VTI_AM_THEME    " 1 sweep sth. aside, sweep sth. away" ; !Rand key:n73032650320n
 jkaakshkaan:jakaakVv1shk    VTI_AM_THEME    " 1 be impaled by sth." ; !Rand key:n73032653898n
-kawaabndaan:akawaaband    VTI_AM_THEME    " 1 guard sth., watch sth., be on the lookout for sth., watch for sth." ; !Rand key:n73017355760n
+kawaabndaan:akawaaband    VTI_AM_THEME    " 1 guard sth., watch sth., be on the lookout for sth., watch for sth." ; !Rand key:n73017355760n this is the base of ekwaabndang	ç+akawaabandam+g	na-pt	 1 fielder, baseman, shortstop	n73015755315n, which we derive instead of list
 kendaan:gikend    VTI_AM_THEME    " 1 [see gkendaan]" ; !Rand key:n71428958262n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 kiikaadaan:akiikaad    VTI_AM_THEME    " 1 spread dirt on sth., spread sand on sth." ; !Rand key:n71428960543n
 kinwaadendaan:akinawaadend    VTI_AM_THEME    " 1 notice sth., take [mental] note of sth." ; !Rand key:n71428962260n
@@ -11695,7 +11700,7 @@ nwadnaan:nawadin    VTI_AM_THEME    " 1 grab sth., take hold of sth." ; !Rand ke
 nwadndaan:nawadand    VTI_AM_THEME    " 1 bite sth., seize sth. with the teeth" ; !Rand key:n71435081745n
 nzaabndaan:Va1nzaaband    VTI_AM_THEME    " 1 look at sth. from a certain place, view sth. from a certain place, watch sth. from a certain place" ; !Rand key:n73033847332n
 nzaan:onz    VTI_AM_THEME    " 1 boil sth." ; !Rand key:n71435144633n
-pagdaan:apagid    VTI_AM_THEME    " 1 throw sth., pitch sth." ; !Rand key:n7303703149n
+pagdaan:apagid    VTI_AM_THEME    " 1 throw sth., pitch sth." ; !Rand key:n7303703149n this is the base of epagdang	ç+apagidam+g	na-pt	 1 pitcher	n73015876127n (e-! else epgidang), which we derive instead of list
 patwaadaan:apatwaad    VTI_AM_THEME    " 1 run off with sth. to a certain place" ; !Rand key:n73033930785n
 pendaan:apend    VTI_AM_THEME    " 1 depend on sth." ; !Rand key:n73031179897n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 penmondaan:apenimond    VTI_AM_THEME    " 1 depend on sth., rely on sth." ; !Rand key:n7306448286n
@@ -11760,7 +11765,7 @@ webnaan:webin    VTI_AM_THEME    " 1 abandon sth., throw sth. away" ; !Rand key:
 Wemtigoozhiibii'aan:wemitigoozhiibiih    VTI_AM_THEME    " 1 write sth. in French" ; !Rand key:n73032778606n
 wenaabndaan:wenaaband    VTI_AM_THEME    " 1 choose sth., select sth., look over sth. [to decide about selection]" ; !Rand key:n73032781110n
 wenpazhne'aan:wenipazhineh    VTI_AM_THEME    " 1 buy sth. at a cheap price" ; !Rand key:n73034126743n
-wepdaan:wepid    VTI_AM_THEME    " 1 hit sth., strike sth." ; !Rand key:n73032783306n
+wepdaan:wepid    VTI_AM_THEME    " 1 hit sth., strike sth." ; !Rand key:n73032783306n this is the base of ewepdang	ç+a-wepidam+g	na-pt	 1 batter, hitter	n73015877595n, which we derive instead of list
 wewebaabiignaan:wewebaabiigin    VTI_AM_THEME    " 1 swing sth. (of stringlike objects)" ; !Rand key:n73032785375n
 wewebaabiigshkaan:wewebaabiigishk    VTI_AM_THEME    " 1 swing sth. [with one's weight] (of stringlike objects)" ; !Rand key:n73032785565n
 wewebnaan:wewebin    VTI_AM_THEME    " 1 swing sth." ; !Rand key:n73032947431n
@@ -12296,7 +12301,7 @@ n'goobaawdoon:ningoobaawad    VTI_OO_THEME    " 1 dilute sth., wet sth." ; !Rand
 n'kaabaawdoon:nikaabaawad    VTI_OO_THEME    " 1 dilute sth., wet sth." ; !Rand key:n71433050313n
 n'kawebdoon:nakawebid    VTI_OO_THEME    " 1 stop and pick sth. up" ; !Rand key:n71433050944n
 n'kwe'doon:nakwehad    VTI_OO_THEME    " 1 come to sth. [in walking, especially a road, trail]" ; !Rand key:n71433640710n
-n'kwebdoon:nakwebid    VTI_OO_THEME    " 1 catch sth. [flying], catch sth. [thrown]" ; !Rand key:n71433056989n
+n'kwebdoon:nakwebid    VTI_OO_THEME    " 1 catch sth. [flying], catch sth. [thrown]" ; !Rand key:n71433056989n this is the base of nekwebdoot	ç+nakwebidoo+d	na-pt	 1 catcher	n71431557995n, which we derive instead of list
 n'kwewdoon:nakwewid    VTI_OO_THEME    " 1 carry sth. to a point where the road passes" ; !Rand key:n71433642157n
 naa'sidoon:nanaahVv1sid    VTI_OO_THEME    " 1 [see nnaa'sidoon]" ; !Rand key:n71430942033n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
 naa'toon:nanaahVv1t    VTI_OO_THEME    " 1 [see nnaa'toon]" ; !Rand key:n71430943137n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
