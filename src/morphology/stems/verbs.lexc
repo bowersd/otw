@@ -96,8 +96,16 @@ bnaamnoon:banaamVo1n    VII_TAG    " 1 [roads] go this way and that, run this wa
 mzwewaakoon'gisnoon:mizwewaakoonagisin    VII_TAG    " 1 fill up an entire area, fill up an area from one end to the other (of boats)" ; !Rand key:n73033330157n
 bebkaandoon:bebakaanad2    VII_TAG    " 1 be different from each other" ; !Rand key:n73016754723n
 !End original viip}
-!End Rand database dump 2024}
+!{start roots added to make derived nouns (participles, ni-pt)
 wwaagaa:wawaagaa    VII_TAG    " 1 be bent, be crooked, be warped, warp. 2 banana (as participle)" ; !DAB: (anomalous) short vowel reduplication of waagaa. expected reduplication is wyaawaagaa. Rand2key:n73032210328n. participle form (derived, not listed) is word for banana (Rand key:n73032784725n)
+jiingtamo:jiingotamo VII_TAG   "be a powwow (lit. go on knees?)" ; !base of jiingtamok (vii participle, n73028441139n), which we derive from here rather than list.
+shwaachgwaasam:ishwaachigwaasam VII_TAG   "be applique (?)" ; !base of shwaachgwaasang (vii participle, n73031977578n), which we derive from here rather than list.
+gdagnagekwad2:gadaganagekwad2 VII_TAG   "be spotted bark" ; !base of gedgan'gekwak (vii participle, n201133017-25-40n 1 Spotted Bark (a plant used for smoking)	), which we derive from here rather than list.
+nakamigaa:inakamigaa        VII_TAG    "be such land" ; ! base of en'kamgaak (vii participle, 1 fair, public exhibition	n201132919-50-21n) which we derive rather than list)
+nate:inate                  VII_TAG     "1 exist in such a way, 2 house contents, household effects (as participle entek)" ; !base of entek (vii participle, n73102084381n)
+zhaangse:zhaangise                  VII_TAG     "1 be jiggly, 2 jello (as participle e-zhaangsek)" ; !base of e-zhaangsek (vii participle, n73015879019n)
+!end roots added to make derived nouns (participles, ni-pt)}
+!End Rand database dump 2024}
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -2101,6 +2109,10 @@ bkaanendam:bakaanen    VAI_ENDAM_CONTINUATION    " 1 feel different, think of on
 bgidendam:bagiden    VAI_ENDAM_CONTINUATION    " 1 surrender, give oneself up" ; !dict actually lists the reflexive bgidendiza (Rand key:n72976745117n) and the reciprocal bgidendwak (n201132615-34-34n), but we derive it from this because the available VTA was not a good base due to having an m (bgidenmaa, bgidendaan)
 nwapwaan'kodaadza:nawapwaanikodaa    VAI_MANDATORY_REFLEXIVE    " 1 make a lunch [to take] for oneself, prepare provisions for oneself" ; !Rand key:n71435083087n I have avoided listing VAI reflexives, but I have to list this one. There is VTA nwapwaan'kawaa, but it doesn't have odaa/odaw (and I just can't see a plausible derivational suffix with that shape). There is vaio nwapwaan'kodaadzon, but that is less of a base for this than confirmation that this particular almost-suffix is definitely there.
 !end original vai-reflex}
+!{start stems added to make a base for derived nouns (participles, ni/na-pt)
+waabnda'di:waabandah     VAI_MANDATORY_RECIPROCAL " 1 exhibit things, show things, 2 endzhi-waabnda'ding a fair, public exhibition (as a participle)" !base of endzhi-waabnda'ding (Rand key:n201132919-50-21n), which we derive instead of list
+nsawaakdiiye:nisawaakodiiye           VAI_TAG     "1 join as two limbs at one's bottom 2 crotch (as participle nsawaakdiiyed)" ; !base of nsawaakdiiyed (vai participle, n103004165510n)
+!{end stems added to make a base for derived nouns (participles, ni/na-pt)
 !End Rand database dump 2024}
 
 LEXICON VAI
@@ -12392,7 +12404,7 @@ wshkibdoon:washkibd    VTI_OO_THEME    " 1 pull sth. in a zigzag manner" ; !Rand
 wzhiitaatoon:ozhiitaat    VTI_OO_THEME    " 1 [see zhiitaatoon]" ; !Rand key:n73033170383n
 wzhiitaawsidoon:ozhiitaawisid    VTI_OO_THEME    " 1 [see zhiitaawsidoon]" ; !Rand key:n73033175098n
 wzhitoon:ozhit    VTI_OO_THEME    " 1 [see zhitoon]" ; !Rand key:n73033175590n
-yoon:ay    VTI_OO_THEME    " 1 use sth. (LH);  2 use sth. as a weapon (Wp);  3 wear sth. (of clothes) (SEO)" ; !Rand key:n73033182010n
+yoon:ay    VTI_OO_THEME    " 1 use sth. (LH);  2 use sth. as a weapon (Wp);  3 wear sth. (of clothes) (SEO)" ; !Rand key:n73033182010n !rather than list eyoot 'weapon' (n73015878656n), we derive it from here. definition should be updated
 zaagaaksidoon:zaagaakosid    VTI_OO_THEME    " 1 leave sth. protruding, leave sth. sticking out (of sticklike objects)" ; !Rand key:n73033275715n
 zaagiigsidoon:zaagiigisid    VTI_OO_THEME    " 1 leave sth. sticking part way out (of sheetlike objects)" ; !Rand key:n73072271424n
 zaagjitoon:zaagijit    VTI_OO_THEME    " 1 bring sth. out, cart sth. out, take sth. out" ; !Rand key:n7303333827n
