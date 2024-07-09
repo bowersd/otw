@@ -19,6 +19,9 @@ mshkawzii:mashkawizii    # "be powerful" ; !phonology problem, weird syncope, al
 bmaajmo:bimaajimo    # "dance" ; missing derivation from bim and aajim
 wiin'za    # "have a name" ; !orthographic problems
 nishnaabewnikaaza:anishnaabewinikaaza    # ; missing derivation from nishnaabewi ("be a North American aboriginal person") and nikaazo ("be called")
+mtaakzide:mitaakzide    # "bare one's feet" ; !guess on the def. based on notes apparent neologism formed from mtaak "naked" and nzit "my foot"
+ggwaan'sagnaagzi:gagwaanisagnaagozi    # "look awful" ;
+gpiibtoo:gopiibatoo    # "run up from the water's edge" ; 
 
 LEXICON NU_VAIO
 taason:ataason    # "store smt." ; !missing derivation, taaso is also possible
@@ -62,6 +65,9 @@ giishkjaanegdaan    # ; !formed from giishk (cut) jaane (nose) and dam (VTI), mi
 maajiibtwaadaan    # ; !morphological problem, waad could actually be waaN
 giiwebtwaadaan    # ; !morphological problem, waad could actually be waaN
 pagdood    # ; !morphological problem
+yaan    # "have" ; !weird form of this wdaahaan?
+gdaa'aanaa    # "have" ; !this is maybe another weird form of yaan? maybe just straight up correctly analyzed when spelling is corrected though?
+maamnwendaan:maaminwendaan    # "like, remember" ; !should the def. be something like "like to remember"
 
 LEXICON NU_VTA
 baapchi'aa # "play tricks, make fun" ; !related to baapichigaade
@@ -72,11 +78,14 @@ naagdawenmaa    # ; "look after smt. for smb." ; !related to naagdawendmawaa, mo
 kwaawaa    # "attack" ; 
 ggwejmaamaa    # ; !derived from ggweji "test" and maam "smell"
 nzwaa:onzw    # "boil" ; phonological problem
+gobnaa:agobin    # "tie on" ; phonological problem with missing initial <d>
 
 LEXICON NU_NAD
 ngo-doodem    # "family, clan" ; !ngo- is paired with da- in the actual example, spelled dango-, doodem is a listed word for family
+n-wiikane    # "brother" ; !phonological problem w/ syncope, related to niikaan "my brother," -e from the contemptive
 
 LEXICON NU_NID
+ndoondan:doondana    # "my heel" ; !looks like this might already be in the dictionary, can the spelling correcter handle doondnang?
 
 LEXICON NU_NI
 Gchi-gwednong # ; !place name w initial change
@@ -88,6 +97,10 @@ zaaghigan # ; !need compounding
 Manitoulin    # ; !place name
 aankwaan    # "fort" ; !or maybe the northern word for hat?
 Baawting    # ; !place name (Sault Sainte Marie)
+moodyaabik:modayaabik    # "little bottle" ; 
+min'gan    # "salve" ; !maybe needs an initial <b>
+nag'ay    # "skin, rind" ; !related to the NID nnag'ay
+mtiggamik:mitigogamik    # ; !morphological and phonological problems; also UR is maybe wrong since Rand says that mtigo- is the wrong analysis here?
 
 LEXICON NU_NA
 baanaabekwe # "mermaid" ; !related to baanaabe
@@ -106,6 +119,7 @@ nake # ; !already defined as adv, might be something else
 niiyiing    # "at that place" ; !analyzed as compound of niwi and ya'ii
 aabtoowyiinh    # "halfway up the hill" ; !syncope problems, aabtoo- is clearly half, but I can't find a word related to hill
 noonj    # "more" ; !contraction of nwanj
+nsawyiing    # "between, middle" ;
 
 LEXICON NU_PRON_NA
 wegwendig # "somebody" ; !dubitative pronoun
