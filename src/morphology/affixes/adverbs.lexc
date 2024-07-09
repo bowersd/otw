@@ -1,0 +1,48 @@
+LEXICON PA
+PA/gchi+:gichi-    AV_GATEWAY    " 1 very;  2 the unit period after (with time expressions)" ; !Rand key:n2010121223-12-33n
+PA/wasi+:awasi-    AV_GATEWAY    " 1 used with a time adverbial to indicate the period before last, e.g., <nish>wasi-bboonong</nish>, 'the year before last'" ; !Rand key:n201132612-19-17n
+PA/ewaanji+:ewaanji-    AV_GATEWAY    " 1 the most, to the greatest extent, degree, quality or quantity" ; !Rand key:n20114911-51-32n
+PA/ggwetaani+:gagwetaani- AV_GATEWAY " 1 exceedingly, extremely, awfully, so, terribly"; !DAB Addition
+PA/shki+:oshki-   AV_GATEWAY " 1 first, for the first time, newly"; !DAB Addition
+!{These are items that appear in the PV list and that appear in listed adverbs
+PA/aapji+:aapaji- AV_GATEWAY " 1 very;  2 completely, entirely, fully"; !DAB Addition
+PA/mno+:mino- AV_GATEWAY " 1 good, well;  2 nice, pleasant";
+PA/de+:de-       AV_GATEWAY " 1 fair (amount), moderate (amount)"; !DAB ADDITION (precedes mno in de-mno-mnik)
+PA/ekwaa+:ekwaa-    AV_GATEWAY    " 1 finish" ; !DAB ADDITION
+PA/ni+:ani-      AV_GATEWAY " 1 [do something] as one goes away, go away and [do something], go away, on one's way out, [doing something];  2 as time goes on, as time passes, in the course of time;  3 in the future";
+PA/piichi+:apiichi-  AV_GATEWAY " 1 to a certain degree, to a certain extent, to such a degree, to such an extent, how, to what extent, so;  2 in the process of..., while";
+PA/gbe+:gabe-  AV_GATEWAY " 1 all, throughout"; !DAB ADDITION (found in OPD, also there are gbe-X adverbs here)
+!} PV->PA list end
+!FURTHER HYPHENATED ADVERBS WHICH MAY OR MAY NOT INCLUDE ADDITIONAL PRE-ADVERBS
+!endso-niibing:endaso-niibing    AV_TAG    " 1 every summer, each summer" ; !Rand key:n201132920-17-45n DAB: THIS JUST SEEMS LIKE A VERB, SHOULD IT EVEN BE LISTED?
+!ezhi-gchi-nikaayin:ezhi-gichi-nikaayin    AV_TAG    " 1 at your right side" ; !Rand key:n73015879127n DAB: nikaay only appears in this form and the next, so not sure that ezhi- should be added in. especially since that would make for a changed conjunct pre-adverb
+!ezhi-nmanjnikaayin:ezhi-namanjinikaayin    AV_TAG    " 1 at your left side" ; !Rand key:n73015879168n DAB: nikaay only appears in this form and the previous, so not sure that ezhi- should be added in. especially since that would make for a changed conjunct pre-adverb
+!gaa-waabang:gaa-waabang    AV_TAG    " 1 the next day, the day after" ; !Rand key:n73017372750n DAB: THIS JUST SEEMS LIKE A VERB, SHOULD IT EVEN BE LISTED?
+!!there is no PV gbe in the dict, though it does appear in a VAI
+!gbe-bboon:gabe-biboon    AV_TAG    " 1 all winter" ; !Rand key:n73017936268n
+!gbe-dbik:gabe-dibik    AV_TAG    " 1 all night" ; !Rand key:n73017936343n
+!gbe-dgwaagi:gabe-dagwaagi    AV_TAG    " 1 all fall, all autumn" ; !Rand key:n201133010-30-19n
+!gbe-giizhik:gabe-giizhig    AV_TAG    " 1 all day" ; !Rand key:n73017936376n
+!gbe-naagosh:gabe-onaagosh    AV_TAG    " 1 all evening" ; !Rand key:n73017937220n
+!gbe-niibin:gabe-niibin    AV_TAG    " 1 all summer" ; !Rand key:n73017936290n
+!gbe-shkwaa-naawkwe:gabe-ishkwaa-naawakwe    AV_TAG    " 1 all afternoon" ; !Rand key:n73017937172n
+!gbe-zhebaa:gabe-zhebaa    AV_TAG    " 1 all the past morning" ; !Rand key:n73017937356n
+!giiwaaji-pii:giiwaaji-apii    AV_TAG    " 1 at a bad time, at an inconvenient time, at an inopportune time" ; !Rand key:n73023760986n DAB: giiwaaj appears as an initial in several verbs, but does not show evidence of being a PV (though that is not a disqualification for something to be a PA)
+!mji-mnidoonaang:maji-manidoonaang    AV_TAG    " 1 hell, in hell" ; !Rand key:n71429743061n DAB: this seems more like a noun. The locativey bit is scoping over the PN mji+mnidoonaang ... so I don't want to commit to mji- as a PA
+!ngo-aabtaa-dbik:ningo-aabitaa-dibik    AV_TAG    " 1 all evening until midnight" ; !Rand key:n7297244115n DAB: aabtaa is clearly a PV, but dbik  is not a standalone form. we have dbikoong, an adverb 'in the night' (which might as well be a noun) and dbikaa/dbikat VIIs. same applies to ngo- here and below
+!ngo-dbaabaan:ningo-dibaabaan    AV_TAG    " 1 [see ngo-dba'aabaan]" ; !Rand key:n73098741922n
+!ngo-dbaabaan:ningo-dibahaabaan    AV_TAG    " 1 [see ngo-dba'aabaan]" ; !Rand key:n73098741922n
+!ngo-naawkwe:ningo-naawakwe    AV_TAG    " 1 for half a day [until noon], half a day [until noon]" ; !Rand key:n71431657621n
+!ni-ngo-bboon'gak:ani-ningo-biboonagak    AV_TAG    " 1 in one year's time" ; !Rand key:n73098749802n
+!ni-ngo-dba'giiswaan'gak:ani-ningo-dibahigiiziswaanagak    AV_TAG    " 1 in one hour's time" ; !Rand key:n73098749909n
+!ni-ngo-giisagak:ani-ningo-giizisagak    AV_TAG    " 1 in one month's time" ; !Rand key:n73098749965n
+!ni-ngo-nam'egiizhgak:ani-ningo-anamVv1hegiizhigak    AV_TAG    " 1 in one week's time" ; !Rand key:n73098750034n
+!niizh-zhinin:niizh-zhinin    AV_TAG    " 1 one quarter, a fourth" ; !Rand key:n201132517-20-51n DAB: Looks like niizh-shinin(g) to me (two eighths=1/4)
+!noondaa-dbik:noondaa-dibik    AV_TAG    " 1 partway through the night" ; !Rand key:n73033840315n !DAB: noondaa does not appear elsewhere except as adv noondaash (and we already are not sure how much to count dbik as standalone)
+!noondaa-naagshik:noondaa-onaagshig    AV_TAG    " 1 partway through the evening" ; !Rand key:n73033840367n DAB: see above on noondaa-dbik
+!shpide-dbik:Vi1shpide-dibik    AV_TAG    " 1 in the middle of the night" ; !Rand key:n73034013267n DAB: no other shpide's
+!was-odi:awas-odi    AV_TAG    " 1 way over there" ; !Rand key:n7303279371n DAB: odi seems like a mistake (awas-oodi)
+!was-oodi:awas-oodi    AV_TAG    " 1 way over there" ; !Rand key:n73032710808n DAB: was exists as a particle to make something go away
+!zhi-dbishkoo:izhi-dibishkoo    AV_TAG    " 1  just like, similar to;  2 at a point parallel " ; !Rand key:n73035131454n DAB: do we let zhi- onto all adverbs
+                AV_GATEWAY ; !DAB ADDITION
+
