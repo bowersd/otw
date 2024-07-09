@@ -1,0 +1,146 @@
+
+LEXICON AV_GATEWAY
+AV ;
+
+LEXICON AV
+mdaasgon'gak    AV_TAG    " 1 be in ten days, be in ten days’ time, ten days hence, ten days later" ; !Rand key:n103000660858n
+nso-giizis    AV_TAG    " 1 three months" ; !Rand key:n58fa1bdc03a8426dbb6823320a01dd02n
+niizhgiizis    AV_TAG    " 1 two months" ; !Rand key:n58fa1bdb1ec8470cbc5323320a01dd02n
+niiwgiizis    AV_TAG    " 1 four months" ; !Rand key:n58fa1bdb0e44438f930a23320a01dd02n
+ngo-giizis    AV_TAG    " 1 one month" ; !Rand key:n58fa1bdb558c4d0c9eba23320a01dd02n
+ni-nshwaas-giizsagak    AV_TAG    " 1 in eight months’ time" ; !Rand key:n103000711736n
+ni-niizhwaas-giizsagak    AV_TAG    " 1 in seven months’ time" ; !Rand key:n103000711731n
+ni-niizh-giizsagak    AV_TAG    " 1 in two months’ time" ; !Rand key:n103000711726n
+ni-niiw-giizsagak    AV_TAG    " 1 in four months’ time" ; !Rand key:n103000711722n
+ni-ngodwaas-giizsagak    AV_TAG    " 1 in six months’ time" ; !Rand key:n103000711700n
+ni-naan-giizsagak    AV_TAG    " 1 in five months’ time" ; !Rand key:n103000711695n
+nensooshkin    AV_TAG    " 1 three bags each" ; !Rand key:n103000711472n
+neniizhooshkin    AV_TAG    " 1 two bags each" ; !Rand key:n103000711463n
+neniiwooshkin    AV_TAG    " 1 four bags each" ; !Rand key:n103000711447n
+nso-nam'e-giizhik    AV_TAG    " 1 three weeks" ; !Rand key:n103004166252n
+ziibskaach    AV_TAG    " 1 slowly, not [doing] well" ; !Rand key:n103000788344n
+zichkana    AV_TAG    " 1 all of a sudden, suddenly, swiftly, unexpectedly" ; !Rand key:n103000788304n
+zhizhyaa    AV_TAG    " 1 straight (of road)" ; !Rand key:n103000787770n
+zhimtooj    AV_TAG    " 1 probably" ; !Rand key:n103000787402n
+zhigyak    AV_TAG    " 1 directly, the most direct way, straight" ; !Rand key:n103000780260n
+zhigwayak    AV_TAG    " 1 directly, the most direct way, straight" ; !Rand key:n103000780255n
+zhichkana    AV_TAG    " 1 all of a sudden, suddenly" ; !Rand key:n103000780097n
+zhi-wiinge    AV_TAG    " 1 entirely, in its entirety" ; !Rand key:n103000780064n
+zhawaach    AV_TAG    " 1 resemble somewhat, somewhat like, sort of like, sort of resemble" ; !Rand key:n103000779272n
+zaagdawaak    AV_TAG    " 1 at the river mouth, at the baymouth" ; !Rand key:n103000768570n
+zaagdawaa    AV_TAG    " 1 river outlet" ; !Rand key:n103000768566n
+wewiikaa    AV_TAG    " 1 infrequently, seldom, sporadically" ; !Rand key:n103000756586n
+wenj    AV_TAG    " 1 so, strikingly" ; !Rand key:n103000756344n
+wendago    AV_TAG    " 1 virtually as if, be almost the case, be practically the case" ; !Rand key:n103000756331n
+wasniibnong    AV_TAG    " 1 the summer before last" ; !Rand key:n103000756198n
+wasi-bboonong    AV_TAG    " 1 the year before last, the winter before last" ; !Rand key:n103000756171n
+waawaaj    AV_TAG    " 1 even (indicating that something is surprising or extreme)" ; !Rand key:n103000755846n
+waasnikekna    AV_TAG    " 1 on the far side of the road" ; !Rand key:n103000755795n
+swekmigaak    AV_TAG    " 1 all over an area of ground" ; !Rand key:n103000745448n
+sidaawendmaadkamik    AV_TAG    " 1 tragic" ; !Rand key:n103000745032n
+shpamsagoong    AV_TAG    " 1 upstairs" ; !Rand key:n103000744982n
+shkweyiing    AV_TAG    " 1 at the side, beside, on the side, at the end of a row" ; !Rand key:n103000744741n
+shkwaaj    AV_TAG    " 1 last [in a sequence], last time" ; !Rand key:n103000744658n
+shki-naagshik    AV_TAG    " 1 in the early evening" ; !Rand key:n103000744539n
+shike    AV_TAG    " 1 alone, by oneself" ; !Rand key:n103000744412n
+piinash    AV_TAG    " 1 until (in affirmative clauses)" ; !Rand key:n103004167196n
+piidash    AV_TAG    " 1 until (in affirmative clauses)" ; !Rand key:n103004167175n
+piichnaa    AV_TAG    " 1 now and then, once in a while" ; !Rand key:n103004167162n
+penag    AV_TAG    " 1 less" ; !Rand key:n103004167077n
+papiichin    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103004166935n
+ooswaabang    AV_TAG    " 1 the day after tomorrow" ; !Rand key:n103004166604n
+oosnaago    AV_TAG    " 1 the day before yesterday" ; !Rand key:n103004166600n
+oosi-bboonong    AV_TAG    " 1 the year before last, the winter before last" ; !Rand key:n103004166591n
+nwenzh    AV_TAG    " 1 a long time, for a long time" ; !Rand key:n103004166438n
+nwaakaming    AV_TAG    " 1 inland, in the bush, out in the country" ; !Rand key:n103004166417n
+nsawiyiing    AV_TAG    " 1 in the middle" ; !Rand key:n103004165515n
+npaajnikeyiing    AV_TAG    " 1 on the opposite side, on the wrong side" ; !Rand key:n103004165207n
+npaajnikekna    AV_TAG    " 1 on the wrong side of the road" ; !Rand key:n103004165201n
+nowenzh    AV_TAG    " 1 for a long time" ; !Rand key:n103000714207n
+noondaa-naagosh    AV_TAG    " 1 partway through the evening" ; !Rand key:n103000714069n
+nomya    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000713698n
+nniizaan    AV_TAG    " 1 there seem to be a risk of something happening (expression of mild alarm at a risk)" ; !Rand key:n103000713443n
+nnaasweyiing    AV_TAG    " 1 in between" ; !Rand key:n103000713093n
+neniidwikna    AV_TAG    " 1 on both sides of the road" ; !Rand key:n103000711442n
+neniidweyiing    AV_TAG    " 1 on both sides" ; !Rand key:n103000711437n
+ndaazhnikeknaa    AV_TAG    " 1 on this side of the road" ; !Rand key:n103000697321n
+ndaaznikekna    AV_TAG    " 1 on this side of the road" ; !Rand key:n103000697316n
+ndaasnikeyaa    AV_TAG    " 1 on this [closer] side" ; !Rand key:n103000697254n
+namye    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000696435n
+namya    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000696430n
+namnik    AV_TAG    " 1 a fair amount, a moderate amount" ; !Rand key:n103000696425n
+nakwayiing    AV_TAG    " 1 at the tip [of a stick or like object]" ; !Rand key:n103000696323n
+naawkaakan    AV_TAG    " 1 in the middle of one’s chest" ; !Rand key:n103000696125n
+naanomye    AV_TAG    " 1 a few moments ago, a little while ago, a short time ago" ; !Rand key:n103000695884n
+naanomya    AV_TAG    " 1 a few moments ago, a little while ago, a short time ago" ; !Rand key:n103000695875n
+naanaangodnong    AV_TAG    " 1 every so often, every now and then, sometimes" ; !Rand key:n103000695689n
+naamoonak    AV_TAG    " 1 in the prow of a boat" ; !Rand key:n103000695619n
+mtigwaakaag    AV_TAG    " 1 along the edge of the forest" ; !Rand key:n103000693963n
+mno-aapii    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103000680380n
+mni-aapii    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103000680161n
+mneyaapii    AV_TAG    " 1 at the right time" ; !Rand key:n103000680134n
+mnapapii    AV_TAG    " 1 from time to time, at intervals" ; !Rand key:n103000680013n
+mna'aapii    AV_TAG    " 1 from time to time, at intervals" ; !Rand key:n103000679862n
+mizi    AV_TAG    " 1 all, everything" ; !Rand key:n103000678948n
+minjnikaang    AV_TAG    " 1 on one’s left, on the left side" ; !Rand key:n103000678928n
+mijnikaang    AV_TAG    " 1 on one’s left, on the left side" ; !Rand key:n103000678829n
+mekwaamtigwaaki    AV_TAG    " 1 forest" ; !Rand key:n103000677812n
+megyak    AV_TAG    " 1 in the woods" ; !Rand key:n103000677803n
+megwe-zapwaajiishkwak    AV_TAG    " 1 around in the deep mud" ; !Rand key:n103000677799n
+megwemtigwaaki    AV_TAG    " 1 in the forest, in the woods" ; !Rand key:n103000677794n
+megwekop    AV_TAG    " 1 in the bush, in a wooded area" ; !Rand key:n103000677790n
+megwaakwaak    AV_TAG    " 1 in the forest, in the woods" ; !Rand key:n103000677781n
+megwaakwaa    AV_TAG    " 1 in the forest, in the woods" ; !Rand key:n103000677776n
+mbanenik    AV_TAG    " 1 on one arm" ; !Rand key:n103000660439n
+maamo-ntam    AV_TAG    " 1 first time" ; !Rand key:n103000659692n
+maamaazh    AV_TAG    " 1 carelessly, shoddily, sloppily, without much thought" ; !Rand key:n103000659517n
+kaamaajwan    AV_TAG    " 1 on the other side [of a body of water]" ; !Rand key:n103000658136n
+jiigshkwaandeming    AV_TAG    " 1 near the door" ; !Rand key:n103000645156n
+jiigmiikan    AV_TAG    " 1 near the road" ; !Rand key:n103000645151n
+jichkana    AV_TAG    " 1 all of a sudden, suddenly" ; !Rand key:n103000644712n
+iimaa    AV_TAG    " 1 here" ; !Rand key:n103000644145n
+gtaamgomnik    AV_TAG    " 1 lots, enormous amount, huge quantity" ; !Rand key:n103000641947n
+gnwenzh    AV_TAG    " 1 a long time, long [in duration], for a long time" ; !Rand key:n103000641316n
+gnenzh    AV_TAG    " 1 a long time, long [in duration], for a long time" ; !Rand key:n103000620688n
+gmaamnik    AV_TAG    " 1 a fair amount, a moderate amount" ; !Rand key:n103000617915n
+gijnikaang    AV_TAG    " 1 on his right-hand side" ; !Rand key:n103000614799n
+gidaagnak    AV_TAG    " 1 on top of the snow" ; !Rand key:n103000581551n
+gichnikaang    AV_TAG    " 1 on the right, right-hand side" ; !Rand key:n103000581538n
+ggikonaans    AV_TAG    " 1 with the peelings on, unpeeled" ; !Rand key:n103000577302n
+geskaa    AV_TAG    " 1 suddenly, all of a sudden" ; !Rand key:n103000573346n
+gdaawoonak    AV_TAG    " 1 inside the bow of the boat" ; !Rand key:n103000564679n
+gchi-gbegiizhik    AV_TAG    " 1 the entire day, the whole day" ; !Rand key:n103000560735n
+gbe-naagshik    AV_TAG    " 1 all evening" ; !Rand key:n103004118924n
+gbe-naagshi    AV_TAG    " 1 all evening" ; !Rand key:n103004118920n
+gadin    AV_TAG    " 1 forcefully" ; !Rand key:n103004118613n
+gaama'iing    AV_TAG    " 1 across the way, across the aisle, on the other side [of a room]" ; !Rand key:n103004118147n
+eyedwi'iing    AV_TAG    " 1 at both ends, on both sides" ; !Rand key:n103004117617n
+ewedweyiing    AV_TAG    " 1 at both ends, on both sides" ; !Rand key:n103004117604n
+biindoonak    AV_TAG    " 1 inside the boat" ; !Rand key:n102996004203n
+biichin    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n102995996639n
+benag    AV_TAG    " 1 ease up, easy, less, lessen" ; !Rand key:n102995959275n
+bemgii    AV_TAG    " 1 little by little, a little at a time, in small amounts, small amounts" ; !Rand key:n102995959266n
+bebngiishenh    AV_TAG    " 1 little by little, a little at a time, in small amounts, small amounts" ; !Rand key:n102995958112n
+bebesha    AV_TAG    " 1 [objects have] small spaces between them, [objects be spaced] close together" ; !Rand key:n102995958101n
+aazhwiyiing    AV_TAG    " 1 on the other side" ; !Rand key:n102995940894n
+aazhoodenaang    AV_TAG    " 1 the other side of town" ; !Rand key:n102995940867n
+aazhoo    AV_TAG    " 1 on the other side" ; !Rand key:n102995940862n
+aasmisbak    AV_TAG    " 1 ceiling" ; !Rand key:n102995939632n
+aasmigedaaki    AV_TAG    " 1 on the hillside" ; !Rand key:n102995939628n
+aasmiyiing    AV_TAG    " 1 against the side of something" ; !Rand key:n102995939624n
+aagwaakwaa    AV_TAG    " 1 behind the woods" ; !Rand key:n102995926373n
+aabtwaatik    AV_TAG    " 1 halfway up a pole or tree" ; !Rand key:n102995923940n
+maapiich    AV_TAG    " 1 eventually, after a while, by and by, later on, sometime" ; !Rand key:n58fa1bded6204ec6bfc023320a01dd02n
+jaajaagena    AV_TAG    " 1 all sorts of [weird] ways, all sorts of [crazy] things" ; !Rand key:n58fa1bdc7bb04502b48623320a01dd02n
+npaadkana    AV_TAG    " 1 on the wrong side of the road" ; !Rand key:n58fa1bdc76044a53adad23320a01dd02n
+npaajiyiing    AV_TAG    " 1 on the wrong side of something" ; !Rand key:n58fa1bdc1f34410aa08523320a01dd02n
+noomak    AV_TAG    " 1 for a long time, for a long while" ; !Rand key:n58fa1bdcc7fc40b1b94823320a01dd02n
+nikekna    AV_TAG    " 1 on a certain side of the road" ; !Rand key:n58fa1bdb32b442d8aa4223320a01dd02n
+niisi'iing    AV_TAG    " 1 down below, downstairs" ; !Rand key:n58fa1bdb44784c7e8dc223320a01dd02n
+niisa'iing    AV_TAG    " 1 down below, downstairs" ; !Rand key:n58fa1bdb6558481796bf23320a01dd02n
+naamsak    AV_TAG    " 1 basement, in the basement" ; !Rand key:n58fa1bda9f404aa29c1823320a01dd02n
+mooshkin    AV_TAG    " 1 completely, fully, in full" ; !Rand key:n58fa1bd8e8444092b69023320a01dd02n
+wendgwenh    AV_TAG    " 1 I wonder if, I wonder whether [or not], [wondering] if [something is the case or not], [wondering] whether [or not]" ; !Rand key:n58fa1bd79c4849ab80a023320a01dd02n
+
+LEXICON AV_TAG
++Adv:0 CLOSED_PROTECTION ; 
