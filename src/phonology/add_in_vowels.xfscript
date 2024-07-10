@@ -25,11 +25,14 @@ define primaryToCCV [[..] -> [a|i|o] ||
                                                  [m b|
                                                  n [d|j|z (h)|y|g]|
                                                  s (h) [p|t|k]|
+                                                 ]
+                                                                    _ \[a|i|o|e|w|y],
+                                        [a|i|o|e]
                                                  [b|d|g|
                                                  p|t|k|
                                                  [z|s] (h)|
-                                                 m|n] [w|y]]
-                                                                    _ \[a|i|o|e|w|y]];
+                                                 m|n] [w|y]         _ \[a|i|o|e]
+                                                                    ];
 define secondaryToCV [[..] -> [a|i|o] || 
                                         !consonantal non-syllabics
                                         [a|i|o|e] [ 
@@ -89,5 +92,4 @@ define secondaryToCV [[..] -> [a|i|o] ||
                                                                 c h| 
                                                                 %'
                                                                 ]
-                                        ]
-                                        
+                                        ];
