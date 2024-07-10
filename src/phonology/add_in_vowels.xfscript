@@ -18,3 +18,76 @@ define wordMedialComplex [
                             [[nasalCluster|stridentCluster] (glides)]
                             ] ; 
 
+define aposToV [%' -> [a|i|o] || \[a|i|o|e] _ \[a|i|o|e]] ; 
+define mdToband [m d (->) b a n d] ; 
+define primaryToCCV [[..] -> [a|i|o] ||
+                                        [a|i|o|e] 
+                                                 [m b|
+                                                 n [d|j|z (h)|y|g]|
+                                                 s (h) [p|t|k]|
+                                                 [b|d|g|
+                                                 p|t|k|
+                                                 [z|s] (h)|
+                                                 m|n] [w|y]]
+                                                                    _ \[a|i|o|e|w|y]];
+define secondaryToCV [[..] -> [a|i|o] || 
+                                        !consonantal non-syllabics
+                                        [a|i|o|e] [ 
+                                                    b|d|g|
+                                                    p|t|k|
+                                                    z (h)|
+                                                    j|c h
+                                                    ]    _ [
+                                                               b|d|g| 
+                                                               p|t|k| 
+                                                               z (h)| 
+                                                               s (h)| 
+                                                               m|n| 
+                                                               j|c h| 
+                                                               %'|h| 
+                                                               ] ,
+                                          !non-consonantal non-syllabics
+                                          [a|i|o|e] [ 
+                                                     %'|h|
+                                                     w|y
+                                                     ]    _ [
+                                                                b|d|g| 
+                                                                p|t|k| 
+                                                                z (h)| 
+                                                                s (h)| 
+                                                                m|n| 
+                                                                j|c h| 
+                                                                %'|h| 
+                                                                w|y
+                                                                ] ,
+                                          !fortis stridents
+                                          [a|i|o|e] [ s (h) ]    _ [ 
+                                                                b|d|g| 
+                                                                z (h)| 
+                                                                s (h)| 
+                                                                m|n| 
+                                                                j|c h| 
+                                                                %'|h| 
+                                                                y
+                                                                ] ,
+                                          !m
+                                          [a|i|o|e] [ m  ]    _ [ 
+                                                                d|g| 
+                                                                p|t|k| 
+                                                                z (h)| 
+                                                                s (h)| 
+                                                                m|n| 
+                                                                j|c h| 
+                                                                %'|h| 
+                                                                y
+                                                                ] ,
+                                          !n
+                                          [a|i|o|e] [ n ]    _ [
+                                                                b| 
+                                                                p|t|k| 
+                                                                m|n| 
+                                                                c h| 
+                                                                %'
+                                                                ]
+                                        ]
+                                        
