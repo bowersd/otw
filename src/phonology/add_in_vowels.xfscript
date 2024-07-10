@@ -20,6 +20,11 @@ define wordMedialComplex [
 
 define aposToV [%' -> [a|i|o] || \[a|i|o|e] _ \[a|i|o|e]] ; 
 define mdToband [m d (->) b a n d] ; 
+define primaryToCV [[..] -> [a|i|o] ||  [a|i|o|e] [m] _ [b] [a|i|o],
+                                        [a|i|o|e] [n] _ [d|z (h)|j|y|h] [a|i|o],
+                                        [a|i|o|e] [s (h)] _ [p|t|k] [a|i|o]
+                                        ];
+                    ] ; 
 define primaryToCCV [[..] -> [a|i|o] ||
                                         [a|i|o|e] 
                                                  [m b|
