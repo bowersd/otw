@@ -160,6 +160,7 @@ LEXICON NU_SUFFIX
 -g # "2pl imperative" ;
 -ini # "Indep" ;
 -nid # "Cnj" ;
+-nind    # "3Obv Cnj" ; !this might have just been a typo
 
 LEXICON NU_INTERJ
 inashke # "look" ;
