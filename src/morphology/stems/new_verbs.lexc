@@ -4654,3 +4654,11 @@ pagd    VTI_OO_THEME    " 1 throw sth., toss sth., pitch sth. (as in baseball)" 
 !niibdeyaaksidoonan	vtip	 1 arrange sth. [sticklike] lying down side by side, place sth. [sticklike] lying down side by side	n103000711790n
 !niibdeksidoonan	vtip	 1 arrange sth. [sticklike] erect in a row, place sth. [sticklike] erect in a row	n103000711780n
 !maawndoowebnaanan	vtip	 1 toss sth. together	n58fa1bde4cb44d5eacb023320a01dd02n
+
+LEXICON VTI_AM_THEME 
++VTI:am1  VTI_ORDERS_GET ;
++VTI:0  VTI_BASE_DERIV ;
+
+LEXICON VTI_OO_THEME 
++VTI:oo   VTI_ORDERS_GET ;
++VTI:0  VTI_BASE_DERIV ;

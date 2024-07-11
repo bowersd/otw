@@ -143,4 +143,4 @@ mooshkin    AV_TAG    " 1 completely, fully, in full" ; !Rand key:n58fa1bd8e8444
 wendgwenh    AV_TAG    " 1 I wonder if, I wonder whether [or not], [wondering] if [something is the case or not], [wondering] whether [or not]" ; !Rand key:n58fa1bd79c4849ab80a023320a01dd02n
 
 LEXICON AV_TAG
-+Adv:0 CLOSED_CLASS_PROTECTION ; 
++Adv:0 CLOSED_PROTECTION ; 

@@ -18,14 +18,22 @@ define wordMedialComplex [
                             [[nasalCluster|stridentCluster] (glides)]
                             ] ; 
 
+define rmspecialv [
+                    Va1 -> o ,
+                    Vi1 -> a ,
+                    Vv1 -> i ,
+                    Vo1 -> w a ,
+                    Vo2 -> a ,
+                    Bv1 -> i 
+                ];
 define aposToV [%' -> [a|i|o] || \[a|i|o|e] _ \[a|i|o|e]] ; 
 define mdToband [m d (->) b a n d] ; 
 define initialVoicelessExpansion [
-                                    .#. p (->) [b [a|i|o] [b|p]],
-                                    .#. t (->) [d [a|i|o] [d|t]],
-                                    .#. k (->) [g [a|i|o] [g|k]],
-                                    .#. s (->) [z [a|i|o] [z|s]],
-                                    .#. s h (->) [[z h [a|i|o] [z|s] (h)]|[z (h) [a|i|o] [z|s] h]],
+                                    .#. p (->) [b [a|i|o] [b|p]],,
+                                    .#. t (->) [d [a|i|o] [d|t]],,
+                                    .#. k (->) [g [a|i|o] [g|k]],,
+                                    .#. s (->) [z [a|i|o] [z|s]],,
+                                    .#. s h (->) [[z h [a|i|o] [z|s] (h)]|[z (h) [a|i|o] [z|s] h]],,
                                     .#. c h (->) [j [a|i|o] [j|c h]]
                                     ] ; 
 define obligatoryVC [[..] -> [a|i|o] || .#. _ [p|t|k|s|h|%'|c h],
@@ -55,13 +63,13 @@ define initialprimaryOptionalSiteVariation [
                                                 .#. [b|d|g|m|n|z (h)|j] _ [w] [a a|i i|o o] 
                                                 ] .o.
                                                 [
-                                                    V V n V V   -> [n]  |[[a|i|o] n]  |[n [a|i|o]] ,
-                                                    V V m V V   -> [m]  |[[a|i|o] m]  |[m [a|i|o]] ,
-                                                    V V b V V   -> [b]  |[[a|i|o] b]  |[b [a|i|o]] ,
-                                                    V V d V V   -> [d]  |[[a|i|o] d]  |[d [a|i|o]] ,
-                                                    V V g V V   -> [g]  |[[a|i|o] g]  |[g [a|i|o]] ,
-                                                    V V z V V   -> [z]  |[[a|i|o] z]  |[z [a|i|o]] ,
-                                                    V V j V V   -> [j]  |[[a|i|o] j]  |[j [a|i|o]] ,
+                                                    V V n V V   -> [n]  |[[a|i|o] n]  |[n [a|i|o]] ,,
+                                                    V V m V V   -> [m]  |[[a|i|o] m]  |[m [a|i|o]] ,,
+                                                    V V b V V   -> [b]  |[[a|i|o] b]  |[b [a|i|o]] ,,
+                                                    V V d V V   -> [d]  |[[a|i|o] d]  |[d [a|i|o]] ,,
+                                                    V V g V V   -> [g]  |[[a|i|o] g]  |[g [a|i|o]] ,,
+                                                    V V z V V   -> [z]  |[[a|i|o] z]  |[z [a|i|o]] ,,
+                                                    V V j V V   -> [j]  |[[a|i|o] j]  |[j [a|i|o]] ,,
                                                     V V z h V V -> [z h]|[[a|i|o] z h]|[z h [a|i|o]] ]
                                                     ] ;
 
@@ -71,6 +79,7 @@ define primaryToCV [[..] -> [a|i|o] ||  [a|i|o|e] [m] _ [b] [a|i|o],
                                         [a|i|o|e] [s (h)] _ [p|t|k] [a|i|o],
                                         [a|i|o|e] [b|d|g|p|t|k|m|n|[s|z] (h)|j|c h] _ [w] [a|i|o] 
                                         ]; !also optional V inside these clusters when sandwiched between long vowels, but there is precisely 0 ROI there 
+
 define primaryWToCVCWorCCVW [
                                 [..] -> V V ||  
                                         [a|i|o|e] [m] _ [b][w] [a|i|o],
@@ -79,27 +88,28 @@ define primaryWToCVCWorCCVW [
                                         [a|i|o|e] [m]  [b] _ [w]  [a|i|o],
                                         [a|i|o|e] [n]  [d|z (h)|j] _ [w] [a|i|o],
                                         [a|i|o|e] [s (h)]  [p|t|k] _ [w] [a|i|o] .o.
-                                        V V b V V -> [[a|i|o] b]|[b [a|i|o]],
-                                        V V d V V -> [[a|i|o] d]|[d [a|i|o]],
-                                        V V z V V -> [[a|i|o] z]|[z [a|i|o]],
-                                        V V z h V V -> [[a|i|o] z h]|[z h [a|i|o]],
-                                        V V p V V -> [[a|i|o] p]|[p [a|i|o]],
-                                        V V t V V -> [[a|i|o] t]|[t [a|i|o]],
-                                        V V k V V -> [[a|i|o] k]|[k [a|i|o]],
+                                        V V b V V -> [[a|i|o] b]|[b [a|i|o]],,
+                                        V V d V V -> [[a|i|o] d]|[d [a|i|o]],,
+                                        V V z V V -> [[a|i|o] z]|[z [a|i|o]],,
+                                        V V z h V V -> [[a|i|o] z h]|[z h [a|i|o]],,
+                                        V V p V V -> [[a|i|o] p]|[p [a|i|o]],,
+                                        V V t V V -> [[a|i|o] t]|[t [a|i|o]],,
+                                        V V k V V -> [[a|i|o] k]|[k [a|i|o]]
                                         ];
+
 define primaryToCCV [[..] -> [a|i|o] ||
                                         [a|i|o|e] 
                                                  [m b|
                                                  n [d|j|z (h)|y|g]|
-                                                 s (h) [p|t|k]|
-                                                 ]
-                                                                    _ \[a|i|o|e|w|y],
+                                                 s (h) [p|t|k]
+                                                 ] _ \[a|i|o|e|w|y],
                                         [a|i|o|e]
                                                  [b|d|g|
                                                  p|t|k|
                                                  [z|s] (h)|
                                                  m|n] [w|y]         _ \[a|i|o|e]
                                                                     ];
+
 define secondaryToCV [[..] -> [a|i|o] || 
                                         !consonantal non-syllabics
                                         [a|i|o|e] [ 
@@ -114,7 +124,7 @@ define secondaryToCV [[..] -> [a|i|o] ||
                                                                s (h)| 
                                                                m|n| 
                                                                j|c h| 
-                                                               %'|h| 
+                                                               %'|h 
                                                                ] ,
                                           !non-consonantal non-syllabics
                                           [a|i|o|e] [ 
@@ -160,7 +170,9 @@ define secondaryToCV [[..] -> [a|i|o] ||
                                                                 %'
                                                                 ]
                                         ];
+
 read regex [
+    rmspecialv .o.
     aposToV .o.
     mdToband .o.
     initialVoicelessExpansion .o.
