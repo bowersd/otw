@@ -8,13 +8,15 @@ LEXICON VAI_GET
     VAI ;
 
 LEXICON VII_GET
-    VII_DEF ; 
+    VII ; 
 
 LEXICON TRANS_GET
     VTA ; 
     VTI ;
 
 LEXICON VAI
+giizhaakw'ige    VAI_TAG    " 1 finish nailing things together" ; !Rand key:n103000612691n
+dpaabaawjige    VAI_TAG    " 1 water a garden, water plants, dampen things" ; !Rand key:n103004117362n
 zzaagzi    VAI_TAG    " 1 be miserly, be stingy" ; !Rand key:n103000789620n
 zose    VAI_TAG    " 1 pounce (e.g. chickens pouncing on food)" ; !Rand key:n103000789611n
 zoosoomjige    VAI_TAG    " 1 suck on things" ; !Rand key:n103000789602n
@@ -2437,9 +2439,10 @@ mmaandaawnaagzi    VAI_TAG    " 1 look bizarre, look incredible, look strange" ;
 !wiidgikoondiwak	vaip-recip	 1 be sisters	n58fa1bd7317c4337a8ea23320a01dd02n
 
 LEXICON VAI_TAG
-+VAI:0  # ; 
++VAI:0  VAI_DERIV_GATEWAY ; 
 
 LEXICON VAIO
+maamiijin    VAIO_TAG    " 1 snack away on sth." ; !Rand key:n58fa1bddeb9c4f9bbc4923320a01dd02n
 znigiingwen    VAIO_TAG    " 1 rub something on one’s face, use something as a face cream" ; !Rand key:n103000789390n
 znagiingwen    VAIO_TAG    " 1 rub something on one’s face, use something as a face cream " ; !Rand key:n103000789324n
 znag'iinan    VAIO_TAG    " 1 struggle with something [manipulable by hand]" ; !Rand key:n103000789306n
@@ -2482,7 +2485,11 @@ taasan    VAIO_TAG    " 1 use something as a shelf" ; !Rand key:n58fa1bd6ee384cb
 shooyiingwen    VAIO_TAG    " 1 rub something on one’s face" ; !Rand key:n58fa1bd65cfc40a3b0c423320a01dd02n
 shoodendmaadzan    VAIO_TAG    " 1 imagine oneself to be somebody’s girlfriend" ; !Rand key:n58fa1bd6478c4fe2a37023320a01dd02n
 
+LEXICON VAIO_TAG
++VAIO:0 VAIO_ORDERS_GET ; 
+
 LEXICON VII
+naasmisin    VII_TAG    " 1 be at rest facing a certain direction, lie facing a certain way" ; !Rand key:n103000696057n
 giig'on    VII_TAG    " 1 {check}" ; !Rand key:n73022944110n
 zzagaakwaa    VII_TAG    " 1 be dense tangled bush, be dense woods" ; !Rand key:n103000789633n
 zoongaabiigad    VII_TAG    " 1 [stringlike object] be strong" ; !Rand key:n103000789521n
@@ -3274,9 +3281,13 @@ zhibiiyaa    VII_TAG    " 1 [land] be covered to a certain extent with water, th
 !sweyaangdenoon	viip	 1 lie scattered, be strewn	n103000745473n
 
 LEXICON VII_TAG
-+VII:0  # ; 
++VII:0  VII_DERIV_GATEWAY ; 
 
 LEXICON VTA
+mjimenmaa    VTA_TAG    " 1 commit sth. (an.) to memory, remember smb." ; !Rand key:n103000679048n
+gbakaanaa    VTA_TAG    " 1 overtake smb., pass smb. [driving]" ; !Rand key:n103004118882n
+wenpazh'aa    VTA_TAG    " 1 make something easy for smb." ; !Rand key:n58fa1bd769e04feaa4e923320a01dd02n
+shoojiiwaa    VTA_TAG    " 1 coat sth. (an.) with a thick or paste-like substance (e.g. icing, plaster), smear a thick or paste-like substance on sth. (an.), spread a thick or paste-like substance on sth. (an.)" ; !Rand key:n103000744839n
 zoosoobmaa    VTA_TAG    " 1 suck on sth. (an.), suckle" ; !Rand key:n103000789556n
 zoongkishmaa    VTA_TAG    " 1 plant sth. (an.) firmly into the ground [in erecting it] (as of a post)" ; !Rand key:n103000789545n
 zookoobiigshimaa    VTA_TAG    " 1 leave sth. (an.) resting somewhere to drain" ; !Rand key:n103000789470n
@@ -4084,6 +4095,7 @@ piitenmaa    VTA_TAG    " 1 hold smb. in a certain regard" ; !Rand key:n58fa1bd5
 pagnjiwnaa    VTA_TAG    " 1 carry sth. (an.) to a certain spot" ; !Rand key:n58fa1bd5c41848de81dc23320a01dd02n
 giitaaksnaa    VTA_TAG    " 1 cut a circle around sth. (an.)" ; !Rand key:n201622515-52-45n
 ggaanjgidemaa    VTA_TAG    " 1 get smb. riled up, incite smb., provoke smb." ; !Rand key:n20162237-42-36n
+!chargemi'aa    VTA_TAG    " 1 charge sth. (an.) (a battery)" ; !Rand key:n103004115181n
 !paakskinnjiiwdiza	vta-ref	 1 applaud, clap one’s hands	n103004166720n
 !biidmaadza	vta-ref	 1 bring something on oneself	n102995996690n
 !ziimkaagbiishkaagon	vtai	 1 be given a hangover by sth.	n103000788820n
@@ -4120,537 +4132,525 @@ ggaanjgidemaa    VTA_TAG    " 1 get smb. riled up, incite smb., provoke smb." ; 
 !piitnaadwak	vtap-recip	 1 [competitors] have a certain score	n103004167269n
 
 LEXICON VTA_TAG
-+VTA:0  # ;
++VTA:0  VTA_DETRANSITIVE_GATEWAY ;
 
 LEXICON VTI
-zoosoomdaan    VTI_TAG    " 1 suck on sth." ; !Rand key:n103000789593n
-zoosoobndaan    VTI_TAG    " 1 suck on sth." ; !Rand key:n103000789571n
-zoomdaan    VTI_TAG    " 1 suck the tip of sth." ; !Rand key:n103000789512n
-zookoobiigsidoon    VTI_TAG    " 1 leave sth. resting somewhere to drain" ; !Rand key:n103000789487n
-zoobndaan    VTI_TAG    " 1 suck the tip of sth." ; !Rand key:n103000789434n
-ziin'koobiignaan    VTI_TAG    " 1 wring sth. out" ; !Rand key:n103000789196n
-ziindaakjiishkoodoon    VTI_TAG    " 1 pin sth. [3-dimensional] between two things [with a weight]" ; !Rand key:n103000788962n
-ziindaakdiiyaandaan    VTI_TAG    " 1 have part of one’s pants wedged between one’s buttocks" ; !Rand key:n103000788875n
-ziinbiigbidoon    VTI_TAG    " 1 squeeze liquid from sth., wring sth. out" ; !Rand key:n103000788842n
-ziikoobiigsidoon    VTI_TAG    " 1 leave sth. resting somewhere to drain, set sth. somewhere to drain" ; !Rand key:n103000788782n
-ziikaapdaan    VTI_TAG    " 1 guzzle sth. [liquid] down" ; !Rand key:n103000788745n
-ziigwebsatoon    VTI_TAG    " 1 spill from sth. forcefully, spill [liquid] from sth. forcefully" ; !Rand key:n103000788721n
-ziigniboodoon    VTI_TAG    " 1 spray a substance on sth." ; !Rand key:n103000788649n
-ziig'andaan    VTI_TAG    " 1 christen sth." ; !Rand key:n103000788449n
-zhooshkwegda'aan    VTI_TAG    " 1 roll sth. out with a rolling pin (generally of pie crust)" ; !Rand key:n103000788220n
-zhiwebshkaan    VTI_TAG    " 1 shove sth. [with one’s weight] to a certain spot" ; !Rand key:n103000787649n
-zhiingaabndaan    VTI_TAG    " 1 annoyed by how sth. looks, be annoyed by the look of sth., find sth.’s appearance annoying, dislike how sth. looks" ; !Rand key:n103000787176n
-zhiibskaasdoon    VTI_TAG    " 1 winnow sth." ; !Rand key:n103000780671n
-zhiibshkaasdoon    VTI_TAG    " 1 winnow sth." ; !Rand key:n103000780662n
-zhiibaayaabndaan    VTI_TAG    " 1 look at sth. through binoculars, look at sth. through a telescope, look at sth. through a microscope" ; !Rand key:n103000780467n
-zhiibaayaabiignaan    VTI_TAG    " 1 put sth. [ropelike] through an opening" ; !Rand key:n103000780438n
-zhiibaawaaknaan    VTI_TAG    " 1 put sth. [sticklike] through an opening" ; !Rand key:n103000780381n
-zhi-dbishkoosdoon    VTI_TAG    " 1 line sth. up with another object" ; !Rand key:n103000780034n
-zhgajtaan    VTI_TAG    " 1 tire of hearing sth., tire of listening to sth." ; !Rand key:n103000779950n
-zhgajiitaan    VTI_TAG    " 1 tire of sth." ; !Rand key:n103000779942n
-zhgajiikaan    VTI_TAG    " 1 tire of working on sth." ; !Rand key:n103000779922n
-zhewebshkaan    VTI_TAG    " 1 push sth. back [with one’s weight]" ; !Rand key:n103000779751n
-zhenaan    VTI_TAG    " 1 turn sth. back [rejecting it]" ; !Rand key:n103000779688n
-zhekaan'gwaadaan    VTI_TAG    " 1 sew border trim on sth." ; !Rand key:n103000779657n
-zhegiiwezh'aan    VTI_TAG    " 1 send sth. back that one ordered, return sth. that one ordered" ; !Rand key:n103000779566n
-zhegiiwedoon    VTI_TAG    " 1 take sth. back home" ; !Rand key:n103000779542n
-zhegaandnaan    VTI_TAG    " 1 [gently] push sth. backwards" ; !Rand key:n103000779491n
-Zhaagnaashiinikaadaan    VTI_TAG    " 1 call sth. by an English name, give sth. an English name" ; !Rand key:n103000778683n
-Zhaagnaashiiganaandaan    VTI_TAG    " 1 refer to something in English, say something with an English spin" ; !Rand key:n103000778661n
-zhaabshkaasdoon    VTI_TAG    " 1 sift sth." ; !Rand key:n103000778516n
-zgindaan    VTI_TAG    " 1 grab sth. by biting, grab sth. with one’s teeth" ; !Rand key:n103000770665n
-zgiigshkaan    VTI_TAG    " 1 have sth. [sheetlike] partly pinned under one’s weight" ; !Rand key:n103000770599n
-zgapdoon    VTI_TAG    " 1 tie sth. to another thing (in order to pull it)" ; !Rand key:n103000770449n
-zgandaan    VTI_TAG    " 1 grab sth. by biting, grab sth. with one’s teeth" ; !Rand key:n103000770436n
-zedaabaadaan    VTI_TAG    " 1 drag sth. [stringlike] behind on the ground" ; !Rand key:n103000769770n
-zebwejiibdoon    VTI_TAG    " 1 deflate sth." ; !Rand key:n103000769750n
-zaawaakzaan    VTI_TAG    " 1 brown sth. with heat" ; !Rand key:n103000769532n
-zaaskinaan    VTI_TAG    " 1 be frugal with sth." ; !Rand key:n103000769469n
-zaaskibdoon    VTI_TAG    " 1 barely grab sth. in time, barely grasp sth. in time, grab sth. just in the nick of time" ; !Rand key:n103000769438n
-zaamzaan    VTI_TAG    " 1 overcook sth. " ; !Rand key:n103000769313n
-zaamendaan    VTI_TAG    " 1 dwell too much on sth." ; !Rand key:n103000769185n
-zaamaagmizaan    VTI_TAG    " 1 overheat sth. (a liquid)" ; !Rand key:n103000769084n
-zaagjibtwaadaan    VTI_TAG    " 1 carry sth. out of a building by running, run carrying sth. out of a building" ; !Rand key:n103000768826n
-zaagjibdetoon    VTI_TAG    " 1 drive sth. out" ; !Rand key:n103000768767n
-zaagdakii'aan    VTI_TAG    " 1 transplant sth. to the outdoors" ; !Rand key:n103000768440n
-zaagdaabiignaan    VTI_TAG    " 1 extend sth. [stringlike] out through an opening" ; !Rand key:n103000768313n
-yekwaa-dba'aan    VTI_TAG    " 1 finish paying off sth., pay sth. off" ; !Rand key:n103000767896n
-wnagndaan    VTI_TAG    " 1 lose one’s place in counting sth." ; !Rand key:n103000758149n
-wii'zhaabndaan    VTI_TAG    " 1 think sth. one sees is cute, find sth.’s appearance cute" ; !Rand key:n103000758009n
-wiiwkwejiipdoon    VTI_TAG    " 1 wrap sth." ; !Rand key:n103000757929n
-wiingeyaaddaan    VTI_TAG    " 1 tell all there is to tell about sth, give an exhaustive account about sth." ; !Rand key:n103000757184n
-wiindaan    VTI_TAG    " 1 name sth., give sth. a name" ; !Rand key:n103000757157n
-wiikwaasdoon    VTI_TAG    " 1 suck sth. up [with a machine], vacuum sth. up" ; !Rand key:n103000756944n
-wiijkwaad'aan    VTI_TAG    " 1 pull sth. over to oneself [with an instrument" ; !Rand key:n103000756872n
-wiidendaan    VTI_TAG    " 1 find sth. funny, think sth. is amusing" ; !Rand key:n103000756758n
-weshoowsidoon    VTI_TAG    " 1 place sth. at the ready, put sth. at the ready" ; !Rand key:n103000756440n
-wenpatoon    VTI_TAG    " 1 make an easy job of sth., make sth. easily" ; !Rand key:n103000756399n
-wenpanne'aan    VTI_TAG    " 1 buy sth. at a cheap price, get a bargain in buying sth." ; !Rand key:n103000756379n
-wenooshknaan    VTI_TAG    " 1 make a big show of having lots of sth. (typically money)" ; !Rand key:n103000756353n
-webiikaan    VTI_TAG    " 1 begin working on sth., start working on sth." ; !Rand key:n103000756259n
-web'aan    VTI_TAG    " 1 shovel out sth." ; !Rand key:n103000756229n
-wajbidoon    VTI_TAG    " 1 grab sth. quickly, snatch sth. up" ; !Rand key:n103000756114n
-waawnendaan    VTI_TAG    " 1 find sth. funny, think sth. is amusing" ; !Rand key:n103000755990n
-waaskonebdoon    VTI_TAG    " 1 turn sth. on (of lights)" ; !Rand key:n103000755711n
-waasko'aan    VTI_TAG    " 1 polish sth., varnish sth., wax sth." ; !Rand key:n103000755662n
-waagbidetoon    VTI_TAG    " 1 throw a curve ball" ; !Rand key:n103000746379n
-tibwebnaan    VTI_TAG    " 1 roll sth. [to move it]" ; !Rand key:n103000745993n
-tibnaan    VTI_TAG    " 1 wind sth. [stringlike]" ; !Rand key:n103000745956n
-tibjiiwebnaan    VTI_TAG    " 1 roll sth. [to move it]" ; !Rand key:n103000745943n
-tibjiinaan    VTI_TAG    " 1 roll sth. [to move it]" ; !Rand key:n103000745916n
-tibbidoon    VTI_TAG    " 1 tip sth. over [with the hands], roll sth. over [with the hands]" ; !Rand key:n103000745844n
-tibaaknaan    VTI_TAG    " 1 roll up sth." ; !Rand key:n103000745789n
-tibaakjiibdoon    VTI_TAG    " 1 roll sth. up" ; !Rand key:n103000745763n
-tibaakiignaan    VTI_TAG    " 1 roll up sth. [sheetlike]" ; !Rand key:n103000745754n
-tibaagnaan    VTI_TAG    " 1 form rim of sth. by weaving, weave sth. around a container to form a rim" ; !Rand key:n103000745734n
-sweyaasdoon    VTI_TAG    " 1 disperse a powdery substance, spray a liquid" ; !Rand key:n103000745486n
-sweyaabiisdoon    VTI_TAG    " 1 spread sth. out in a line" ; !Rand key:n103000745453n
-sweboodaadaan    VTI_TAG    " 1 spray sth." ; !Rand key:n103000745429n
-spojiinaan    VTI_TAG    " 1 fully clasp one’s hand around sth. " ; !Rand key:n103000745396n
-skagmizaan    VTI_TAG    " 1 boil sth. down, boil sth. dry" ; !Rand key:n103000745201n
-skaabiitoon    VTI_TAG    " 1 drain sth. (generally a well)" ; !Rand key:n103000745166n
-skaabii'aan    VTI_TAG    " 1 drain sth. (generally a well)" ; !Rand key:n103000745157n
-ska'aabwaadaan    VTI_TAG    " 1 drain sth. (generally a well)" ; !Rand key:n103000745133n
-shpimsagkaadaan    VTI_TAG    " 1 make an upstairs for a house, make a house two storey" ; !Rand key:n103000744993n
-shpakmig'aan    VTI_TAG    " 1 pile soil into a mound [with an instrument], rake soil into a mound" ; !Rand key:n103000744953n
-shoojiiwaa    VTI_TAG    " 1 coat sth. (an.) with a thick or paste-like substance (e.g. icing, plaster), smear a thick or paste-like substance on sth. (an.), spread a thick or paste-like substance on sth. (an.)" ; !Rand key:n103000744839n
-shoojii'aan    VTI_TAG    " 1 coat sth. with a thick or paste-like substance (e.g. icing, plaster), smear a thick or paste-like substance on sth., spread a thick or paste-like substance on sth." ; !Rand key:n103000744802n
-shoodaakwebshkaan    VTI_TAG    " 1 push sth. against something [with one’s weight] so it’s flush against it" ; !Rand key:n103000744778n
-shmagjiibdoon    VTI_TAG    " 1 flatten sth." ; !Rand key:n103000744758n
-shkibdetoon    VTI_TAG    " 1 throw sth. so it curves in flight (i.e. a curve ball)" ; !Rand key:n103000744524n
-shigzhaan    VTI_TAG    " 1 cut sth. and have it break up into pieces" ; !Rand key:n103000744387n
-shigwaasdoon    VTI_TAG    " 1 puree sth., shred sth. in a blender" ; !Rand key:n103000744339n
-shigsidoon    VTI_TAG    " 1 shatter sth. [by striking it against something]" ; !Rand key:n103000744320n
-shigshkoodoon    VTI_TAG    " 1 crush sth. to small bits, squash sth. [with a weight]" ; !Rand key:n103000744290n
-shigshkaan    VTI_TAG    " 1 crush sth. to small bits, squash sth. [with one’s weight]" ; !Rand key:n103000744260n
-shignendaan    VTI_TAG    " 1 crumble sth. [in one’s mouth]" ; !Rand key:n103000744236n
-shigndaan    VTI_TAG    " 1 chew sth. to pieces, chew sth. to a pulp" ; !Rand key:n103000744216n
-shignaan    VTI_TAG    " 1 crush sth. to pieces [with one’s hands]" ; !Rand key:n103000744207n
-shigkodaan    VTI_TAG    " 1 cut sth. up into small pieces, shred sth. [by cutting it up]" ; !Rand key:n103000744149n
-shigjiishkaan    VTI_TAG    " 1 crush sth. (an.) to a pulp, squash sth. (an.) [with one’s weight]" ; !Rand key:n103000744121n
-shigjiibdoon    VTI_TAG    " 1 crumble sth., crush sth. to pieces [with one’s hands]" ; !Rand key:n103000744064n
-shigganaandaan    VTI_TAG    " 1 crush sth. to pieces by pounding it" ; !Rand key:n103000744054n
-shigbidoon    VTI_TAG    " 1 crumble sth., crush sth. to pieces [with one’s hands]" ; !Rand key:n103000744012n
-shig'aan    VTI_TAG    " 1 break sth. up into pieces [with an instrument], crush sth. to bits [with an instrument]" ; !Rand key:n103000743970n
-shagjii'aan    VTI_TAG    " 1 mash sth." ; !Rand key:n103004167957n
-sagwebnaan    VTI_TAG    " 1 throw several strands of sth. [rope-like] all at once" ; !Rand key:n103004167702n
-pognebdoon    VTI_TAG    " 1 make holes in sth. with one’s hands, perforate sth. with one’s hands" ; !Rand key:n103004167559n
-pabshkwaayaagwaadaan    VTI_TAG    " 1 sew sth. in a square shape" ; !Rand key:n103004166781n
-ntaawtoon    VTI_TAG    " 1 be good at [making] sth." ; !Rand key:n103004166366n
-ntaatoon    VTI_TAG    " 1 be good at sth." ; !Rand key:n103004166357n
-ntaagtoon    VTI_TAG    " 1 haunt a place" ; !Rand key:n103004166324n
-nshikewsidoon    VTI_TAG    " 1 place sth. so it’s by itself, put sth. somewhere by itself" ; !Rand key:n103004165875n
-nshanaajbidoon    VTI_TAG    " 1 mess sth. up in handling it" ; !Rand key:n103004165624n
-nsataan    VTI_TAG    " 1 recognize the sound of sth., understand sth." ; !Rand key:n103004165437n
-nsaakwebshkaan    VTI_TAG    " 1 kick the door open, open the door with one’s weight" ; !Rand key:n103004165370n
-nsaakwebnaan    VTI_TAG    " 1 throw the door open" ; !Rand key:n103004165362n
-npaajsidoon    VTI_TAG    " 1 arrange sth. the wrong way, put sth. the wrong way" ; !Rand key:n103004165224n
-npaajjiinaan    VTI_TAG    " 1 hold sth. the wrong way (of 3-dimensional objects)" ; !Rand key:n103004165183n
-npaaji-nsotaan    VTI_TAG    " 1 misunderstand sth." ; !Rand key:n103004165151n
-npaaji-dbaabndaan    VTI_TAG    " 1 misjudge sth. [in estimating amount or size]" ; !Rand key:n103004165136n
-npaadsidoon    VTI_TAG    " 1 arrange sth. the wrong way, put sth. the wrong way" ; !Rand key:n103004165091n
-npaadnaamtaan    VTI_TAG    " 1 mispronounce sth." ; !Rand key:n103004165069n
-noosnaan    VTI_TAG    " 1 miss sth. in trying to grab it" ; !Rand key:n103000714172n
-noonskaan    VTI_TAG    " 1 outgrow sth. (of clothes)" ; !Rand key:n103000714141n
-noonjkaan    VTI_TAG    " 1 outgrow sth. (of clothes)" ; !Rand key:n103000714122n
-noondshkaan    VTI_TAG    " 1 outgrow sth. (of clothes)" ; !Rand key:n103000714100n
-nookiigbidoon    VTI_TAG    " 1 soften sth. [sheetlike] with the hands" ; !Rand key:n103000713972n
-noojtoon    VTI_TAG    " 1 go out picking sth. [regularly]" ; !Rand key:n103000713864n
-nniizaanendaan    VTI_TAG    " 1 fear that something bad will happen to sth." ; !Rand key:n103000713520n
-nnaawshkoodoon    VTI_TAG    " 1 balance sth. (of loads), balance [weight of] sth." ; !Rand key:n103000713217n
-nnaawkodaan    VTI_TAG    " 1 trim sth. to shape it properly" ; !Rand key:n103000713157n
-nnaawiignaan    VTI_TAG    " 1 adjust sth. [sheetlike] so it lies or hangs better" ; !Rand key:n103000713126n
-niwgkidoon    VTI_TAG    " 1 forget where one has hidden sth." ; !Rand key:n103000712828n
-niwgaadoon    VTI_TAG    " 1 forget where one has hidden sth. " ; !Rand key:n103000712799n
-nishkaajwebnaan    VTI_TAG    " 1 shove sth. angrily" ; !Rand key:n103000712745n
-niizaanaaddaan    VTI_TAG    " 1 relate sth. as dangerous, say that sth. is dangerous" ; !Rand key:n103000712317n
-niimnendaan    VTI_TAG    " 1 hold sth. crosswise in one’s mouth" ; !Rand key:n103000712063n
-niigaani-gkendaan    VTI_TAG    " 1 have foreknowledge of sth., know about sth. in advance" ; !Rand key:n103000711981n
-niigaanaajdaan    VTI_TAG    " 1 foretell sth., prophesy sth." ; !Rand key:n103000711945n
-niigaanaaddaan    VTI_TAG    " 1 foretell sth., prophesy sth." ; !Rand key:n103000711917n
-niidgwaadaan    VTI_TAG    " 1 snare sth." ; !Rand key:n103000711866n
-ni'gkidoon    VTI_TAG    " 1 forget where one has hidden sth." ; !Rand key:n103000711675n
-ni'gaadoon    VTI_TAG    " 1 forget where one has hidden sth." ; !Rand key:n103000711656n
-ngosdoon    VTI_TAG    " 1 use sth. all up" ; !Rand key:n103000711614n
-ngodoosdoon    VTI_TAG    " 1 finish drinking sth. all at once" ; !Rand key:n103000711558n
-nepaadsidoon    VTI_TAG    " 1 put sth. the wrong way" ; !Rand key:n103000711508n
-negwaaknaan    VTI_TAG    " 1 insert sth. [sticklike] into a hole, insert sth. [sticklike] into a tubelike object" ; !Rand key:n103000711324n
-negwaabiignaan    VTI_TAG    " 1 thread sth. into a hole, thread sth. into a tubelike object" ; !Rand key:n103000711286n
-ne'aan    VTI_TAG    " 1 stir sth. slowly" ; !Rand key:n103000711256n
-ndaayaagmistoon    VTI_TAG    " 1 stir sth. [by shaking]" ; !Rand key:n103000697307n
-ndaayaagmisdoon    VTI_TAG    " 1 stir sth. [by shaking]" ; !Rand key:n103000697298n
-nbiiwtoon    VTI_TAG    " 1 moisten sth." ; !Rand key:n103000696890n
-nbiiwnaan    VTI_TAG    " 1 moisten sth. [with one’s hands]" ; !Rand key:n103000696868n
-nazaan    VTI_TAG    " 1 cook sth. a certain way" ; !Rand key:n103000696535n
-naazhwewetoon    VTI_TAG    " 1 lower the volume of sth., turn sth. down in volume" ; !Rand key:n103000696279n
-naazhdebdoon    VTI_TAG    " 1 lower the wick in a lamp" ; !Rand key:n103000696206n
-naazhbidoon    VTI_TAG    " 1 pull sth. down (usually of pants or a skirt)" ; !Rand key:n103000696172n
-naasmisin    VTI_TAG    " 1 be at rest facing a certain direction, lie facing a certain way" ; !Rand key:n103000696057n
-naasmisdoon    VTI_TAG    " 1 set sth. to face in a certain direction, place sth. so it faces a certain way" ; !Rand key:n103000696033n
-naaniibwitaan    VTI_TAG    " 1 stand to show support for sth., stand to show respect for sth." ; !Rand key:n103000695862n
-naan    VTI_TAG    " 1 take after sth. [as a trait]" ; !Rand key:n103000695641n
-naakwaan    VTI_TAG    " 1 nail sth. together" ; !Rand key:n103000695577n
-naagnaan    VTI_TAG    " 1 bend sth. a certain way" ; !Rand key:n103000695395n
-naagmisdoon    VTI_TAG    " 1 distill sth. [to make an alcoholic beverage], set sth. to distill [into an alcoholic beverage]" ; !Rand key:n103000695360n
-naagdajiinaan    VTI_TAG    " 1 feel along sth." ; !Rand key:n103000695306n
-naad'aan    VTI_TAG    " 1 pull sth. over to oneself [with an instrument]" ; !Rand key:n103000695200n
-n'kewewdoon    VTI_TAG    " 1 take sth. out of sight" ; !Rand key:n103000694906n
-n'kewebtwaadaan    VTI_TAG    " 1 take sth., running, out of sight behind something" ; !Rand key:n103000694873n
-n'goweb'aan    VTI_TAG    " 1 bury sth. [with an instrument]" ; !Rand key:n103000694805n
-n'gokmig'aan    VTI_TAG    " 1 cover sth. with soil" ; !Rand key:n103000694779n
-n'godaawnga'aan    VTI_TAG    " 1 cover sth. with a granular substance" ; !Rand key:n103000694746n
-n'gajbidetoon    VTI_TAG    " 1 drive sth. skillfully, operate sth. skillfully" ; !Rand key:n103000694691n
-mzinsidoon    VTI_TAG    " 1 render a shape of sth. on a surface" ; !Rand key:n103000694636n
-mzinjiinaan    VTI_TAG    " 1 form sth. [by shaping with the hands], mold sth. by hand" ; !Rand key:n103000694628n
-mzinaawyaadaan    VTI_TAG    " 1 render an image of sth. in quillwork" ; !Rand key:n103000694523n
-mzinaatesdoon    VTI_TAG    " 1 play sth. (i.e. a movie), project an image of sth." ; !Rand key:n103000694490n
-mzinaakshkoodoon    VTI_TAG    " 1 imprint a design into sth. [with an instrument], imprint sth. with a design [with an instrument], stamp a design into sth. [with a die or similar instrument], stamp a design of sth. into a surface" ; !Rand key:n103000694457n
-mzin'gwaadaan    VTI_TAG    " 1 embroider sth., embroider an image of sth." ; !Rand key:n103000694414n
-mzhinaan    VTI_TAG    " 1 damage sth. by touching it" ; !Rand key:n103000694359n
-mzhiidaabaadaan    VTI_TAG    " 1 denude sth. [with an instrument], strip sth. of vegetation [with an instrument]" ; !Rand key:n103000694282n
-myagjiinaan    VTI_TAG    " 1 sth. in one’s hand feel strange" ; !Rand key:n103000694167n
-myagendaan    VTI_TAG    " 1 sth. seem strange to one" ; !Rand key:n103000694147n
-myaawziikdaan    VTI_TAG    " 1 be main server of sth., preside over sth." ; !Rand key:n103000694106n
-myaajii'aan    VTI_TAG    " 1 hit sth. dead on [with an instrument]" ; !Rand key:n103000694031n
-mswinaan    VTI_TAG    " 1 be desirous of sth. attractive, find the look of sth. enticing, sth. catch one’s eye [as enticing] (generally of concrete objects)" ; !Rand key:n103000693872n
-msawaabndaan    VTI_TAG    " 1 be desirous of sth. attractive, find the look of sth. enticing, sth. catch one’s eye [as enticing] (generally of concrete objects)" ; !Rand key:n103000693431n
-moon'ka'aan    VTI_TAG    " 1 hollow out sth." ; !Rand key:n103000693094n
-moon'kaan    VTI_TAG    " 1 hollow out sth." ; !Rand key:n103000693085n
-mookdaan    VTI_TAG    " 1 shave sth., whittle sth., make sth. by whittling" ; !Rand key:n103000692975n
-mookbidoon    VTI_TAG    " 1 pull sth. out into view" ; !Rand key:n103000692927n
-mnwaaddaan    VTI_TAG    " 1 give a good report about sth., say good things about sth." ; !Rand key:n103000680573n
-mno-daapnaan    VTI_TAG    " 1 accept sth. graciously, accept sth. stressful with equanimity" ; !Rand key:n103000680399n
-mnjimendaan    VTI_TAG    " 1 commit sth. to memory, memorize sth., remember sth." ; !Rand key:n103000680290n
-mnidoowendaan    VTI_TAG    " 1 think of sth. as having sacred power" ; !Rand key:n103000680218n
-mnidookaadaan    VTI_TAG    " 1 give sth. sacred status, treat sth. as being powerful, treat sth. as having sacred power" ; !Rand key:n103000680166n
-mmiiznweyaabiigbidoon    VTI_TAG    " 1 do fancy picking on a stringed instrument (e.g. a guitar)" ; !Rand key:n103000679765n
-mmigwebnaan    VTI_TAG    " 1 shake sth." ; !Rand key:n103000679732n
-mmeskjiinaan    VTI_TAG    " 1 hold sth. so as to provoke viewer’s envy" ; !Rand key:n103000679686n
-mmendaadaagmipdaan    VTI_TAG    " 1 not be slaked by sth. drunk, want to drink some more of sth." ; !Rand key:n103000679619n
-mmaandaawziikaan    VTI_TAG    " 1 bless sth." ; !Rand key:n103000679538n
-mkwaan'kaadaan    VTI_TAG    " 1 find sth. in digging" ; !Rand key:n103000679278n
-mkoshkaan    VTI_TAG    " 1 happen upon sth. by accident, stumble upon sth." ; !Rand key:n103000679248n
-mkadeyaakzaan    VTI_TAG    " 1 char sth., blacken sth. in cooking it" ; !Rand key:n103000679146n
-mjimenmaa    VTI_TAG    " 1 commit sth. (an.) to memory, remember smb." ; !Rand key:n103000679048n
-mjimendaan    VTI_TAG    " 1 commit sth. to memory, memorize sth., remember sth." ; !Rand key:n103000679033n
-minaazh'aan    VTI_TAG    " 1 steer sth." ; !Rand key:n103000678877n
-mijnikaabdoon    VTI_TAG    " 1 grab sth. with the left hand, manipulate sth. with the left hand" ; !Rand key:n103000678833n
-miiwebnaan    VTI_TAG    " 1 shove sth. out of the way [with one’s hands]" ; !Rand key:n103000678679n
-midaagwendaan    VTI_TAG    " 1 like sth." ; !Rand key:n103000678067n
-mdweyiignaan    VTI_TAG    " 1 rustle sth. [sheetlike] [in handling it]" ; !Rand key:n103000677719n
-mdweyiig'aan    VTI_TAG    " 1 rustle sth. [sheetlike] [with an instrument]" ; !Rand key:n103000677710n
-mchikaadaan    VTI_TAG    " 1 fence sth., erect a fence around sth." ; !Rand key:n103000660818n
-mbiigwewetoon    VTI_TAG    " 1 play sth. loudly, play sth. noisily" ; !Rand key:n103000660690n
-mbigaabwitaan    VTI_TAG    " 1 stand to show respect for sth. (e.g. national anthem), stand to show support for sth., vote for sth. by standing" ; !Rand key:n103000660604n
-mbaweb'aan    VTI_TAG    " 1 heave sth. up [with an instrument]" ; !Rand key:n103000660452n
-mandookaadaan    VTI_TAG    " 1 treat sth. as an object to be feared (as if it had sacred powers)" ; !Rand key:n103000660301n
-magsitoon    VTI_TAG    " 1 shake sth." ; !Rand key:n103000660238n
-maanaadgoodoon    VTI_TAG    " 1 hang sth. in an awkward position" ; !Rand key:n103000659784n
-maamkaajjiinaan    VTI_TAG    " 1 hold sth. so as to flaunt it" ; !Rand key:n103000659670n
-maamiikpidaan    VTI_TAG    " 1 find sth. fabulously tasty, sth. taste fabulous to one" ; !Rand key:n103000659543n
-maamiikwaagmipdaan    VTI_TAG    " 1 find sth. [liquid] fabulously tasty, sth. [liquid] taste fabulous to one" ; !Rand key:n103000659522n
-maajiinaashkaan    VTI_TAG    " 1 send sth. off somewhere" ; !Rand key:n103000659361n
-maagwaakwaan    VTI_TAG    " 1 clamp sth. [to fasten]" ; !Rand key:n103000659291n
-maagndaan    VTI_TAG    " 1 clench on sth. [with one’s teeth] " ; !Rand key:n103000659268n
-kwejtoon    VTI_TAG    " 1 try doing sth. again and again, practice doing sth. (of skills being learned)" ; !Rand key:n103000659167n
-kwaaksidoon    VTI_TAG    " 1 raise the window open" ; !Rand key:n103000658989n
-kobdoon    VTI_TAG    " 1 pull sth. up (of clothing}" ; !Rand key:n103000658733n
-kakdegwaadaan    VTI_TAG    " 1 sew sth. in a square shape" ; !Rand key:n103000658219n
-jijwebnaan    VTI_TAG    " 1 flip sth. upside down [to dump its contents]" ; !Rand key:n103000658060n
-jiingsatoon    VTI_TAG    " 1 rock sth." ; !Rand key:n103000645219n
-jiijiikndaan    VTI_TAG    " 1 gnaw on sth. [sticklike] here and there, nibble on sth. [sticklike]" ; !Rand key:n103000645160n
-jiigkodaan    VTI_TAG    " 1 trim sth. [by cutting]" ; !Rand key:n103000645127n
-jiigaakndaan    VTI_TAG    " 1 gnaw on sth." ; !Rand key:n103000645064n
-jiichiigndaan    VTI_TAG    " 1 gnaw on sth." ; !Rand key:n103000644958n
-jiibweb'aan    VTI_TAG    " 1 give sth. a slight shake [with an instrument]" ; !Rand key:n103000644846n
-jidwebnaan    VTI_TAG    " 1 flip sth. upside down [to dump its contents]" ; !Rand key:n103000644758n
-jejenjwewetoon    VTI_TAG    " 1 play a musical instrument beautifully" ; !Rand key:n103000644635n
-jaagmakwaadaan    VTI_TAG    " 1 strip an area of berries" ; !Rand key:n103000644361n
-jaagi-dba'aan    VTI_TAG    " 1 finish paying off sth., pay sth. off" ; !Rand key:n103000644328n
-jaachiigwaakndaan    VTI_TAG    " 1 gnaw on sth." ; !Rand key:n103000644225n
-gzikoodoon    VTI_TAG    " 1 weigh sth., measure the weight of sth." ; !Rand key:n103000644110n
-gziiyaakwaan    VTI_TAG    " 1 wipe the wall, wash the wall" ; !Rand key:n103000644073n
-gziijii'aan    VTI_TAG    " 1 wipe sth. [3-dimensional]" ; !Rand key:n103000643989n
-gziibiigsatoon    VTI_TAG    " 1 wash sth. vigorously (as with a washboard)" ; !Rand key:n103000643963n
-gzhaawesdoon    VTI_TAG    " 1 set sth. straight, set sth. level" ; !Rand key:n103000643717n
-gzhaagmishkoodoon    VTI_TAG    " 1 heat sth. [liquid] up by pouring something hot in it, pour hot liquid in sth. [liquid] to heat it up" ; !Rand key:n103000643646n
-gyaksidoon    VTI_TAG    " 1 adjust the position of sth., put sth. in its proper place, straighten sth. out [by moving it]" ; !Rand key:n103000643580n
-gyakshkaan    VTI_TAG    " 1 wear sth. the right way" ; !Rand key:n103000643565n
-gwinjdoon    VTI_TAG    " 1 put sth. in water [to soak], soak sth." ; !Rand key:n103000643493n
-gwiinwi-gkidoon    VTI_TAG    " 1 forget where one has hidden sth., forget where one has stashed sth." ; !Rand key:n103000643369n
-gwiidaakw'aan    VTI_TAG    " 1 pry sth. up [with an instrument], raise sth. [with an instrument]" ; !Rand key:n103000643288n
-gwektaan    VTI_TAG    " 1 hear sth. accurately" ; !Rand key:n103000642913n
-gwekshkoodoon    VTI_TAG    " 1 make sth. [sheetlike] even [with a weight]" ; !Rand key:n103000642900n
-gwekshkaan    VTI_TAG    " 1 wear sth. the right way" ; !Rand key:n103000642874n
-gwekbidetoon    VTI_TAG    " 1 turn sth. around [in driving]" ; !Rand key:n103000642771n
-gtaangwewejiisdoon    VTI_TAG    " 1 strike sth. [3-dimensional] against the floor really loudly" ; !Rand key:n103000642173n
-gshkiiwtoon    VTI_TAG    " 1 make sth. airtight (generally of buildings)" ; !Rand key:n103000641674n
-gonjdoon    VTI_TAG    " 1 put sth. in water [to soak], soak sth." ; !Rand key:n103000641389n
-gnibaasdoon    VTI_TAG    " 1 use sth. up quickly" ; !Rand key:n103000622100n
-gnibaagmandaan    VTI_TAG    " 1 drink sth. up quickly" ; !Rand key:n103000622087n
-gndaabiignaan    VTI_TAG    " 1 dip sth. in liquid, immerse sth. in liquid" ; !Rand key:n103000619302n
-gjisdoon    VTI_TAG    " 1 put sth. somewhere to check if it fits, try [putting] sth. somewhere to check if it fits" ; !Rand key:n103000617891n
-gjindaabiignaan    VTI_TAG    " 1 immerse sth. in liquid" ; !Rand key:n103000617843n
-gjignezaan    VTI_TAG    " 1 cook sth. to the point meat comes off the bone" ; !Rand key:n103000616440n
-gjib'iwetoon    VTI_TAG    " 1 escape with sth. [to save it]" ; !Rand key:n103000616417n
-giizhootoon    VTI_TAG    " 1 renovate sth.  to make place warmer, insulate" ; !Rand key:n103000614773n
-giizhaakw'ige    VTI_TAG    " 1 finish nailing things together" ; !Rand key:n103000612691n
-giizhaakw'aan    VTI_TAG    " 1 finish nailing sth. together" ; !Rand key:n103000612678n
-giiwtaawaabiignaan    VTI_TAG    " 1 wind sth. around an object" ; !Rand key:n103000611033n
-giiwaazaabndaan    VTI_TAG    " 1 not see sth. clearly" ; !Rand key:n103000606549n
-giiwaaji-kwaakboodoon    VTI_TAG    " 1 cut sth. [sticklike] the wrong length" ; !Rand key:n103000605185n
-giiwaajboodoon    VTI_TAG    " 1 cut sth. in the wrong spot (in sawing), cut sth. (an.) the wrong way (in sawing, so it doesn’t fit]" ; !Rand key:n103000605146n
-giitaasdoon    VTI_TAG    " 1 arrange sth. in a circle, arrange sth. so that something is encircled" ; !Rand key:n103000602634n
-giitaakdaan    VTI_TAG    " 1 cut a circle around sth." ; !Rand key:n103000602607n
-giitaagoodoon    VTI_TAG    " 1 hang sth. in a circle" ; !Rand key:n103000602577n
-giishkgaadeboodoon    VTI_TAG    " 1 cut the legs off of sth." ; !Rand key:n103000599416n
-ggwetaanwewejiisdoon    VTI_TAG    " 1 strike sth. [3-dimensional] against the floor really loudly" ; !Rand key:n103000581500n
-ggwedaakwaadaan    VTI_TAG    " 1 take shots at sth., try to strike sth. [with objects thrown]" ; !Rand key:n103000578754n
-gezkondaan    VTI_TAG    " 1 [be able to] get sth. before it’s all eaten up" ; !Rand key:n103000574810n
-geshwibdoon    VTI_TAG    " 1 loosen sth." ; !Rand key:n103000573326n
-gdogshkaan    VTI_TAG    " 1 knock sth. over [with one’s weight], tip sth. over [with one’s weight]" ; !Rand key:n103000569500n
-gdogmin'gibdoon    VTI_TAG    " 1 roll sth. over [with the hand] (of small round objects)" ; !Rand key:n103000568253n
-gdogjiiwebshkaan    VTI_TAG    " 1 tip sth. over [with one’s weight], roll sth. over [with one’s weight]" ; !Rand key:n103000568223n
-gdogjiiwebnaan    VTI_TAG    " 1 tip sth. over [with the hands], roll sth. over [with the hands]" ; !Rand key:n103000568214n
-gdogjiiweb'aan    VTI_TAG    " 1 tip sth. over [with an instrument], roll sth. over [with an instrument]" ; !Rand key:n103000568194n
-gdogjiishkaan    VTI_TAG    " 1 tip sth. over [with one’s weight], roll sth. over [with one’s weight]" ; !Rand key:n103000566991n
-gdogjiinaan    VTI_TAG    " 1 tip sth. over, roll sth. over" ; !Rand key:n103000566983n
-gdogjiibdoon    VTI_TAG    " 1 tip sth. over [with the hands], roll sth. over [with the hands]" ; !Rand key:n103000566952n
-gdogjii'aan    VTI_TAG    " 1 tip sth. over [with an instrument], roll sth. over [with an instrument]" ; !Rand key:n103000566943n
-gdiskaabiigshkaan    VTI_TAG    " 1 knock a power cord from the outlet [with one’s weight]" ; !Rand key:n103000565893n
-gdakii'aan    VTI_TAG    " 1 check depth of a liquid with a stick" ; !Rand key:n103000565793n
-gbwan'ka'aan    VTI_TAG    " 1 close the stove damper" ; !Rand key:n103000558973n
-gbizhe'aan    VTI_TAG    " 1 close the stove air vent" ; !Rand key:n103004118992n
-gbakgoodoon    VTI_TAG    " 1 close drapery" ; !Rand key:n103004118903n
-gbakaanaa    VTI_TAG    " 1 overtake smb., pass smb. [driving]" ; !Rand key:n103004118882n
-gbaabkinaan    VTI_TAG    " 1 close the flue damper" ; !Rand key:n103004118731n
-gayeksidoon    VTI_TAG    " 1 straighten up sth." ; !Rand key:n103004118706n
-gaandkii'aan    VTI_TAG    " 1 pole a boat" ; !Rand key:n103004118166n
-gaakkishkaan    VTI_TAG    " 1 rip sth. [clothing worn, due to one’s size], tear sth. [clothing worn, due to one’s size]" ; !Rand key:n103004118128n
-gaakaashkaad'aan    VTI_TAG    " 1 scrape sth. [with an instrument]" ; !Rand key:n103004118063n
-gaakaapndaan    VTI_TAG    " 1 gnaw on sth. crunchy" ; !Rand key:n103004118042n
-gaakaapjiindaan    VTI_TAG    " 1 chew sth. (an.) crunchy, gnaw on sth. (an.) crunchy" ; !Rand key:n103004118026n
-gaagiizhsidoon    VTI_TAG    " 1 put sth. at the ready, set out sth." ; !Rand key:n103004117938n
-dpiwebshkaan    VTI_TAG    " 1 open sth. [with one’s weight], kick sth. open" ; !Rand key:n103004117419n
-dpaasdoon    VTI_TAG    " 1 blow sth. through an opening" ; !Rand key:n103004117389n
-dpaaknaan    VTI_TAG    " 1 put sth. [sticklike] through an opening" ; !Rand key:n103004117381n
-dpaabaawjige    VTI_TAG    " 1 water a garden, water plants, dampen things" ; !Rand key:n103004117362n
-dpaabaawdoon    VTI_TAG    " 1 water sth." ; !Rand key:n103004117353n
-dnaajdaan    VTI_TAG    " 1 relate sth. being at a certain place, say sth. is at a certain place" ; !Rand key:n103004117154n
-dkoobdoon    VTI_TAG    " 1 fill sth. to a shallow depth" ; !Rand key:n103004117045n
-dkaagmishkoodoon    VTI_TAG    " 1 add cold water or ice to sth. [liquid] to cool it off" ; !Rand key:n103004116948n
-dkaabaawdoon    VTI_TAG    " 1 cool sth. by pouring water on it" ; !Rand key:n103004116929n
-dgwaagmizaan    VTI_TAG    " 1 boil sth. along with something else, include sth. as an ingredient in making soup" ; !Rand key:n103004116860n
-desnaan    VTI_TAG    " 1 hold sth. spread out [to display it]" ; !Rand key:n103004116598n
-depidoon    VTI_TAG    " 1 grab sth., snatch sth." ; !Rand key:n103004116510n
-debaakjiishkaan    VTI_TAG    " 1 sth. fit one around the waist" ; !Rand key:n103004116258n
-ddibgwaadaan    VTI_TAG    " 1 hem sth., sew something along the edge of sth." ; !Rand key:n103004116206n
-ddibaakwegnaan    VTI_TAG    " 1 roll up sth. [sheetlike]" ; !Rand key:n103004116172n
-dbinootoon    VTI_TAG    " 1 make sth. so that it shelters things [from the elements], make sth. so that it shields things [from the elements]" ; !Rand key:n103004116003n
-dba'gesdoon    VTI_TAG    " 1 make up for sth." ; !Rand key:n103004115845n
-dazhwegda'aan    VTI_TAG    " 1 roll sth. out [with a rolling pin]" ; !Rand key:n103004115824n
-daataangwewesdoon    VTI_TAG    " 1 tinkle a bell" ; !Rand key:n103004115703n
-daataagda'aan    VTI_TAG    " 1 tap on sth. [with an instrument], pound sth. lightly [with an instrument]" ; !Rand key:n103004115577n
-daangkiisdoon    VTI_TAG    " 1 a container one is holding touch the ground" ; !Rand key:n103004115372n
-daangbiig'aan    VTI_TAG    " 1 dab paint on sth., get a bit of paint on sth." ; !Rand key:n103004115345n
-chargemi'aa    VTI_TAG    " 1 charge sth. (an.) (a battery)" ; !Rand key:n103004115181n
-bzokaan    VTI_TAG    " 1 trip over sth. [ropelike]" ; !Rand key:n103004115164n
-bzagwaabookaadaan    VTI_TAG    " 1 thicken sth. (generally soup)" ; !Rand key:n103004115041n
-bwi'aan    VTI_TAG    " 1 knock sth. down [with an instrument]" ; !Rand key:n103004114941n
-bwan'ka'aan    VTI_TAG    " 1 put the anchor down for sth." ; !Rand key:n103004114891n
-bwaasdoon    VTI_TAG    " 1 winnow sth." ; !Rand key:n103004114864n
-btigwaabnaan    VTI_TAG    " 1 wind sth." ; !Rand key:n103004114836n
-btigbidoon    VTI_TAG    " 1 tip sth. over" ; !Rand key:n103004114800n
-btaanzaan    VTI_TAG    " 1 colour sth. else by mistake, get paint on sth. [adjoining] by accident in painting" ; !Rand key:n103004114722n
-btaan'kaadaan    VTI_TAG    " 1 dig sth. else up by accident in digging" ; !Rand key:n103004114703n
-btaakbidoon    VTI_TAG    " 1 tie sth. to something" ; !Rand key:n103004114629n
-bshkwaakbidoon    VTI_TAG    " 1 pull out sth. growing in soil" ; !Rand key:n103004114356n
-boozweb'aan    VTI_TAG    " 1 load sth. on to a vehicle [with an instrument]" ; !Rand key:n102996033472n
-boonbidetoon    VTI_TAG    " 1 turn sth. off (of an appliance that’s running)" ; !Rand key:n102996031490n
-bnitaan    VTI_TAG    " 1 miss part of what’s said, not hear sth. right; hear sth. in passing" ; !Rand key:n102996029201n
-bniskwebnaan    VTI_TAG    " 1 spread sth. out roughly" ; !Rand key:n102996029192n
-bniskwaabiidoon    VTI_TAG    " 1 uncoil sth., unroll sth., unwind sth." ; !Rand key:n102996029136n
-bnisknaan    VTI_TAG    " 1 extend sth. out [from a folded position]" ; !Rand key:n102996028254n
-bnagaad'aan    VTI_TAG    " 1 scrape off sth." ; !Rand key:n102996025730n
-bmiweb'aan    VTI_TAG    " 1 move sth. along [with an instrument]" ; !Rand key:n102996024166n
-bminzhaadaan    VTI_TAG    " 1 administer sth., be director of sth., manage sth., run sth." ; !Rand key:n102996024122n
-bmiikaan    VTI_TAG    " 1 attend to sth." ; !Rand key:n102996023092n
-bmaajtoon    VTI_TAG    " 1 bring sth. back to life, revive sth. (e.g. a houseplant)" ; !Rand key:n102996021049n
-bmaadnaan    VTI_TAG    " 1 budge sth." ; !Rand key:n102996021036n
-bkwaakdajiinaan    VTI_TAG    " 1 ball sth. up" ; !Rand key:n102996018361n
-bkokmig'aan    VTI_TAG    " 1 pile soil into a mound [with an instrument], rake soil into a mound" ; !Rand key:n102996017322n
-bkodaasdoon    VTI_TAG    " 1 dislodge sth. [with a high-pressure blower or sprayer], expel sth. [by coughing]" ; !Rand key:n102996014178n
-bkod'aan    VTI_TAG    " 1 pry sth. off, remove sth. stuck somewhere [with an instrument], scrape sth. off something" ; !Rand key:n102996014149n
-bkishkoodoon    VTI_TAG    " 1 break sth. [stringlike] by putting too much weight on it" ; !Rand key:n102996013038n
-bkidaakgoodoon    VTI_TAG    " 1 hang sth. over an object" ; !Rand key:n102996011822n
-biizgibdoon    VTI_TAG    " 1 roll sth. into curly shapes [with the hands], twist sth. into curly shapes" ; !Rand key:n102996009559n
-biiwebnaan    VTI_TAG    " 1 sprinkle sth. [dry]" ; !Rand key:n102996008622n
-biitwaabaawdoon    VTI_TAG    " 1 rinse sth." ; !Rand key:n102996008549n
-biitaan    VTI_TAG    " 1 occupy sth., take up occupancy in sth." ; !Rand key:n102996007438n
-biisda'aan    VTI_TAG    " 1 grind sth. to a powder, pulverize sth. [with an instrument]" ; !Rand key:n102996006373n
-biinjbadoon    VTI_TAG    " 1 fill sth. that’s narrow necked using a funnel" ; !Rand key:n102996004240n
-biindaaknaan    VTI_TAG    " 1 stick sth. [sticklike] into a cylindrical object" ; !Rand key:n102996003249n
-biinaabaawdoon    VTI_TAG    " 1 rinse sth. clean" ; !Rand key:n102996002170n
-biigwaasdoon    VTI_TAG    " 1 break sth. [mechanical] from operating it too roughly, break sth. from overuse" ; !Rand key:n102995998910n
-biigninjaandaan    VTI_TAG    " 1 wear out sth. from handling it (e.g. of books)" ; !Rand key:n102995998875n
-biigdiiyaandaan    VTI_TAG    " 1 break sth. with one’s rear end, break sth. that’s too small from squeezing into it, wear sth. out from number of times one wears it" ; !Rand key:n102995997864n
-bgashkboodoon    VTI_TAG    " 1 grind sth." ; !Rand key:n102995992699n
-beshwendaan    VTI_TAG    " 1 think sth. as being close" ; !Rand key:n102995960218n
-bejiikaan    VTI_TAG    " 1 be slow in working on sth." ; !Rand key:n102995959224n
-bchi-daapnaan    VTI_TAG    " 1 pick sth. up in error, take sth. in error" ; !Rand key:n102995955923n
-bchiboodoon    VTI_TAG    " 1 cut sth. by accident in sawing" ; !Rand key:n102995955892n
-bchibiig'aan    VTI_TAG    " 1 get paint on sth. [adjoining] by accident in painting" ; !Rand key:n102995954747n
-bbogneyaan    VTI_TAG    " 1 make many holes in sth. [with an instrument]" ; !Rand key:n102995954731n
-bbognebdoon    VTI_TAG    " 1 make many holes in sth. [with the hands]" ; !Rand key:n102995954694n
-bazhaaptoon    VTI_TAG    " 1 laugh and laugh at sth." ; !Rand key:n102995952487n
-baaskobdoon    VTI_TAG    " 1 untie sth." ; !Rand key:n102995948806n
-baashjiwebnaan    VTI_TAG    " 1 throw sth. (an.) over an obstacle" ; !Rand key:n102995948758n
-baashda'aan    VTI_TAG    " 1 skip sth. (e.g. a grade), surpass sth." ; !Rand key:n102995947520n
-baapiiwebnaan    VTI_TAG    " 1 shake dust off sth., shake crumbs off sth." ; !Rand key:n102995947440n
-baagsidoon    VTI_TAG    " 1 hit sth. on a shoal" ; !Rand key:n102995943427n
-baabsidyaandaan    VTI_TAG    " 1 sth. be tight around one’s bum, wear sth. that fits tightly around the bum" ; !Rand key:n102995942448n
-baabshiigbidoon    VTI_TAG    " 1 stretch sth. [sheetlike] out so it’s taut" ; !Rand key:n102995942428n
-baabgo'aan    VTI_TAG    " 1 pry sth. off [with an instrument]" ; !Rand key:n102995942369n
-baabgobdoon    VTI_TAG    " 1 peel sth. off, pull sth. off" ; !Rand key:n102995940925n
-aasmitoon    VTI_TAG    " 1 lean sth. up against something" ; !Rand key:n102995939663n
-aasgaabwitaan    VTI_TAG    " 1 second a motion [parliamentary procedure]" ; !Rand key:n102995938297n
-aapzaabndaan    VTI_TAG    " 1 stare at sth." ; !Rand key:n102995937314n
-aaptaapko'oodoon    VTI_TAG    " 1 knot sth. really securely" ; !Rand key:n102995937257n
-aanpidaan    VTI_TAG    " 1 be dissatisfied with the taste of sth., sth. taste unsatisfactory to one" ; !Rand key:n102995934832n
-aanji-aabjitoon    VTI_TAG    " 1 reuse sth., recycle sth. " ; !Rand key:n102995931087n
-aandkisdoon    VTI_TAG    " 1 relocate sth. [sticklike]" ; !Rand key:n102995929959n
-aandaanzaan    VTI_TAG    " 1 paint sth. a new colour" ; !Rand key:n102995929916n
-aandaabka'aan    VTI_TAG    " 1 unlock sth." ; !Rand key:n102995928726n
-aan'keshkaan    VTI_TAG    " 1 second a motion" ; !Rand key:n102995928629n
-aan'kejiitoon    VTI_TAG    " 1 add on to a building, build an extension on sth." ; !Rand key:n102995927735n
-aan'kejiisdoon    VTI_TAG    " 1 move sth. [in rearranging stuff]" ; !Rand key:n102995927722n
-aan'kegnaandaan    VTI_TAG    " 1 second a motion" ; !Rand key:n102995927713n
-aan'kaabwaadaan    VTI_TAG    " 1 add water to sth. to thin it, dilute sth." ; !Rand key:n102995927687n
-aagwaateshkaan    VTI_TAG    " 1 cast a shadow over sth." ; !Rand key:n102995926378n
-aagnendaan    VTI_TAG    " 1 dispute sth., doubt sth., not believe sth." ; !Rand key:n102995926340n
-aabwiitoowegsidoon    VTI_TAG    " 1 use sth. as a lining, use sth. as a second layer" ; !Rand key:n102995925111n
-aabwaakwaan    VTI_TAG    " 1 remove sth. that’s bolted onto something" ; !Rand key:n102995923971n
-aabskwaakwaan    VTI_TAG    " 1 remove sth. that’s bolted onto something" ; !Rand key:n102995923868n
-aaboojiigbidoon    VTI_TAG    " 1 turn sth. [made of cloth] inside out" ; !Rand key:n102995921979n
-gwetaanbidetoon    VTI_TAG    " 1 drive sth. fast, run sth. at great speed, make sth. go fast (of machines)" ; !Rand key:n58fa1bdfab5449d698c623320a01dd02n
-gwekwaaddaan    VTI_TAG    " 1 be certain of one’s account about sth., relate something about sth. with certainty, tell a story about sth. accurately" ; !Rand key:n58fa1bdf8008431e9d4523320a01dd02n
-miikwaan    VTI_TAG    " 1 hit sth. [on target], strike sth. [on target]" ; !Rand key:n58fa1bdfa05c4912932123320a01dd02n
-miikwaakaadaan    VTI_TAG    " 1 find an activity matching one’s interests exactly, find an activity exactly suiting one’s aptitude" ; !Rand key:n58fa1bdf6a284de1a2ec23320a01dd02n
-miikshkaan    VTI_TAG    " 1 strike sth. [with one’s weight] exactly on some part, come upon sth. in the right spot" ; !Rand key:n58fa1bdf1f384f009def23320a01dd02n
-miiksatoon    VTI_TAG    " 1 make sth. fit with another thing, match sth. up with something" ; !Rand key:n58fa1bdf3fc44002ba2b23320a01dd02n
-miiknaashkaan    VTI_TAG    " 1 wear a footpath into sth." ; !Rand key:n58fa1bdf65d84253924323320a01dd02n
-megpidaan    VTI_TAG    " 1 find sth. tastes novel, find sth. tastes strange, find sth. tastes unusual" ; !Rand key:n58fa1bdf3ca844dd965323320a01dd02n
-megnaan    VTI_TAG    " 1 sth. not feel right in one’s hand, sth. in one's hand feel odd" ; !Rand key:n58fa1bde93b0467d9a7323320a01dd02n
-megjiinaan    VTI_TAG    " 1 sth. in one's hand feel strange" ; !Rand key:n58fa1bdef8104b7b8ad223320a01dd02n
-megendaan    VTI_TAG    " 1 sth. seem strange to one" ; !Rand key:n58fa1bde09644fc09bb223320a01dd02n
-megaabndaan    VTI_TAG    " 1 sth. look strange to one, sth. look unfamiliar to one" ; !Rand key:n58fa1bde9cf84d0f89e023320a01dd02n
-mdweyaakbiiyaan    VTI_TAG    " 1 write sth." ; !Rand key:n58fa1bde4be042699f5923320a01dd02n
-mdweyaabiigbidoon    VTI_TAG    " 1 play sth. (of guitars), pluck [the string of] sth. (of musical instruments]" ; !Rand key:n58fa1bdec434476aa19723320a01dd02n
-mdeyaabiigbidoon    VTI_TAG    " 1 play sth. (of guitars), pluck [the string of] sth. (of musical instruments]" ; !Rand key:n58fa1bde874c4d5ab48423320a01dd02n
-mchisdoon    VTI_TAG    " 1 leave sth. exposed, leave sth. uncovered" ; !Rand key:n58fa1bde917044e1a1b223320a01dd02n
-mbiigwewesdoon    VTI_TAG    " 1 ring sth. loudly" ; !Rand key:n58fa1bde6d7844fdabf123320a01dd02n
-magwaaksatoon    VTI_TAG    " 1 shake sth." ; !Rand key:n58fa1bdef2e844cb95e123320a01dd02n
-maawndooweb'aan    VTI_TAG    " 1 rake sth. up, sweep sth. up together" ; !Rand key:n58fa1bde7b0844a3887a23320a01dd02n
-maawndoobiiyaan    VTI_TAG    " 1 add up sth., compile sth." ; !Rand key:n58fa1bdeb4f844f49ff123320a01dd02n
-maat'oonaan    VTI_TAG    " 1 apportion sth., divvy up sth." ; !Rand key:n58fa1bde9dcc482fa68523320a01dd02n
-maanaajnikaadaan    VTI_TAG    " 1 give sth. a bad name, give sth. an ugly name, give sth. an unflattering name" ; !Rand key:n58fa1bdea114444c922223320a01dd02n
-maanaajkodaan    VTI_TAG    " 1 cut sth. crooked, make a bad cut in sth." ; !Rand key:n58fa1bdec5104cc3993923320a01dd02n
-maamnontaan    VTI_TAG    " 1 notice sth. said, notice sth. making a sound" ; !Rand key:n58fa1bdeedfc48aba7dc23320a01dd02n
-maamiijin    VTI_TAG    " 1 snack away on sth." ; !Rand key:n58fa1bddeb9c4f9bbc4923320a01dd02n
-maagjiibdoon    VTI_TAG    " 1 press sth. [with the hands], squeeze sth. [with the hands]" ; !Rand key:n58fa1bdd4f9047ea97ce23320a01dd02n
-maad'oonaan    VTI_TAG    " 1 apportion sth., divvy up sth." ; !Rand key:n58fa1bdd5d38494f93ea23320a01dd02n
-kwegbidoon    VTI_TAG    " 1 pull sth. [sheetlike] up" ; !Rand key:n58fa1bdd52ac4203bd5523320a01dd02n
-kakdekdaan    VTI_TAG    " 1 cut sth. into a square, cut sth. in a square shape" ; !Rand key:n58fa1bdd86844adcbce023320a01dd02n
-jijboodoon    VTI_TAG    " 1 gulp down sth. [liquid], guzzle sth. down; sip sth." ; !Rand key:n58fa1bdd2d7c4fab979623320a01dd02n
-jiibwebshkaan    VTI_TAG    " 1 shake sth. slightly [with one’s weight], jostle sth. [with one’s weight]" ; !Rand key:n58fa1bdd091447f2ba1023320a01dd02n
-jiibwebnaan    VTI_TAG    " 1 give sth. a slight shake" ; !Rand key:n58fa1bdd6d904bdba01323320a01dd02n
-jidboodoon    VTI_TAG    " 1 gulp down sth. [liquid], guzzle sth. down" ; !Rand key:n58fa1bdc3efc402cacbd23320a01dd02n
-jaangaasdoon    VTI_TAG    " 1 pitch sth. so it rises slightly (i.e. a rising fastball)" ; !Rand key:n58fa1bdcab98414d99e223320a01dd02n
-jaangaaksidoon    VTI_TAG    " 1 arrange sth. so it’s tilted up" ; !Rand key:n58fa1bdc1b40400c9a0c23320a01dd02n
-jaagbidoon    VTI_TAG    " 1 pick all of sth. (of fruits and plants)" ; !Rand key:n58fa1bdcf9a04b97867023320a01dd02n
-jaagaawdoon    VTI_TAG    " 1 carry away all of sth., take away all of sth." ; !Rand key:n58fa1bdcfb5c4adc855023320a01dd02n
-jaachiingwewesdoon    VTI_TAG    " 1 tinkle a bell intermittently" ; !Rand key:n58fa1bdc663c4578a79023320a01dd02n
-gzhiiwewetoon    VTI_TAG    " 1 play sth. loudly, turn up the volume of sth." ; !Rand key:n58fa1bdcd1c04745b70a23320a01dd02n
-ntamsidoon    VTI_TAG    " 1 place sth. first [ahead of others]" ; !Rand key:n58fa1bdc57684ee28dba23320a01dd02n
-nshkaajwebnaan    VTI_TAG    " 1 shove sth. angrily, toss sth. angrily" ; !Rand key:n58fa1bdc853c48beba5b23320a01dd02n
-nshkaadsatoon    VTI_TAG    " 1 shove sth. angrily" ; !Rand key:n58fa1bdc64304767b06123320a01dd02n
-nshanaadaabiignaan    VTI_TAG    " 1 mess sth. up (such as in wiring)" ; !Rand key:n58fa1bdc3fa4446db2a123320a01dd02n
-npaazaabndaan    VTI_TAG    " 1 look at sth. from the wrong angle or side" ; !Rand key:n58fa1bdcaf444784adbe23320a01dd02n
-npaastoon    VTI_TAG    " 1 put sth. down the wrong way" ; !Rand key:n58fa1bdc2dfc4d63a61b23320a01dd02n
-npaaji-nsastaan    VTI_TAG    " 1 misunderstand sth." ; !Rand key:n58fa1bdcd2d8406da65023320a01dd02n
-npaadnaan    VTI_TAG    " 1 hold sth. the wrong way" ; !Rand key:n58fa1bdcfa804b21ac8e23320a01dd02n
-nningbidoon    VTI_TAG    " 1 shake sth." ; !Rand key:n58fa1bdbe29c48d2bee423320a01dd02n
-nnangsatoon    VTI_TAG    " 1 shake sth." ; !Rand key:n58fa1bdbe1e842978cb323320a01dd02n
-nnaawkamga'aan    VTI_TAG    " 1 smooth out sth. [soil]" ; !Rand key:n58fa1bdb4f244b75a18023320a01dd02n
-nnaa'aabiignaan    VTI_TAG    " 1 fix up sth. [stringlike], tune a stringed instrument" ; !Rand key:n58fa1bdb263c469c899f23320a01dd02n
-nnaa'aabiigbidoon    VTI_TAG    " 1 tune up sth. [that has strings]" ; !Rand key:n58fa1bdb10f04a45a8de23320a01dd02n
-nishitoon    VTI_TAG    " 1 say grace before a meal, say a prayer before a meeting" ; !Rand key:n58fa1bdb6f4c498c945223320a01dd02n
-nishendaan    VTI_TAG    " 1 think sth. efficacious; think sth. works well" ; !Rand key:n58fa1bdb6b9c4b73a29423320a01dd02n
-nimdaabaadaan    VTI_TAG    " 1 drag sth. away from view, drive away from view transporting sth." ; !Rand key:n58fa1bdbb4d84226b1a323320a01dd02n
-niizhoowaabiignaan    VTI_TAG    " 1 double up sth. [stringlike]" ; !Rand key:n58fa1bdbb47841f39c9c23320a01dd02n
-niisaakiiyedaabaadaan    VTI_TAG    " 1 transport sth. down a hill" ; !Rand key:n58fa1bdb38c04046ae6a23320a01dd02n
-negwebnaan    VTI_TAG    " 1 shove sth. underneath something, toss sth. underneath something" ; !Rand key:n58fa1bdb5ddc4580821a23320a01dd02n
-ndobtwaadaan    VTI_TAG    " 1 run out to try and get sth." ; !Rand key:n58fa1bdaca5c49c5b8c423320a01dd02n
-ndamendaan    VTI_TAG    " 1 have one’s mind preoccupied with sth." ; !Rand key:n58fa1bda8fe443e1957023320a01dd02n
-ndaajiinaan    VTI_TAG    " 1 rummage in sth." ; !Rand key:n58fa1bda28084e6a931923320a01dd02n
-nbagjiibdoon    VTI_TAG    " 1 flatten sth. [with the hands]" ; !Rand key:n58fa1bda36404a95a3b923320a01dd02n
-namtoon    VTI_TAG    " 1 build a road along a certain path, build a road to a certain place" ; !Rand key:n58fa1bda06d04988b4af23320a01dd02n
-nakdoon    VTI_TAG    " 1 set sth. on the stove to start cooking" ; !Rand key:n58fa1bda5ea046fe98ef23320a01dd02n
-nagoodoon    VTI_TAG    " 1 hang sth. a certain way" ; !Rand key:n58fa1bda3c404167afc223320a01dd02n
-naawkooshknadoon    VTI_TAG    " 1 fill sth. only partly [with a solid substance], fill sth. to under capacity [with a solid substance]" ; !Rand key:n58fa1bdac0584c988efb23320a01dd02n
-naaniisiigndaan    VTI_TAG    " 1 chew sth. [sheetlike] to shreds" ; !Rand key:n58fa1bdac4a445d8a09523320a01dd02n
-naaniisiigbidoon    VTI_TAG    " 1 tear sth. [sheetlike] to shreds" ; !Rand key:n58fa1bda445840c5acaa23320a01dd02n
-naagbidoon    VTI_TAG    " 1 bend sth. a certain way" ; !Rand key:n58fa1bd9746c47d58fef23320a01dd02n
-naadmaadaan    VTI_TAG    " 1 help sth." ; !Rand key:n58fa1bd92790451c86eb23320a01dd02n
-myegendaan    VTI_TAG    " 1 be unaccustomed to sth., sth. seem strange to one" ; !Rand key:n58fa1bd95d64429698bf23320a01dd02n
-myegaabndaan    VTI_TAG    " 1 sth. look strange to one" ; !Rand key:n58fa1bd9b4e44fc4940a23320a01dd02n
-mswendaan    VTI_TAG    " 1 benefit from sth. (Wk, Wp);  2 desire sth., want sth., wish for sth. (CL, M’Ch, Sg)" ; !Rand key:n58fa1bd930f84b05b80223320a01dd02n
-mswaabndaan    VTI_TAG    " 1 be desirous of sth. nice looking, find the look of sth. appealing, find the look of sth. enticing, sth. catch one's eye [as enticing]" ; !Rand key:n58fa1bd9d9d049a4acd223320a01dd02n
-mskojiizaan    VTI_TAG    " 1 brown sth. [cooking]" ; !Rand key:n58fa1bd99e7040c1aec223320a01dd02n
-mshkawnaan    VTI_TAG    " 1 grip sth. strongly, hold sth. firmly" ; !Rand key:n58fa1bd966884a9e8ecd23320a01dd02n
-moozhgiwebnaan    VTI_TAG    " 1 toss sth. [gathered] together" ; !Rand key:n58fa1bd9a24449019dd023320a01dd02n
-moozhgandaan    VTI_TAG    " 1 eat sth. up [as scraps]" ; !Rand key:n58fa1bd9ad104d58a55623320a01dd02n
-moonshkwaadaan    VTI_TAG    " 1 weed sth." ; !Rand key:n58fa1bd8ea40410ea97423320a01dd02n
-mookmaaniig'aan    VTI_TAG    " 1 iron sth. to knife-edge creases" ; !Rand key:n58fa1bd8a63c4a4ca05a23320a01dd02n
-mookiibdoon    VTI_TAG    " 1 pull sth. out into view" ; !Rand key:n58fa1bd89a584249816623320a01dd02n
-mnogtoon    VTI_TAG    " 1 grow sth. well" ; !Rand key:n58fa1bd89fc04465b7c123320a01dd02n
-mnawdoon    VTI_TAG    " 1 go along with sth. inadvisable, go along with sth. problematic; help sth. along" ; !Rand key:n58fa1bd805e04bbe969423320a01dd02n
-mnapiitaagmitoon    VTI_TAG    " 1 brew sth. to the right strength" ; !Rand key:n58fa1bd8c5a44080ad9823320a01dd02n
-mnan'kaadaan    VTI_TAG    " 1 give sth. a nice name" ; !Rand key:n58fa1bd8e2704647baaa23320a01dd02n
-mmiiznikdaan    VTI_TAG    " 1 carve sth. with various designs, cut various designs into sth." ; !Rand key:n58fa1bd8c4a44c87b5c223320a01dd02n
-mmeskwaabndaan    VTI_TAG    " 1 be tempted by sth. one sees, look at sth. wishfully" ; !Rand key:n58fa1bd8ed3c460daf6623320a01dd02n
-mmesksidoon    VTI_TAG    " 1 place sth. somewhere temptingly, set sth. out temptingly" ; !Rand key:n58fa1bd8a784437385a723320a01dd02n
-mmaangkodaan    VTI_TAG    " 1 cut sth. up into big pieces" ; !Rand key:n58fa1bd8fdf4446694ab23320a01dd02n
-mjwebshkaan    VTI_TAG    " 1 knock sth. down [with one’s weight] from an elevated location" ; !Rand key:n58fa1bd75954455a922e23320a01dd02n
-mjwebnaan    VTI_TAG    " 1 throw sth. down from an elevated location" ; !Rand key:n58fa1bd74d204633bf8623320a01dd02n
-mjweb'aan    VTI_TAG    " 1 knock sth. down [with an instrument] from an elevated location" ; !Rand key:n58fa1bd773904895ae7823320a01dd02n
-miiwjii'aan    VTI_TAG    " 1 hit sth. dead on (M’Ch);  2 push sth. away [with an instrument] (Sg, Wk)" ; !Rand key:n58fa1bd775304b2e8d5023320a01dd02n
-wiingetoon    VTI_TAG    " 1 handle sth. carefully (CL, M’Ch, Wp);  2 use sth. up entirely (Wk)" ; !Rand key:n58fa1bd78eb048b1af0523320a01dd02n
-wiiknaamtaan    VTI_TAG    " 1 inhale sth., sniff sth. [to inhale it]" ; !Rand key:n58fa1bd7e2d849af948a23320a01dd02n
-wenpazh'aa    VTI_TAG    " 1 make something easy for smb." ; !Rand key:n58fa1bd769e04feaa4e923320a01dd02n
-wenpazhtoon    VTI_TAG    " 1 make an easy job of sth., make sth. easily" ; !Rand key:n58fa1bd775b041d3bc1823320a01dd02n
-waan'kojii'aan    VTI_TAG    " 1 hollow sth. out" ; !Rand key:n58fa1bd6731c43f794e523320a01dd02n
-waan'kiiyendaan    VTI_TAG    " 1 trust sth." ; !Rand key:n58fa1bd626a4464ebfc923320a01dd02n
-waanjiintoon    VTI_TAG    " 1 have an ample amount of sth." ; !Rand key:n58fa1bd6db5042e9a7fd23320a01dd02n
-sweyaawdoon    VTI_TAG    " 1 take sth. distributing it among various places" ; !Rand key:n58fa1bd66544410591f223320a01dd02n
-sweyaangdoon    VTI_TAG    " 1 scatter sth. about, strew sth. about" ; !Rand key:n58fa1bd67478410bafde23320a01dd02n
-swekiiyaan    VTI_TAG    " 1 transplant sth." ; !Rand key:n58fa1bd66acc461dae3e23320a01dd02n
-swebiig'andaan    VTI_TAG    " 1 sprinkle water on sth." ; !Rand key:n58fa1bd6eb684af78f8c23320a01dd02n
-shoodsidoon    VTI_TAG    " 1 place sth. so it’s flush against something" ; !Rand key:n58fa1bd65f94463faec123320a01dd02n
-shoodaakganaandaan    VTI_TAG    " 1 knock sth. so it’s flush against an object" ; !Rand key:n58fa1bd6524446808f8323320a01dd02n
-shoodaakbidoon    VTI_TAG    " 1 pull sth. flush against another object" ; !Rand key:n58fa1bd6b89c49a6a47c23320a01dd02n
-shkaasdoon    VTI_TAG    " 1 throw sth. so it curves in flight (i.e. throw a curve ball)" ; !Rand key:n58fa1bd53e5c41b2b10923320a01dd02n
-shigzaan    VTI_TAG    " 1 cook sth. to mush, cook sth. until it turns mushy" ; !Rand key:n58fa1bd5c4ac4a38873823320a01dd02n
-shaweksidoon    VTI_TAG    " 1 erect sth. crookedly, stand sth. crookedly" ; !Rand key:n58fa1bd588a04725a35f23320a01dd02n
-piitendaan    VTI_TAG    " 1 hold sth. in a certain regard" ; !Rand key:n58fa1bd5c9284cc3b81323320a01dd02n
-pagnjiwdoon    VTI_TAG    " 1 carry sth. to a certain spot, deliver sth. to a certain spot [in hauling]" ; !Rand key:n58fa1bd50d20405ba16023320a01dd02n
-pagdoon    VTI_TAG    " 1 throw sth., toss sth., pitch sth. (as in baseball)" ; !Rand key:n58fa1bd410b44f7b9dc823320a01dd02n
+zoosoomd    VTI_AM_THEME    " 1 suck on sth." ; !Rand key:n103000789593n
+zoosoobnd    VTI_AM_THEME    " 1 suck on sth." ; !Rand key:n103000789571n
+zoomd    VTI_AM_THEME    " 1 suck the tip of sth." ; !Rand key:n103000789512n
+zookoobiigsid    VTI_OO_THEME    " 1 leave sth. resting somewhere to drain" ; !Rand key:n103000789487n
+zoobnd    VTI_AM_THEME    " 1 suck the tip of sth." ; !Rand key:n103000789434n
+ziin'koobiign    VTI_AM_THEME    " 1 wring sth. out" ; !Rand key:n103000789196n
+ziindaakjiishkood    VTI_OO_THEME    " 1 pin sth. [3-dimensional] between two things [with a weight]" ; !Rand key:n103000788962n
+ziindaakdiiyaand    VTI_AM_THEME    " 1 have part of one’s pants wedged between one’s buttocks" ; !Rand key:n103000788875n
+ziinbiigbid    VTI_OO_THEME    " 1 squeeze liquid from sth., wring sth. out" ; !Rand key:n103000788842n
+ziikoobiigsid    VTI_OO_THEME    " 1 leave sth. resting somewhere to drain, set sth. somewhere to drain" ; !Rand key:n103000788782n
+ziikaapd    VTI_AM_THEME    " 1 guzzle sth. [liquid] down" ; !Rand key:n103000788745n
+ziigwebsat    VTI_OO_THEME    " 1 spill from sth. forcefully, spill [liquid] from sth. forcefully" ; !Rand key:n103000788721n
+ziignibood    VTI_OO_THEME    " 1 spray a substance on sth." ; !Rand key:n103000788649n
+ziig'and    VTI_AM_THEME    " 1 christen sth." ; !Rand key:n103000788449n
+zhooshkwegda'    VTI_AM_THEME    " 1 roll sth. out with a rolling pin (generally of pie crust)" ; !Rand key:n103000788220n
+zhiwebshk    VTI_AM_THEME    " 1 shove sth. [with one’s weight] to a certain spot" ; !Rand key:n103000787649n
+zhiingaabnd    VTI_AM_THEME    " 1 annoyed by how sth. looks, be annoyed by the look of sth., find sth.’s appearance annoying, dislike how sth. looks" ; !Rand key:n103000787176n
+zhiibskaasd    VTI_OO_THEME    " 1 winnow sth." ; !Rand key:n103000780671n
+zhiibshkaasd    VTI_OO_THEME    " 1 winnow sth." ; !Rand key:n103000780662n
+zhiibaayaabnd    VTI_AM_THEME    " 1 look at sth. through binoculars, look at sth. through a telescope, look at sth. through a microscope" ; !Rand key:n103000780467n
+zhiibaayaabiign    VTI_AM_THEME    " 1 put sth. [ropelike] through an opening" ; !Rand key:n103000780438n
+zhiibaawaakn    VTI_AM_THEME    " 1 put sth. [sticklike] through an opening" ; !Rand key:n103000780381n
+zhi-dbishkoosd    VTI_OO_THEME    " 1 line sth. up with another object" ; !Rand key:n103000780034n
+zhgajt    VTI_AM_THEME    " 1 tire of hearing sth., tire of listening to sth." ; !Rand key:n103000779950n
+zhgajiit    VTI_AM_THEME    " 1 tire of sth." ; !Rand key:n103000779942n
+zhgajiik    VTI_AM_THEME    " 1 tire of working on sth." ; !Rand key:n103000779922n
+zhewebshk    VTI_AM_THEME    " 1 push sth. back [with one’s weight]" ; !Rand key:n103000779751n
+zhen    VTI_AM_THEME    " 1 turn sth. back [rejecting it]" ; !Rand key:n103000779688n
+zhekaan'gwaad    VTI_AM_THEME    " 1 sew border trim on sth." ; !Rand key:n103000779657n
+zhegiiwezh'    VTI_AM_THEME    " 1 send sth. back that one ordered, return sth. that one ordered" ; !Rand key:n103000779566n
+zhegiiwed    VTI_OO_THEME    " 1 take sth. back home" ; !Rand key:n103000779542n
+zhegaandn    VTI_AM_THEME    " 1 [gently] push sth. backwards" ; !Rand key:n103000779491n
+Zhaagnaashiinikaad    VTI_AM_THEME    " 1 call sth. by an English name, give sth. an English name" ; !Rand key:n103000778683n
+Zhaagnaashiiganaand    VTI_AM_THEME    " 1 refer to something in English, say something with an English spin" ; !Rand key:n103000778661n
+zhaabshkaasd    VTI_OO_THEME    " 1 sift sth." ; !Rand key:n103000778516n
+zgind    VTI_AM_THEME    " 1 grab sth. by biting, grab sth. with one’s teeth" ; !Rand key:n103000770665n
+zgiigshk    VTI_AM_THEME    " 1 have sth. [sheetlike] partly pinned under one’s weight" ; !Rand key:n103000770599n
+zgapd    VTI_OO_THEME    " 1 tie sth. to another thing (in order to pull it)" ; !Rand key:n103000770449n
+zgand    VTI_AM_THEME    " 1 grab sth. by biting, grab sth. with one’s teeth" ; !Rand key:n103000770436n
+zedaabaad    VTI_AM_THEME    " 1 drag sth. [stringlike] behind on the ground" ; !Rand key:n103000769770n
+zebwejiibd    VTI_OO_THEME    " 1 deflate sth." ; !Rand key:n103000769750n
+zaawaakz    VTI_AM_THEME    " 1 brown sth. with heat" ; !Rand key:n103000769532n
+zaaskin    VTI_AM_THEME    " 1 be frugal with sth." ; !Rand key:n103000769469n
+zaaskibd    VTI_OO_THEME    " 1 barely grab sth. in time, barely grasp sth. in time, grab sth. just in the nick of time" ; !Rand key:n103000769438n
+zaamz    VTI_AM_THEME    " 1 overcook sth. " ; !Rand key:n103000769313n
+zaamend    VTI_AM_THEME    " 1 dwell too much on sth." ; !Rand key:n103000769185n
+zaamaagmiz    VTI_AM_THEME    " 1 overheat sth. (a liquid)" ; !Rand key:n103000769084n
+zaagjibtwaad    VTI_AM_THEME    " 1 carry sth. out of a building by running, run carrying sth. out of a building" ; !Rand key:n103000768826n
+zaagjibdet    VTI_OO_THEME    " 1 drive sth. out" ; !Rand key:n103000768767n
+zaagdakii'    VTI_AM_THEME    " 1 transplant sth. to the outdoors" ; !Rand key:n103000768440n
+zaagdaabiign    VTI_AM_THEME    " 1 extend sth. [stringlike] out through an opening" ; !Rand key:n103000768313n
+yekwaa-dba'    VTI_AM_THEME    " 1 finish paying off sth., pay sth. off" ; !Rand key:n103000767896n
+wnagnd    VTI_AM_THEME    " 1 lose one’s place in counting sth." ; !Rand key:n103000758149n
+wii'zhaabnd    VTI_AM_THEME    " 1 think sth. one sees is cute, find sth.’s appearance cute" ; !Rand key:n103000758009n
+wiiwkwejiipd    VTI_OO_THEME    " 1 wrap sth." ; !Rand key:n103000757929n
+wiingeyaadd    VTI_AM_THEME    " 1 tell all there is to tell about sth, give an exhaustive account about sth." ; !Rand key:n103000757184n
+wiind    VTI_AM_THEME    " 1 name sth., give sth. a name" ; !Rand key:n103000757157n
+wiikwaasd    VTI_OO_THEME    " 1 suck sth. up [with a machine], vacuum sth. up" ; !Rand key:n103000756944n
+wiijkwaad'    VTI_AM_THEME    " 1 pull sth. over to oneself [with an instrument" ; !Rand key:n103000756872n
+wiidend    VTI_AM_THEME    " 1 find sth. funny, think sth. is amusing" ; !Rand key:n103000756758n
+weshoowsid    VTI_OO_THEME    " 1 place sth. at the ready, put sth. at the ready" ; !Rand key:n103000756440n
+wenpat    VTI_OO_THEME    " 1 make an easy job of sth., make sth. easily" ; !Rand key:n103000756399n
+wenpanne'    VTI_AM_THEME    " 1 buy sth. at a cheap price, get a bargain in buying sth." ; !Rand key:n103000756379n
+wenooshkn    VTI_AM_THEME    " 1 make a big show of having lots of sth. (typically money)" ; !Rand key:n103000756353n
+webiik    VTI_AM_THEME    " 1 begin working on sth., start working on sth." ; !Rand key:n103000756259n
+web'    VTI_AM_THEME    " 1 shovel out sth." ; !Rand key:n103000756229n
+wajbid    VTI_OO_THEME    " 1 grab sth. quickly, snatch sth. up" ; !Rand key:n103000756114n
+waawnend    VTI_AM_THEME    " 1 find sth. funny, think sth. is amusing" ; !Rand key:n103000755990n
+waaskonebd    VTI_OO_THEME    " 1 turn sth. on (of lights)" ; !Rand key:n103000755711n
+waasko'    VTI_AM_THEME    " 1 polish sth., varnish sth., wax sth." ; !Rand key:n103000755662n
+waagbidet    VTI_OO_THEME    " 1 throw a curve ball" ; !Rand key:n103000746379n
+tibwebn    VTI_AM_THEME    " 1 roll sth. [to move it]" ; !Rand key:n103000745993n
+tibn    VTI_AM_THEME    " 1 wind sth. [stringlike]" ; !Rand key:n103000745956n
+tibjiiwebn    VTI_AM_THEME    " 1 roll sth. [to move it]" ; !Rand key:n103000745943n
+tibjiin    VTI_AM_THEME    " 1 roll sth. [to move it]" ; !Rand key:n103000745916n
+tibbid    VTI_OO_THEME    " 1 tip sth. over [with the hands], roll sth. over [with the hands]" ; !Rand key:n103000745844n
+tibaakn    VTI_AM_THEME    " 1 roll up sth." ; !Rand key:n103000745789n
+tibaakjiibd    VTI_OO_THEME    " 1 roll sth. up" ; !Rand key:n103000745763n
+tibaakiign    VTI_AM_THEME    " 1 roll up sth. [sheetlike]" ; !Rand key:n103000745754n
+tibaagn    VTI_AM_THEME    " 1 form rim of sth. by weaving, weave sth. around a container to form a rim" ; !Rand key:n103000745734n
+sweyaasd    VTI_OO_THEME    " 1 disperse a powdery substance, spray a liquid" ; !Rand key:n103000745486n
+sweyaabiisd    VTI_OO_THEME    " 1 spread sth. out in a line" ; !Rand key:n103000745453n
+sweboodaad    VTI_AM_THEME    " 1 spray sth." ; !Rand key:n103000745429n
+spojiin    VTI_AM_THEME    " 1 fully clasp one’s hand around sth. " ; !Rand key:n103000745396n
+skagmiz    VTI_AM_THEME    " 1 boil sth. down, boil sth. dry" ; !Rand key:n103000745201n
+skaabiit    VTI_OO_THEME    " 1 drain sth. (generally a well)" ; !Rand key:n103000745166n
+skaabii'    VTI_AM_THEME    " 1 drain sth. (generally a well)" ; !Rand key:n103000745157n
+ska'aabwaad    VTI_AM_THEME    " 1 drain sth. (generally a well)" ; !Rand key:n103000745133n
+shpimsagkaad    VTI_AM_THEME    " 1 make an upstairs for a house, make a house two storey" ; !Rand key:n103000744993n
+shpakmig'    VTI_AM_THEME    " 1 pile soil into a mound [with an instrument], rake soil into a mound" ; !Rand key:n103000744953n
+shoojii'    VTI_AM_THEME    " 1 coat sth. with a thick or paste-like substance (e.g. icing, plaster), smear a thick or paste-like substance on sth., spread a thick or paste-like substance on sth." ; !Rand key:n103000744802n
+shoodaakwebshk    VTI_AM_THEME    " 1 push sth. against something [with one’s weight] so it’s flush against it" ; !Rand key:n103000744778n
+shmagjiibd    VTI_OO_THEME    " 1 flatten sth." ; !Rand key:n103000744758n
+shkibdet    VTI_OO_THEME    " 1 throw sth. so it curves in flight (i.e. a curve ball)" ; !Rand key:n103000744524n
+shigzh    VTI_AM_THEME    " 1 cut sth. and have it break up into pieces" ; !Rand key:n103000744387n
+shigwaasd    VTI_OO_THEME    " 1 puree sth., shred sth. in a blender" ; !Rand key:n103000744339n
+shigsid    VTI_OO_THEME    " 1 shatter sth. [by striking it against something]" ; !Rand key:n103000744320n
+shigshkood    VTI_OO_THEME    " 1 crush sth. to small bits, squash sth. [with a weight]" ; !Rand key:n103000744290n
+shigshk    VTI_AM_THEME    " 1 crush sth. to small bits, squash sth. [with one’s weight]" ; !Rand key:n103000744260n
+shignend    VTI_AM_THEME    " 1 crumble sth. [in one’s mouth]" ; !Rand key:n103000744236n
+shignd    VTI_AM_THEME    " 1 chew sth. to pieces, chew sth. to a pulp" ; !Rand key:n103000744216n
+shign    VTI_AM_THEME    " 1 crush sth. to pieces [with one’s hands]" ; !Rand key:n103000744207n
+shigkod    VTI_AM_THEME    " 1 cut sth. up into small pieces, shred sth. [by cutting it up]" ; !Rand key:n103000744149n
+shigjiishk    VTI_AM_THEME    " 1 crush sth. (an.) to a pulp, squash sth. (an.) [with one’s weight]" ; !Rand key:n103000744121n
+shigjiibd    VTI_OO_THEME    " 1 crumble sth., crush sth. to pieces [with one’s hands]" ; !Rand key:n103000744064n
+shigganaand    VTI_AM_THEME    " 1 crush sth. to pieces by pounding it" ; !Rand key:n103000744054n
+shigbid    VTI_OO_THEME    " 1 crumble sth., crush sth. to pieces [with one’s hands]" ; !Rand key:n103000744012n
+shig'    VTI_AM_THEME    " 1 break sth. up into pieces [with an instrument], crush sth. to bits [with an instrument]" ; !Rand key:n103000743970n
+shagjii'    VTI_AM_THEME    " 1 mash sth." ; !Rand key:n103004167957n
+sagwebn    VTI_AM_THEME    " 1 throw several strands of sth. [rope-like] all at once" ; !Rand key:n103004167702n
+pognebd    VTI_OO_THEME    " 1 make holes in sth. with one’s hands, perforate sth. with one’s hands" ; !Rand key:n103004167559n
+pabshkwaayaagwaad    VTI_AM_THEME    " 1 sew sth. in a square shape" ; !Rand key:n103004166781n
+ntaawt    VTI_OO_THEME    " 1 be good at [making] sth." ; !Rand key:n103004166366n
+ntaat    VTI_OO_THEME    " 1 be good at sth." ; !Rand key:n103004166357n
+ntaagt    VTI_OO_THEME    " 1 haunt a place" ; !Rand key:n103004166324n
+nshikewsid    VTI_OO_THEME    " 1 place sth. so it’s by itself, put sth. somewhere by itself" ; !Rand key:n103004165875n
+nshanaajbid    VTI_OO_THEME    " 1 mess sth. up in handling it" ; !Rand key:n103004165624n
+nsat    VTI_AM_THEME    " 1 recognize the sound of sth., understand sth." ; !Rand key:n103004165437n
+nsaakwebshk    VTI_AM_THEME    " 1 kick the door open, open the door with one’s weight" ; !Rand key:n103004165370n
+nsaakwebn    VTI_AM_THEME    " 1 throw the door open" ; !Rand key:n103004165362n
+npaajsid    VTI_OO_THEME    " 1 arrange sth. the wrong way, put sth. the wrong way" ; !Rand key:n103004165224n
+npaajjiin    VTI_AM_THEME    " 1 hold sth. the wrong way (of 3-dimensional objects)" ; !Rand key:n103004165183n
+npaaji-nsot    VTI_AM_THEME    " 1 misunderstand sth." ; !Rand key:n103004165151n
+npaaji-dbaabnd    VTI_AM_THEME    " 1 misjudge sth. [in estimating amount or size]" ; !Rand key:n103004165136n
+npaadsid    VTI_OO_THEME    " 1 arrange sth. the wrong way, put sth. the wrong way" ; !Rand key:n103004165091n
+npaadnaamt    VTI_AM_THEME    " 1 mispronounce sth." ; !Rand key:n103004165069n
+noosn    VTI_AM_THEME    " 1 miss sth. in trying to grab it" ; !Rand key:n103000714172n
+noonsk    VTI_AM_THEME    " 1 outgrow sth. (of clothes)" ; !Rand key:n103000714141n
+noonjk    VTI_AM_THEME    " 1 outgrow sth. (of clothes)" ; !Rand key:n103000714122n
+noondshk    VTI_AM_THEME    " 1 outgrow sth. (of clothes)" ; !Rand key:n103000714100n
+nookiigbid    VTI_OO_THEME    " 1 soften sth. [sheetlike] with the hands" ; !Rand key:n103000713972n
+noojt    VTI_OO_THEME    " 1 go out picking sth. [regularly]" ; !Rand key:n103000713864n
+nniizaanend    VTI_AM_THEME    " 1 fear that something bad will happen to sth." ; !Rand key:n103000713520n
+nnaawshkood    VTI_OO_THEME    " 1 balance sth. (of loads), balance [weight of] sth." ; !Rand key:n103000713217n
+nnaawkod    VTI_AM_THEME    " 1 trim sth. to shape it properly" ; !Rand key:n103000713157n
+nnaawiign    VTI_AM_THEME    " 1 adjust sth. [sheetlike] so it lies or hangs better" ; !Rand key:n103000713126n
+niwgkid    VTI_OO_THEME    " 1 forget where one has hidden sth." ; !Rand key:n103000712828n
+niwgaad    VTI_OO_THEME    " 1 forget where one has hidden sth. " ; !Rand key:n103000712799n
+nishkaajwebn    VTI_AM_THEME    " 1 shove sth. angrily" ; !Rand key:n103000712745n
+niizaanaadd    VTI_AM_THEME    " 1 relate sth. as dangerous, say that sth. is dangerous" ; !Rand key:n103000712317n
+niimnend    VTI_AM_THEME    " 1 hold sth. crosswise in one’s mouth" ; !Rand key:n103000712063n
+niigaani-gkend    VTI_AM_THEME    " 1 have foreknowledge of sth., know about sth. in advance" ; !Rand key:n103000711981n
+niigaanaajd    VTI_AM_THEME    " 1 foretell sth., prophesy sth." ; !Rand key:n103000711945n
+niigaanaadd    VTI_AM_THEME    " 1 foretell sth., prophesy sth." ; !Rand key:n103000711917n
+niidgwaad    VTI_AM_THEME    " 1 snare sth." ; !Rand key:n103000711866n
+ni'gkid    VTI_OO_THEME    " 1 forget where one has hidden sth." ; !Rand key:n103000711675n
+ni'gaad    VTI_OO_THEME    " 1 forget where one has hidden sth." ; !Rand key:n103000711656n
+ngosd    VTI_OO_THEME    " 1 use sth. all up" ; !Rand key:n103000711614n
+ngodoosd    VTI_OO_THEME    " 1 finish drinking sth. all at once" ; !Rand key:n103000711558n
+nepaadsid    VTI_OO_THEME    " 1 put sth. the wrong way" ; !Rand key:n103000711508n
+negwaakn    VTI_AM_THEME    " 1 insert sth. [sticklike] into a hole, insert sth. [sticklike] into a tubelike object" ; !Rand key:n103000711324n
+negwaabiign    VTI_AM_THEME    " 1 thread sth. into a hole, thread sth. into a tubelike object" ; !Rand key:n103000711286n
+ne'    VTI_AM_THEME    " 1 stir sth. slowly" ; !Rand key:n103000711256n
+ndaayaagmist    VTI_OO_THEME    " 1 stir sth. [by shaking]" ; !Rand key:n103000697307n
+ndaayaagmisd    VTI_OO_THEME    " 1 stir sth. [by shaking]" ; !Rand key:n103000697298n
+nbiiwt    VTI_OO_THEME    " 1 moisten sth." ; !Rand key:n103000696890n
+nbiiwn    VTI_AM_THEME    " 1 moisten sth. [with one’s hands]" ; !Rand key:n103000696868n
+naz    VTI_AM_THEME    " 1 cook sth. a certain way" ; !Rand key:n103000696535n
+naazhwewet    VTI_OO_THEME    " 1 lower the volume of sth., turn sth. down in volume" ; !Rand key:n103000696279n
+naazhdebd    VTI_OO_THEME    " 1 lower the wick in a lamp" ; !Rand key:n103000696206n
+naazhbid    VTI_OO_THEME    " 1 pull sth. down (usually of pants or a skirt)" ; !Rand key:n103000696172n
+naasmisd    VTI_OO_THEME    " 1 set sth. to face in a certain direction, place sth. so it faces a certain way" ; !Rand key:n103000696033n
+naaniibwit    VTI_AM_THEME    " 1 stand to show support for sth., stand to show respect for sth." ; !Rand key:n103000695862n
+n    VTI_AM_THEME    " 1 take after sth. [as a trait]" ; !Rand key:n103000695641n
+naakw    VTI_AM_THEME    " 1 nail sth. together" ; !Rand key:n103000695577n
+naagn    VTI_AM_THEME    " 1 bend sth. a certain way" ; !Rand key:n103000695395n
+naagmisd    VTI_OO_THEME    " 1 distill sth. [to make an alcoholic beverage], set sth. to distill [into an alcoholic beverage]" ; !Rand key:n103000695360n
+naagdajiin    VTI_AM_THEME    " 1 feel along sth." ; !Rand key:n103000695306n
+naad'    VTI_AM_THEME    " 1 pull sth. over to oneself [with an instrument]" ; !Rand key:n103000695200n
+n'kewewd    VTI_OO_THEME    " 1 take sth. out of sight" ; !Rand key:n103000694906n
+n'kewebtwaad    VTI_AM_THEME    " 1 take sth., running, out of sight behind something" ; !Rand key:n103000694873n
+n'goweb'    VTI_AM_THEME    " 1 bury sth. [with an instrument]" ; !Rand key:n103000694805n
+n'gokmig'    VTI_AM_THEME    " 1 cover sth. with soil" ; !Rand key:n103000694779n
+n'godaawnga'    VTI_AM_THEME    " 1 cover sth. with a granular substance" ; !Rand key:n103000694746n
+n'gajbidet    VTI_OO_THEME    " 1 drive sth. skillfully, operate sth. skillfully" ; !Rand key:n103000694691n
+mzinsid    VTI_OO_THEME    " 1 render a shape of sth. on a surface" ; !Rand key:n103000694636n
+mzinjiin    VTI_AM_THEME    " 1 form sth. [by shaping with the hands], mold sth. by hand" ; !Rand key:n103000694628n
+mzinaawyaad    VTI_AM_THEME    " 1 render an image of sth. in quillwork" ; !Rand key:n103000694523n
+mzinaatesd    VTI_OO_THEME    " 1 play sth. (i.e. a movie), project an image of sth." ; !Rand key:n103000694490n
+mzinaakshkood    VTI_OO_THEME    " 1 imprint a design into sth. [with an instrument], imprint sth. with a design [with an instrument], stamp a design into sth. [with a die or similar instrument], stamp a design of sth. into a surface" ; !Rand key:n103000694457n
+mzin'gwaad    VTI_AM_THEME    " 1 embroider sth., embroider an image of sth." ; !Rand key:n103000694414n
+mzhin    VTI_AM_THEME    " 1 damage sth. by touching it" ; !Rand key:n103000694359n
+mzhiidaabaad    VTI_AM_THEME    " 1 denude sth. [with an instrument], strip sth. of vegetation [with an instrument]" ; !Rand key:n103000694282n
+myagjiin    VTI_AM_THEME    " 1 sth. in one’s hand feel strange" ; !Rand key:n103000694167n
+myagend    VTI_AM_THEME    " 1 sth. seem strange to one" ; !Rand key:n103000694147n
+myaawziikd    VTI_AM_THEME    " 1 be main server of sth., preside over sth." ; !Rand key:n103000694106n
+myaajii'    VTI_AM_THEME    " 1 hit sth. dead on [with an instrument]" ; !Rand key:n103000694031n
+mswin    VTI_AM_THEME    " 1 be desirous of sth. attractive, find the look of sth. enticing, sth. catch one’s eye [as enticing] (generally of concrete objects)" ; !Rand key:n103000693872n
+msawaabnd    VTI_AM_THEME    " 1 be desirous of sth. attractive, find the look of sth. enticing, sth. catch one’s eye [as enticing] (generally of concrete objects)" ; !Rand key:n103000693431n
+moon'ka'    VTI_AM_THEME    " 1 hollow out sth." ; !Rand key:n103000693094n
+moon'k    VTI_AM_THEME    " 1 hollow out sth." ; !Rand key:n103000693085n
+mookd    VTI_AM_THEME    " 1 shave sth., whittle sth., make sth. by whittling" ; !Rand key:n103000692975n
+mookbid    VTI_OO_THEME    " 1 pull sth. out into view" ; !Rand key:n103000692927n
+mnwaadd    VTI_AM_THEME    " 1 give a good report about sth., say good things about sth." ; !Rand key:n103000680573n
+mno-daapn    VTI_AM_THEME    " 1 accept sth. graciously, accept sth. stressful with equanimity" ; !Rand key:n103000680399n
+mnjimend    VTI_AM_THEME    " 1 commit sth. to memory, memorize sth., remember sth." ; !Rand key:n103000680290n
+mnidoowend    VTI_AM_THEME    " 1 think of sth. as having sacred power" ; !Rand key:n103000680218n
+mnidookaad    VTI_AM_THEME    " 1 give sth. sacred status, treat sth. as being powerful, treat sth. as having sacred power" ; !Rand key:n103000680166n
+mmiiznweyaabiigbid    VTI_OO_THEME    " 1 do fancy picking on a stringed instrument (e.g. a guitar)" ; !Rand key:n103000679765n
+mmigwebn    VTI_AM_THEME    " 1 shake sth." ; !Rand key:n103000679732n
+mmeskjiin    VTI_AM_THEME    " 1 hold sth. so as to provoke viewer’s envy" ; !Rand key:n103000679686n
+mmendaadaagmipd    VTI_AM_THEME    " 1 not be slaked by sth. drunk, want to drink some more of sth." ; !Rand key:n103000679619n
+mmaandaawziik    VTI_AM_THEME    " 1 bless sth." ; !Rand key:n103000679538n
+mkwaan'kaad    VTI_AM_THEME    " 1 find sth. in digging" ; !Rand key:n103000679278n
+mkoshk    VTI_AM_THEME    " 1 happen upon sth. by accident, stumble upon sth." ; !Rand key:n103000679248n
+mkadeyaakz    VTI_AM_THEME    " 1 char sth., blacken sth. in cooking it" ; !Rand key:n103000679146n
+mjimend    VTI_AM_THEME    " 1 commit sth. to memory, memorize sth., remember sth." ; !Rand key:n103000679033n
+minaazh'    VTI_AM_THEME    " 1 steer sth." ; !Rand key:n103000678877n
+mijnikaabd    VTI_OO_THEME    " 1 grab sth. with the left hand, manipulate sth. with the left hand" ; !Rand key:n103000678833n
+miiwebn    VTI_AM_THEME    " 1 shove sth. out of the way [with one’s hands]" ; !Rand key:n103000678679n
+midaagwend    VTI_AM_THEME    " 1 like sth." ; !Rand key:n103000678067n
+mdweyiign    VTI_AM_THEME    " 1 rustle sth. [sheetlike] [in handling it]" ; !Rand key:n103000677719n
+mdweyiig'    VTI_AM_THEME    " 1 rustle sth. [sheetlike] [with an instrument]" ; !Rand key:n103000677710n
+mchikaad    VTI_AM_THEME    " 1 fence sth., erect a fence around sth." ; !Rand key:n103000660818n
+mbiigwewet    VTI_OO_THEME    " 1 play sth. loudly, play sth. noisily" ; !Rand key:n103000660690n
+mbigaabwit    VTI_AM_THEME    " 1 stand to show respect for sth. (e.g. national anthem), stand to show support for sth., vote for sth. by standing" ; !Rand key:n103000660604n
+mbaweb'    VTI_AM_THEME    " 1 heave sth. up [with an instrument]" ; !Rand key:n103000660452n
+mandookaad    VTI_AM_THEME    " 1 treat sth. as an object to be feared (as if it had sacred powers)" ; !Rand key:n103000660301n
+magsit    VTI_OO_THEME    " 1 shake sth." ; !Rand key:n103000660238n
+maanaadgood    VTI_OO_THEME    " 1 hang sth. in an awkward position" ; !Rand key:n103000659784n
+maamkaajjiin    VTI_AM_THEME    " 1 hold sth. so as to flaunt it" ; !Rand key:n103000659670n
+maamiikpid    VTI_AM_THEME    " 1 find sth. fabulously tasty, sth. taste fabulous to one" ; !Rand key:n103000659543n
+maamiikwaagmipd    VTI_AM_THEME    " 1 find sth. [liquid] fabulously tasty, sth. [liquid] taste fabulous to one" ; !Rand key:n103000659522n
+maajiinaashk    VTI_AM_THEME    " 1 send sth. off somewhere" ; !Rand key:n103000659361n
+maagwaakw    VTI_AM_THEME    " 1 clamp sth. [to fasten]" ; !Rand key:n103000659291n
+maagnd    VTI_AM_THEME    " 1 clench on sth. [with one’s teeth] " ; !Rand key:n103000659268n
+kwejt    VTI_OO_THEME    " 1 try doing sth. again and again, practice doing sth. (of skills being learned)" ; !Rand key:n103000659167n
+kwaaksid    VTI_OO_THEME    " 1 raise the window open" ; !Rand key:n103000658989n
+kobd    VTI_OO_THEME    " 1 pull sth. up (of clothing}" ; !Rand key:n103000658733n
+kakdegwaad    VTI_AM_THEME    " 1 sew sth. in a square shape" ; !Rand key:n103000658219n
+jijwebn    VTI_AM_THEME    " 1 flip sth. upside down [to dump its contents]" ; !Rand key:n103000658060n
+jiingsat    VTI_OO_THEME    " 1 rock sth." ; !Rand key:n103000645219n
+jiijiiknd    VTI_AM_THEME    " 1 gnaw on sth. [sticklike] here and there, nibble on sth. [sticklike]" ; !Rand key:n103000645160n
+jiigkod    VTI_AM_THEME    " 1 trim sth. [by cutting]" ; !Rand key:n103000645127n
+jiigaaknd    VTI_AM_THEME    " 1 gnaw on sth." ; !Rand key:n103000645064n
+jiichiignd    VTI_AM_THEME    " 1 gnaw on sth." ; !Rand key:n103000644958n
+jiibweb'    VTI_AM_THEME    " 1 give sth. a slight shake [with an instrument]" ; !Rand key:n103000644846n
+jidwebn    VTI_AM_THEME    " 1 flip sth. upside down [to dump its contents]" ; !Rand key:n103000644758n
+jejenjwewet    VTI_OO_THEME    " 1 play a musical instrument beautifully" ; !Rand key:n103000644635n
+jaagmakwaad    VTI_AM_THEME    " 1 strip an area of berries" ; !Rand key:n103000644361n
+jaagi-dba'    VTI_AM_THEME    " 1 finish paying off sth., pay sth. off" ; !Rand key:n103000644328n
+jaachiigwaaknd    VTI_AM_THEME    " 1 gnaw on sth." ; !Rand key:n103000644225n
+gzikood    VTI_OO_THEME    " 1 weigh sth., measure the weight of sth." ; !Rand key:n103000644110n
+gziiyaakw    VTI_AM_THEME    " 1 wipe the wall, wash the wall" ; !Rand key:n103000644073n
+gziijii'    VTI_AM_THEME    " 1 wipe sth. [3-dimensional]" ; !Rand key:n103000643989n
+gziibiigsat    VTI_OO_THEME    " 1 wash sth. vigorously (as with a washboard)" ; !Rand key:n103000643963n
+gzhaawesd    VTI_OO_THEME    " 1 set sth. straight, set sth. level" ; !Rand key:n103000643717n
+gzhaagmishkood    VTI_OO_THEME    " 1 heat sth. [liquid] up by pouring something hot in it, pour hot liquid in sth. [liquid] to heat it up" ; !Rand key:n103000643646n
+gyaksid    VTI_OO_THEME    " 1 adjust the position of sth., put sth. in its proper place, straighten sth. out [by moving it]" ; !Rand key:n103000643580n
+gyakshk    VTI_AM_THEME    " 1 wear sth. the right way" ; !Rand key:n103000643565n
+gwinjd    VTI_OO_THEME    " 1 put sth. in water [to soak], soak sth." ; !Rand key:n103000643493n
+gwiinwi-gkid    VTI_OO_THEME    " 1 forget where one has hidden sth., forget where one has stashed sth." ; !Rand key:n103000643369n
+gwiidaakw'    VTI_AM_THEME    " 1 pry sth. up [with an instrument], raise sth. [with an instrument]" ; !Rand key:n103000643288n
+gwekt    VTI_AM_THEME    " 1 hear sth. accurately" ; !Rand key:n103000642913n
+gwekshkood    VTI_OO_THEME    " 1 make sth. [sheetlike] even [with a weight]" ; !Rand key:n103000642900n
+gwekshk    VTI_AM_THEME    " 1 wear sth. the right way" ; !Rand key:n103000642874n
+gwekbidet    VTI_OO_THEME    " 1 turn sth. around [in driving]" ; !Rand key:n103000642771n
+gtaangwewejiisd    VTI_OO_THEME    " 1 strike sth. [3-dimensional] against the floor really loudly" ; !Rand key:n103000642173n
+gshkiiwt    VTI_OO_THEME    " 1 make sth. airtight (generally of buildings)" ; !Rand key:n103000641674n
+gonjd    VTI_OO_THEME    " 1 put sth. in water [to soak], soak sth." ; !Rand key:n103000641389n
+gnibaasd    VTI_OO_THEME    " 1 use sth. up quickly" ; !Rand key:n103000622100n
+gnibaagmand    VTI_AM_THEME    " 1 drink sth. up quickly" ; !Rand key:n103000622087n
+gndaabiign    VTI_AM_THEME    " 1 dip sth. in liquid, immerse sth. in liquid" ; !Rand key:n103000619302n
+gjisd    VTI_OO_THEME    " 1 put sth. somewhere to check if it fits, try [putting] sth. somewhere to check if it fits" ; !Rand key:n103000617891n
+gjindaabiign    VTI_AM_THEME    " 1 immerse sth. in liquid" ; !Rand key:n103000617843n
+gjignez    VTI_AM_THEME    " 1 cook sth. to the point meat comes off the bone" ; !Rand key:n103000616440n
+gjib'iwet    VTI_OO_THEME    " 1 escape with sth. [to save it]" ; !Rand key:n103000616417n
+giizhoot    VTI_OO_THEME    " 1 renovate sth.  to make place warmer, insulate" ; !Rand key:n103000614773n
+giizhaakw'    VTI_AM_THEME    " 1 finish nailing sth. together" ; !Rand key:n103000612678n
+giiwtaawaabiign    VTI_AM_THEME    " 1 wind sth. around an object" ; !Rand key:n103000611033n
+giiwaazaabnd    VTI_AM_THEME    " 1 not see sth. clearly" ; !Rand key:n103000606549n
+giiwaaji-kwaakbood    VTI_OO_THEME    " 1 cut sth. [sticklike] the wrong length" ; !Rand key:n103000605185n
+giiwaajbood    VTI_OO_THEME    " 1 cut sth. in the wrong spot (in sawing), cut sth. (an.) the wrong way (in sawing, so it doesn’t fit]" ; !Rand key:n103000605146n
+giitaasd    VTI_OO_THEME    " 1 arrange sth. in a circle, arrange sth. so that something is encircled" ; !Rand key:n103000602634n
+giitaakd    VTI_AM_THEME    " 1 cut a circle around sth." ; !Rand key:n103000602607n
+giitaagood    VTI_OO_THEME    " 1 hang sth. in a circle" ; !Rand key:n103000602577n
+giishkgaadebood    VTI_OO_THEME    " 1 cut the legs off of sth." ; !Rand key:n103000599416n
+ggwetaanwewejiisd    VTI_OO_THEME    " 1 strike sth. [3-dimensional] against the floor really loudly" ; !Rand key:n103000581500n
+ggwedaakwaad    VTI_AM_THEME    " 1 take shots at sth., try to strike sth. [with objects thrown]" ; !Rand key:n103000578754n
+gezkond    VTI_AM_THEME    " 1 [be able to] get sth. before it’s all eaten up" ; !Rand key:n103000574810n
+geshwibd    VTI_OO_THEME    " 1 loosen sth." ; !Rand key:n103000573326n
+gdogshk    VTI_AM_THEME    " 1 knock sth. over [with one’s weight], tip sth. over [with one’s weight]" ; !Rand key:n103000569500n
+gdogmin'gibd    VTI_OO_THEME    " 1 roll sth. over [with the hand] (of small round objects)" ; !Rand key:n103000568253n
+gdogjiiwebshk    VTI_AM_THEME    " 1 tip sth. over [with one’s weight], roll sth. over [with one’s weight]" ; !Rand key:n103000568223n
+gdogjiiwebn    VTI_AM_THEME    " 1 tip sth. over [with the hands], roll sth. over [with the hands]" ; !Rand key:n103000568214n
+gdogjiiweb'    VTI_AM_THEME    " 1 tip sth. over [with an instrument], roll sth. over [with an instrument]" ; !Rand key:n103000568194n
+gdogjiishk    VTI_AM_THEME    " 1 tip sth. over [with one’s weight], roll sth. over [with one’s weight]" ; !Rand key:n103000566991n
+gdogjiin    VTI_AM_THEME    " 1 tip sth. over, roll sth. over" ; !Rand key:n103000566983n
+gdogjiibd    VTI_OO_THEME    " 1 tip sth. over [with the hands], roll sth. over [with the hands]" ; !Rand key:n103000566952n
+gdogjii'    VTI_AM_THEME    " 1 tip sth. over [with an instrument], roll sth. over [with an instrument]" ; !Rand key:n103000566943n
+gdiskaabiigshk    VTI_AM_THEME    " 1 knock a power cord from the outlet [with one’s weight]" ; !Rand key:n103000565893n
+gdakii'    VTI_AM_THEME    " 1 check depth of a liquid with a stick" ; !Rand key:n103000565793n
+gbwan'ka'    VTI_AM_THEME    " 1 close the stove damper" ; !Rand key:n103000558973n
+gbizhe'    VTI_AM_THEME    " 1 close the stove air vent" ; !Rand key:n103004118992n
+gbakgood    VTI_OO_THEME    " 1 close drapery" ; !Rand key:n103004118903n
+gbaabkin    VTI_AM_THEME    " 1 close the flue damper" ; !Rand key:n103004118731n
+gayeksid    VTI_OO_THEME    " 1 straighten up sth." ; !Rand key:n103004118706n
+gaandkii'    VTI_AM_THEME    " 1 pole a boat" ; !Rand key:n103004118166n
+gaakkishk    VTI_AM_THEME    " 1 rip sth. [clothing worn, due to one’s size], tear sth. [clothing worn, due to one’s size]" ; !Rand key:n103004118128n
+gaakaashkaad'    VTI_AM_THEME    " 1 scrape sth. [with an instrument]" ; !Rand key:n103004118063n
+gaakaapnd    VTI_AM_THEME    " 1 gnaw on sth. crunchy" ; !Rand key:n103004118042n
+gaakaapjiind    VTI_AM_THEME    " 1 chew sth. (an.) crunchy, gnaw on sth. (an.) crunchy" ; !Rand key:n103004118026n
+gaagiizhsid    VTI_OO_THEME    " 1 put sth. at the ready, set out sth." ; !Rand key:n103004117938n
+dpiwebshk    VTI_AM_THEME    " 1 open sth. [with one’s weight], kick sth. open" ; !Rand key:n103004117419n
+dpaasd    VTI_OO_THEME    " 1 blow sth. through an opening" ; !Rand key:n103004117389n
+dpaakn    VTI_AM_THEME    " 1 put sth. [sticklike] through an opening" ; !Rand key:n103004117381n
+dpaabaawd    VTI_OO_THEME    " 1 water sth." ; !Rand key:n103004117353n
+dnaajd    VTI_AM_THEME    " 1 relate sth. being at a certain place, say sth. is at a certain place" ; !Rand key:n103004117154n
+dkoobd    VTI_OO_THEME    " 1 fill sth. to a shallow depth" ; !Rand key:n103004117045n
+dkaagmishkood    VTI_OO_THEME    " 1 add cold water or ice to sth. [liquid] to cool it off" ; !Rand key:n103004116948n
+dkaabaawd    VTI_OO_THEME    " 1 cool sth. by pouring water on it" ; !Rand key:n103004116929n
+dgwaagmiz    VTI_AM_THEME    " 1 boil sth. along with something else, include sth. as an ingredient in making soup" ; !Rand key:n103004116860n
+desn    VTI_AM_THEME    " 1 hold sth. spread out [to display it]" ; !Rand key:n103004116598n
+depid    VTI_OO_THEME    " 1 grab sth., snatch sth." ; !Rand key:n103004116510n
+debaakjiishk    VTI_AM_THEME    " 1 sth. fit one around the waist" ; !Rand key:n103004116258n
+ddibgwaad    VTI_AM_THEME    " 1 hem sth., sew something along the edge of sth." ; !Rand key:n103004116206n
+ddibaakwegn    VTI_AM_THEME    " 1 roll up sth. [sheetlike]" ; !Rand key:n103004116172n
+dbinoot    VTI_OO_THEME    " 1 make sth. so that it shelters things [from the elements], make sth. so that it shields things [from the elements]" ; !Rand key:n103004116003n
+dba'gesd    VTI_OO_THEME    " 1 make up for sth." ; !Rand key:n103004115845n
+dazhwegda'    VTI_AM_THEME    " 1 roll sth. out [with a rolling pin]" ; !Rand key:n103004115824n
+daataangwewesd    VTI_OO_THEME    " 1 tinkle a bell" ; !Rand key:n103004115703n
+daataagda'    VTI_AM_THEME    " 1 tap on sth. [with an instrument], pound sth. lightly [with an instrument]" ; !Rand key:n103004115577n
+daangkiisd    VTI_OO_THEME    " 1 a container one is holding touch the ground" ; !Rand key:n103004115372n
+daangbiig'    VTI_AM_THEME    " 1 dab paint on sth., get a bit of paint on sth." ; !Rand key:n103004115345n
+bzok    VTI_AM_THEME    " 1 trip over sth. [ropelike]" ; !Rand key:n103004115164n
+bzagwaabookaad    VTI_AM_THEME    " 1 thicken sth. (generally soup)" ; !Rand key:n103004115041n
+bwi'    VTI_AM_THEME    " 1 knock sth. down [with an instrument]" ; !Rand key:n103004114941n
+bwan'ka'    VTI_AM_THEME    " 1 put the anchor down for sth." ; !Rand key:n103004114891n
+bwaasd    VTI_OO_THEME    " 1 winnow sth." ; !Rand key:n103004114864n
+btigwaabn    VTI_AM_THEME    " 1 wind sth." ; !Rand key:n103004114836n
+btigbid    VTI_OO_THEME    " 1 tip sth. over" ; !Rand key:n103004114800n
+btaanz    VTI_AM_THEME    " 1 colour sth. else by mistake, get paint on sth. [adjoining] by accident in painting" ; !Rand key:n103004114722n
+btaan'kaad    VTI_AM_THEME    " 1 dig sth. else up by accident in digging" ; !Rand key:n103004114703n
+btaakbid    VTI_OO_THEME    " 1 tie sth. to something" ; !Rand key:n103004114629n
+bshkwaakbid    VTI_OO_THEME    " 1 pull out sth. growing in soil" ; !Rand key:n103004114356n
+boozweb'    VTI_AM_THEME    " 1 load sth. on to a vehicle [with an instrument]" ; !Rand key:n102996033472n
+boonbidet    VTI_OO_THEME    " 1 turn sth. off (of an appliance that’s running)" ; !Rand key:n102996031490n
+bnit    VTI_AM_THEME    " 1 miss part of what’s said, not hear sth. right; hear sth. in passing" ; !Rand key:n102996029201n
+bniskwebn    VTI_AM_THEME    " 1 spread sth. out roughly" ; !Rand key:n102996029192n
+bniskwaabiid    VTI_OO_THEME    " 1 uncoil sth., unroll sth., unwind sth." ; !Rand key:n102996029136n
+bniskn    VTI_AM_THEME    " 1 extend sth. out [from a folded position]" ; !Rand key:n102996028254n
+bnagaad'    VTI_AM_THEME    " 1 scrape off sth." ; !Rand key:n102996025730n
+bmiweb'    VTI_AM_THEME    " 1 move sth. along [with an instrument]" ; !Rand key:n102996024166n
+bminzhaad    VTI_AM_THEME    " 1 administer sth., be director of sth., manage sth., run sth." ; !Rand key:n102996024122n
+bmiik    VTI_AM_THEME    " 1 attend to sth." ; !Rand key:n102996023092n
+bmaajt    VTI_OO_THEME    " 1 bring sth. back to life, revive sth. (e.g. a houseplant)" ; !Rand key:n102996021049n
+bmaadn    VTI_AM_THEME    " 1 budge sth." ; !Rand key:n102996021036n
+bkwaakdajiin    VTI_AM_THEME    " 1 ball sth. up" ; !Rand key:n102996018361n
+bkokmig'    VTI_AM_THEME    " 1 pile soil into a mound [with an instrument], rake soil into a mound" ; !Rand key:n102996017322n
+bkodaasd    VTI_OO_THEME    " 1 dislodge sth. [with a high-pressure blower or sprayer], expel sth. [by coughing]" ; !Rand key:n102996014178n
+bkod'    VTI_AM_THEME    " 1 pry sth. off, remove sth. stuck somewhere [with an instrument], scrape sth. off something" ; !Rand key:n102996014149n
+bkishkood    VTI_OO_THEME    " 1 break sth. [stringlike] by putting too much weight on it" ; !Rand key:n102996013038n
+bkidaakgood    VTI_OO_THEME    " 1 hang sth. over an object" ; !Rand key:n102996011822n
+biizgibd    VTI_OO_THEME    " 1 roll sth. into curly shapes [with the hands], twist sth. into curly shapes" ; !Rand key:n102996009559n
+biiwebn    VTI_AM_THEME    " 1 sprinkle sth. [dry]" ; !Rand key:n102996008622n
+biitwaabaawd    VTI_OO_THEME    " 1 rinse sth." ; !Rand key:n102996008549n
+biit    VTI_AM_THEME    " 1 occupy sth., take up occupancy in sth." ; !Rand key:n102996007438n
+biisda'    VTI_AM_THEME    " 1 grind sth. to a powder, pulverize sth. [with an instrument]" ; !Rand key:n102996006373n
+biinjbad    VTI_OO_THEME    " 1 fill sth. that’s narrow necked using a funnel" ; !Rand key:n102996004240n
+biindaakn    VTI_AM_THEME    " 1 stick sth. [sticklike] into a cylindrical object" ; !Rand key:n102996003249n
+biinaabaawd    VTI_OO_THEME    " 1 rinse sth. clean" ; !Rand key:n102996002170n
+biigwaasd    VTI_OO_THEME    " 1 break sth. [mechanical] from operating it too roughly, break sth. from overuse" ; !Rand key:n102995998910n
+biigninjaand    VTI_AM_THEME    " 1 wear out sth. from handling it (e.g. of books)" ; !Rand key:n102995998875n
+biigdiiyaand    VTI_AM_THEME    " 1 break sth. with one’s rear end, break sth. that’s too small from squeezing into it, wear sth. out from number of times one wears it" ; !Rand key:n102995997864n
+bgashkbood    VTI_OO_THEME    " 1 grind sth." ; !Rand key:n102995992699n
+beshwend    VTI_AM_THEME    " 1 think sth. as being close" ; !Rand key:n102995960218n
+bejiik    VTI_AM_THEME    " 1 be slow in working on sth." ; !Rand key:n102995959224n
+bchi-daapn    VTI_AM_THEME    " 1 pick sth. up in error, take sth. in error" ; !Rand key:n102995955923n
+bchibood    VTI_OO_THEME    " 1 cut sth. by accident in sawing" ; !Rand key:n102995955892n
+bchibiig'    VTI_AM_THEME    " 1 get paint on sth. [adjoining] by accident in painting" ; !Rand key:n102995954747n
+bbogney    VTI_AM_THEME    " 1 make many holes in sth. [with an instrument]" ; !Rand key:n102995954731n
+bbognebd    VTI_OO_THEME    " 1 make many holes in sth. [with the hands]" ; !Rand key:n102995954694n
+bazhaapt    VTI_OO_THEME    " 1 laugh and laugh at sth." ; !Rand key:n102995952487n
+baaskobd    VTI_OO_THEME    " 1 untie sth." ; !Rand key:n102995948806n
+baashjiwebn    VTI_AM_THEME    " 1 throw sth. (an.) over an obstacle" ; !Rand key:n102995948758n
+baashda'    VTI_AM_THEME    " 1 skip sth. (e.g. a grade), surpass sth." ; !Rand key:n102995947520n
+baapiiwebn    VTI_AM_THEME    " 1 shake dust off sth., shake crumbs off sth." ; !Rand key:n102995947440n
+baagsid    VTI_OO_THEME    " 1 hit sth. on a shoal" ; !Rand key:n102995943427n
+baabsidyaand    VTI_AM_THEME    " 1 sth. be tight around one’s bum, wear sth. that fits tightly around the bum" ; !Rand key:n102995942448n
+baabshiigbid    VTI_OO_THEME    " 1 stretch sth. [sheetlike] out so it’s taut" ; !Rand key:n102995942428n
+baabgo'    VTI_AM_THEME    " 1 pry sth. off [with an instrument]" ; !Rand key:n102995942369n
+baabgobd    VTI_OO_THEME    " 1 peel sth. off, pull sth. off" ; !Rand key:n102995940925n
+aasmit    VTI_OO_THEME    " 1 lean sth. up against something" ; !Rand key:n102995939663n
+aasgaabwit    VTI_AM_THEME    " 1 second a motion [parliamentary procedure]" ; !Rand key:n102995938297n
+aapzaabnd    VTI_AM_THEME    " 1 stare at sth." ; !Rand key:n102995937314n
+aaptaapko'ood    VTI_OO_THEME    " 1 knot sth. really securely" ; !Rand key:n102995937257n
+aanpid    VTI_AM_THEME    " 1 be dissatisfied with the taste of sth., sth. taste unsatisfactory to one" ; !Rand key:n102995934832n
+aanji-aabjit    VTI_OO_THEME    " 1 reuse sth., recycle sth. " ; !Rand key:n102995931087n
+aandkisd    VTI_OO_THEME    " 1 relocate sth. [sticklike]" ; !Rand key:n102995929959n
+aandaanz    VTI_AM_THEME    " 1 paint sth. a new colour" ; !Rand key:n102995929916n
+aandaabka'    VTI_AM_THEME    " 1 unlock sth." ; !Rand key:n102995928726n
+aan'keshk    VTI_AM_THEME    " 1 second a motion" ; !Rand key:n102995928629n
+aan'kejiit    VTI_OO_THEME    " 1 add on to a building, build an extension on sth." ; !Rand key:n102995927735n
+aan'kejiisd    VTI_OO_THEME    " 1 move sth. [in rearranging stuff]" ; !Rand key:n102995927722n
+aan'kegnaand    VTI_AM_THEME    " 1 second a motion" ; !Rand key:n102995927713n
+aan'kaabwaad    VTI_AM_THEME    " 1 add water to sth. to thin it, dilute sth." ; !Rand key:n102995927687n
+aagwaateshk    VTI_AM_THEME    " 1 cast a shadow over sth." ; !Rand key:n102995926378n
+aagnend    VTI_AM_THEME    " 1 dispute sth., doubt sth., not believe sth." ; !Rand key:n102995926340n
+aabwiitoowegsid    VTI_OO_THEME    " 1 use sth. as a lining, use sth. as a second layer" ; !Rand key:n102995925111n
+aabwaakw    VTI_AM_THEME    " 1 remove sth. that’s bolted onto something" ; !Rand key:n102995923971n
+aabskwaakw    VTI_AM_THEME    " 1 remove sth. that’s bolted onto something" ; !Rand key:n102995923868n
+aaboojiigbid    VTI_OO_THEME    " 1 turn sth. [made of cloth] inside out" ; !Rand key:n102995921979n
+gwetaanbidet    VTI_OO_THEME    " 1 drive sth. fast, run sth. at great speed, make sth. go fast (of machines)" ; !Rand key:n58fa1bdfab5449d698c623320a01dd02n
+gwekwaadd    VTI_AM_THEME    " 1 be certain of one’s account about sth., relate something about sth. with certainty, tell a story about sth. accurately" ; !Rand key:n58fa1bdf8008431e9d4523320a01dd02n
+miikw    VTI_AM_THEME    " 1 hit sth. [on target], strike sth. [on target]" ; !Rand key:n58fa1bdfa05c4912932123320a01dd02n
+miikwaakaad    VTI_AM_THEME    " 1 find an activity matching one’s interests exactly, find an activity exactly suiting one’s aptitude" ; !Rand key:n58fa1bdf6a284de1a2ec23320a01dd02n
+miikshk    VTI_AM_THEME    " 1 strike sth. [with one’s weight] exactly on some part, come upon sth. in the right spot" ; !Rand key:n58fa1bdf1f384f009def23320a01dd02n
+miiksat    VTI_OO_THEME    " 1 make sth. fit with another thing, match sth. up with something" ; !Rand key:n58fa1bdf3fc44002ba2b23320a01dd02n
+miiknaashk    VTI_AM_THEME    " 1 wear a footpath into sth." ; !Rand key:n58fa1bdf65d84253924323320a01dd02n
+megpid    VTI_AM_THEME    " 1 find sth. tastes novel, find sth. tastes strange, find sth. tastes unusual" ; !Rand key:n58fa1bdf3ca844dd965323320a01dd02n
+megn    VTI_AM_THEME    " 1 sth. not feel right in one’s hand, sth. in one's hand feel odd" ; !Rand key:n58fa1bde93b0467d9a7323320a01dd02n
+megjiin    VTI_AM_THEME    " 1 sth. in one's hand feel strange" ; !Rand key:n58fa1bdef8104b7b8ad223320a01dd02n
+megend    VTI_AM_THEME    " 1 sth. seem strange to one" ; !Rand key:n58fa1bde09644fc09bb223320a01dd02n
+megaabnd    VTI_AM_THEME    " 1 sth. look strange to one, sth. look unfamiliar to one" ; !Rand key:n58fa1bde9cf84d0f89e023320a01dd02n
+mdweyaakbiiy    VTI_AM_THEME    " 1 write sth." ; !Rand key:n58fa1bde4be042699f5923320a01dd02n
+mdweyaabiigbid    VTI_OO_THEME    " 1 play sth. (of guitars), pluck [the string of] sth. (of musical instruments]" ; !Rand key:n58fa1bdec434476aa19723320a01dd02n
+mdeyaabiigbid    VTI_OO_THEME    " 1 play sth. (of guitars), pluck [the string of] sth. (of musical instruments]" ; !Rand key:n58fa1bde874c4d5ab48423320a01dd02n
+mchisd    VTI_OO_THEME    " 1 leave sth. exposed, leave sth. uncovered" ; !Rand key:n58fa1bde917044e1a1b223320a01dd02n
+mbiigwewesd    VTI_OO_THEME    " 1 ring sth. loudly" ; !Rand key:n58fa1bde6d7844fdabf123320a01dd02n
+magwaaksat    VTI_OO_THEME    " 1 shake sth." ; !Rand key:n58fa1bdef2e844cb95e123320a01dd02n
+maawndooweb'    VTI_AM_THEME    " 1 rake sth. up, sweep sth. up together" ; !Rand key:n58fa1bde7b0844a3887a23320a01dd02n
+maawndoobiiy    VTI_AM_THEME    " 1 add up sth., compile sth." ; !Rand key:n58fa1bdeb4f844f49ff123320a01dd02n
+maat'oon    VTI_AM_THEME    " 1 apportion sth., divvy up sth." ; !Rand key:n58fa1bde9dcc482fa68523320a01dd02n
+maanaajnikaad    VTI_AM_THEME    " 1 give sth. a bad name, give sth. an ugly name, give sth. an unflattering name" ; !Rand key:n58fa1bdea114444c922223320a01dd02n
+maanaajkod    VTI_AM_THEME    " 1 cut sth. crooked, make a bad cut in sth." ; !Rand key:n58fa1bdec5104cc3993923320a01dd02n
+maamnont    VTI_AM_THEME    " 1 notice sth. said, notice sth. making a sound" ; !Rand key:n58fa1bdeedfc48aba7dc23320a01dd02n
+maagjiibd    VTI_OO_THEME    " 1 press sth. [with the hands], squeeze sth. [with the hands]" ; !Rand key:n58fa1bdd4f9047ea97ce23320a01dd02n
+maad'oon    VTI_AM_THEME    " 1 apportion sth., divvy up sth." ; !Rand key:n58fa1bdd5d38494f93ea23320a01dd02n
+kwegbid    VTI_OO_THEME    " 1 pull sth. [sheetlike] up" ; !Rand key:n58fa1bdd52ac4203bd5523320a01dd02n
+kakdekd    VTI_AM_THEME    " 1 cut sth. into a square, cut sth. in a square shape" ; !Rand key:n58fa1bdd86844adcbce023320a01dd02n
+jijbood    VTI_OO_THEME    " 1 gulp down sth. [liquid], guzzle sth. down; sip sth." ; !Rand key:n58fa1bdd2d7c4fab979623320a01dd02n
+jiibwebshk    VTI_AM_THEME    " 1 shake sth. slightly [with one’s weight], jostle sth. [with one’s weight]" ; !Rand key:n58fa1bdd091447f2ba1023320a01dd02n
+jiibwebn    VTI_AM_THEME    " 1 give sth. a slight shake" ; !Rand key:n58fa1bdd6d904bdba01323320a01dd02n
+jidbood    VTI_OO_THEME    " 1 gulp down sth. [liquid], guzzle sth. down" ; !Rand key:n58fa1bdc3efc402cacbd23320a01dd02n
+jaangaasd    VTI_OO_THEME    " 1 pitch sth. so it rises slightly (i.e. a rising fastball)" ; !Rand key:n58fa1bdcab98414d99e223320a01dd02n
+jaangaaksid    VTI_OO_THEME    " 1 arrange sth. so it’s tilted up" ; !Rand key:n58fa1bdc1b40400c9a0c23320a01dd02n
+jaagbid    VTI_OO_THEME    " 1 pick all of sth. (of fruits and plants)" ; !Rand key:n58fa1bdcf9a04b97867023320a01dd02n
+jaagaawd    VTI_OO_THEME    " 1 carry away all of sth., take away all of sth." ; !Rand key:n58fa1bdcfb5c4adc855023320a01dd02n
+jaachiingwewesd    VTI_OO_THEME    " 1 tinkle a bell intermittently" ; !Rand key:n58fa1bdc663c4578a79023320a01dd02n
+gzhiiwewet    VTI_OO_THEME    " 1 play sth. loudly, turn up the volume of sth." ; !Rand key:n58fa1bdcd1c04745b70a23320a01dd02n
+ntamsid    VTI_OO_THEME    " 1 place sth. first [ahead of others]" ; !Rand key:n58fa1bdc57684ee28dba23320a01dd02n
+nshkaajwebn    VTI_AM_THEME    " 1 shove sth. angrily, toss sth. angrily" ; !Rand key:n58fa1bdc853c48beba5b23320a01dd02n
+nshkaadsat    VTI_OO_THEME    " 1 shove sth. angrily" ; !Rand key:n58fa1bdc64304767b06123320a01dd02n
+nshanaadaabiign    VTI_AM_THEME    " 1 mess sth. up (such as in wiring)" ; !Rand key:n58fa1bdc3fa4446db2a123320a01dd02n
+npaazaabnd    VTI_AM_THEME    " 1 look at sth. from the wrong angle or side" ; !Rand key:n58fa1bdcaf444784adbe23320a01dd02n
+npaast    VTI_OO_THEME    " 1 put sth. down the wrong way" ; !Rand key:n58fa1bdc2dfc4d63a61b23320a01dd02n
+npaaji-nsast    VTI_AM_THEME    " 1 misunderstand sth." ; !Rand key:n58fa1bdcd2d8406da65023320a01dd02n
+npaadn    VTI_AM_THEME    " 1 hold sth. the wrong way" ; !Rand key:n58fa1bdcfa804b21ac8e23320a01dd02n
+nningbid    VTI_OO_THEME    " 1 shake sth." ; !Rand key:n58fa1bdbe29c48d2bee423320a01dd02n
+nnangsat    VTI_OO_THEME    " 1 shake sth." ; !Rand key:n58fa1bdbe1e842978cb323320a01dd02n
+nnaawkamga'    VTI_AM_THEME    " 1 smooth out sth. [soil]" ; !Rand key:n58fa1bdb4f244b75a18023320a01dd02n
+nnaa'aabiign    VTI_AM_THEME    " 1 fix up sth. [stringlike], tune a stringed instrument" ; !Rand key:n58fa1bdb263c469c899f23320a01dd02n
+nnaa'aabiigbid    VTI_OO_THEME    " 1 tune up sth. [that has strings]" ; !Rand key:n58fa1bdb10f04a45a8de23320a01dd02n
+nishit    VTI_OO_THEME    " 1 say grace before a meal, say a prayer before a meeting" ; !Rand key:n58fa1bdb6f4c498c945223320a01dd02n
+nishend    VTI_AM_THEME    " 1 think sth. efficacious; think sth. works well" ; !Rand key:n58fa1bdb6b9c4b73a29423320a01dd02n
+nimdaabaad    VTI_AM_THEME    " 1 drag sth. away from view, drive away from view transporting sth." ; !Rand key:n58fa1bdbb4d84226b1a323320a01dd02n
+niizhoowaabiign    VTI_AM_THEME    " 1 double up sth. [stringlike]" ; !Rand key:n58fa1bdbb47841f39c9c23320a01dd02n
+niisaakiiyedaabaad    VTI_AM_THEME    " 1 transport sth. down a hill" ; !Rand key:n58fa1bdb38c04046ae6a23320a01dd02n
+negwebn    VTI_AM_THEME    " 1 shove sth. underneath something, toss sth. underneath something" ; !Rand key:n58fa1bdb5ddc4580821a23320a01dd02n
+ndobtwaad    VTI_AM_THEME    " 1 run out to try and get sth." ; !Rand key:n58fa1bdaca5c49c5b8c423320a01dd02n
+ndamend    VTI_AM_THEME    " 1 have one’s mind preoccupied with sth." ; !Rand key:n58fa1bda8fe443e1957023320a01dd02n
+ndaajiin    VTI_AM_THEME    " 1 rummage in sth." ; !Rand key:n58fa1bda28084e6a931923320a01dd02n
+nbagjiibd    VTI_OO_THEME    " 1 flatten sth. [with the hands]" ; !Rand key:n58fa1bda36404a95a3b923320a01dd02n
+namt    VTI_OO_THEME    " 1 build a road along a certain path, build a road to a certain place" ; !Rand key:n58fa1bda06d04988b4af23320a01dd02n
+nakd    VTI_OO_THEME    " 1 set sth. on the stove to start cooking" ; !Rand key:n58fa1bda5ea046fe98ef23320a01dd02n
+nagood    VTI_OO_THEME    " 1 hang sth. a certain way" ; !Rand key:n58fa1bda3c404167afc223320a01dd02n
+naawkooshknad    VTI_OO_THEME    " 1 fill sth. only partly [with a solid substance], fill sth. to under capacity [with a solid substance]" ; !Rand key:n58fa1bdac0584c988efb23320a01dd02n
+naaniisiignd    VTI_AM_THEME    " 1 chew sth. [sheetlike] to shreds" ; !Rand key:n58fa1bdac4a445d8a09523320a01dd02n
+naaniisiigbid    VTI_OO_THEME    " 1 tear sth. [sheetlike] to shreds" ; !Rand key:n58fa1bda445840c5acaa23320a01dd02n
+naagbid    VTI_OO_THEME    " 1 bend sth. a certain way" ; !Rand key:n58fa1bd9746c47d58fef23320a01dd02n
+naadmaad    VTI_AM_THEME    " 1 help sth." ; !Rand key:n58fa1bd92790451c86eb23320a01dd02n
+myegend    VTI_AM_THEME    " 1 be unaccustomed to sth., sth. seem strange to one" ; !Rand key:n58fa1bd95d64429698bf23320a01dd02n
+myegaabnd    VTI_AM_THEME    " 1 sth. look strange to one" ; !Rand key:n58fa1bd9b4e44fc4940a23320a01dd02n
+mswend    VTI_AM_THEME    " 1 benefit from sth. (Wk, Wp);  2 desire sth., want sth., wish for sth. (CL, M’Ch, Sg)" ; !Rand key:n58fa1bd930f84b05b80223320a01dd02n
+mswaabnd    VTI_AM_THEME    " 1 be desirous of sth. nice looking, find the look of sth. appealing, find the look of sth. enticing, sth. catch one's eye [as enticing]" ; !Rand key:n58fa1bd9d9d049a4acd223320a01dd02n
+mskojiiz    VTI_AM_THEME    " 1 brown sth. [cooking]" ; !Rand key:n58fa1bd99e7040c1aec223320a01dd02n
+mshkawn    VTI_AM_THEME    " 1 grip sth. strongly, hold sth. firmly" ; !Rand key:n58fa1bd966884a9e8ecd23320a01dd02n
+moozhgiwebn    VTI_AM_THEME    " 1 toss sth. [gathered] together" ; !Rand key:n58fa1bd9a24449019dd023320a01dd02n
+moozhgand    VTI_AM_THEME    " 1 eat sth. up [as scraps]" ; !Rand key:n58fa1bd9ad104d58a55623320a01dd02n
+moonshkwaad    VTI_AM_THEME    " 1 weed sth." ; !Rand key:n58fa1bd8ea40410ea97423320a01dd02n
+mookmaaniig'    VTI_AM_THEME    " 1 iron sth. to knife-edge creases" ; !Rand key:n58fa1bd8a63c4a4ca05a23320a01dd02n
+mookiibd    VTI_OO_THEME    " 1 pull sth. out into view" ; !Rand key:n58fa1bd89a584249816623320a01dd02n
+mnogt    VTI_OO_THEME    " 1 grow sth. well" ; !Rand key:n58fa1bd89fc04465b7c123320a01dd02n
+mnawd    VTI_OO_THEME    " 1 go along with sth. inadvisable, go along with sth. problematic; help sth. along" ; !Rand key:n58fa1bd805e04bbe969423320a01dd02n
+mnapiitaagmit    VTI_OO_THEME    " 1 brew sth. to the right strength" ; !Rand key:n58fa1bd8c5a44080ad9823320a01dd02n
+mnan'kaad    VTI_AM_THEME    " 1 give sth. a nice name" ; !Rand key:n58fa1bd8e2704647baaa23320a01dd02n
+mmiiznikd    VTI_AM_THEME    " 1 carve sth. with various designs, cut various designs into sth." ; !Rand key:n58fa1bd8c4a44c87b5c223320a01dd02n
+mmeskwaabnd    VTI_AM_THEME    " 1 be tempted by sth. one sees, look at sth. wishfully" ; !Rand key:n58fa1bd8ed3c460daf6623320a01dd02n
+mmesksid    VTI_OO_THEME    " 1 place sth. somewhere temptingly, set sth. out temptingly" ; !Rand key:n58fa1bd8a784437385a723320a01dd02n
+mmaangkod    VTI_AM_THEME    " 1 cut sth. up into big pieces" ; !Rand key:n58fa1bd8fdf4446694ab23320a01dd02n
+mjwebshk    VTI_AM_THEME    " 1 knock sth. down [with one’s weight] from an elevated location" ; !Rand key:n58fa1bd75954455a922e23320a01dd02n
+mjwebn    VTI_AM_THEME    " 1 throw sth. down from an elevated location" ; !Rand key:n58fa1bd74d204633bf8623320a01dd02n
+mjweb'    VTI_AM_THEME    " 1 knock sth. down [with an instrument] from an elevated location" ; !Rand key:n58fa1bd773904895ae7823320a01dd02n
+miiwjii'    VTI_AM_THEME    " 1 hit sth. dead on (M’Ch);  2 push sth. away [with an instrument] (Sg, Wk)" ; !Rand key:n58fa1bd775304b2e8d5023320a01dd02n
+wiinget    VTI_OO_THEME    " 1 handle sth. carefully (CL, M’Ch, Wp);  2 use sth. up entirely (Wk)" ; !Rand key:n58fa1bd78eb048b1af0523320a01dd02n
+wiiknaamt    VTI_AM_THEME    " 1 inhale sth., sniff sth. [to inhale it]" ; !Rand key:n58fa1bd7e2d849af948a23320a01dd02n
+wenpazht    VTI_OO_THEME    " 1 make an easy job of sth., make sth. easily" ; !Rand key:n58fa1bd775b041d3bc1823320a01dd02n
+waan'kojii'    VTI_AM_THEME    " 1 hollow sth. out" ; !Rand key:n58fa1bd6731c43f794e523320a01dd02n
+waan'kiiyend    VTI_AM_THEME    " 1 trust sth." ; !Rand key:n58fa1bd626a4464ebfc923320a01dd02n
+waanjiint    VTI_OO_THEME    " 1 have an ample amount of sth." ; !Rand key:n58fa1bd6db5042e9a7fd23320a01dd02n
+sweyaawd    VTI_OO_THEME    " 1 take sth. distributing it among various places" ; !Rand key:n58fa1bd66544410591f223320a01dd02n
+sweyaangd    VTI_OO_THEME    " 1 scatter sth. about, strew sth. about" ; !Rand key:n58fa1bd67478410bafde23320a01dd02n
+swekiiy    VTI_AM_THEME    " 1 transplant sth." ; !Rand key:n58fa1bd66acc461dae3e23320a01dd02n
+swebiig'and    VTI_AM_THEME    " 1 sprinkle water on sth." ; !Rand key:n58fa1bd6eb684af78f8c23320a01dd02n
+shoodsid    VTI_OO_THEME    " 1 place sth. so it’s flush against something" ; !Rand key:n58fa1bd65f94463faec123320a01dd02n
+shoodaakganaand    VTI_AM_THEME    " 1 knock sth. so it’s flush against an object" ; !Rand key:n58fa1bd6524446808f8323320a01dd02n
+shoodaakbid    VTI_OO_THEME    " 1 pull sth. flush against another object" ; !Rand key:n58fa1bd6b89c49a6a47c23320a01dd02n
+shkaasd    VTI_OO_THEME    " 1 throw sth. so it curves in flight (i.e. throw a curve ball)" ; !Rand key:n58fa1bd53e5c41b2b10923320a01dd02n
+shigz    VTI_AM_THEME    " 1 cook sth. to mush, cook sth. until it turns mushy" ; !Rand key:n58fa1bd5c4ac4a38873823320a01dd02n
+shaweksid    VTI_OO_THEME    " 1 erect sth. crookedly, stand sth. crookedly" ; !Rand key:n58fa1bd588a04725a35f23320a01dd02n
+piitend    VTI_AM_THEME    " 1 hold sth. in a certain regard" ; !Rand key:n58fa1bd5c9284cc3b81323320a01dd02n
+pagnjiwd    VTI_OO_THEME    " 1 carry sth. to a certain spot, deliver sth. to a certain spot [in hauling]" ; !Rand key:n58fa1bd50d20405ba16023320a01dd02n
+pagd    VTI_OO_THEME    " 1 throw sth., toss sth., pitch sth. (as in baseball)" ; !Rand key:n58fa1bd410b44f7b9dc823320a01dd02n
 !migndibebnidza	vti-refl	 1 give oneself scabs on the head from scratching	n58fa1bdf67484c3d8f0923320a01dd02n
 !magndibebnidza	vti-refl	 1 give oneself scabs on the head from scratching	n58fa1bde1184447dbe7423320a01dd02n
 !niibneksidoonan	vtip	 1 arrange sth. [sticklike] erect in a row, place sth. [sticklike] erect in a row	n103000711847n
 !niibdeyaaksidoonan	vtip	 1 arrange sth. [sticklike] lying down side by side, place sth. [sticklike] lying down side by side	n103000711790n
 !niibdeksidoonan	vtip	 1 arrange sth. [sticklike] erect in a row, place sth. [sticklike] erect in a row	n103000711780n
 !maawndoowebnaanan	vtip	 1 toss sth. together	n58fa1bde4cb44d5eacb023320a01dd02n
-
-LEXICON VTI_TAG
-+VTI:0      # ;
