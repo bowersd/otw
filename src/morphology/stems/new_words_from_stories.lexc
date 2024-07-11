@@ -11,10 +11,10 @@ ggwaan'sagnaagzi:gagwaanisagnaagozi    # "look awful" ;
 giitaawgaa    # "dance in a circle" ; !derivation is giitaa + gaa, why the <w>?
 gnawendaagzi    # ;
 gpiibtoo:gopiibatoo    # "run up from the water's edge" ; 
-inakamigizi # !syncope problems
-kida # ;
+nakmigzi:inakamigizi # !syncope problems
 maajiigi    # ; !something to do with youth/adolescence
 maakhigaazo    # "maim" ; !phonological problem a/o, o/_ need lexical passive
+maandoobdaw:mandoobidwaad # "rush together" ; !phonological problem undersyncope
 mdaa'aagmishkaa # ; 
 mnidoonaago    # ; !maybe related to mji-mnidoo
 mshkawzii:mashkawizii    # "be powerful" ; !phonology problem, weird syncope, also maybe actually something more like mshkwiizii?
@@ -38,6 +38,7 @@ zaasaabza # "really blinds people" ;
 zhaa # "come over" ; !morphological problem
 zhaagnaashiigaabwi:zhaagnaashiigaabwi    # ; !missing derivation, there's also a comment about missing inflection -nind but might that have just been a spelling error?
 zhi-yaa:izhi-ayaa    # "be a certain way" ; !looks to already be in the tmp.lexc file
+zhiwebdagbane # "" 1 happen, be a certain way,  2 be a certain kind of weather" ; !missing inflection of zhiwebat
 
 LEXICON NU_VAIO
 naanzon:inaanzon    # "dye" ;
@@ -95,6 +96,7 @@ ggwejmaamaa    # ; !derived from ggweji "test" and maam "smell"
 giishkjaanegnaamaa # "split nose by hitting" ; !syncope
 gobnaa:agobin    # "tie on" ; !phonological problem with missing initial <d>
 kwaawaa    # "attack" ; 
+mnjignikenaa:minjigonikenaa # "hold by the arms" ; !from minjigon
 naagdawenmaa    # ; "look after smt. for smb." ; !related to naagdawendmawaa, morphological problem
 n'gwaanaa # "trap, snare" ;
 njignaamaa # "smack with force" ; !nji- might be pv?
@@ -138,8 +140,10 @@ piinish # "animal" ; !unclear without context
 
 LEXICON NU_ADV
 aabtoowyiinh    # "halfway up the hill" ; !syncope problems, aabtoo- is clearly half, but I can't find a word related to hill
+edwenik:eyedawikana # "both arms, both sides of the road" ;
 gaa'shii:gaashwii # ; !gaa(wiin)+dash+wiin
 giiwenh # "so it is said" ; !also giiyenh?
+gyak:gwayak # ;
 maanaa # ; !negative
 maj # "bad" ; !maybe related to maji-, maybe IPC
 mnopii # "good distance" ; !mno-pii
@@ -147,8 +151,10 @@ nake # ; !already defined as adv, might be something else
 niiyiing    # "at that place" ; !analyzed as compound of niwi and ya'ii
 noonj    # "more" ; !contraction of nwanj
 nsawyiing    # "between, middle" ;
+shkweyiing:íshkweyaang # "at the end, last" ; !RV relates to shkweyaang, maybe also eshkweyiing
 wenjida    # "deliberately" ; !phonology problem, looks like initial change, maybe taken from CCNJ verb?
 wewiikaa # ; !redup of wiikaa
+zhaazhgo # ;
 
 LEXICON NU_PRON_NA
 wegwendig # "somebody" ; !dubitative pronoun
