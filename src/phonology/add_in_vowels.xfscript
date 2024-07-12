@@ -26,26 +26,27 @@ define rmspecialv [
                     Vo2 -> a ,
                     Bv1 -> i 
                 ];
+
 define aposToV [%' -> [a|i|o] || \[a|i|o|e] _ \[a|i|o|e]] ; 
 define mdToband [m d (->) b a n d] ; 
 define initialVoicelessExpansion [
-                                    .#. p (->) [b [a|i|o] [b|p]],,
-                                    .#. t (->) [d [a|i|o] [d|t]],,
-                                    .#. k (->) [g [a|i|o] [g|k]],,
-                                    .#. s (->) [z [a|i|o] [z|s]],,
-                                    .#. s h (->) [[z h [a|i|o] [z|s] (h)]|[z (h) [a|i|o] [z|s] h]],,
-                                    .#. c h (->) [j [a|i|o] [j|c h]]
+                                    [.#.|%-] p (->) [b [a|i|o] [b|p]],,
+                                    [.#.|%-] t (->) [d [a|i|o] [d|t]],,
+                                    [.#.|%-] k (->) [g [a|i|o] [g|k]],,
+                                    [.#.|%-] s (->) [z [a|i|o] [z|s]],,
+                                    [.#.|%-] s h (->) [[z h [a|i|o] [z|s] (h)]|[z (h) [a|i|o] [z|s] h]],,
+                                    [.#.|%-] c h (->) [j [a|i|o] [j|c h]]
                                     ] ; 
-define obligatoryVC [[..] -> [a|i|o] || .#. _ [p|t|k|s|h|%'|c h],
-                                        .#. _ [b|d|g|m|n|z (h)|j|w|y] [a|i|o] \[a|i|o]
+define obligatoryVC [[..] -> [a|i|o] || [.#.|%-] _ [p|t|k|s|h|%'|c h],
+                                        [.#.|%-] _ [b|d|g|m|n|z (h)|j|w|y] [a|i|o] \[a|i|o]
 ] ; 
 define initialprimaryObligatorySiteVariation [
                                                 [[..] -> V V || 
-                                                .#. _ [[n [d|j|z (h)|g]]|m b] ,
-                                                .#. [n] _ [d|j|z (h)|g],
-                                                .#. [m] _ [b] ,
-                                                .#. _ [b|d|g|m|n|z (h)|j] [w] [a|i|o] \[a|i|o] ,
-                                                .#. [b|d|g|m|n|z (h)|j] _ [w] [a|i|o] \[a|i|o] 
+                                                [.#.|%-] _ [[n [d|j|z (h)|g]]|m b] ,
+                                                [.#.|%-] [n] _ [d|j|z (h)|g],
+                                                [.#.|%-] [m] _ [b] ,
+                                                [.#.|%-] _ [b|d|g|m|n|z (h)|j] [w] [a|i|o] \[a|i|o] ,
+                                                [.#.|%-] [b|d|g|m|n|z (h)|j] _ [w] [a|i|o] \[a|i|o] 
                                                 ] .o.
                                                 [
                                                     V  V n V  V -> [[a|i|o] n]|[n [a|i|o]] ,
@@ -59,8 +60,8 @@ define initialprimaryObligatorySiteVariation [
                                                     ] ;
 define initialprimaryOptionalSiteVariation [
                                                 [[..] -> V V || 
-                                                .#. _ [b|d|g|m|n|z (h)|j] [w] [a a|i i|o o] ,
-                                                .#. [b|d|g|m|n|z (h)|j] _ [w] [a a|i i|o o] 
+                                                [.#.|%-] _ [b|d|g|m|n|z (h)|j] [w] [a a|i i|o o] ,
+                                                [.#.|%-] [b|d|g|m|n|z (h)|j] _ [w] [a a|i i|o o] 
                                                 ] .o.
                                                 [
                                                     V V n V V   -> [n]  |[[a|i|o] n]  |[n [a|i|o]] ,,
@@ -73,7 +74,7 @@ define initialprimaryOptionalSiteVariation [
                                                     V V z h V V -> [z h]|[[a|i|o] z h]|[z h [a|i|o]] ]
                                                     ] ;
 
-define optionalVC [[..] (->) [a|i|o] || .#. _ [b|d|g|m|n|z|j|w|y] [a a|i i|o o|e]] ; 
+define optionalVC [[..] (->) [a|i|o] || [.#.|%-] _ [b|d|g|m|n|z|j|w|y] [a a|i i|o o|e]] ; 
 define primaryToCV [[..] -> [a|i|o] ||  [a|i|o|e] [m] _ [b] [a|i|o],
                                         [a|i|o|e] [n] _ [d|z (h)|j|y|h] [a|i|o],
                                         [a|i|o|e] [s (h)] _ [p|t|k] [a|i|o],
@@ -112,7 +113,7 @@ define primaryToCCV [[..] -> [a|i|o] ||
 
 define secondaryToCV [[..] -> [a|i|o] || 
                                         !consonantal non-syllabics
-                                        [a|i|o|e] [ 
+                                        [a|i|o|e|%-|.#.] [ 
                                                     b|d|g|
                                                     p|t|k|
                                                     z (h)|
@@ -127,7 +128,7 @@ define secondaryToCV [[..] -> [a|i|o] ||
                                                                %'|h 
                                                                ] ,
                                           !non-consonantal non-syllabics
-                                          [a|i|o|e] [ 
+                                          [a|i|o|e|%-|.#.] [ 
                                                      %'|h|
                                                      w|y
                                                      ]    _ [
@@ -141,7 +142,7 @@ define secondaryToCV [[..] -> [a|i|o] ||
                                                                 w|y
                                                                 ] ,
                                           !fortis stridents
-                                          [a|i|o|e] [ s (h) ]    _ [ 
+                                          [a|i|o|e|%-|.#.] [ s (h) ]    _ [ 
                                                                 b|d|g| 
                                                                 z (h)| 
                                                                 s (h)| 
@@ -151,7 +152,7 @@ define secondaryToCV [[..] -> [a|i|o] ||
                                                                 y
                                                                 ] ,
                                           !m
-                                          [a|i|o|e] [ m  ]    _ [ 
+                                          [a|i|o|e|%-|.#.] [ m  ]    _ [ 
                                                                 d|g| 
                                                                 p|t|k| 
                                                                 z (h)| 
@@ -162,7 +163,7 @@ define secondaryToCV [[..] -> [a|i|o] ||
                                                                 y
                                                                 ] ,
                                           !n
-                                          [a|i|o|e] [ n ]    _ [
+                                          [a|i|o|e|%-|.#.] [ n ]    _ [
                                                                 b| 
                                                                 p|t|k| 
                                                                 m|n| 
