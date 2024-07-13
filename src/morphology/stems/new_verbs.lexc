@@ -2329,7 +2329,6 @@ saswin'ke    VAI_TAG    " 1 make a nest" ; !Rand key:n58fa1bd556284f64857423320a
 saswaan'ke    VAI_TAG    " 1 make a nest" ; !Rand key:n58fa1bd5058c4fe8807f23320a01dd02n
 sasnike    VAI_TAG    " 1 make a nest" ; !Rand key:n58fa1bd5bf90457b996c23320a01dd02n
 sasaazi    VAI_TAG    " 1 be skittish, be untamed, be wild" ; !Rand key:n58fa1bd548a4490d834323320a01dd02n
-sanaamish    VAI_TAG    " 1 possibly Red maple Acer rubrum, swamp maple" ; !Rand key:n58fa1bd502c04256bb4523320a01dd02n
 samaan'gidoon    VAI_TAG    " 1 talk feistily, talk forcefully" ; !Rand key:n58fa1bd5878c46999ddd23320a01dd02n
 samaagne    VAI_TAG    " 1 trudge through the snow" ; !Rand key:n58fa1bd5ce3c46688b2123320a01dd02n
 psikbiiygese    VAI_TAG    " 1 [pen] stick [in writing]" ; !Rand key:n58fa1bd5e8c0471683d323320a01dd02n
@@ -2501,12 +2500,12 @@ ziikoobiisin    VII_TAG    " 1 [object at rest] drain" ; !Rand key:n103000788805
 ziikoobiigsin    VII_TAG    " 1 [object at rest] drain" ; !Rand key:n103000788791n
 ziikoobii    VII_TAG    " 1 be soaked" ; !Rand key:n103000788754n
 ziigiigmin'gisin    VII_TAG    " 1 [round object] turn wrinkly" ; !Rand key:n103000788607n
-ziigiigat    VII_TAG    " 1 be wrinkled" ; !Rand key:n103000788589n
+ziigiigad2    VII_TAG    " 1 be wrinkled" ; !Rand key:n103000788589n
 ziiggamde    VII_TAG    " 1 boil over" ; !Rand key:n103000788563n
 ziigaazhgaa    VII_TAG    " 1 [liquid] flow out" ; !Rand key:n103000788552n
 ziigaangde    VII_TAG    " 1 [loose objects] lie spilled out" ; !Rand key:n103000788526n
-ziibskat    VII_TAG    " 1 be hard to break, be hard to break off, be resistant to breakage" ; !Rand key:n103000788399n
-ziibskaamgat    VII_TAG    " 1 [viscous liquid] flow slowly" ; !Rand key:n103000788383n
+ziibskad2    VII_TAG    " 1 be hard to break, be hard to break off, be resistant to breakage" ; !Rand key:n103000788399n
+ziibskaamgad2    VII_TAG    " 1 [viscous liquid] flow slowly" ; !Rand key:n103000788383n
 ziibskaa    VII_TAG    " 1 [viscous liquid] flow slowly" ; !Rand key:n103000788333n
 ziibiiwesin    VII_TAG    " 1 be waterlogged ground" ; !Rand key:n103000788326n
 zhooshkjiishkogaa    VII_TAG    " 1 be slippery mud" ; !Rand key:n103000788176n
@@ -2515,29 +2514,29 @@ zhoobaasin    VII_TAG    " 1 [sticklike object] be bent by the wind" ; !Rand key
 zhoobaagshkoode    VII_TAG    " 1 [sticklike object] be bent by a weight" ; !Rand key:n103000787956n
 zhoobaa    VII_TAG    " 1 [sticklike object] be curved" ; !Rand key:n103000787916n
 zhngwaaksin    VII_TAG    " 1 be unoccupied, be vacant" ; !Rand key:n103000787909n
-Zhngobgiizhgat    VII_TAG    " 1 be Palm Sunday (Nishnaabemwin term reflects use of cedar branches in lieu of palm branches in marking this day)" ; !Rand key:n103000787903n
+Zhngobgiizhgad2    VII_TAG    " 1 be Palm Sunday (Nishnaabemwin term reflects use of cedar branches in lieu of palm branches in marking this day)" ; !Rand key:n103000787903n
 zhkashkaa    VII_TAG    " 1 be damp grass" ; !Rand key:n103000787878n
 zhizhyaawebde    VII_TAG    " 1 travel straight" ; !Rand key:n103000787799n
 zhizhyaamad    VII_TAG    " 1 [road] be straight, go straight, run straight" ; !Rand key:n103000787779n
 zhisgosin    VII_TAG    " 1 lie empty, sit empty" ; !Rand key:n103000787612n
 zhipkweyaa    VII_TAG    " 1 its roof be a certain shape, have a roof shaped a certain way" ; !Rand key:n103000787601n
 zhiiwaagmi    VII_TAG    " 1 [liquid] be sour, be bitter" ; !Rand key:n103000787316n
-zhiiwmaagot    VII_TAG    " 1 smell sour" ; !Rand key:n103000787293n
-zhiishiigmaagot    VII_TAG    " 1 smell like pee, smell of urine" ; !Rand key:n103000787223n
-zhiigoobnemgat    VII_TAG    " 1 be left behind upon someone’s death" ; !Rand key:n103000780849n
+zhiiwmaagod2    VII_TAG    " 1 smell sour" ; !Rand key:n103000787293n
+zhiishiigmaagod2    VII_TAG    " 1 smell like pee, smell of urine" ; !Rand key:n103000787223n
+zhiigoobnemgad2    VII_TAG    " 1 be left behind upon someone’s death" ; !Rand key:n103000780849n
 zhiigaagmi    VII_TAG    " 1 [soup] be thin, be watery" ; !Rand key:n103000780748n
 zhiibweyaamgad    VII_TAG    " 1 be transparent" ; !Rand key:n103000780724n
-zhiibwaaseyiigat    VII_TAG    " 1 [sheetlike object] be transparent" ; !Rand key:n103000780699n
+zhiibwaaseyiigad2    VII_TAG    " 1 [sheetlike object] be transparent" ; !Rand key:n103000780699n
 zhiibwaaseyaagmi    VII_TAG    " 1 [liquid] be clear" ; !Rand key:n103000780692n
 zhiibwaaseyaa    VII_TAG    " 1 [solid] be transparent" ; !Rand key:n103000780686n
 zhiibiigshkoode    VII_TAG    " 1 be stretched by a weight" ; !Rand key:n103000780634n
-zhiibiigshkaamgat    VII_TAG    " 1 stretch" ; !Rand key:n103000780623n
+zhiibiigshkaamgad2    VII_TAG    " 1 stretch" ; !Rand key:n103000780623n
 zhiibiigshkaa    VII_TAG    " 1 stretch" ; !Rand key:n103000780612n
 zhiibaayaasin    VII_TAG    " 1 [boat] sail through a channel" ; !Rand key:n103000780513n
 zhiibaawaasin    VII_TAG    " 1 [boat] sail through a channel" ; !Rand key:n103000780418n
 zhiibaawaabkaa    VII_TAG    " 1 be a rock tunnel, be a tunnel in a mountain" ; !Rand key:n103000780346n
 zhiibaamchigaade    VII_TAG    " 1 [road] be made to go through an area" ; !Rand key:n103000780302n
-zhiibaamat    VII_TAG    " 1 [road] go through an area" ; !Rand key:n103000780291n
+zhiibaamad2    VII_TAG    " 1 [road] go through an area" ; !Rand key:n103000780291n
 zheyaagmi    VII_TAG    " 1 [beverage] be weak" ; !Rand key:n103000779843n
 zhegnde    VII_TAG    " 1 its price be rolled back." ; !Rand key:n103000779593n
 zhebiiyaa    VII_TAG    " 1 ice recede from the shoreline, lake open up [from ice receding]" ; !Rand key:n103000779342n
@@ -2557,19 +2556,19 @@ zgaakdin    VII_TAG    " 1 be snagged on something" ; !Rand key:n103000770314n
 zgaabiigshkoode    VII_TAG    " 1 end [of a stringlike object] be pinned down [by a weight]" ; !Rand key:n103000770282n
 zga'oode    VII_TAG    " 1 be attached by the tip with a string" ; !Rand key:n103000770255n
 zegbii'gaade    VII_TAG    " 1 [book] be scary, [written account of an event] be scary" ; !Rand key:n103000769908n
-zegaanmat    VII_TAG    " 1 be a fierce wind, be frightfully windy, wind blow fiercely" ; !Rand key:n103000769877n
-zegaan'kot    VII_TAG    " 1 clouds look ominous" ; !Rand key:n103000769866n
+zegaanmad2    VII_TAG    " 1 be a fierce wind, be frightfully windy, wind blow fiercely" ; !Rand key:n103000769877n
+zegaan'kod2    VII_TAG    " 1 clouds look ominous" ; !Rand key:n103000769866n
 zegaadjigaade    VII_TAG    " 1 be reported as being dangerous, be said to be dangerous, scary things be said about something" ; !Rand key:n103000769825n
 zegaadde    VII_TAG    " 1 be reported as being dangerous, be said to be dangerous, a frightening story be told about something" ; !Rand key:n103000769818n
 zedaabaade    VII_TAG    " 1 [stringlike object] drag along behind" ; !Rand key:n103000769779n
-zaawegat    VII_TAG    " 1 [sheetlike object] be brown, be orange, be yellow, be yellowed [with age]" ; !Rand key:n103000769594n
+zaawegad2    VII_TAG    " 1 [sheetlike object] be brown, be orange, be yellow, be yellowed [with age]" ; !Rand key:n103000769594n
 zaawaanzhese    VII_TAG    " 1 [traffic light] turn yellow" ; !Rand key:n103000769577n
 zaawaakde    VII_TAG    " 1 be browned by the heat" ; !Rand key:n103000769526n
-zaatepgot    VII_TAG    " 1 taste rancid" ; !Rand key:n103000769504n
+zaatepgod2    VII_TAG    " 1 taste rancid" ; !Rand key:n103000769504n
 zaasaabde    VII_TAG    " 1 [sunlight] be blindingly bright, be blindingly bright outdoors" ; !Rand key:n103000769341n
 zaamwaabde    VII_TAG    " 1 be overripe" ; !Rand key:n103000769306n
 zaamkone    VII_TAG    " 1 fire be going too good" ; !Rand key:n103000769267n
-zaamkamgat    VII_TAG    " 1 [event] be out of control, things get out of hand" ; !Rand key:n103000769247n
+zaamkamgad2    VII_TAG    " 1 [event] be out of control, things get out of hand" ; !Rand key:n103000769247n
 zaami-waabde    VII_TAG    " 1 be overripe" ; !Rand key:n103000769233n
 zaamginde    VII_TAG    " 1 cost too much, be too expensive" ; !Rand key:n103000769213n
 zaambide    VII_TAG    " 1 overshoot a target" ; !Rand key:n103000769174n
@@ -2581,7 +2580,7 @@ zaagjijwan    VII_TAG    " 1 [water] flow out" ; !Rand key:n103000768901n
 zaagiigsin    VII_TAG    " 1 [sheetlike object] stick out from underneath something" ; !Rand key:n103000768730n
 zaagdwewesin    VII_TAG    " 1 sound of something travel out of a building" ; !Rand key:n103000768640n
 zaagdanesin    VII_TAG    " 1 offensive odour disperse to the outdoors" ; !Rand key:n103000768525n
-zaagdamaagot    VII_TAG    " 1 a smell leave a room, a room be cleared of a smell, the smell of something leave a room, a room be cleared of the smell of something" ; !Rand key:n103000768495n
+zaagdamaagod2    VII_TAG    " 1 a smell leave a room, a room be cleared of a smell, the smell of something leave a room, a room be cleared of the smell of something" ; !Rand key:n103000768495n
 zaagdaaksin    VII_TAG    " 1 [sticklike object] stick out through an opening" ; !Rand key:n103000768376n
 zaagdaaboode    VII_TAG    " 1 float out, be flushed out" ; !Rand key:n103000768341n
 zaagdaabiigse    VII_TAG    " 1 [stringlike object] extend out through an opening" ; !Rand key:n103000768334n
@@ -2594,19 +2593,19 @@ yekwaabde    VII_TAG    " 1 be no longer functional (e.g. machines), be totally 
 yaakoogaadeyaak    VII_TAG    " 1 [pants] legs be of a certain length" ; !Rand key:n103000767795n
 wiiwzhinaagod    VII_TAG    " 1 be cute, look cute" ; !Rand key:n103000757964n
 wiisni'dim    VII_TAG    " 1 there be a feast" ; !Rand key:n103000757862n
-wiishktepowgot    VII_TAG    " 1 taste smoky" ; !Rand key:n103000757817n
+wiishktepowgod2    VII_TAG    " 1 taste smoky" ; !Rand key:n103000757817n
 wiisgizheyaate    VII_TAG    " 1 [sunshine] be painful on the skin" ; !Rand key:n103000757738n
 wiisgaabkide    VII_TAG    " 1 [metal] be excruciatingly hot" ; !Rand key:n103000757331n
 wiinte    VII_TAG    " 1 [room or house] be dirty" ; !Rand key:n103000757269n
 wiinaatese    VII_TAG    " 1 [movie] be dirty, be pornographic" ; !Rand key:n103000757133n
 wiinaabte    VII_TAG    " 1 dirty smoke blow, dirty smoke waft" ; !Rand key:n103000757109n
 wiimbaayaa    VII_TAG    " 1 be hollow, be a hole (i.e. a cavity), there be a hollow, there be a cavity" ; !Rand key:n103000757037n
-wiikwaasjigemgat    VII_TAG    " 1 suck things up, vacuum" ; !Rand key:n103000756990n
+wiikwaasjigemgad2    VII_TAG    " 1 suck things up, vacuum" ; !Rand key:n103000756990n
 wewebaabiisemgad    VII_TAG    " 1 [stringlike object] swing" ; !Rand key:n103000756471n
 wewebaabiise    VII_TAG    " 1 [stringlike object] swing" ; !Rand key:n103000756464n
 washkmo    VII_TAG    " 1 [road] wind, be a winding road" ; !Rand key:n103000756165n
 wannaagod    VII_TAG    " 1 look foggy" ; !Rand key:n103000756149n
-waawyeyaanmat    VII_TAG    " 1 wind blow in a circle" ; !Rand key:n103000756099n
+waawyeyaanmad2    VII_TAG    " 1 wind blow in a circle" ; !Rand key:n103000756099n
 waawyetgisin    VII_TAG    " 1 lie coiled" ; !Rand key:n103000756082n
 waawaaskonewan    VII_TAG    " 1 bloom, flower, have flowers" ; !Rand key:n103000755877n
 waaswaaksin    VII_TAG    " 1 lean against something" ; !Rand key:n103000755830n
@@ -2646,12 +2645,12 @@ skaabii    VII_TAG    " 1 [river] dry up, [well] dry up" ; !Rand key:n1030007451
 sinii-daawngan    VII_TAG    " 1 be pebbly soil, be stony soil" ; !Rand key:n103000745109n
 siigmide    VII_TAG    " 1 boil over" ; !Rand key:n103000745081n
 siigkamde    VII_TAG    " 1 boil over" ; !Rand key:n103000745058n
-shpaakoon'gat    VII_TAG    " 1 [watercraft] be high, be tall (of watercraft hull height)" ; !Rand key:n103000744927n
+shpaakoon'gad2    VII_TAG    " 1 [watercraft] be high, be tall (of watercraft hull height)" ; !Rand key:n103000744927n
 shkwaapo    VII_TAG    " 1 stop snowing" ; !Rand key:n103000744680n
 shkipo    VII_TAG    " 1 wet snow fall" ; !Rand key:n103000744612n
 shki-naagshi    VII_TAG    " 1 be early evening" ; !Rand key:n103000744533n
 shkagmaa    VII_TAG    " 1 body of water narrows" ; !Rand key:n103000744509n
-shka'iiwnaagot    VII_TAG    " 1 look new, look like new" ; !Rand key:n103000744495n
+shka'iiwnaagod2    VII_TAG    " 1 look new, look like new" ; !Rand key:n103000744495n
 shigwaasin    VII_TAG    " 1 get pureed" ; !Rand key:n103000744370n
 shigshkoode    VII_TAG    " 1 be crushed [by a weight]" ; !Rand key:n103000744279n
 shigjiisin    VII_TAG    " 1 [3-dimensional object] shatter [from striking something]" ; !Rand key:n103000744100n
@@ -2660,7 +2659,7 @@ shigaasin    VII_TAG    " 1 be chopped, be pureed, be shredded as in a blender" 
 shibaayaamgad    VII_TAG    " 1 have a mesh structure (like that of a mesh chair, window screen, open-weave blanket)" ; !Rand key:n103000743952n
 shaweyaa    VII_TAG    " 1 be slanted" ; !Rand key:n103000743933n
 shawejiide    VII_TAG    " 1 [baked object] be lopsided, rise lopsidedly in baking" ; !Rand key:n103000743887n
-samenaagot    VII_TAG    " 1 look poorly crafted, look sloppy" ; !Rand key:n103004167744n
+samenaagod2    VII_TAG    " 1 look poorly crafted, look sloppy" ; !Rand key:n103004167744n
 sagse    VII_TAG    " 1 [stringlike object] be tangled, get tangled" ; !Rand key:n103004167696n
 sagaakwaa    VII_TAG    " 1 be tangly woods, woods be tangly" ; !Rand key:n103004167685n
 sagaa    VII_TAG    " 1 be tangly bush, be tangled brush" ; !Rand key:n103004167675n
@@ -2673,17 +2672,17 @@ paagta'an    VII_TAG    " 1 be rocked by waves, rock from the waves" ; !Rand key
 nzikaamgad    VII_TAG    " 1 come from a certain place" ; !Rand key:n103004166541n
 ntaagod    VII_TAG    " 1 be haunted" ; !Rand key:n103004166317n
 nswewesin    VII_TAG    " 1 be resonant, resound, its sound carry far" ; !Rand key:n103004166294n
-nso-giizsagat    VII_TAG    " 1 three months since, in three months’ time" ; !Rand key:n103004166239n
+nso-giizsagad2    VII_TAG    " 1 three months since, in three months’ time" ; !Rand key:n103004166239n
 nshkiiwaan'kod    VII_TAG    " 1 be dense clouds" ; !Rand key:n103004166187n
-nshinaaznaagot    VII_TAG    " 1 [structure] look neglected, look in poor shape [from neglect]" ; !Rand key:n103004166174n
+nshinaaznaagod2    VII_TAG    " 1 [structure] look neglected, look in poor shape [from neglect]" ; !Rand key:n103004166174n
 nshinaatese    VII_TAG    " 1 [TV picture] be messed up (e.g. pixelated)" ; !Rand key:n103004166167n
-nshinaajiinat    VII_TAG    " 1 be incredibly abundant, be incredibly numerous, there be an incredible number" ; !Rand key:n103004166123n
+nshinaajiinad2    VII_TAG    " 1 be incredibly abundant, be incredibly numerous, there be an incredible number" ; !Rand key:n103004166123n
 nshinaajbide    VII_TAG    " 1 [power tool or appliance] malfunction, not run properly" ; !Rand key:n103004166069n
-nshinaadkamgat    VII_TAG    " 1 [event] be chaotic, [situation] deteriorate, [event] get out of hand" ; !Rand key:n103004166004n
+nshinaadkamgad2    VII_TAG    " 1 [event] be chaotic, [situation] deteriorate, [event] get out of hand" ; !Rand key:n103004166004n
 nshikewsin    VII_TAG    " 1 sit apart from other things, sit somewhere by itself" ; !Rand key:n103004165884n
-nshanaaznaagot    VII_TAG    " 1 [structure] look neglected, look in poor shape [from neglect]" ; !Rand key:n103004165766n
-nshanaajiinat    VII_TAG    " 1 be incredibly abundant, be incredibly numerous, there be an incredible number" ; !Rand key:n103004165728n
-nsataagot    VII_TAG    " 1 be recognizable by sound, be understandable" ; !Rand key:n103004165422n
+nshanaaznaagod2    VII_TAG    " 1 [structure] look neglected, look in poor shape [from neglect]" ; !Rand key:n103004165766n
+nshanaajiinad2    VII_TAG    " 1 be incredibly abundant, be incredibly numerous, there be an incredible number" ; !Rand key:n103004165728n
+nsataagod2    VII_TAG    " 1 be recognizable by sound, be understandable" ; !Rand key:n103004165422n
 nsaantaagod    VII_TAG    " 1 sound lonely" ; !Rand key:n103004165400n
 noozwin'kem    VII_TAG    " 1 there be naming ceremonies" ; !Rand key:n103000714196n
 nookjiishkogaa    VII_TAG    " 1 be muddy" ; !Rand key:n103000714002n
@@ -2695,17 +2694,17 @@ nnepaadjiiyaa    VII_TAG    " 1 be misshapen" ; !Rand key:n103000713351n
 nnepaadjiide    VII_TAG    " 1 [baked item] be misshapen" ; !Rand key:n103000713344n
 nnangkamgishkaa    VII_TAG    " 1 there be an earthquake, there be earth tremors" ; !Rand key:n103000713268n
 nkiiyaagmishkaa    VII_TAG    " 1 [body of water] turn murky" ; !Rand key:n103000712924n
-njitaamgat    VII_TAG    " 1 take a certain amount of time [to do something]" ; !Rand key:n103000712913n
-njibaamgat    VII_TAG    " 1 come from a certain place, be from a certain place" ; !Rand key:n103000712856n
-nikaagemgat    VII_TAG    " 1 [ingested substance] affect someone a certain way, have a certain effect on someone" ; !Rand key:n103000712497n
+njitaamgad2    VII_TAG    " 1 take a certain amount of time [to do something]" ; !Rand key:n103000712913n
+njibaamgad2    VII_TAG    " 1 come from a certain place, be from a certain place" ; !Rand key:n103000712856n
+nikaagemgad2    VII_TAG    " 1 [ingested substance] affect someone a certain way, have a certain effect on someone" ; !Rand key:n103000712497n
 niizhooyaabdeyaamgad    VII_TAG    " 1 [blade] have two [cutting] edges (as with a double-bit felling  axe)" ; !Rand key:n103000712433n
 niizhoowaabiisin    VII_TAG    " 1 [string or rope] be doubled up" ; !Rand key:n103000712426n
-niizhoowaabdeyaamgat    VII_TAG    " 1 [blade] have two [cutting] edges (as with a double-bit felling  axe)" ; !Rand key:n103000712420n
-niizaanendaagot    VII_TAG    " 1 seem dangerous" ; !Rand key:n103000712360n
+niizhoowaabdeyaamgad2    VII_TAG    " 1 [blade] have two [cutting] edges (as with a double-bit felling  axe)" ; !Rand key:n103000712420n
+niizaanendaagod2    VII_TAG    " 1 seem dangerous" ; !Rand key:n103000712360n
 niisneyaakde    VII_TAG    " 1 [cloth] get ragged as it burns" ; !Rand key:n103000712310n
-niiskndibeyaanmat    VII_TAG    " 1 wind make people’s hair all messy" ; !Rand key:n103000712304n
+niiskndibeyaanmad2    VII_TAG    " 1 wind make people’s hair all messy" ; !Rand key:n103000712304n
 niiskaaksin    VII_TAG    " 1 [sticklike object] lie cluttering up space" ; !Rand key:n103000712241n
-niiskaaji-zhiwebat    VII_TAG    " 1 be bad weather, be unpleasant weather" ; !Rand key:n103000712221n
+niiskaaji-zhiwebad2    VII_TAG    " 1 be bad weather, be unpleasant weather" ; !Rand key:n103000712221n
 niisiigaasin    VII_TAG    " 1 [sheetlike object] be shredded by the wind" ; !Rand key:n103000712203n
 niisaakde    VII_TAG    " 1 fire go down" ; !Rand key:n103000712151n
 niisaabte    VII_TAG    " 1 [smoke] blow downward" ; !Rand key:n103000712144n
@@ -2714,7 +2713,7 @@ nigkwaawaa    VII_TAG    " 1 [a hole] be a certain size" ; !Rand key:n1030007117
 ni'gaade    VII_TAG    " 1 [a piece of music] go a certain way " ; !Rand key:n103000711649n
 ngon'gaade    VII_TAG    " 1 be abolished, be done away with" ; !Rand key:n103000711603n
 ngokne    VII_TAG    " 1 [fire] burn out, [fire] die" ; !Rand key:n103000711596n
-ngodwaas-giizsagat    VII_TAG    " 1 be six months" ; !Rand key:n103000711576n
+ngodwaas-giizsagad2    VII_TAG    " 1 be six months" ; !Rand key:n103000711576n
 nepaadaakshkaa    VII_TAG    " 1 [sticklike object] be twisted out of shape" ; !Rand key:n103000711477n
 neniizhooshkne    VII_TAG    " 1 be two in each bag" ; !Rand key:n103000711456n
 negwikdaawngaa    VII_TAG    " 1 be sandy soil" ; !Rand key:n103000711346n
@@ -2734,7 +2733,7 @@ nbiiwaabkaa    VII_TAG    " 1 [rock or metal object] have condensation on it" ; 
 nbiishwaagmi    VII_TAG    " 1 [soup] be watery, be thin" ; !Rand key:n103000696816n
 nbiishkoyaa    VII_TAG    " 1 [grass] be wet" ; !Rand key:n103000696805n
 nbiikmagaa    VII_TAG    " 1 [an area of ground] be water covered, [ground] be waterlogged" ; !Rand key:n103000696798n
-nbeshkaagemgat    VII_TAG    " 1 induce sleep when ingested, [something ingested] put a person to sleep" ; !Rand key:n103000696756n
+nbeshkaagemgad2    VII_TAG    " 1 induce sleep when ingested, [something ingested] put a person to sleep" ; !Rand key:n103000696756n
 nbagjiiyaa    VII_TAG    " 1 [3-dimensional object] be flat, have a flat shape" ; !Rand key:n103000696632n
 nbagbakweyaa    VII_TAG    " 1 have a flat roof" ; !Rand key:n103000696626n
 naweksin    VII_TAG    " 1 lean, stand at a lean" ; !Rand key:n103000696516n
@@ -2756,37 +2755,37 @@ mzhishwaa    VII_TAG    " 1 be clear of trees, [field] be open, be treeless" ; !
 mzhishgote    VII_TAG    " 1 [room] be empty of furniture" ; !Rand key:n103000694376n
 mzhiiyaakweyaa    VII_TAG    " 1 be treeless" ; !Rand key:n103000694335n
 mzawete    VII_TAG    " 1 be all one room, be undivided, have no partitions, have no dividing walls" ; !Rand key:n103000694260n
-myegtaagot    VII_TAG    " 1 sound strange" ; !Rand key:n103000694207n
+myegtaagod2    VII_TAG    " 1 sound strange" ; !Rand key:n103000694207n
 myaashkoode    VII_TAG    " 1 be balanced [on weigh scale]" ; !Rand key:n103000694062n
 mtigwaakmigaa    VII_TAG    " 1 be forested" ; !Rand key:n103000693967n
 mtigoonswan    VII_TAG    " 1 feel woody (as of certain overripe produce)" ; !Rand key:n103000693938n
-mskwiigde'endaagot    VII_TAG    " 1 be exasperating, be frustrating" ; !Rand key:n103000693833n
+mskwiigde'endaagod2    VII_TAG    " 1 be exasperating, be frustrating" ; !Rand key:n103000693833n
 mskwaanzhemgad    VII_TAG    " 1 [light] be red, glow red" ; !Rand key:n103000693826n
 mskowaabgan'kaa    VII_TAG    " 1 be rich in red clay, [soil] be red clay" ; !Rand key:n103000693819n
 mshkosiiwan    VII_TAG    " 1 be marshy" ; !Rand key:n103000693748n
 mshkodekmigaa    VII_TAG    " 1 be treeless" ; !Rand key:n103000693721n
-mshkawsemgat    VII_TAG    " 1 get knotted up" ; !Rand key:n103000693629n
-mshkawpogot    VII_TAG    " 1 [food] taste strong, have a strong flavour" ; !Rand key:n103000693616n
-mshkawegat    VII_TAG    " 1 [sheetlike object] be tough" ; !Rand key:n103000693602n
-mshkawaanmat    VII_TAG    " 1 be a strong wind, wind be strong" ; !Rand key:n103000693596n
+mshkawsemgad2    VII_TAG    " 1 get knotted up" ; !Rand key:n103000693629n
+mshkawpogod2    VII_TAG    " 1 [food] taste strong, have a strong flavour" ; !Rand key:n103000693616n
+mshkawegad2    VII_TAG    " 1 [sheetlike object] be tough" ; !Rand key:n103000693602n
+mshkawaanmad2    VII_TAG    " 1 be a strong wind, wind be strong" ; !Rand key:n103000693596n
 mshkawaakjiiyaa    VII_TAG    " 1 [3-dimensional object] be hard" ; !Rand key:n103000693567n
 mshkawaabiiyaa    VII_TAG    " 1 [stringlike object] be strong" ; !Rand key:n103000693519n
 mshka'oodse    VII_TAG    " 1 form a tight knot" ; !Rand key:n103000693503n
-mooshknemaagot    VII_TAG    " 1 fill up a room with its smell, a room be filled with an odour" ; !Rand key:n103000693243n
-moomaagot    VII_TAG    " 1 smell like shit" ; !Rand key:n103000693050n
+mooshknemaagod2    VII_TAG    " 1 fill up a room with its smell, a room be filled with an odour" ; !Rand key:n103000693243n
+moomaagod2    VII_TAG    " 1 smell like shit" ; !Rand key:n103000693050n
 mooknate    VII_TAG    " 1 emerge [from the snow] in spring" ; !Rand key:n103000693033n
 mookan    VII_TAG    " 1 be sunrise" ; !Rand key:n103000692920n
 mnwegse    VII_TAG    " 1 [dress] swing nicely [as one moves]" ; !Rand key:n103000680594n
 mnosemgad    VII_TAG    " 1 get resolved, get straightened out, work out well" ; !Rand key:n103000680548n
 mnose    VII_TAG    " 1 things be fine, go smoothly, go well, work out well" ; !Rand key:n103000680541n
 mnomo    VII_TAG    " 1 [road] be nice (i.e. smooth)" ; !Rand key:n103000680522n
-mnoknemgat    VII_TAG    " 1 [something] burn nicely, [something] make a nice fire, fire be burning nicely" ; !Rand key:n103000680515n
+mnoknemgad2    VII_TAG    " 1 [something] burn nicely, [something] make a nice fire, fire be burning nicely" ; !Rand key:n103000680515n
 mnobii'gaade    VII_TAG    " 1 [something written] be nice, be good" ; !Rand key:n103000680476n
 mnobgaa    VII_TAG    " 1 there be nice foliage" ; !Rand key:n103000680463n
 mno-nagnde    VII_TAG    " 1 be a good price" ; !Rand key:n103000680451n
-mngan'kat    VII_TAG    " 1 [tube-shaped object] be big" ; !Rand key:n103000680139n
+mngan'kad2    VII_TAG    " 1 [tube-shaped object] be big" ; !Rand key:n103000680139n
 mnanikwaa    VII_TAG    " 1 be the right size" ; !Rand key:n103000680006n
-mnanigkwegat    VII_TAG    " 1 [sheetlike object] be a good size, be the right size" ; !Rand key:n103000679988n
+mnanigkwegad2    VII_TAG    " 1 [sheetlike object] be a good size, be the right size" ; !Rand key:n103000679988n
 mnakwaabiignikeyaa    VII_TAG    " 1 be the right sleeve length, have sleeves of the right length" ; !Rand key:n103000679934n
 mnakwaabiiggaadeyaa    VII_TAG    " 1 be the right leg length" ; !Rand key:n103000679921n
 mnaknigaade    VII_TAG    " 1 have nicely laid out rooms, [house] be partitioned nicely" ; !Rand key:n103000679889n
@@ -2794,14 +2793,14 @@ mnaginde    VII_TAG    " 1 be a good price" ; !Rand key:n103000679882n
 mnaasin    VII_TAG    " 1 sail nicely" ; !Rand key:n103000679875n
 mmiskwaanzhese    VII_TAG    " 1 [light] flash red repeatedly" ; !Rand key:n103000679846n
 mmigwaasin    VII_TAG    " 1 flutter in the breeze" ; !Rand key:n103000679726n
-mmendaajpogot    VII_TAG    " 1 [food] taste such that it hasn’t sated people, taste such that people want to have some more" ; !Rand key:n103000679643n
+mmendaajpogod2    VII_TAG    " 1 [food] taste such that it hasn’t sated people, taste such that people want to have some more" ; !Rand key:n103000679643n
 mmendaadaagmi    VII_TAG    " 1 [a beverage] taste such that it hasn’t slaked people, taste such that people want to have some more" ; !Rand key:n103000679608n
 mmaangpo    VII_TAG    " 1 big snowflakes fall" ; !Rand key:n103000679571n
 mkwambiisaa    VII_TAG    " 1 be freezing rain" ; !Rand key:n103000679302n
 mkozgose    VII_TAG    " 1 be freezing rain" ; !Rand key:n103000679271n
 mkomiiwaaksin    VII_TAG    " 1 be covered with thin coat of ice, be coated thinly with ice" ; !Rand key:n103000679228n
-mkomiiwaakot    VII_TAG    " 1 [sticklike object] be ice covered, be coated with ice" ; !Rand key:n103000679217n
-mkomiiwaabkat    VII_TAG    " 1 [glass or metallic object] be ice covered, be coated with ice" ; !Rand key:n103000679206n
+mkomiiwaakod2    VII_TAG    " 1 [sticklike object] be ice covered, be coated with ice" ; !Rand key:n103000679217n
+mkomiiwaabkad2    VII_TAG    " 1 [glass or metallic object] be ice covered, be coated with ice" ; !Rand key:n103000679206n
 mkomiikaa    VII_TAG    " 1 be icy [weather condition]" ; !Rand key:n103000679200n
 mkadeyaakde    VII_TAG    " 1 be charred, be blackened in being cooked" ; !Rand key:n103000679155n
 mkadeyaabte    VII_TAG    " 1 there be black smoke, black smoke be emitted" ; !Rand key:n103000679125n
@@ -2810,13 +2809,13 @@ miisneyaasin    VII_TAG    " 1 get frayed by the wind, get tattered by the wind"
 miisneyaa    VII_TAG    " 1 be frayed, be ragged at the edges, be tattered" ; !Rand key:n103000678621n
 miigwaanswan    VII_TAG    " 1 get feathery [with mold]" ; !Rand key:n103000678222n
 miignasin    VII_TAG    " 1 grow feathery-looking mold" ; !Rand key:n103000678215n
-miigaadkamgat    VII_TAG    " 1 there be a brawl, a brawl occur" ; !Rand key:n103000678202n
-miigaadiikmigat    VII_TAG    " 1 there be a brawl, a brawl occur" ; !Rand key:n103000678180n
+miigaadkamgad2    VII_TAG    " 1 there be a brawl, a brawl occur" ; !Rand key:n103000678202n
+miigaadiikmigad2    VII_TAG    " 1 there be a brawl, a brawl occur" ; !Rand key:n103000678180n
 migwaasin    VII_TAG    " 1 flutter in the breeze" ; !Rand key:n103000678156n
 mgate    VII_TAG    " 1 [room] be quiet, be still" ; !Rand key:n103000678014n
 meyaashkoode    VII_TAG    " 1 [a load] be balanced" ; !Rand key:n103000677983n
 menwaa    VII_TAG    " 1 there be lots of free space, place be fairly empty" ; !Rand key:n103000677939n
-megtaagot    VII_TAG    " 1 sound strange" ; !Rand key:n103000677761n
+megtaagod2    VII_TAG    " 1 sound strange" ; !Rand key:n103000677761n
 mdweweknese    VII_TAG    " 1 make a sound in sparking, make a sparking sound" ; !Rand key:n103000677657n
 mdwewaakshkaamgad    VII_TAG    " 1 [wooden structure] make a sound from shifting slightly" ; !Rand key:n103000677635n
 mdwewaakshkaa    VII_TAG    " 1 [wooden structure] make a sound from shifting slightly" ; !Rand key:n103000677628n
@@ -2824,7 +2823,7 @@ mdwewaakse    VII_TAG    " 1 [sticklike or boardlike object] make a sound from s
 mdweknese    VII_TAG    " 1 make a sound in sparking, make a sparking sound" ; !Rand key:n103000677574n
 mdwebiisaa    VII_TAG    " 1 be sound of rain falling, rain fall making a sound" ; !Rand key:n103000677501n
 mdookshkaa    VII_TAG    " 1 [grass] be damp" ; !Rand key:n103000677494n
-mdooki-zhayaamgat    VII_TAG    " 1 feel damp" ; !Rand key:n103000677487n
+mdooki-zhayaamgad2    VII_TAG    " 1 feel damp" ; !Rand key:n103000677487n
 mdookdaawngaa    VII_TAG    " 1 [granular substance] be damp" ; !Rand key:n103000677480n
 mdookbagaa    VII_TAG    " 1 [leaves] be dewy" ; !Rand key:n103000677473n
 mdebiisaa    VII_TAG    " 1 be sound of rain falling, rain fall making a sound" ; !Rand key:n103000660880n
@@ -2846,7 +2845,7 @@ maanaadjiiyaa    VII_TAG    " 1 [3-dimensional object] be misshapen, have an unp
 maanaadgoode    VII_TAG    " 1 hang awkwardly, hang unflatteringly" ; !Rand key:n103000659773n
 maajiiweyebde    VII_TAG    " 1 drive away [with engine being heard], drive off [with engine being heard], fly away [with engine being heard]" ; !Rand key:n103000659405n
 kwegnaawan    VII_TAG    " 1 [garment] have a collar" ; !Rand key:n103000659136n
-kwegat    VII_TAG    " 1 [sheetlike object] be a certain length " ; !Rand key:n103000659101n
+kwegad2    VII_TAG    " 1 [sheetlike object] be a certain length " ; !Rand key:n103000659101n
 kwaawaa    VII_TAG    " 1 [a hole] be a certain length, [a hole] extend a certain distance, [a hole] extend to a certain point" ; !Rand key:n103000659017n
 kwaaksin    VII_TAG    " 1 [window] be raised open" ; !Rand key:n103000658998n
 kwaakoonde    VII_TAG    " 1 [vessel] be a certain length" ; !Rand key:n103000658982n
@@ -2858,16 +2857,16 @@ kinwaajchigaade    VII_TAG    " 1 be marked [with signs]" ; !Rand key:n103000658
 kiiwaande    VII_TAG    " 1 be brown, (lit. be the colour of the ground)" ; !Rand key:n103000658578n
 kiig'igaade    VII_TAG    " 1 be ironed to a sharp crease, be ironed to make pleats" ; !Rand key:n103000658545n
 kiibaajnaagwod    VII_TAG    " 1 look funny" ; !Rand key:n103000658418n
-jiitnaabiigat    VII_TAG    " 1 [rope] be stiff" ; !Rand key:n103000657967n
+jiitnaabiigad2    VII_TAG    " 1 [rope] be stiff" ; !Rand key:n103000657967n
 jiingse    VII_TAG    " 1 shake [briefly]" ; !Rand key:n103000645228n
 jiichiibaasin    VII_TAG    " 1 tremble in the breeze, be shaken by a breeze" ; !Rand key:n103000644925n
-Jiibya-giizhgat    VII_TAG    " 1 be Hallowe’en" ; !Rand key:n103000644885n
-Jiibay-giizhgat    VII_TAG    " 1 be Hallowe’en" ; !Rand key:n103000644879n
+Jiibya-giizhgad2    VII_TAG    " 1 be Hallowe’en" ; !Rand key:n103000644885n
+Jiibay-giizhgad2    VII_TAG    " 1 be Hallowe’en" ; !Rand key:n103000644879n
 Jiibya-dbikad    VII_TAG    " 1 be Hallowe’en" ; !Rand key:n103000644872n
 jekse    VII_TAG    " 1 [boat] go ashore" ; !Rand key:n103000644652n
 jejenjnaagod    VII_TAG    " 1 look elegant, look nice and polished, look refined" ; !Rand key:n103000644610n
 jaanmibde    VII_TAG    " 1 be busy (e.g. of a washing machine)" ; !Rand key:n103000644516n
-jaanmi'ewat    VII_TAG    " 1 [a place] be busy" ; !Rand key:n103000644505n
+jaanmi'ewad2    VII_TAG    " 1 [a place] be busy" ; !Rand key:n103000644505n
 jaanmad    VII_TAG    " 1 [a place] be busy" ; !Rand key:n103000644464n
 jaagaakwe'gaade    VII_TAG    " 1 [forest] be all cut down" ; !Rand key:n103000644295n
 jaachiingwewesin    VII_TAG    " 1 jingle" ; !Rand key:n103000644256n
@@ -2882,10 +2881,10 @@ gyakshkoode    VII_TAG    " 1 be balanced [in weight]" ; !Rand key:n103000643573
 gyakbide    VII_TAG    " 1 function, work properly." ; !Rand key:n103000643534n
 gwinde    VII_TAG    " 1 float, soak" ; !Rand key:n103000643486n
 gwiishkweyaanmad    VII_TAG    " 1 wind whistle" ; !Rand key:n103000643462n
-gwetaannaagot    VII_TAG    " 1 look really striking" ; !Rand key:n103000643165n
-gwetaanmaagot    VII_TAG    " 1 reek, smell awful, stink" ; !Rand key:n103000643137n
+gwetaannaagod2    VII_TAG    " 1 look really striking" ; !Rand key:n103000643165n
+gwetaanmaagod2    VII_TAG    " 1 reek, smell awful, stink" ; !Rand key:n103000643137n
 gwetaanbide    VII_TAG    " 1 go really fast, fly exceedingly fast, move exceedingly fast" ; !Rand key:n103000643104n
-gwetaanaanmat    VII_TAG    " 1 be really windy, [wind] be really strong, [wind] be ferocious" ; !Rand key:n103000643094n
+gwetaanaanmad2    VII_TAG    " 1 be really windy, [wind] be really strong, [wind] be ferocious" ; !Rand key:n103000643094n
 gwetaanaakweyaa    VII_TAG    " 1 be a tremendously well forested" ; !Rand key:n103000643072n
 gwetaanaakginde    VII_TAG    " 1 cost an awful lot, cost an enormous amount, be extremely expensive" ; !Rand key:n103000643058n
 gwetaanaakde    VII_TAG    " 1 burn ferociously, be really burned, burn really vigorously" ; !Rand key:n103000643045n
@@ -2893,9 +2892,9 @@ gwetaan'gamde    VII_TAG    " 1 boil vigorously" ; !Rand key:n103000642985n
 gwekmo    VII_TAG    " 1 [road] be straight, run straight" ; !Rand key:n103000642849n
 gwayakkamgaa    VII_TAG    " 1 be flat ground, be level ground" ; !Rand key:n103000642740n
 gwaawgon    VII_TAG    " 1 wash ashore" ; !Rand key:n103000642650n
-gwaansagtaagot    VII_TAG    " 1 [word] sound crude, sound shocking, sound outrageous" ; !Rand key:n103000642532n
+gwaansagtaagod2    VII_TAG    " 1 [word] sound crude, sound shocking, sound outrageous" ; !Rand key:n103000642532n
 gwaansagginde    VII_TAG    " 1 cost an awful lot, be extremely expensive" ; !Rand key:n103000642514n
-gwaagwaabkat    VII_TAG    " 1 be rusty" ; !Rand key:n103000642398n
+gwaagwaabkad2    VII_TAG    " 1 be rusty" ; !Rand key:n103000642398n
 gwaabshkaa    VII_TAG    " 1 [boat] go ashore" ; !Rand key:n103000642391n
 gwaaboode    VII_TAG    " 1 be washed ashore" ; !Rand key:n103000642384n
 gwaabkisin    VII_TAG    " 1 be rusty" ; !Rand key:n103000642369n
@@ -2903,7 +2902,7 @@ gwaabgoode    VII_TAG    " 1 rise to water surface, surface" ; !Rand key:n103000
 gtaangwaashkaa    VII_TAG    " 1 there be choppy waves, there be big waves" ; !Rand key:n103000642149n
 gtaangwaanmad    VII_TAG    " 1 be a strong wind" ; !Rand key:n103000642131n
 gtaanginaagod    VII_TAG    " 1 look formidable, look terrible" ; !Rand key:n103000642072n
-gtaanendaagot    VII_TAG    " 1 seem fearsome; seem haunted" ; !Rand key:n103000642062n
+gtaanendaagod2    VII_TAG    " 1 seem fearsome; seem haunted" ; !Rand key:n103000642062n
 gtaamgwiinad    VII_TAG    " 1 be lots, abound, exist in great numbers, teem " ; !Rand key:n103000642046n
 gtaamgonaagod    VII_TAG    " 1 look terrible, look ugly" ; !Rand key:n103000641956n
 gtaagod    VII_TAG    " 1 be frightening, be scary, be spooky" ; !Rand key:n103000641856n
@@ -2913,7 +2912,7 @@ gshkijiipde    VII_TAG    " 1 be cinched" ; !Rand key:n103000641687n
 gshkiiwaabte    VII_TAG    " 1 be very smoky, there be real thick smoke" ; !Rand key:n103000641628n
 gshkamo    VII_TAG    " 1 [road] curve, wind" ; !Rand key:n103000641606n
 gshka'oodse    VII_TAG    " 1 get knotted up" ; !Rand key:n103000641555n
-gnegat    VII_TAG    " 1 [cloth] be long" ; !Rand key:n103000620666n
+gnegad2    VII_TAG    " 1 [cloth] be long" ; !Rand key:n103000620666n
 gndaawshkaa    VII_TAG    " 1 [boat] sink " ; !Rand key:n103000620655n
 gndaaw'on    VII_TAG    " 1 [boat] sink" ; !Rand key:n103000620607n
 gndaashkoode    VII_TAG    " 1 [boat] sink from weight of load" ; !Rand key:n103000620600n
@@ -2925,22 +2924,22 @@ giizhgaande    VII_TAG    " 1 be sky blue" ; !Rand key:n103000612717n
 giizhaande    VII_TAG    " 1 its colour be set, reach desired colour; reach colour of ripeness" ; !Rand key:n103000612699n
 giizhaagmide    VII_TAG    " 1 [liquid] be heated to the proper temperature" ; !Rand key:n103000612667n
 giiwtaagoode    VII_TAG    " 1 [things] hang in a circle" ; !Rand key:n103000611020n
-giiwaazaabminaagot    VII_TAG    " 1 look ill-matched, look incongruous" ; !Rand key:n103000606558n
+giiwaazaabminaagod2    VII_TAG    " 1 look ill-matched, look incongruous" ; !Rand key:n103000606558n
 giishpo    VII_TAG    " 1 be very light snow flurries, snowflakes fall sporadically" ; !Rand key:n103000601326n
 giishkpo    VII_TAG    " 1 stop snowing" ; !Rand key:n103000599480n
 giishk'igaade    VII_TAG    " 1 [telephone service] get disconnected " ; !Rand key:n103000596318n
 giigdin    VII_TAG    " 1 be frost covered" ; !Rand key:n103000584829n
 giibaajnaaktemgad    VII_TAG    " 1 be a stupid movie, be a stupid TV show, be vulgar" ; !Rand key:n103000583337n
-ggwetaandamat    VII_TAG    " 1 be a really good road" ; !Rand key:n103000580044n
+ggwetaandamad2    VII_TAG    " 1 be a really good road" ; !Rand key:n103000580044n
 ggwetaanaabkide    VII_TAG    " 1 [metallic object] be extremely hot" ; !Rand key:n103000580022n
-ggwaansagtaagot    VII_TAG    " 1 [word] sound crude, sound shocking, sound outrageous" ; !Rand key:n103000578725n
-getepogot    VII_TAG    " 1 taste old, taste stale" ; !Rand key:n103000573350n
+ggwaansagtaagod2    VII_TAG    " 1 [word] sound crude, sound shocking, sound outrageous" ; !Rand key:n103000578725n
+getepogod2    VII_TAG    " 1 taste old, taste stale" ; !Rand key:n103000573350n
 gdogshkaa    VII_TAG    " 1 [canoe] tip to the side" ; !Rand key:n103000569493n
 gdiskaabiigse    VII_TAG    " 1 get unplugged" ; !Rand key:n103000565882n
 gdagdamo    VII_TAG    " 1 [road] be bumpy" ; !Rand key:n103000564712n
 gdagaa    VII_TAG    " 1 be bumpy, be rough" ; !Rand key:n103000564692n
-Gchitwaa-Jiibaatgo-giizhgat    VII_TAG    " 1 be Good Friday, be Holy Friday" ; !Rand key:n103000562281n
-gbonaamoomgat    VII_TAG    " 1 die from lack of oxygen (generally of fire)" ; !Rand key:n103000558888n
+Gchitwaa-Jiibaatgo-giizhgad2    VII_TAG    " 1 be Good Friday, be Holy Friday" ; !Rand key:n103000562281n
+gbonaamoomgad2    VII_TAG    " 1 die from lack of oxygen (generally of fire)" ; !Rand key:n103000558888n
 gbagaagmi    VII_TAG    " 1 [soup] be thin, be watery " ; !Rand key:n103004118852n
 gbaatgwe    VII_TAG    " 1 there be a logjam" ; !Rand key:n103004118825n
 gbaagwe    VII_TAG    " 1 [drainpipe] be plugged, get plugged" ; !Rand key:n103004118776n
@@ -2955,7 +2954,7 @@ gaakaapjiide    VII_TAG    " 1 be cooked to a crisp" ; !Rand key:n103004118009n
 gaakaakjiide    VII_TAG    " 1 be cooked to a crisp" ; !Rand key:n103004117967n
 gaachnoo'i    VII_TAG    " 1 be small" ; !Rand key:n103004117780n
 gaachkamgaa    VII_TAG    " 1 be a small tract of land, tract of land be small" ; !Rand key:n103004117727n
-gaachgan'kat    VII_TAG    " 1 [tubeshaped object] be narrow" ; !Rand key:n103004117704n
+gaachgan'kad2    VII_TAG    " 1 [tubeshaped object] be narrow" ; !Rand key:n103004117704n
 gaachgagmaa    VII_TAG    " 1 [body of water] be narrow, be small, grow small " ; !Rand key:n103004117697n
 gaachaabiignikeyaa    VII_TAG    " 1 [garment] have narrow sleeves" ; !Rand key:n103004117645n
 gaachaabiiggaadeyaa    VII_TAG    " 1 [pants] have narrow legs" ; !Rand key:n103004117634n
@@ -2976,14 +2975,14 @@ dkoobiisin    VII_TAG    " 1 contain a little bit of liquid" ; !Rand key:n103004
 dkoobii    VII_TAG    " 1 be filled to a shallow depth" ; !Rand key:n103004117054n
 dkamaabiisin    VII_TAG    " 1 [stringlike object] lie across " ; !Rand key:n103004116976n
 dkamaabii    VII_TAG    " 1 [stringlike object] extend across a space" ; !Rand key:n103004116957n
-dgwaagendaagot    VII_TAG    " 1 feel like fall, seem like fall" ; !Rand key:n103004116843n
+dgwaagendaagod2    VII_TAG    " 1 feel like fall, seem like fall" ; !Rand key:n103004116843n
 detbisenskaade    VII_TAG    " 1 have casters, have rollers, have small wheels" ; !Rand key:n103004116640n
 debweyaashkaa    VII_TAG    " 1 [waves] be heard [in the distance], [waves out of view] be heard" ; !Rand key:n103004116476n
 debweweyaashkaa    VII_TAG    " 1 [waves] be heard [in the distance], [waves out of view] be heard" ; !Rand key:n103004116441n
 debwewejiisin    VII_TAG    " 1 fall with a thud [in the distance], [something out of sight] fall with a thud" ; !Rand key:n103004116409n
 debsin    VII_TAG    " 1 fit [in a space]" ; !Rand key:n103004116374n
 debkwaabiigmo    VII_TAG    " 1 [rope] be long enough to reach somewhere" ; !Rand key:n103004116304n
-debkwaabiigat    VII_TAG    " 1 [rope] be long enough to reach somewhere" ; !Rand key:n103004116298n
+debkwaabiigad2    VII_TAG    " 1 [rope] be long enough to reach somewhere" ; !Rand key:n103004116298n
 ddibewebde    VII_TAG    " 1 [a boat] go along the shore, follow the shoreline" ; !Rand key:n103004116191n
 ddibaakwegse    VII_TAG    " 1 [sheetlike object] roll up" ; !Rand key:n103004116185n
 ddanaazhe    VII_TAG    " 1 [light] shine (away), keep shining" ; !Rand key:n103004116138n
@@ -2994,7 +2993,7 @@ dbishkookaa    VII_TAG    " 1 be level ground" ; !Rand key:n103004116032n
 dbinwaakwaa    VII_TAG    " 1 be thick woods, be densely forested" ; !Rand key:n103004116022n
 dbinooyaa    VII_TAG    " 1 [an area] be sheltered [from the elements]" ; !Rand key:n103004116016n
 dbinoosin    VII_TAG    " 1 be sheltered [from the elements]" ; !Rand key:n103004115986n
-dbikaan'kot    VII_TAG    " 1 be dark clouds" ; !Rand key:n103004115980n
+dbikaan'kod2    VII_TAG    " 1 be dark clouds" ; !Rand key:n103004115980n
 dbigiishkaawaa    VII_TAG    " 1 be a dark hole" ; !Rand key:n103004115963n
 dbagkone    VII_TAG    " 1 fire burn low" ; !Rand key:n103004115883n
 dagan    VII_TAG    " 1 [weather] be mild, turn mild (typically of winter weather)" ; !Rand key:n103004115809n
@@ -3014,17 +3013,17 @@ bswewesin    VII_TAG    " 1 be resonant, resound, its sound carry far" ; !Rand k
 bskanebjigan    VII_TAG    " 1 light switch" ; !Rand key:n103004114565n
 bskaabgoode    VII_TAG    " 1 bounce back [in striking something], fall back [in being thrown]" ; !Rand key:n103004114533n
 bsigwaakwaa    VII_TAG    " 1 be thick woods, be densely forested" ; !Rand key:n103004114427n
-bshkwewemgat    VII_TAG    " 1 fade away, fade out" ; !Rand key:n103004114410n
+bshkwewemgad2    VII_TAG    " 1 fade away, fade out" ; !Rand key:n103004114410n
 bshigiishkbikte    VII_TAG    " 1 be dark [in a room]" ; !Rand key:n103004114214n
 bshigiishbikte    VII_TAG    " 1 be dark [in a room]" ; !Rand key:n103004114207n
 bshigiishkaayaa    VII_TAG    " 1 be a dark hole, there be a dark hole" ; !Rand key:n103004114200n
 bsaate    VII_TAG    " 1 sunlight reflect off snow or water" ; !Rand key:n102996033503n
 boozaashkaa    VII_TAG    " 1 waves wash into a boat" ; !Rand key:n102996033442n
-boonmaagot    VII_TAG    " 1 smell go away, stop smelling, no longer have an odour" ; !Rand key:n102996032449n
+boonmaagod2    VII_TAG    " 1 smell go away, stop smelling, no longer have an odour" ; !Rand key:n102996032449n
 boonjiwan    VII_TAG    " 1 [water] stop flowing, waterflow stop" ; !Rand key:n102996032439n
 boonbide    VII_TAG    " 1 [appliance] stop running" ; !Rand key:n102996031479n
 bookwaakse    VII_TAG    " 1 [sticklike object] break, snap in two" ; !Rand key:n102996031434n
-bookshkaamgat    VII_TAG    " 1 be bankrupt, go bankrupt" ; !Rand key:n102996031423n
+bookshkaamgad2    VII_TAG    " 1 be bankrupt, go bankrupt" ; !Rand key:n102996031423n
 bookaawaa    VII_TAG    " 1 be a gaping hole, form a gaping hole" ; !Rand key:n102996030353n
 bngwiiwnidim    VII_TAG    " 1 be Ash Wednesday" ; !Rand key:n102996028192n
 bngiishengad    VII_TAG    " 1 be a few, be a little bit, be scarce, be small in number" ; !Rand key:n102996028144n
@@ -3032,14 +3031,14 @@ bngate    VII_TAG    " 1 [room] be quiet, be still" ; !Rand key:n102996027191n
 bnaskbiisaa    VII_TAG    " 1 [rain] lash people, [rain] be lashing" ; !Rand key:n102996027184n
 bnaawaabii    VII_TAG    " 1 [stringlike object] run  everywhere, run here and there" ; !Rand key:n102996025699n
 bmigwaasin    VII_TAG    " 1 flutter, be shaken by the wind, sway in the breeze" ; !Rand key:n102996023077n
-bmi-namat    VII_TAG    " 1 [road] go by in a certain direction, [road] go a certain way, [road] run in a certain direction, [road] run a certain way" ; !Rand key:n102996022034n
+bmi-namad2    VII_TAG    " 1 [road] go by in a certain direction, [road] go a certain way, [road] run in a certain direction, [road] run a certain way" ; !Rand key:n102996022034n
 bmagwaasin    VII_TAG    " 1 flutter, be shaken by the wind, sway in the breeze" ; !Rand key:n102996022011n
 bmaabiiyaa    VII_TAG    " 1 extend across (e.g. of a hydro line)" ; !Rand key:n102996020997n
 bmaabiisin    VII_TAG    " 1 extend [in a line], [stringlike object] lie [uncoiled]" ; !Rand key:n102996020986n
 bkweyaagmide    VII_TAG    " 1 separate [in boiling] " ; !Rand key:n102996020979n
 bkwenezaan    VII_TAG    " 1 smoke sth., smudge sth." ; !Rand key:n102996019994n
 bkweneyaabte    VII_TAG    " 1 smoke be drifting" ; !Rand key:n102996019988n
-bkweneyaabminaagot    VII_TAG    " 1 look hazy" ; !Rand key:n102996019966n
+bkweneyaabminaagod2    VII_TAG    " 1 look hazy" ; !Rand key:n102996019966n
 bkwenenaabte    VII_TAG    " 1 smoke be drifting" ; !Rand key:n102996019959n
 bkwenemaagod    VII_TAG    " 1 smell smoky" ; !Rand key:n102996019943n
 bkwaabte    VII_TAG    " 1 there be smoke" ; !Rand key:n102996018330n
@@ -3059,7 +3058,7 @@ biiyeshkaa    VII_TAG    " 1 fray, wear out" ; !Rand key:n102996009553n
 biitoosgaa    VII_TAG    " 1 [building] have more than one storey" ; !Rand key:n102996008516n
 biitewaagmisin    VII_TAG    " 1 [liquid] be foamy, turn foamy" ; !Rand key:n102996007478n
 biissiniinskaa    VII_TAG    " 1 be gravelly, be pebbly" ; !Rand key:n102996007403n
-biispogot    VII_TAG    " 1 taste bitter" ; !Rand key:n102996006426n
+biispogod2    VII_TAG    " 1 taste bitter" ; !Rand key:n102996006426n
 biispo    VII_TAG    " 1 be fine snow falling" ; !Rand key:n102996006415n
 biisgon'kaamgad    VII_TAG    " 1 be light snow" ; !Rand key:n102996006399n
 biinsaakdin    VII_TAG    " 1 get freezer burn" ; !Rand key:n102996005283n
@@ -3088,7 +3087,7 @@ baasaakde    VII_TAG    " 1 [ground] crack from drying out" ; !Rand key:n1029959
 baapaaskamgishkaa    VII_TAG    " 1 there be cracks in soil [from lack of rain], ground have cracks from frost heave " ; !Rand key:n102995947401n
 baapaasjiide    VII_TAG    " 1 crackle [as it's frying], pop [from heat]" ; !Rand key:n102995946025n
 aasmisin    VII_TAG    " 1 lean up against something" ; !Rand key:n102995939656n
-aasmaanmat    VII_TAG    " 1 wind strike a wall" ; !Rand key:n102995938376n
+aasmaanmad2    VII_TAG    " 1 wind strike a wall" ; !Rand key:n102995938376n
 aasaakmigaamgad    VII_TAG    " 1 ground be uneven" ; !Rand key:n102995937347n
 aapzikaa    VII_TAG    " 1 be stuck in a certain position, be permanently bent" ; !Rand key:n102995937323n
 aapjishkaa    VII_TAG    " 1 be stuck in a certain position, be permanently bent " ; !Rand key:n102995937247n
@@ -3096,24 +3095,24 @@ aapdaagse    VII_TAG    " 1 [sticklike object] be stuck in a certain position" ;
 aanwaatese    VII_TAG    " 1 [TV] have a fuzzy picture " ; !Rand key:n102995934871n
 aansaagmi    VII_TAG    " 1 [beverage] taste flat" ; !Rand key:n102995934864n
 aanoodaate    VII_TAG    " 1 [weather] be punishingly hot and sunny" ; !Rand key:n102995931168n
-aandaanmat    VII_TAG    " 1 [wind] change direction" ; !Rand key:n102995928748n
+aandaanmad2    VII_TAG    " 1 [wind] change direction" ; !Rand key:n102995928748n
 aajdagaade    VII_TAG    " 1 be divided into rooms, be partitioned" ; !Rand key:n102995926431n
 aagwiitoowaatesin    VII_TAG    " 1 be rebroadcast [on TV]" ; !Rand key:n102995926397n
-aagootaagot    VII_TAG    " 1 be a euphemism" ; !Rand key:n102995926358n
+aagootaagod2    VII_TAG    " 1 be a euphemism" ; !Rand key:n102995926358n
 aachkin'gaade    VII_TAG    " 1 be divided into rooms, be partitioned" ; !Rand key:n102995925162n
 aabziiwan    VII_TAG    " 1 [plant] revive" ; !Rand key:n102995925130n
 aabwiitoowaatesin    VII_TAG    " 1 be rebroadcast [on TV]" ; !Rand key:n102995924001n
 aabwaakkamgidin    VII_TAG    " 1 ground thaw" ; !Rand key:n102995923945n
 aaboodsin    VII_TAG    " 1 be upside down, be wrong side up" ; !Rand key:n102995921907n
-aabjiibaamgat    VII_TAG    " 1 [plant] come back to life, [plant] revive" ; !Rand key:n102995918692n
+aabjiibaamgad2    VII_TAG    " 1 [plant] come back to life, [plant] revive" ; !Rand key:n102995918692n
 gwiidgamde    VII_TAG    " 1 foam up [in boiling]" ; !Rand key:n58fa1bdf6d84413789b423320a01dd02n
 gwiidaaboode    VII_TAG    " 1 float up, be raised by water" ; !Rand key:n58fa1bdf8fe04c92bee123320a01dd02n
-gwetaazhiinat    VII_TAG    " 1 abound, exist in great numbers, teem, there be an awful lot" ; !Rand key:n58fa1bdf7fb44044ae6323320a01dd02n
-gwetaaniinat    VII_TAG    " 1 abound, exist in great numbers, teem, there be an awful lot" ; !Rand key:n58fa1bdfaea047b6a4d823320a01dd02n
+gwetaazhiinad2    VII_TAG    " 1 abound, exist in great numbers, teem, there be an awful lot" ; !Rand key:n58fa1bdf7fb44044ae6323320a01dd02n
+gwetaaniinad2    VII_TAG    " 1 abound, exist in great numbers, teem, there be an awful lot" ; !Rand key:n58fa1bdfaea047b6a4d823320a01dd02n
 gwetaanaakdade    VII_TAG    " 1 be completely dried out, be really crusty, be desiccated" ; !Rand key:n58fa1bdfbcd8440ea14423320a01dd02n
 gwetaan'ginde    VII_TAG    " 1 cost an awful lot, cost an enormous amount, be extremely expensive" ; !Rand key:n58fa1bdfba3c4c56b1c123320a01dd02n
 miigwnasin    VII_TAG    " 1 grow downy mold" ; !Rand key:n58fa1bdf3300497c98e523320a01dd02n
-megpogot    VII_TAG    " 1 taste novel, taste strange, taste unusual" ; !Rand key:n58fa1bdf914c42e0b8d523320a01dd02n
+megpogod2    VII_TAG    " 1 taste novel, taste strange, taste unusual" ; !Rand key:n58fa1bdf914c42e0b8d523320a01dd02n
 mdweyiigshkaa    VII_TAG    " 1 [sheetlike object] rustle" ; !Rand key:n58fa1bde92244786a0ec23320a01dd02n
 mdweyaagmisin    VII_TAG    " 1 make a splashing sound" ; !Rand key:n58fa1bded6284226949723320a01dd02n
 mdwemnagse    VII_TAG    " 1 [small round object] make a sound [in hitting a surface]" ; !Rand key:n58fa1bdececc4150a1e223320a01dd02n
@@ -3125,10 +3124,10 @@ maanaajchigaade    VII_TAG    " 1 be poorly designed, have bad features" ; !Rand
 maajiiyaakde    VII_TAG    " 1 [fire] spread" ; !Rand key:n58fa1bdd6810412fa7cb23320a01dd02n
 maadaatese    VII_TAG    " 1 [movie or TV show] begin, [movie or TV show] start" ; !Rand key:n58fa1bdd7170456ba98c23320a01dd02n
 kwegsin    VII_TAG    " 1 [sheetlike object] lie crumpled in a heap, [sheetlike object] lie crumpled in a pile" ; !Rand key:n58fa1bdd91d84e9d959723320a01dd02n
-kwaandweyaakmat    VII_TAG    " 1 [stairway] extend upwards" ; !Rand key:n58fa1bdd2a404e749e3f23320a01dd02n
-kwaakoon'gat    VII_TAG    " 1 [vessel] be a certain length" ; !Rand key:n58fa1bdd9504462db04d23320a01dd02n
+kwaandweyaakmad2    VII_TAG    " 1 [stairway] extend upwards" ; !Rand key:n58fa1bdd2a404e749e3f23320a01dd02n
+kwaakoon'gad2    VII_TAG    " 1 [vessel] be a certain length" ; !Rand key:n58fa1bdd9504462db04d23320a01dd02n
 kwaagmisin    VII_TAG    " 1 form a pool, form a puddle" ; !Rand key:n58fa1bdddcb44c55bd3c23320a01dd02n
-komaagot    VII_TAG    " 1 scent of something carry to a certain point" ; !Rand key:n58fa1bddacac4a948bc623320a01dd02n
+komaagod2    VII_TAG    " 1 scent of something carry to a certain point" ; !Rand key:n58fa1bddacac4a948bc623320a01dd02n
 kojgamde    VII_TAG    " 1 foam up [in boiling]" ; !Rand key:n58fa1bdd741442f1a87423320a01dd02n
 jiingbakweyaa    VII_TAG    " 1 [building] have a sloping roof" ; !Rand key:n58fa1bdd7270430184ce23320a01dd02n
 jiichiibzidewewe    VII_TAG    " 1 be toe-tapping music" ; !Rand key:n58fa1bdd94844e32800123320a01dd02n
@@ -3138,10 +3137,10 @@ gziikaa    VII_TAG    " 1 [colour or dye] come off" ; !Rand key:n58fa1bdc634443f
 gzigshkoode    VII_TAG    " 1 be pressed down by a heavy weight, be weighted down heavily" ; !Rand key:n58fa1bdcd3b84c5b8ed723320a01dd02n
 gzhiiyaande    VII_TAG    " 1 be bright [in colour], be a bright colour" ; !Rand key:n58fa1bdc010c47a98d9623320a01dd02n
 gzhiiwewe    VII_TAG    " 1 be loud" ; !Rand key:n58fa1bdc09f04f1ca9ea23320a01dd02n
-gzhaawemat    VII_TAG    " 1 [road] be a straight stretch, [road] be straight, [road] go straight" ; !Rand key:n58fa1bdc929c48faba9123320a01dd02n
+gzhaawemad2    VII_TAG    " 1 [road] be a straight stretch, [road] be straight, [road] go straight" ; !Rand key:n58fa1bdc929c48faba9123320a01dd02n
 gwiijgamde    VII_TAG    " 1 foam up [in boiling]" ; !Rand key:n58fa1bdc2c084b46ace723320a01dd02n
-nsweyaan'gat    VII_TAG    " 1 be a certain number of types" ; !Rand key:n58fa1bdc87c4465d89d723320a01dd02n
-nsidwinaagot    VII_TAG    " 1 be recognizable" ; !Rand key:n58fa1bdc4d104c4bb01623320a01dd02n
+nsweyaan'gad2    VII_TAG    " 1 be a certain number of types" ; !Rand key:n58fa1bdc87c4465d89d723320a01dd02n
+nsidwinaagod2    VII_TAG    " 1 be recognizable" ; !Rand key:n58fa1bdc4d104c4bb01623320a01dd02n
 nshanaadaabiigse    VII_TAG    " 1 get tangled up" ; !Rand key:n58fa1bdca8744bc192b523320a01dd02n
 nsaakshkaa    VII_TAG    " 1 come slowly open, open slowly [by itself]" ; !Rand key:n58fa1bdc0e844effb63123320a01dd02n
 nooksin    VII_TAG    " 1 be loose, be attached loosely" ; !Rand key:n58fa1bdc68584de498c023320a01dd02n
@@ -3157,13 +3156,13 @@ nnawse    VII_TAG    " 1 be loose, be loosened (from being handled or shaken)" ;
 nnangse    VII_TAG    " 1 shake" ; !Rand key:n58fa1bdb91bc428d835f23320a01dd02n
 nnangaanzhese    VII_TAG    " 1 flicker" ; !Rand key:n58fa1bdb81e84aac846723320a01dd02n
 nikdeyaa    VII_TAG    " 1 be a certain width" ; !Rand key:n58fa1bdb02e841cc886f23320a01dd02n
-niizhgiizsagat    VII_TAG    " 1 be two months" ; !Rand key:n58fa1bdb20a44fa681f223320a01dd02n
-niiwgiizsagat    VII_TAG    " 1 be four months" ; !Rand key:n58fa1bdb7bb84419a2e123320a01dd02n
+niizhgiizsagad2    VII_TAG    " 1 be two months" ; !Rand key:n58fa1bdb20a44fa681f223320a01dd02n
+niiwgiizsagad2    VII_TAG    " 1 be four months" ; !Rand key:n58fa1bdb7bb84419a2e123320a01dd02n
 niiskoneyaakde    VII_TAG    " 1 fire burn lower, fire go down" ; !Rand key:n58fa1bdbf48c46849f3223320a01dd02n
-niiskonemgat    VII_TAG    " 1 fire burn lower [over time], wood go down as fire is burning" ; !Rand key:n58fa1bdb741848cc88c623320a01dd02n
-niisknaagot    VII_TAG    " 1 look messy" ; !Rand key:n58fa1bdb03b446e5a70623320a01dd02n
-niisaandweyaakmat    VII_TAG    " 1 [staircase] extend downwards" ; !Rand key:n58fa1bdb39fc47439c2723320a01dd02n
-ngoshkwemgat    VII_TAG    " 1 be overgrown with weeds, get overgrown with weeds" ; !Rand key:n58fa1bdb3ad04b52beaa23320a01dd02n
+niiskonemgad2    VII_TAG    " 1 fire burn lower [over time], wood go down as fire is burning" ; !Rand key:n58fa1bdb741848cc88c623320a01dd02n
+niisknaagod2    VII_TAG    " 1 look messy" ; !Rand key:n58fa1bdb03b446e5a70623320a01dd02n
+niisaandweyaakmad2    VII_TAG    " 1 [staircase] extend downwards" ; !Rand key:n58fa1bdb39fc47439c2723320a01dd02n
+ngoshkwemgad2    VII_TAG    " 1 be overgrown with weeds, get overgrown with weeds" ; !Rand key:n58fa1bdb3ad04b52beaa23320a01dd02n
 ngoshkaa    VII_TAG    " 1 cease to exist, die out, go out of existence" ; !Rand key:n58fa1bdbb29c408ca75323320a01dd02n
 negwekdaawngaa    VII_TAG    " 1 be sandy soil" ; !Rand key:n58fa1bdbdf70453596f223320a01dd02n
 negwekaa    VII_TAG    " 1 be sandy" ; !Rand key:n58fa1bdb53a84401af8323320a01dd02n
@@ -3173,16 +3172,16 @@ ndawaagmigan    VII_TAG    " 1 boat propeller" ; !Rand key:n58fa1bdab70846b8b398
 ndaatesin    VII_TAG    " 1 be broadcast [visually] from a certain place" ; !Rand key:n58fa1bda6784437ea2e823320a01dd02n
 ndaawaagmishkaa    VII_TAG    " 1 [water] swirl" ; !Rand key:n58fa1bda90804fbdaf3c23320a01dd02n
 nda-daandim    VII_TAG    " 1 be put up for sale, be up for sale" ; !Rand key:n58fa1bda9ef84af8bc9923320a01dd02n
-nchiiwmaagot    VII_TAG    " 1 be smelly, smell bad, stink" ; !Rand key:n58fa1bdab11449a3abab23320a01dd02n
-nchiiwkamgat    VII_TAG    " 1 there be a ruckus, there be an uproar" ; !Rand key:n58fa1bdaff04429fb19923320a01dd02n
+nchiiwmaagod2    VII_TAG    " 1 be smelly, smell bad, stink" ; !Rand key:n58fa1bdab11449a3abab23320a01dd02n
+nchiiwkamgad2    VII_TAG    " 1 there be a ruckus, there be an uproar" ; !Rand key:n58fa1bdaff04429fb19923320a01dd02n
 nboodewaaskone    VII_TAG    " 1 shine forlornly" ; !Rand key:n58fa1bda0c6c417c9f2c23320a01dd02n
 nbagbakeyaa    VII_TAG    " 1 be flat-roofed, have a flat roof" ; !Rand key:n58fa1bda1fa848139c1523320a01dd02n
-nakiikmigat    VII_TAG    " 1 people be working" ; !Rand key:n58fa1bda2eb0407d9fea23320a01dd02n
+nakiikmigad2    VII_TAG    " 1 people be working" ; !Rand key:n58fa1bda2eb0407d9fea23320a01dd02n
 nadaawngisin    VII_TAG    " 1 [granular substance] lie in a certain pattern" ; !Rand key:n58fa1bdac9544c9e862423320a01dd02n
 naazhshkoode    VII_TAG    " 1 get packed down [from weight]" ; !Rand key:n58fa1bdaebf44f67a8f523320a01dd02n
 naazhaakgaa    VII_TAG    " 1 dribble down along something, trickle down along something" ; !Rand key:n58fa1bda2f14488d959623320a01dd02n
 naaniisiig'iigaasin    VII_TAG    " 1 be torn to shreds by the wind" ; !Rand key:n58fa1bdaf62c4ebd8e4023320a01dd02n
-naakmat    VII_TAG    " 1 [stairs] extend in a certain direction, [stairs] extend a certain way" ; !Rand key:n58fa1bdab35843399d7123320a01dd02n
+naakmad2    VII_TAG    " 1 [stairs] extend in a certain direction, [stairs] extend a certain way" ; !Rand key:n58fa1bdab35843399d7123320a01dd02n
 naagshkaa    VII_TAG    " 1 bend a certain way" ; !Rand key:n58fa1bda77704e29b4ae23320a01dd02n
 naabte    VII_TAG    " 1 smoke blow in a certain direction" ; !Rand key:n58fa1bd9e9ec4bd3b5ec23320a01dd02n
 n'kashkwe    VII_TAG    " 1 be overgrown with weeds" ; !Rand key:n58fa1bd9c1a84c66ab0c23320a01dd02n
@@ -3195,7 +3194,7 @@ mzhakiise    VII_TAG    " 1 have sediments settle to the bottom of a liquid" ; !
 mzawesin    VII_TAG    " 1 lie somewhere all in one piece" ; !Rand key:n58fa1bd94778498a8e2123320a01dd02n
 mzaweyaa    VII_TAG    " 1 be all one piece, be whole" ; !Rand key:n58fa1bd93d4446aebf5423320a01dd02n
 mtigshkowan    VII_TAG    " 1 feel woody (from being overripe)" ; !Rand key:n58fa1bd9c260461aa72623320a01dd02n
-mskwaabminaagot    VII_TAG    " 1 look reddish" ; !Rand key:n58fa1bd9e404471daa6423320a01dd02n
+mskwaabminaagod2    VII_TAG    " 1 look reddish" ; !Rand key:n58fa1bd9e404471daa6423320a01dd02n
 mskwaabkaa    VII_TAG    " 1 be red rocks" ; !Rand key:n58fa1bd9b5304b3fbd6323320a01dd02n
 mskwaabgonii    VII_TAG    " 1 bloom red flowers, have red flowers" ; !Rand key:n58fa1bd9866048548ae723320a01dd02n
 mskwaabgan'kaa    VII_TAG    " 1 [site] be rich in red clay" ; !Rand key:n58fa1bd9a3bc46cbbdaf23320a01dd02n
@@ -3216,7 +3215,7 @@ mngakmigaa    VII_TAG    " 1 [area of land] be large, be a large piece of land" 
 mnan'kaade    VII_TAG    " 1 have a nice name" ; !Rand key:n58fa1bd8418c45d1964a23320a01dd02n
 mnajiide    VII_TAG    " 1 bake rising nicely, rise nicely as it bakes" ; !Rand key:n58fa1bd8bd004ff4a13623320a01dd02n
 mnachgaade    VII_TAG    " 1 be well designed, have good features" ; !Rand key:n58fa1bd82c884799a20e23320a01dd02n
-mmeskwaabminaagot    VII_TAG    " 1 look tempting" ; !Rand key:n58fa1bd8e26c4d25ae9823320a01dd02n
+mmeskwaabminaagod2    VII_TAG    " 1 look tempting" ; !Rand key:n58fa1bd8e26c4d25ae9823320a01dd02n
 mmaangkode    VII_TAG    " 1 be cut up into big pieces" ; !Rand key:n58fa1bd8cc4c48dc89bc23320a01dd02n
 mkadeyaagmi    VII_TAG    " 1 [liquid] be black" ; !Rand key:n58fa1bd838244b78900223320a01dd02n
 miishkokedim    VII_TAG    " 1 be haying season" ; !Rand key:n58fa1bd790344f039e9a23320a01dd02n
@@ -3230,22 +3229,22 @@ wewebaabiigse    VII_TAG    " 1 [ropelike object] swing" ; !Rand key:n58fa1bd7b4
 wewebaabiigaasin    VII_TAG    " 1 be swung by the wind, swing in the wind" ; !Rand key:n58fa1bd763a04ba1accd23320a01dd02n
 wenpanendaan    VII_TAG    " 1 think sth. easy" ; !Rand key:n58fa1bd7c10c4e2aa7e823320a01dd02n
 wenpanbiiygaade    VII_TAG    " 1 [something written] be easy to read, be easy to understand, be simple" ; !Rand key:n58fa1bd71a7c4b098d7e23320a01dd02n
-wenpanaabminaagot    VII_TAG    " 1 look easy" ; !Rand key:n58fa1bd75288447cafee23320a01dd02n
+wenpanaabminaagod2    VII_TAG    " 1 look easy" ; !Rand key:n58fa1bd75288447cafee23320a01dd02n
 wanaabte    VII_TAG    " 1 be foggy, be misty" ; !Rand key:n58fa1bd7fafc41849be623320a01dd02n
 waawyebiiyaa    VII_TAG    " 1 be an inlet" ; !Rand key:n58fa1bd6e78441c39d4723320a01dd02n
 waawaashkomo    VII_TAG    " 1 [road] wind, be a winding road" ; !Rand key:n58fa1bd6a0784e9ba17c23320a01dd02n
 waawaannama    VII_TAG    " 1 [road] be winding, [road] have lots of curves" ; !Rand key:n58fa1bd6483c435c8ac723320a01dd02n
 waaskwaabkide    VII_TAG    " 1 [metallic object] be shiny, reflect light" ; !Rand key:n58fa1bd69a64428593be23320a01dd02n
-waaskwaabkat    VII_TAG    " 1 [metallic object] be shiny, reflect light" ; !Rand key:n58fa1bd6d7984a52ae9923320a01dd02n
+waaskwaabkad2    VII_TAG    " 1 [metallic object] be shiny, reflect light" ; !Rand key:n58fa1bd6d7984a52ae9923320a01dd02n
 waasheyaande    VII_TAG    " 1 be light-coloured, be light [in colour], be pale-coloured, be pale [in colour]" ; !Rand key:n58fa1bd629ec4deea83d23320a01dd02n
 waasekmigaamgad    VII_TAG    " 1 be a mossy area, be moss-covered ground" ; !Rand key:n58fa1bd65f78472fb50e23320a01dd02n
 waantooshkbiiyaa    VII_TAG    " 1 there be a puddle" ; !Rand key:n58fa1bd6b6b04fddaff123320a01dd02n
 waannijwan    VII_TAG    " 1 [river] bend" ; !Rand key:n58fa1bd681d8470296cf23320a01dd02n
 waannibiiyaa    VII_TAG    " 1 [lake] curve" ; !Rand key:n58fa1bd65648431a9ce823320a01dd02n
 waannama    VII_TAG    " 1 [road] bend, curve, turn, there be a curve in the road" ; !Rand key:n58fa1bd63aa4451cb82823320a01dd02n
-waan'kiiyendaagot    VII_TAG    " 1 seem reliable, seem trustworthy" ; !Rand key:n58fa1bd634a44255a56523320a01dd02n
+waan'kiiyendaagod2    VII_TAG    " 1 seem reliable, seem trustworthy" ; !Rand key:n58fa1bd634a44255a56523320a01dd02n
 waabna'an    VII_TAG    " 1 be an east wind, blow from the east" ; !Rand key:n58fa1bd64c984769981b23320a01dd02n
-waabnaanmat    VII_TAG    " 1 be an east wind, blow from the east" ; !Rand key:n58fa1bd60c18428d922723320a01dd02n
+waabnaanmad2    VII_TAG    " 1 be an east wind, blow from the east" ; !Rand key:n58fa1bd60c18428d922723320a01dd02n
 tibaakwegse    VII_TAG    " 1 [sheetlike object] roll up" ; !Rand key:n58fa1bd6219c447a894323320a01dd02n
 tibaakwegnigaade    VII_TAG    " 1 be rolled up" ; !Rand key:n58fa1bd657784a1bb39f23320a01dd02n
 tibaaksin    VII_TAG    " 1 lie coiled" ; !Rand key:n58fa1bd658f041529d3323320a01dd02n
@@ -3266,15 +3265,15 @@ shkibgwaande    VII_TAG    " 1 be green" ; !Rand key:n58fa1bd5e1ec4821982023320a
 shkamod    VII_TAG    " 1 [road] curve, [road] wind" ; !Rand key:n58fa1bd5838845f68dfe23320a01dd02n
 shkamo    VII_TAG    " 1 [road] curve, [road] wind" ; !Rand key:n58fa1bd5ffd845f9ad1f23320a01dd02n
 shidkamgisin    VII_TAG    "n58fa1bd5c5bc4837908e23320a01dd02n" ; !Rand key:
-shibaa'iigat    VII_TAG    " 1 [sheetlike object] be sheer, be transparent" ; !Rand key:n58fa1bd5ded44428a0b023320a01dd02n
+shibaa'iigad2    VII_TAG    " 1 [sheetlike object] be sheer, be transparent" ; !Rand key:n58fa1bd5ded44428a0b023320a01dd02n
 piizgiikshkaa    VII_TAG    " 1 be wrinkled" ; !Rand key:n58fa1bd55dfc4733b61123320a01dd02n
-piitkamgat    VII_TAG    " 1 [event] have a certain amount of action" ; !Rand key:n58fa1bd5c864482bb67023320a01dd02n
-piichiiwiimgat    VII_TAG    " 1 [engine or power tool] have a certain amount of power" ; !Rand key:n58fa1bd5656c4a98939823320a01dd02n
+piitkamgad2    VII_TAG    " 1 [event] have a certain amount of action" ; !Rand key:n58fa1bd5c864482bb67023320a01dd02n
+piichiiwiimgad2    VII_TAG    " 1 [engine or power tool] have a certain amount of power" ; !Rand key:n58fa1bd5656c4a98939823320a01dd02n
 paswewesin    VII_TAG    " 1 echo" ; !Rand key:n58fa1bd5fb6449c98bb823320a01dd02n
-pashkbiisenaagot    VII_TAG    "n58fa1bd57bd04789a03423320a01dd02n" ; !Rand key:
-pashkbiisemgat    VII_TAG    " 1 [flat stone] skip on the water" ; !Rand key:n58fa1bd5ed704cacadcd23320a01dd02n
-paagmaanmat    VII_TAG    " 1 [see bbaagmaanmat]" ; !Rand key:n58fa1bd4661c4b6488d323320a01dd02n
-mmaandaawnaagot    VII_TAG    " 1 look bizarre, look incredible, look strange" ; !Rand key:58f9046e-8948-4fcb-8bad-67fc0a01dd02
+pashkbiisenaagod2    VII_TAG    "n58fa1bd57bd04789a03423320a01dd02n" ; !Rand key:
+pashkbiisemgad2    VII_TAG    " 1 [flat stone] skip on the water" ; !Rand key:n58fa1bd5ed704cacadcd23320a01dd02n
+paagmaanmad2    VII_TAG    " 1 [see bbaagmaanmat]" ; !Rand key:n58fa1bd4661c4b6488d323320a01dd02n
+mmaandaawnaagod2    VII_TAG    " 1 look bizarre, look incredible, look strange" ; !Rand key:58f9046e-8948-4fcb-8bad-67fc0a01dd02
 gwaakwaashknibiite    VII_TAG    " 1 [food boiling] bubble over, foam up and overflow, splatter" ; !Rand key:n20163513-17-24n
 gaachte    VII_TAG    " 1 [room or house] be small" ; !Rand key:n201622111-40-26n
 zhibiiyaa    VII_TAG    " 1 [land] be covered to a certain extent with water, there be a certain amount of water over an area" ; !Rand key:n201621810-35-49n
