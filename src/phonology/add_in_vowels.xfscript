@@ -30,13 +30,14 @@ define rmspecialv [
 define aposToV [%' -> [a|i|o] || \[a|i|o|e] _ \[a|i|o|e]] ; 
 define mdToband [m d (->) b a n d] ; 
 define initialVoicelessExpansion [
-                                    [.#.|%-|%<] p (->) [b [a|i|o] [b|p]],,
-                                    [.#.|%-|%<] t (->) [d [a|i|o] [d|t]],,
-                                    [.#.|%-|%<] k (->) [g [a|i|o] [g|k]],,
-                                    [.#.|%-|%<] s (->) [z [a|i|o] [z|s]],,
-                                    [.#.|%-|%<] s h (->) [[z h [a|i|o] [z|s] (h)]|[z (h) [a|i|o] [z|s] h]],,
-                                    [.#.|%-|%<] c h (->) [j [a|i|o] [j|c h]]
+                                    p (->) [b [a|i|o] [b|p]]                                    || [.#.|%-|%<] _ ,,
+                                    t (->) [d [a|i|o] [d|t]]                                    || [.#.|%-|%<] _ ,,
+                                    k (->) [g [a|i|o] [g|k]]                                    || [.#.|%-|%<] _ ,,
+                                    s (->) [z [a|i|o] [z|s]]                                    || [.#.|%-|%<] _ ,,
+                                    s h (->) [[z h [a|i|o] [z|s] (h)]|[z (h) [a|i|o] [z|s] h]]  || [.#.|%-|%<] _ ,,
+                                    c h (->) [j [a|i|o] [j|c h]]                                || [.#.|%-|%<] _ 
                                     ] ; 
+ 
 define obligatoryVC [[..] -> [a|i|o] || [.#.|%-|%<] _ [p|t|k|s|h|%'|c h],
                                         [.#.|%-|%<] _ [b|d|g|m|n|z (h)|j|w|y] [a|i|o] \[a|i|o]
 ] ; 
