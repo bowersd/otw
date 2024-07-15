@@ -38,7 +38,10 @@ zaasaabza # "really blinds people" ;
 zhaa # "come over" ; !morphological problem
 zhaagnaashiigaabwi:zhaagnaashiigaabwi    # ; !missing derivation, there's also a comment about missing inflection -nind but might that have just been a spelling error?
 zhi-yaa:izhi-ayaa    # "be a certain way" ; !looks to already be in the tmp.lexc file
-zhiwebdagbane # "" 1 happen, be a certain way,  2 be a certain kind of weather" ; !missing inflection of zhiwebat
+zhiwebdagbane # "1 happen, be a certain way, 2 be a certain kind of weather" ; !missing inflection of zhiwebat
+biidewezge    # "heard gunshots approaching" ; !phonological problems, weirdness with biidwewe vs biidewe?
+bboon'gizi:biboonagizi    # "number of year" ;
+baazgogaadewaakjin:baazagogaadewaakojin    # "scratched legs" ;
 
 LEXICON NU_VAIO
 naanzon:inaanzon    # "dye" ;
@@ -74,6 +77,9 @@ wewebjiwan # "when the current roils" ; !place name wewe-bjiwan-g
 zaagbii    # ; !maybe related to zaaggwiinde "stick out of the water"
 zegwiindmaa    # ; !zeg- is about fear, wiindam is "great depths of water," maybe about fear of water?
 zhi-yaa:izhi-ayaa    # "be in a certain way" ; !listed as both a VAI and VII
+kwegat:akwegat    # "be of such a length" ; !<d> or <t> for UR?
+wiigwaas:wiigwaas    # ; !missing derivation, weirdness with attaching -kaa to this, it seems
+namo:inamo    # "way the road goes" ;
 
 LEXICON NU_VTI
 baashdakaadaan    # ; !baashk- related to passing or bursting
@@ -103,6 +109,8 @@ njignaamaa # "smack with force" ; !nji- might be pv?
 noozwinkaanaa:anoozowinikaan    # "sign sth." ; !missing derivation, related to noozwin'kaadaan?
 nzwaa:onzw    # "boil" ; !phonological problem
 poogji'aa # ; !some relation to boog-
+nndonewaa:nandonehw    # "look for s.o." ; !phonological problems
+bmibtwaanaa:bimibatwaan1    # "run along with" ;
 
 LEXICON NU_NAD
 ngo-doodem    # "family, clan" ; !ngo- is paired with da- in the actual example, spelled dango-, doodem is a listed word for family
@@ -129,6 +137,7 @@ mtiggamik:mitigogamik    # ; !morphological and phonological problems; also UR i
 nag'ay    # "skin, rind" ; !related to the NID nnag'ay
 skoon'gamik:iskoonigamiko    # "school" ; !maybe already in the dictionary but I couldn't get an analysis
 zaaghigan # ; !need compounding
+datgaagmingaawanzh:odatagaagominagaawanzh    # "blackberry bush" ; !missing derivation
 
 LEXICON NU_NA
 baanaabekwe # "mermaid" ; !related to baanaabe
@@ -137,6 +146,8 @@ Debaasge    # ; !name
 Ebiins:Abence # ; !name
 Niibaakhom # "night thunderer" ; !name
 piinish # "animal" ; !unclear without context
+gchi-haa:gchi-ahaa    # "big children" ;
+gchi-haans:gchi-ahaans    # "big chilren (DIM)" ; !note to list this with the form above, so I have
 
 LEXICON NU_ADV
 aabtoowyiinh    # "halfway up the hill" ; !syncope problems, aabtoo- is clearly half, but I can't find a word related to hill
@@ -155,12 +166,15 @@ shkweyiing:íshkweyaang # "at the end, last" ; !RV relates to shkweyaang, maybe 
 wenjida    # "deliberately" ; !phonology problem, looks like initial change, maybe taken from CCNJ verb?
 wewiikaa # ; !redup of wiikaa
 zhaazhgo # ;
+edweyiing:edaweyiing    # "flanking, on both sides" ;
+gnimaage    # ;
 
 LEXICON NU_PRON_NA
 wegwendig # "somebody" ; !dubitative pronoun
 wenenan    # "who.Obv" ; !is this just wenen with the obviative suffix? also, irrational compounding
 
 LEXICON NU_PRON_NI
+wi:iwe    # ;
 
 LEXICON NU_PA
 PA/maanji-    # ; !phonological problem with first V not being deleted with reduplication
