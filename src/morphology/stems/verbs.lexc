@@ -106,6 +106,8 @@ nate:inate                  VII_TAG     "1 exist in such a way, 2 house contents
 zhaangse:zhaangise                  VII_TAG     "1 be jiggly, 2 jello (as participle e-zhaangsek)" ; !base of e-zhaangsek (vii participle, n73015879019n)
 !end roots added to make derived nouns (participles, ni-pt)}
 !End Rand database dump 2024}
+dba'gane:dibahigane     VII_TAG "be so many hours, used with numerical preverb to count time" ; !this can be found in the OPD.  I could require numerical preverbs to appear ... should any other preverbs be prevented from appearing? 
+dba'ganet:dibahiganed2     VII_TAG "be so many hours, used with numerical preverb to count time" ; !this can be found in the OPD.  I could require numerical preverbs to appear ... should any other preverbs be prevented from appearing?
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
