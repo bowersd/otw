@@ -39,7 +39,7 @@ define initialVoicelessExpansion [
                                     ] ; 
  
 define obligatoryVC [[..] -> [a|i|o] || [.#.|%-|%<] _ [p|t|k|s|h|%'|c h],
-                                        [.#.|%-|%<] _ [b|d|g|m|n|z (h)|j|w|y] [a|i|o] \[a|i|o]
+                                        [.#.|%-|%<] _ [b|d|g|m|n|z (h)|j|w|y] [a|i|o] \[a|i|o|%<|%-]
 ] ; 
 define initialprimaryObligatorySiteVariation [
                                                 [[..] -> V V || 
