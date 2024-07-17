@@ -398,7 +398,7 @@ read regex [
     L1del        .o.
     rmspecialv    .o. !special char killer
     !preGli      .o. !This is a bloomfield rule that I haven't seen used elsewhere
-    !optinitV    .o. !ORIGINAL TREATMENT TO ALLOW post syncope n-nokii < n[d]-ankii < nidanokii. CURRENT TREATMENT IS TO USE SHORTENED PREFIXES WITH +Nul TAG (ALLOWS FOR EASIER IDENTIFICATION)
+    !optinitV    .o. !ORIGINAL TREATMENT TO ALLOW post syncope n-nokii < n[d]-ankii < nidanokii. CURRENT TREATMENT IS TO USE SHORTENED PREFIXES WITH +Nul TAG (ALLOWS FOR EASIER IDENTIFICATION, BECAUSE IT IS NOT SILENT, BUT IT DOES CREATE (USUALLY STARK) OVERGENERATION ON ORIGINAL CVC WORDS) LEAVE COMMENTED OUT
     preDel      .o.
     preLen      .o.
     preEpen     .o. 
