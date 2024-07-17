@@ -287,10 +287,11 @@ PV/dso+:n5daso-     V_REDUPLICATION_STEM " 1 each, every";  !DAB are we sure thi
 !PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
 PV/aabta+:aabita- V_REDUPLICATION_STEM " 1 half, halfway; mid, midway";
 PV/n'go+:ningo- V_REDUPLICATION_STEM " 1 one"; !should this be /ningo/ as in nouns.lexc?
-PV/niizhoo+:niizhoo- V_REDUPLICATION_STEM " 1 two"; 
-!PV/niizho+:niizhoo- V_REDUPLICATION_STEM " 1 two"; !this form used in reference grammar
+!PV/niizhoo+:niizhoo- V_REDUPLICATION_STEM " 1 two"; 
+PV/niizho+:niizho- V_REDUPLICATION_STEM " 1 two"; !this form used in reference grammar
 PV/n'so+:niso- V_REDUPLICATION_STEM " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
-PV/niiwoo+:niiwoo- V_REDUPLICATION_STEM " 1 four"; 
+!PV/niiwoo+:niiwoo- V_REDUPLICATION_STEM " 1 four"; 
+PV/niiwo+:niiwo- V_REDUPLICATION_STEM " 1 four"; 
 !DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_STEM " 1 four" ; 
 PV/naano+:naano- V_REDUPLICATION_STEM " 1 five"; 
 PV/n'godwaaso+:ningodwaaso- V_REDUPLICATION_STEM " 1 six"; 
