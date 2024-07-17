@@ -38,7 +38,7 @@ ngo-bkwaakninch:ningo-bikwaakVv1ninj    NUM_TAG    " 1 one fistful, one handful"
 ngo-dba'gaans:ningo-dibahigaans         NUM_TAG    " 1 one inch;  2 one hour;  3 one minute" ; !Rand key:n71431647234n
 nsoozit:nisoozid                        NUM_TAG    " 1 three feet [long or high]" ; !Rand key:n71434671576n
 ngo-dba'aabaan:ningo-dibahaabaan        NUM_TAG    " 1 one mile" ; !Rand key:n20106517-36-31n
-niizho-dbagiiswaan:niizho-dibagiiziswaan NUM_TAG   " 1 two hours" ; !Rand key:n20114822-0-50n !this needs to be listed, not derived, because I don't see any other dbagiiswaan words combining with numerals
+!niizho-dbagiiswaan:niizho-dibahigiiziswaan NUM_TAG   " 1 two hours" ; !Rand key:n20114822-0-50n !this needs to be listed, not derived, because I don't see any other dbagiiswaan words combining with numerals. dbagiiswaan is a word, we seem to have much better attestation of -o with preverbs/nouns than -oo
 !MEASURE END}
 !{DISTRIBUTIVE START
 bebezhig:bebezhig                       NUM_TAG    " 1 one by one;  2 one each (comm);  3 only a few, a few, some few (SI)" ; !Rand key:n201132915-11-37n
