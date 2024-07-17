@@ -75,7 +75,7 @@ define initialprimaryOptionalSiteVariation [
                                                     V V z h V V -> [z h]|[[a|i|o] z h]|[z h [a|i|o]] ]
                                                     ] ;
 
-define optionalVC [[..] (->) [a|i|o] || [.#.|%-|%<] _ [b|d|g|m|n|z|j|w|y] [a a|i i|o o|e]] ; 
+define optionalVC [[..] (->) [a|i|o] || [.#.|%-|%<] _ [b|d|g|m|n|z (h)|j|w|y] [a a|i i|o o|e]] ; 
 define primaryToCV [[..] -> [a|i|o] ||  [a|i|o|e] [m] _ [b] [a|i|o],
                                         [a|i|o|e] [n] _ [d|z (h)|j|y|h] [a|i|o],
                                         [a|i|o|e] [s (h)] _ [p|t|k] [a|i|o],
