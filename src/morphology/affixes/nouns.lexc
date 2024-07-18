@@ -111,9 +111,13 @@ PN/n'so+:niso-                          N_PRENOUNS    " 1 three" ; !Rand key:n71
 PN/niiwo+:niiwo-                        N_PRENOUNS    " 1 four" ; !Rand key:n71431061169n
 PN/naano+:naano-                        N_PRENOUNS    " 1 five" ; !Rand key:n71431061169n
 PN/n'godwaaso+:ningodwaaso-             N_PRENOUNS " 1 six"; 
+!PN/n'godwaaso+:ningodwaasoo-             N_PRENOUNS " 1 six"; 
 PN/niizhwaaso+:niizhwaaso-              N_PRENOUNS " 1 seven"; 
+!PN/niizhwaaso+:niizhwaasoo-              N_PRENOUNS " 1 seven"; 
 PN/nshwaaso+:nishwaaso-                 N_PRENOUNS " 1 eight"; 
+!PN/nshwaaso+:nishwaasoo-                 N_PRENOUNS " 1 eight"; 
 PN/zhaangso+:zhaangaso-                 N_PRENOUNS " 1 nine"; 
+!PN/zhaangso+:zhaangasoo-                 N_PRENOUNS " 1 nine"; 
 PN/mdaaso+:midaaso-                     N_PRENOUNS " 1 ten"; !this form used in reference grammar
 PN/dso+:daso-                           N_PRENOUNS    " 1 a certain number of, so many of" ; !Rand key:n201132819-26-23n
 PN/endso+:endaso-                       N_PRENOUNS    " 1 each, every" ; !Rand key:n201132916-43-33n
