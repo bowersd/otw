@@ -72,7 +72,7 @@ define gnMetathesis                 [g n (->) [n g::3] || _ \[a|e|i|o]] ;
 define nasalPlaceAssimilation       [m (->) [n::3] || _ [d|t|g|k|z|s] ,,
                                     m (->) [[n %']::3] || _ [z|s|g|k] ,,
                                     n (->) [m::3] || _ [b|p] ]; 
-define strandedNas [[n|m] (->) [0::3] || \[a|e|i|o]  _ \[a|e|i|o|w|y] ]; !adding further restrictions on the thinking that with an approximant following the cues to n would be less likely to be swallowed
+define strandedNas [[n|m] (->) [0::3] || [.#.|\[a|e|i|o]]  _ \[a|e|i|o|w|y] ]; !adding further restrictions on the thinking that with an approximant following the cues to n would be less likely to be swallowed
 
 !!!!punctuation
 define negHyphEpenthesis            [[..] (->) [%-::3] || _  [s|z] i i] ; 
