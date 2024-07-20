@@ -57,6 +57,7 @@ wejeje:wejeje    IJ_TAG    " 1 expr. of mild alarm: oh-oh, uh-oh" ; !Rand key:n5
 say:Bv1say2    IJ_TAG    " 1 yuck" ; !Rand key:n58fa1bd5441c4994a98023320a01dd02n
 aaniinda:aaniinda   IJ_TAG  "1 For Pete's sake! For goodness' sake, Jeez! My God!, Ever gross!, Ever sick!, How disgusting!" ; !Rand key:n200581212-36-27n
 !End Rand database dump 2024}
+gchi-miigwech:gichi-miigwech    IJ_TAG    " 1 thank you!, thanks!" ; !I don't think we want to let gchi attach to _every_ IJ
 
 LEXICON IJ
 wis:awis    IJ_TAG    " 1 Scat! Shoo!" ; !Rand key:n73072076663n
