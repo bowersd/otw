@@ -9,6 +9,7 @@ aabdig:aabidig    AV_TAG    " 1 certainly, for sure, of course;  2 have to (do s
 wiin:wiin       AV_TAG  "contrastive" ; !
 aabtaa-dbik:aabitaadibik AV_TAG "1 midnight, the evening up to midnight (as a unit)" ; !Rand key:n201132516-55-39n DAB this is classed as ni-time by Rand, but av makes more sense (also follows Rhodes)
 wenjda:wenjida  AV_TAG "1 on purpose, intentionally, as intended" ;
+washme:ooshime          AV_TAG " 1 more [than another], more [than at another time];  2 more than [some point of reference], beyond [some point of reference]" ; !reduced variant of washme
 
 LEXICON AV
 aabda:aabida    AV_TAG    " 1 continuously" ; !Rand key:n7291536788n
