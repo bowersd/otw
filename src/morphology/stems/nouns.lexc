@@ -44,6 +44,7 @@ jiisak:jiis    NA_SET    " 1 fall fair organizers" ; !Rand key:n73032652413n SIN
 nam'emnak:anamahemin    NA_SET    " 1 prayer beads, rosary" ; !Rand key:n73033565050n SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
 !end (potential) obligatory plurals}
 !End Rand database dump 2024}
+Niibaakhom:niibaakBv1homo   NA_SET  " 1 Niibaakhom, 'one at the periphery' or 'night thunder', historical figure" ; 
 
 LEXICON NA
 !{oddballs
