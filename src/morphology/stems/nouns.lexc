@@ -45,6 +45,8 @@ nam'emnak:anamahemin    NA_SET    " 1 prayer beads, rosary" ; !Rand key:n7303356
 !end (potential) obligatory plurals}
 !End Rand database dump 2024}
 Niibaakhom:niibaakBv1homo   NA_SET  " 1 Niibaakhom, 'one at the periphery' or 'night thunder', historical figure" ; 
+Zhaabdiis:zhaabBv1diis        NA_SET  " 1 John" ; 
+Zoozep:zoozep            NA_SET  " 1 Joseph" ; 
 
 LEXICON NA
 !{oddballs
@@ -990,9 +992,10 @@ nda'iimak:ahii    NAD_SET    " 1 my belongings, my stuff" ; !Rand key:n729744561
 nbiiweziinmak:biiweziin    NAD_SET    " 1 my brood, my little ones" ; !Rand key:n7297751609n !this may require possessed theme, plural
 !end (potential) obligatory plurals}
 !end rand database dump}
+nmamaanh:%^maamaa    NAD_SET    " 1 my mom, my mother" ; !long vowel variant of nmamaanh, a DAB addition
+npapaa:%^Bv1papaa  NAD_SET    " 1 my dad, my father" ; !a DAB addition
 
 LEXICON NAD
-nmamaanh:%^maamaa    NAD_SET    " 1 my mom, my mother" ; !long vowel variant of nmamaanh, a DAB addition
 !{ oddballs (y-final)
 nnagway:%^nagway2   NAD_SET    " 1 sleeve" ; !Rand key:n71431153168n
 nbaabaa:%^baabaay    NAD_SET    " 1 my dad" ; !Rand key:n72974462914n
