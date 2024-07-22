@@ -594,7 +594,7 @@ LEXICON Root !!= @CODE@ points to the other lexica
     !N_PREFIXES ;
     PREFIXES ; 
     NM ; !numerals
-    CARDINALS ; !just the cardinals in the expanded numerals
+    DISTRIBUTIVES ; !just the cardinals in the expanded numerals
     !NUMERALS_META_GATEWAY ; !expanded numerals
     QNT ; !quantifiers
     PCL ; !particles
