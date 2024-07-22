@@ -17,6 +17,8 @@
 !        V_REDUPLICATION_STEM ; 
 !        NOUNS ; 
 
+LEXICON ORDINALS_SET
+@P.NUMERAL.ORD@ CARDINALS ; 
 
 LEXICON CARDINALS
 ngod+Num:ningod     CARDINALS_HUNDREDS ;
@@ -30,11 +32,14 @@ nshwaaswi+Num:nishwaas   CARDINALS_HUNDREDS ;
 zhaangswi+Num:zhaangas   CARDINALS_HUNDREDS ;
 mdwaaswi+Num:midwaas    CARDINALS_HUNDREDS ;
                         CARDINALS_TENS ; 
-                        CARDINALS_STANDALONE_ONE_NINE ; 
-                        CARDINALS_STANDALONE_ONE_NINE ; 
+                        CARDINAL_REPETITION_GATEWAY ; 
+dshi+Num:dach          NUMERAL_ROOT_FORMS_VERBISH;
+dshi+Num:dash          NUMERAL_ROOT_FORMS_VERBISH;
+dshi+Num:nach          NUMERAL_ROOT_FORMS_VERBISH;
+
 
 LEXICON CARDINALS_HUNDREDS  
-waak+Num:waak   CARDINALS_HUNDREDS_SHI ;
++waak+Num:waak   CARDINALS_HUNDREDS_SHI ;
 
 LEXICON CARDINALS_HUNDREDS_SHI
 +shi+Conj+:-ashi-    CARDINALS_HUNDREDS_AABTA ; 
@@ -55,17 +60,34 @@ niizhwaaswi+Num:niizhwaas        CARDINALS_TENS_MIDANA;
 nshwaaswi+Num:nishwaas           CARDINALS_TENS_MIDANA; 
 zhaangswi+Num:zhaangas           CARDINALS_TENS_MIDANA; 
 mdaaswi+Num:midaaswi             CARDINALS_TENS_SHI;
-+shi+Conj+:-ashi-                 CARDINALS_ONE_NINE; !short form of -teen words
-                                 CARDINALS_ONE_NINE; 
++shi+Conj+:-ashi-                CARDINAL_REPETITION_GATEWAY; !short form of -teen words
+                                 CARDINAL_REPETITION_GATEWAY; 
+!REPETITION VERSIONS OF 10
+mdaaswi+Num:midaas               NUMERAL_ROOT_FORMS_VERBISH;
+mdaaswi+Num:midaach              NUMERAL_ROOT_FORMS_VERBISH;
 
 LEXICON CARDINALS_TENS_MIDANA
 +mdana+Num:%>midana               CARDINALS_TENS_SHI; 
 
 
 LEXICON CARDINALS_TENS_SHI
-+shi+Conj+:-ashi-    CARDINALS_ONE_NINE ;
++shi+Conj+:-ashi-    CARDINAL_REPETITION_GATEWAY ;
                     CLOSED_PROTECTION ; 
 
+LEXICON CARDINAL_REPETITION_GATEWAY
+@D.NUMERAL.ORD@ CARDINALS_ONE_NINE ; 
+                REPETITION_ONE_NINE ; 
+
+LEXICON REPETITION_ONE_NINE
+ngod+Num:ningod     NUMERAL_ROOT_FORMS_VERBISH ;
+niizh+Num:niizh     NUMERAL_ROOT_FORMS_VERBISH ;
+nswi+Num:nis     NUMERAL_ROOT_FORMS_VERBISH ;
+niiwin+Num:niiw     NUMERAL_ROOT_FORMS_VERBISH ; !this w needs to be there
+naanan+Num:naan     NUMERAL_ROOT_FORMS_VERBISH ;
+ngodwaaswi+Num:ningodwaach     NUMERAL_ROOT_FORMS_VERBISH ;
+niizhwaaswi+Num:niizhwaach    NUMERAL_ROOT_FORMS_VERBISH ;
+nshwaaswi+Num:nishwaach   NUMERAL_ROOT_FORMS_VERBISH ;
+zhaangswi+Num:zhaangach   NUMERAL_ROOT_FORMS_VERBISH ; 
 
 LEXICON CARDINALS_ONE_NINE
 bezhig+Num:bezhig               # "one";
@@ -93,9 +115,9 @@ LEXICON NUMERAL_ROOTS_GATEWAY
 @D.Person@        NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ;
 @R.NUMERAL.HUNDRED@@D.NUMERAL.TEN@  NUMERAL_HALF ; 
 
-LEXICON ORDINALS_SET
-@P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TWO_NINE ;  !used to ensure ordinals end in repetitions. currently repetitions are limited to simple roots, can't build a more complex numeral (and so it is also impossible to build a more complex ordinal)
-@P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TEN ; 
+!LEXICON ORDINALS_SET
+!@P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TWO_NINE ;  !used to ensure ordinals end in repetitions. currently repetitions are limited to simple roots, can't build a more complex numeral (and so it is also impossible to build a more complex ordinal)
+!@P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TEN ; 
 
 
 LEXICON NUMERAL_HALF
