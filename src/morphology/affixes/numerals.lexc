@@ -17,6 +17,68 @@
 !        V_REDUPLICATION_STEM ; 
 !        NOUNS ; 
 
+
+LEXICON CARDINALS
+ngod+Num:ningod     CARDINALS_HUNDREDS ;
+niizh+Num:niizh     CARDINALS_HUNDREDS ;
+nswi+Num:nis     CARDINALS_HUNDREDS ;
+niiwin+Num:nii     CARDINALS_HUNDREDS ;
+naanan+Num:naan     CARDINALS_HUNDREDS ;
+ngodwaaswi+Num:ningodwaas     CARDINALS_HUNDREDS ;
+niizhwaaswi+Num:niizhwaas     CARDINALS_HUNDREDS ;
+nshwaaswi+Num:nishwaas   CARDINALS_HUNDREDS ;
+zhaangswi+Num:zhaangas   CARDINALS_HUNDREDS ;
+mdwaaswi+Num:midwaas    CARDINALS_HUNDREDS ;
+                        CARDINALS_TENS ; 
+                        CARDINALS_STANDALONE_ONE_NINE ; 
+                        CARDINALS_STANDALONE_ONE_NINE ; 
+
+LEXICON CARDINALS_HUNDREDS  
+waak+Num:waak   CARDINALS_HUNDREDS_SHI ;
+
+LEXICON CARDINALS_HUNDREDS_SHI
++shi+Conj:-ashi-    CARDINALS_HUNDREDS_AABTA ; 
+                    # ; 
+
+LEXICON CARDINALS_HUNDREDS_AABTA
+aabta+Num:aabita    CLOSED_PROTECTION ; 
+                    CARDINALS_TENS ; 
+
+LEXICON CARDINALS_TENS
+!NO BEZHIG/NGOD HERE
+niizh+Num+mdana+Num:niizhidana   CARDINALS_TENS_SHI; 
+nswi+Num:nis                     CARDINALS_TENS_MIDANA; 
+niiwin+Num:nii                   CARDINALS_TENS_MIDANA; 
+naanan+Num:naan                  CARDINALS_TENS_MIDANA; 
+ngodwaaswi+Num:ningodwaas        CARDINALS_TENS_MIDANA; 
+niizhwaaswi+Num:niizhwaas        CARDINALS_TENS_MIDANA; 
+nshwaaswi+Num:nishwaas           CARDINALS_TENS_MIDANA; 
+zhaangswi+Num:zhaangas           CARDINALS_TENS_MIDANA; 
+mdaaswi+Num:midaaswi             CARDINALS_TENS_SHI;
++shi+Conj:-ashi-                 CARDINALS_ONE_NINE; !short form of -teen words
+                                 CARDINALS_ONE_NINE; 
+
+LEXICON CARDINALS_TENS_MIDANA
++mdana+Num:%>midana               CARDINALS_TENS_SHI; 
+
+
+LEXICON CARDINALS_TENS_SHI
++shi+Conj:-ashi-    CARDINALS_ONE_NINE ;
+                    CLOSED_PROGECTION ; 
+
+
+LEXICON CARDINALS_ONE_NINE
+bezhig+Num:bezhig               # "one";
+niizh+Num:niizh                 # "two";
+nswi+Num:niswi                  CLOSED_PROTECTION "three";
+niiwin+Num:niiwin               # "four";
+naanan+Num:naanan               # "five";
+!naanin:naanin               # "five";
+ngodwaaswi+Num:ningodwaaswi     CLOSED_PROTECTION "six";
+niizhwaaswi+Num:niizhwaaswi     CLOSED_PROTECTION "seven";
+nshwaaswi+Num:nishwaaswi        CLOSED_PROTECTION "eight";
+zhaangswi+Num:zhaangaswi        CLOSED_PROTECTION "nine";
+
 LEXICON NUMERALS_META_GATEWAY
         NUMERAL_ROOTS_GATEWAY ; 
         DISTRIBUTIVE_REDUPLICATION ; 
@@ -30,7 +92,6 @@ LEXICON NUMERAL_ROOTS_GATEWAY
 @D.Person@        NUMERAL_STANDALONE_FORMS_TEN ; !you should not ever have person prefixes on standalone numerals
 @D.Person@        NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN ;
 @R.NUMERAL.HUNDRED@@D.NUMERAL.TEN@  NUMERAL_HALF ; 
-
 
 LEXICON ORDINALS_SET
 @P.NUMERAL.ORD@ NUMERAL_ROOT_FORMS_TWO_NINE ;  !used to ensure ordinals end in repetitions. currently repetitions are limited to simple roots, can't build a more complex numeral (and so it is also impossible to build a more complex ordinal)
@@ -88,6 +149,7 @@ LEXICON NUMERAL_ROOT_FORMS_VERBISH
 +VAI:i  VAI_ORDERS_GET ; !first and second person prefixes need to be routed here too
 
 LEXICON NUMERAL_ROOT_FORMS_GET_TWO
+                                        NUMERAL_CLASSIFICATORY_MEDIALS ; 
                                         NUMERAL_ROOT_FORMS_VERBISH ; 
 @D.NUMERAL.ORD@@D.NUMERAL.TEN@         NUMERAL_ROOT_FORMS_TWO_TENS ; 
 @D.NUMERAL.ORD@@D.NUMERAL.HUNDRED@     NUMERAL_STEM_HUNDRED_SET ; 
