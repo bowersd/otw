@@ -37,7 +37,7 @@ LEXICON CARDINALS_HUNDREDS
 waak+Num:waak   CARDINALS_HUNDREDS_SHI ;
 
 LEXICON CARDINALS_HUNDREDS_SHI
-+shi+Conj:-ashi-    CARDINALS_HUNDREDS_AABTA ; 
++shi+Conj+:-ashi-    CARDINALS_HUNDREDS_AABTA ; 
                     # ; 
 
 LEXICON CARDINALS_HUNDREDS_AABTA
@@ -55,7 +55,7 @@ niizhwaaswi+Num:niizhwaas        CARDINALS_TENS_MIDANA;
 nshwaaswi+Num:nishwaas           CARDINALS_TENS_MIDANA; 
 zhaangswi+Num:zhaangas           CARDINALS_TENS_MIDANA; 
 mdaaswi+Num:midaaswi             CARDINALS_TENS_SHI;
-+shi+Conj:-ashi-                 CARDINALS_ONE_NINE; !short form of -teen words
++shi+Conj+:-ashi-                 CARDINALS_ONE_NINE; !short form of -teen words
                                  CARDINALS_ONE_NINE; 
 
 LEXICON CARDINALS_TENS_MIDANA
@@ -63,7 +63,7 @@ LEXICON CARDINALS_TENS_MIDANA
 
 
 LEXICON CARDINALS_TENS_SHI
-+shi+Conj:-ashi-    CARDINALS_ONE_NINE ;
++shi+Conj+:-ashi-    CARDINALS_ONE_NINE ;
                     CLOSED_PROTECTION ; 
 
 
