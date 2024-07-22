@@ -20,6 +20,9 @@
 LEXICON ORDINALS_SET
 @P.NUMERAL.ORD@ CARDINALS ; 
 
+LEXICON DISTRIBUTIVES
+Redup+:CRED1e     CARDINALS ; 
+
 LEXICON CARDINALS
 ngod+Num:ningod     CARDINALS_HUNDREDS ;
 niizh+Num:niizh     CARDINALS_HUNDREDS ;
@@ -43,7 +46,7 @@ LEXICON CARDINALS_HUNDREDS
 
 LEXICON CARDINALS_HUNDREDS_SHI
 +shi+Conj+:-ashi-    CARDINALS_HUNDREDS_AABTA ; 
-                    # ; 
+@D.NUMERAL.ORD@     # ; 
 
 LEXICON CARDINALS_HUNDREDS_AABTA
 aabta+Num:aabita    CLOSED_PROTECTION ; 
@@ -63,8 +66,8 @@ mdaaswi+Num:midaaswi             CARDINALS_TENS_SHI;
 +shi+Conj+:-ashi-                CARDINAL_REPETITION_GATEWAY; !short form of -teen words
                                  CARDINAL_REPETITION_GATEWAY; 
 !REPETITION VERSIONS OF 10
-mdaaswi+Num:midaas               NUMERAL_ROOT_FORMS_VERBISH;
-mdaaswi+Num:midaach              NUMERAL_ROOT_FORMS_VERBISH;
+mdaaswi+Num:midaas               NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY;
+mdaaswi+Num:midaach              NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY;
 
 LEXICON CARDINALS_TENS_MIDANA
 +mdana+Num:%>midana               CARDINALS_TENS_SHI; 
@@ -72,22 +75,22 @@ LEXICON CARDINALS_TENS_MIDANA
 
 LEXICON CARDINALS_TENS_SHI
 +shi+Conj+:-ashi-    CARDINAL_REPETITION_GATEWAY ;
-                    CLOSED_PROTECTION ; 
+@D.NUMERAL.ORD@     CLOSED_PROTECTION ; 
 
 LEXICON CARDINAL_REPETITION_GATEWAY
 @D.NUMERAL.ORD@ CARDINALS_ONE_NINE ; 
                 REPETITION_ONE_NINE ; 
 
 LEXICON REPETITION_ONE_NINE
-ngod+Num:ningod     NUMERAL_ROOT_FORMS_VERBISH ;
-niizh+Num:niizh     NUMERAL_ROOT_FORMS_VERBISH ;
-nswi+Num:nis     NUMERAL_ROOT_FORMS_VERBISH ;
-niiwin+Num:niiw     NUMERAL_ROOT_FORMS_VERBISH ; !this w needs to be there
-naanan+Num:naan     NUMERAL_ROOT_FORMS_VERBISH ;
-ngodwaaswi+Num:ningodwaach     NUMERAL_ROOT_FORMS_VERBISH ;
-niizhwaaswi+Num:niizhwaach    NUMERAL_ROOT_FORMS_VERBISH ;
-nshwaaswi+Num:nishwaach   NUMERAL_ROOT_FORMS_VERBISH ;
-zhaangswi+Num:zhaangach   NUMERAL_ROOT_FORMS_VERBISH ; 
+ngod+Num:ningod     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+niizh+Num:niizh     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+nswi+Num:nis     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+niiwin+Num:niiw     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ; !this w needs to be there for repetition -ing form
+naanan+Num:naan     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+ngodwaaswi+Num:ningodwaach     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+niizhwaaswi+Num:niizhwaach    NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+nshwaaswi+Num:nishwaach   NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+zhaangswi+Num:zhaangach   NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ; 
 
 LEXICON CARDINALS_ONE_NINE
 bezhig+Num:bezhig               # "one";
@@ -100,6 +103,14 @@ ngodwaaswi+Num:ningodwaaswi     CLOSED_PROTECTION "six";
 niizhwaaswi+Num:niizhwaaswi     CLOSED_PROTECTION "seven";
 nshwaaswi+Num:nishwaaswi        CLOSED_PROTECTION "eight";
 zhaangswi+Num:zhaangaswi        CLOSED_PROTECTION "nine";
+
+LEXICON NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY
+                 NUMERAL_ROOT_FORMS_VERBISH ;
+                 NUMERAL_FINALS ;
+@D.NUMERAL.ORD@  NUMERAL_CLASSIFICATORY_MEDIALS ; !these aren't verbs afaik, so don't go putting eko- in front of them
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!OLD VERSION
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON NUMERALS_META_GATEWAY
         NUMERAL_ROOTS_GATEWAY ; 
