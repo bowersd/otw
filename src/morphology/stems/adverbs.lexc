@@ -1,6 +1,7 @@
 
 LEXICON AV_GATEWAY
 AV ; 
+AV_TEMPORAL ; 
 AV_DAB_ADDITIONS ;
 
 LEXICON AV_DAB_ADDITIONS
@@ -11,7 +12,19 @@ aabtaa-dbik:aabitaadibik AV_TAG "1 midnight, the evening up to midnight (as a un
 wenjda:wenjida  AV_TAG "1 on purpose, intentionally, as intended" ;
 washme:ooshime          AV_TAG " 1 more [than another], more [than at another time];  2 more than [some point of reference], beyond [some point of reference]" ; !reduced variant of washme
 
+LEXICON AV_TEMPORAL
+bboon:biboon    AV_TAG    " 1 winter" ; ! SHORTENED VERSION OF gbe-bboon Rand key:n73017936268n
+dbik:dibik    AV_TAG    " 1 night" ; ! SHORTENED VERSION OF gbe-dbik Rand key:n73017936343n
+giizhik:giizhig    AV_TAG    " 1 day" ; ! SHORTENED VERSION OF gbe-giizhik Rand key:n73017936376n
+naagosh:onaagosh    AV_TAG    " 1 evening" ; ! SHORTENED VERSION OF gbe-naagosh Rand key:n73017937220n
+niibin:niibin    AV_TAG    " 1 summer" ; ! SHORTENED VERSION OF endso-niibin Rand key:n73017936290n
+shkwaa-naawkwe:ishkwaa-naawakwe    AV_TAG    " 1 afternoon" ; ! SHORTENED VERSION OF gbe-shkwaa-naawkwe Rand key:n73017937172n
+zhebaa:zhebaa    AV_TAG    " 1 the past morning" ; ! SHORTENED VERSION OF gbe-zhebaa Rand key:n73017937356n
+ggizhep:gigizheb    AV_TAG    " in the morning" ; ! SHORTENED VERSION OF gchi-ggizhep Rand key:n73019343171n
+
 LEXICON AV
+gbey'ii:gabeyVi1hii    AV_TAG    " 1 for a long time" ; !Rand key:n73017937506n
+gbey'iing:gabeyVi1hiing    AV_TAG    " 1 for a long time" ; !Rand key:n73017937637n
 aabda:aabida    AV_TAG    " 1 continuously" ; !Rand key:n7291536788n
 aabdek:aabideg    AV_TAG    " 1 certainly, for sure, of course;  2 have to (do something)" ; !Rand key:n7291537870n DAB; enforced regular word-final g in place of k in internal representation ... final v may not be long, see DAB_ADDITIONS
 aabiish:aabiish    AV_TAG    " 1 where, which (interrogative, used to ask questions of where or which)" ; !Rand key:n72971644044n
@@ -149,16 +162,6 @@ gaawtaagmik:gaawitaagamig    AV_TAG    " 1 all around the building" ; !Rand key:
 gaay:gaay2   AV_TAG    " 1 not" ; !Rand key:n73017579808n
 gamiing:agamiing    AV_TAG    " 1 by the lake, in the lake, on the shore" ; !Rand key:n73017580742n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 gashki:gigashki    AV_TAG    " 1 raw, uncooked" ; !Rand key:n73017376462n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spell_relax_rules_ident.txt
-gbe-bboon:gabe-biboon    AV_TAG    " 1 all winter" ; !Rand key:n73017936268n
-gbe-dbik:gabe-dibik    AV_TAG    " 1 all night" ; !Rand key:n73017936343n
-gbe-giizhik:gabe-giizhig    AV_TAG    " 1 all day" ; !Rand key:n73017936376n
-gbe-naagosh:gabe-onaagosh    AV_TAG    " 1 all evening" ; !Rand key:n73017937220n
-gbe-niibin:gabe-niibin    AV_TAG    " 1 all summer" ; !Rand key:n73017936290n
-gbe-shkwaa-naawkwe:gabe-ishkwaa-naawakwe    AV_TAG    " 1 all afternoon" ; !Rand key:n73017937172n
-gbe-zhebaa:gabe-zhebaa    AV_TAG    " 1 all the past morning" ; !Rand key:n73017937356n
-gbey'ii:gabeyVi1hii    AV_TAG    " 1 for a long time" ; !Rand key:n73017937506n
-gbey'iing:gabeyVi1hiing    AV_TAG    " 1 for a long time" ; !Rand key:n73017937637n
-gchi-ggizhep:gichi-gigizheb    AV_TAG    " 1 early in the morning, very early [in the morning]" ; !Rand key:n73019343171n
 gchi-ngoji:gichi-ningoji    AV_TAG    " 1 way out of place, way somewhere else" ; !Rand key:n7309021327n
 !gchi-ngoji:gichi-ngoji    AV_TAG    " 1 way out of place, way somewhere else" ; !Rand key:n7309021327n
 gchi-zhaazhi:gichi-zhaazhi    AV_TAG    " 1 long ago, a long time ago, a long time (since...)" ; !Rand key:n73019356864n
