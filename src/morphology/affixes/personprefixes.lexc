@@ -2,9 +2,9 @@ LEXICON PREFIXES
 1+:ni%< FIRST_PERSON_SET ;
 2+:gi%< SECOND_PERSON_SET ;
 3+:o%<  THIRD_PERSON_SET ; !MC wrote dgonaan (VTA+ThmDir+3Obv) where dagnaan (3+...+VTA+ThmDir+3Obv) would be expected. Either 3+ is there and null (as predicted by the soup not being unstirrable), or optional.
-1+Nul+:n%< NULL_FIRST_PERSON_SET "weight: 1";
-2+Nul+:g%< NULL_SECOND_PERSON_SET "weight: 1";
-3+Nul+:%<  NULL_THIRD_PERSON_SET "weight: 1"; !MC wrote dgonaan (VTA+ThmDir+3Obv) where dagnaan (3+...+VTA+ThmDir+3Obv) would be expected. Either 3+ is there and null (as predicted by the soup not being unstirrable), or optional.
+1+Nul+:n%< NULL_FIRST_PERSON_SET "weight: 2";
+2+Nul+:g%< NULL_SECOND_PERSON_SET "weight: 2";
+3+Nul+:%<  NULL_THIRD_PERSON_SET "weight: 2"; !MC wrote dgonaan (VTA+ThmDir+3Obv) where dagnaan (3+...+VTA+ThmDir+3Obv) would be expected. Either 3+ is there and null (as predicted by the soup not being unstirrable), or optional.
 X+:i%<  X_PERSON_SET ; ! nouns only. will need to disallow indefinite possession on alienable
         N_PRENOUNS ;
         V_PREVERBS_SUBORDINATOR ; 
