@@ -57,10 +57,10 @@ mbacon:m2bacon    NA_SET    " 1 bacon" ; !Rand key:n20114916-28-2n
 mbus:m2bus    NA_SET    " 1 bus" ; !Rand key:n2011497-13-43n
 mbadnis:m2badVv1nis    NA_SET    " 1 button" ; !Rand key:n72975859340n
 meskwaanzo:meskwaanzow2    NA_SET    " 1 vermilion" ; !Rand key:n20114919-37-21n
+maawmaaw:maawimaaw    NA_SET    " 1 eyebrow" ; !Rand key:n7309016223n
 gchi-zhashkwedo:gichi-azhashkwedow2    NA_SET    " 1 lifebelt" ; !Rand key:n201133015-46-46n
 zhaangwesh:zhaangweshw    NA_SET    " 1 mink" ; !Rand key:n73033448980n
 waawaashkesh:waawaashkeshw    NA_SET    " 1 deer" ; !Rand key:n73032685219n
-maawmaaw:maawimaaw    NA_SET    " 1 eyebrow" ; !Rand key:n7309016223n
 !n'ka:niko    NA_SET    " 1 Canada goose" ; !Rand key:n71433050235n !there must have been something indicating variation in Rand's original files, but this can't stay
 n'ka:nika    NA_SET    " 1 Canada goose" ; !Rand key:n71433050235n
 zhegaagom:zhegaagomw1    NA_SET    " 1 pinworm? roundworm?" ; !Rand key:n73034220491n (!!!!w1 not after velar!)
@@ -198,25 +198,28 @@ maanmeg:maanamegw1    NA_SET    " 1 sturgeon" ; !Rand key:n71429181359n
 dikmek:adikamegw1    NA_SET    " 1 whitefish" ; !Rand key:n73004851355n
 !} end w1
 !{ w2 (-wak pl)
+bgiw:bigiw2    NA_SET    " 1 gum (of a tree), pitch;  2 chewing gum" ; !Rand key:n72976840348n
+bzhiw:bizhiw2    NA_SET    " 1 lynx" ; !Rand key:n72985233901n
+dgow:digow2   NA_SET    " 1 wave (of water)" ; !Rand key:n73004843262n
+gaawaandga-bgiw:gaawaandaga-bigiw2    NA_SET    " 1 spruce gum" ; !Rand key:n73102084816n
+mkade-bgiw:makade-bigiw2    NA_SET    " 1 tar" ; !Rand key:n73033129996n
+mshibzhiw:mishibizhiw2    NA_SET    " 1 lion" ; !Rand key:n71430434372n
+Mshibzhiw:mishibizhiw2    NA_SET    " 1 the Great Lynx, the Underwater Panther (mythological figure)" ; !Rand key:n71430434563n
 giiwse-nini:giiwose-aniniw2    NA_SET    " 1 hunter" ; !Rand key:n201251620-28-4n
 giigoonykewnini:giigoonyikewVi1niniw2    NA_SET    " 1 fisherman" ; !Rand key:n201133020-45-27n
 btashkaanzhe:batashkaanzhew2    NA_SET    " 1 Virginia rail (a type of bird)" ; !Rand key:n72976264993n
-bgiw:bigiw2    NA_SET    " 1 gum (of a tree), pitch;  2 chewing gum" ; !Rand key:n72976840348n
 bgoji-bzhiki:bagoji-bizhikiw2    NA_SET    " 1 bison, buffalo" ; !Rand key:n72976843429n
 biikokwaawesi:biikokwaawesiw2    NA_SET    " 1 black-billed cuckoo" ; !Rand key:n72977254588n
 bne:binew2    NA_SET    " 1 partridge" ; !Rand key:n72978956482n
 bnesi:binesiw2    NA_SET    " 1 thunderbird;  2 bird" ; !Rand key:n72978957287n
 btashkaanzhe:batashkaanzhew2    NA_SET    " 1 common snipe (a kind of bird)" ; !Rand key:n72983854070n
 bzhiki:bizhikiw2    NA_SET    " 1 cow" ; !Rand key:n72985148390n
-bzhiw:bizhiw2    NA_SET    " 1 lynx" ; !Rand key:n72985233901n
 daakewnini:odaakewVi1niniw2    NA_SET    " 1 driver, helmsman, [ship's] pilot" ; !Rand key:n72987250216n
 daawenini:adaawewVi1niniw2    NA_SET    " 1 (male) store clerk, (male) storekeeper, (male) trader" ; !Rand key:n72989284664n
 daawewnini:adaawewVi1niniw2    NA_SET    " 1 [see daawenini]" ; !Rand key:n72989284753n
 dbaabnjigewnini:dibaabanjigewVi1niniw2    NA_SET    " 1 field umpire" ; !Rand key:n72989777914n
 dbaaknigewnini:dibaakonigewVi1niniw2    NA_SET    " 1 male judge" ; !Rand key:n72989781016n
-dgow:digow2   NA_SET    " 1 wave (of water)" ; !Rand key:n73004843262n
 dkonwewnini:dakoniwewVi1niniw2    NA_SET    " 1 policeman; sheriff" ; !Rand key:n73013752331n
-gaawaandga-bgiw:gaawaandaga-bigiw2    NA_SET    " 1 spruce gum" ; !Rand key:n73102084816n
 gkenjgewnini:gikenjigewVi1niniw2    NA_SET    " 1 witness" ; !Rand key:n73025583687n
 gnoodmaagenini:ganoodamaagewVi1niniw2    NA_SET    " 1 [male] attorney, [male] lawyer" ; !Rand key:n7302928414n
 gtige-nini:gitige-Vi1niniw2    NA_SET    " 1 farmer" ; !Rand key:n7303169041n
@@ -234,11 +237,9 @@ memengwesi:memengwesiw2    NA_SET    " 1 elf, leprechaun" ; !Rand key:n714295641
 memeskniin'si:memeskoniinisiw2    NA_SET    " 1 red-winged blackbird" ; !Rand key:n71429564308n
 mgizi:migiziw2    NA_SET    " 1 eagle" ; !Rand key:n71429643579n
 miigaazoownini:miigaazoowVi1niniw2    NA_SET    " 1 fighter, warrior" ; !Rand key:n71429653365n
-mkade-bgiw:makade-bigiw2    NA_SET    " 1 tar" ; !Rand key:n73033129996n
 mkadewnini:makadewVi1niniw2    NA_SET    " 1 black man, racially black man" ; !Rand key:n71429744384n
 mookdaasoonini:mookodaasoowVi1niniw2    NA_SET    " 1 carpenter" ; !Rand key:n71430356332n
 mooshk'osi:mooshkahosiw2    NA_SET    " 1 American bittern (bird of the heron family with mottled brownish feathers)" ; !Rand key:n71430359503n
-mshibzhiw:mishibizhiw2    NA_SET    " 1 lion" ; !Rand key:n71430434372n
 mshkikiiwnini:mashkikiiwVi1niniw2    NA_SET    " 1 [male] doctor, herbalist, [male] physician" ; !Rand key:n71430468377n
 mzinbii'gewnini:mazinibiihigewVi1niniw2    NA_SET    " 1 [see mzinbiigewnini]" ; !Rand key:n71430648512n
 naabkwaanshiin-nini:naabikwaanishiin-Vi1niniw2    NA_SET    " 1 sailor" ; !Rand key:n73098383416n
@@ -282,7 +283,6 @@ bnesi:binesiw2    NA_SET    " 1 eagle" ; !Rand key:n72978957375n
 dbakiinini:dibahakiiwVi1niniw2    NA_SET    " 1 surveyor" ; !Rand key:n72992968904n
 gwaabgesi:gwaabVv1gesiw2    NA_SET    " 1 mullet" ; !Rand key:n73031627895n
 memeskniniisi:memeskoniniisiw2    NA_SET    " 1 red-tailed hawk" ; !Rand key:n71429640240n
-Mshibzhiw:mishibizhiw2    NA_SET    " 1 the Great Lynx, the Underwater Panther (mythological figure)" ; !Rand key:n71430434563n
 mzinbiigewnini:mazinibiihigewVi1niniw2    NA_SET    " 1 artist" ; !Rand key:n71430648252n
 naadwesi:naadawesiw2    NA_SET    " 1 a species of snake" ; !Rand key:n71430857149n
 naabe-bzhiki:naabe-bizhikiw2    NA_SET    " 1 bull" ; !Rand key:n201092016-52-31n
@@ -1013,8 +1013,6 @@ njichaag:%^jichaagw1    NAD_SET    " 1 my soul, spirit" ; !Rand key:n73028342434
 !{ w2
 ndoodkosi:%^doodikosiw2    NAD_SET    " 1 my kidney" ; !Rand key:n73014478150n
 ngashi:%^gashiw2    NAD_SET    " 1 my mother" ; !Rand key:n73017581118n
-niiw:%^iiw2    NAD_SET    " 1 my wife" ; !Rand key:n73028046620n
-nnishiw:%^nishiw2    NAD_SET    " 1 my penis" ; !Rand key:n71432977484n
 !} w2 end
 !{ o
 ndenik:%^denigo    NAD_SET    " 1 my nostril" ; !Rand key:n73003251891n
@@ -1023,6 +1021,9 @@ ngidik:%^gidigo    NAD_SET    " 1 my knee" ; !Rand key:n73021378064n
 niinim:%^iinimo    NAD_SET    " 1 my brother-in-law [if I am a woman];  2 my sister-in-law [if I am a man];  3 my wife's [female] cousin" ; !Rand key:n73028044741n
 nnagask:%^nagasko    NAD_SET    " 1 my palate" ; !Rand key:n71431151389n
 !} o end
+niiw:%^iiwa1    NAD_SET    " 1 my wife" ; !Rand key:n73028046620n
+nnow:%^nowa1  NAD_SET    " 1 my cheek" ; !Rand key:n71433864176n
+nnishiw:%^nishiwa1    NAD_SET    " 1 my penis" ; !Rand key:n71432977484n
 niijii:%^iijii    NAD_SET    " 1 my friend" ; !Rand key:n71431756662n
 ngitziim:%^gitiziim    NAD_SET    " 1 my parent" ; !Rand key:n73024536585n
 ndoozhmiskwem:%^doozhimiskwem    NAD_SET    " 1 my parallel-niece" ; !Rand key:n73039843913n
@@ -1098,7 +1099,6 @@ nnookmis:%^nookomis    NAD_SET    " 1 my grandmother" ; !Rand key:n71433759592n
 nooko:%^ookow    NAD_SET    " 1 my grandmother" ; !Rand key:n71433759592n !final w possibly not good
 nnooshenh:%^noosheny    NAD_SET    " 1 my parallel aunt (my mother's sister)" ; !Rand key:n71433766140n
 nnoozwaagan:%^noozwaagan    NAD_SET    " 1 my namesake" ; !Rand key:n72974457263n
-nnow:%^now    NAD_SET    " 1 my cheek" ; !Rand key:n71433864176n
 nookmis:%^ookomis    NAD_SET    " 1 my grandmother" ; !Rand key:n71435146411n
 noos:%^oos    NAD_SET    " 1 my father" ; !Rand key:n71435146617n
 nooshenh:%^oosheny    NAD_SET    " 1 my grandchild" ; !Rand key:n71435146666n
@@ -1210,10 +1210,9 @@ kandmoo:Vv1kandVv1mooy    NI_SET    " 1 fragrant water lily" ; !Rand key:n730173
 mooday:mooday2   NI_SET    " 1 bottle, jar, quart (liquid measure)" ; !Rand key:n71430355861n
 nbiish-waawaasgone:nibiish-waawaasagoney    NI_SET    " 1 species of water lily (probably yellow pond lily, Nuphar variegatum)" ; !Rand key:n71431345342n
 !{ oddballs other
-mniiw:miniiw2    NI_SET    " 1 pus" ; !Rand key:n73032749483n
+mniiw:miniiwa1    NI_SET    " 1 pus" ; !Rand key:n73032749483n
+ddibew:dadibewa1  NI_SET    " 1 shore, riverbank, near the water's edge" ; !Rand key:n73001154582n
 Biiwaan'goonh-ziibi:biiwaanagoonh-ziibiw2    NI_SET    " 1 Flint River" ; !Rand key:n72977485821n
-ddibew:dadibew    NI_SET    " 1 shore, riverbank, near the water's edge" ; !Rand key:n73001154582n
-dnow:danow    NI_SET    " 1 [see dnawa]" ; !Rand key:n72989352282n
 moo:moow    NI_SET    " 1 feces" ; !Rand key:n71430355616n
 miizhash:miizhashw    NI_SET    " 1 a blade of grass, a stalk of hay" ; !Rand key:n71429738406n
 mshkimot:mashkimoda1    NI_SET    " 1 bag, sack;  2 handbag, purse;  3 scrotum" ; !Rand key:n71430469004n
@@ -1226,10 +1225,10 @@ truck:truck    NI_SET    " 1 truckload" ; !Rand key:n201141011-15-18n
 mshkiig:mashkiigw1    NI_SET    " 1 marsh, swamp;  2 bush (woody plant) (R)" ; !Rand key:n73098036560n
 !}
 !{ w2
+oodenaw:oodenaw2    NI_SET    " 1 city, town" ; !Rand key:n71435145693n
 mshkiki:mashkikiw2    NI_SET    " 1 medicine, medicinal drug, medicinal herb;  2 herbicide (Wk);  3 (insect) repellant" ; !Rand key:n71430467667n
 !bgwi:bigwiw2    NI_SET    " 1 ash, ashes" ; !Rand key:n72976865385n !this entry matches an entry in the Rhodes dictionary, but not in the OPD. Since we have a stranded nasal deletion rule in the error model, we can comment this one out.
 bgwi:bingwiw2   NI_SET    " 1 ash, ashes" ; !Rand key:n72976865385n
-oodenaw:oodenaw2    NI_SET    " 1 city, town" ; !Rand key:n71435145693n
 gchi-oodena:gichi-oodenaw2    NI_SET    " 1 city, big city, metropolis" ; !Rand key:n20109219-56-57n
 !} w2 end
 !{ o
@@ -2375,6 +2374,10 @@ niiyaw:%^iiyaw    NID_SET    " 1 my body" ; !Rand key:n73028046770n
 nwiiyaw:%^wiiyaw    NID_SET    " 1 my body" ; !Rand key:n73072076554n
 nzow:%^zow    NID_SET    " 1 my tail" ; !Rand key:n73036026804n
 !}
+nzow:%^zowaan    NID_SET    " 1 my tail" ; !Rand key:n73036026804n
+nzowaanak:%^zowaanago    NID_SET    " 1 my tail" ; !Rand key:n73036026846n
+ndenniw:%^denaniw2    NID_SET    " 1 my tongue" ; !Rand key:n73003251961n
+ndew:%^dew2    NID_SET    " 1 my heart" ; !Rand key:n73002754722n
 nbajaagan:%^bajaagan    NID_SET    " 1 my penis" ; !Rand key:n72975859828n
 n'kan:%^kan    NID_SET    " 1 bone" ; !Rand key:n73017352886n
 n'koonsh:%^koonzh    NID_SET    " 1 beak [of a bird], bill [of a bird];  2 brim [of a baseball cap] (figurative)" ; !Rand key:n71429047146n
@@ -2407,9 +2410,7 @@ ndatgaagon:%^datagaagon    NID_SET    " 1 my backbone, my spine" ; !Rand key:n72
 ndazhgan:%^azhigan    NID_SET    " 1 my sock" ; !Rand key:n72974462861n
 ndengway:%^dengway2   NID_SET    " 1 my face" ; !Rand key:n73003251780n
 ndengwenh:%^dengweny    NID_SET    " 1 my face" ; !Rand key:n73003251855n
-ndenniw:%^denaniw2    NID_SET    " 1 my tongue" ; !Rand key:n73003251961n
 ndeteg:%^detegw1    NID_SET    " 1 my temple [ref. to side of head];  2 my gills" ; !Rand key:n73003956132n
-ndew:%^dew2    NID_SET    " 1 my heart" ; !Rand key:n73002754722n
 ndiyenh:%^diyeny    NID_SET    " 1 my ass, my buttocks, my rear end" ; !Rand key:n73005350524n
 ndindwin:%^indowin    NID_SET    " 1 my fault" ; !Rand key:n73004852231n
 ndinmaangan:%^dinimaangan    NID_SET    " 1 my shoulder" ; !Rand key:n73004852829n
@@ -2457,8 +2458,6 @@ nwiibit:%^wiibid    NID_SET    " 1 my tooth" ; !Rand key:n73071961218n
 nyaan:%^yaan    NID_SET    " 1 my pelt" ; !Rand key:n73072239764n
 nzidens:%^zidens    NID_SET    " 1 my toe" ; !Rand key:n73035443404n
 nzit:%^zid    NID_SET    " 1 my foot" ; !Rand key:n73035443368n
-nzow:%^zowaan    NID_SET    " 1 my tail" ; !Rand key:n73036026804n
-nzowaanak:%^zowaanago    NID_SET    " 1 my tail" ; !Rand key:n73036026846n
 npigegan:%^pigegan    NID_SET    " 1 my rib [of a body]; rib [of a canoe]" ; !Rand key:n73031181477n
 nwiinendip:%^wiinendib    NID_SET    " 1 my brain" ; !Rand key:n73072043782n
 nzhag'ay:%^zhagahay2   NID_SET    " 1 my skin" ; !Rand key:n73072639688n
