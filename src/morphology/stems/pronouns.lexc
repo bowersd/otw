@@ -5,6 +5,7 @@ LEXICON PR
     PR_NA_DAB_ADDITIONS ;
 
 LEXICON PR_NI
+dnow:danow    PR_NI_TAG    " 1 [see dnawa]" ; !Rand key:n72989352282n
 dnawa:dinawa    PR_NI_TAG    " 1 kind, sort" ; !Rand key:n72989351035n
 gaawn-gegoon:gaawin-gegoon    PR_NI_TAG    " 1 nothing" ; !Rand key:n73017375493n
 gchi-gegoo:gichi-gegoo    PR_NI_TAG    " 1 something big, something major, something of great significance" ; !Rand key:n73019342809n
