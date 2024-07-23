@@ -76,12 +76,12 @@ define cons [
                 !c1 !primary role is an inserted hiatus breaker. underlying presence w/ designation as consonant triggers vowel insertion rules (not desired)
             ]; 
 define cseqs [[
-                b|d|g|p|t|k|
+                b|d|g|p|t|k|h|
                 j|c h|
                 [z (h)]|[s (h) (p|t|k)]|
                 [m (b)]|[n (d|[z (h)]|j|g|h|s|y|y1)]
                ](w)|
-                h|%'|w|y|
+                %'|w|y|
                 [g|k]w2|
                 w1|w5|y1|y2|s1|m1|n1|n2|n3|n4|b1|d1|d2
             ]; 
