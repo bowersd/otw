@@ -22,6 +22,7 @@ LEXICON ORDINALS_SET
 
 LEXICON DISTRIBUTIVES
 Redup+:CRED1e     CARDINALS ; 
+                    CARDINALS ; 
 
 LEXICON CARDINALS
 ngod+Num:ningod     CARDINALS_HUNDREDS ;
@@ -267,6 +268,7 @@ LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
 +sag+Num:%>sag    # "barrel";
 +wewaan+Num:wewaan    # "group";
 +zid+Num:%>zid    # "foot";
++na+Num:%>na    CLOSED_PROTECTION "loaf";
 
 LEXICON NUMERAL_FINALS
 !nen'godooshkne ->neningod-ooshkin-e be a max of one to each... a distributive reduplicated form (NOT bebezhig!) plus -ooshkine. there are similar ones
@@ -278,6 +280,7 @@ LEXICON NUMERAL_FINALS
 +VAI:ooshkine       VAI_ORDERS_GET "be a containerful" ; 
 +VII:%>gonagad2      VII_ORDERS_GET "be later" ; !gon 'day' + gad? 'absent'
 +VAI:%>gonendi       VAI_ORDERS_GET "be absent" ; !gon 'day' + endi 'absent'
++VAI:%>gonagizi      VAI_ORDERS_GET "be a day" ; !gon 'day' + endi 'absent'
 !niizhoobhidwag niizh=2, bahidi=run oo=??
 !niizhooshin niizh=2, shin=lie oo=??
 +VII:waabagonii    VII_ORDERS_GET "grow" ; 
