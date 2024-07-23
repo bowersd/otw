@@ -1126,7 +1126,6 @@ LEXICON NID_DAB_ADDITIONS
 nda'iiman:ahii    NID_SET    " 1 my belongings, my stuff" ; !Rand key:n72974456192n !this may require possessed theme, plural. NO %^, bc d-insertion happens
 !end potential obligatory plural}
 !end rand database dump}
-ngoodaas:%^goodaas    NID_SET    " 1 my dress" ; !long vowel version of godaas 'dress' also attested in OPD. Rand key:n73029215031n
 
 LEXICON NI_DAB_ADDITIONS
 ziizbaakdaaboo:ziizibaakodaaboo NI_SET "sap" ; !cf ziizibaak... vocab on sap/sugaring ![gk]Vo1 replaced with [gk]o
@@ -1199,6 +1198,7 @@ shkiinzhgokaajganan:oshkiinzhigokaajigan    NI_SET    " 1 eyeglasses" ; !Rand ke
 !end potentially obligatory plurals}
 !End Rand database dump 2024}
 msko-jiismin:misko-jiisimin NI_SET  "bean (lit. beet berry, red turnip berry)" ; !could have noun derivation with -min, could allow different PN to combine with jiis
+goodaas:goodaas    NI_SET    " 1 dress" ; !long vowel version of godaas 'dress'. attested in OPD as a NID. we have shki-goodaas though without a possessor (ngii-wzhitmaag aw ngashi shki-goodaas my grandmother made me a new dress)
 
 LEXICON NI_PLACE_NAMES_TAG
 +NI:0   # ; 
