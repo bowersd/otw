@@ -80,10 +80,10 @@ gaaste:gaasate    VII_TAG    " 1 be small (of a room or house)" ; !Rand key:n201
 gaapjiide:gaapijiide    VII_TAG    " 1 be cooked to a crisp" ; !Rand key:n201622114-38-4n
 gaapaa:gaapaa    VII_TAG    " 1 be brittle" ; !Rand key:n201622114-36-41n
 gaakaapde:gaakaapide    VII_TAG    " 1 be cooked to a crisp; be crusty" ; !Rand key:n201622112-51-59n
-gaachwewesin:gaachwewesin    VII_TAG    " 1 have a feeble sound, sound small" ; !Rand key:n201622111-46-21n
+gaachwewesin:agaachwewesin    VII_TAG    " 1 have a feeble sound, sound small" ; !Rand key:n201622111-46-21n
 shkwaayaatese:ishkwaayaatese    VII_TAG    " 1 [movie or TV program] end, be over" ; !Rand key:n201621817-33-46n
-gaachkode:gaachikode    VII_TAG    " 1 be cut into a small piece, be cut small" ; !Rand key:n201621810-54-21n
-gaachbiiyaa:gaachibiiyaa    VII_TAG    " 1 [lake] be small" ; !Rand key:n201621810-48-56n
+gaachkode:agaachikode    VII_TAG    " 1 be cut into a small piece, be cut small" ; !Rand key:n201621810-54-21n
+gaachbiiyaa:agaachibiiyaa    VII_TAG    " 1 [lake] be small" ; !Rand key:n201621810-48-56n
 ekwaawiiwan:ekwaawiiwan    VII_TAG    " 1 end, come to an end" ; !Rand key:n20162189-29-41n
 ekwaamat:ekwaamVa1d2    VII_TAG    " 1 [road] end" ; !Rand key:n20162188-52-34n
 bedaabkide:bedaabikide    VII_TAG    " 1 be slow to heat up, be low in temperature" ; !Rand key:n201611117-21-39n
@@ -556,17 +556,17 @@ dwisin:dawisin    VII_TAG    " 1 be adequate room [for something or someone]; fi
 dzhitaamgat:n5dazhitaamagad2   VII_TAG    " 1 take a certain amount of time to do something" ; !Rand key:n73015354287n
 dzhweyaadgaa:dazhweyaadagaa    VII_TAG    " 1 flow out all over" ; !Rand2key:n73010456450n
 ekwisin:ekVv1wisin    VII_TAG    " 1 have an imprint of something be left somewhere; leave an imprint somewhere" ; !Rand2key:n73015756772n
-gaachaabiigat:gaachaabiigad2   VII_TAG    " 1 be thin (of stringlike objects)" ; !Rand key:n73016036332n
-gaachaakot:gaachaakod2   VII_TAG    " 1 be thin (of sticklike objects)" ; !Rand key:n73016037309n ![gk]Vo1 replaced with [gk]o
-gaachaakwat:gaachaakwad2   VII_TAG    " 1 [see gaachaakot]" ; !Rand key:n73016037621n
-gaachbiigaade:gaachibiigaade    VII_TAG    " 1 be small (of writing)" ; !Rand2key:n73016039375n
-gaachdebiiyaa:gaachVv1debiiyaa    VII_TAG    " 1 be narrow (of a body of water)" ; !Rand2key:n73029113414n
-gaachdeyaa:gaachideyaa    VII_TAG    " 1 be narrow" ; !Rand2key:n73016037873n
-gaachdeyaagmaa:gaachideyaagamaa    VII_TAG    " 1 be straits" ; !Rand2key:n73016038147n
-gaachiigat:gaachiigad2   VII_TAG    " 1 be small (of sheetlike objects)" ; !Rand key:n73016038235n
-gaachin:gaachin    VII_TAG    " 1 be little, be small" ; !Rand2key:n73016038597n
-gaachmin'gaa:gaachiminagaa    VII_TAG    " 1 be small (of round2objects)" ; !Rand key:n73016039525n
-gaachnoonyi:gaachinoonyi    VII_TAG    " 1 be tiny" ; !Rand2key:n73016040187n
+gaachaabiigat:agaachaabiigad2   VII_TAG    " 1 be thin (of stringlike objects)" ; !Rand key:n73016036332n
+gaachaakot:agaachaakod2   VII_TAG    " 1 be thin (of sticklike objects)" ; !Rand key:n73016037309n ![gk]Vo1 replaced with [gk]o
+gaachaakwat:agaachaakwad2   VII_TAG    " 1 [see gaachaakot]" ; !Rand key:n73016037621n
+gaachbiigaade:agaachibiigaade    VII_TAG    " 1 be small (of writing)" ; !Rand2key:n73016039375n
+gaachdebiiyaa:agaachVv1debiiyaa    VII_TAG    " 1 be narrow (of a body of water)" ; !Rand2key:n73029113414n
+gaachdeyaa:agaachideyaa    VII_TAG    " 1 be narrow" ; !Rand2key:n73016037873n
+gaachdeyaagmaa:agaachideyaagamaa    VII_TAG    " 1 be straits" ; !Rand2key:n73016038147n
+gaachiigat:agaachiigad2   VII_TAG    " 1 be small (of sheetlike objects)" ; !Rand key:n73016038235n
+gaachin:agaachin    VII_TAG    " 1 be little, be small" ; !Rand2key:n73016038597n
+gaachmin'gaa:agaachiminagaa    VII_TAG    " 1 be small (of round2objects)" ; !Rand key:n73016039525n
+gaachnoonyi:agaachinoonyi    VII_TAG    " 1 be tiny" ; !Rand2key:n73016040187n
 gaagiin'koyaa:gaagiinikoyaa    VII_TAG    " 1 be pointed2at both ends" ; !Rand key:n73016048132n
 gaakaakde:gaakaakide    VII_TAG    " 1 be cooked2to a crisp" ; !Rand key:n73016049089n
 gaakdiiyeshkaa:gaakVv1diiyeshkaa    VII_TAG    " 1 be torn in the seat (of pants)" ; !Rand2key:n73024357153n
@@ -2008,9 +2008,9 @@ gaakaanjbiza:gaakaanjibizVa1    VAI_TAG    " 1 [vehicle] move forward in fits an
 gaagiizhootawgechge:gaagiizhootawagechige    VAI_TAG    " 1 cover one's ears to keep them warm (M’Ch, Sg, Wk, Wp);  2 [sun] have sun dogs (Wk)" ; !Rand key:n201622112-21-10n
 gaagiizhooshew'o:gaagiizhooshewiho    VAI_TAG    " 1 wear a shawl to keep warm;  2 [sun] have sun dogs" ; !Rand key:n201622112-17-26n
 gaagiijse:gaagiijise    VAI_TAG    " 1 feel pain from being jostled" ; !Rand key:n201622111-55-8n
-gaachtaagzi:gaachitaagozi    VAI_TAG    " 1 have a small voice" ; !Rand key:n201622111-39-18n
-gaachmo:gaachimo    VAI_TAG    " 1 talk babyishly (M’Ch, Sg, Wk, Wp);  2 be a crybaby, cry easily (CL, Sg, Wp)" ; !Rand key:n20162217-20-29n
-gaachkoza:gaachikozVa1    VAI_TAG    " 1 be cut into a small piece, be cut small" ; !Rand key:n201621810-56-53n
+gaachtaagzi:agaachitaagozi    VAI_TAG    " 1 have a small voice" ; !Rand key:n201622111-39-18n
+gaachmo:agaachimo    VAI_TAG    " 1 talk babyishly (M’Ch, Sg, Wk, Wp);  2 be a crybaby, cry easily (CL, Sg, Wp)" ; !Rand key:n20162217-20-29n
+gaachkoza:agaachikozVa1    VAI_TAG    " 1 be cut into a small piece, be cut small" ; !Rand key:n201621810-56-53n
 ekwidyeshin:ekwidiyeshin    VAI_TAG    " 1 leave an imprint of one's rear end, one's rear end be imprinted somewhere, there be an imprint of someone's rear end" ; !Rand key:n20162189-36-54n
 ekwaawgane:ayekwaawigane    VAI_TAG    " 1 one's back be tired" ; !Rand key:n20162189-26-36n
 ekwaakshin:ayekwaakoshin    VAI_TAG    " 1 be tired from lying down" ; !Rand key:n20162188-46-27n
@@ -3379,23 +3379,23 @@ ekzi:ayekozi    VAI_TAG    " 1 be tired" ; !Rand key:n73033726958n !TRUNCATED VE
 ekzide:ayekozide    VAI_TAG    " 1 have one's feet get tired, have tired feet" ; !Rand key:n73033727500n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
 endgit:indi    VAI_TAG    " 1 have a certain thing be wrong with one" ; !Rand key:n73015762017n
 ewshoogaabwi:ewVv1shoogaabawi    VAI_TAG    " 1 stand at the ready" ; !Rand key:n73015878060n
-gaachaabewzi:gaachaabewizi    VAI_TAG    " 1 be petite, be small [in physique]" ; !Rand key:n73015879961n
-gaachaabiiggaade:gaachaabiigigaade    VAI_TAG    " 1 have thin legs" ; !Rand key:n73016040031n
-gaachaabiiggwewe:gaachaabiigigwewe    VAI_TAG    " 1 have a thin neck" ; !Rand key:n73016040114n
-gaachaabiignike:gaachaabiiginike    VAI_TAG    " 1 have thin arms" ; !Rand key:n73016039980n
-gaachaabiigzi:gaachaabiigizi    VAI_TAG    " 1 be thin (of stringlike objects)" ; !Rand key:n73016036207n
-gaachaakzi:gaachaakozi    VAI_TAG    " 1 be thin (of sticklike objects)" ; !Rand key:n73016037505n
-gaachdengwe:gaachidengwe    VAI_TAG    " 1 have a small face" ; !Rand key:n73016038813n
-gaachdezi:gaachidezi    VAI_TAG    " 1 be narrow" ; !Rand key:n73016038051n
-gaachiigzi:gaachiigizi    VAI_TAG    " 1 be small (of sheetlike objects)" ; !Rand key:n73016038418n
-gaachiinyi:gaachiinyi    VAI_TAG    " 1 be little, be small" ; !Rand key:n73016038472n
-gaachjaane:gaachijaane    VAI_TAG    " 1 have a small nose" ; !Rand key:n73016038707n
-gaachmin'gizi:gaachiminagizi    VAI_TAG    " 1 be small (of round objects)" ; !Rand key:n73016039709n
-gaachndibe:gaachindibe    VAI_TAG    " 1 have a small head" ; !Rand key:n73016038961n
-gaachninjii:gaachininjii    VAI_TAG    " 1 have small hands" ; !Rand key:n73016038917n
-gaachshkizi:gaachVv1shkizi    VAI_TAG    " 1 have a tiny voice" ; !Rand key:n73016039879n
-gaachdamii:gaachVv1tamii    VAI_TAG    " 1 hook up with somebody; court (romantically)" ; !Rand key:n73016040484n
-gaachzide:gaachizide    VAI_TAG    " 1 have small feet" ; !Rand key:n73016038868n
+gaachaabewzi:agaachaabewizi    VAI_TAG    " 1 be petite, be small [in physique]" ; !Rand key:n73015879961n
+gaachaabiiggaade:agaachaabiigigaade    VAI_TAG    " 1 have thin legs" ; !Rand key:n73016040031n
+gaachaabiiggwewe:agaachaabiigigwewe    VAI_TAG    " 1 have a thin neck" ; !Rand key:n73016040114n
+gaachaabiignike:agaachaabiiginike    VAI_TAG    " 1 have thin arms" ; !Rand key:n73016039980n
+gaachaabiigzi:agaachaabiigizi    VAI_TAG    " 1 be thin (of stringlike objects)" ; !Rand key:n73016036207n
+gaachaakzi:agaachaakozi    VAI_TAG    " 1 be thin (of sticklike objects)" ; !Rand key:n73016037505n
+gaachdengwe:agaachidengwe    VAI_TAG    " 1 have a small face" ; !Rand key:n73016038813n
+gaachdezi:agaachidezi    VAI_TAG    " 1 be narrow" ; !Rand key:n73016038051n
+gaachiigzi:agaachiigizi    VAI_TAG    " 1 be small (of sheetlike objects)" ; !Rand key:n73016038418n
+gaachiinyi:agaachiinyi    VAI_TAG    " 1 be little, be small" ; !Rand key:n73016038472n
+gaachjaane:agaachijaane    VAI_TAG    " 1 have a small nose" ; !Rand key:n73016038707n
+gaachmin'gizi:agaachiminagizi    VAI_TAG    " 1 be small (of round objects)" ; !Rand key:n73016039709n
+gaachndibe:agaachindibe    VAI_TAG    " 1 have a small head" ; !Rand key:n73016038961n
+gaachninjii:agaachininjii    VAI_TAG    " 1 have small hands" ; !Rand key:n73016038917n
+gaachshkizi:agaachVv1shkizi    VAI_TAG    " 1 have a tiny voice" ; !Rand key:n73016039879n
+gaachdamii:agaachVv1tamii    VAI_TAG    " 1 hook up with somebody; court (romantically)" ; !Rand key:n73016040484n
+gaachzide:agaachizide    VAI_TAG    " 1 have small feet" ; !Rand key:n73016038868n
 gaagiidaabde:gaagiidaabide    VAI_TAG    " 1 have a toothache" ; !Rand key:n73016042150n
 gaagiidaawgan:gaagiidaawigan    VAI_TAG    " 1 have a backache, have a sore back" ; !Rand key:n73016042271n
 gaagiidaawgane:gaagiidaawigane    VAI_TAG    " 1 have a backache, have a sore back" ; !Rand key:n73016042479n
@@ -7104,7 +7104,7 @@ gaakaawaakdazwaa:gaakaawaakidazw    VTA_TAG    " 1 brown sth. (an.) to a crisp" 
 gaakaawaakjiizwaa:gaakaawaakijiizw    VTA_TAG    " 1 cook sth. (an.) to a crisp, fry sth. (an.) to a crisp" ; !Rand key:n201622114-12-15n
 zhiingaabmaa:zhiingaabam    VTA_TAG    " 1 be annoyed by how smb. looks, be annoyed by the look of smb., find smb.’s appearance annoying" ; !Rand key:n201622112-39-56n
 gaagiij'aa:gaagiijih    VTA_TAG    " 1 be easy on smb.;  2 comfort smb. (CL, M'Ch, Sg, Wk);  3 try to get on good side of smb. (M'Ch)" ; !Rand key:n201622112-7-36n
-gaachkonaa:gaachikon1    VTA_TAG    " 1 cut a small piece of sth. (an.), cut sth. (an.) into a small piece" ; !Rand key:n201621810-55-36n
+gaachkonaa:agaachikon1    VTA_TAG    " 1 cut a small piece of sth. (an.), cut sth. (an.) into a small piece" ; !Rand key:n201621810-55-36n
 bnagaakkonaa:banagaakokon1    VTA_TAG    " 1 debark sth. (an.)" ; !Rand key:n201611710-7-4n
 aanoodmaa:aanoodim    VTA_TAG    " 1 inflict terrible bites on smb." ; !Rand key:n20161512-20-39n
 maawndoodaabaanaawak:maawandoodaabaan1    VTA_TAG    " 1 drag (an.) things together" ; !Rand key:n20114717-43-37n
@@ -10818,7 +10818,7 @@ gdaakiiyedaabaadaan:gidaakiiwedaabaad   VTI_AM_THEME           "1 drive sth. up 
 gaashkndaan:gaashkand                          VTI_AM_THEME           "1 scrape sth. clean [in eating], lick sth. empty in eating" ; !Rand key:n201622114-55-42n
 gaashkaabka'aan:gaashkaabikah                  VTI_AM_THEME           "1 scrape sth." ; !Rand key:n201622114-43-18n
 gaakaashpjii'aan:gaakaashpijiih                  VTI_AM_THEME           "1 scrape sth. [with the hands or an instrument]" ; !Rand key:n201622112-59-54n
-gaachkodaan:gaachikod                          VTI_AM_THEME           "1 cut a small piece of sth., cut sth. into a small piece" ; !Rand key:n201621810-50-30n
+gaachkodaan:agaachikod                          VTI_AM_THEME           "1 cut a small piece of sth., cut sth. into a small piece" ; !Rand key:n201621810-50-30n
 biidaagmipdaan:biidaagamipid                  VTI_AM_THEME           "1 be able to taste sth. [in a liquid], detect the taste of sth. [in a liquid]" ; !Rand key:n201611217-28-9n
 jiingdaasdoon:jiingadaasid                  VTI_OO_THEME            "1 throw a sinker, throw a splitter [in baseball]" ; !Rand key:n58fa1bdd3648454d851323320a01dd02n
 !Rand database dump end}
