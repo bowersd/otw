@@ -1123,9 +1123,10 @@ ndiniigan:%^diniigan    NAD_SET    " 1 my shoulder blade" ; !Rand key:n201011221
 LEXICON NID_DAB_ADDITIONS
 !{start rand database dump
 !{start potential obligatory plural
-nda'iiman:ahii    NID_SET    " 1 my belongings, my stuff" ; !Rand key:n72974456192n !this may require possessed theme, plural
-!end rand database dump}
+nda'iiman:ahii    NID_SET    " 1 my belongings, my stuff" ; !Rand key:n72974456192n !this may require possessed theme, plural. NO %^, bc d-insertion happens
 !end potential obligatory plural}
+!end rand database dump}
+ngoodaas:%^goodaas    NID_SET    " 1 my dress" ; !long vowel version of godaas 'dress' also attested in OPD. Rand key:n73029215031n
 
 LEXICON NI_DAB_ADDITIONS
 ziizbaakdaaboo:ziizibaakodaaboo NI_SET "sap" ; !cf ziizibaak... vocab on sap/sugaring ![gk]Vo1 replaced with [gk]o
