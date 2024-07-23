@@ -1197,6 +1197,7 @@ zhiibwaayaabjignan:zhiibwaayaabijigan    NI_SET    " 1 binoculars" ; !Rand key:n
 shkiinzhgokaajganan:oshkiinzhigokaajigan    NI_SET    " 1 eyeglasses" ; !Rand key:n73031413316n
 !end potentially obligatory plurals}
 !End Rand database dump 2024}
+msko-jiismin:misko-jiisimin NI_SET  "bean (lit. beet berry, red turnip berry)" ; 
 
 LEXICON NI_PLACE_NAMES_TAG
 +NI:0   # ; 
