@@ -59,6 +59,7 @@ aaniinda:aaniinda   IJ_TAG  "1 For Pete's sake! For goodness' sake, Jeez! My God
 !End Rand database dump 2024}
 gchi-miigwech:gichi-miigwech    IJ_TAG    " 1 thank you!, thanks!" ; !I don't think we want to let gchi attach to _every_ IJ
 oohoohoo:oohoohoo      IJ_TAG  "1 Oh you!" ; !
+waa:waa                 IJ_TAG "exclamation" ; !in OPD and freelang without any concrete definition
 
 LEXICON IJ
 wis:awis    IJ_TAG    " 1 Scat! Shoo!" ; !Rand key:n73072076663n
