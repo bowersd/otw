@@ -325,7 +325,8 @@ define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]
 
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
-define hw2w [ h w -> h, h w -> [w::1] || \[s|z|c|n] _ ] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9 (who says there are word-final h's. this is quite clearly true for hw verbs in Minnesota Ojibwe), we allowed the h to appear when word final (bc this rule is bled by glidedel), otherwise, w (this was a guess). There are quite clear cases of hw verbs becoming w verbs (giishkaw in AM!), so the rule has become more of an either-or, and moved to counter-bleed glidedel
+define hw2w [ h w -> h, h w -> [w::1] || \[s|z|c|n] _ .#.  !this could probably be trimmed to just word-finally (there should not be any word final shw by this point of the derivation)
+            ] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9 (who says there are word-final h's. this is quite clearly true for hw verbs in Minnesota Ojibwe), we allowed the h to appear when word final (bc this rule is bled by glidedel), otherwise, w (this was a guess). There are quite clear cases of hw verbs becoming w verbs (giishkaw in AM!), so the rule has become more of an either-or, and moved to counter-bleed glidedel
 
 define y2y  [y2 -> y ];
 
