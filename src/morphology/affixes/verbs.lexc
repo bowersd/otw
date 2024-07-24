@@ -184,8 +184,8 @@ PV/aanwii+:aanawii-    V_PREVERBS_ASPECT    " 1 even though, despite;  2 try to.
             V_PREVERBS_ASPECT ;
 
 LEXICON V_PREVERBS_KO_GATEWAY
-                V_PREVERBS_ASPECT ;
-@R.Ccnj@    ORDINALS_SET ; !also need to stop all preverbs BESIDES ccnj from preceding in numerals
+@P.NUMERAL.VERB@                V_PREVERBS_ASPECT ; !can pick up other preverbs on the way to becoming a verb or a verbal noun, but we want to stop ko from sneaking in to verbs as an "other preverb", so it will be checked at the other point of entry into CARDINALS
+@R.Ccnj@@P.NUMERAL.VERB@    CARDINALS ; !also need to stop all preverbs BESIDES ccnj from preceding in numerals ... but not on numerical verbs
 
 LEXICON V_PREVERBS_RELATIVE_ORDER_SET
 @P.Order.Cnj@   V_PREVERBS_ASPECT ;
@@ -227,85 +227,88 @@ PV/shki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
 
 LEXICON V_PREVERBS_MANNER
 !{ uncertain of position
-PV/o+:o-    V_REDUPLICATION_STEM    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n !need clarification on how this preverb is supposed to surface. does it just completely delete? no! finality trumps LR parse
-PV/waanji+:waanji-    V_REDUPLICATION_STEM    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
-PV/meyaaw+:meyaaw-    V_REDUPLICATION_STEM    " 1 most (superlative), -est" ; !Rand key:n103000677990n
-PV/nshinaaji+:nishinaaji-    V_REDUPLICATION_STEM    " 1 devastatingly" ; !Rand key:n73099738407n
-PV/niibaa+:niibaa-    V_REDUPLICATION_STEM    " 1 at night" ; !Rand key:n71431746367n
-PV/zaami+:ozaami-    V_REDUPLICATION_STEM    " 1 excessively, overly, too" ; !Rand key:n72977659543n
-!DUP REMOVE!PV/zaami+:zaami-    V_REDUPLICATION_STEM    " 1 excessively, overly, too" ; !Rand key:n72977659543n
-PV/zhki+:zhaki-    V_REDUPLICATION_STEM    " 1 damp" ; !Rand key:n73072872654n
-PV/npaaji+:nipaaji-    V_REDUPLICATION_STEM    " 1 mistakenly, incorrectly" ; !Rand key:n201012717-15-45n
-PV/mchi+:michi-    V_REDUPLICATION_STEM    " 1 bare, plain, in the basic and simple manner" ; !Rand key:n20114817-49-43n
-PV/ndami+:ondami-    V_REDUPLICATION_STEM    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989348365n
-PV/nboodewi+:niboodewi-    V_REDUPLICATION_STEM    " 1 forlorn, lonely" ; !Rand key:n71431348823n
-PV/mziwe+:miziwe-    V_REDUPLICATION_STEM    " 1 all in one unit, in a whole unit, whole" ; !Rand key:n73033330521n
-PV/mde+:mVi1de-    V_REDUPLICATION_STEM    " 1 in the distance" ; !Rand key:n71429470804n
-PV/mchiwe+:mVv1chiwe-    V_REDUPLICATION_STEM    " 1 instead;  2 by hand, from scratch, without mechanical aid" ; !Rand key:n71429457095n
-PV/gweki+:gweki-    V_REDUPLICATION_STEM    " 1 change" ; !Rand key:n73031713691n
-PV/gwiini+:gwiini-    V_REDUPLICATION_STEM    " 1 aimlessly, confusedly, indecisively, unsure of;  2 be unable to think of something [to do]" ; !Rand key:n71429248194n
-PV/gnaaj+:gVo1naaj-    V_REDUPLICATION_STEM    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029776n
-PV/aakwi+:aakawi-    V_REDUPLICATION_STEM    " 1 frequently, regularly" ; !Rand key:n72976564856n
-PV/aan'ke+:aanike-    V_REDUPLICATION_STEM    " 1 in succession, in turn" ; !Rand key:n7297341155n
-PV/aanji+:aanji-    V_REDUPLICATION_STEM    " 1 over again" ; !Rand key:n72973362179n
-PV/aanooji+:aanooji-    V_REDUPLICATION_STEM    " 1 dreadfully" ; !Rand key:n73045823524n
-PV/baashji+:baashiji-    V_REDUPLICATION_STEM    " 1 over, to an excessive degree" ; !Rand key:n72915857109n
-!DUP REMOVE!PV/bgwaji+:bagwaji-    V_REDUPLICATION_STEM    " 1 [see bgoji-]" ; !Rand key:n72976865281n
-PV/bgoji+:bagoji-    V_REDUPLICATION_STEM    " 1 wild" ; !Rand key:n72976865281n
-PV/bzaani+:bizaani-    V_REDUPLICATION_STEM    " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil" ; !Rand key:n72985145321n
-!DUP REMOVE!PV/dami+:ondami-    V_REDUPLICATION_STEM    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
-!DUP REMOVE!PV/dami+:odami-    V_REDUPLICATION_STEM    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
-PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_STEM    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
-PV/gbe+:gabe-  V_REDUPLICATION_STEM " 1 all, throughout"; !DAB ADDITION (found in OPD, also there are gbe-X adverbs here)
+PV/o+:o-    V_REDUPLICATION_GATEWAY    " 1 go [do something], go and [do something]" ; !Rand key:n71435144991n !need clarification on how this preverb is supposed to surface. does it just completely delete? no! finality trumps LR parse
+PV/waanji+:waanji-    V_REDUPLICATION_GATEWAY    " 1 most, to the greatest degree" ; !Rand key:n73034029135n
+PV/meyaaw+:meyaaw-    V_REDUPLICATION_GATEWAY    " 1 most (superlative), -est" ; !Rand key:n103000677990n
+PV/nshinaaji+:nishinaaji-    V_REDUPLICATION_GATEWAY    " 1 devastatingly" ; !Rand key:n73099738407n
+PV/niibaa+:niibaa-    V_REDUPLICATION_GATEWAY    " 1 at night" ; !Rand key:n71431746367n
+PV/zaami+:ozaami-    V_REDUPLICATION_GATEWAY    " 1 excessively, overly, too" ; !Rand key:n72977659543n
+!DUP REMOVE!PV/zaami+:zaami-    V_REDUPLICATION_GATEWAY    " 1 excessively, overly, too" ; !Rand key:n72977659543n
+PV/zhki+:zhaki-    V_REDUPLICATION_GATEWAY    " 1 damp" ; !Rand key:n73072872654n
+PV/npaaji+:nipaaji-    V_REDUPLICATION_GATEWAY    " 1 mistakenly, incorrectly" ; !Rand key:n201012717-15-45n
+PV/mchi+:michi-    V_REDUPLICATION_GATEWAY    " 1 bare, plain, in the basic and simple manner" ; !Rand key:n20114817-49-43n
+PV/ndami+:ondami-    V_REDUPLICATION_GATEWAY    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989348365n
+PV/nboodewi+:niboodewi-    V_REDUPLICATION_GATEWAY    " 1 forlorn, lonely" ; !Rand key:n71431348823n
+PV/mziwe+:miziwe-    V_REDUPLICATION_GATEWAY    " 1 all in one unit, in a whole unit, whole" ; !Rand key:n73033330521n
+PV/mde+:mVi1de-    V_REDUPLICATION_GATEWAY    " 1 in the distance" ; !Rand key:n71429470804n
+PV/mchiwe+:mVv1chiwe-    V_REDUPLICATION_GATEWAY    " 1 instead;  2 by hand, from scratch, without mechanical aid" ; !Rand key:n71429457095n
+PV/gweki+:gweki-    V_REDUPLICATION_GATEWAY    " 1 change" ; !Rand key:n73031713691n
+PV/gwiini+:gwiini-    V_REDUPLICATION_GATEWAY    " 1 aimlessly, confusedly, indecisively, unsure of;  2 be unable to think of something [to do]" ; !Rand key:n71429248194n
+PV/gnaaj+:gVo1naaj-    V_REDUPLICATION_GATEWAY    " 1 beautiful, good-looking, pretty, handsome" ; !Rand key:n73029029776n
+PV/aakwi+:aakawi-    V_REDUPLICATION_GATEWAY    " 1 frequently, regularly" ; !Rand key:n72976564856n
+PV/aan'ke+:aanike-    V_REDUPLICATION_GATEWAY    " 1 in succession, in turn" ; !Rand key:n7297341155n
+PV/aanji+:aanji-    V_REDUPLICATION_GATEWAY    " 1 over again" ; !Rand key:n72973362179n
+PV/aanooji+:aanooji-    V_REDUPLICATION_GATEWAY    " 1 dreadfully" ; !Rand key:n73045823524n
+PV/baashji+:baashiji-    V_REDUPLICATION_GATEWAY    " 1 over, to an excessive degree" ; !Rand key:n72915857109n
+!DUP REMOVE!PV/bgwaji+:bagwaji-    V_REDUPLICATION_GATEWAY    " 1 [see bgoji-]" ; !Rand key:n72976865281n
+PV/bgoji+:bagoji-    V_REDUPLICATION_GATEWAY    " 1 wild" ; !Rand key:n72976865281n
+PV/bzaani+:bizaani-    V_REDUPLICATION_GATEWAY    " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil" ; !Rand key:n72985145321n
+!DUP REMOVE!PV/dami+:ondami-    V_REDUPLICATION_GATEWAY    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+!DUP REMOVE!PV/dami+:odami-    V_REDUPLICATION_GATEWAY    " 1 be busy with something, be preoccupied with something" ; !Rand key:n72989341555n
+PV/gchitwaa+:gichitwaa-    V_REDUPLICATION_GATEWAY    " 1 special, classy, gourmet" ; !Rand key:n73040248510n
+PV/gbe+:gabe-  V_REDUPLICATION_GATEWAY " 1 all, throughout"; !DAB ADDITION (found in OPD, also there are gbe-X adverbs here)
 !}
-PV/nboodwewi+:niboodwewi- V_REDUPLICATION_STEM " 1 embarassedly" ;
-PV/gnibi+:ginibi- V_REDUPLICATION_STEM " 1 quickly" ;
-PV/aabji+:aabaji- V_REDUPLICATION_STEM " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
-PV/aapji+:aapaji- V_REDUPLICATION_STEM " 1 very;  2 completely, entirely, fully";
-PV/baakji+:baakaji- V_REDUPLICATION_STEM " 1 irreversible, irreversibly";
-PV/bchi+:bichi- V_REDUPLICATION_STEM " 1 accidentally, by mistake";
-PV/bzaani+:bizaani- V_REDUPLICATION_STEM " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil";
-PV/dgo+:dago- V_REDUPLICATION_STEM " 1 along [with others], among [others], together [with others], with";
-PV/gchi+:gichi- V_REDUPLICATION_STEM " 1 much, lots, extremely, great (in degree), very, hard (in sense of being extreme)";
-PV/ggiibaaji+:gagiibaaji- V_REDUPLICATION_STEM " 1 badly, foolishly";
-PV/ggwetaani+:gagwetaani- V_REDUPLICATION_STEM " 1 exceedingly, extremely, awfully, so, terribly";
-PV/gmooji+:gimooji- V_REDUPLICATION_STEM " 1 covertly, secretly, sneakily, stealthily, on the sly";
-PV/giimooji+:giimooji- V_REDUPLICATION_STEM " 1 covertly, secretly, sneakily, stealthily, on the sly";
-PV/maamiiko+:maamiiko- V_REDUPLICATION_STEM " 1 amazingly, remarkably";
-PV/maamwi+:maamwi- V_REDUPLICATION_STEM " 1 all, all together, among them all";
-PV/mmaandaa+:mamaandaa- V_REDUPLICATION_STEM " 1 amazing, incredible, miraculously";
-!DUP REMOVE!PV/maandaa+:mamaandaa-   V_REDUPLICATION_STEM    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
-PV/niizaani+:niizaani- V_REDUPLICATION_STEM " 1 dangerous";
-PV/npaaj+:nipaaj- V_REDUPLICATION_STEM " 1 incorrectly, the wrong way";
-PV/wiiji+:wiiji- V_REDUPLICATION_STEM " 1 with";
-PV/wiinge+:wiinge- V_REDUPLICATION_STEM " 1 completely, entirely, thoroughly";
-PV/maanaaji+:maanaaji- V_REDUPLICATION_STEM " 1 bad, evil, harmful, wrong";
-PV/mji+:maji- V_REDUPLICATION_STEM " 1 badly, evilly";
-PV/mno+:mino- V_REDUPLICATION_STEM " 1 good, well;  2 nice, pleasant";
+PV/nboodwewi+:niboodwewi- V_REDUPLICATION_GATEWAY " 1 embarassedly" ;
+PV/gnibi+:ginibi- V_REDUPLICATION_GATEWAY " 1 quickly" ;
+PV/aabji+:aabaji- V_REDUPLICATION_GATEWAY " 1 constantly, continually, keep [doing something], repeatedly"; !valentine 2001 doesn't mark all etymological vowels in this slot
+PV/aapji+:aapaji- V_REDUPLICATION_GATEWAY " 1 very;  2 completely, entirely, fully";
+PV/baakji+:baakaji- V_REDUPLICATION_GATEWAY " 1 irreversible, irreversibly";
+PV/bchi+:bichi- V_REDUPLICATION_GATEWAY " 1 accidentally, by mistake";
+PV/bzaani+:bizaani- V_REDUPLICATION_GATEWAY " 1 quietly, in the sense of lacking noise, and extended metaphorically in Christian materials to encompass a life lacking turmoil";
+PV/dgo+:dago- V_REDUPLICATION_GATEWAY " 1 along [with others], among [others], together [with others], with";
+PV/gchi+:gichi- V_REDUPLICATION_GATEWAY " 1 much, lots, extremely, great (in degree), very, hard (in sense of being extreme)";
+PV/ggiibaaji+:gagiibaaji- V_REDUPLICATION_GATEWAY " 1 badly, foolishly";
+PV/ggwetaani+:gagwetaani- V_REDUPLICATION_GATEWAY " 1 exceedingly, extremely, awfully, so, terribly";
+PV/gmooji+:gimooji- V_REDUPLICATION_GATEWAY " 1 covertly, secretly, sneakily, stealthily, on the sly";
+PV/giimooji+:giimooji- V_REDUPLICATION_GATEWAY " 1 covertly, secretly, sneakily, stealthily, on the sly";
+PV/maamiiko+:maamiiko- V_REDUPLICATION_GATEWAY " 1 amazingly, remarkably";
+PV/maamwi+:maamwi- V_REDUPLICATION_GATEWAY " 1 all, all together, among them all";
+PV/mmaandaa+:mamaandaa- V_REDUPLICATION_GATEWAY " 1 amazing, incredible, miraculously";
+!DUP REMOVE!PV/maandaa+:mamaandaa-   V_REDUPLICATION_GATEWAY    " 1 [see mmaandaa-]" ; !Rand key:n71429179571n
+PV/niizaani+:niizaani- V_REDUPLICATION_GATEWAY " 1 dangerous";
+PV/npaaj+:nipaaj- V_REDUPLICATION_GATEWAY " 1 incorrectly, the wrong way";
+PV/wiiji+:wiiji- V_REDUPLICATION_GATEWAY " 1 with";
+PV/wiinge+:wiinge- V_REDUPLICATION_GATEWAY " 1 completely, entirely, thoroughly";
+PV/maanaaji+:maanaaji- V_REDUPLICATION_GATEWAY " 1 bad, evil, harmful, wrong";
+PV/mji+:maji- V_REDUPLICATION_GATEWAY " 1 badly, evilly";
+PV/mno+:mino- V_REDUPLICATION_GATEWAY " 1 good, well;  2 nice, pleasant";
 !{USED IN COUNTING, ALSO APPEAR IN PRENOUNS
-PV/dso+:n5daso-     V_REDUPLICATION_STEM " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
+PV/dso+:n5daso-     V_REDUPLICATION_GATEWAY " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
 !PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
-PV/aabta+:aabita- V_REDUPLICATION_STEM " 1 half, halfway; mid, midway";
-PV/n'go+:ningo- V_REDUPLICATION_STEM " 1 one"; !should this be /ningo/ as in nouns.lexc?
-!PV/niizhoo+:niizhoo- V_REDUPLICATION_STEM " 1 two"; 
-PV/niizho+:niizho- V_REDUPLICATION_STEM " 1 two"; !this form used in reference grammar
-PV/n'so+:niso- V_REDUPLICATION_STEM " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
-!PV/niiwoo+:niiwoo- V_REDUPLICATION_STEM " 1 four"; 
-PV/niiwo+:niiwo- V_REDUPLICATION_STEM " 1 four"; 
-!DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_STEM " 1 four" ; 
-PV/naano+:naano- V_REDUPLICATION_STEM " 1 five"; 
-PV/n'godwaaso+:ningodwaaso- V_REDUPLICATION_STEM " 1 six"; 
-!PV/n'godwaaso+:ningodwaasoo- V_REDUPLICATION_STEM " 1 six"; !this form used in reference grammar
-PV/niizhwaaso+:niizhwaaso- V_REDUPLICATION_STEM " 1 seven"; 
-!PV/niizhwaaso+:niizhwaasoo- V_REDUPLICATION_STEM " 1 seven"; !this form used in reference grammar
-PV/nshwaaso+:nishwaaso- V_REDUPLICATION_STEM " 1 eight"; 
-!PV/nshwaasoo+:nishwaasoo- V_REDUPLICATION_STEM " 1 eight"; !this form used in reference grammar
-PV/zhaangso+:zhaangaso- V_REDUPLICATION_STEM " 1 nine"; 
-!PV/zhaangso+:zhaangasoo- V_REDUPLICATION_STEM " 1 nine"; !this form used in reference grammar
-PV/mdaaso+:midaaso- V_REDUPLICATION_STEM " 1 ten"; !this form used in reference grammar
+PV/aabta+:aabita- V_REDUPLICATION_GATEWAY " 1 half, halfway; mid, midway";
+PV/n'go+:ningo- V_REDUPLICATION_GATEWAY " 1 one"; !should this be /ningo/ as in nouns.lexc?
+!PV/niizhoo+:niizhoo- V_REDUPLICATION_GATEWAY " 1 two"; 
+PV/niizho+:niizho- V_REDUPLICATION_GATEWAY " 1 two"; !this form used in reference grammar
+PV/n'so+:niso- V_REDUPLICATION_GATEWAY " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
+!PV/niiwoo+:niiwoo- V_REDUPLICATION_GATEWAY " 1 four"; 
+PV/niiwo+:niiwo- V_REDUPLICATION_GATEWAY " 1 four"; 
+!DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_GATEWAY " 1 four" ; 
+PV/naano+:naano- V_REDUPLICATION_GATEWAY " 1 five"; 
+PV/n'godwaaso+:ningodwaaso- V_REDUPLICATION_GATEWAY " 1 six"; 
+!PV/n'godwaaso+:ningodwaasoo- V_REDUPLICATION_GATEWAY " 1 six"; !this form used in reference grammar
+PV/niizhwaaso+:niizhwaaso- V_REDUPLICATION_GATEWAY " 1 seven"; 
+!PV/niizhwaaso+:niizhwaasoo- V_REDUPLICATION_GATEWAY " 1 seven"; !this form used in reference grammar
+PV/nshwaaso+:nishwaaso- V_REDUPLICATION_GATEWAY " 1 eight"; 
+!PV/nshwaasoo+:nishwaasoo- V_REDUPLICATION_GATEWAY " 1 eight"; !this form used in reference grammar
+PV/zhaangso+:zhaangaso- V_REDUPLICATION_GATEWAY " 1 nine"; 
+!PV/zhaangso+:zhaangasoo- V_REDUPLICATION_GATEWAY " 1 nine"; !this form used in reference grammar
+PV/mdaaso+:midaaso- V_REDUPLICATION_GATEWAY " 1 ten"; !this form used in reference grammar
 !END USED IN COUNTING}
-            V_REDUPLICATION_STEM    ;
+            V_REDUPLICATION_GATEWAY    ;
 
+LEXICON V_REDUPLICATION_GATEWAY
+@D.NUMERAL.VERB@@P.NUMERAL.VERB@    CARDINALS ; !stopping back route for ko- to slip in
+                                    V_REDUPLICATION_STEM ; 
 !LEXICON V_REDUPLICATION_GET
 !@D.Redup@   V_REDUPLICATION_STEM ; !don't want to allow double reduplication
 !       VERBS ; 
