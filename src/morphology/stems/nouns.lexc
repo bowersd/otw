@@ -11,10 +11,8 @@ maagan:maagan   NA_SET "spouse" ; !back formation from wiidgemaagan?
 waabgon:waabigoni1     NA_SET     " 1 blossom" ; !Rand key:n73032180026n
 ggwetaanyi'aa:gagwetaanyihaa     NA_SET     " 1 a strikingly beautiful thing, a gorgeous thing (CL, M’Ch, Sg, Wk, Wp);  2 a beautifully-dressed person (M’Ch)" ; !Rand key:n73021177973n
 mikzaat:amikwazaadi1     NA_SET     " 1 a type of poplar having yellow bark (possibly large-toothed aspen Populus grandidentata)" ; !Rand key:n58fa1bd78a5c4721890c23320a01dd02n
-gwaakwaashknibiikenh:gwaakwaashkVo1nibiikeny     NA_SET     " 1 grasshopper" ; !Rand key:n20163513-10-4n
 gookoolii:gookoolii     NA_SET     " 1 whippoorwill (Caprimulgus vociferus)" ; !Rand key:n201622716-42-3n
 ggwedganaanjge-mjikaawan:gagwedaganaanjige-minjikaawan     NA_SET     " 1 boxing glove" ; !Rand key:n201622417-18-26n
-getziinh:getiziiny     NA_SET     " 1 old departed one" ; !Rand key:n20162237-6-52n
 getnaami'aa:getVv1naamihaa     NA_SET     " 1 heavy-duty type, sturdy type" ; !Rand key:n20162237-1-45n
 gdowaan:godawaan     NA_SET     " 1 big log;  2 hydro pole, telephone pole" ; !Rand key:n201622213-17-7n
 gchigmiikaawansh:gichigamiikaawanzhi1     NA_SET     " 1 Eastern juniper (Juniper virginiana) that grows on the shore" ; !Rand key:n201622211-7-36n
@@ -26,7 +24,6 @@ Miishgondaagan:miishigondaagan     NA_SET     " 1 Bearded Throat, the name of a 
 Mshi-Gekek:mishi-gekekw1   NA_SET     " 1 (Rough-legged) Hawk, the name of a warrior in a story by Sam Osawamick," ; !Rand key:n20114168-17-41n
 Tamaa:tamaay     NA_SET     " 1 Thomas" ; !Rand key:n201141010-30-31n
 Tanens:tanens     NA_SET     " 1 Theresa" ; !Rand key:n201141010-29-14n
-Debenh:debeny     NA_SET     " 1 David" ; !Rand key:n201141010-19-2n
 Etyen:etiyen     NA_SET     " 1 Steven" ; !Rand key:n201141010-13-33n
 Miishen:miishen     NA_SET     " 1 Michael" ; !Rand key:n20114107-50-15n
 MaanyAan:maanyaan     NA_SET     " 1 Mary Ann" ; !Rand key:n20114107-49-3n
@@ -36,6 +33,10 @@ Maagniit:maaganiid     NA_SET     " 1 Margaret" ; !Rand key:n20114107-44-44n
 Zoosep:zoosep     NA_SET     " 1 Joseph" ; !Rand key:n20114107-29-3n
 Zaben:zaben     NA_SET     " 1 Isabelle" ; !Rand key:n20114107-18-0n
 gweji-zhoonyaakewgamig:gagweji-zhooniyaakewigamigo     NA_SET     " 1 casino" ; !Rand key:n201092019-23-0n
+getziinh:getizie1ny     NA_SET     " 1 old departed one" ; !Rand key:n20162237-6-52n
+Debenh:debe1ny     NA_SET     " 1 David" ; !Rand key:n201141010-19-2n
+bebskiigsenh:bebiskiigise1ny    NA_SET    " 1 mosquito larva" ; !Rand key:n201611117-47-1n
+gwaakwaashknibiikenh:gwaakwaashkVo1nibiike1ny     NA_SET     " 1 grasshopper" ; !Rand key:n20163513-10-4n
 !{start (potential) obligatory plurals
 waaknak:waakon  NA_SET " 1 lichen" ; !Rand key:n73032479432n SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
 zhoomaan'kensag:zhoomaanikens    NA_SET    " 1 small change" ; !Rand key:n73034013836n !very close to zhoomaan'kenh, but dim suffix SINCE THIS HAS A LEMMA WITH -AK, perhaps this should be an obligatory plural.
@@ -295,159 +296,159 @@ mshkiigokwe:mashkiigokwew2    NA_SET    " 1 female Cree person" ; !Rand key:n201
 gchitwaa-nini:gichitwaa-Vi1niniw2    NA_SET    " 1 a courteous, well-mannered, decent and respectful man; a gentleman" ; !Rand key:n201012720-26-44n
 !} w2 end
 !{ ny
-dbadoonh:dVv1badoony    NA_SET    " 1 button" ; !Rand key:n2010113019-9-11n
-ekwaabiinh:ekawaabiiny    NA_SET    " 1 policeman, guard, scout;  2 guard, one who guards;  3 scout (military)" ; !Rand key:n201132916-5-30n
-aabtooziinh:aabitooziiny    NA_SET    " 1 half-breed" ; !Rand key:n72973745466n
-aad'oomoonh:aadahoomoony    NA_SET    " 1 canoe paddler" ; !Rand key:n72972577702n
-aamoonh:aamoony    NA_SET    " 1 bee" ; !Rand key:n72973260049n
-aan'koosenh:aanikooseny    NA_SET    " 1 sleigh; wagon on skis" ; !Rand key:n72973446634n
-aandegshkwenh:aandegoshkweny    NA_SET    " 1 common crow" ; !Rand key:n72973264652n
-baag'aakwaanh:baagahaakwaany    NA_SET    " 1 [see baagaakwenh]" ; !Rand key:n72974644794n
-baagaakwenh:baagaakweny    NA_SET    " 1 chicken, hen" ; !Rand key:n72974643638n
-baashkdamoonh:baashkandamoony    NA_SET    " 1 parrot" ; !Rand key:n72975354278n
-bbakwaanaajiinh:bapakwaanaajiiny    NA_SET    " 1 bat (flying animal)" ; !Rand key:n72976159932n
-bbashkwaanaajiinh:babashkwaanaajiiny    NA_SET    " 1 bat (flying animal)" ; !Rand key:n72976161175n
-bdashkanzhiinh:badashkanzhiiny    NA_SET    " 1 American woodcock" ; !Rand key:n72976265198n
-bebiikwaagaanh:bebiikwaagaany    NA_SET    " 1 camel" ; !Rand key:n72976544195n
-bemdaabaazhwenh:bemidaabaazhweny    NA_SET    " 1 taxi driver" ; !Rand key:n72976552156n
-bgadoonh:bagadoony    NA_SET    " 1 button" ; !Rand key:n72975859532n
-biimskodsiinh:biimiskodisiiny    NA_SET    " 1 snail" ; !Rand key:n72977263627n
-biipiigenh:biipiigeny    NA_SET    " 1 wood warbler, nuthatch (kind of bird)" ; !Rand key:n72977450765n
-binoojiinh:abinoojiiny    NA_SET    " 1 child" ; !Rand key:n72977545112n
-bnajaanh:banajaany    NA_SET    " 1 nestling" ; !Rand key:n72978955880n
-bneshiinh:bineshiiny    NA_SET    " 1 bird" ; !Rand key:n72978956786n
-boodoonh:boodoony    NA_SET    " 1 pollywog, tadpole" ; !Rand key:n72980063677n
-bsijiishkwenh:bVv1sijiishkweny    NA_SET    " 1 killdeer (kind of bird)" ; !Rand key:n72982355605n
-bzhidoonh:bVv1zhidoony    NA_SET    " 1 sheepshead (a kind of fish)" ; !Rand key:n72985148254n
-dekaashiinh:dekaashiiny    NA_SET    " 1 tourist, vacationer" ; !Rand key:n73002754961n
-dendenh:dendeny    NA_SET    " 1 bullfrog" ; !Rand key:n73003251624n
-detbisenh:detibiseny    NA_SET    " 1 tire, wheel [of a vehicle]" ; !Rand key:n73003955911n
-diindiisiinh:diindiisiiny    NA_SET    " 1 bluejay" ; !Rand key:n73004850989n
-ebgoonh:ebigoony    NA_SET    " 1 ant" ; !Rand key:n73015357816n
-egwaawgoonh:egwaawigoony    NA_SET    " 1 foundling washed up on shore" ; !Rand key:n73015755606n
-eknoomaagenh:ekinoohamaageny    NA_SET    " 1 teacher, instructor" ; !Rand key:n73015755174n
-en'goonh:enigoony    NA_SET    " 1 ant" ; !Rand key:n73015782624n
-esbaanh:esibaany    NA_SET    " 1 raccoon" ; !Rand key:n73015782902n
-esbikenh:esbikeny    NA_SET    " 1 spider" ; !Rand key:n73015782969n
-eshkmegwenh:eshkimegweny    NA_SET    " 1 osprey (a type of bird)" ; !Rand key:n73015876835n
-ezaawmin'gaanh:ezaawiminagaany    NA_SET    " 1 orange (fruit)" ; !Rand key:n73015878924n
-ezhaazhaanh:ezhaazhaany    NA_SET    " 1 dumpling" ; !Rand key:n73015879042n
-gaagaakshiinh:gaagaagishiiny    NA_SET    " 1 common raven; crow" ; !Rand key:n73016041076n
-gaakaapshiinh:gaakaapVv1shiiny    NA_SET    " 1 barn owl" ; !Rand key:n73102084770n
-gaakaasknejiinh:gaakaasknejiiny    NA_SET    " 1 catbird?" ; !Rand key:n73016049853n
-gaawnzigoonh:gaawanzigoony    NA_SET    " 1 red-breasted merganser" ; !Rand key:n73017375639n
-gchi-mshiikenh:gichi-mishiikeny    NA_SET    " 1 tortoise" ; !Rand key:n73019343693n
-gechtwaawziinh:gechitwaawiziiny    NA_SET    " 1 millionaire, rich man" ; !Rand key:n73019356327n
-gekendaasoonh:gekendaasoony    NA_SET    " 1 smart person" ; !Rand key:n73102055137n
-giigoonh:giigoony    NA_SET    " 1 fish" ; !Rand key:n73021453653n
-giizhkenh:giizhikeny    NA_SET    " 1 northern white cedar" ; !Rand key:n73024351798n
-gnigjiinh:ginigijiiny    NA_SET    " 1 carp" ; !Rand key:n73029113012n
-godaashiinh:Vv1godaashiiny    NA_SET    " 1 bluegill, crappie, rock bass" ; !Rand key:n73029215069n
-gookyenh:gookyeny    NA_SET    " 1 very old woman" ; !Rand key:n73030426297n
-goongsenh:agoongoseny    NA_SET    " 1 chipmunk" ; !Rand key:n73030426663n
-gwaagwaashknibiinykenh:gwaagwaashkonibiinyikeny    NA_SET    " 1 grasshoppper" ; !Rand key:n73031637342n
-gwiingsenh:agwiingoseny    NA_SET    " 1 chipmunk" ; !Rand key:n73031720823n
-gyaashkshenh:gayaashkosheny    NA_SET    " 1 seagull" ; !Rand key:n73032326371n
-jejiibdakiinh:jejiibadakiiny    NA_SET    " 1 elephant" ; !Rand key:n73028338719n
-jidmoonh:ajidamoony    NA_SET    " 1 squirrel" ; !Rand key:n73028344515n
-jigjigaaneshiinh:jigajigaaneshiiny    NA_SET    " 1 Black-capped chickadee (small bird with gray feathers, and a darker colored top to its head)" ; !Rand key:n73028344589n
-jiichiishkwenh:jiichiishkweny    NA_SET    " 1 killdeer (bird with brown and white feathers, two black breast bands, and a distinctive noisy cry) " ; !Rand key:n73028350440n
-kaahaakwaanh:kaahaakwaany    NA_SET    " 1 chicken, hen" ; !Rand key:n73016755174n
-kakjiishenh:akakojiisheny    NA_SET    " 1 woodchuck" ; !Rand key:n73028446129n
-kiwenziinh:akiwenziiny    NA_SET    " 1 old man" ; !Rand key:n71428962633n
-maamaanh:maamaany    NA_SET    " 1 eyebrow" ; !Rand key:n71429143193n
-man'soonh:amanisoony    NA_SET    " 1 apparition;  2 spook, goblin;  3 stranger" ; !Rand key:n71429344900n
-masdamoonh:omasadamoony    NA_SET    " 1 northern water snake" ; !Rand key:n71429345035n
-maskdamoonh:maskVv1damoony    NA_SET    " 1 water snake" ; !Rand key:n73098054906n
-mdimooyenh:mindimooyeny    NA_SET    " 1 old woman" ; !Rand key:n71429484416n
-mdwewaajiinh:mVv1dwewaajiiny    NA_SET    " 1 ??" ; !Rand key:n7303289546n
-medwewenh:medweweny    NA_SET    " 1 rattler, rattlesnake" ; !Rand key:n71429559863n
-memaangshenh:memaangisheny    NA_SET    " 1 donkey, mule" ; !Rand key:n73032817459n
-memaateshiinh:memaateshiiny    NA_SET    " 1 firefly" ; !Rand key:n73032817503n
-memegwenh:memegweny    NA_SET    " 1 downy woodpecker, hairy woodpecker" ; !Rand key:n71429563111n
-memengwaanh:memengwaany    NA_SET    " 1 butterfly" ; !Rand key:n71429563695n
-memtigningwiishenh:memitigoningwiisheny    NA_SET    " 1 general word for wrens; house wren" ; !Rand key:n71429641017n
-miimiinh:omiimiiny    NA_SET    " 1 general word for flying insects" ; !Rand key:n71429680220n
-mnaagjiinh:minaagojiiny    NA_SET    " 1 bedbug, stinkbug" ; !Rand key:n71430045948n
-mnikwewnisiinh:minikwewinisiiny    NA_SET    " 1 drunkard" ; !Rand key:n73039817538n
-mnoomnikeshiinh:manoominikeshiiny    NA_SET    " 1 king rail (species of wading bird)" ; !Rand key:n71430255024n
-moon'angoonh:moonVv1hangoony    NA_SET    " 1 {a species of wild flower}" ; !Rand key:n73033216574n
-mshiikenh:mishiikeny    NA_SET    " 1 snapping turtle" ; !Rand key:n71430435002n
-mskwaadesiinh:miskwaadesiiny    NA_SET    " 1 mud turtle, painted turtle" ; !Rand key:n71430549419n
-mtig-zhiishiigwenh:mitig-zhiishiigweny    NA_SET    " 1 chameleon " ; !Rand key:n71430563084n
-myagi-baag'aakwaanh:mayagi-baagahaakwaany    NA_SET    " 1 ring-neck pheasant" ; !Rand key:n71430565550n
-mzin'igewaanh:mazinahigewaany    NA_SET    " 1 idol, image, statue" ; !Rand key:n71430649556n
-mzinniinh:mazininiiny    NA_SET    " 1 statue;  2 idol" ; !Rand key:n71430649858n
-naabesenh:naabeseny    NA_SET    " 1 rooster, male bird" ; !Rand key:n71430661679n
-naaniisiigziinh:naaniisiigiziiny    NA_SET    " 1 glove" ; !Rand key:n73033415574n
-naanooshkeshiinh:naanooshkeshiiny    NA_SET    " 1 hummingbird" ; !Rand key:n71431062490n
-ndamaakmeshiinh:nandamaakomeshiiny    NA_SET    " 1 chimpanzee, monkey" ; !Rand key:n71431363730n
-niizhoodenh:niizhoodeny    NA_SET    " 1 twin" ; !Rand key:n71431845800n
-nimookaajiinh:animookaajiiny    NA_SET    " 1 dog" ; !Rand key:n71431957908n
-ningbinwenh:ningVv1binweny    NA_SET    " 1 screech owl" ; !Rand key:n71431959467n
-nmebnenh:namebineny    NA_SET    " 1 sucker (bony bottom-feeding freshwater fish)" ; !Rand key:n71433644726n
-noopmidzhinniinh:noopimidazhininiiny    NA_SET    " 1 country bumpkin, a person from the backwoods" ; !Rand key:n73033840674n
-oodenaw-bneshiinh:oodenaw-bineshiiny    NA_SET    " 1 house sparrow" ; !Rand key:n71435145724n
-oojiigaawesiinh:oojiigaawesiiny    NA_SET    " 1 cricket" ; !Rand key:n71435146212n
-paknenh:bapakineny    NA_SET    " 1 grasshopper, cricket" ; !Rand key:n73031110664n
-pichiinh:apichiiny    NA_SET    " 1 robin" ; !Rand key:n73031180651n
-sabkeshiinh:asabikeshiiny    NA_SET    " 1 spider" ; !Rand key:n73031285069n
-siim'oonh:Vv1siimahoony    NA_SET    " 1 wood duck" ; !Rand key:n73031979809n
-waa'oonenh:waahooneny    NA_SET    " 1 whippoorwill" ; !Rand key:n73032213254n
-waa'oonwenh:waahoonweny    NA_SET    " 1 [see waa'oonenh]" ; !Rand key:n73032213339n
-waab-gookook'oonh:waab-gookookohoony    NA_SET    " 1 snowy owl" ; !Rand key:n73032180958n
-waabgonoojiinh:waabigonoojiiny    NA_SET    " 1 mouse" ; !Rand key:n73032180874n
-waaboozoonh:waaboozoony    NA_SET    " 1 rabbit" ; !Rand key:n73032185837n
-waagbinwenh:waagibinweny    NA_SET    " 1 screech owl" ; !Rand key:n73032211461n
-waagshenh:waagosheny    NA_SET    " 1 fox" ; !Rand key:n73032212821n
-waannashkaanh:waanonashkaany    NA_SET    " 1 prostitute" ; !Rand key:n73071841968n
-waasiinh:waasiiny    NA_SET    " 1 catfish" ; !Rand key:n73071844509n
-waawaabgonoojiinh:waawaabigonoojiiny    NA_SET    " 1 mouse" ; !Rand key:n73032684287n
-wesiinh:awesiiny    NA_SET    " 1 animal, creature" ; !Rand key:n73032784627n
-wewenjganoonh:wewenjiganoony    NA_SET    " 1 long-eared owl (Asio otus)" ; !Rand key:n73032948303n
-wiinnajiinh:wiinanajiiny    NA_SET    " 1 fatso" ; !Rand key:n73034131170n
-ya'aanh:ayahaany    NA_SET    " 1 [see ya'aa]" ; !Rand key:n73033180125n
-zaagoonh:zaagoony    NA_SET    " 1 monkey" ; !Rand key:n73033312381n
-zegbidenh:zegibideny    NA_SET    " 1 tagalong" ; !Rand key:n73072448360n
-zenbaanh:zenibaany    NA_SET    " 1 ribbon" ; !Rand key:n73072449702n
-zaskwaajmenh:zagaskwaajimeny    NA_SET    " 1 leech, blood sucker" ; !Rand key:n73033324211n
-zgaskwaajmenh:zagaskwaajimeny    NA_SET    " 1 leech, bloodsucker" ; !Rand key:n7303343807n
-zgimenh:zagimeny    NA_SET    " 1 mosquito" ; !Rand key:n7303348340n
-zhaageshiinh:azhaageshiiny    NA_SET    " 1 crayfish" ; !Rand key:n73033435449n
-zhaangweshiinh:zhaangweshiiny    NA_SET    " 1 mink" ; !Rand key:n73072583305n
-zhaawshko-bneshiinh:ozhaawashko-bineshiiny    NA_SET    " 1 eastern bluebird" ; !Rand key:n73033513788n
-zhashkoonh:wazhashkoony    NA_SET    " 1 muskrat" ; !Rand key:n73033517348n
-zhiishiibenh:zhiishiibeny    NA_SET    " 1 general word for ducks and teals" ; !Rand key:n73033632944n
-zhmaagni-wesiinh:zhimaagani-awesiiny    NA_SET    " 1 wasp" ; !Rand key:n7303402974n
-zhngibenh:zhingibeny    NA_SET    " 1 hell diver, least grebe (freshwater diving bird)" ; !Rand key:n7303403062n
-zhoomaan'kenh:zhoomaanikeny    NA_SET    " 1 cent, penny" ; !Rand key:n73072875318n
-zhooshkamgisenh:zhooshakamigiseny    NA_SET    " 1 stone boat, flat-bottomed sled for hauling stones and other heavy things" ; !Rand key:n73032711565n
-zhooshksenh:zhooshkoseny    NA_SET    " 1 sleigh" ; !Rand key:n73035430893n
-zhwaashksenh:zhwaashkoseny    NA_SET    " 1 sleigh" ; !Rand key:n73035440405n
-zoogponniinh:zoogiponiniiny    NA_SET    " 1 snowman" ; !Rand key:n73036023857n
-baakaakwenh:baakaakweny    NA_SET    " 1 chicken, hen" ; !Rand key:n65306700961n
-biiwaabko-bneshiinh:biiwaabiko-bineshiiny    NA_SET    " 1 airplane" ; !Rand key:n201091917-43-8n
-waabshkoon'giziinh:waabishkoonagiziiny    NA_SET    " 1 police car" ; !Rand key:n201092118-37-31n
-shaageshiinh:ashaageshiiny    NA_SET    " 1 crab, crayfish" ; !Rand key:n201092120-40-11n
-mekobmasenh:mekobimVo1seny    NA_SET    " 1 bear-walker" ; !Rand key:n20114916-31-39n
-mekobmasenh:mekobimoseny    NA_SET    " 1 bear-walker" ; !Rand key:n20114916-31-39n
-eshkniigaanh:eshkniigaany    NA_SET    " 1 young person, youth, young adult, adolescent" ; !Rand key:n20114108-13-55n
-meko-bmasenh:meko-bimVo1seny    NA_SET    " 1 bear-walker, witch" ; !Rand key:n201141011-26-52n
-meko-bmasenh:meko-bimoseny    NA_SET    " 1 bear-walker, witch" ; !Rand key:n201141011-26-52n
-aadaanoonh:aadaanoony    NA_SET    " 1 corn dumpling" ; !Rand key:n72972575835n
-baag'aakwenh:baagahaakweny    NA_SET    " 1 [see baagaakwenh]" ; !Rand key:n72974644686n
-bebaabgaanh:bebaabVv1gaany    NA_SET    " 1 pancake" ; !Rand key:n72976265968n
-emkooyaanenh:emVv1kooyaaneny    NA_SET    " 1 a species of hairy brown caterpillar" ; !Rand key:n73015756175n
-esiinh:esiiny    NA_SET    " 1 clam, oyster" ; !Rand key:n73015877338n
-gaagiibaajenh:gaagiibaajeny    NA_SET    " 1 joker, prankster" ; !Rand key:n73016042077n
-gekaanh:gekaany    NA_SET    " 1 old person, elderly person" ; !Rand key:n73020045763n
-googsenh:googVv1seny    NA_SET    " 1 frog" ; !Rand key:n73030424928n
-jiindiisiinh:jiindiisiiny    NA_SET    " 1 bluejay" ; !Rand key:n73028439861n
-megwenh:megweny    NA_SET    " 1 foreigner [of unkown nationality] (lit. speaker of a strange language)" ; !Rand key:n73032817736n
-memengwenh:memengweny    NA_SET    " 1 butterfly" ; !Rand key:n71429564072n
-mookdaasoonh:mookodaasoony    NA_SET    " 1 carpenter, wood carver" ; !Rand key:n71430356249n
-zhegaadenh:zhegaadeny    NA_SET    " 1 American coot" ; !Rand key:n73033520825n
-moon'gonenh:moonVv1goneny    NA_SET    " 1 yellow-shafted flicker (species of bird)" ; !Rand key:n71430357699n
+dbadoonh:dVv1badoe1ny    NA_SET    " 1 button" ; !Rand key:n2010113019-9-11n
+ekwaabiinh:ekawaabie1ny    NA_SET    " 1 policeman, guard, scout;  2 guard, one who guards;  3 scout (military)" ; !Rand key:n201132916-5-30n
+aabtooziinh:aabitoozie1ny    NA_SET    " 1 half-breed" ; !Rand key:n72973745466n
+aad'oomoonh:aadahoomoe1ny    NA_SET    " 1 canoe paddler" ; !Rand key:n72972577702n
+aamoonh:aamoe1ny    NA_SET    " 1 bee" ; !Rand key:n72973260049n
+aan'koosenh:aanikoose1ny    NA_SET    " 1 sleigh; wagon on skis" ; !Rand key:n72973446634n
+aandegshkwenh:aandegoshkwe1ny    NA_SET    " 1 common crow" ; !Rand key:n72973264652n
+baag'aakwaanh:baagahaakwae1ny    NA_SET    " 1 [see baagaakwenh]" ; !Rand key:n72974644794n
+baagaakwenh:baagaakwe1ny    NA_SET    " 1 chicken, hen" ; !Rand key:n72974643638n
+baashkdamoonh:baashkandamoe1ny    NA_SET    " 1 parrot" ; !Rand key:n72975354278n
+bbakwaanaajiinh:bapakwaanaajie1ny    NA_SET    " 1 bat (flying animal)" ; !Rand key:n72976159932n
+bbashkwaanaajiinh:babashkwaanaajie1ny    NA_SET    " 1 bat (flying animal)" ; !Rand key:n72976161175n
+bdashkanzhiinh:badashkanzhie1ny    NA_SET    " 1 American woodcock" ; !Rand key:n72976265198n
+bebiikwaagaanh:bebiikwaagae1ny    NA_SET    " 1 camel" ; !Rand key:n72976544195n
+bemdaabaazhwenh:bemidaabaazhwe1ny    NA_SET    " 1 taxi driver" ; !Rand key:n72976552156n
+bgadoonh:bagadoe1ny    NA_SET    " 1 button" ; !Rand key:n72975859532n
+biimskodsiinh:biimiskodisie1ny    NA_SET    " 1 snail" ; !Rand key:n72977263627n
+biipiigenh:biipiige1ny    NA_SET    " 1 wood warbler, nuthatch (kind of bird)" ; !Rand key:n72977450765n
+binoojiinh:abinoojie1ny    NA_SET    " 1 child" ; !Rand key:n72977545112n
+bnajaanh:banajae1ny    NA_SET    " 1 nestling" ; !Rand key:n72978955880n
+bneshiinh:bineshie1ny    NA_SET    " 1 bird" ; !Rand key:n72978956786n
+boodoonh:boodoe1ny    NA_SET    " 1 pollywog, tadpole" ; !Rand key:n72980063677n
+bsijiishkwenh:bVv1sijiishkwe1ny    NA_SET    " 1 killdeer (kind of bird)" ; !Rand key:n72982355605n
+bzhidoonh:bVv1zhidoe1ny    NA_SET    " 1 sheepshead (a kind of fish)" ; !Rand key:n72985148254n
+dekaashiinh:dekaashie1ny    NA_SET    " 1 tourist, vacationer" ; !Rand key:n73002754961n
+dendenh:dende1ny    NA_SET    " 1 bullfrog" ; !Rand key:n73003251624n
+detbisenh:detibise1ny    NA_SET    " 1 tire, wheel [of a vehicle]" ; !Rand key:n73003955911n
+diindiisiinh:diindiisie1ny    NA_SET    " 1 bluejay" ; !Rand key:n73004850989n
+ebgoonh:ebigoe1ny    NA_SET    " 1 ant" ; !Rand key:n73015357816n
+egwaawgoonh:egwaawigoe1ny    NA_SET    " 1 foundling washed up on shore" ; !Rand key:n73015755606n
+eknoomaagenh:ekinoohamaage1ny    NA_SET    " 1 teacher, instructor" ; !Rand key:n73015755174n
+en'goonh:enigoe1ny    NA_SET    " 1 ant" ; !Rand key:n73015782624n
+esbaanh:esibae1ny    NA_SET    " 1 raccoon" ; !Rand key:n73015782902n
+esbikenh:esbike1ny    NA_SET    " 1 spider" ; !Rand key:n73015782969n
+eshkmegwenh:eshkimegwe1ny    NA_SET    " 1 osprey (a type of bird)" ; !Rand key:n73015876835n
+ezaawmin'gaanh:ezaawiminagae1ny    NA_SET    " 1 orange (fruit)" ; !Rand key:n73015878924n
+ezhaazhaanh:ezhaazhae1ny    NA_SET    " 1 dumpling" ; !Rand key:n73015879042n
+gaagaakshiinh:gaagaagishie1ny    NA_SET    " 1 common raven; crow" ; !Rand key:n73016041076n
+gaakaapshiinh:gaakaapVv1shie1ny    NA_SET    " 1 barn owl" ; !Rand key:n73102084770n
+gaakaasknejiinh:gaakaasknejie1ny    NA_SET    " 1 catbird?" ; !Rand key:n73016049853n
+gaawnzigoonh:gaawanzigoe1ny    NA_SET    " 1 red-breasted merganser" ; !Rand key:n73017375639n
+gchi-mshiikenh:gichi-mishiike1ny    NA_SET    " 1 tortoise" ; !Rand key:n73019343693n
+gechtwaawziinh:gechitwaawizie1ny    NA_SET    " 1 millionaire, rich man" ; !Rand key:n73019356327n
+gekendaasoonh:gekendaasoe1ny    NA_SET    " 1 smart person" ; !Rand key:n73102055137n
+giigoonh:giigoe1ny    NA_SET    " 1 fish" ; !Rand key:n73021453653n
+giizhkenh:giizhike1ny    NA_SET    " 1 northern white cedar" ; !Rand key:n73024351798n
+gnigjiinh:ginigijie1ny    NA_SET    " 1 carp" ; !Rand key:n73029113012n
+godaashiinh:Vv1godaashie1ny    NA_SET    " 1 bluegill, crappie, rock bass" ; !Rand key:n73029215069n
+gookyenh:gookye1ny    NA_SET    " 1 very old woman" ; !Rand key:n73030426297n
+goongsenh:agoongose1ny    NA_SET    " 1 chipmunk" ; !Rand key:n73030426663n
+gwaagwaashknibiinykenh:gwaagwaashkonibiinyike1ny    NA_SET    " 1 grasshoppper" ; !Rand key:n73031637342n
+gwiingsenh:agwiingose1ny    NA_SET    " 1 chipmunk" ; !Rand key:n73031720823n
+gyaashkshenh:gayaashkoshe1ny    NA_SET    " 1 seagull" ; !Rand key:n73032326371n
+jejiibdakiinh:jejiibadakie1ny    NA_SET    " 1 elephant" ; !Rand key:n73028338719n
+jidmoonh:ajidamoe1ny    NA_SET    " 1 squirrel" ; !Rand key:n73028344515n
+jigjigaaneshiinh:jigajigaaneshie1ny    NA_SET    " 1 Black-capped chickadee (small bird with gray feathers, and a darker colored top to its head)" ; !Rand key:n73028344589n
+jiichiishkwenh:jiichiishkwe1ny    NA_SET    " 1 killdeer (bird with brown and white feathers, two black breast bands, and a distinctive noisy cry) " ; !Rand key:n73028350440n
+kaahaakwaanh:kaahaakwae1ny    NA_SET    " 1 chicken, hen" ; !Rand key:n73016755174n
+kakjiishenh:akakojiishe1ny    NA_SET    " 1 woodchuck" ; !Rand key:n73028446129n
+kiwenziinh:akiwenzie1ny    NA_SET    " 1 old man" ; !Rand key:n71428962633n
+maamaanh:maamae1ny    NA_SET    " 1 eyebrow" ; !Rand key:n71429143193n
+man'soonh:amanisoe1ny    NA_SET    " 1 apparition;  2 spook, goblin;  3 stranger" ; !Rand key:n71429344900n
+masdamoonh:omasadamoe1ny    NA_SET    " 1 northern water snake" ; !Rand key:n71429345035n
+maskdamoonh:maskVv1damoe1ny    NA_SET    " 1 water snake" ; !Rand key:n73098054906n
+mdimooyenh:mindimooye1ny    NA_SET    " 1 old woman" ; !Rand key:n71429484416n
+mdwewaajiinh:mVv1dwewaajie1ny    NA_SET    " 1 ??" ; !Rand key:n7303289546n
+medwewenh:medwewe1ny    NA_SET    " 1 rattler, rattlesnake" ; !Rand key:n71429559863n
+memaangshenh:memaangishe1ny    NA_SET    " 1 donkey, mule" ; !Rand key:n73032817459n
+memaateshiinh:memaateshie1ny    NA_SET    " 1 firefly" ; !Rand key:n73032817503n
+memegwenh:memegwe1ny    NA_SET    " 1 downy woodpecker, hairy woodpecker" ; !Rand key:n71429563111n
+memengwaanh:memengwae1ny    NA_SET    " 1 butterfly" ; !Rand key:n71429563695n
+memtigningwiishenh:memitigoningwiishe1ny    NA_SET    " 1 general word for wrens; house wren" ; !Rand key:n71429641017n
+miimiinh:omiimie1ny    NA_SET    " 1 general word for flying insects" ; !Rand key:n71429680220n
+mnaagjiinh:minaagojie1ny    NA_SET    " 1 bedbug, stinkbug" ; !Rand key:n71430045948n
+mnikwewnisiinh:minikwewinisie1ny    NA_SET    " 1 drunkard" ; !Rand key:n73039817538n
+mnoomnikeshiinh:manoominikeshie1ny    NA_SET    " 1 king rail (species of wading bird)" ; !Rand key:n71430255024n
+moon'angoonh:moonVv1hangoe1ny    NA_SET    " 1 {a species of wild flower}" ; !Rand key:n73033216574n
+mshiikenh:mishiike1ny    NA_SET    " 1 snapping turtle" ; !Rand key:n71430435002n
+mskwaadesiinh:miskwaadesie1ny    NA_SET    " 1 mud turtle, painted turtle" ; !Rand key:n71430549419n
+mtig-zhiishiigwenh:mitig-zhiishiigwe1ny    NA_SET    " 1 chameleon " ; !Rand key:n71430563084n
+myagi-baag'aakwaanh:mayagi-baagahaakwae1ny    NA_SET    " 1 ring-neck pheasant" ; !Rand key:n71430565550n
+mzin'igewaanh:mazinahigewae1ny    NA_SET    " 1 idol, image, statue" ; !Rand key:n71430649556n
+mzinniinh:mazininie1ny    NA_SET    " 1 statue;  2 idol" ; !Rand key:n71430649858n
+naabesenh:naabese1ny    NA_SET    " 1 rooster, male bird" ; !Rand key:n71430661679n
+naaniisiigziinh:naaniisiigizie1ny    NA_SET    " 1 glove" ; !Rand key:n73033415574n
+naanooshkeshiinh:naanooshkeshie1ny    NA_SET    " 1 hummingbird" ; !Rand key:n71431062490n
+ndamaakmeshiinh:nandamaakomeshie1ny    NA_SET    " 1 chimpanzee, monkey" ; !Rand key:n71431363730n
+niizhoodenh:niizhoode1ny    NA_SET    " 1 twin" ; !Rand key:n71431845800n
+nimookaajiinh:animookaajie1ny    NA_SET    " 1 dog" ; !Rand key:n71431957908n
+ningbinwenh:ningVv1binwe1ny    NA_SET    " 1 screech owl" ; !Rand key:n71431959467n
+nmebnenh:namebine1ny    NA_SET    " 1 sucker (bony bottom-feeding freshwater fish)" ; !Rand key:n71433644726n
+noopmidzhinniinh:noopimidazhininie1ny    NA_SET    " 1 country bumpkin, a person from the backwoods" ; !Rand key:n73033840674n
+oodenaw-bneshiinh:oodenaw-bineshie1ny    NA_SET    " 1 house sparrow" ; !Rand key:n71435145724n
+oojiigaawesiinh:oojiigaawesie1ny    NA_SET    " 1 cricket" ; !Rand key:n71435146212n
+paknenh:bapakine1ny    NA_SET    " 1 grasshopper, cricket" ; !Rand key:n73031110664n
+pichiinh:apichie1ny    NA_SET    " 1 robin" ; !Rand key:n73031180651n
+sabkeshiinh:asabikeshie1ny    NA_SET    " 1 spider" ; !Rand key:n73031285069n
+siim'oonh:Vv1siimahoe1ny    NA_SET    " 1 wood duck" ; !Rand key:n73031979809n
+waa'oonenh:waahoone1ny    NA_SET    " 1 whippoorwill" ; !Rand key:n73032213254n
+waa'oonwenh:waahoonwe1ny    NA_SET    " 1 [see waa'oonenh]" ; !Rand key:n73032213339n
+waab-gookook'oonh:waab-gookookohoe1ny    NA_SET    " 1 snowy owl" ; !Rand key:n73032180958n
+waabgonoojiinh:waabigonoojie1ny    NA_SET    " 1 mouse" ; !Rand key:n73032180874n
+waaboozoonh:waaboozoe1ny    NA_SET    " 1 rabbit" ; !Rand key:n73032185837n
+waagbinwenh:waagibinwe1ny    NA_SET    " 1 screech owl" ; !Rand key:n73032211461n
+waagshenh:waagoshe1ny    NA_SET    " 1 fox" ; !Rand key:n73032212821n
+waannashkaanh:waanonashkae1ny    NA_SET    " 1 prostitute" ; !Rand key:n73071841968n
+waasiinh:waasie1ny    NA_SET    " 1 catfish" ; !Rand key:n73071844509n
+waawaabgonoojiinh:waawaabigonoojie1ny    NA_SET    " 1 mouse" ; !Rand key:n73032684287n
+wesiinh:awesie1ny    NA_SET    " 1 animal, creature" ; !Rand key:n73032784627n
+wewenjganoonh:wewenjiganoe1ny    NA_SET    " 1 long-eared owl (Asio otus)" ; !Rand key:n73032948303n
+wiinnajiinh:wiinanajie1ny    NA_SET    " 1 fatso" ; !Rand key:n73034131170n
+ya'aanh:ayahae1ny    NA_SET    " 1 [see ya'aa]" ; !Rand key:n73033180125n
+zaagoonh:zaagoe1ny    NA_SET    " 1 monkey" ; !Rand key:n73033312381n
+zegbidenh:zegibide1ny    NA_SET    " 1 tagalong" ; !Rand key:n73072448360n
+zenbaanh:zenibae1ny    NA_SET    " 1 ribbon" ; !Rand key:n73072449702n
+zaskwaajmenh:zagaskwaajime1ny    NA_SET    " 1 leech, blood sucker" ; !Rand key:n73033324211n
+zgaskwaajmenh:zagaskwaajime1ny    NA_SET    " 1 leech, bloodsucker" ; !Rand key:n7303343807n
+zgimenh:zagime1ny    NA_SET    " 1 mosquito" ; !Rand key:n7303348340n
+zhaageshiinh:azhaageshie1ny    NA_SET    " 1 crayfish" ; !Rand key:n73033435449n
+zhaangweshiinh:zhaangweshie1ny    NA_SET    " 1 mink" ; !Rand key:n73072583305n
+zhaawshko-bneshiinh:ozhaawashko-bineshie1ny    NA_SET    " 1 eastern bluebird" ; !Rand key:n73033513788n
+zhashkoonh:wazhashkoe1ny    NA_SET    " 1 muskrat" ; !Rand key:n73033517348n
+zhiishiibenh:zhiishiibe1ny    NA_SET    " 1 general word for ducks and teals" ; !Rand key:n73033632944n
+zhmaagni-wesiinh:zhimaagani-awesie1ny    NA_SET    " 1 wasp" ; !Rand key:n7303402974n
+zhngibenh:zhingibe1ny    NA_SET    " 1 hell diver, least grebe (freshwater diving bird)" ; !Rand key:n7303403062n
+zhoomaan'kenh:zhoomaanike1ny    NA_SET    " 1 cent, penny" ; !Rand key:n73072875318n
+zhooshkamgisenh:zhooshakamigise1ny    NA_SET    " 1 stone boat, flat-bottomed sled for hauling stones and other heavy things" ; !Rand key:n73032711565n
+zhooshksenh:zhooshkose1ny    NA_SET    " 1 sleigh" ; !Rand key:n73035430893n
+zhwaashksenh:zhwaashkose1ny    NA_SET    " 1 sleigh" ; !Rand key:n73035440405n
+zoogponniinh:zoogiponinie1ny    NA_SET    " 1 snowman" ; !Rand key:n73036023857n
+baakaakwenh:baakaakwe1ny    NA_SET    " 1 chicken, hen" ; !Rand key:n65306700961n
+biiwaabko-bneshiinh:biiwaabiko-bineshie1ny    NA_SET    " 1 airplane" ; !Rand key:n201091917-43-8n
+waabshkoon'giziinh:waabishkoonagizie1ny    NA_SET    " 1 police car" ; !Rand key:n201092118-37-31n
+shaageshiinh:ashaageshie1ny    NA_SET    " 1 crab, crayfish" ; !Rand key:n201092120-40-11n
+mekobmasenh:mekobimVo1se1ny    NA_SET    " 1 bear-walker" ; !Rand key:n20114916-31-39n
+mekobmasenh:mekobimose1ny    NA_SET    " 1 bear-walker" ; !Rand key:n20114916-31-39n
+eshkniigaanh:eshkniigae1ny    NA_SET    " 1 young person, youth, young adult, adolescent" ; !Rand key:n20114108-13-55n
+meko-bmasenh:meko-bimVo1se1ny    NA_SET    " 1 bear-walker, witch" ; !Rand key:n201141011-26-52n
+meko-bmasenh:meko-bimose1ny    NA_SET    " 1 bear-walker, witch" ; !Rand key:n201141011-26-52n
+aadaanoonh:aadaanoe1ny    NA_SET    " 1 corn dumpling" ; !Rand key:n72972575835n
+baag'aakwenh:baagahaakwe1ny    NA_SET    " 1 [see baagaakwenh]" ; !Rand key:n72974644686n
+bebaabgaanh:bebaabVv1gae1ny    NA_SET    " 1 pancake" ; !Rand key:n72976265968n
+emkooyaanenh:emVv1kooyaane1ny    NA_SET    " 1 a species of hairy brown caterpillar" ; !Rand key:n73015756175n
+esiinh:esie1ny    NA_SET    " 1 clam, oyster" ; !Rand key:n73015877338n
+gaagiibaajenh:gaagiibaaje1ny    NA_SET    " 1 joker, prankster" ; !Rand key:n73016042077n
+gekaanh:gekae1ny    NA_SET    " 1 old person, elderly person" ; !Rand key:n73020045763n
+googsenh:googVv1se1ny    NA_SET    " 1 frog" ; !Rand key:n73030424928n
+jiindiisiinh:jiindiisie1ny    NA_SET    " 1 bluejay" ; !Rand key:n73028439861n
+megwenh:megwe1ny    NA_SET    " 1 foreigner [of unkown nationality] (lit. speaker of a strange language)" ; !Rand key:n73032817736n
+memengwenh:memengwe1ny    NA_SET    " 1 butterfly" ; !Rand key:n71429564072n
+mookdaasoonh:mookodaasoe1ny    NA_SET    " 1 carpenter, wood carver" ; !Rand key:n71430356249n
+zhegaadenh:zhegaade1ny    NA_SET    " 1 American coot" ; !Rand key:n73033520825n
+moon'gonenh:moonVv1gone1ny    NA_SET    " 1 yellow-shafted flicker (species of bird)" ; !Rand key:n71430357699n
 !} end ny
 !{ i1 (-iik pl)
 pin:opini1    NA_SET    " 1 potato" ; !Rand key:n7303128992n
@@ -952,7 +953,6 @@ mookdaasooniniikwe:mookodaasooniniikwe    NA_SET    " 1 [female] carpenter" ; !R
 mookdaasooniniikwe:mookodaasooniniiwVi1kwe    NA_SET    " 1 [female] carpenter" ; !Rand key:n201141016-28-48n
 baataayens:baataayens    NA_SET    " 1 burr, sticky (informal term for this burr)" ; !Rand key:n201611010-7-25n
 bbooni-yi’aa:bibooni-ayihaa    NA_SET    " 1 winter-type, type of thing used in winter, etc." ; !Rand key:n201611111-13-20n
-bebskiigsenh:bebiskiigisenh    NA_SET    " 1 mosquito larva" ; !Rand key:n201611117-47-1n
 bgaanmizhiins:bgaanimizhiins    NA_SET    " 1 hazel shrub (Corylus americana)" ; !Rand key:n201611117-58-36n
 bgoshens:bigoshens    NA_SET    " 1 blackfly (CL, M'Ch);  2 sandfly (Sg)" ; !Rand key:n201611217-17-28n
 biigjiisndip:biigVv1jiisondib    NA_SET    " 1 blockhead" ; !Rand key:n201611220-32-30n
@@ -1038,8 +1038,6 @@ nbazgim:%^bazVv1gim    NAD_SET    " 1 my cross-cousin of the opposite sex" ; !Ra
 nda'iim:%^ahiim    NAD_SET    " 1 my possession" ; !Rand key:n72974455970n
 ndaan:%^daan    NAD_SET    " 1 my daughter" ; !Rand key:n72987250464n
 ndaan'kobjigan:%^aanikobjiigan    NAD_SET    " 1 my great grandchild" ; !Rand key:n72973444571n
-ndaan'koobdenh:%^aanikoobideny    NAD_SET    " 1 my great grandchild" ; !Rand key:n72973444896n
-ndaangwenh:%^daangweny    NAD_SET    " 1 my sister-in-law" ; !Rand key:n73033631380n
 ndaanis:%^daanis    NAD_SET    " 1 my daughter" ; !Rand key:n72992942869n
 ndaknaagan:%^dakinaagan    NAD_SET    " 1 my godchild" ; !Rand key:n72989331n
 ndanwendaagan:%^anawendaagan NAD_SET    " 1 generic term for my cousin, my relative" ; !Rand key:n72989352317n
@@ -1060,22 +1058,16 @@ ngaagaagiim:%^gaagaagiim    NAD_SET    " 1 my phlegm" ; !Rand key:n73040211749n
 ngookmis:%^gookomis    NAD_SET    " 1 my grandmother" ; !Rand key:n73030425285n
 ngwis:%^gwis    NAD_SET    " 1 my son" ; !Rand key:n73031736808n
 nhoos:%^hoos    NAD_SET    " 1 my father" ; !Rand key:n73032447958n
-niidgikoonh:%^iidigikoony    NAD_SET    " 1 my sister [if I am a woman];  2 my husband's sister-in-law" ; !Rand key:n73028040129n
 niijkiwem:%^iijkiwem    NAD_SET    " 1 my brother" ; !Rand key:n73028042774n
-niijkiwenziinh:%^iijkiwenziiny    NAD_SET    " 1 my friend" ; !Rand key:n73028043006n
 niikaan:%^iikaan    NAD_SET    " 1 my brother [if I am a man]" ; !Rand key:n73028043228n
 niikaanis:%^iikaanis    NAD_SET    " 1 my brother [if I am a man]" ; !Rand key:n73082448160n
 niinmokaan:%^iinimokaan    NAD_SET    " 1 my brother-in-law [if I am a woman]" ; !Rand key:n73028045051n
-niinmoshenh:%^iinimosheny    NAD_SET    " 1 my cross-cousin of the opposite sex" ; !Rand key:n73028045345n
 niitaa:%^iitaa    NAD_SET    " 1 my brother-in-law [if I am a man]" ; !Rand key:n73028046246n
 niitaawis:%^iitaawis    NAD_SET    " 1 my cousin, my [male] cross-cousin [if I am a man]" ; !Rand key:n73028046404n
 njiichiigom:%^jiichiigom    NAD_SET    " 1 my wart" ; !Rand key:n73028349122n
 nkeweziinyim:%^keweziinyim    NAD_SET    " 1 my husband, my old man" ; !Rand key:n72974456311n
 nmamaam:%^mamaam    NAD_SET    " 1 my mother" ; !Rand key:n71429343904n
-nmamaanh:%^mamaany    NAD_SET    " 1 my mom, my mother" ; !Rand key:n7309021951n
 nmidmooyem:%^mindimooyem    NAD_SET    " 1 my wife (lit: my old lady)" ; !Rand key:n71429645344n
-nmisenh:%^miseny    NAD_SET    " 1 my older sister, my older female parallel cousin" ; !Rand key:n71429740558n
-nmishoomenh:%^mishoomeny    NAD_SET    " 1 my parallel uncle" ; !Rand key:n71429740671n
 nmishoomis:%^mishoomis    NAD_SET    " 1 my grandfather;  2 my great uncle" ; !Rand key:n71429740828n
 nmishoo:%^mishoo    NAD_SET    " 1 my grandfather;  2 my great uncle" ; !Rand key:n71429740828n
 nna'aangish:%^nahaangishi1    NAD_SET    " 1 my son-in-law" ; !Rand key:n71431153756n
@@ -1085,7 +1077,6 @@ nnaabem:%^naabem    NAD_SET    " 1 my husband" ; !Rand key:n71430661359n
 nnaan:%^naan    NAD_SET    " 1 the calf of my leg" ; !Rand key:n71431052778n
 nnashkdii:%^nashkidii    NAD_SET    " 1 my tail [of a bird]" ; !Rand key:n71431169269n
 nniijaanis:%^niijaanis    NAD_SET    " 1 my child, my offspring" ; !Rand key:n71431756614n
-nniijkadoonh:%^niijikadoony    NAD_SET    " 1 my buddy" ; !Rand key:n73033711714n
 nniijkewenh:%^niijikeweny    NAD_SET    " 1 my friend" ; !Rand key:n71431756801n
 nniijkiwem:%^niijikiwem    NAD_SET    " 1 my brother" ; !Rand key:n71431756698n
 nniijkiwis:%^niijikiwis    NAD_SET    " 1 my friend" ; !Rand key:n71431756868n
@@ -1097,13 +1088,9 @@ nningwii'gan:%^ningwiihVv1gan    NAD_SET    " 1 my wing" ; !Rand key:n7143297251
 nninjgaans:%^ninjigaans    NAD_SET    " 1 my fin" ; !Rand key:n71432976152n
 nnookmis:%^nookomis    NAD_SET    " 1 my grandmother" ; !Rand key:n71433759592n
 nooko:%^ookow    NAD_SET    " 1 my grandmother" ; !Rand key:n71433759592n !final w possibly not good
-nnooshenh:%^noosheny    NAD_SET    " 1 my parallel aunt (my mother's sister)" ; !Rand key:n71433766140n
 nnoozwaagan:%^noozwaagan    NAD_SET    " 1 my namesake" ; !Rand key:n72974457263n
 nookmis:%^ookomis    NAD_SET    " 1 my grandmother" ; !Rand key:n71435146411n
 noos:%^oos    NAD_SET    " 1 my father" ; !Rand key:n71435146617n
-nooshenh:%^oosheny    NAD_SET    " 1 my grandchild" ; !Rand key:n71435146666n
-nsayenh:%^sayeny    NAD_SET    " 1 my older brother, my older male cross-cousin" ; !Rand key:n730313694n
-nshiimenh:%^shiimeny    NAD_SET    " 1 my younger sibling, my younger cross-cousin (also my spouse's younger sibling-in-law [if he is young]" ; !Rand key:n74339311263n
 nshimis:%^shimis    NAD_SET    " 1 my cross-niece, my cross-cousin's daughter, my niece" ; !Rand key:n74339311614n
 nshkansh:%^shkanzhi1    NAD_SET    " 1 my fingernail, my nail;  2 my claw, my talon" ; !Rand key:n74339313254n
 nsim:%^simi1    NAD_SET    " 1 my daughter-in-law" ; !Rand key:n74339365477n
@@ -1111,14 +1098,27 @@ nwiidgemaagan:%^wiidigemaagan    NAD_SET    " 1 my husband, my wife, my spouse" 
 nwiidzhaan:%^wiidizhaan    NAD_SET    " 1 my sibling" ; !Rand key:n73034128669n
 nwiij-Nishnaabe:%^wiij-anishinaabe    NAD_SET    " 1 my fellow Indian" ; !Rand key:n730720463n
 nwiiji-bemaadis:%^wiiji-bemaadizi1    NAD_SET    " 1 my fellow man" ; !Rand key:n73071981800n
-nwiijkewenh:%^wiijikeweny    NAD_SET    " 1 my friend" ; !Rand key:n730720351n
 nwiijkiwem:%^wiijikiwem    NAD_SET    " 1 my brother" ; !Rand key:n730720258n
 nzhiigan:%^zhiigan    NAD_SET    " 1 the small of my back" ; !Rand key:n73072683863n
 nzhinis:%^zhinis    NAD_SET    " 1 my father-in-law" ; !Rand key:n73072770746n
-nzhishenh:%^zhisheny    NAD_SET    " 1 my uncle" ; !Rand key:n73072869095n
 nzigos:%^zigos    NAD_SET    " 1 my aunt (new system)" ; !Rand key:n73035443508n
 nzigzis:%^zigozis    NAD_SET    " 1 my mother-in-law, my spouse's grandmother (old system), my spouse's cross-aunt (old system)" ; !Rand key:n73035443679n
 ndiniigan:%^diniigan    NAD_SET    " 1 my shoulder blade" ; !Rand key:n2010112211-51-39n
+ndaan'koobdenh:%^aanikoobide1ny    NAD_SET    " 1 my great grandchild" ; !Rand key:n72973444896n
+ndaangwenh:%^daangwe1ny    NAD_SET    " 1 my sister-in-law" ; !Rand key:n73033631380n
+niidgikoonh:%^iidigikoe1ny    NAD_SET    " 1 my sister [if I am a woman];  2 my husband's sister-in-law" ; !Rand key:n73028040129n
+niijkiwenziinh:%^iijkiwenzie1ny    NAD_SET    " 1 my friend" ; !Rand key:n73028043006n
+niinmoshenh:%^iinimoshe1ny    NAD_SET    " 1 my cross-cousin of the opposite sex" ; !Rand key:n73028045345n
+nmamaanh:%^mamae1ny    NAD_SET    " 1 my mom, my mother" ; !Rand key:n7309021951n
+nmisenh:%^mise1ny    NAD_SET    " 1 my older sister, my older female parallel cousin" ; !Rand key:n71429740558n
+nmishoomenh:%^mishoome1ny    NAD_SET    " 1 my parallel uncle" ; !Rand key:n71429740671n
+nniijkadoonh:%^niijikadoe1ny    NAD_SET    " 1 my buddy" ; !Rand key:n73033711714n
+nnooshenh:%^nooshe1ny    NAD_SET    " 1 my parallel aunt (my mother's sister)" ; !Rand key:n71433766140n
+nooshenh:%^ooshe1ny    NAD_SET    " 1 my grandchild" ; !Rand key:n71435146666n
+nsayenh:%^saye1ny    NAD_SET    " 1 my older brother, my older male cross-cousin" ; !Rand key:n730313694n
+nshiimenh:%^shiime1ny    NAD_SET    " 1 my younger sibling, my younger cross-cousin (also my spouse's younger sibling-in-law [if he is young]" ; !Rand key:n74339311263n
+nwiijkewenh:%^wiijikewe1ny    NAD_SET    " 1 my friend" ; !Rand key:n730720351n
+nzhishenh:%^zhishe1ny    NAD_SET    " 1 my uncle" ; !Rand key:n73072869095n
 
 LEXICON NID_DAB_ADDITIONS
 !{start rand database dump
@@ -1183,10 +1183,10 @@ Gchi-mnis:gichi-minis    NI_PLACE_NAMES_TAG    " 1 Christian Island, Ontario"   
 Neyaashii-nagmiing:neyaashii-onagamiing    NI_PLACE_NAMES_TAG    " 1 Cape Croker, Ontario"    ; !Rand key:n201091822-38-14n
 Nam'ewaatgoong:anamihewaatigoong    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456827n
 Moonyaang:mooniyaang    NI_PLACE_NAMES_TAG    " 1 Montreal, Quebec"    ; !Rand key:n71430358472n
-Mnisenh:miniseny    NI_PLACE_NAMES_TAG    " 1 Munising, Michigan;  2 Walpole Island, Ontario"    ; !Rand key:n71430242617n
 Bwa'ganing:bawahiganing    NI_PLACE_NAMES_TAG    " 1 rice-gathering place (near Saginaw, Michigan)"    ; !Rand key:n72985138197n
 Bkejwanong:bakejiwanong    NI_PLACE_NAMES_TAG    " 1 Walpole Island, Ontario"    ; !Rand key:n72977556328n
-Anam'ewaatgwenh:anamVi1hewaatigweny    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456729n
+Mnisenh:minise1ny    NI_PLACE_NAMES_TAG    " 1 Munising, Michigan;  2 Walpole Island, Ontario"    ; !Rand key:n71430242617n
+Anam'ewaatgwenh:anamVi1hewaatigwe1ny    NI_PLACE_NAMES_TAG    " 1 Cross Village, Michigan"    ; !Rand key:n72974456729n
 !end place names}
 !{start potentially obligatory plurals
 gwinaanan:agwinaan    NI_SET    " 1 clothes" ; !Rand key:n73031817130n
@@ -1438,65 +1438,65 @@ aan’kogneyaap:aanikoganeyaabi1    NI_SET    " 1 chain" ; !Rand key:n2016149-49
 biimtewegniwaab:biimateweganiwaabi1    NI_SET    " 1 yarn" ; !Rand key:n20161147-57-13n
 biiwaabkoo-aan’koogneyaab:biiwaabikoo-aanikoogneyaabi1    NI_SET    " 1 chain" ; !Rand key:n201611515-21-23n
 !}
-!{ ny
-aadaanoonh:aadaanoony    NI_SET    " 1 corn dumpling" ; !Rand key:n72972575664n
-aan'konaanh:aanakonaany    NI_SET    " 1 cracker, soda biscuit" ; !Rand key:n72973446313n
-bekgoodenh:bekVv1goodeny    NI_SET    " 1 padlock" ; !Rand key:n72967738838n
-bewaatenh:bewaateny    NI_SET    " 1 lantern" ; !Rand key:n72976565144n
-biiwaan'goonh:biiwaanagoony    NI_SET    " 1 flint" ; !Rand key:n72977485754n
-eshkdamoonh:eshkadamoony    NI_SET    " 1 watermelon" ; !Rand key:n73015876778n
-eshoonh:eshoony    NI_SET    " 1 cabbage" ; !Rand key:n73015877282n
-eskgamdenh:eskigamideny    NI_SET    " 1 tonic" ; !Rand key:n73102084422n
-eyiidwaabdeyaanh:eyiidawaabideyaany    NI_SET    " 1 double axe" ; !Rand key:n73035440182n
-gbodenh:gibodeny    NI_SET    " 1 blood sausage" ; !Rand key:n73018843712n
-gboosnenh:giboosVv1neny    NI_SET    " 1 trousers" ; !Rand key:n73019338694n
-gdagiigaanh:gVi1dagiigaany    NI_SET    " 1 rag" ; !Rand key:n73102054039n
-gebgaadenh:gebVv1gaadeny    NI_SET    " 1 hamper;  2 a type of large basket" ; !Rand key:n73019736306n
-gepgaanh:gepagaany    NI_SET    " 1 heavy quilt, thick blanket" ; !Rand key:n73020046385n
-geshkgwaaswaanh:geshkigwaaswaany    NI_SET    " 1 sewing machine" ; !Rand key:n73020047204n
-geshkbizoonh:geshkibizoony    NI_SET    " 1 steamed pudding [wrapped in cloth and made at Christmastime]" ; !Rand key:n73020244993n
-giishknakdoonh:giishkanakadoony    NI_SET    " 1 tree stump" ; !Rand key:n73023742396n
-gookoombenh:gookoombeny    NI_SET    " 1 cucumber" ; !Rand key:n73043047707n
-jechiibaaksenh:jechiibaakVv1seny    NI_SET    " 1 rocking chair" ; !Rand key:n73032646359n
-jiibkenh:ojiibikeny    NI_SET    " 1 root" ; !Rand key:n73028347568n
-jiichiibaaksenh:jiichiibaakVv1seny    NI_SET    " 1 [see jechiibaaksenh]" ; !Rand key:n73032646272n
-jikenh:Vv1jikeny    NI_SET    " 1 tree stump" ; !Rand key:n73028443154n
-kajdenh:Vv1kajVv1deny    NI_SET    " 1 dried pumpkin [a dish]" ; !Rand key:n73016755653n
-koombenh:koombeny    NI_SET    " 1 cucumber" ; !Rand key:n71429047078n
-medwewebdenh:medwewebideny    NI_SET    " 1 motorboat" ; !Rand key:n73032815076n
-memaangsheyaanh:memaangisheyaany    NI_SET    " 1 a type of basket with two ring handles, big-eared basket" ; !Rand key:n71429561413n
-miishkoonh:miishkoony    NI_SET    " 1 weed" ; !Rand key:n73097048236n
-minoonkenh:Vv1minoonVv1keny    NI_SET    " 1 smokehole" ; !Rand key:n71429740363n
-mjigoodenh:manjigoodeny    NI_SET    " 1 dress, skirt" ; !Rand key:n71429742353n
-mnisenh:miniseny    NI_SET    " 1 island" ; !Rand key:n71430242707n
-Mnishenh:minisheny    NI_SET    " 1 Walpole Island, Ont." ; !Rand key:n71430243056n
-nebgaanh:nebagaany    NI_SET    " 1 [see nenaabgaan]" ; !Rand key:n73099855659n
-nenaabgaanh:nenaabagaany    NI_SET    " 1 [see nenaabgaan]" ; !Rand key:n71431558115n
-noon'kenh:noonVv1keny    NI_SET    " 1 crock, earthenware jar, bean jar" ; !Rand key:n72916458395n
-pashkwaajiinh:apashkwaajiiny    NI_SET    " 1 balloon; ??air bladder [of a fish]" ; !Rand key:n73031179677n
-shibaayiigni-mjigoodenh:Vv1shibaayiigini-majigoodeny    NI_SET    " 1 dress made of chiffon" ; !Rand key:n7303409556n
-waab-gookookoonh:waab-gookookoony    NI_SET    " 1 wedding cake" ; !Rand key:n73032181171n
-waawaaskonenh:waawaazakoneny    NI_SET    " 1 flower" ; !Rand key:n73032685124n !za changed from si!
-wewiinbaanh:wewiinVv1baany    NI_SET    " 1 squash" ; !Rand key:n73032949250n
-wiig'asiinh:wiigahasiiny    NI_SET    " 1 dustballs" ; !Rand key:n73034128473n
-wiikenh:wiikeny    NI_SET    " 1 sweet flag (waterside plant), sweet flag root;  2  iris" ; !Rand key:n73033038835n
-wiimbnakdoonh:wiimbanakadoony    NI_SET    " 1 hollow log, hollow stump" ; !Rand key:n73033051388n
-zasaanh:wazasaany    NI_SET    " 1 nest" ; !Rand key:n73033323564n
-zegaabkaadenh:zegaabikaadeny    NI_SET    " 1 basket [with a handle]" ; !Rand key:n73033381888n
-zhashkwedoonh:wazhashkwedoony    NI_SET    " 1 mushroom" ; !Rand key:n73033517432n
-zhoomaan'kenh:zhoomaanikeny    NI_SET    " 1 cent, penny" ; !Rand key:n73034013736n
-ziibiiwenh:ziibiiweny    NI_SET    " 1 brook, creek, stream" ; !Rand key:n73035444075n
-bbagwayaanenh:babagiwayaaneny    NI_SET    " 1 cloth, fabric" ; !Rand key:n201132611-24-36n
-tametoonh:tametoony    NI_SET    " 1 tomato" ; !Rand key:n201141010-34-39n
-aaswaakjiidenh:aaswaakojiideny    NI_SET    " 1 a type of scone cooked on a stick by a fire" ; !Rand key:n2016167-24-17n
-bengwidenh:bengwideny    NI_SET    " 1 maple taffy" ; !Rand key:n201611117-41-23n
-desaabkidenh:desaabikideny    NI_SET    " 1 scone that’s fried on a lightly greased pan" ; !Rand key:n20161239-23-47n
-ezaawaanh:ezaawaany    NI_SET    " 1 muskmelon, cantaloupe" ; !Rand key:n73015878845n
-gebkadiinh:gebVv1kadiiny    NI_SET    " 1 comforter (bedding)" ; !Rand key:n73019736409n
-mezweyaanh:mezwewaany    NI_SET    " 1 maple sugar candy" ; !Rand key:n71429643155n
-mnishenh:minisheny    NI_SET    " 1 island" ; !Rand key:n71430243156n
-wii'gadoonh:wiihVv1gadoony    NI_SET    " 1 [an item of] old clothing" ; !Rand key:n73034128546n
-!} ny end
+!{e1ny
+aadaanoonh:aadaanoe1ny    NI_SET    " 1 corn dumpling" ; !Rand key:n72972575664n
+aan'konaanh:aanakonae1ny    NI_SET    " 1 cracker, soda biscuit" ; !Rand key:n72973446313n
+bekgoodenh:bekVv1goode1ny    NI_SET    " 1 padlock" ; !Rand key:n72967738838n
+bewaatenh:bewaate1ny    NI_SET    " 1 lantern" ; !Rand key:n72976565144n
+biiwaan'goonh:biiwaanagoe1ny    NI_SET    " 1 flint" ; !Rand key:n72977485754n
+eshkdamoonh:eshkadamoe1ny    NI_SET    " 1 watermelon" ; !Rand key:n73015876778n
+eshoonh:eshoe1ny    NI_SET    " 1 cabbage" ; !Rand key:n73015877282n
+eskgamdenh:eskigamide1ny    NI_SET    " 1 tonic" ; !Rand key:n73102084422n
+eyiidwaabdeyaanh:eyiidawaabideyae1ny    NI_SET    " 1 double axe" ; !Rand key:n73035440182n
+gbodenh:gibode1ny    NI_SET    " 1 blood sausage" ; !Rand key:n73018843712n
+gboosnenh:giboosVv1ne1ny    NI_SET    " 1 trousers" ; !Rand key:n73019338694n
+gdagiigaanh:gVi1dagiigae1ny    NI_SET    " 1 rag" ; !Rand key:n73102054039n
+gebgaadenh:gebVv1gaade1ny    NI_SET    " 1 hamper;  2 a type of large basket" ; !Rand key:n73019736306n
+gepgaanh:gepagae1ny    NI_SET    " 1 heavy quilt, thick blanket" ; !Rand key:n73020046385n
+geshkgwaaswaanh:geshkigwaaswae1ny    NI_SET    " 1 sewing machine" ; !Rand key:n73020047204n
+geshkbizoonh:geshkibizoe1ny    NI_SET    " 1 steamed pudding [wrapped in cloth and made at Christmastime]" ; !Rand key:n73020244993n
+giishknakdoonh:giishkanakadoe1ny    NI_SET    " 1 tree stump" ; !Rand key:n73023742396n
+gookoombenh:gookoombe1ny    NI_SET    " 1 cucumber" ; !Rand key:n73043047707n
+jechiibaaksenh:jechiibaakVv1se1ny    NI_SET    " 1 rocking chair" ; !Rand key:n73032646359n
+jiibkenh:ojiibike1ny    NI_SET    " 1 root" ; !Rand key:n73028347568n
+jiichiibaaksenh:jiichiibaakVv1se1ny    NI_SET    " 1 [see jechiibaaksenh]" ; !Rand key:n73032646272n
+jikenh:Vv1jike1ny    NI_SET    " 1 tree stump" ; !Rand key:n73028443154n
+kajdenh:Vv1kajVv1de1ny    NI_SET    " 1 dried pumpkin [a dish]" ; !Rand key:n73016755653n
+koombenh:koombe1ny    NI_SET    " 1 cucumber" ; !Rand key:n71429047078n
+medwewebdenh:medwewebide1ny    NI_SET    " 1 motorboat" ; !Rand key:n73032815076n
+memaangsheyaanh:memaangisheyae1ny    NI_SET    " 1 a type of basket with two ring handles, big-eared basket" ; !Rand key:n71429561413n
+miishkoonh:miishkoe1ny    NI_SET    " 1 weed" ; !Rand key:n73097048236n
+minoonkenh:Vv1minoonVv1ke1ny    NI_SET    " 1 smokehole" ; !Rand key:n71429740363n
+mjigoodenh:manjigoode1ny    NI_SET    " 1 dress, skirt" ; !Rand key:n71429742353n
+mnisenh:minise1ny    NI_SET    " 1 island" ; !Rand key:n71430242707n
+Mnishenh:minishe1ny    NI_SET    " 1 Walpole Island, Ont." ; !Rand key:n71430243056n
+nebgaanh:nebagae1ny    NI_SET    " 1 [see nenaabgaan]" ; !Rand key:n73099855659n
+nenaabgaanh:nenaabagae1ny    NI_SET    " 1 [see nenaabgaan]" ; !Rand key:n71431558115n
+noon'kenh:noonVv1ke1ny    NI_SET    " 1 crock, earthenware jar, bean jar" ; !Rand key:n72916458395n
+pashkwaajiinh:apashkwaajie1ny    NI_SET    " 1 balloon; ??air bladder [of a fish]" ; !Rand key:n73031179677n
+shibaayiigni-mjigoodenh:Vv1shibaayiigini-majigoode1ny    NI_SET    " 1 dress made of chiffon" ; !Rand key:n7303409556n
+waab-gookookoonh:waab-gookookoe1ny    NI_SET    " 1 wedding cake" ; !Rand key:n73032181171n
+waawaaskonenh:waawaazakone1ny    NI_SET    " 1 flower" ; !Rand key:n73032685124n !za changed from si!
+wewiinbaanh:wewiinVv1bae1ny    NI_SET    " 1 squash" ; !Rand key:n73032949250n
+wiig'asiinh:wiigahasie1ny    NI_SET    " 1 dustballs" ; !Rand key:n73034128473n
+wiikenh:wiike1ny    NI_SET    " 1 sweet flag (waterside plant), sweet flag root;  2  iris" ; !Rand key:n73033038835n
+wiimbnakdoonh:wiimbanakadoe1ny    NI_SET    " 1 hollow log, hollow stump" ; !Rand key:n73033051388n
+zasaanh:wazasae1ny    NI_SET    " 1 nest" ; !Rand key:n73033323564n
+zegaabkaadenh:zegaabikaade1ny    NI_SET    " 1 basket [with a handle]" ; !Rand key:n73033381888n
+zhashkwedoonh:wazhashkwedoe1ny    NI_SET    " 1 mushroom" ; !Rand key:n73033517432n
+zhoomaan'kenh:zhoomaanike1ny    NI_SET    " 1 cent, penny" ; !Rand key:n73034013736n
+ziibiiwenh:ziibiiwe1ny    NI_SET    " 1 brook, creek, stream" ; !Rand key:n73035444075n
+bbagwayaanenh:babagiwayaane1ny    NI_SET    " 1 cloth, fabric" ; !Rand key:n201132611-24-36n
+tametoonh:tametoe1ny    NI_SET    " 1 tomato" ; !Rand key:n201141010-34-39n
+aaswaakjiidenh:aaswaakojiide1ny    NI_SET    " 1 a type of scone cooked on a stick by a fire" ; !Rand key:n2016167-24-17n
+bengwidenh:bengwide1ny    NI_SET    " 1 maple taffy" ; !Rand key:n201611117-41-23n
+desaabkidenh:desaabikide1ny    NI_SET    " 1 scone that’s fried on a lightly greased pan" ; !Rand key:n20161239-23-47n
+ezaawaanh:ezaawae1ny    NI_SET    " 1 muskmelon, cantaloupe" ; !Rand key:n73015878845n
+gebkadiinh:gebVv1kadie1ny    NI_SET    " 1 comforter (bedding)" ; !Rand key:n73019736409n
+mezweyaanh:mezwewae1ny    NI_SET    " 1 maple sugar candy" ; !Rand key:n71429643155n
+mnishenh:minishe1ny    NI_SET    " 1 island" ; !Rand key:n71430243156n
+wii'gadoonh:wiihVv1gadoe1ny    NI_SET    " 1 [an item of] old clothing" ; !Rand key:n73034128546n
+!}e1ny end
 goodaagan:goodaagan    NI_SET    " 1 stovepipe" ; !Rand key:n73030423828n
 aabaabka'gan:aabaabikahigan    NI_SET    " 1 key" ; !Rand key:n7291535896n
 aabdaako-pabwin:aabVv1daako-apabiwin    NI_SET    " 1 bench" ; !Rand key:n73101855988n
@@ -2387,7 +2387,6 @@ ngaakgan:%^gaakigan    NID_SET    " 1 my chest" ; !Rand key:n73016049601n
 nmashkmat:%^mashkimVa1d    NID_SET    " 1 my scrotum" ; !Rand key:n71429345182n
 nzhigon:%^zhigon    NID_SET    " 1 my fin, my fishtail " ; !Rand key:n73072681460n
 ngatik:%^gatigo    NID_SET    " 1 my forehead" ; !Rand key:n73017581238n
-nkanenh:%^kaneny    NID_SET    " 1 bone" ; !Rand key:n71428954160n
 ndaas:%^daas    NID_SET    " 1 sock, stocking;  2 legging" ; !Rand key:n72987346399n
 ndasnaake:%^odasinaake     NID_SET    " 1 my brisket (of an animal), my breast cage and associated meat (of an animal)" ; !Rand key:n72989353393n
 ndoodoosh:%^doodoosh    NID_SET    " 1 nipple, (woman's) breast;  2 pacifier (for a child)" ; !Rand key:n73014478630n
@@ -2399,7 +2398,6 @@ nmiinjis:%^miinijis    NID_SET    " 1 a strand of head hair" ; !Rand key:n730970
 nmiinzis:%^miinizis    NID_SET    " 1 [see miinjis]" ; !Rand key:n71429681998n
 nminiingwaagan:%^miniingwaagan    NID_SET    " 1 sand [in one's eyes], sleep [in one's eyes]" ; !Rand key:n71429739898n
 nminiingwaan:%^miniingwaan    NID_SET    " 1 sand [in my eyes], sleep [in my eyes];  2 my gills" ; !Rand key:n71429740006n
-nnagwenh:%^nagweny    NID_SET    " 1 sleeve" ; !Rand key:n73098540030n
 nbikon:%^bikon    NID_SET    " 1 my back" ; !Rand key:n72977543684n
 nbikwan:%^bikon    NID_SET    " 1 my back" ; !Rand key:n72977543788n ![gk]Vo1 replaced with [gk]o
 nbokgonaagan:%^bokogonaagan    NID_SET    " 1 the bump on my ankle" ; !Rand key:n72979753824n
@@ -2409,9 +2407,7 @@ ndaamkan:%^daamikan    NID_SET    " 1 my chin, my [lower] jaw" ; !Rand key:n7298
 ndatgaagon:%^datagaagon    NID_SET    " 1 my backbone, my spine" ; !Rand key:n72989353687n
 ndazhgan:%^azhigan    NID_SET    " 1 my sock" ; !Rand key:n72974462861n
 ndengway:%^dengway2   NID_SET    " 1 my face" ; !Rand key:n73003251780n
-ndengwenh:%^dengweny    NID_SET    " 1 my face" ; !Rand key:n73003251855n
 ndeteg:%^detegw1    NID_SET    " 1 my temple [ref. to side of head];  2 my gills" ; !Rand key:n73003956132n
-ndiyenh:%^diyeny    NID_SET    " 1 my ass, my buttocks, my rear end" ; !Rand key:n73005350524n
 ndindwin:%^indowin    NID_SET    " 1 my fault" ; !Rand key:n73004852231n
 ndinmaangan:%^dinimaangan    NID_SET    " 1 my shoulder" ; !Rand key:n73004852829n
 nndip:%^ndib    NID_SET    " 1 my head" ; !Rand key:n71431443359n
@@ -2465,6 +2461,10 @@ nzhiignaang:%^zhiiganaang    NID_SET    " 1 my lower back" ; !Rand key:n73035139
 nshkiinzhik:%^shkiinzhigo    NID_SET    " 1 my eye" ; !Rand key:n201091815-9-44n
 ntawag:%^tawag    NID_SET    " 1 my ear" ; !Rand key:n2010121510-37-14n
 ndagwin:%^agwin    NID_SET    " 1 item of clothing" ; !Rand key:n20114215-19-5n
+nkanenh:%^kane1ny    NID_SET    " 1 bone" ; !Rand key:n71428954160n
+nnagwenh:%^nagwe1ny    NID_SET    " 1 sleeve" ; !Rand key:n73098540030n
+ndengwenh:%^dengwe1ny    NID_SET    " 1 my face" ; !Rand key:n73003251855n
+ndiyenh:%^diye1ny    NID_SET    " 1 my ass, my buttocks, my rear end" ; !Rand key:n73005350524n
 
 LEXICON NA_SET
 @P.Animate.1@   NA_TAG ;
