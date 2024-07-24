@@ -86,7 +86,7 @@ LEXICON REPETITION_ONE_NINE
 ngod+Num:ningod     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
 niizh+Num:niizh     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
 nswi+Num:nis     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
-niiwin+Num:niiw     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ; !this w needs to be there for repetition -ing form
+niiwin+Num:niiw     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ; !this w needs to be there for repetition -ing form, also niiwgon'gizid
 naanan+Num:naan     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
 ngodwaaswi+Num:ningodwaach     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
 niizhwaaswi+Num:niizhwaach    NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
