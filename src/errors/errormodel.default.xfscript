@@ -72,7 +72,7 @@ define gnMetathesis                 [g n (->) [n g::3] || _ \[a|e|i|o]] ;
 define nasalPlaceAssimilation       [m (->) [n::3] || _ [d|t|g|k|z|s] ,,
                                     m (->) [[n %']::3] || _ [z|s|g|k] ,,
                                     n (->) [m::3] || _ [b|p] ]; 
-define strandedNas [[n|m] (->) [0::3] || [.#.|\[a|e|i|o]]  _ \[a|e|i|o|w|y] ]; !adding further restrictions on the thinking that with an approximant following the cues to n would be less likely to be swallowed
+define strandedNas [[n|m|w|y] (->) [0::3] || [.#.|\[a|e|i|o]]  _ \[a|e|i|o] ]; !rule deletes m|n even when there is a following glide (even though with an approximant following the cues to n might be less likely to be swallowed). This is done because we are now deleting stranded glides as well, and they definitely can be stranded with a neighboring glide. Could of course make there be two rules
 
 !!!!punctuation
 define negHyphEpenthesis            [[..] (->) [%-::3] || _  [s|z] i i] ; 
