@@ -90,7 +90,7 @@ define codaseqs [
                 j|[c h]|
                 [z (h)]|[s (h) (p|t|k)]|
                 [m (b)]|[n (d|[z (h)]|j|g|h|s|y)]|
-                w|y|
+                w|y|h|
                 w1|w5|y1|y2|m1|n1|n2|n3|n4|s1|b1|d1|d2
                 ]; 
 define longv [a a|e|i i|o o];
