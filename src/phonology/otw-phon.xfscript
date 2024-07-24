@@ -195,17 +195,18 @@ define rmc2 [c2 -> 0] ;
 !####
 !#reduplication template filling rules
 !####
+!numerical reduplication (for distributive numbers) has e-vocalism, verbal reduplication has VRED1
 define cfill [
-    CRED1 -> b      || _ VRED1 b .o.
-    CRED1 -> d      || _ VRED1 d .o.
-    CRED1 -> g      || _ VRED1 g .o.
-    CRED1 -> j      || _ VRED1 j .o.
-    CRED1 -> z      || _ VRED1 z .o.
-    CRED1 -> z h    || _ VRED1 z h .o.
-    CRED1 -> m      || _ VRED1 m .o.
-    CRED1 -> n      || _ VRED1 n .o.
-    CRED1 -> w      || _ VRED1 w .o.
-    CRED1 -> y      || _ VRED1 y .o.
+    CRED1 -> b      || _ [VRED1|e] b .o.
+    CRED1 -> d      || _ [VRED1|e] d .o.
+    CRED1 -> g      || _ [VRED1|e] g .o.
+    CRED1 -> j      || _ [VRED1|e] j .o.
+    CRED1 -> z      || _ [VRED1|e] z .o.
+    CRED1 -> z h    || _ [VRED1|e] z h .o.
+    CRED1 -> m      || _ [VRED1|e] m .o.
+    CRED1 -> n      || _ [VRED1|e] n .o.
+    CRED1 -> w      || _ [VRED1|e] w .o.
+    CRED1 -> y      || _ [VRED1|e] y .o.
     !and initial Cw words?
     !{Trying to get RED-ateg to come out as tateg in addition to the historically expected yateg (<ayateg)
     !be alert to VRED1 actually needing to be filled by the historical vowel (too little data to know at the moment... though this innovation presupposes word is now C-initial)
