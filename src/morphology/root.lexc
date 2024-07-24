@@ -580,12 +580,13 @@ Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyn
 @P.NUMERAL.ORD@
 @P.NUMERAL.TEN@
 @P.NUMERAL.HUNDRED@
+@P.NUMERAL.VERB@
 
 !get
 @R.NUMERAL.HUNDRED@
 @D.NUMERAL.ORD@
 @D.NUMERAL.TEN@
-
+@D.NUMERAL.VERB@
 
 LEXICON Root !!= @CODE@ points to the other lexica
 ! Note that whenever a new part of speech, and a new file (like propernouns, etc.)
