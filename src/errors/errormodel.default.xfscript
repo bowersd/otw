@@ -50,8 +50,8 @@ define glottalWCluster              [[..] -> h  || [a|e|i|o] [\[c|s|n|z]|[[c|s|n
 
 !!!! Voice in clusters
 define stridentDevoicing            [z h (->) [s h::3], z (->) [s::3] || _ [p|t|k|b|d|g],,
-                                        [z h] [b|d|g] (->) [[s h [p|t|k]]::4],,
-                                        [z] [b|d|g] (->) [[s [p|t|k]]::4]
+                                        z h b (->) [s h p::4] ,, z h d (->) [s h t::4] ,, z h g (->) [s h k::4] ,,
+                                        z b (->) [s p::4] ,, z d (->) [s t::4] ,, z g (->) [s k::4] 
                                         ] ; 
 define postStridentDevoicing        [b (->) [p::3], d (->) [t::3], g (->) [k::3] || [s (h)] _ ] ; 
 define clusterDevoicing             [b (->) [p::3], d (->) [t::3], z (->) [s::3], j (->) [c h::3], z h (->) [s h::3] || _ [p|t|k|s|c]] ;  
