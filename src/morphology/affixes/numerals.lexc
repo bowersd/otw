@@ -64,7 +64,7 @@ niizhwaaswi+Num:niizhwaas        CARDINALS_TENS_MIDANA;
 nshwaaswi+Num:nishwaas           CARDINALS_TENS_MIDANA; 
 zhaangswi+Num:zhaangas           CARDINALS_TENS_MIDANA; 
 mdaaswi+Num:midaaswi             CARDINALS_TENS_SHI;
-+shi+Conj+:-ashi-                CARDINAL_REPETITION_GATEWAY; !short form of -teen words
+shi+Conj+:ashi-                  CARDINAL_REPETITION_GATEWAY; !short form of -teen words
                                  CARDINAL_REPETITION_GATEWAY; 
 !REPETITION VERSIONS OF 10
 mdaaswi+Num:midaas               NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY;
