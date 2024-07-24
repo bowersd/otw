@@ -130,7 +130,7 @@ define preLen [ [..] -> o || shortv %< _ o ];
 define preEpen [ [..] ->  d || shortv _ %< vowel ];
 !}
 define conDimMutation [[m|n] (->) 0 || _ %> e1 n [y|s] ] ; 
-define conPl [ shortv -> i || e1 n y %>  _ ]; !would be nice to have y1 here, but then it is the only y1 that doesn't delete !DAB 2023 this duplicates a ya->yi rule we have more generally in spelling relaxation
+define conPl [ shortv (->) i || e1 n y %>  _ ]; !would be nice to have y1 here, but then it is the only y1 that doesn't delete !DAB 2023 this duplicates a ya->yi rule we have more generally in spelling relaxation !DAB 2024 CONTRA VALENTINE 2001:190, this is apparently optional, since we have many lexical contemptives in the corpus with enyan/enyag, and also some (apparently derived) contemptives with enyan: bnenyan from AM
 
 define a1toshort    [a1 %> a  ->  a %>] ;
 define a1toe        [a1 %> e1  -> %> e] ;
@@ -323,9 +323,9 @@ define ny [[y|y1] -> h || n _ [%-|.#.]] ;
 define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] cseqs _ .#. ,, !cons specified because 'i' in 'ii' shouldn't delete
                  [L1|w|y|absv|w1|w2|y1] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] (cseqs) _ .#.]; !these rules apply "at the same time"
 
-define hw2w [ h w -> h, h w -> [w::1] || _ .#. .o. !this could probably be trimmed to just word-finally (there should not be any word final shw by this point of the derivation)
-            h w -> w || \[s|z|c|n] _ ] ; !afaik, in all other environments glottal-w clusters are reduced to w. see note immediately below
-            ] ; !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9 (who says there are word-final h's. this is quite clearly true for hw verbs in Minnesota Ojibwe), we allowed the h to appear when word final (bc this rule is bled by glidedel), otherwise, w (this was a guess). There are quite clear cases of hw verbs becoming w verbs (giishkaw in AM!), so the rule has become more of an either-or, and moved to counter-bleed glidedel
+define hw2w [ [h w -> h, h w -> [w::1] || _ .#.] .o. !this could probably be trimmed to just word-finally (there should not be any word final shw by this point of the derivation)
+            [h w -> w || \[s|z|c|n] _ ]] ; !afaik, in all other environments glottal-w clusters are reduced to w. see note immediately below
+            !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9 (who says there are word-final h's. this is quite clearly true for hw verbs in Minnesota Ojibwe), we allowed the h to appear when word final (bc this rule is bled by glidedel), otherwise, w (this was a guess). There are quite clear cases of hw verbs becoming w verbs (giishkaw in AM!), so the rule has become more of an either-or, and moved to counter-bleed glidedel
 
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
