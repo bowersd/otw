@@ -15,7 +15,6 @@ nakmigzi:inakamigizi # !syncope problems
 maajiigi:maajiigi    # "grow" ; !something to do with youth/adolescence
 maakhigaazo:maakihigaazo    # "maim" ; !phonological problem a/o, o/_ need lexical passive
 maandoobda:maandoobida # "rush together" ; !phonological problem undersyncope, can't find much here, also it should be maandobda I'm pretty sure but is listed in Firepad as maandoobdaw 
-mdaa'aagmishkaa:madaahaagamishkaa # ; !should this actually be ndaa'aagmishkaa? something to do with stirring and something to do with something coming off
 mnidoonaago:manidoonaago    # ; !maybe related to mji-mnidoo, mnidoo- has something to do with magic/ritual it seems
 mshkawzii:mashkawizii    # "be powerful" ; !phonology problem, weird syncope, also maybe actually something more like mshkwiizii?
 mtaakzide:mitaakzide    # "bare one's feet" ; !guess on the def. based on notes apparent neologism formed from mtaak "naked" and nzit "my foot"
@@ -37,18 +36,18 @@ zaasaabza:zaasaabizo # "really blinds people" ;
 zhaa:izhaa # "come over" ; !morphological problem
 zhaagnaashiigaabwi:zhaagnaashiigaabwi    # ; !missing derivation, there's also a comment about missing inflection -nind but might that have just been a spelling error?
 zhi-yaa:izhi-ayaa    # "be a certain way" ; !looks to already be in the tmp.lexc file
-biidewezge    # "heard gunshots approaching" ; !phonological problems, weirdness with biidwewe vs biidewe?
+biidewezge:biidewezige    # "heard gunshots approaching" ; !phonological problems, weirdness with biidwewe vs biidewe? biid- "come this way"
 bboon'gizi:biboonagizi    # "number of year" ;
 baazgogaadewaakjin:baazagogaadewaakojin    # "scratched legs" ;
 dnitaagzi:adnitaagzi    # "be heard saying" ;
 bmagkwese:bVv1magikwese # "shake head" ;
-waakeyaabiigshin    # "lie coiled up" ;
-enwewezge    # ; !something about noise? maybe the CCNJ of inwewezaa+antipassive?
+waakeyaabiigshin:waakeyaabiigishin    # "lie coiled up" ;
+enwewezge:enwewezige    # ; !something about noise? maybe the CCNJ of inwewezaa+antipassive?
 ndobni:nandobani    # "go on the warpath, scout" ; !semantic problems, phonological problem, maybe already in tmp.lexc though
 aanjge:aanjige    # "change home" ; !undersyncope
 debnawe:debinawe    # ; !undersyncope, syntactic problems
 myagshin:mayagishin    # "be strange" ; !undersyncope/oversyncope
-dashi    # "be so many (AN)" ;
+dshi:dashi  # "be so many (AN)" ; !undersyncope
 zhindam:izhindam    # "became an in-law" ; !initial <i> is Vi1 in special Valentine characters, not sure if I'm supposed to be transcribing URs with those
 dawaan'ke:dawaanike    # "have a hole" ; !undersyncope
 
@@ -58,20 +57,20 @@ taason:ataason    # "store smt." ; !missing derivation, taaso is also possible
 
 LEXICON NU_VII
 aagwaate:aagawaate'o # "shade someone" ;
-bakise # "break apart" ; !in West
-bekaadendaagod # "be at peace, be content" ; !see bekaadendam
+bkise:bakise # "break apart" ; !in West
+bekaadendaagod:bekaadendaagod # "be at peace, be content" ; !see bekaadendam, is -aagod "seem" or something like that?
 bgamshkaa:bagamashkaa    # ; !something to do with adoption?
 bgojgin:bagojigin    # "grow" ;
-biisniiskaa    # "be in little stone pieces" ; !not clear where -iiskaa comes from
-bmaabkaa    # "cliff" ; !first vowel is either a or i, based on CCNJ 
-bmaabkisin    # "cliff" ; !apparently an error for bmabkaa
+biisniiskaa:biisiniiskaa    # "be in little stone pieces" ; !not clear where -iiskaa comes from
+bmaabkaa:bimaabikaa    # "cliff" ; !first vowel is either a or i, based on CCNJ 
+bmaabkisin:bimaabikisin    # "cliff" ; !apparently an error for bmabkaa
 booniise:booniise    # "land" ;
-giitaawaaksin # "lie in a wheel shape" ; !related to -aako, sticklike object
-giizhgad    # "be day" ; !missing derivation. maybe already in tmp.lexc?
+giitaawaaksin:giitaawaakosin # "lie in a wheel shape" ; !related to -aako, sticklike object
+giizhgad:giizhigad    # "be day" ; !missing derivation. maybe already in tmp.lexc?
 gidaakiiwan:agidaakiiwan    # "be a hill" ;
 kwaakoon'gat:akwaankoonagad    # ; !irrational compounding
-mdaa'aagmishkaa    # "stir" ; !final is weird
-naab-igaade # ; !something to do with tying
+mdaa'aagmishkaa:madaa'aagamishkaa    # "stir" ; !final is weird, should this actually be ndaa'aagmishkaa? something to do with stirring and something to do with something coming off
+naab-igaade: # ; !something to do with tying
 naabkaa:inaabikaa    # "be a rock shaped in such a way" ;
 naagmat    # "follow" ;
 naagmishkaa # "swirl" ;
