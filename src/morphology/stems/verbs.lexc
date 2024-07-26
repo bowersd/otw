@@ -108,6 +108,9 @@ zhaangse:zhaangise                  VII_TAG     "1 be jiggly, 2 jello (as partic
 !End Rand database dump 2024}
 dba'gane:dibahigane     VII_TAG "be so many hours, used with numerical preverb to count time" ; !this can be found in the OPD.  I could require numerical preverbs to appear ... should any other preverbs be prevented from appearing? 
 dba'ganet:dibahiganed2     VII_TAG "be so many hours, used with numerical preverb to count time" ; !this can be found in the OPD.  I could require numerical preverbs to appear ... should any other preverbs be prevented from appearing?
+!{start story review new words
+mnidoonaagod:manidoonaagod2 VII_TAG "look like a mnidoo" ; !should there be a VII derivation with -naagod? (also VAI naagzi)
+!end story review new words}
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -2121,6 +2124,24 @@ papgijge:apapagijige        VAI_TAG     "1 pitch 2 baseball pitcher (as a partic
 pagjige:apagijige        VAI_TAG     "1 pitch 2 baseball pitcher (as a participle e-pagjiget)" ; !base of epagjiget (n73015876176n), which we derive instead of listing 
 !{end stems added to make a base for derived nouns (participles, ni/na-pt)
 !End Rand database dump 2024}
+!{start new words turned up during story review
+aabdankii:aabidanokii    VAI_TAG "work continuously" ;
+baapoogdizi:baapoogidizi VAI_TAG "going around teasing" ; !related to boog-
+biimskogaa:biimiskogaa    VAI_TAG "dance around in a circle"; !something to do with dancing due to relation with baabiimskogaa
+biinjgwaashkni:biinjigwaashkoni    VAI_TAG "jump into" ; !biinji- + gwaashkoni
+bmaajmo:bimaajimo    VAI_TAG "go around talking" ; !missing derivation from bim and aajim
+ggwaan'sagnaagzi:gagwaanisaginaagozi    VAI_TAG "look awful" ;
+giitaawgaa:giitaawigaa    VAI_TAG "dance in a circle" ; !derivation is giitaa + gaa, why the <w>?
+gnawendaagzi:ganawendaagozi    VAI_TAG "be looked after"; !seem to be looked out for?
+gpiibtoo:gopiibatoo    VAI_TAG "run up from the water's edge" ; 
+nakmigzi:inakamigizi VAI_TAG "get involved in such a way"; !syncope problems
+mtaakzide:mitaakizide VAI_TAG "be bare footed";
+naadge:inaadage VAI_TAG "swim in such a way";
+ndose:ondose VAI_TAG "come hither";
+nagkwaakzi:inagokwaakozi VAI_TAG "be a wooden object of such size" ; 
+niisaakiiwe:niisaakiiwe VAI_TAG "go downhill" ; 
+niizaani:naniizaani  VAI_TAG "anticipate negative outcome, feel at risk of" ; 
+!end new words turned up during story review}
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
@@ -4763,7 +4784,7 @@ myaawdabi:mayaawidabi    VAI_TAG    " 1 sit upright" ; !Rand key:n73033251226n
 myaawshin:mayaawishin    VAI_TAG    " 1 be placed upright, be set upright" ; !Rand key:n71430565044n
 myagi-zhiyaa:mayagi-izhi-ayaa    VAI_TAG    " 1 act strange, be aloof, be standoffish" ; !Rand key:n71430565707n
 myagizi:mayagizi    VAI_TAG    " 1 be a stranger" ; !Rand key:n71430565927n
-myagnaagzi:mayagnaagozi    VAI_TAG    " 1 look strange" ; !Rand key:n73098278605n
+myagnaagzi:mayaginaagozi    VAI_TAG    " 1 look strange" ; !Rand key:n73098278605n
 myagnjige:mayaganjige    VAI_TAG    " 1 eat food that one has never eaten before, eat strange food" ; !Rand key:n73098278404n
 myegshkizi:mayegVv1shkizi    VAI_TAG    " 1 have a strange voice, sound like a stranger" ; !Rand key:n73033251594n
 mzaanwaakzi:mizaanwaakozi    VAI_TAG    " 1 be covered in burrs" ; !Rand key:n73044642609n
@@ -7118,6 +7139,9 @@ bke'aa:bakehw    VTA_TAG    " 1 split people apart (as a reciprocal, have a fall
 twaa:ataw       VTA_TAG     "1 place sth. somewhere for smb. 2 gamble/bet/play cards/wager with sth." ; !base of taadwak " 1 bet one another, gamble with one another (Wp);  2 play cards with one another, play [some card game] with one another, play a [sports] game against each other (Wk)" ; !Rand key:n7303218992n, also base of already listed 'taage'. Now both can be derived! ataw can be found in OPD.
 natwaa:inataw   VTA_TAG     "1 place sth. for smb. in a certain way 2 play a certain game with each other" ; !base of nataadwak:Vi1nataadi    VAI_MANDATORY_RECIPROCAL    " 1 play a certain game with each other" ; !Rand key:n73098568568n, also base of nataage. built natwaa off of model of twaa. inataw is in OPD!
 ddibaajmotwaa:dadibaajimotaw VTA_TAG "1 relate a narrative to smb." ; !drawn from western forms. This is the base of the (reduplicated reciprocal) ddadbaajmotaadwak:dadadibaajimotaadi    VAI_MANDATORY_RECIPROCAL    " 1 engage in lively conversation with each other" ; !Rand key:n201132717-21-42n 
+!{start new words from story review
+maakwaa:maakihw VTA_TAG "1 maim smb." ;  !base of gii-maakogaaza (=gii-maakwigaazo) 'he was maimed'
+!}
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
