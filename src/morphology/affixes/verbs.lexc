@@ -283,28 +283,32 @@ PV/maanaaji+:maanaaji- V_REDUPLICATION_GATEWAY " 1 bad, evil, harmful, wrong";
 PV/mji+:maji- V_REDUPLICATION_GATEWAY " 1 badly, evilly";
 PV/mno+:mino- V_REDUPLICATION_GATEWAY " 1 good, well;  2 nice, pleasant";
 !{USED IN COUNTING, ALSO APPEAR IN PRENOUNS
-PV/dso+:n5daso-     V_REDUPLICATION_GATEWAY " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
+PV/dso+:n5daso-     V_PREVERBS_COUNTING_GATEWAY " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
 !PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
-PV/aabta+:aabita- V_REDUPLICATION_GATEWAY " 1 half, halfway; mid, midway";
-PV/n'go+:ningo- V_REDUPLICATION_GATEWAY " 1 one"; !should this be /ningo/ as in nouns.lexc?
-!PV/niizhoo+:niizhoo- V_REDUPLICATION_GATEWAY " 1 two"; 
-PV/niizho+:niizho- V_REDUPLICATION_GATEWAY " 1 two"; !this form used in reference grammar
-PV/n'so+:niso- V_REDUPLICATION_GATEWAY " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
-!PV/niiwoo+:niiwoo- V_REDUPLICATION_GATEWAY " 1 four"; 
-PV/niiwo+:niiwo- V_REDUPLICATION_GATEWAY " 1 four"; 
-!DUP REMOVE!PV/niiyoo+:niiyoo- V_REDUPLICATION_GATEWAY " 1 four" ; 
-PV/naano+:naano- V_REDUPLICATION_GATEWAY " 1 five"; 
-PV/n'godwaaso+:ningodwaaso- V_REDUPLICATION_GATEWAY " 1 six"; 
-!PV/n'godwaaso+:ningodwaasoo- V_REDUPLICATION_GATEWAY " 1 six"; !this form used in reference grammar
-PV/niizhwaaso+:niizhwaaso- V_REDUPLICATION_GATEWAY " 1 seven"; 
-!PV/niizhwaaso+:niizhwaasoo- V_REDUPLICATION_GATEWAY " 1 seven"; !this form used in reference grammar
-PV/nshwaaso+:nishwaaso- V_REDUPLICATION_GATEWAY " 1 eight"; 
-!PV/nshwaasoo+:nishwaasoo- V_REDUPLICATION_GATEWAY " 1 eight"; !this form used in reference grammar
-PV/zhaangso+:zhaangaso- V_REDUPLICATION_GATEWAY " 1 nine"; 
-!PV/zhaangso+:zhaangasoo- V_REDUPLICATION_GATEWAY " 1 nine"; !this form used in reference grammar
-PV/mdaaso+:midaaso- V_REDUPLICATION_GATEWAY " 1 ten"; !this form used in reference grammar
+PV/aabta+:aabita- V_PREVERBS_COUNTING_GATEWAY " 1 half, halfway; mid, midway";
+PV/n'go+:ningo- V_PREVERBS_COUNTING_GATEWAY " 1 one"; !should this be /ningo/ as in nouns.lexc?
+!PV/niizhoo+:niizhoo- V_PREVERBS_COUNTING_GATEWAY " 1 two"; 
+PV/niizho+:niizho- V_PREVERBS_COUNTING_GATEWAY " 1 two"; !this form used in reference grammar
+PV/n'so+:niso- V_PREVERBS_COUNTING_GATEWAY " 1 three";  !not sure what the Rhodes standard is for ns in this context... since there isn't a vowel that could be nasalized
+!PV/niiwoo+:niiwoo- V_PREVERBS_COUNTING_GATEWAY " 1 four"; 
+PV/niiwo+:niiwo- V_PREVERBS_COUNTING_GATEWAY " 1 four"; 
+!DUP REMOVE!PV/niiyoo+:niiyoo- V_PREVERBS_COUNTING_GATEWAY " 1 four" ; 
+PV/naano+:naano- V_PREVERBS_COUNTING_GATEWAY " 1 five"; 
+PV/n'godwaaso+:ningodwaaso- V_PREVERBS_COUNTING_GATEWAY " 1 six"; 
+!PV/n'godwaaso+:ningodwaasoo- V_PREVERBS_COUNTING_GATEWAY " 1 six"; !this form used in reference grammar
+PV/niizhwaaso+:niizhwaaso- V_PREVERBS_COUNTING_GATEWAY " 1 seven"; 
+!PV/niizhwaaso+:niizhwaasoo- V_PREVERBS_COUNTING_GATEWAY " 1 seven"; !this form used in reference grammar
+PV/nshwaaso+:nishwaaso- V_PREVERBS_COUNTING_GATEWAY " 1 eight"; 
+!PV/nshwaasoo+:nishwaasoo- V_PREVERBS_COUNTING_GATEWAY " 1 eight"; !this form used in reference grammar
+PV/zhaangso+:zhaangaso- V_PREVERBS_COUNTING_GATEWAY " 1 nine"; 
+!PV/zhaangso+:zhaangasoo- V_PREVERBS_COUNTING_GATEWAY " 1 nine"; !this form used in reference grammar
+PV/mdaaso+:midaaso- V_PREVERBS_COUNTING_GATEWAY " 1 ten"; !this form used in reference grammar
 !END USED IN COUNTING}
             V_REDUPLICATION_GATEWAY    ;
+
+LEXICON V_PREVERBS_COUNTING_GATEWAY
+    NUMERAL_FINALS ;
+    V_REDUPLICATION_GATEWAY ; 
 
 LEXICON V_REDUPLICATION_GATEWAY
 @D.NUMERAL.VERB@@P.NUMERAL.VERB@    CARDINALS ; !stopping back route for ko- to slip in
