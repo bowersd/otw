@@ -1,13 +1,17 @@
 LEXICON NU_VAI
 !{start not added. explanation in comments
+dshi:dashi  # "be so many (AN)" ; !undersyncope !there is already material for this in numerals
+enwewezge:inwewezige    # ; !something about noise? maybe the CCNJ of inwewezaa+antipassive? !this word didn't really make sense to RV and DAB
 gbishin:gibishin    # "be in the way" ; !this is in the dictionary
 bboon'gizi:biboonagizi # "be number of winters old" ; !this would require a numerical preverb/is somewhat built by numerals
+bboon'gizi:biboonagizi    # "number of year" ;
 gedwaane #  ; !irrational compounding, not much luck with UR, no results for ged, ge can mean 'also,' but no results for something like dwaane; no luck in Rhodes or OPD; UR could legit just be gedwaane though
 maajiigi:maajiigi    # "grow" ; !something to do with youth/adolescence !this is in the dictionary
 maandoobda:maandoobido # "rush together" ; !phonological problem undersyncope, can't find much here, also it should be maandobda I'm pretty sure but is listed in Firepad as maandoobdaw  !it would make sense if this meant 'clutch something in your hands', but it is a VTA with 'gun' as the object... the word was disfluent in the original recording, so it is not clear that it is real. rush together is in the English, but there is no verb that clearly means that in the Nishnaabemwin
 mshkawzii:mashkawizii    # "be powerful" ; !phonology problem, weird syncope, also maybe actually something more like mshkwiizii? !already in dictionary, both as mshkawzi and mshkawzii
 zhi-yaa:izhi-ayaa    # "be a certain way" ; !looks to already be in the tmp.lexc file
 niisaakiwe:niisaakiwe    # ; !something to do with sliding? this looks like a typo though !only going to enter niisaakiiwe
+zhaa:izhaa # "come over" ; !morphological problem !already in the dictionary
 !end not added. explanation in comments}
 aabdankii:aabidanokii    # "work continuously" ;
 baapoogdizi:baapoogidizi # "going around teasing" ; !related to boog-
@@ -20,16 +24,12 @@ gnawendaagzi:ganawendaagozi    # ; !seem to be looked out for?
 gpiibtoo:gopiibatoo    # "run up from the water's edge" ; 
 nakmigzi:inakamigizi # !syncope problems
 maakhigaazo:maakihigaazo    # "maim" ; !phonological problem a/o, o/_ need lexical passive !added as a vta /maakihw/
-mnidoonaago:manidoonaago    # ; !maybe related to mji-mnidoo, mnidoo- has something to do with magic/ritual it seems !should be vii mnidoonaagod
 mtaakzide:mitaakzide    # "bare one's feet" ; !guess on the def. based on notes apparent neologism formed from mtaak "naked" and nzit "my foot"
 naadge:inaadage # "swim in such a way" ; !there is maadge related to swimming, and all nasals are basically the same thing
 ndose:ondose    # "come hither" ; !ond- relative root for "source"
 nigkwaakzi:inagokwaakozi # "be a so-sized wooden object" ;
 niisaakiiwe:niisaakiiwe # "s/he goes downhill" ; 
 niizaani:naniizaani # "anticipate negative outcome, feel at risk of" ; !irrational compounding of niibin and bzaan, niizaanzi also already in tmp.lexc !the shorter form niizaani is not in tmp.lexc
-!!!
-!non-added forms below this point
-!!!
 nishnaabewnikaaza:anishnaabewinikaaza    # ; !missing derivation from nishnaabewi ("be a North American aboriginal person") and nikaazo ("be called")
 njigaadese:onjigaadese    # ; !something to do with legs?
 noozwinkaaza:anoozowinikaaza    # ; !missing derivation, possibilities listed are /noozowin+i+nikaazo/ and /noozowin+igaazo/, should actually be noozwin'kaaza
@@ -42,25 +42,23 @@ zaasaabza:zaasaabizo # "really blinds people" ;
 zhaa:izhaa # "come over" ; !morphological problem
 zhaagnaashiigaabwi:zhaagnaashiigaabwi    # ; !missing derivation, there's also a comment about missing inflection -nind but might that have just been a spelling error?
 biidewezge:biidewezige    # "heard gunshots approaching" ; !phonological problems, weirdness with biidwewe vs biidewe? biid- "come this way"
-bboon'gizi:biboonagizi    # "number of year" ;
 baazgogaadewaakjin:baazagogaadewaakojin    # "scratched legs" ;
 dnitaagzi:danitaagozi    # "be heard saying" ;
 bmagkwese:bVv1magikwese # "shake head" ;
 waakeyaabiigshin:waakeyaabiigishin    # "lie coiled up" ;
-enwewezge:inwewezige    # ; !something about noise? maybe the CCNJ of inwewezaa+antipassive?
 ndobni:nandobani    # "go on the warpath, scout" ; !semantic problems, phonological problem, maybe already in tmp.lexc though
 aanjge:aanjige    # "change home" ; !undersyncope
 debnawe:debinawe    # ; !undersyncope, syntactic problems
 myagshin:mayagishin    # "be strange" ; !undersyncope/oversyncope
-dshi:dashi  # "be so many (AN)" ; !undersyncope
 zhindam:izhindam    # "became an in-law" ; !initial <i> is Vi1 in special Valentine characters, not sure if I'm supposed to be transcribing URs with those
 dawaan'ke:dawaanike    # "have a hole" ; !undersyncope
 
 LEXICON NU_VAIO
 naanzon:inaanzon    # "dye" ;
-taason:ataason    # "store smt." ; !missing derivation, taaso is also possible
+taason:ataason    # "store sth." ; !missing derivation, taaso is also possible
 
 LEXICON NU_VII
+mnidoonaagod:manidoonaagod2   # ; !maybe related to mji-mnidoo, mnidoo- has something to do with magic/ritual it seems !should be vii mnidoonaagod
 aagwaate:aagawaate'o # "shade someone" ;
 bkise:bakise # "break apart" ; !in West
 bekaadendaagod:bekaadendaagod # "be at peace, be content" ; !see bekaadendam, is -aagod "seem" or something like that?
@@ -124,7 +122,7 @@ giishkjaanegnaamaa # "split nose by hitting" ; !syncope
 gobnaa:agobin    # "tie on" ; !phonological problem with missing initial <d>
 kwaawaa    # "attack" ; 
 mnjignikenaa:minjigonikenaa # "hold by the arms" ; !from minjigon
-naagdawenmaa    # ; "look after smt. for smb." ; !related to naagdawendmawaa, morphological problem
+naagdawenmaa    # ; "look after sth. for smb." ; !related to naagdawendmawaa, morphological problem
 n'gwaanaa # "trap, snare" ;
 njignaamaa # "smack with force" ; !nji- might be pv?
 noozwinkaanaa:anoozowinikaan    # "sign sth." ; !missing derivation, related to noozwin'kaadaan?
