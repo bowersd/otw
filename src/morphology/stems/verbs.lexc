@@ -2141,6 +2141,27 @@ ndose:ondose VAI_TAG "come hither";
 nagkwaakzi:inagokwaakozi VAI_TAG "be a wooden object of such size" ; 
 niisaakiiwe:niisaakiiwe VAI_TAG "go downhill" ; 
 niizaani:naniizaani  VAI_TAG "anticipate negative outcome, feel at risk of" ; 
+nishnaabewnikaaza:anishinaabewinikaazo    VAI_TAG "have an Indian name" ; !missing derivation from nishnaabewi ("be a North American aboriginal person") and nikaazo ("be called")
+njigaadese:onjigaadese    VAI_TAG "come from somewhere by foot"; !something to do with legs?
+noozwin'kaaza:anoozowinikaazo    VAI_TAG "be called a name" ; !missing derivation, possibilities listed are /noozowin+i+nikaazo/ and /noozowin+igaazo/, should actually be noozwin'kaaza
+nwewemaazo:inwewemaazo    VAI_TAG "sing" ; !from inwewe + maazo
+sweb'iwe:zaswebahiwe    VAI_TAG "disperse by running" ; !phonological problem, missing derivation, _/z a/_, _/i need full root or concatenation of -bahiwe 'run' (this is primary derivation)
+swekaa:zaswekaa    VAI_TAG "spread out" ; !this is also a VII, but the stem can take -waad, so can it also be a VAI?
+wiinza:wiinzo    VAI_TAG "have a name" ; !orthographic problems
+yaapiichbizi:ayaapiichibizi    VAI_TAG "speed up to a threshold" ; !not sure about first vowel or really what's going on at all
+zaasaabza:zaasaabizo VAI_TAG "really blinds people" ;
+zhaagnaashiigaabwi:zhaaganaashiigaabawi    VAI_TAG "stand like a white man"; !missing derivation, there's also a comment about missing inflection -nind but might that have just been a spelling error?
+biidwewezge:biidwewezwige    VAI_TAG "come while making gunshots" ; !phonological problems, weirdness with biidwewe vs biidewe? biid- "come this way"
+baazgogaadeyaakjin:baazagogaadeyaakojin    VAI_TAG "scratched legs" ;
+dnitaagzi:n5danitaagozi    VAI_TAG "make sound from such a location" ;
+bmagkwese:bVv1magikwese VAI_TAG "shake head" ;
+waakeyaabiigshin:waakeyaabiigishin    VAI_TAG "lie coiled up" ;
+ndobni:andobani    VAI_TAG "go on the warpath, scout" ; !nandobani is already in tmp.lexc, root is variable across dialects, so I include this here because it is what was attested in Ettawageshik
+aanjge:aanjige    VAI_TAG "change home" ; !this is in Baraga
+debnawe:dibinawe    VAI_TAG "be directly related"; 
+myagshin:mayagishin    VAI_TAG "be strange to a place" ; 
+zhindam:izhindam    VAI_TAG "became an in-law" ; !initial <i> is Vi1 in special Valentine characters, not sure if I'm supposed to be transcribing URs with those
+dawaan'ke:dawaanike    VAI_TAG "have a hole" ; !undersyncope
 !end new words turned up during story review}
 
 LEXICON VAI
