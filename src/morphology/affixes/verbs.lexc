@@ -192,38 +192,42 @@ LEXICON V_PREVERBS_RELATIVE_ORDER_SET
 
 LEXICON V_PREVERBS_ASPECT
 !{ uncertain of position
-PV/ntami+:nitami-    V_PREVERBS_MANNER    " 1 first [before others, i.e., relative position in a sequence]" ; !Rand key:n73099772452n
-PV/bgami+:bagami-    V_PREVERBS_MANNER    " 1 become, commence, arrive" ; !Rand key:n201132615-13-29n
-PV/ekwaa+:ekwaa-    V_PREVERBS_MANNER    " 1 finish" ; !Rand key:n73024180454n
-PV/epiichi+:epiichi-    V_PREVERBS_MANNER    " 1 while" ; !Rand key:n72972557481n
-PV/gaagge+:gaagige-    V_PREVERBS_MANNER    " 1 forever, for all time" ; !Rand key:n73016041873n
-PV/giizhi+:giizhi-    V_PREVERBS_MANNER    " 1 finish [doing something]" ; !Rand key:n73024238614n
-PV/gji+:goji-    V_PREVERBS_MANNER    " 1 try [to do something]" ; !Rand key:n73024559959n
-PV/jaagi+:jaagi-    V_PREVERBS_MANNER    " 1 all, completely [gone]" ; !Rand key:n73028052357n
-PV/megwaaji+:megwaaji-    V_PREVERBS_MANNER    " 1 in the middle [of doing something], in the process of [doing something]" ; !Rand key:n71429845986n
-PV/mmendaaji+:mamendaaji-    V_PREVERBS_MANNER    " 1 want to do more of something" ; !Rand key:n73045650324n
-PV/n'kawe+:nakawe-    V_PREVERBS_MANNER    " 1 [do something] first [before doing something else], interrupt what one is doing [to do something]" ; !Rand key:n71433050533n
-PV/ke+:ke-    V_PREVERBS_MANNER    " 1 do something first [before doing something else], do something first [before resuming another activity]" ; !Rand key:n2011448-22-2n !PV/ke cannot have the UR /ke-/ (there should at least be a vowel first)
-PV/dede+:dede-    V_PREVERBS_MANNER    " 1 enough" ; !Rand key:n201132719-28-57n
+PV/ntami+:nitami-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 first [before others, i.e., relative position in a sequence]" ; !Rand key:n73099772452n
+PV/bgami+:bagami-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 become, commence, arrive" ; !Rand key:n201132615-13-29n
+PV/ekwaa+:ekwaa-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 finish" ; !Rand key:n73024180454n
+PV/epiichi+:epiichi-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 while" ; !Rand key:n72972557481n
+PV/gaagge+:gaagige-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 forever, for all time" ; !Rand key:n73016041873n
+PV/giizhi+:giizhi-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 finish [doing something]" ; !Rand key:n73024238614n
+PV/gji+:goji-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 try [to do something]" ; !Rand key:n73024559959n
+PV/jaagi+:jaagi-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 all, completely [gone]" ; !Rand key:n73028052357n
+PV/megwaaji+:megwaaji-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 in the middle [of doing something], in the process of [doing something]" ; !Rand key:n71429845986n
+PV/mmendaaji+:mamendaaji-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 want to do more of something" ; !Rand key:n73045650324n
+PV/n'kawe+:nakawe-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 [do something] first [before doing something else], interrupt what one is doing [to do something]" ; !Rand key:n71433050533n
+PV/ke+:ke-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 do something first [before doing something else], do something first [before resuming another activity]" ; !Rand key:n2011448-22-2n !PV/ke cannot have the UR /ke-/ (there should at least be a vowel first)
+PV/dede+:dede-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 enough" ; !Rand key:n201132719-28-57n
 !}
-PV/aazhoo+:aazhoo- V_PREVERBS_MANNER " 1 next [period of time]";
-PV/booni+:booni-    V_PREVERBS_MANNER " 1 quit [doing sth.], stop [doing sth.]";
-PV/de+:dX2e-       V_PREVERBS_MANNER " 1 fair (amount), moderate (amount)"; !contains blocker to stop dye when ccnj
-PV/ggwe+:gagwe- V_PREVERBS_MANNER " 1 try to [do something]";
-PV/ggweji+:gagweji-   V_PREVERBS_MANNER " 1 try to [do something], try and [do something], try [doing something]";
-!DUP REMOVE!PV/kweji+:gagweji-    V_PREVERBS_MANNER    " 1 [see ggweji-]" ; !Rand key:n73032725062n
-PV/kawe+:akawe-   V_PREVERBS_MANNER " 1 do something first [before doing something else], do something first [before resuming another activity]";
-PV/maajii+:maajii-  V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
-PV/nda+:nanda-  V_PREVERBS_MANNER " 1 look [to do something], seek [to do something], in the hope of [something happening]";
-!DUP REMOVE!PV/ndo+:nando-  V_PREVERBS_MANNER " 1 [see nda-]"; 
-!PV/nanda+:nda-    V_PREVERBS_MANNER    " 1 look [to do something], seek [to do something], in the hope of [something happening]" ; !Rand key:n71431357611n
-!PV/nando+:ndo-    V_PREVERBS_MANNER    " 1 [see nda-]" ; !Rand key:n71431444116n
-PV/noonde+:noonde-  V_PREVERBS_MANNER " 1 before a goal is reached, in the attempt of something, before something was to happen, prematurely, unexpectedly";
-PV/ntaa+:nitaa-    V_PREVERBS_MANNER " 1 be good at [something], do something well;  2 be prone to something, be inclined to do something, [do something] often;  3 know how to do something, be able to do something, can do something";
-PV/shkwaa+:ishkwaa-  V_PREVERBS_MANNER " 1 after [doing something];  2 finish [doing something], quit [doing something], end [be over]";
-PV/webi+:webi-    V_PREVERBS_MANNER " 1 begin [to do something], start [to do something]";
-PV/shki+:oshki-   V_PREVERBS_MANNER " 1 first, for the first time, newly";
-            V_PREVERBS_MANNER    ;
+PV/aazhoo+:aazhoo- V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 next [period of time]";
+PV/booni+:booni-    V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 quit [doing sth.], stop [doing sth.]";
+PV/de+:dX2e-       V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 fair (amount), moderate (amount)"; !contains blocker to stop dye when ccnj
+PV/ggwe+:gagwe- V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 try to [do something]";
+PV/ggweji+:gagweji-   V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 try to [do something], try and [do something], try [doing something]";
+!DUP REMOVE!PV/kweji+:gagweji-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 [see ggweji-]" ; !Rand key:n73032725062n
+PV/kawe+:akawe-   V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 do something first [before doing something else], do something first [before resuming another activity]";
+PV/maajii+:maajii-  V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 begin [to do something], start [to do something]";
+PV/nda+:nanda-  V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 look [to do something], seek [to do something], in the hope of [something happening]";
+!DUP REMOVE!PV/ndo+:nando-  V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 [see nda-]"; 
+!PV/nanda+:nda-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 look [to do something], seek [to do something], in the hope of [something happening]" ; !Rand key:n71431357611n
+!PV/nando+:ndo-    V_PREVERBS_MANNER_COUNTING_GATEWAY    " 1 [see nda-]" ; !Rand key:n71431444116n
+PV/noonde+:noonde-  V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 before a goal is reached, in the attempt of something, before something was to happen, prematurely, unexpectedly";
+PV/ntaa+:nitaa-    V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 be good at [something], do something well;  2 be prone to something, be inclined to do something, [do something] often;  3 know how to do something, be able to do something, can do something";
+PV/shkwaa+:ishkwaa-  V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 after [doing something];  2 finish [doing something], quit [doing something], end [be over]";
+PV/webi+:webi-    V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 begin [to do something], start [to do something]";
+PV/shki+:oshki-   V_PREVERBS_MANNER_COUNTING_GATEWAY " 1 first, for the first time, newly";
+            V_PREVERBS_MANNER_COUNTING_GATEWAY    ;
+
+LEXICON V_PREVERBS_MANNER_COUNTING_GATEWAY
+        V_PREVERBS_MANNER ;
+        V_PREVERBS_COUNTING ; 
 
 LEXICON V_PREVERBS_MANNER
 !{ uncertain of position
@@ -282,6 +286,8 @@ PV/wiinge+:wiinge- V_REDUPLICATION_GATEWAY " 1 completely, entirely, thoroughly"
 PV/maanaaji+:maanaaji- V_REDUPLICATION_GATEWAY " 1 bad, evil, harmful, wrong";
 PV/mji+:maji- V_REDUPLICATION_GATEWAY " 1 badly, evilly";
 PV/mno+:mino- V_REDUPLICATION_GATEWAY " 1 good, well;  2 nice, pleasant";
+
+LEXICON V_PREVERBS_COUNTING
 !{USED IN COUNTING, ALSO APPEAR IN PRENOUNS
 PV/dso+:n5daso-     V_PREVERBS_COUNTING_GATEWAY " 1 each, every";  !DAB are we sure this one requires cnj? or is it just its ccnj form endso?
 !PV/endso+:endaso-    V_PREVERBS_MANNER    " 1 each, every, each time, every time" ; !Rand key:n73015762439n !DAB this is CCNJ form of daso, so it requires a cnj form of the following verb
