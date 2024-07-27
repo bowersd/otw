@@ -73,7 +73,7 @@ LEXICON CARDINALS_TENS_MIDANA
 
 LEXICON CARDINALS_TENS_SHI
 +shi+Conj+:-ashi-    CARDINAL_REPETITION_GATEWAY ;
-+shi+Conj+:-ashi-    V_PREVERBS_COUNTING ;
++shi+Conj+:-ashi-    V_PREVERBS_COUNTING ; !this may not be the right way to do it, but it seemed like we should have the possibility of making complex numerical preverbs (which need to end in the ones column with a preverb form)
 @D.NUMERAL.VERB@     CLOSED_PROTECTION ; 
 
 LEXICON CARDINAL_REPETITION_GATEWAY
