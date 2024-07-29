@@ -339,9 +339,9 @@ nango:Bv1nango    AV_TAG    " 1 [see nongo]" ; !Rand key:n71431166718n DAB: adde
 nawach:nawaj    AV_TAG    " 1 various" ; !Rand key:n71431169859n
 nawgiizhik:nawVv1giizhig    AV_TAG    " 1 in mid-air" ; !Rand key:n73033817850n
 ndaashti:Vv1ndaashVv1ti    AV_TAG    " 1 on this side" ; !Rand key:n73033632017n
-ndaawaach:indaawaaj    AV_TAG    " 1 just, may as well, might as well;  2 instead" ; !Rand key:n73003283100n
-ndawaa:indawaa    AV_TAG    " 1 [see ndaawaach]" ; !Rand key:n71431440040n
-ndawaach:indawaaj    AV_TAG    " 1 [see ndaawaach]" ; !Rand key:n71431441003n
+ndaawaach:nindaawaaj    AV_TAG    " 1 just, may as well, might as well;  2 instead" ; !Rand key:n73003283100n
+ndawaa:nindawaa    AV_TAG    " 1 [see ndaawaach]" ; !Rand key:n71431440040n
+ndawaach:nindawaaj    AV_TAG    " 1 [see ndaawaach]" ; !Rand key:n71431441003n
 negaach:negaaj    AV_TAG    " 1 easy, gently, softly, without too much force;  2 slowly" ; !Rand key:n71431556100n
 nengaach:nengaaj    AV_TAG    " 1 [see negaach]" ; !Rand key:n71431559514n
 neniish:neniizh    AV_TAG    " 1 two each, both, as a pair" ; !Rand key:n71431559859n
