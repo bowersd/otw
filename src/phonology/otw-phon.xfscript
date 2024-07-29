@@ -127,6 +127,11 @@ define preDel [ shortv -> 0 || _ %< %^ vowel ];
 !{prefix adjustments
 define optinitV [shortv (->) 0 || _ %< shortv cons ] ; !comment this rule for post-rhythmic syncope stage, could use trushortv
 define preLen [ [..] -> o || shortv %< _ o ];
+define preNas [
+                [ [..] (->)  n || n i _ %< [d|g|b] ] .o.
+                [ n (->) m || n i _ %< b] .o.
+                [ n (->) 0 || _ i [n|m] %< [d|g|b]]
+                ];
 define preEpen [ [..] ->  d || shortv _ %< vowel ];
 !}
 define conDimMutation [[m|n] (->) 0 || _ %> e1 n [y|s] ] ; 
@@ -405,6 +410,7 @@ read regex [
     !optinitV    .o. !ORIGINAL TREATMENT TO ALLOW post syncope n-nokii < n[d]-ankii < nidanokii. CURRENT TREATMENT IS TO USE SHORTENED PREFIXES WITH +Nul TAG (ALLOWS FOR EASIER IDENTIFICATION, BECAUSE IT IS NOT SILENT, BUT IT DOES CREATE (USUALLY STARK) OVERGENERATION ON ORIGINAL CVC WORDS) LEAVE COMMENTED OUT
     preDel      .o.
     preLen      .o.
+    !preNas      .o. !non-syncopating dialects have excrescent nasals that show up after ni- '1'. comment out in syncope versions
     preEpen     .o. 
     conDimMutation .o.
     conPl       .o.
