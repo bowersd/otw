@@ -206,8 +206,8 @@ gaawaandga-bgiw:gaawaandaga-bigiw2    NA_SET    " 1 spruce gum" ; !Rand key:n731
 mkade-bgiw:makade-bigiw2    NA_SET    " 1 tar" ; !Rand key:n73033129996n
 mshibzhiw:mishibizhiw2    NA_SET    " 1 lion" ; !Rand key:n71430434372n
 Mshibzhiw:mishibizhiw2    NA_SET    " 1 the Great Lynx, the Underwater Panther (mythological figure)" ; !Rand key:n71430434563n
-giiwse-nini:giiwose-aniniw2    NA_SET    " 1 hunter" ; !Rand key:n201251620-28-4n
-giigoonykewnini:giigoonyikewVi1niniw2    NA_SET    " 1 fisherman" ; !Rand key:n201133020-45-27n
+giiwse-nini:giiwose-ininiw2    NA_SET    " 1 hunter" ; !Rand key:n201251620-28-4n !compounds with 'man' show up with -inini, not -anini in AW, GM, BCP. /ininiw2/ in compounds (where compounds are not preceded by a preverb (or word-initial))
+giigoonykewnini:giigoonyikewininiw2    NA_SET    " 1 fisherman" ; !Rand key:n201133020-45-27n
 btashkaanzhe:batashkaanzhew2    NA_SET    " 1 Virginia rail (a type of bird)" ; !Rand key:n72976264993n
 bgoji-bzhiki:bagoji-bizhikiw2    NA_SET    " 1 bison, buffalo" ; !Rand key:n72976843429n
 biikokwaawesi:biikokwaawesiw2    NA_SET    " 1 black-billed cuckoo" ; !Rand key:n72977254588n
@@ -215,38 +215,38 @@ bne:binew2    NA_SET    " 1 partridge" ; !Rand key:n72978956482n
 bnesi:binesiw2    NA_SET    " 1 thunderbird;  2 bird" ; !Rand key:n72978957287n
 btashkaanzhe:batashkaanzhew2    NA_SET    " 1 common snipe (a kind of bird)" ; !Rand key:n72983854070n
 bzhiki:bizhikiw2    NA_SET    " 1 cow" ; !Rand key:n72985148390n
-daakewnini:odaakewVi1niniw2    NA_SET    " 1 driver, helmsman, [ship's] pilot" ; !Rand key:n72987250216n
-daawenini:adaawewVi1niniw2    NA_SET    " 1 (male) store clerk, (male) storekeeper, (male) trader" ; !Rand key:n72989284664n
-daawewnini:adaawewVi1niniw2    NA_SET    " 1 [see daawenini]" ; !Rand key:n72989284753n
-dbaabnjigewnini:dibaabanjigewVi1niniw2    NA_SET    " 1 field umpire" ; !Rand key:n72989777914n
-dbaaknigewnini:dibaakonigewVi1niniw2    NA_SET    " 1 male judge" ; !Rand key:n72989781016n
-dkonwewnini:dakoniwewVi1niniw2    NA_SET    " 1 policeman; sheriff" ; !Rand key:n73013752331n
-gkenjgewnini:gikenjigewVi1niniw2    NA_SET    " 1 witness" ; !Rand key:n73025583687n
-gnoodmaagenini:ganoodamaagewVi1niniw2    NA_SET    " 1 [male] attorney, [male] lawyer" ; !Rand key:n7302928414n
-gtige-nini:gitige-Vi1niniw2    NA_SET    " 1 farmer" ; !Rand key:n7303169041n
+daakewnini:odaakewininiw2    NA_SET    " 1 driver, helmsman, [ship's] pilot" ; !Rand key:n72987250216n
+daawenini:adaawewininiw2    NA_SET    " 1 (male) store clerk, (male) storekeeper, (male) trader" ; !Rand key:n72989284664n
+daawewnini:adaawewininiw2    NA_SET    " 1 [see daawenini]" ; !Rand key:n72989284753n
+dbaabnjigewnini:dibaabanjigewininiw2    NA_SET    " 1 field umpire" ; !Rand key:n72989777914n
+dbaaknigewnini:dibaakonigewininiw2    NA_SET    " 1 male judge" ; !Rand key:n72989781016n
+dkonwewnini:dakoniwewininiw2    NA_SET    " 1 policeman; sheriff" ; !Rand key:n73013752331n
+gkenjgewnini:gikenjigewininiw2    NA_SET    " 1 witness" ; !Rand key:n73025583687n
+gnoodmaagenini:ganoodamaagewininiw2    NA_SET    " 1 [male] attorney, [male] lawyer" ; !Rand key:n7302928414n
+gtige-nini:gitige-ininiw2    NA_SET    " 1 farmer" ; !Rand key:n7303169041n
 Gweshkw'iwesi:gweshkohiwesiw2    NA_SET    " 1 Winged-Startler (a partridge in traditional stories)" ; !Rand key:n73044643506n ![gk]Vo1 replaced with [gk]o
 jiigaawesi:jiigaawesiw2    NA_SET    " 1 cricket" ; !Rand key:n73028351194n
 jiindiisi:jiindiisiw2    NA_SET    " 1 bluejay" ; !Rand key:n73028439727n
-jiiskiiwnini:jiisakiiwVi1niniw2    NA_SET    " 1 conjuror, shaker (in traditional ceremonies)" ; !Rand key:n73028441857n
-kawaabiiwnini:akawaabiiwVi1niniw2    NA_SET    " 1 guard, watchman" ; !Rand key:n73017354804n
-kinoomaagewnini:gikinoohamaagewVi1niniw2    NA_SET    " 1 [male] teacher, instructor" ; !Rand key:n71428962039n
-maanjiinoo-nini:maanjiinoo-Vi1niniw2    NA_SET    " 1 magician, peformer" ; !Rand key:n71429181209n
-maashtaanshiiwnini:maashtaanshiiwVi1niniw2    NA_SET    " 1 shepherd" ; !Rand key:n71429264029n
-mandaagnini:mamandaagVi1niniw2    NA_SET    " 1 gentleman, handsome man (Wp);  2 a particular manitou who appears during vision fasts as a <nish>mandaagnini</nish>, but who is actually the bluejay, and whose blessing young people were instructed to refuse" ; !Rand key:n71429344167n
-mdewnini:midewVi1niniw2    NA_SET    " 1 [traditional] medicine man, member of the Midewiwin" ; !Rand key:n71429484122n
+jiiskiiwnini:jiisakiiwininiw2    NA_SET    " 1 conjuror, shaker (in traditional ceremonies)" ; !Rand key:n73028441857n
+kawaabiiwnini:akawaabiiwininiw2    NA_SET    " 1 guard, watchman" ; !Rand key:n73017354804n
+kinoomaagewnini:gikinoohamaagewininiw2    NA_SET    " 1 [male] teacher, instructor" ; !Rand key:n71428962039n
+maanjiinoo-nini:maanjiinoo-ininiw2    NA_SET    " 1 magician, peformer" ; !Rand key:n71429181209n
+maashtaanshiiwnini:maashtaanshiiwininiw2    NA_SET    " 1 shepherd" ; !Rand key:n71429264029n
+mandaagnini:mamandaagininiw2    NA_SET    " 1 gentleman, handsome man (Wp);  2 a particular manitou who appears during vision fasts as a <nish>mandaagnini</nish>, but who is actually the bluejay, and whose blessing young people were instructed to refuse" ; !Rand key:n71429344167n
+mdewnini:midewininiw2    NA_SET    " 1 [traditional] medicine man, member of the Midewiwin" ; !Rand key:n71429484122n
 memengwesi:memengwesiw2    NA_SET    " 1 elf, leprechaun" ; !Rand key:n71429564141n
 memeskniin'si:memeskoniinisiw2    NA_SET    " 1 red-winged blackbird" ; !Rand key:n71429564308n
 mgizi:migiziw2    NA_SET    " 1 eagle" ; !Rand key:n71429643579n
-miigaazoownini:miigaazoowVi1niniw2    NA_SET    " 1 fighter, warrior" ; !Rand key:n71429653365n
-mkadewnini:makadewVi1niniw2    NA_SET    " 1 black man, racially black man" ; !Rand key:n71429744384n
-mookdaasoonini:mookodaasoowVi1niniw2    NA_SET    " 1 carpenter" ; !Rand key:n71430356332n
+miigaazoownini:miigaazoowininiw2    NA_SET    " 1 fighter, warrior" ; !Rand key:n71429653365n
+mkadewnini:makadewininiw2    NA_SET    " 1 black man, racially black man" ; !Rand key:n71429744384n
+mookdaasoonini:mookodaasoowininiw2    NA_SET    " 1 carpenter" ; !Rand key:n71430356332n
 mooshk'osi:mooshkahosiw2    NA_SET    " 1 American bittern (bird of the heron family with mottled brownish feathers)" ; !Rand key:n71430359503n
-mshkikiiwnini:mashkikiiwVi1niniw2    NA_SET    " 1 [male] doctor, herbalist, [male] physician" ; !Rand key:n71430468377n
-mzinbii'gewnini:mazinibiihigewVi1niniw2    NA_SET    " 1 [see mzinbiigewnini]" ; !Rand key:n71430648512n
-naabkwaanshiin-nini:naabikwaanishiin-Vi1niniw2    NA_SET    " 1 sailor" ; !Rand key:n73098383416n
+mshkikiiwnini:mashkikiiwininiw2    NA_SET    " 1 [male] doctor, herbalist, [male] physician" ; !Rand key:n71430468377n
+mzinbii'gewnini:mazinibiihigewininiw2    NA_SET    " 1 [see mzinbiigewnini]" ; !Rand key:n71430648512n
+naabkwaanshiin-nini:naabikwaanishiin-ininiw2    NA_SET    " 1 sailor" ; !Rand key:n73098383416n
 Naadwesi:naadawesiw2    NA_SET    " 1 Iroquois;  2 Huron" ; !Rand key:n71430857103n
-nam'ewnini:anamahewVi1niniw2    NA_SET    " 1 brother [in religious order]" ; !Rand key:n73033564878n
-nbwaakaawnini:nibwaakaawVi1niniw2    NA_SET    " 1 sage, wise man" ; !Rand key:n71431356179n
+nam'ewnini:anamahewininiw2    NA_SET    " 1 brother [in religious order]" ; !Rand key:n73033564878n
+nbwaakaawnini:nibwaakaawininiw2    NA_SET    " 1 sage, wise man" ; !Rand key:n71431356179n
 nepaajnikesi:nepaajinikesiw2    NA_SET    " 1 mole [i.e. the animal]" ; !Rand key:n71431560625n
 nini:Vi1niniw2    NA_SET    " 1 man" ; !Rand key:n71432975660n
 oojiigaawesi:oojiigaawesiw2    NA_SET    " 1 cricket" ; !Rand key:n71435146153n
@@ -262,29 +262,29 @@ zhaangwesh:zhaangweshiw2    NA_SET    " 1 mink" ; !Rand key:n73033448980n
 zhaangweshi:zhaangweshiw2    NA_SET    " 1 mink" ; !Rand key:n73033449045n
 zhaashaawnibiisi:zhaashaawanibiisiw2    NA_SET    " 1 tree swallow" ; !Rand key:n73033479823n
 zhaawshkzi:ozhaawashkoziw2    NA_SET    " 1 the green part of a plant" ; !Rand key:n73033514486n
-zhigewnini:ozhigewVi1niniw2    NA_SET    " 1 builder" ; !Rand key:n73033586222n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-zhoodaawnini:zhoodaawVi1niniw2    NA_SET    " 1 Jew" ; !Rand key:n73032711925n
-ziignigewnini:ziiginigewVi1niniw2    NA_SET    " 1 bartender;  2 bootlegger [of liquor]" ; !Rand key:n73032836870n
-giishkaankwezhoonini:giishkaanikwezhoowVi1niniw2    NA_SET    " 1 male barber" ; !Rand key:n20109209-48-56n
+zhigewnini:ozhigewininiw2    NA_SET    " 1 builder" ; !Rand key:n73033586222n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
+zhoodaawnini:zhoodaawininiw2    NA_SET    " 1 Jew" ; !Rand key:n73032711925n
+ziignigewnini:ziiginigewininiw2    NA_SET    " 1 bartender;  2 bootlegger [of liquor]" ; !Rand key:n73032836870n
+giishkaankwezhoonini:giishkaanikwezhoowininiw2    NA_SET    " 1 male barber" ; !Rand key:n20109209-48-56n
 shkode-bzhiki:mashkode-bizhikiw2    NA_SET    " 1 buffalo" ; !Rand key:n201092016-50-21n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-mookdaasoownini:mookodaasoowVi1niniw2    NA_SET    " 1 [male] carver, [male] who carves things" ; !Rand key:n201092019-12-1n
-gaagiigdoownini:gaagiigidoowVi1niniw2    NA_SET    " 1 [male] councillor, [male] band councillor" ; !Rand key:n201092112-31-55n
-moozhwenini:moozhwewVi1niniw2    NA_SET    " 1 [male] barber" ; !Rand key:n201092118-43-21n
+mookdaasoownini:mookodaasoowininiw2    NA_SET    " 1 [male] carver, [male] who carves things" ; !Rand key:n201092019-12-1n
+gaagiigdoownini:gaagiigidoowininiw2    NA_SET    " 1 [male] councillor, [male] band councillor" ; !Rand key:n201092112-31-55n
+moozhwenini:moozhwewininiw2    NA_SET    " 1 [male] barber" ; !Rand key:n201092118-43-21n
 mshkiigonini:mashkiigoniniw2    NA_SET    " 1 [male] Cree person" ; !Rand key:n201092120-44-41n
-wiibdaa-mshkikiiwnini:wiibidaa-mashkikiiwVi1niniw2    NA_SET    " 1 dentist" ; !Rand key:n201092210-55-31n
+wiibdaa-mshkikiiwnini:wiibidaa-mashkikiiwininiw2    NA_SET    " 1 dentist" ; !Rand key:n201092210-55-31n
 mskwaadesi:miskwaadesiw2    NA_SET    " 1 turtle" ; !Rand key:n201012421-38-58n
 biimskwaabka'gewnini:biimisiwaabikahigewininiw2    NA_SET    " 1 engineer" ; !Rand key:n201132616-59-22n
-gchi-daawewnini:gichi-adaawewVi1niniw2    NA_SET    " 1 Hudson Bay Company factor" ; !Rand key:n201133011-8-33n
+gchi-daawewnini:gichi-adaawewininiw2    NA_SET    " 1 Hudson Bay Company factor" ; !Rand key:n201133011-8-33n
 gchi-nini:gichi-Vi1niniw2    NA_SET    " 1 a grown man, an adult male" ; !Rand key:n201133015-6-5n
-gtigewnini:gitigewVi1niniw2    NA_SET    " 1 farmer, planter" ; !Rand key:n20114212-27-41n
-n'gamoonini:nVi1gamoowVi1niniw2    NA_SET    " 1 singer (male)" ; !Rand key:n201141010-2-12n
-zhooshkwaadenini:zhooshkwaadewVi1niniw2    NA_SET    " 1 skater (male)" ; !Rand key:n201141010-6-19n
+gtigewnini:gitigewininiw2    NA_SET    " 1 farmer, planter" ; !Rand key:n20114212-27-41n
+n'gamoonini:nVi1gamoowininiw2    NA_SET    " 1 singer (male)" ; !Rand key:n201141010-2-12n
+zhooshkwaadenini:zhooshkwaadewininiw2    NA_SET    " 1 skater (male)" ; !Rand key:n201141010-6-19n
 bgoji-nini:bagoji-Vi1niniw2    NA_SET    " 1 elf, leprechaun" ; !Rand key:n72976843554n
 bnesi:binesiw2    NA_SET    " 1 eagle" ; !Rand key:n72978957375n
-dbakiinini:dibahakiiwVi1niniw2    NA_SET    " 1 surveyor" ; !Rand key:n72992968904n
+dbakiinini:dibahakiiwininiw2    NA_SET    " 1 surveyor" ; !Rand key:n72992968904n
 gwaabgesi:gwaabVv1gesiw2    NA_SET    " 1 mullet" ; !Rand key:n73031627895n
 memeskniniisi:memeskoniniisiw2    NA_SET    " 1 red-tailed hawk" ; !Rand key:n71429640240n
-mzinbiigewnini:mazinibiihigewVi1niniw2    NA_SET    " 1 artist" ; !Rand key:n71430648252n
+mzinbiigewnini:mazinibiihigewininiw2    NA_SET    " 1 artist" ; !Rand key:n71430648252n
 naadwesi:naadawesiw2    NA_SET    " 1 a species of snake" ; !Rand key:n71430857149n
 naabe-bzhiki:naabe-bizhikiw2    NA_SET    " 1 bull" ; !Rand key:n201092016-52-31n
 kwe:akwew2    NA_SET    " 1 woman" ; !Rand key:n71429059994n
