@@ -275,7 +275,7 @@ define L1del [ L1 -> 0 || _ ? ] ;
 define ccnjexcrspec [ [n5] -> i n || "PV/CCNJ+" _ ] ; !updated to make this lexically specific 
 !define ccnjexcrgen [ [..] (->) i n || "PV/CCNJ+" _ d ] ; !original rule
 define n5Del        [ [n5] -> 0 ] ; 
-define ccnjlong  [i i -> X2 a a, a a -> X2 a y a a, e -> X2 y e, o o -> X2 w a a || "PV/CCNJ+" (cseqs) _ ] ; !changed forms, X2 is a blocker to stop changed short from getting fed by this rule
+define ccnjlong  [i i -> X2 a a, a a -> X2 a y a a, e -> X2 a y e, o o -> X2 w a a || "PV/CCNJ+" (cseqs) _ ] ; !changed forms, X2 is a blocker to stop changed short from getting fed by this rule
 define ccnjshort [[i|a] -> X2 e, o -> X2 (w)e || "PV/CCNJ+" (cseqs) _ ] ; !changed forms
 !define ccnjexcr [[..] (->) n || X2 (w|y)[e|a a] _ d ,, [..] (->) m || X2 (w|y)[e|a a] _ b ] ; !this is incorrect afaik. use ccnjexcrspec
 define rmccnj       [["PV/CCNJ+"|X2] -> 0] ;
