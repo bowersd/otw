@@ -73,3 +73,7 @@ LEXICON NA_BASE_DERIV_VAI
 
 LEXICON N_BASE_DERIV_VII
 0:wan VII_TAG ; !"weight: 1"; !'be' what flavor of w is this (phonologically)? 
+
+LEXICON DERIV_NA
++nini:ininiw2   NA_SET ; 
++kwe:kwe        NA_SET ; 
