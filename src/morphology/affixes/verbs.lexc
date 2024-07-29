@@ -147,7 +147,7 @@ PV/bbaa+:babaa-   V_PREVERBS_DIRECTION_STACKING " 1 (moving) around, (going) abo
 PV/baa+:baa-   V_PREVERBS_DIRECTION_STACKING " 1 around, about, out and about"; !circumference, exhaustive?
 PV/wa+:awa-     V_PREVERBS_DIRECTION_STACKING " 1 go and [do sth.]";
 PV/oo+:oo-     V_PREVERBS_DIRECTION_STACKING " 1 go [do something], go and [do something]";
-PV/wi+:wi-     V_PREVERBS_DIRECTION_STACKING " 1 go and [do something], go [do something]";
+PV/wi+:awi-     V_PREVERBS_DIRECTION_STACKING " 1 go and [do something], go [do something]";
 
 
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_GET
