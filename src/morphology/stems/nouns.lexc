@@ -1058,7 +1058,7 @@ ngaagaagiim:%^gaagaagiim    NAD_SET    " 1 my phlegm" ; !Rand key:n73040211749n
 ngookmis:%^gookomis    NAD_SET    " 1 my grandmother" ; !Rand key:n73030425285n
 ngwis:%^gwis    NAD_SET    " 1 my son" ; !Rand key:n73031736808n
 nhoos:%^hoos    NAD_SET    " 1 my father" ; !Rand key:n73032447958n
-niijkiwem:%^iijkiwem    NAD_SET    " 1 my brother" ; !Rand key:n73028042774n
+niijkiwem:%^iijikiwem    NAD_SET    " 1 my brother" ; !Rand key:n73028042774n
 niikaan:%^iikaan    NAD_SET    " 1 my brother [if I am a man]" ; !Rand key:n73028043228n
 niikaanis:%^iikaanis    NAD_SET    " 1 my brother [if I am a man]" ; !Rand key:n73082448160n
 niinmokaan:%^iinimokaan    NAD_SET    " 1 my brother-in-law [if I am a woman]" ; !Rand key:n73028045051n
@@ -1107,7 +1107,7 @@ ndiniigan:%^diniigan    NAD_SET    " 1 my shoulder blade" ; !Rand key:n201011221
 ndaan'koobdenh:%^aanikoobide1ny    NAD_SET    " 1 my great grandchild" ; !Rand key:n72973444896n
 ndaangwenh:%^daangwe1ny    NAD_SET    " 1 my sister-in-law" ; !Rand key:n73033631380n
 niidgikoonh:%^iidigikoe1ny    NAD_SET    " 1 my sister [if I am a woman];  2 my husband's sister-in-law" ; !Rand key:n73028040129n
-niijkiwenziinh:%^iijkiwenzie1ny    NAD_SET    " 1 my friend" ; !Rand key:n73028043006n
+niijkiwenziinh:%^iijikiwenzie1ny    NAD_SET    " 1 my friend" ; !Rand key:n73028043006n
 niinmoshenh:%^iinimoshe1ny    NAD_SET    " 1 my cross-cousin of the opposite sex" ; !Rand key:n73028045345n
 nmamaanh:%^mamae1ny    NAD_SET    " 1 my mom, my mother" ; !Rand key:n7309021951n
 nmisenh:%^mise1ny    NAD_SET    " 1 my older sister, my older female parallel cousin" ; !Rand key:n71429740558n
