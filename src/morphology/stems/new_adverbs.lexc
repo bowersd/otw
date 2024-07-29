@@ -1,6 +1,30 @@
 
 LEXICON AV_GATEWAY
 AV ; 
+AV_TEMPORAL ; 
+
+LEXICON AV_TEMPORAL
+wasniibnong    AV_TAG    " 1 the summer before last" ; !Rand key:n103000756198n
+wasi-bboonong    AV_TAG    " 1 the year before last, the winter before last" ; !Rand key:n103000756171n
+gchi-gbegiizhik    AV_TAG    " 1 the entire day, the whole day" ; !Rand key:n103000560735n
+gbe-naagshik    AV_TAG    " 1 all evening" ; !Rand key:n103004118924n
+gbe-naagshi    AV_TAG    " 1 all evening" ; !Rand key:n103004118920n
+papiichin    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103004166935n
+ooswaabang    AV_TAG    " 1 the day after tomorrow" ; !Rand key:n103004166604n
+oosnaago    AV_TAG    " 1 the day before yesterday" ; !Rand key:n103004166600n
+oosi-bboonong    AV_TAG    " 1 the year before last, the winter before last" ; !Rand key:n103004166591n
+nwenzh    AV_TAG    " 1 a long time, for a long time" ; !Rand key:n103004166438n
+shkwaaj    AV_TAG    " 1 last [in a sequence], last time" ; !Rand key:n103000744658n
+shki-naagshik    AV_TAG    " 1 in the early evening" ; !Rand key:n103000744539n
+nowenzh    AV_TAG    " 1 for a long time" ; !Rand key:n103000714207n
+nomya    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000713698n
+namye    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000696435n
+namya    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000696430n
+mno-aapii    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103000680380n
+mni-aapii    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103000680161n
+mneyaapii    AV_TAG    " 1 at the right time" ; !Rand key:n103000680134n
+biichin    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n102995996639n
+
 
 LEXICON AV
 mdaasgon'gak    AV_TAG    " 1 be in ten days, be in ten days’ time, ten days hence, ten days later" ; !Rand key:n103000660858n
@@ -32,33 +56,22 @@ zaagdawaa    AV_TAG    " 1 river outlet" ; !Rand key:n103000768566n
 wewiikaa    AV_TAG    " 1 infrequently, seldom, sporadically" ; !Rand key:n103000756586n
 wenj    AV_TAG    " 1 so, strikingly" ; !Rand key:n103000756344n
 wendago    AV_TAG    " 1 virtually as if, be almost the case, be practically the case" ; !Rand key:n103000756331n
-wasniibnong    AV_TAG    " 1 the summer before last" ; !Rand key:n103000756198n
-wasi-bboonong    AV_TAG    " 1 the year before last, the winter before last" ; !Rand key:n103000756171n
 waawaaj    AV_TAG    " 1 even (indicating that something is surprising or extreme)" ; !Rand key:n103000755846n
 waasnikekna    AV_TAG    " 1 on the far side of the road" ; !Rand key:n103000755795n
 swekmigaak    AV_TAG    " 1 all over an area of ground" ; !Rand key:n103000745448n
 sidaawendmaadkamik    AV_TAG    " 1 tragic" ; !Rand key:n103000745032n
 shpamsagoong    AV_TAG    " 1 upstairs" ; !Rand key:n103000744982n
 shkweyiing    AV_TAG    " 1 at the side, beside, on the side, at the end of a row" ; !Rand key:n103000744741n
-shkwaaj    AV_TAG    " 1 last [in a sequence], last time" ; !Rand key:n103000744658n
-shki-naagshik    AV_TAG    " 1 in the early evening" ; !Rand key:n103000744539n
 shike    AV_TAG    " 1 alone, by oneself" ; !Rand key:n103000744412n
 piinash    AV_TAG    " 1 until (in affirmative clauses)" ; !Rand key:n103004167196n
 piidash    AV_TAG    " 1 until (in affirmative clauses)" ; !Rand key:n103004167175n
 piichnaa    AV_TAG    " 1 now and then, once in a while" ; !Rand key:n103004167162n
 penag    AV_TAG    " 1 less" ; !Rand key:n103004167077n
-papiichin    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103004166935n
-ooswaabang    AV_TAG    " 1 the day after tomorrow" ; !Rand key:n103004166604n
-oosnaago    AV_TAG    " 1 the day before yesterday" ; !Rand key:n103004166600n
-oosi-bboonong    AV_TAG    " 1 the year before last, the winter before last" ; !Rand key:n103004166591n
-nwenzh    AV_TAG    " 1 a long time, for a long time" ; !Rand key:n103004166438n
 nwaakaming    AV_TAG    " 1 inland, in the bush, out in the country" ; !Rand key:n103004166417n
 nsawiyiing    AV_TAG    " 1 in the middle" ; !Rand key:n103004165515n
 npaajnikeyiing    AV_TAG    " 1 on the opposite side, on the wrong side" ; !Rand key:n103004165207n
 npaajnikekna    AV_TAG    " 1 on the wrong side of the road" ; !Rand key:n103004165201n
-nowenzh    AV_TAG    " 1 for a long time" ; !Rand key:n103000714207n
 noondaa-naagosh    AV_TAG    " 1 partway through the evening" ; !Rand key:n103000714069n
-nomya    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000713698n
 nniizaan    AV_TAG    " 1 there seem to be a risk of something happening (expression of mild alarm at a risk)" ; !Rand key:n103000713443n
 nnaasweyiing    AV_TAG    " 1 in between" ; !Rand key:n103000713093n
 neniidwikna    AV_TAG    " 1 on both sides of the road" ; !Rand key:n103000711442n
@@ -66,8 +79,6 @@ neniidweyiing    AV_TAG    " 1 on both sides" ; !Rand key:n103000711437n
 ndaazhnikeknaa    AV_TAG    " 1 on this side of the road" ; !Rand key:n103000697321n
 ndaaznikekna    AV_TAG    " 1 on this side of the road" ; !Rand key:n103000697316n
 ndaasnikeyaa    AV_TAG    " 1 on this [closer] side" ; !Rand key:n103000697254n
-namye    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000696435n
-namya    AV_TAG    " 1 a little while ago, a short time ago" ; !Rand key:n103000696430n
 namnik    AV_TAG    " 1 a fair amount, a moderate amount" ; !Rand key:n103000696425n
 nakwayiing    AV_TAG    " 1 at the tip [of a stick or like object]" ; !Rand key:n103000696323n
 naawkaakan    AV_TAG    " 1 in the middle of one’s chest" ; !Rand key:n103000696125n
@@ -76,9 +87,6 @@ naanomya    AV_TAG    " 1 a few moments ago, a little while ago, a short time ag
 naanaangodnong    AV_TAG    " 1 every so often, every now and then, sometimes" ; !Rand key:n103000695689n
 naamoonak    AV_TAG    " 1 in the prow of a boat" ; !Rand key:n103000695619n
 mtigwaakaag    AV_TAG    " 1 along the edge of the forest" ; !Rand key:n103000693963n
-mno-aapii    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103000680380n
-mni-aapii    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n103000680161n
-mneyaapii    AV_TAG    " 1 at the right time" ; !Rand key:n103000680134n
 mnapapii    AV_TAG    " 1 from time to time, at intervals" ; !Rand key:n103000680013n
 mna'aapii    AV_TAG    " 1 from time to time, at intervals" ; !Rand key:n103000679862n
 mizi    AV_TAG    " 1 all, everything" ; !Rand key:n103000678948n
@@ -109,15 +117,11 @@ gichnikaang    AV_TAG    " 1 on the right, right-hand side" ; !Rand key:n1030005
 ggikonaans    AV_TAG    " 1 with the peelings on, unpeeled" ; !Rand key:n103000577302n
 geskaa    AV_TAG    " 1 suddenly, all of a sudden" ; !Rand key:n103000573346n
 gdaawoonak    AV_TAG    " 1 inside the bow of the boat" ; !Rand key:n103000564679n
-gchi-gbegiizhik    AV_TAG    " 1 the entire day, the whole day" ; !Rand key:n103000560735n
-gbe-naagshik    AV_TAG    " 1 all evening" ; !Rand key:n103004118924n
-gbe-naagshi    AV_TAG    " 1 all evening" ; !Rand key:n103004118920n
 gadin    AV_TAG    " 1 forcefully" ; !Rand key:n103004118613n
 gaama'iing    AV_TAG    " 1 across the way, across the aisle, on the other side [of a room]" ; !Rand key:n103004118147n
 eyedwi'iing    AV_TAG    " 1 at both ends, on both sides" ; !Rand key:n103004117617n
 ewedweyiing    AV_TAG    " 1 at both ends, on both sides" ; !Rand key:n103004117604n
 biindoonak    AV_TAG    " 1 inside the boat" ; !Rand key:n102996004203n
-biichin    AV_TAG    " 1 at intervals, from time to time, intermittently, periodically" ; !Rand key:n102995996639n
 benag    AV_TAG    " 1 ease up, easy, less, lessen" ; !Rand key:n102995959275n
 bemgii    AV_TAG    " 1 little by little, a little at a time, in small amounts, small amounts" ; !Rand key:n102995959266n
 bebngiishenh    AV_TAG    " 1 little by little, a little at a time, in small amounts, small amounts" ; !Rand key:n102995958112n
