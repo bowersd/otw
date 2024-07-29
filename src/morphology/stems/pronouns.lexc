@@ -50,9 +50,9 @@ gewiinwaa:ge-wiinawaa PR_NA_TAG "them (an.) too" ; !ge-PRON to mean PRON too ...
 giigiinwi:giigiinawi    PR_NA_TAG  "1 we (inc.) [unlike others], us (inc.) [unlike others]"; !Rand key:n20162257-28-9n
 giigiinwaa:giigiinawaa  PR_NA_TAG  "1 you (pl.) [unlike others]"; !Rand key:n20162257-22-29n
 giigii:giigii           PR_NA_TAG       "1 you (sing.) [unlike others]"; !Rand key:n20162257-20-15n
-niintam:niinitam         PR_NA_TAG       "1 me first"; !
-giintam:giinitam         PR_NA_TAG       "1 me first"; !
-wiintam:wiinitam         PR_NA_TAG       "1 me first"; !
+niintam:niinitam         PR_NA_TAG       "1 me first"; ! attested in GM story
+giintam:giinitam         PR_NA_TAG       "1 you first"; ! filled in to complete the paradigm
+wiintam:wiinitam         PR_NA_TAG       "1 him/her first"; ! filled in to complete the paradigm
 
 LEXICON PR_NA
 !kaa waya:kaa awaya    PR_NA_TAG    " 1 nobody, no one" ; !Rand key:n73016755315n
