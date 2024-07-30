@@ -1,5 +1,9 @@
 
-define hApos [h -> %' || \[c|s|n|z] _ ] ;
+define hApos [
+                [h -> %' || \[c|s|n|z] _ ] 
+                .o.
+                [%' %' -> %' ]
+                ];
 define aposEpen [[..] -> %' || n _ k ] ; 
 define finDevoi [[b -> p, d -> t, g -> k, z -> s, z h -> s h, j -> c h || \[m|n] _ .#.] ! .o.
                 ![d -> t, g -> k, z -> s, z h -> s h, j -> c h    || \[n] _ .#.] 
