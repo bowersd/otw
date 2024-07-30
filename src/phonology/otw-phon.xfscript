@@ -410,7 +410,7 @@ read regex [
     !optinitV    .o. !ORIGINAL TREATMENT TO ALLOW post syncope n-nokii < n[d]-ankii < nidanokii. CURRENT TREATMENT IS TO USE SHORTENED PREFIXES WITH +Nul TAG (ALLOWS FOR EASIER IDENTIFICATION, BECAUSE IT IS NOT SILENT, BUT IT DOES CREATE (USUALLY STARK) OVERGENERATION ON ORIGINAL CVC WORDS) LEAVE COMMENTED OUT
     preDel      .o.
     preLen      .o.
-    !preNas      .o. !non-syncopating dialects have excrescent nasals that show up after ni- '1'. comment out in syncope versions
+    preNas      .o. !non-syncopating dialects have excrescent nasals that show up after ni- '1'. comment out in syncope versions
     preEpen     .o. 
     conDimMutation .o.
     conPl       .o.
@@ -502,8 +502,8 @@ read regex [
     str1        .o.
     str2        .o.
     str3        .o.
-    ambigsync   .o. !comment out for non-syncopated
-    rsync       .o. !comment out for non-syncopated
+    !ambigsync   .o. !comment out for non-syncopated
+    !rsync       .o. !comment out for non-syncopated
     !codawdel    .o. !Medler, probably more general
     strandedNas .o. !ngoji (not nngoji), etc
     cleanse     
