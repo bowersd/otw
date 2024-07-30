@@ -78,7 +78,7 @@ define nasalPlaceAssimilation       [m (->) [n::3] || _ [d|t|g|k|z|s] ,,
 define strandedNas [[n|m|w|y] (->) [0::3] || [.#.|\[a|e|i|o]]  _ \[a|e|i|o] ]; !rule deletes m|n even when there is a following glide (even though with an approximant following the cues to n might be less likely to be swallowed). This is done because we are now deleting stranded glides as well, and they definitely can be stranded with a neighboring glide. Could of course make there be two rules
 
 !!!!punctuation
-define negHyphEpenthesis            [[..] (->) [%-::3] || _  [s|z] [i i| (i) [n o o|w a a]], [.#.|%-] [[[n g o d|n i i z h] (w a a s)]|n s|n i i (w)|n a a n|n s h w a a s|z h a a n g s|m i d a a s] _ ] ; 
+define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[s|z] [i i| (i) [n o o|w a a]]|d a a|k e], [.#.|%-] [[[n g o d|n i i z h] (w a a s)]|n s|n i i (w)|n a a n|n s h w a a s|z h a a n g s|m i d a a s] _ ] ; 
 define aposHyphDeletion             [[%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
 define nkApos                       [[..] (->) [%'::3] || n _ k ] ; 
 
