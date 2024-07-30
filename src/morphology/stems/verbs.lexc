@@ -7164,6 +7164,7 @@ ddibaajmotwaa:dadibaajimotaw VTA_TAG "1 relate a narrative to smb." ; !drawn fro
 !{start new words from story review
 maakwaa:maakihw VTA_TAG "1 maim smb." ;  !base of gii-maakogaaza (=gii-maakwigaazo) 'he was maimed'
 !}
+bmose'aa:bimoseh    VTA_TAG "take smb. for a walk, make smb. walk" ; !pretty straightforward causative, but they are so widely listed, I don't see enough errors to warrant making this a productive final in the derivation module
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
