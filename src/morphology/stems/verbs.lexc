@@ -10872,6 +10872,7 @@ gaachkodaan:agaachikod                          VTI_AM_THEME           "1 cut a 
 biidaagmipdaan:biidaagamipid                  VTI_AM_THEME           "1 be able to taste sth. [in a liquid], detect the taste of sth. [in a liquid]" ; !Rand key:n201611217-28-9n
 jiingdaasdoon:jiingadaasid                  VTI_OO_THEME            "1 throw a sinker, throw a splitter [in baseball]" ; !Rand key:n58fa1bdd3648454d851323320a01dd02n
 !Rand database dump end}
+giizhbii'aan:giizhibiih  VTI_AM_THEME "1 finish writing sth." ; !from MC sentences. not in opd
 
 LEXICON VTI
 baapiiw'aan:baapiiwih    VTI_AM_THEME    " 1 brush dust or crumbs from sth. [with an instrument]" ; !Rand key:n65306382067n
