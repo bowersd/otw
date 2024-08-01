@@ -4970,7 +4970,7 @@ nakshin:inakishin    VAI_TAG    " 1 be arranged [standing] in a certain way (of 
 nakzaawe:anakizaawe    VAI_TAG    " 1 do something bad, be up to something" ; !Rand key:n73033564183n
 nakzekwe:inakVv1zekwe    VAI_TAG    " 1 get dinner on [to cook]" ; !Rand key:n73033564337n
 nakzhiwe:inakozhiwe    VAI_TAG    " 1 paddle in a certain direction, paddle in a certain way, paddle to a certain place;  2 swim in a certain direction, swim in a certain way, swim to a certain place (especially of fish)" ; !Rand key:n71431159724n ![gk]Vo1 replaced with [gk]o
-nam'aa:anamVi1haa    VAI_TAG    " 1 go to church, pray" ; !Rand key:n71431160186n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt this is the base of Enma'aat	ç+anamahaa+d	na-pt	 1 Christian	n73015782826n, which we derive instead of list
+nam'aa:anamihaa    VAI_TAG    " 1 go to church, pray" ; !Rand key:n71431160186n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt this is the base of Enma'aat	ç+anamahaa+d	na-pt	 1 Christian	n73015782826n, which we derive instead of list !CHANGED TO anamihaa for enmi'aa-sik (he who does not pray=heathen), though this means that Christian will be Enmi'aat instead of Enma'aat (no instances of this participle with either vocalism in the text corpus as of 8/1/2024)
 nam'aakaaza:anamVi1haakaazo    VAI_TAG    " 1 pretend to be a Christian, pretend to pray" ; !Rand key:n71431160236n
 nam'aanzo:inamVv1haanzo    VAI_TAG    " 1 sing a certain way" ; !Rand key:n73033565171n
 nam'ekaaza:anamVi1hekaazo    VAI_TAG    " 1 [see nam'aakaaza]" ; !Rand key:n71431160436n
