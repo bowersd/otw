@@ -24,7 +24,7 @@ LEXICON VTA_DETRANSITIVE_REFLEXIVE
 
 LEXICON VTA_DETRANSITIVE_ANTIPASSIVE
 +AntPass:%>%>ge     VAI_TAG ; !"weight: 1";  !conditions awi->aa but rules will not put an [i] in the right spot for that (they put i2 before the boundary to get the palatalization)
-+AntPass:%>%>we     VAI_TAG ; !"weight: 1";  !conditions palatalization (rules should put i2 before the boundary to get the palatalization) !there is a perhaps dubious case of noojmawemgakba (noojmo-we-magad-ban, it is in a translation of really elaborate English, saying art cannot be >medicine<), which would be antipassivization of a VAI.
++AntPass:%>%>we     VAI_TAG ; !"weight: 1";  !conditions palatalization (rules should put i2 before the boundary to get the palatalization) !there is a perhaps dubious case of noojmawemgakba (noojmo-we-magad-ban, it is in a translation of really elaborate English, saying art cannot be >medicine<), which would be antipassivization of a VAI. Valentine 2001:406 suggests that it is phonologically restricted to occurring on stems that end in h, N, S and n (THIS HAS NOT BEEN IMPLEMENTED)
 
 LEXICON VAI_DERIV_GATEWAY
         VAI_ORDERS_GET ;
