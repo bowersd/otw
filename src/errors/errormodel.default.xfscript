@@ -79,7 +79,7 @@ define strandedNas [[n|m|w|y] (->) [0::3] || [.#.|\[a|e|i|o]]  _ \[a|e|i|o] ]; !
 
 !!!!punctuation
 define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[[s|z] [i i| (i) [g|n o [o|g]|w a a|w a n]]]|d a a|k e], [.#.|%-] [[[n g o d|n i i z h] (w a a s)]|n s|n i i (w)|n a a n|n s h w a a s|z h a a n g s|m i d a a s] _ ,,
-[m|n] (->) [%-::3] || [z [i i| (i) [g|n o [o|g]|w a a|w a n]]]] ; !allowing  stranded nasals (and semi stranded ones) to turn into a hyphen, because we can't get nasal stranding and hyphenation to happen at the same place as independent processes.
+                                        [m|n] (->) [%-::3] ||    [z  [i i| (i) [g|n o [o|g]|w a a|w a n]]]] ; !allowing  stranded nasals (and semi stranded ones) to turn into a hyphen, because we can't get nasal stranding and hyphenation to happen at the same place as independent processes.
 define aposHyphDeletion             [[%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
 define nkApos                       [[..] (->) [%'::3] || n _ k ] ; 
 
