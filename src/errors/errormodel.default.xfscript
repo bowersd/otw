@@ -79,10 +79,10 @@ define strandedNas [[n|m|w|y] (->) [0::3] || [.#.|\[a|e|i|o]]  _ \[a|e|i|o] ]; !
 
 !!!!punctuation
 define negAllomorphs                    [ i i|
-                                                !i k .#.|
+                                                i k .#.|
                                                 (i) g|
                                                 (i) n o o|
-                                                !(i)  n o k .#. |
+                                                (i)  n o k .#. |
                                                 i   n (%') g |
                                                     n o    g |
                                                 i   n o    g |
