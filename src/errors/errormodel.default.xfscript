@@ -88,7 +88,7 @@ define negAllomorphs                    [ i i|
                                                 i   w   n |
                                                     w a n |
                                                 i   w a n
-                                                ]
+                                                ] ; 
 define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[s|z] negAllomorphs|d a a|k e], [.#.|%-] [[[n g o d|n i i z h] (w a a s)]|n s|n i i (w)|n a a n|n s h w a a s|z h a a n g s|m i d a a s] _ ,,
                                         [m|n] (->) [%-::3] ||    [z  negAllomorphs]] ; !allowing  stranded nasals (and semi stranded ones) to turn into a hyphen, because we can't get nasal stranding and hyphenation to happen at the same place as independent processes.
 define aposHyphDeletion             [[%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
