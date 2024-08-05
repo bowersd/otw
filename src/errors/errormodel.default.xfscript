@@ -4,11 +4,14 @@ set encode-weights ON
 define finDevoi                     [b -> [p::3], d -> [t::3], g -> [k::3], z -> [s::3], z h -> [s h::3], j -> [c h::3]   ||  _ .#. ]; 
 ![b -> p || m _ .#. ,,
 !                                    d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
-define finLowering                  [o -> a, i -> e || \[a|i|o|e] _  (p|t|k|c h|
+define finLowering                  [ [[..] -> F I N S Y L L || _ (p|t|k|c h|
                                                                         b|d|g|j|z (h)|
                                                                         [s (h)](p|t|k)|
                                                                         [m (b)]|[n (d|g|j|z (h)|h)]|
-                                                                        w|y|%'|h) .#. ] ;
+                                                                        w|y|%'|h) .#. ] .o.
+                                        [o -> a, i -> e || \[a|i|o|e] _  F I N S Y L L  ] .o.
+                                        [F I N S Y L L -> 0]
+                                                                        ];
 define unrounding                   [o (->) [a ::3]|| \[o] _ \[o]] ; !this is a general dialectal feature (beyond the specific final syllable vowel lowering rule)
 
 !!!!word/syllable final nasals
@@ -108,7 +111,7 @@ define shortening [i (->)   [i i::2] || \[i] _ [g|n|n g] .#. ,, !variation in vo
 define errorUnion [ !cnjNasVowel|
         !finPostNasVoi|
         finDevoi|
-        !finLowering|
+        finLowering|
         nasalEmergence|
         gnMetathesis|
         initialGlideDeletion|
