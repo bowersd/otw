@@ -6512,7 +6512,7 @@ bgojiizi:bagojiizi    VAI_TAG    " 1 be caught between [baseball] bases" ; !Rand
 bgonesga’ge:bogonesagahige    VAI_TAG    " 1 make a hole through a board" ; !Rand key:n201611216-50-7n
 bgonesgizi:bogonesagizi    VAI_TAG    " 1 [board] have a hole, [tree] have a hole" ; !Rand key:n201611216-52-55n
 bgonwizi:bogoniwizi    VAI_TAG    " 1 lack the ability to do something, not be educated in an area, not know how to do something, not be knowledgeable about something (CL, M’Ch, Wk, Wp);  2 be alone (Sg)" ; !Rand key:n201611217-0-43n
-biidaanwza:biidaanVv1wazo    VAI_TAG    " 1 come bringing a bunch of people" ; !Rand key:n201611217-49-48n
+biidaanwza:biidaanwazo    VAI_TAG    " 1 come bringing a bunch of people" ; !Rand key:n201611217-49-48n !changed nVv1wazo to nwazo because lemma does not match that vocalism (and it is not a logical necessity to have a vowel there!)
 biidkawe:biidikawe    VAI_TAG    " 1 approach leaving tracks, have left tracks as one approached" ; !Rand key:n201611217-59-11n
 biidko’om:biidakohom    VAI_TAG    " 1 approach thundering" ; !Rand key:n201611218-6-24n
 biidkwewe:biidikwewe    VAI_TAG    " 1 approach leaving tracks" ; !Rand key:n201611218-9-59n
