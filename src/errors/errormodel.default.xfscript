@@ -4,13 +4,11 @@ set encode-weights ON
 define finDevoi                     [b -> [p::3], d -> [t::3], g -> [k::3], z -> [s::3], z h -> [s h::3], j -> [c h::3]   ||  _ .#. ]; 
 ![b -> p || m _ .#. ,,
 !                                    d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
-define finLowering                  [ [[..] -> F I N S Y L L || _  .#. ] .o.
-                                        [o -> a, i -> e || \[a|i|o|e] _  (p|t|k|c h|
+define finLowering                  [ o -> a, i -> e || \[a|i|o|e] _  (p|t|k|c h|                   !apparently .#. does not work in hfst except in hfst-twolc hfst-lexc and hfst-compose-intersect (https://github.com/hfst/hfst/blob/1f9efa75a3309b4b8926778e513886cee3c7396a/BUGS.old#L19)
                                                                         b|d|g|j|z (h)|
                                                                         [s (h)] (p|t|k)|
                                                                         [m (b)]|[n (d|g|j|z (h)|h)]|
-                                                                        w|y|%'|h) F I N S Y L L  ] !.o.
-                                        ![F I N S Y L L -> 0]
+                                                                        w|y|%'|h) .#.  
                                                                         ];
 define unrounding                   [o (->) [a ::3]|| \[o] _ \[o]] ; !this is a general dialectal feature (beyond the specific final syllable vowel lowering rule)
 
@@ -18,7 +16,7 @@ define unrounding                   [o (->) [a ::3]|| \[o] _ \[o]] ; !this is a 
 define indDeletion                  [d -> [[0]::2] || i n _ .#.] ;
 define nasalEmergence               [h -> [[0]::3] || n _ .#.] ; 
 define nDeletion                    [n -> [[0]::3], n h -> [[0]::4] ||  [a|i|o|e] _ .#.] ;
-define vvnTovvnh                    [[..] -> [h::3] || [i i|a a|o o|e] n _ .#.,,
+define vvnTovvnh                    [[..] -> [h::3] || [i i|a a|o o|e] n _ .#. ,,
                                      [..] -> [n h::4] || [i i|a a|o o|e] _ .#.] ; 
 define gratuitousNH                 [y (->) [h ::3]|| n _ ,, [..] (->) h || n _ s ] ; 
 
