@@ -67,7 +67,7 @@ define homorgObsMerge [
                     ]; 
 define lenisNasAssim [ b (->) [m::3], g (->) [n g::3], d (->) [n::3] ||  _ [m|n] ,, !from Rhodes 1985b p 468
                        b n (->) [m::3] || _ d ] ; !If I had a dime for every bndam -> mdam...
-define lenisStopDeletion [[d|b|g] (->) [0::3] ||  _ [[b|d|g|p|t|k|m (b)|n (d|[z (h)]|j)|[[z (h)]]|[[s] (h) (p|t|k)]j|c h] (w|y)] [a|i|o|e]] ; 
+define lenisStopDeletion [[d|b|g] (->) [0::3] ||  _ [[b|d|g|p|t|k|m (b)|n (d|[z (h)]|j)|[[z (h)]]|[[s] (h) (p|t|k)]|j|c h] (w|y)] [a|i|o|e]] ; 
 define lenisFortition [ b (->) [p::3], g (->) [k::3], d (->) [t::3], j (->) [c h::3], z h (->) [s h::3], z (->) [s::3] ||  _ [p|t|k|s|c h] ] ; !from Rhodes 1985b p 468
 define initialHomorgMerge    [ b b -> [b::2], g g -> [g::2], d d -> [d::2] || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
 define initialHomorgSonMerge [ m m -> [m::2], n n -> [n::2], w w -> [w::2] || [.#.|%-] _ ] ; !from Rhodes 1985b p 468
