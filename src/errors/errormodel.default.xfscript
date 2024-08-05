@@ -15,7 +15,7 @@ define unrounding                   [o (->) [a ::3]|| \[o] _ \[o]] ; !this is a 
 !!!!word/syllable final nasals
 define indDeletion                  [d -> [[0]::2] || i n _ .#.] ;
 define nasalEmergence               [h -> [[0]::3] || n _ .#.] ; 
-define nDeletion                    [n -> [[0]::3], n h -> [[0]::4] ||  [a|i|o|e] _ .#.] ;
+define nDeletion                    [n -> [[0]::3], n h -> [[0]::4] ||  [a|i|o|e] _ .#.] ; !in imperative -ken forms, nDeletion or hyphen epenthesis may occur, but not both (rules are stopped from applying to the same portion of a string by the error model set up as of 08/05/2024 (we also saw this with hyphenation and nasal stranding... added a new sub-clause of the rule to counteract that)
 define vvnTovvnh                    [[..] -> [h::3] || [i i|a a|o o|e] n _ .#. ,,
                                      [..] -> [n h::4] || [i i|a a|o o|e] _ .#.] ; 
 define gratuitousNH                 [y (->) [h ::3]|| n _ ,, [..] (->) h || n _ s ] ; 
