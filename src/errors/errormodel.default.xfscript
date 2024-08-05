@@ -108,7 +108,7 @@ define shortening [i (->)   [i i::2] || \[i] _ [g|n|n g] .#. ,, !variation in vo
 define errorUnion [ !cnjNasVowel|
         !finPostNasVoi|
         finDevoi|
-        finLowering|
+        !finLowering|
         nasalEmergence|
         gnMetathesis|
         initialGlideDeletion|
