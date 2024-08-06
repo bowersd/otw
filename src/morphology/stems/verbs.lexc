@@ -7168,6 +7168,7 @@ maakwaa:maakihw VTA_TAG "1 maim smb." ;  !base of gii-maakogaaza (=gii-maakwigaa
 !}
 bmose'aa:bimoseh    VTA_TAG "take smb. for a walk, make smb. walk" ; !pretty straightforward causative, but they are so widely listed, I don't see enough errors to warrant making this a productive final in the derivation module
 nnaawshimaa:nanaawishim VTA_TAG "straighten smb., arrange smb." ; !from MC sentences !final -shim is supposed to be 'drop'..., but -im is supposed to be act on w/ mouth...
+diswaa:adisw    VTA_TAG    " 1 colour sth. (an.), dye sth. (an.), paint sth. (an.)" ; !covering variability in root (OPD has t/d variation on this root)
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
@@ -10874,6 +10875,7 @@ jiingdaasdoon:jiingadaasid                  VTI_OO_THEME            "1 throw a s
 !Rand database dump end}
 giizhbii'aan:giizhibiih  VTI_AM_THEME "1 finish writing sth." ; !from MC sentences. not in opd
 piitganaandaan:apiitiganaand            VTI_AM_THEME                "hit sth. with such force" ; !from MC sentences
+disaan:adis                             VTI_AM_THEME                "paint sth."    ; !from AM sentences, looks like d/t variability in OPD
 
 LEXICON VTI
 baapiiw'aan:baapiiwih    VTI_AM_THEME    " 1 brush dust or crumbs from sth. [with an instrument]" ; !Rand key:n65306382067n
