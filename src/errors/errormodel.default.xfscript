@@ -93,8 +93,9 @@ define negAllomorphs                    [ i i|
                                                     w a n |
                                                 i   w a n
                                                 ] ; 
-define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[[s|z] negAllomorphs]|d a a|k e], [.#.|%-] [[[n g o d|n i i z h] (w a a s)]|n s|n i i (w)|n a a n|n s h w a a s|z h a a n g s|m i d a a s] _ ,,
-                                        [m|n] (->) [%-::3] ||  _  [z  negAllomorphs]] ; !allowing  stranded nasals (and semi stranded ones) to turn into a hyphen, because we can't get nasal stranding and hyphenation to happen at the same place as independent processes.
+define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[[s|z] negAllomorphs]|d a a|k e], [.#.|%-] [[[n g o d|n i i z h] (w a a s)]|n s|n i i (w)|n a a n|n s h w a a s|z h a a n g s|m i d a a s] _ !,,
+                                        ![m|n] (->) [%-::3] ||  _  [z  negAllomorphs]
+                                        ] ; !allowing  stranded nasals (and semi stranded ones) to turn into a hyphen, because we can't get nasal stranding and hyphenation to happen at the same place as independent processes.
 define aposHyphDeletion             [[%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
 define nkApos                       [[..] (->) [%'::3] || n _ k ] ; 
 
@@ -117,7 +118,6 @@ define errorUnion [ !cnjNasVowel|
         structuralW|
         postYRaising|
         indDeletion|
-        nDeletion|
         vvnTovvnh|
         glideBacknessAssimilation|
         preGlideLengthening|
@@ -135,7 +135,9 @@ define errorUnion [ !cnjNasVowel|
         initialHomorgMerge|
         initialHomorgSonMerge|
         nasalPlaceAssimilation|
-        negHyphEpenthesis|
+        [strandedNas|
+        nDeletion .o.
+        negHyphEpenthesis]|
         aposHyphDeletion|
         nkApos|
         gratuitousNH| 
@@ -147,8 +149,7 @@ define errorUnion [ !cnjNasVowel|
         ko2kwa|
         nVSzhAlternation|
         nvw5oLEVEL|
-        shortening|
-        strandedNas
+        shortening
         ]; 
 
 regex [errorUnion errorUnion] ; 
@@ -161,7 +162,6 @@ define errorSlim [ errorUnion -
         structuralW|
         postYRaising|
         indDeletion|
-        nDeletion|
         vvnTovvnh|
         glideBacknessAssimilation|
         preGlideLengthening|
@@ -170,15 +170,13 @@ define errorSlim [ errorUnion -
         stridentDevoicing|
         postStridentDevoicing|
         clusterDevoicing|
-        negHyphEpenthesis|
         nkApos|
         kaw2kow|
         unrounding|
         ko2kwa !|
         nVSzhAlternation|
         nvw5oLEVEL|
-        shortening|
-        strandedNas
+        shortening
         ]
         ]; 
 
