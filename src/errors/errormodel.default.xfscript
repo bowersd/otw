@@ -35,12 +35,12 @@ define ko2kwa                       [o (->) [w a::3], w a (->) [o::3] || [g|k|m]
 define initialGlideDeletion         [y -> [0::3] || .#. _ [i|e],,
                                     w -> [0::3] || .#. _ o] ;
 define structuralW                  [[..] -> [w::3] || .#. _ \[e|a|i|o|p|t|k|s (h)] (w) [e|a|i|o] ] ; 
-define glideBacknessAssimilation    [w (->) [y::3] || [a|e|i] _ ,,
-                                    y (->)  [w::3] || o _ ] ; 
+define glideBacknessAssimilation    [[%'|h|w] (->) [y::3] || [a|e|i] _ ,,
+                                    [%'|h|y] (->)  [w::3] || o _ ] ; 
 define nonConsFluidity              [y (->) [[%'::2]|h::2|w::2], 
                                      h (->) [[w::2]|y::2],  !corbiere specific version below with apostrophes instead of h. 
-                                     w (->) [[%'::2]|h::2|y::2] || [a|e|i|o] _ [a|e|i|o] .o.
-                                     h (->) y || i i _ ] ;  !this combines the y2h, glotGlide, hw rules into one, with a bit more specificity for hw
+                                     w (->) [[%'::2]|h::2|y::2] || [a|e|i|o] _ [a|e|i|o] 
+                                      ] ;  !this combines the y2h, glotGlide, hw rules into one, with a bit more specificity for hw
 define codaWDeletionMAYBEONSET      [w (->) [0::3], y (->) [0::3] || _ [b|d|g|p|t|k|z|s|j|c|m|n],,
                                      w (->) [0::4], y (->) [0::3] || _ [a|i|o|e]
                                     ];
