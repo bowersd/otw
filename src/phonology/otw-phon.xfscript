@@ -330,6 +330,7 @@ define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]
                  [L1|w|y|absv|w1|w2|y1] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] (cseqs) _ .#.]; !these rules apply "at the same time"
 
 define hw2w [ [h w -> h, h w -> [w::1] || _ .#.] .o. !this could probably be trimmed to just word-finally (there should not be any word final shw by this point of the derivation)
+            [w i -> o || \[s|c|n|z] h _ ] .o. !reinstating a specific version of wiCoal here because there are ho sequences from hwi in Medler, but the next rule ensures that "correct" surface forms have wi (and wiCoalescence in error modelwould not apply to make it o, because that would make Vo)
             [h w -> w || \[s|z|c|n] _ ]] ; !afaik, in all other environments glottal-w clusters are reduced to w. see note immediately below
             !hw seqs are in VTA URs for historical reasons, but the h's never seem to appear. Rhodes 1985b says h in some forms, w in others. Following Bloomfield 1958:9 (who says there are word-final h's. this is quite clearly true for hw verbs in Minnesota Ojibwe), we allowed the h to appear when word final (bc this rule is bled by glidedel), otherwise, w (this was a guess). There are quite clear cases of hw verbs becoming w verbs (giishkaw in AM!), so the rule has become more of an either-or, and moved to counter-bleed glidedel
 
@@ -410,7 +411,7 @@ read regex [
     !optinitV    .o. !ORIGINAL TREATMENT TO ALLOW post syncope n-nokii < n[d]-ankii < nidanokii. CURRENT TREATMENT IS TO USE SHORTENED PREFIXES WITH +Nul TAG (ALLOWS FOR EASIER IDENTIFICATION, BECAUSE IT IS NOT SILENT, BUT IT DOES CREATE (USUALLY STARK) OVERGENERATION ON ORIGINAL CVC WORDS) LEAVE COMMENTED OUT
     preDel      .o.
     preLen      .o.
-    preNas      .o. !non-syncopating dialects have excrescent nasals that show up after ni- '1'. comment out in syncope versions
+    !preNas      .o. !non-syncopating dialects have excrescent nasals that show up after ni- '1'. comment out in syncope versions
     preEpen     .o. 
     conDimMutation .o.
     conPl       .o.
@@ -502,8 +503,8 @@ read regex [
     str1        .o.
     str2        .o.
     str3        .o.
-    !ambigsync   .o. !comment out for non-syncopated
-    !rsync       .o. !comment out for non-syncopated
+    ambigsync   .o. !comment out for non-syncopated
+    rsync       .o. !comment out for non-syncopated
     !codawdel    .o. !Medler, probably more general
     strandedNas .o. !ngoji (not nngoji), etc
     cleanse     
