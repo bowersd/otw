@@ -2167,6 +2167,7 @@ boogshkaa:boogishkaa    VAI_TAG "have no money, be broke, be financially bankrup
 !gaakaanjgwewese:gaakaanjigwewese    VAI_TAG    " 1 jerk one's head be forward repeatedly, one's head be jerked forward repeatedly" ; !Rand key:n201622112-42-33n this is just a reduplicated form that we already have
 gaanjdiyese:gaanjidiyese    VAI_TAG    " 1 thrust one's hips forward" ; !non-reduplicated form of Rand key:n201622112-37-47n
 gaanjbiza:gaanjibizVa1    VAI_TAG    " 1 [vehicle] jerk forward" ; !non-reduplicated form of Rand key:n201622112-27-58n
+gaanjbagza:gaanjibagizo    VAI_TAG    " 1 jerk one's body" ; !non-reduplicated form of Rand key:n73102056543n
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
@@ -3464,7 +3465,6 @@ gaagiijzide:gaagiijizide    VAI_TAG    " 1 [see gaagiidzide]" ; !Rand key:n73016
 gaagiimoodzi:gaagiimoodizi    VAI_TAG    " 1 be a sneak, be sneaky" ; !Rand key:n73016048000n
 gaagiinaadngoshi:gaagiinaadingoshi    VAI_TAG    " 1 have nightmares" ; !Rand key:n73016048055n
 gaakaandkwese:gaakaandikwese    VAI_TAG    " 1 have one's head jerk back and forth" ; !Rand key:n73102056363n
-gaakaanjbagza:gaakaanjibagizo    VAI_TAG    " 1 jerk one's body back and forth" ; !Rand key:n73102056543n
 gaakshkaa:gaakVv1shkaa    VAI_TAG    " 1 be ripped, be torn, rip" ; !Rand key:n73023752511n
 gaandnaama:gaandVv1naamo    VAI_TAG    " 1 push with one's breath" ; !Rand key:n73016056085n
 gaandzakmii:gaandVv1zakVv1mii    VAI_TAG    " 1 take off [running]" ; !Rand key:n73016681575n
