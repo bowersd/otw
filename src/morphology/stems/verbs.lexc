@@ -2165,8 +2165,8 @@ mkadewkon'ye:makadewikonaye VAI_TAG "wear black, be a priest" ; !mekdewkon'ye wa
 n'gaashkaa:nagaashkaa    VAI_TAG "stop moving, come to a halt" ; !from MC sentences, also in OPD
 boogshkaa:boogishkaa    VAI_TAG "have no money, be broke, be financially bankrupt" ; !from MC sentences
 !gaakaanjgwewese:gaakaanjigwewese    VAI_TAG    " 1 jerk one's head be forward repeatedly, one's head be jerked forward repeatedly" ; !Rand key:n201622112-42-33n this is just a reduplicated form that we already have
-gaakaanjdiyese:gaakaanjidiyese    VAI_TAG    " 1 thrust one's hips forward repeatedly" ; !Rand key:n201622112-37-47n
-gaakaanjbiza:gaakaanjibizVa1    VAI_TAG    " 1 [vehicle] move forward in fits and starts, [vehicle] move forward jerkily" ; !Rand key:n201622112-27-58n
+gaanjdiyese:gaanjidiyese    VAI_TAG    " 1 thrust one's hips forward" ; !non-reduplicated form of Rand key:n201622112-37-47n
+gaanjbiza:gaanjibizVa1    VAI_TAG    " 1 [vehicle] jerk forward" ; !non-reduplicated form of Rand key:n201622112-27-58n
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
