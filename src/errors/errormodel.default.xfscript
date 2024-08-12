@@ -27,7 +27,7 @@ define postYRaising                 [a (->) [i::1] || y _ \[a]] ;
 define preGlideLengthening          [[..] (->) [o::3] || o _ w ,,
                                      [..] (->) [i::3] || i _ y]; !there may also be some ambiguity before nasals
 define kaw2kow                      [a (->) [o ::3]|| k _ w] ; 
-define ko2kwa                       [o (->) [w a::3], w a (->) [o::3] || [g|k|m] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
+define ko2kwa                       [[..] (->) [w::3], o (->) [w a::3], w a (->) [o::3] || [g|k|m] _ ] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa
 
 !!!!glides
 !define y2h                          [y (->) [%'::3] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
