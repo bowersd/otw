@@ -316,6 +316,7 @@ PV/mdaaso+:midaaso- V_PREVERBS_COUNTING_GATEWAY " 1 ten"; !this form used in ref
 LEXICON V_PREVERBS_COUNTING_GATEWAY
     NUMERAL_FINALS ;
     V_REDUPLICATION_GATEWAY ; 
+    AV_TEMPORAL             ; 
 
 LEXICON V_REDUPLICATION_GATEWAY
 @D.NUMERAL.VERB@@P.NUMERAL.VERB@    CARDINALS ; !stopping back route for ko- to slip in
