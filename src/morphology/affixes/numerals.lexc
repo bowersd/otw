@@ -224,8 +224,8 @@ LEXICON DISTRIBUTIVE_REDUPLICATION_GATEWAY
         NUMERAL_STANDALONE_FORMS_TEN ;
 
 LEXICON NUMERAL_STANDALONE_FORMS_LESS_THAN_TEN
-bezhig+Num:bezhig               # "one";
-niizh+Num:niizh                 # "two";
+bezhik+Num:bezhig               # "one";
+niish+Num:niizh                 # "two";
 nswi+Num:niswi                  CLOSED_PROTECTION "three";
 niiwin+Num:niiwin               # "four";
 naanan+Num:naanan               # "five";
@@ -244,17 +244,17 @@ LEXICON NUMERAL_STANDALONE_FORMS_TEN_GATEWAY
 
 LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
 !you can follow these with VAI -izi, -VII -od (ad?)
-+aatig+Num:waatig    # "stick";
-+eg+Num:weg    # "cloth";
++aatik+Num:waatig    # "stick";
++ek+Num:weg    # "cloth";
 +aabik+Num:waabik    # "metal/glass";
-+aabiig+Num:waabiig    # "string/row";
++aabiik+Num:waabiig    # "string/row";
 +aak+Num:waak    # "pole";
 +ooshkin+Num:ooshkin    # "bag";
 +bboon+Num:%>biboon    # "winter";
 +bii'gan+Num:%>biihigan    # "card";
 +dbahaabaan+Num:%>d2ibahaabaan    # "mile"; !ngod loses its d from the looks of it before d here
 +dbik+Num:%>d2ibik    # "night"; !ngod loses its d from the looks of it before d here
-+gamig+Num:%>gamig    # "building";
++gamik+Num:%>gamig    # "building";
 +gon+Num:%>gon    # "day";
 +kiins+Num:akiins    # "acre";
 +naagaans+Num:%>naagaans    # "cup";
@@ -262,26 +262,26 @@ LEXICON NUMERAL_CLASSIFICATORY_MEDIALS
 +ninj+Num:%>ninj    # "hand";
 +waakwagan+Num:%>waakBv1wagan    # "hand";
 +oode+Num:oode    # "family";
-+oonag+Num:oonag    # "boat";
-+sag+Num:%>sag    # "barrel";
++oonak+Num:oonag    # "boat";
++sak+Num:%>sag    # "barrel";
 +wewaan+Num:wewaan    # "group";
-+zid+Num:%>zid    # "foot";
++zit+Num:%>zid    # "foot";
 +na+Num:%>na    CLOSED_PROTECTION "loaf";
 
 LEXICON NUMERAL_FINALS
 !nen'godooshkne ->neningod-ooshkin-e be a max of one to each... a distributive reduplicated form (NOT bebezhig!) plus -ooshkine. there are similar ones
-oon'gat+VII:oonagad2 VII_ORDERS_GET "be N boat loads"; !Lumping classifier material with final. oonag classifier exists, but I'm a bit leery of -ad2 as a final on its own.
-oon'gizi+VAI:oonagizi VAI_ORDERS_GET "be N boat loads"; 
-doopwin'gat+VII:%>d2oopowinigad2   VII_ORDERS_GET "be N tablefuls" ; !doopwin is clear, but then you have -igad2 in addition to -ad2 ... need to delete dd>d with ngod
-doopwin'gizi+VAI:%>d2oopowinagizi   VAI_ORDERS_GET "be N tablefuls" ; !doopwin is clear, but then you have -igad2 in addition to -ad2
-ooshkne+VII:ooshkine       VII_ORDERS_GET "be N containerfuls" ; 
-ooshkne+VAI:ooshkine       VAI_ORDERS_GET "be N containerfuls" ; 
-gnagat+VII:%>gonagad2      VII_ORDERS_GET "be N days later" ; !gon 'day' + gad? 'absent'
-gnendi+VAI:%>gonendi       VAI_ORDERS_GET "be absent for N days" ; !gon 'day' + endi 'absent'
-gnagzi+VAI:%>gonagizi      VAI_ORDERS_GET "be N days" ; !gon 'day' + agizi 'be'
-bboon'gizi+VAI:%>biboonagizi      VAI_ORDERS_GET "be N years" ; !biboon 'winter' + -agizi 'be'
-gaade+VAI:%>gaade            VAI_ORDERS_GET "have N legs" ; !biboon 'winter' + -agizi 'be'
++oon'gat+VII:oonagad2 VII_ORDERS_GET "be N boat loads"; !Lumping classifier material with final. oonag classifier exists, but I'm a bit leery of -ad2 as a final on its own.
++oon'gizi+VAI:oonagizi VAI_ORDERS_GET "be N boat loads"; 
++doopwin'gat+VII:%>d2oopowinigad2   VII_ORDERS_GET "be N tablefuls" ; !doopwin is clear, but then you have -igad2 in addition to -ad2 ... need to delete dd>d with ngod
++doopwin'gizi+VAI:%>d2oopowinagizi   VAI_ORDERS_GET "be N tablefuls" ; !doopwin is clear, but then you have -igad2 in addition to -ad2
++ooshkne+VII:ooshkine       VII_ORDERS_GET "be N containerfuls" ; 
++ooshkne+VAI:ooshkine       VAI_ORDERS_GET "be N containerfuls" ; 
++gnagat+VII:%>gonagad2      VII_ORDERS_GET "be N days later" ; !gon 'day' + gad? 'absent'
++gnendi+VAI:%>gonendi       VAI_ORDERS_GET "be absent for N days" ; !gon 'day' + endi 'absent'
++gnagzi+VAI:%>gonagizi      VAI_ORDERS_GET "be N days" ; !gon 'day' + agizi 'be'
++bboon'gizi+VAI:%>biboonagizi      VAI_ORDERS_GET "be N years" ; !biboon 'winter' + -agizi 'be'
++gaade+VAI:%>gaade            VAI_ORDERS_GET "have N legs" ; !biboon 'winter' + -agizi 'be'
 !niizhoobhidwag niizh=2, bahidi=run oo=??
 !niizhooshin niizh=2, shin=lie oo=??
-waabgonii+VII:waabagonii    VII_ORDERS_GET "grow N" ; 
-wewaan'gizi+VAI:wewaanagizi    VAI_ORDERS_GET "be N groups" ; 
++waabgonii+VII:waabagonii    VII_ORDERS_GET "grow N" ; 
++wewaan'gizi+VAI:wewaanagizi    VAI_ORDERS_GET "be N groups" ; 
