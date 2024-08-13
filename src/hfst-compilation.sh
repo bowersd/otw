@@ -43,7 +43,7 @@ hfst-fst2fst -w -i morphophonologyclitics_analyze_relaxed_slim.hfst -o morphopho
 
 #rm tmp.lexc
 rm morphology.hfst
-rm phonology.hfst
+#rm phonology.hfst
 rm morphophonology.hfst
 rm clitics.hfst
 rm fiero2corbiere.hfst
