@@ -27,7 +27,7 @@ define postYRaising                 [a (->) [i::1] || y _ \[a]] ;
 define preGlideLengthening          [[..] (->) [o::3] || o _ w ,,
                                      [..] (->) [i::3] || i _ y]; !there may also be some ambiguity before nasals
 define kaw2kow                      [a (->) [o ::3]|| k _ w] ; 
-define ko2kwa                       [[h|%'] (->) [w::3], o (->) [w a::3], w a (->) [o::3] || [g|k|m] _ \[o]] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa !updated to allow a stranded w. I think it should only be able to persist when the following consonant was weak enough to deletei (like a glottal). getting a w should only be an option when an o is deleted, but that deletion is in the phonology and so we just have to allow it everywhere
+define ko2kwa                       [[h|%'] (->) [w::3], o (->) [w a::3], w a (->) [o::3] || [g|k|m] _ [\[o]|.#.]] ; !I think I have this backwards. The original configuration is Kwa, which becomes o in Odawa !updated to allow a stranded w. I think it should only be able to persist when the following consonant was weak enough to deletei (like a glottal). getting a w should only be an option when an o is deleted, but that deletion is in the phonology and so we just have to allow it everywhere
 
 !!!!glides
 !define y2h                          [y (->) [%'::3] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
