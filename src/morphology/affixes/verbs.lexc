@@ -744,7 +744,7 @@ LEXICON VII_CNJ
 !{ Independent order
 !negation needs closer attention
 LEXICON VII_INDEP_NEG
-+Neg:c1%>sinoo  VII_INDEP_OBV ; !c1 triggers s->z / n _
++Neg:c1%>sinoon2  VII_INDEP_OBV ; !c1 triggers s->z / n _
             VII_INDEP_OBV ;
 
 LEXICON VII_INDEP_OBV
