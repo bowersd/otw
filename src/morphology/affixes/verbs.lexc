@@ -602,7 +602,11 @@ LEXICON VAI_CNJ_3
 +3:%>d1               VAI_CNJ_NO_MODE_3PL_GATEWAY ; !d1 phon in root.lexc
 +3Pl:w4aad1       VAI_CNJ_3PL_NEG_GET ; !Irregularity when negated and this is last morpheme
 +3Obv:%>nid1           VAI_CNJ_NO_MODE_3OBV_GATEWAY ; !nas morph inid?
-+X:%>nd1              VAI_CNJ_DUB_EARLY_B ; !nd1b -> ngib, nas morph ang?
++X:%>nd1              VAI_CNJ_X_DUB_ITR_GATEWAY ; !nd1b -> ngib, nas morph ang? itr morph ng
+
+LEXICON VAI_CNJ_X_DUB_ITR_GATEWAY
+    VAI_CNJ_DUB_EARLY_B ; 
+    VAI_CNJ_ITR         ;
 
 LEXICON VAI_PASSIVE_3
 0:ind  VAI_PASSIVE_3PL ; !participles! tags to follow (didn't want to issue +3:ind, +3Pl:indwaa)
@@ -613,6 +617,7 @@ LEXICON VAI_PASSIVE_3PL
 +3:0     VAI_CNJ_MODE_GET ;
 
 LEXICON VAI_CNJ_3PL_NEG_GET
+                VAI_CNJ_ITR ; 
 @D.Negation@    VAI_CNJ_DUB_EARLY_B ;
 @R.Negation@    VAI_CNJ_3PL_MODE_SET ;
 
@@ -631,6 +636,7 @@ LEXICON VAI_CNJ_DUB_SET_B
 !{preterite slot 
 LEXICON VAI_CNJ_PRT_1
 +Prt:%>b1aan2   VAI_CNJ_DUB_GET_1 ; !rand doesn't show n as deletable, but Medler did
+            VAI_CNJ_ITR ; 
 @D.Mode@    VAI_CNJ_DUB_GET_1 ; !Seeing siiw3 forces you to pick up mode suffixes
 @R.Mode@    VAI_CNJ_DUB ;
 
@@ -644,6 +650,7 @@ LEXICON VAI_CNJ_1_END
 
 LEXICON VAI_CNJ_MODE_GET
             VAI_CNJ_PRT ;
+            VAI_CNJ_ITR ; 
 @D.Mode@    #  ; !cannot pick up pcp if no mode (direct route to pcp already exists)
 
 LEXICON VAI_CNJ_PRT 
@@ -670,10 +677,12 @@ LEXICON VAI_CNJ_DUB
 !{participles (redundant with nominal periph slot)
 LEXICON VAI_CNJ_NO_MODE_3PL_GATEWAY
 0:y1        VAI_CNJ_PCP_PL ;
+            VAI_CNJ_ITR ; 
 @P.3Num.Pl@ VAI_CNJ_DUB_EARLY_B;
 
 LEXICON VAI_CNJ_NO_MODE_3OBV_GATEWAY
 0:y1        VAI_CNJ_PCP_OBV ;
+        VAI_CNJ_ITR ; 
 @P.3Num.Obv@ VAI_CNJ_DUB_EARLY_B;
 
 LEXICON VAI_CNJ_PCP_GET
@@ -688,6 +697,11 @@ LEXICON VAI_CNJ_PCP_OBV
 +Pcp+3Obv:%>an # ;
 
 !} participle end
+!{start iterative
+LEXICON VAI_CNJ_ITR
++Itr:y1an2  # ; 
+!iterative end}
+
 !} cnj end 
 
 !#####
