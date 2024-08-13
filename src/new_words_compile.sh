@@ -4,7 +4,7 @@ cat morphology/new_root.lexc morphology/stems/new_adverbs.lexc morphology/stems/
 hfst-lexc new_words.lexc -o urGuessing/morphology.hfst
 hfst-xfst -F phonology/add_in_vowels.xfscript
 hfst-compose-intersect -1 urGuessing/morphology.hfst -2 urCandidates.hfst -o urGuessing/urGuesser.hfst
-hfst-xfst -F phonology/otw-phon.xfscript
+#hfst-xfst -F phonology/otw-phon.xfscript #this is usually already compiled by hfst-compilation
 hfst-compose-intersect -1 urGuessing/urGuesser.hfst -2 phonology.hfst -o urGuessing/morphophonology.hfst
 hfst-lexc clitics/clitics.lexc -o clitics.hfst
 hfst-concatenate -1 urGuessing/morphophonology.hfst -2 clitics.hfst -o urGuessing/morphophonologyclitics_generate.hfst
