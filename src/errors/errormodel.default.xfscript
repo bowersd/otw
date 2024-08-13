@@ -34,7 +34,7 @@ define ko2kwa                       [[h|%'] (->) [w::3], o (->) [w a::3], w a (-
 !define glotGlide                    [h (->) [w ::3] || [a|e|i|o] _ [a|e|i|o] ] ;  !this is similar to hw rule
 define initialGlideDeletion         [y -> [0::3] || .#. _ [i|e],,
                                     w -> [0::3] || .#. _ o] ;
-define structuralW                  [[..] -> [w::3] || .#. _ \[e|a|i|o|p|t|k|s (h)] (w) [e|a|i|o] ] ; 
+define structuralW                  [[..] -> [w::3] || .#. _ [[b|d|g|m|n|z (h)|j] (w)|w|y] [e|a|i|o] ] ;
 define glideBacknessAssimilation    [[%'|h|w] (->) [y::3] || [a|e|i] _ ,,
                                     [%'|h|y] (->)  [w::3] || o _ ] ; 
 define nonConsFluidity              [y (->) [[%'::2]|h::2|w::2], 
