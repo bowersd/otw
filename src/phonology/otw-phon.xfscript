@@ -159,7 +159,8 @@ define cnjnegsig    [ [..] -> w4 || s i w3 %> d1 _ .#. ] ; !3Sg neg # -> sig *si
 define cnjd1w4      [ d1 -> g || _ w4 ] ; !d1 (third person) turns to g before dub
                                             !precedes w4 -> o, could d1 -> g || _ o/wwork?
 !define cnj21dubw    [ [..] -> w || w4 %> a n g _ %> ] ; !close reading of Valentine 2001 shows 21pl dub has an extra w, Rand suspects this is an error.
-define cnjoban      [   w -> o || [e|[a n]] g _ %> b1 ,, !2pl, 21pl w -> o (prt)
+define cnjo      [      w y1 a -> o .o. !for iteratives
+                        w -> o || [e|[a n]] g _ %> b1 ,, !2pl, 21pl w -> o (prt)
                         w4 -> o || _ %> b1 ]; !ditto for w4 (w4b1 only third person)
 define cnjW3w       [w3 -> w || _ %> vowel] ; !w3 only appears in hiatus (why req morph bound?)
 define cnjW3del     [w3 -> 0] ; !else: delete
@@ -427,7 +428,7 @@ read regex [
     cnjpb1      .o.
     cnjnegsig   .o.
     cnjd1w4     .o.
-    cnjoban     .o.
+    cnjo        .o.
     cnjW3w      .o.
     cnjW3del    .o.
     cnjrmbound  .o.
