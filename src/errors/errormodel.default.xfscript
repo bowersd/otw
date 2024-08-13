@@ -96,7 +96,9 @@ define negAllomorphs                    [ i i|
 define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[[s|z] negAllomorphs]|d a a|k e], [.#.|%-] [[[n g o d|n i i z h] (w a a s)]|n s|n i i (w)|n a a n|n s h w a a s|z h a a n g s|m i d a a s] _ !,,
                                         ![m|n] (->) [%-::3] ||  _  [z  negAllomorphs]
                                         ] ; !allowing  stranded nasals (and semi stranded ones) to turn into a hyphen, because we can't get nasal stranding and hyphenation to happen at the same place as independent processes.
-define aposHyphDeletion             [[%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
+define aposHyphDeletion             [
+                                        [h (->) [0::3] || [b|d|g|p|t|k|m|w|y|h|j] _, \[c|s|n|z] _ [b|d|g|p|t|k|m|n|z|s|c|j|w|y|h]] .o.
+                                        [%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
 define nkApos                       [[..] (->) [%'::3] || n _ k ] ; 
 
 !!!! morphophonological mishaps
