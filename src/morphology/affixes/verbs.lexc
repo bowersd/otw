@@ -1050,6 +1050,7 @@ LEXICON VTA_INDEP_INVISIBLE_INAN
 LEXICON VTA_INDEP_NUMBER_IFULL 
 !style should include recommendations for marking when predication info is being collapsed
 +1Pl:naan2y1 VTA_INDEP_IFULL_PERIPH_GET ;
++1Pl:min2    VTA_INDEP_IFULL_PERIPH_GET "weight: 1" ; !catching dialect variants mentioned in baraga, and appearing especially in Parry Island 
 +1Pl:minaa     VTA_INDEP_MODE_GATEWAY ; 
 !new tag
 !} I-full end
