@@ -100,7 +100,7 @@ define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[[s|z] negAllomorp
 define aposHyphDeletion             [
                                         [h (->) [0::3] || [b|d|g|p|t|k|m|w|y|h|j] _, \[c|s|n|z] _ [b|d|g|p|t|k|m|n|z|s|c|j|w|y|h]] .o.
                                         [%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
-define nkApos                       [[..] (->) [%'::3] || n _ k ] ; 
+define nkApos                       [[..] (->) [%'::3] || n _ k, n _ j ] ; 
 
 !!!! morphophonological mishaps
 define nVSzhAlternation             [z h (->) [n::3] || \[%-] _ .#., \[%-] _ i ] ; 
