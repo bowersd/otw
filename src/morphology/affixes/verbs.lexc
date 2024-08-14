@@ -91,6 +91,8 @@ LEXICON V_PREVERBS_TENSE
 !check Valentine ch 16 for more
 !{attention!
 PV/daa-gii+:daa-gii-    V_PREVERBS_DIRECTION_GATEWAY    " 1 would, would have; could; should; can" ; !Rand key:n201012716-46-13n
+PV/da-gii+:da-gii-    V_PREVERBS_DIRECTION_GATEWAY    " 1 would, would have; could; should; can" ; !DAB added because it exists in AM sentences
+PV/da-wii+:da-wii-    V_PREVERBS_DIRECTION_GATEWAY    " 1 would (future), could (future)" ; !DAB added because it exists in AM sentences
 !}
 PV/wii+:wii-   V_PREVERBS_DIRECTION_GATEWAY " 1 going to [do something], want to [do something], intend [to do something], in order to [do something];  2 future tense, in the future;  3 be in need of (non-living things);  4 please;  5 seeking to [do something];  6 in order to [do something]"; 
 PV/gii+:gii-   V_PREVERBS_DIRECTION_GATEWAY " 1 [past tense]";
