@@ -37,9 +37,10 @@ define initialGlideDeletion         [y -> [0::3] || .#. _ [i|e],,
 define structuralW                  [[..] -> [w::3] || .#. _ [[b|d|g|m|n|z (h)|j] (w)|w|y] [e|a|i|o] ] ;
 define glideBacknessAssimilation    [[%'|h|w] (->) [y::3] || [a|e|i] _ ,,
                                     [%'|h|y] (->)  [w::3] || o _ ] ; 
-define nonConsFluidity              [y (->) [[%'::2]|h::2|w::2], 
+define nonConsFluidity              [[y (->) [[%'::2]|h::2|w::2], 
                                      h (->) [[w::2]|y::2],  !corbiere specific version below with apostrophes instead of h. 
-                                     w (->) [[%'::2]|h::2|y::2] || [a|e|i|o] _ [a|e|i|o] 
+                                     w (->) [[%'::2]|h::2|y::2] || [a|e|i|o] _ [a|e|i|o]] .o.
+                                     h (->) [w::4] || _ .#.  !cautiously allowing h -> w at the end of words, since I caught such a case in an MC sentence gdoo-mnjiw instead of gdoo-mnjih)
                                       ] ;  !this combines the y2h, glotGlide, hw rules into one, with a bit more specificity for hw
 define codaWDeletionMAYBEONSET      [w (->) [0::3], y (->) [0::3] || _ [b|d|g|p|t|k|z|s|j|c|m|n],,
                                      w (->) [0::4], y (->) [0::3] || _ [a|i|o|e]
