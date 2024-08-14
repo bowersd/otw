@@ -2210,7 +2210,7 @@ LEXICON VTI_CNJ_PCP_PL
 +Pcp+3Pl:%>ag # ; 
 
 LEXICON VTI_CNJ_PCP_OBV
-+Pcp+3Pl:%>an # ; 
++Pcp+3Obv:%>an # ; 
 
 !} participles end
 !} Cnj end
