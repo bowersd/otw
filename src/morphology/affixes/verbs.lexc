@@ -708,7 +708,7 @@ LEXICON VAI_CNJ_PCP_OBV
 !} participle end
 !{start iterative
 LEXICON VAI_CNJ_ITR
-+Itr:y1an2 "weight: 1" # ; 
++Itr:y1an2 # "weight: 1" ; 
 !iterative end}
 
 !} cnj end 
