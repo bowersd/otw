@@ -11966,7 +11966,7 @@ bninaan:banin    VTI_AM_THEME    " 1 drop sth., let go of sth." ; !Rand key:n201
 boozwebnaan:boozwebin    VTI_AM_THEME    " 1 throw sth. onto a vehicle, load sth. onto a vehicle" ; !Rand key:n201132712-4-17n
 ditaan:odit    VTI_AM_THEME    " 1 come to sth., arrive at sth." ; !Rand key:n201132721-47-27n
 ggwezkaan:gagwezik    VTI_AM_THEME    " 1 test sth. with one's foot or body" ; !Rand key:n201133019-24-42n
-giin'kokdaan:giinkokod    VTI_AM_THEME    " 1 sharpen sth. to a point" ; !Rand key:n20113316-52-40n ![gk]Vo1 replaced with [gk]o
+giin'kokdaan:giinikokod    VTI_AM_THEME    " 1 sharpen sth. to a point" ; !Rand key:n20113316-52-40n ![gk]Vo1 replaced with [gk]o
 giiwtaashkaan:giiwitaashk    VTI_AM_THEME    " 1 walk around sth., go around sth." ; !Rand key:n201133118-21-26n
 gnjibtwaadaan:ginjibatwaad    VTI_AM_THEME    " 1 flee with sth., run off with sth." ; !Rand key:n20114120-9-12n
 jaagnaan:jaagin    VTI_AM_THEME    " 1 use sth. up" ; !Rand key:n2011437-40-9n
