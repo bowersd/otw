@@ -75,7 +75,7 @@ define lenisFortition [ b (->) [p::3], g (->) [k::3], d (->) [t::3], j (->) [c h
 define initialHomorgMerge    [ b b -> [b::2], g g -> [g::2], d d -> [d::2] || [.#.|%-] _ ] ; !from Rhodes 1985b p 469
 define initialHomorgSonMerge [ m m -> [m::2], n n -> [n::2], w w -> [w::2] || [.#.|%-] _ ] ; !from Rhodes 1985b p 468
 define gnMetathesis                 [g n (->) [n g::3] || _ \[a|e|i|o]] ;
-define nasalPlaceAssimilation       [m (->) [n::3] || _ [d|t|g|k|z|s] ,,
+define nasalPlaceAssimilation       [m (->) [n::3] || _ [d|t|g|k|z|s|j|c] ,,
                                     m (->) [[n %']::3] || _ [z|s|g|k] ,,
                                     n (->) [m::3] || _ [b|p] ]; 
 define strandedNas [[n|m|w|y] (->) [0::3] || [.#.|\[a|e|i|o]]  _ \[a|e|i|o] ]; !rule deletes m|n even when there is a following glide (even though with an approximant following the cues to n might be less likely to be swallowed). This is done because we are now deleting stranded glides as well, and they definitely can be stranded with a neighboring glide. Could of course make there be two rules
@@ -100,7 +100,7 @@ define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[[s|z] negAllomorp
 define aposHyphDeletion             [
                                         [h (->) [0::3] || [b|d|g|p|t|k|m|w|y|h|j] _, \[c|s|n|z] _ [b|d|g|p|t|k|m|n|z|s|c|j|w|y|h]] .o.
                                         [%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
-define nkApos                       [[..] (->) [%'::3] || n _ k, n _ j ] ; 
+define nkApos                       [[..] (->) [%'::3] || n _ k, n _ j ] ;  !n'k is very redundant, because there were no nk clusters, n'j is redundant because there is no phonological confusion that could emerge (unlike nh vs n'h)
 
 !!!! morphophonological mishaps
 define nVSzhAlternation             [z h (->) [n::3] || \[%-] _ .#., \[%-] _ i ] ; 
