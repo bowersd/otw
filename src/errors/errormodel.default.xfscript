@@ -98,6 +98,7 @@ define negHyphEpenthesis            [[..] (->) [%-::3] || _  [[[s|z] negAllomorp
                                         ![m|n] (->) [%-::3] ||  _  [z  negAllomorphs]
                                         ] ; !allowing  stranded nasals (and semi stranded ones) to turn into a hyphen, because we can't get nasal stranding and hyphenation to happen at the same place as independent processes.
 define aposHyphDeletion             [
+                                        [%' h (->) [0::3] || [s|n|z] _ ] .o.
                                         [h (->) [0::3] || [b|d|g|p|t|k|m|w|y|h|j] _, \[c|s|n|z] _ [b|d|g|p|t|k|m|n|z|s|c|j|w|y|h]] .o.
                                         [%'|%-] (->) [0::3] || \[%'|%-] _ \[%'|%-]] ; 
 define nkApos                       [[..] (->) [%'::3] || n _ k, n _ j ] ;  !n'k is very redundant, because there were no nk clusters, n'j is redundant because there is no phonological confusion that could emerge (unlike nh vs n'h)
