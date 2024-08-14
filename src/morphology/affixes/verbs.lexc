@@ -2163,6 +2163,7 @@ LEXICON VTI_CNJ_DUB_SET_B
 !{first person prt 
 LEXICON VTI_CNJ_PRT_1
 +Prt:%>b1aan2   VTI_CNJ_DUB_GET_1 ; !Medler could delete this n
+@R.Ccnj@        VTI_CNJ_PCP_INAN_PL_GATEWAY ;
 @D.Mode@    VTI_CNJ_1_END ; 
 @R.Mode.Prt@ VTI_CNJ_1_END ; 
 @R.Mode.Dub@    VTI_CNJ_DUB ;
@@ -2178,6 +2179,7 @@ LEXICON VTI_CNJ_1_END
 
 LEXICON VTI_CNJ_MODE_GET
             VTI_CNJ_PRT ;
+@R.Ccnj@    VTI_CNJ_PCP_INAN_PL_GATEWAY ; 
 @D.Mode.Dub@    # ; !may end if Dub wasn't set earlier 
 
 LEXICON VTI_CNJ_PRT 
@@ -2204,7 +2206,11 @@ LEXICON VTI_CNJ_DUB
 LEXICON VTI_CNJ_PCP_GET
 @R.Ccnj@@R.3Num.Pl@     VTI_CNJ_PCP_PL ;
 @R.Ccnj@@R.3Num.Obv@    VTI_CNJ_PCP_OBV ; 
+@R.Ccnj@                VTI_CNJ_PCP_INAN_PL ; 
                     # ; 
+
+LEXICON VTI_CNJ_PCP_INAN_PL_GATEWAY
+0:y1            VTI_CNJ_PCP_INAN_PL ; 
 
 LEXICON VTI_CNJ_PCP_PL
 +Pcp+3Pl:%>ag # ; 
@@ -2212,6 +2218,8 @@ LEXICON VTI_CNJ_PCP_PL
 LEXICON VTI_CNJ_PCP_OBV
 +Pcp+3Obv:%>an # ; 
 
+LEXICON VTI_CNJ_PCP_INAN_PL
++Pcp+%0Pl:%>an # ; 
 !} participles end
 !} Cnj end
 
