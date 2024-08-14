@@ -5,6 +5,7 @@
 LEXICON VERBS  !this is looking like a gateway, but not so labeled, affixes will need to be edited too
                 VAI_GET ; !VAIs never take third person prefix, but a deverbal noun or a VAI in a V-N compound might -> check is applied when inflectional suffixes start
                 VII_GET ;
+                VAIO_DAB_ADDITIONS ; 
                 VAIO ; 
                 TRANS_GET ;
 
@@ -6947,6 +6948,9 @@ LEXICON VAI_ENDAM_CONTINUATION
 
 LEXICON VAI_TAG
 +VAI:0       VAI_DERIV_GATEWAY ; 
+
+LEXICON VAIO_DAB_ADDITIONS
+mnezin:manezi  VAIO_TAG "1 need sth., be short of something"; !menezyin is in texts manezi can be found in OPD
 
 LEXICON VAIO
 aagoo'on:aagooho    VAIO_TAG    "1 cover up [one's nakedness] with sth." ; !Rand key:n72972747273n
