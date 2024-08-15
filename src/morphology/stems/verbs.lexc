@@ -1859,6 +1859,7 @@ ekwaabde:ayekwaabide    VII_TAG    " 1 no longer function (e.g. machinery)" ; !R
 !maajiigin:maajiigin   VII_TAG ;
 !mnogin:minogin        VII_TAG ;
 !mchaa:michaa          VII_TAG ;
+aapjishkaa:aapijishkaa    VII_TAG    " 1 be stuck in a certain position, be permanently bent " ; !Rand key:n102995937247n
 
 LEXICON VII_TAG
 +VII:0   VII_DERIV_GATEWAY ;
