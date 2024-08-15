@@ -1201,6 +1201,7 @@ shkiinzhgokaajganan:oshkiinzhigokaajigan    NI_SET    " 1 eyeglasses" ; !Rand ke
 msko-jiismin:misko-jiisimin NI_SET  "bean (lit. beet berry, red turnip berry)" ; !could have noun derivation with -min, could allow different PN to combine with jiis
 goodaas:goodaas    NI_SET    " 1 dress" ; !long vowel version of godaas 'dress'. attested in OPD as a NID. we have shki-goodaas though without a possessor (ngii-wzhitmaag aw ngashi shki-goodaas my grandmother made me a new dress)
 mskwaanzgan:miskwaanzigan NI_SET "1 red paint" ; !mskwaanza is in the dictionary, but the expected form for -gan suffixation would be miskwaanzogan, while GM has miskwaanzigan
+aan'sookaan:aanisookaan    NI_SET    " 1 legend, myth, sacred story" ; !common dialectal variant of aadsookaan (see Rand key:n72973860815n)
 
 LEXICON NI_PLACE_NAMES_TAG
 +NI:0   # ; 
