@@ -7175,6 +7175,7 @@ bmose'aa:bimoseh    VTA_TAG "take smb. for a walk, make smb. walk" ; !pretty str
 nnaawshimaa:nanaawishim VTA_TAG "straighten smb., arrange smb." ; !from MC sentences !final -shim is supposed to be 'drop'..., but -im is supposed to be act on w/ mouth...
 diswaa:adisw    VTA_TAG    " 1 colour sth. (an.), dye sth. (an.), paint sth. (an.)" ; !covering variability in root (OPD has t/d variation on this root)
 mshkawnaa:mashkawin1    VTA_TAG "hold sth. (an.) tightly" ; !from MC sentences mshkawish 'hold that board tight'
+mzhinaa:mizhin          VTA_TAG "harm sth. (an.) by touching it" ; !LP sentences
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
