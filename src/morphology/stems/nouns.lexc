@@ -2263,7 +2263,7 @@ kii-bmide:akii-bimide    NI_SET    " 1 coal oil" ; !Rand key:n20106918-1-37n
 mdamoojgan:mVv1damoojVi1gan    NI_SET    " 1 fishing pole, fishing rod" ; !Rand key:n201091816-55-2n
 Daawaa-mnis:odaawaa-minis    NI_SET    " 1 Manitoulin Island" ; !Rand key:n201091822-18-8n
 gaasmooni-jiimaan:ningaasimooni-jiimaan    NI_SET    " 1 sailboat" ; !Rand key:n201091822-45-52n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-bdakigan:badakigan    NI_SET    " 1 [dinner] fork" ; !Rand key:n201091916-52-34n
+bdakigan:badakahigan    NI_SET    " 1 [dinner] fork" ; !Rand key:n201091916-52-34n
 nshkaadziwin:nishkaadiziwin    NI_SET    " 1 anger" ; !Rand key:n201091918-19-7n
 paakzowin:apaakizowin    NI_SET    " 1 apron" ; !Rand key:n201091919-45-59n
 tataagan:gitataagan    NI_SET    " 1 bell" ; !Rand key:n201092013-52-30n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
