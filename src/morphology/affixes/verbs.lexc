@@ -323,6 +323,8 @@ LEXICON V_PREVERBS_COUNTING_GATEWAY
 LEXICON V_REDUPLICATION_GATEWAY
 @D.NUMERAL.VERB@@P.NUMERAL.VERB@    CARDINALS ; !stopping back route for ko- to slip in
                                     V_REDUPLICATION_STEM ; 
+@D.Person.3@                        THIRD_PERSON_POS_THEME ;  !verbs of possession are vais, and so cannot take third person prefixes
+
 !LEXICON V_REDUPLICATION_GET
 !@D.Redup@   V_REDUPLICATION_STEM ; !don't want to allow double reduplication
 !       VERBS ; 
