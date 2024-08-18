@@ -151,9 +151,8 @@ LEXICON N_POS_NUM_GET
 @D.PosVerb@@R.Person.3@            N_POS_NUM_3 ; 
 @D.PosVerb@                        N_MOOD_GET ;
 @D.PosVerb@            NOMINAL_COMPOUNDING_SET ; 
-@D.PosVerb@              N_BASE_DERIV_VAI ;
-@D.PosVerb@@R.Animate.1@ NA_BASE_DERIV_VAI ; 
-@D.PosVerb@@R.Animate.%0@ N_BASE_DERIV_VII ; 
+@D.PosVerb@              N_BASE_DERIV_VAI ; !gender of noun base does not determine verb gender (Nichols 1980 p. 237)
+@D.PosVerb@               N_BASE_DERIV_VII ;  !gender of noun base does not determine verb gender (Nichols 1980 p. 237)
 @R.PosVerb@              N_BASE_DERIV_VAI_POSSESSION ;
 
 !optionality of possessor number instantiated in GET
