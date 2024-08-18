@@ -152,9 +152,9 @@ LEXICON N_POS_NUM_GET
 @D.PosVerb@                        N_MOOD_GET ;
 @D.PosVerb@            NOMINAL_COMPOUNDING_SET ; 
 @D.PosVerb@              N_BASE_DERIV_VAI ;
-@R.PosVerb@              N_BASE_DERIV_VAI_POSSESSION ;
 @D.PosVerb@@R.Animate.1@ NA_BASE_DERIV_VAI ; 
 @D.PosVerb@@R.Animate.%0@ N_BASE_DERIV_VII ; 
+@R.PosVerb@              N_BASE_DERIV_VAI_POSSESSION ;
 
 !optionality of possessor number instantiated in GET
 !entrance requires a person flag, person flags are not forced to enter
