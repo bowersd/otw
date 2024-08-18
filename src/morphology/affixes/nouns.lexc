@@ -133,7 +133,7 @@ LEXICON N_POS_THEME_GET
 !go to N_POS_THEME only if you have person (or if you are set to be a third person possessed theme, which means you have a different flag)
 !go to N_PEJ is legit alternative
 @R.Person@  N_POS_THEME ;
-@R.PosTheme@  N_POS_THEME ;
+@R.PosVerb@  N_POS_THEME ;
             N_PEJ ;
 
 LEXICON N_POS_THEME
@@ -146,14 +146,15 @@ LEXICON N_PEJ
             N_POS_NUM_GET ;
 
 LEXICON N_POS_NUM_GET 
-@D.Person.X@@D.Person.3@@R.Person@  N_POS_NUM_2_1 ;
-@D.Person.X@@D.Person.1@@R.Person@  N_POS_NUM_2_3 ;
-@R.Person.3@            N_POS_NUM_3 ; 
-                        N_MOOD_GET ;
-            NOMINAL_COMPOUNDING_SET ; 
-              N_BASE_DERIV_VAI ;
-@R.Animate.1@ NA_BASE_DERIV_VAI ; 
-@R.Animate.%0@ N_BASE_DERIV_VII ; 
+@D.PosVerb@@D.Person.X@@D.Person.3@@R.Person@  N_POS_NUM_2_1 ;
+@D.PosVerb@@D.Person.X@@D.Person.1@@R.Person@  N_POS_NUM_2_3 ;
+@D.PosVerb@@R.Person.3@            N_POS_NUM_3 ; 
+@D.PosVerb@                        N_MOOD_GET ;
+@D.PosVerb@            NOMINAL_COMPOUNDING_SET ; 
+@D.PosVerb@              N_BASE_DERIV_VAI ;
+@R.PosVerb@              N_BASE_DERIV_VAI_POSSESSION ;
+@D.PosVerb@@R.Animate.1@ NA_BASE_DERIV_VAI ; 
+@D.PosVerb@@R.Animate.%0@ N_BASE_DERIV_VII ; 
 
 !optionality of possessor number instantiated in GET
 !entrance requires a person flag, person flags are not forced to enter

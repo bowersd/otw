@@ -438,12 +438,12 @@ Bv1 !       unrecovered short vowel placed at beginning of word to avoid oversyn
 @R.Person@
 
 !####
-!#Possessive theme flags (for use in nominal base of verbs of possession)
+!#Possessive verb flags (for use in nominal base of verbs of possession)
 !####
-@P.PosTheme.1@
+@P.PosVerb.1@
 
-@R.PosTheme@
-@D.PosTheme@
+@R.PosVerb@
+@D.PosVerb@
 
 !####
 !#3 periph flags (pl, obv redundantly marked in participles)
