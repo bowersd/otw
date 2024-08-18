@@ -130,9 +130,10 @@ LEXICON N_CON_DIM
             N_POS_THEME_GET ;
 
 LEXICON N_POS_THEME_GET 
-!go to N_POS_THEME only if you have person
+!go to N_POS_THEME only if you have person (or if you are set to be a third person possessed theme, which means you have a different flag)
 !go to N_PEJ is legit alternative
 @R.Person@  N_POS_THEME ;
+@R.PosTheme@  N_POS_THEME ;
             N_PEJ ;
 
 LEXICON N_POS_THEME
