@@ -63,18 +63,15 @@ LEXICON VAI_N_BASE_DERIV_NI
 LEXICON VAI_N_BASE_DERIV_NI_GAMIG
 0:gamigo    NI_SET ; !"weight: 1";
 
-LEXICON N_BASE_DERIV_VAI
+LEXICON N_BASE_DERIV_INTRANSITIVE
 !@R.Person.3@@C.Person@    N_BASE_DERIV_VAI_POSSESSION ; !this only allows third person possession verbs to exist. ... you need to be able to pick up a prefix for the verb, then pick up 3 on the noun, then drop 3, but keep the person information of the verbal prefixes
 +Caus:%>%>ke    VAI_TAG ; !make/do
+0:wi VAI_TAG ; !"weight: 1"; !'be' what flavor of w is this (phonologically)? 
                                                 !so use a verbperson diacritic and a nounperson diacritic, plus disassociate noun and verb prefixation
+0:wan VII_TAG ; !"weight: 1"; !'be' what flavor of w is this (phonologically)? 
+
 LEXICON N_BASE_DERIV_VAI_POSSESSION 
 +Poss:i  VAI_TAG ; !"weight: 1"; !'have' Nichols 1980 is a bit more informative than V 2001. (listed in V 2001 index) per p 416 in V 2001: w+i -> o. locative augment -aa appears, suppletive possessives are used (we don't have any of those!), use possessed noun instead of nominal medial, posthm is optional if not required by noun root (we don't know which ones require it, subject to dialect variation?)
-
-LEXICON NA_BASE_DERIV_VAI
-0:wi VAI_TAG ; !"weight: 1"; !'be' what flavor of w is this (phonologically)? 
-
-LEXICON N_BASE_DERIV_VII
-0:wan VII_TAG ; !"weight: 1"; !'be' what flavor of w is this (phonologically)? 
 
 LEXICON DERIV_NA
 +nini:ininiw2   NA_SET ; 
