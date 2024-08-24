@@ -13,6 +13,7 @@ wenjda:wenjida  AV_TAG "1 on purpose, intentionally, as intended" ;
 washme:ooshime          AV_TAG " 1 more [than another], more [than at another time];  2 more than [some point of reference], beyond [some point of reference]" ; !reduced variant of washme
 gaawaa:agaawaa          AV_TAG " barely" ; !in OPD, also in an AM sentence
 biijin:biijin    AV_TAG    " 1 regularly" ; !not in OPD, in an AM sentences (babiijin is in NOD, see below)
+dash:idash      AV_TAG  " 1 and so, and then, so, then, so then;  2 how about, what about" ; !in OPD (variant of dash in NOD)
 
 LEXICON AV_TEMPORAL
 bboon:biboon    AV_TAG    " 1 winter" ; ! SHORTENED VERSION OF gbe-bboon Rand key:n73017936268n
