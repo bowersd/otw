@@ -1206,6 +1206,7 @@ mskwaanzgan:miskwaanzigan NI_SET "1 red paint" ; !mskwaanza is in the dictionary
 aan'sookaan:aanisookaan    NI_SET    " 1 legend, myth, sacred story" ; !common dialectal variant of aadsookaan (see Rand key:n72973860815n)
 mnjimnigan:minjiminigan     NI_SET  " 1 handle, holder " ; !found in sentence by RS. derivative mnjimnigaans 'clip' in new vocabulary
 mooshwaan:mooshwaan             NI_SET " 1 shawl" ; !found in sentence by RS
+shkode:ishkode              NI_SET  ; !ishkode is attested in GM (ashkode, entry below is attested in AW)
 
 LEXICON NI_PLACE_NAMES_TAG
 +NI:0   # ; 
