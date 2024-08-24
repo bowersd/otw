@@ -4,7 +4,7 @@ set encode-weights ON
 define finDevoi                     [b -> [p::3], d -> [t::3], g -> [k::3], z -> [s::3], z h -> [s h::3], j -> [c h::3]   ||  _ .#. ]; 
 ![b -> p || m _ .#. ,,
 !                                    d -> t, g -> k, z -> s, z h -> s h, j -> c h || n _ .#. ]  ; 
-define finLowering                  [ o -> a, i -> e || \[a|i|o|e] _  (p|t|k|c h|                   !apparently .#. does not work in hfst except in hfst-twolc hfst-lexc and hfst-compose-intersect (https://github.com/hfst/hfst/blob/1f9efa75a3309b4b8926778e513886cee3c7396a/BUGS.old#L19)
+define finLowering                  [ o -> [a::1], i -> [e::3] || \[a|i|o|e] _  (p|t|k|c h|                   !apparently .#. does not work in hfst except in hfst-twolc hfst-lexc and hfst-compose-intersect (https://github.com/hfst/hfst/blob/1f9efa75a3309b4b8926778e513886cee3c7396a/BUGS.old#L19)
                                                                         b|d|g|j|z (h)|
                                                                         [s (h)] (p|t|k)|
                                                                         [m (b)]|[n (d|g|j|z (h)|h)]|
