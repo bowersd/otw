@@ -12441,7 +12441,7 @@ shawebdoon:zhashawebid    VTI_OO_THEME    " 1 tilt sth. aside" ; !Rand key:n7303
 sheksidoon:zhazhekisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031384413n
 sheyaabiisdoon:zhazheyaabiisid    VTI_OO_THEME    " 1 arrange sth. in a row, place sth. in a row" ; !Rand key:n73031385051n
 shigboodoon:zhashigobood    VTI_OO_THEME    " 1 grind sth. " ; !Rand key:n7303408092n !TRUNCATED VERSION REMOVED, see otw/debugging/candidates_for_spellrelax_rules.txt
-shinaajtoon:Vv1shinaajit    VTI_OO_THEME    " 1 waste sth." ; !Rand key:n7303147566n
+shinaajtoon:nVv1shinaajit    VTI_OO_THEME    " 1 waste sth." ; !Rand key:n7303147566n !this appears as nshinaajtoon 'he is wasting [his money] in MC sentences, so there must be an n
 shkoboodoon:Vi1shkobood    VTI_OO_THEME    " 1 leave sth. fallow (of fields of crops)" ; !Rand key:n73031480921n
 shoodaaksidoon:ashoodaakVv1sid    VTI_OO_THEME    " 1 lay sth. flush with something else" ; !Rand key:n73034010694n
 shpaatoon:Vi1shpaat    VTI_OO_THEME    " 1 make sth. high, raise sth. high" ; !Rand key:n7303159723n
