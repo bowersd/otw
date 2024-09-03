@@ -1257,7 +1257,7 @@ eshknaak:eshkanaako    NI_SET    " 1 ice cutter" ; !Rand key:n73015876945n
 gbiingwewegin:gibiingwewegino    NI_SET    " 1 face towel" ; !Rand key:n73017941641n
 giizhgat:giizhigado    NI_SET    " 1 day" ; !Rand key:n73024179704n
 giizhkaandgagmik:giizhikaandigagamigo    NI_SET    " 1 cedar lodge" ; !Rand key:n73028948438n
-gondaagnaabik:gondaaganaabiko    NI_SET    " 1 stovepipe" ; !Rand key:n73030422882n
+gondaagnaabik:Bv1gondaaganaabiko    NI_SET    " 1 stovepipe" ; !Rand key:n73030422882n
 gwaawaanaak:agwaawaanaako    NI_SET    " 1 kettle hanger" ; !Rand key:n7303176593n
 gzhiibzhewashk:gizhiibazhewashko    NI_SET    " 1 itchy weed" ; !Rand key:n73032346332n
 gziibiignige-mkak:giziibiiganige-makako    NI_SET    " 1 washing machine" ; !Rand key:n73032443421n
