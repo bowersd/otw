@@ -23,7 +23,7 @@ Redup+:CRED1e     CARDINALS ;
 
 LEXICON CARDINALS
 ngod+Num:ningod     CARDINALS_HUNDREDS ;
-niizh+Num:niizh     CARDINALS_HUNDREDS ;
+niish+Num:niizh     CARDINALS_HUNDREDS ;
 nswi+Num:nis     CARDINALS_HUNDREDS ;
 niiwin+Num:nii     CARDINALS_HUNDREDS ;
 naanan+Num:naan     CARDINALS_HUNDREDS ;
@@ -52,7 +52,7 @@ aabta+Num:aabita    CLOSED_PROTECTION ;
 
 LEXICON CARDINALS_TENS
 !NO BEZHIG/NGOD HERE
-niizh+Num+mdana+Num:niizhidana   CARDINALS_TENS_SHI; 
+niish+Num+mdana+Num:niizhidana   CARDINALS_TENS_SHI; 
 nswi+Num:nis                     CARDINALS_TENS_MIDANA; 
 niiwin+Num:nii                   CARDINALS_TENS_MIDANA; 
 naanan+Num:naan                  CARDINALS_TENS_MIDANA; 
@@ -82,7 +82,7 @@ LEXICON CARDINAL_REPETITION_GATEWAY
 
 LEXICON REPETITION_ONE_NINE
 ngod+Num:ningod     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
-niizh+Num:niizh     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
+niish+Num:niizh     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
 nswi+Num:nis     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
 niiwin+Num:niiw     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ; !this w needs to be there for repetition -ing form, also niiwgon'gizid
 naanan+Num:naan     NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
@@ -93,7 +93,7 @@ zhaangswi+Num:zhaangach   NUMERAL_ROOT_FORMS_ELABORATION_GATEWAY ;
 
 LEXICON CARDINALS_ONE_NINE
 bezhig+Num:bezhig               # "one";
-niizh+Num:niizh                 # "two";
+niish+Num:niizh                 # "two";
 nswi+Num:niswi                  CLOSED_PROTECTION "three";
 niiwin+Num:niiwin               # "four";
 naanan+Num:naanan               # "five";
@@ -154,7 +154,7 @@ LEXICON NUMERAL_ROOT_FORMS_TEN_S_CH
 0:ch        NUMERAL_ROOT_FORMS_VERBISH ; 
 
 LEXICON NUMERAL_ROOT_FORMS_TWO_NINE
-niizh+Num:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two";        !20 is niizhdana (no m), otherwise regular
+niish+Num:niizh             NUMERAL_ROOT_FORMS_GET_TWO "two";        !20 is niizhdana (no m), otherwise regular
 nis+Num:nis                 NUMERAL_ROOT_FORMS_35_GATEWAY "three";   !fully regular
 nii+Num:nii                 NUMERAL_ROOT_FORMS_FOUR_GATEWAY "four";  !nii everywhere, except in repetition form, then niiwing
 !naan+:naanan           NUMERAL_ROOT_FORMS_35_GATEWAY "five";    !have not seen this variant, but it was mercurially listed in valentine 2001:874
