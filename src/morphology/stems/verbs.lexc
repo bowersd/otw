@@ -2175,6 +2175,10 @@ gaandkwese:gaandikwese    VAI_TAG    " 1 have one's head jerk" ; !non-reduplicat
 !shkonwetaagzi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000744627n clear duplicate of next word
 gshkonwetaagzi:goshkonwetaagozi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000641750n (from post-2016 data), UR informed by OPD
 gshkotaagzi:goshkotaagozi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000641764n (from post-2016 data), UR informed by OPD
+ddakwaaknikewji:dadakwaakonikewaji    VAI_TAG    " 1 have cold arms, one’s arms be cold" ; !Rand key:n103004116130n (from post-2016 data), UR informed by OPD
+ddaknikewji:dadakinikewaji    VAI_TAG    " 1 have cold arms, one’s arms be cold" ; !FROM NEW MC SENTENCES
+ddakwaakndibewji:dadakwaakonidibewaji    VAI_TAG    " 1 one’s head be cold" ; !Rand key:n103004116121n (from post-2016 data), UR informed by OPD
+ddakwaakgaadewji:dadakwaakogaadewaji    VAI_TAG    " 1 have cold legs, one’s legs be cold" ; !Rand key:n103004116113n (from post-2016 data), UR informed by OPD
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
