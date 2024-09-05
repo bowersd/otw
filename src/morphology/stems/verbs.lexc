@@ -7176,6 +7176,7 @@ nnaawshimaa:nanaawishim VTA_TAG "straighten smb., arrange smb." ; !from MC sente
 diswaa:adisw    VTA_TAG    " 1 colour sth. (an.), dye sth. (an.), paint sth. (an.)" ; !covering variability in root (OPD has t/d variation on this root)
 mshkawnaa:mashkawin1    VTA_TAG "hold sth. (an.) tightly" ; !from MC sentences mshkawish 'hold that board tight'
 mzhinaa:mizhin          VTA_TAG "harm sth. (an.) by touching it" ; !LP sentences
+zgiigshkawaa:zagiigishkaw   VTA_TAG    " 1 have sth. (an.) [sheetlike] partly pinned under one’s weight" ; !Rand key:n103000770608n (from post-2016 data), UR vowels added from OPD, knowing about -ishkaw.
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
