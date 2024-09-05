@@ -460,7 +460,6 @@ shkwen'kaaza    VAI_TAG    " 1 have a certain last name" ; !Rand key:n1030007447
 shkwaandweb'iwe    VAI_TAG    " 1 flee up stairs, flee up a tree" ; !Rand key:n103000744671n
 shkwaanaamo    VAI_TAG    " 1 stop breathing" ; !Rand key:n103000744662n
 shkoshkwebzo    VAI_TAG    " 1 stagger, weave [in walking]" ; !Rand key:n103000744649n
-shkonwetaagzi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000744627n
 shkindiza    VAI_TAG    " 1 pee one’s pants, urinate in one’s pants, wet one’s pants" ; !Rand key:n103000744599n
 shkindbepzo    VAI_TAG    " 1 wear a kerchief around one’s head, wear a headband" ; !Rand key:n103000744590n
 shkibtoo    VAI_TAG    " 1 [teenager] start going out, [teenager] start dating" ; !Rand key:n103000744557n
@@ -1267,9 +1266,6 @@ gtaamgwaan'gidoon    VAI_TAG    " 1 talk and talk and talk" ; !Rand key:n1030006
 gtaamgotoo    VAI_TAG    " 1 scold people" ; !Rand key:n103000641963n
 gtaamgokmigzi    VAI_TAG    " 1 do a laborious task, work strenuously" ; !Rand key:n103000641934n
 gsingwaadendaagzi    VAI_TAG    " 1 be commendable, act commendably" ; !Rand key:n103000641836n
-gshkowaadendam    VAI_TAG    " 1 be surprised" ; !Rand key:n103000641772n
-gshkotaagzi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000641764n
-gshkonwetaagzi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000641750n
 gshkishew'o    VAI_TAG    " 1 wear something over the ears to keep them warm" ; !Rand key:n103000641724n
 gshkamdoon    VAI_TAG    " 1 close one’s lips tightly, have one’s lips closed tightly, close one’s mouth tightly, have one’s mouth closed tightly" ; !Rand key:n103000641597n
 gshkamaakdooneni    VAI_TAG    " 1 close one’s lips tightly, have one’s lips closed tightly, close one’s mouth tightly, have one’s mouth closed tightly" ; !Rand key:n103000641589n
@@ -3681,12 +3677,10 @@ gtaangwaapnemaa:gtaangwaapnem   VTA_TAG    " 1 excoriate smb., give smb. a sever
 gtaajmaa:gtaajm   VTA_TAG    " 1 spook smb. [verbally], warn smb." ; !Rand key:n103000641867n
 gshkwiiwegshimaa:gshkwiiwegshim   VTA_TAG    " 1 swaddle a baby tightly" ; !Rand key:n103000641825n
 gshkwiishimaa:gshkwiishim   VTA_TAG    " 1 stick sth. (an.) [in something] tightly, set sth. (an.) tightly" ; !Rand key:n103000641814n
-gshkwaas'aa:gshkwaas'   VTA_TAG    " 1 shake sth. (an.) [with one’s hands]" ; !Rand key:n103000641803n
-gshkwaakshkawaa:gshkwaakshkaw   VTA_TAG    " 1 jar sth. (an.) by striking it [with the body or a vehicle], shake a tree [by striking it with the body or a vehicle]" ; !Rand key:n103000641792n
-gshkowaadenmaa:gshkowaadenm   VTA_TAG    " 1 be surprised at smb." ; !Rand key:n103000641781n
-gshkonwemaa:gshkonwem   VTA_TAG    " 1 surprise smb. with unexpected news" ; !Rand key:n103000641733n
 gshkishew'aa:gshkishew'   VTA_TAG    " 1 damage smb.’s ear drum (as from too loud noise)" ; !Rand key:n103000641713n
 gshkiiwpinaa:gshkiiwpin   VTA_TAG    " 1 bundle up sth. (an.) securely" ; !Rand key:n103000641663n
+gshkwaas'aa:gshkwaas'   VTA_TAG    " 1 shake sth. (an.) [with one’s hands]" ; !Rand key:n103000641803n
+gshkwaakshkawaa:gshkwaakshkaw   VTA_TAG    " 1 jar sth. (an.) by striking it [with the body or a vehicle], shake a tree [by striking it with the body or a vehicle]" ; !Rand key:n103000641792n
 gshkiiwegshimaa:gshkiiwegshim   VTA_TAG    " 1 swaddle a baby tightly" ; !Rand key:n103000641652n
 gshkiiwegpinaa:gshkiiwegpin   VTA_TAG    " 1 swaddle a baby tightly" ; !Rand key:n103000641642n
 gonjmaa:gonjm   VTA_TAG    " 1 put sth. (an.) in water [to soak], soak sth." ; !Rand key:n103000641398n

@@ -2119,6 +2119,7 @@ waabnda'di:waabandah     VAI_MANDATORY_RECIPROCAL " 1 exhibit things, show thing
 nsawaakdiiye:nisawaakodiiye           VAI_TAG     "1 join as two limbs at one's bottom 2 crotch (as participle nsawaakdiiyed)" ; !base of nsawaakdiiyed (vai participle, n103004165510n)
 mko-bmose:mako-bimose                   VAI_TAG     "1 be a witch, be a bear-walker" ; !base of meko-bmaset (n20114919-17-36n), which we derive instead of listing (note that several variant derived nouns with nasalization are directly listed)
 debweyendam:debweyen                    VAI_ENDAM_CONTINUATION    "1 believe, be a Christian 2 a Christian (as a participle e-debweyendang)" ; !base of e-debweyendang (n201092019-52-37n), which we derive instead of listing
+gshkowaadendam:goshkowaaden       VAI_ENDAM_CONTINUATION    " 1 be surprised" ; !Rand key:n103000641772n (from post-2016 data), UR informed by OPD
 niigaan'zitaage:niigaanizitaage               VAI_TAG     "1 own, have a controlling interest, manage 2 general manager, owner of a baseball team (as a participle naagaanzitaaget)" ; !base of naagaanzitaaget (n71430857853n), which we derive instead of listing 
 papgijge:apapagijige        VAI_TAG     "1 pitch 2 baseball pitcher (as a participle e-papgijget)" ; !base of epapgijget (n20114108-26-21n), which we derive instead of listing . the derived form needs a hyphen. This word looks like it has regular syncope with innovative reduplication (see pagjige below)
 pagjige:apagijige        VAI_TAG     "1 pitch 2 baseball pitcher (as a participle e-pagjiget)" ; !base of epagjiget (n73015876176n), which we derive instead of listing 
@@ -2171,6 +2172,9 @@ gaanjdiyese:gaanjidiyese    VAI_TAG    " 1 thrust one's hips forward" ; !non-red
 gaanjbiza:gaanjibizVa1    VAI_TAG    " 1 [vehicle] jerk forward" ; !non-reduplicated form of Rand key:n201622112-27-58n
 gaanjbagza:gaanjibagizo    VAI_TAG    " 1 jerk one's body" ; !non-reduplicated form of Rand key:n73102056543n
 gaandkwese:gaandikwese    VAI_TAG    " 1 have one's head jerk" ; !non-reduplicated form of Rand key:n73102056363n
+!shkonwetaagzi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000744627n clear duplicate of next word
+gshkonwetaagzi:goshkonwetaagozi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000641750n (from post-2016 data), UR informed by OPD
+gshkotaagzi:goshkotaagozi    VAI_TAG    " 1 surprise people with a remark" ; !Rand key:n103000641764n (from post-2016 data), UR informed by OPD
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
@@ -7182,6 +7186,8 @@ piitaadzi:apiitaadizi    VAI_TAG    " 1 be a certain extreme [in character]" ; !
 nigiizhwe:wanigiizhiwe    VAI_TAG    " 1 muddle up words" ; !Rand key:n58fa1bdbc0fc400c979123320a01dd02n (from post-2016 data), UR informed by OPD
 nigiizhgwe:wanigiizhigwe    VAI_TAG    " 1 get days mixed up, lose track of what day it is" ; !Rand key:n58fa1bdbd2a84c349c1623320a01dd02n (from post-2016 data), UR informed by OPD
 nishenmaa:onizhishenim   VTA_TAG    " 1 think sth. (an.) efficacious; think sth. (an.) works well" ; !Rand key:n58fa1bdbbe144446b34123320a01dd02n (from post-2016 data), UR informed by OPD
+gshkowaadenmaa:goshkowaadenim   VTA_TAG    " 1 be surprised at smb." ; !Rand key:n103000641781n (from post-2016 data), UR informed by OPD
+gshkonwemaa:goshkonwem   VTA_TAG    " 1 surprise smb. with unexpected news" ; !Rand key:n103000641733n (from post-2016 data), UR informed by OPD
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
@@ -8341,7 +8347,7 @@ gshkigwaanaa:gashkigwaan1    VTA_TAG    " 1 sew sth. (an.)" ; !Rand key:n7303052
 gshkiiwaakwaa:gashkiiwaakwahw    VTA_TAG    " 1 lock sth. (an.) tightly, lock smb. up tightly" ; !Rand key:n73030612837n
 gshkiiwshimaa:gashkiiwVv1shim    VTA_TAG    " 1 stick sth. (an.) [in something] tightly" ; !Rand key:n73030612374n
 gshkinaa:gashkin    VTA_TAG    " 1 be able to lift smb., manage to lift smb., succeed in lifting smb." ; !Rand key:n73030610898n
-gshko'aa:goshkoh    VTA_TAG    " 1 startle smb., surprise smb. [by one's actions]" ; !Rand key:n73030614188n
+gshko'aa:goshkoh    VTA_TAG    " 1 startle smb., surprise smb. [by one's actions]" ; !Rand key:n73030614188n 
 gshkomaa:goshkom    VTA_TAG    " 1 startle smb. [by shouting or talking], surprise smb. [by one's words]" ; !Rand key:n73030614307n
 gshkwaabaawnaa:goshkwaabaawin1    VTA_TAG    " 1 shock smb. by spilling water on him, shock smb. by spraying water on him" ; !Rand key:n73037254111n
 gshkwaakbinaa:goshkwaakobin1    VTA_TAG    " 1 shake sth. (an.) hard" ; !Rand key:n73030621652n
