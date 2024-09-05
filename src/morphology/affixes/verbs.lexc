@@ -157,10 +157,10 @@ LEXICON V_PREVERBS_DIRECTION_IRREGULAR_GET
 @R.Ccnj@   V_PREVERBS_DIRECTION_IRREGULAR_CCNJ ;
 
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_INDEP
-PV/bi+:abi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+PV/bi+:bi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
 
 LEXICON V_PREVERBS_DIRECTION_IRREGULAR_CCNJ
-PV/bi+:abi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
+!PV/bi+:abi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
 PV/bi+:X2bi-  V_PREVERBS_DIRECTION_STACKING " 1 come [and do something], come [to do something];  2 in the past"; !come (and _)
 
 LEXICON V_PREVERBS_DIRECTION_STACKING
