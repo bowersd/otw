@@ -143,6 +143,7 @@ PV/mbi+:ombi-    V_PREVERBS_DIRECTION_STACKING    " 1 go up [in doing something]
 !}
 PV/biiji+:biiji-  V_PREVERBS_DIRECTION_STACKING " 1 towards this direction, [towards] this way"; !come in direction
 PV/ni+:ani-      V_PREVERBS_DIRECTION_STACKING " 1 [do something] as one goes away, go away and [do something], go away, on one's way out, [doing something];  2 as time goes on, as time passes, in the course of time;  3 in the future";
+PV/ni+:ni-      V_PREVERBS_DIRECTION_STACKING " 1 [do something] as one goes away, go away and [do something], go away, on one's way out, [doing something];  2 as time goes on, as time passes, in the course of time;  3 in the future";
 PV/bmi+:bimi-    V_PREVERBS_DIRECTION_STACKING " 1 come by [and do something], go by [and do something], go by [doing something];  2 in the course of time, as time goes on, in time, through time;  3 going along [doing something], going about [doing something], going about [in the course of one's activities];  4 get around to [doing something]"; !aimless
 PV/bbaa+:bibaa-   V_PREVERBS_DIRECTION_STACKING " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
 PV/bbaa+:babaa-   V_PREVERBS_DIRECTION_STACKING " 1 (moving) around, (going) about in activities, out and about;  2 specifying movement about and around in a specifically imprecise and uncertain sense"; !circumference, exhaustive?
