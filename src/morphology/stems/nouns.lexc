@@ -1760,8 +1760,8 @@ gnawaajchigan:ganawaajichigan    NI_SET    " 1 blaze [on a trail], street sign" 
 gndaabiignigan:gondaabiiginigan    NI_SET    " 1 ?rudder [of a sailboat]" ; !Rand key:n73023656941n
 gnoosh-naagan:ginoosh-onaagan    NI_SET    " 1 platter, oval plate" ; !Rand key:n7302928727n
 godaas:Vv1godaas    NI_SET    " 1 dress" ; !Rand key:n73029215031n
-gokbinaagan:akokobinaagan    NI_SET    " 1 basket" ; !Rand key:n73030324930n
-gokmidaas:akokomidaas    NI_SET    " 1 knitted sock" ; !Rand key:n73030326634n
+gokbinaagan:agokobinaagan    NI_SET    " 1 basket" ; !Rand key:n73030324930n
+gokmidaas:agokomidaas    NI_SET    " 1 knitted sock" ; !Rand key:n73030326634n
 gokoomban:gokoomban    NI_SET    " 1 cucumber" ; !Rand key:n73030327018n
 gonaab'igan:agonaabahigan    NI_SET    " 1 eyelid" ; !Rand key:n73030327361n
 goodkikwaan:agoodakikwaan    NI_SET    " 1 kettle hook" ; !Rand key:n73030424161n
@@ -1827,8 +1827,8 @@ kidwin:ikidowin    NI_SET    " 1 word, saying, speech form, way of speaking;  2 
 kii-bmide:akii-bimide    NI_SET    " 1 kerosene" ; !Rand key:n7303277013n
 kiibmidekaan:akiibimidekaan    NI_SET    " 1 site where crude oil is obtained" ; !Rand key:n7303277034n
 kiwewin:gikiwewin    NI_SET    " 1 flag" ; !Rand key:n71428962934n
-kokbinaagan:akokobinaagan    NI_SET    " 1 basket" ; !Rand key:n71429040345n
-kokmidaas:akokomidaas    NI_SET    " 1 [knitted] sock" ; !Rand key:n71429040917n
+kokbinaagan:agokobinaagan    NI_SET    " 1 basket" ; !Rand key:n71429040345n
+kokmidaas:agokomidaas    NI_SET    " 1 [knitted] sock" ; !Rand key:n71429040917n
 kosjigan:akosijigan    NI_SET    " 1 haystack, mound, wood pile, pile" ; !Rand key:n71429056298n
 kosmaan:okosimaan    NI_SET    " 1 pumpkin;  2 squash" ; !Rand key:n71429057277n
 kwaandwaagan:akwaandawaagan    NI_SET    " 1 stairway, [flight of] stairs;  2 ladder" ; !Rand key:n71429059484n

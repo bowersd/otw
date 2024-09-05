@@ -4261,8 +4261,8 @@ kogaa:ikogaa    VAI_TAG    " 1 get out of the way, go away" ; !Rand key:n7142897
 kogaabwi:ikogaabawi    VAI_TAG    " 1 move out of the way [from where one is standing]" ; !Rand key:n71428978474n
 koge:akoge    VAI_TAG    " 1 assemble, be together (of groups)" ; !Rand key:n71429039434n
 kognaawsa:akoginaawaso    VAI_TAG    " 1 raise children" ; !Rand key:n73081812666n
-kokbinaagnike:akokobinaaganike    VAI_TAG    " 1 make baskets" ; !Rand key:n71429040791n
-kokmidaaske:akokomidaasike    VAI_TAG    " 1 knit socks, make knitted socks" ; !Rand key:n73081812807n
+kokbinaagnike:agokobinaaganike    VAI_TAG    " 1 make baskets" ; !Rand key:n71429040791n
+kokmidaaske:agokomidaasike    VAI_TAG    " 1 knit socks, make knitted socks" ; !Rand key:n73081812807n
 kokwe:akokawe    VAI_TAG    " 1 leave tracks for a certain distance" ; !Rand key:n71429041022n
 komo:akomo    VAI_TAG    " 1 be a certain distance out on the water [swimming]" ; !Rand key:n71429041112n
 kon'gaaza:akonigaazo    VAI_TAG    " 1 be moved aside, be removed" ; !Rand key:n71429041837n
