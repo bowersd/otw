@@ -113,6 +113,12 @@ dba'ganet:dibahiganed2     VII_TAG "be so many hours, used with numerical prever
 mnidoonaagod:manidoonaagod2 VII_TAG "look like a mnidoo" ; !should there be a VII derivation with -naagod? (also VAI naagzi)
 !end story review new words}
 maajiiyaatese:maajiiyaatese VII_TAG "start, commence" ; !from MC sentences
+niizho-dbagne:niizho-dibahigane    VII_TAG    " 1 be two o'clock" ; !Rand key:n20114821-34-3n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
+nso-dbagne:niso-dibahigane    VII_TAG    " 1 be three o'clock" ; !Rand key:n20114821-43-41n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
+niiwo-dbagne:niiwo-dibahigane    VII_TAG    " 1 be four o'clock" ; !Rand key:n20114821-47-37n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
+naana-dbagne:naanVo1-dibahigane    VII_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
+naana-dbagne:naano-dibahigane    VII_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
+ngodwaaso-dbagne:ningodwaaso-dibahigane    VII_TAG    " 1 be six o'clock" ; !Rand key:n20114821-53-21n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -1149,7 +1155,7 @@ negwiikaa:negawiikaa    VII_TAG    " 1 be a sandy place" ; !Rand2key:n7143155791
 nendaagot:inendaagod2   VII_TAG    " 1 seem a certain way, seem like a certain thing;  2 be destined [to happen], be meant to be" ; !Rand key:n71431558421n ![gk]Vo1 replaced with [gk]o
 neyaashi:neyaashi    VII_TAG    " 1 be a point [of land]" ; !Rand2key:n71431563200n
 ngo-bboon'gat:ningo-biboonagad2   VII_TAG    " 1 be one year " ; !Rand key:n73098741499n
-ngo-dbagne:ningo-dibahigane    VII_TAG    " 1 be one o'clock" ; !Rand2key:n71431647272n
+ngo-dbagne:ningo-dibahigane    VII_TAG    " 1 be one o'clock" ; !Rand2key:n71431647272n DB: this UR was not conservative ... (now corrected), so the lemma is actually oversyncopated
 ngodoon'gat:ningodoonagad2   VII_TAG    " 1 be a boatload" ; !Rand key:n71431647777n
 ngodoopwin'gat:ningodoopowinagad2   VII_TAG    " 1 be a tableful" ; !Rand key:n71431648507n
 ngodooshkne:ningodooshkine    VII_TAG    " 1 be a container full" ; !Rand2key:n71431650830n
@@ -6367,12 +6373,6 @@ man'so:amaniso    VAI_TAG    " 1 be scared, be alarmed" ; !Rand key:n20114720-5-
 mboomgo:omboomigo    VAI_TAG    " 1 mount a horse" ; !Rand key:n20114817-19-26n
 late-wi:late-wi    VAI_TAG    " 1 be late" ; !Rand key:n20114819-53-3n
 mdaaso-shi-niizh-dsobboon'gizi:midaaso-ashi-niizh-dasobiboonagizi    VAI_TAG    " 1 be twelve years old" ; !Rand key:n20114820-23-42n
-niizho-dbagne:niizho-dibagane    VAI_TAG    " 1 be two o'clock" ; !Rand key:n20114821-34-3n
-nso-dbagne:niso-dibagane    VAI_TAG    " 1 be three o'clock" ; !Rand key:n20114821-43-41n
-niiwo-dbagne:niiwo-dibagane    VAI_TAG    " 1 be four o'clock" ; !Rand key:n20114821-47-37n
-naana-dbagne:naanVo1-dibagane    VAI_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n
-naana-dbagne:naano-dibagane    VAI_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n
-ngodwaaso-dbagne:ningodwaaso-dibagane    VAI_TAG    " 1 be six o'clock" ; !Rand key:n20114821-53-21n
 mdewi:midewi    VAI_TAG    " 1 perform the Midewiwin;  2 be a member of the Midewiwin" ; !Rand key:n20114917-44-18n
 miikshkooza:miikoshkoozo    VAI_TAG    " 1 be wounded from being shot" ; !Rand key:n20114923-0-4n
 niiskzi:niiskizi    VAI_TAG    " 1 be annoying" ; !Rand key:n201141012-27-21n
