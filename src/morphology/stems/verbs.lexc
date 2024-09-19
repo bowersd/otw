@@ -2545,7 +2545,7 @@ bdakaakgaabwi:badakaakogaabawi    VAI_TAG    " 1 stand upright" ; !Rand key:n730
 bdakaakse:badakaakose    VAI_TAG    " 1 land upright in striking something, snap upright " ; !Rand key:n72976255885n
 bdakiig'ige:badakiigahige    VAI_TAG    " 1 quilt" ; !Rand key:n72976254105n
 bdaknigo:badakinigo    VAI_TAG    " 1 have a nightmare" ; !Rand key:n72976254739n
-bdakshin:bdakishin    VAI_TAG    " 1 stand erect (of sticklike objects)" ; !Rand key:n72976255002n
+bdakshin:badakishin    VAI_TAG    " 1 stand erect (of sticklike objects)" ; !Rand key:n72976255002n DB: missing vowel in bad supplied from OPD
 bdakshkaa:badakishkaa    VAI_TAG    " 1 de deflected, turn sideways" ; !Rand key:n72976255063n
 bdakza:badakizo    VAI_TAG    " 1 stand, grow upright (of plants)" ; !Rand key:n72976253325n
 bdangbiza:badangibizo    VAI_TAG    " 1 change course, turn" ; !Rand key:n72983851122n
