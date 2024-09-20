@@ -1208,7 +1208,7 @@ aan'sookaan:aanisookaan    NI_SET    " 1 legend, myth, sacred story" ; !common d
 mnjimnigan:minjiminigan     NI_SET  " 1 handle, holder " ; !found in sentence by RS. derivative mnjimnigaans 'clip' in new vocabulary
 mooshwaan:mooshwaan             NI_SET " 1 shawl" ; !found in sentence by RS
 shkode:ishkode              NI_SET  ; !ishkode is attested in GM (ashkode, entry below is attested in AW)
-zhebwaanaagan:azhebwaanaagan    NI_SET ; !from Al story
+zhebwaanaagan:azhebwaanaagan    NI_SET " 1 paddle"; !from Al story
 
 LEXICON NI_PLACE_NAMES_TAG
 +NI:0   # ; 
