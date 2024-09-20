@@ -51,7 +51,6 @@ Zoozep:zoozep            NA_SET  " 1 Joseph" ;
 baasaabik:baasaabik      NA_SET   "coins, change" ; !this looks like it has CCNJ(bii) from biisaa 'be small/finely grained' (but it acts like a noun), +(w)aabik 'metal/money', but aabik nouns tend to take -oog plurals, and in MC sentences, it takes -ag plural
 bewaateshiins:bewaateshie1ns    NA_SET    " 1 firefly" ; !like bemaateshiich
 nini:inini          NA_SET  "1 man" ; !anini is listed in NOD, but GM also uses inini
-nbaanaabe:nibaanaabe    NA_SET    " 1 mermaid" ; !from Al story, also in freelang ojibwe dictionary
 
 LEXICON NA
 !{oddballs
@@ -905,7 +904,7 @@ zhwaashksens:zhwaashkosens    NA_SET    " 1 toboggan" ; !Rand key:n73035440443n
 ziin'kiigmaan:ziinikiigomaan    NA_SET    " 1 nasal mucus, snot" ; !Rand key:n7303656145n
 ziitaagni-gookoosh:ziiwitaagani-gookoosh    NA_SET    " 1 salt pork" ; !Rand key:n73035751138n
 zkwaajge-kikoons:zVi1kwaajige-akikoons    NA_SET    " 1 spitoon" ; !Rand key:n73035812464n
-baanaabe:baanaabe    NA_SET    " 1 mermaid" ; !Rand key:n65306482327n
+baanaabe:nibaanaabe    NA_SET    " 1 mermaid" ; !Rand key:n65306482327n updated to reflect version in Al story (corroborated with freelang ojibwe dictionary)
 binoojii:abinoojii    NA_SET    " 1 [see binoojiinh]" ; !Rand key:n200562318-55-52n
 baagaakw'igan:baagaakwahigan    NA_SET    " 1 black ash splint; splint for basketry" ; !Rand key:n20057221-22-46n
 zhignaawis:zhiginaawis    NA_SET    " 1 worm" ; !Rand key:n20058516-21-55n
