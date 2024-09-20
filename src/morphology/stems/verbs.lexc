@@ -113,12 +113,6 @@ dba'ganet:dibahiganed2     VII_TAG "be so many hours, used with numerical prever
 mnidoonaagod:manidoonaagod2 VII_TAG "look like a mnidoo" ; !should there be a VII derivation with -naagod? (also VAI naagzi)
 !end story review new words}
 maajiiyaatese:maajiiyaatese VII_TAG "start, commence" ; !from MC sentences
-niizho-dbagne:niizho-dibahigane    VII_TAG    " 1 be two o'clock" ; !Rand key:n20114821-34-3n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
-nso-dbagne:niso-dibahigane    VII_TAG    " 1 be three o'clock" ; !Rand key:n20114821-43-41n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
-niiwo-dbagne:niiwo-dibahigane    VII_TAG    " 1 be four o'clock" ; !Rand key:n20114821-47-37n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
-naana-dbagne:naanVo1-dibahigane    VII_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
-naana-dbagne:naano-dibahigane    VII_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
-ngodwaaso-dbagne:ningodwaaso-dibahigane    VII_TAG    " 1 be six o'clock" ; !Rand key:n20114821-53-21n (moved from VAI) DB: truly conservative UR should be dibahigane, not dibagane, lemmat is oversyncopated viz lautgesetzliche form
 waannamo:waanonamo    VII_TAG    " 1 be a windy road" ; !from Al story, also attested in MacGregor 1987 lexicon
 naagse:inaagise     VII_TAG    " 1 be bent, flipped over" ; !from Al story
 aagwaate:aagawaate  VII_TAG     "be shade" ; !from Al story
@@ -6760,6 +6754,12 @@ zoongngwaam:zoongingwaam    VAI_TAG    " 1 sleep soundly" ; !Rand key:n730360257
 bmasengwaam:bimVo1sengwaam    VAI_TAG    " 1 sleepwalk" ; !Rand key:n201611611-55-59n
 bmasengwaam:bimosengwaam    VAI_TAG    " 1 sleepwalk" ; !Rand key:n201611611-55-59n
 bningwaam:biningwaam    VAI_TAG    " 1 fall out of bed while sleeping, fall off the bed while sleeping" ; !Rand key:n201611711-11-22n
+niizho-dbagne:niizho-dibahigane    VAI_TAG    " 1 be two o'clock" ; !Rand key:n20114821-34-3n  DB: truly conservative UR should be dibahigane, not dibagane, lemma is oversyncopated viz lautgesetzliche form. Grammar can now just concatenate numerical preverbs, so we could get by with a VAI dba'gane (in addition to the VII that we have)
+nso-dbagne:niso-dibahigane    VAI_TAG    " 1 be three o'clock" ; !Rand key:n20114821-43-41n  DB: truly conservative UR should be dibahigane, not dibagane, lemma is oversyncopated viz lautgesetzliche form. Grammar can now just concatenate numerical preverbs, so we could get by with a VAI dba'gane (in addition to the VII that we have)
+niiwo-dbagne:niiwo-dibahigane    VAI_TAG    " 1 be four o'clock" ; !Rand key:n20114821-47-37n  DB: truly conservative UR should be dibahigane, not dibagane, lemma is oversyncopated viz lautgesetzliche form. Grammar can now just concatenate numerical preverbs, so we could get by with a VAI dba'gane (in addition to the VII that we have)
+naana-dbagne:naanVo1-dibahigane    VAI_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n  DB: truly conservative UR should be dibahigane, not dibagane, lemma is oversyncopated viz lautgesetzliche form. Grammar can now just concatenate numerical preverbs, so we could get by with a VAI dba'gane (in addition to the VII that we have)
+naana-dbagne:naano-dibahigane    VAI_TAG    " 1 be five o'clock" ; !Rand key:n20114821-50-21n  DB: truly conservative UR should be dibahigane, not dibagane, lemma is oversyncopated viz lautgesetzliche form. Grammar can now just concatenate numerical preverbs, so we could get by with a VAI dba'gane (in addition to the VII that we have)
+ngodwaaso-dbagne:ningodwaaso-dibahigane    VAI_TAG    " 1 be six o'clock" ; !Rand key:n20114821-53-21n  DB: truly conservative UR should be dibahigane, not dibagane, lemma is oversyncopated viz lautgesetzliche form. Grammar can now just concatenate numerical preverbs, so we could get by with a VAI dba'gane (in addition to the VII that we have)
 !{start pseudo VTIs
 aagnetam:aagonwetam    VAI_TAG    " 1 disagree; deny" ; !Rand key:n72972746624n
 aagnetam:aagonetam    VAI_TAG    " 1 disagree; deny" ; !Rand key:n72972746624n
