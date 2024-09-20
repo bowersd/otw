@@ -118,6 +118,14 @@ naagse:inaagise     VII_TAG    " 1 be bent, flipped over" ; !from Al story
 aagwaate:aagawaate  VII_TAG     "be shade" ; !from Al story
 zaagbii:zaagibii                        VII_TAG "stick out of the water" ; !Rand has this as VAI and VII, can also be found in MacGregor's dictionary
 naagmishkaa:inaagamishkaa                   VII_TAG "be swirling water" ; !from Al story, OPD has this under a different definition
+mdaa'aagmishkaa:madaahaagamishkaa VII_TAG "be swirling water" ; !from Al story, close variant in confirmed in Nichols and Nyholm
+zegwiindmaa:zegwiindamaa      VII_TAG "be frightfully deep water" ; !from Al story
+bmaabkisin:bimaabBv1kisin     VII_TAG "be a cliff" ; !from Al story
+bmaabkaa:bimaabBv1kaa       VII_TAG "be a cliff" ; !from Al story
+booniise:booniise       VII_TAG "land" ; !from Al story
+naabkaa:inaabikaa      VII_TAG "be shaped in such a way [of rock]" ; !from Al story
+biissiniiskaa:biisasiniiskaa    VII_TAG "be gravel" ; !from Al story
+bekaadendaaagot:bekaadendaagod2     VII_TAG    " 1 be at peace, be content" ; !from Al story
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -2145,7 +2153,7 @@ mtaakzide:mitaakizide VAI_TAG "be bare footed";
 naadge:inaadage VAI_TAG "swim in such a way";
 ndose:ondose VAI_TAG "come hither";
 nagkwaakzi:inagokwaakozi VAI_TAG "be a wooden object of such size" ; 
-niisaakiiwe:niisaakiiwe VAI_TAG "go downhill" ; 
+niisaakiiwe:niisaakiiwe VAI_TAG "go downhill" ; !from Al story, confirmed in OPD
 niizaani:naniizaani  VAI_TAG "anticipate negative outcome, feel at risk of" ; 
 nishnaabewnikaaza:anishinaabewinikaazo    VAI_TAG "have an Indian name" ; !missing derivation from nishnaabewi ("be a North American aboriginal person") and nikaazo ("be called")
 njigaadese:onjigaadese    VAI_TAG "come from somewhere by foot"; !something to do with legs?
@@ -2185,6 +2193,7 @@ ddaknikewji:dadakinikewaji    VAI_TAG    " 1 have cold arms, one’s arms be col
 ddakwaakndibewji:dadakwaakonidibewaji    VAI_TAG    " 1 one’s head be cold" ; !Rand key:n103004116121n (from post-2016 data), UR informed by OPD
 ddakwaakgaadewji:dadakwaakogaadewaji    VAI_TAG    " 1 have cold legs, one’s legs be cold" ; !Rand key:n103004116113n (from post-2016 data), UR informed by OPD
 zaagbii:zaagibii                        VAI_TAG "stick out of the water" ; !Rand has this as VAI and VII, can also be found in MacGregor's dictionary
+gnawendaagzi:gonawendaagozi             VAI_TAG "be looked after" ; !from Al story
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
