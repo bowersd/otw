@@ -541,12 +541,6 @@ pashiigdigweshin    VAI_TAG    " 1 get one’s knees scratched up [from striking
 papiitendam    VAI_TAG    " 1 be in no hurry, be poky, be slow to act, procrastinate, take one’s time" ; !Rand key:n103004166952n
 papiiskaa    VAI_TAG    " 1 dawdle walking, walk slowly and idly" ; !Rand key:n103004166939n
 papagdan'kii    VAI_TAG    " 1 putter around at a task, work at something unhurriedly" ; !Rand key:n103004166918n
-pagnzikooza    VAI_TAG    " 1 be knocked down [from being struck by a heavy object]" ; !Rand key:n103004166857n
-pagnjishkne    VAI_TAG    " 1 collapse from how much one has eaten (fig.)" ; !Rand key:n103004166849n
-pagndanaandam    VAI_TAG    " 1 drop from hunger" ; !Rand key:n103004166840n
-pagndan'kii    VAI_TAG    " 1 work to point of collapsing, work until one drops" ; !Rand key:n103004166832n
-pagndagoojin    VAI_TAG    " 1 fall over" ; !Rand key:n103004166823n
-pagndademo    VAI_TAG    " 1 collapse crying, fall down in sobbing" ; !Rand key:n103004166811n
 paataa    VAI_TAG    " 1 wake others in doing an activity, keep people awake with one's activities" ; !Rand key:n103004166758n
 paamoomgo    VAI_TAG    " 1 go horseback riding, ride around on horseback" ; !Rand key:n103004166750n
 paamba'go    VAI_TAG    " 1 go horseback riding" ; !Rand key:n103004166741n
@@ -2348,12 +2342,6 @@ pashiiwnikeshin    VAI_TAG    " 1 get one’s arms scratched up [from striking t
 pashiingweshin    VAI_TAG    " 1 get one’s face scratched up [from striking something], one’s face be scratched up [from striking something]" ; !Rand key:n58fa1bd51f344bd0bdc623320a01dd02n
 pasaaknike    VAI_TAG    " 1 have bruises on one’s arm" ; !Rand key:n58fa1bd560344ed680ba23320a01dd02n
 pasaakgaade    VAI_TAG    " 1 have bruises on one’s leg" ; !Rand key:n58fa1bd5eff040a799c723320a01dd02n
-pagnjidaabii    VAI_TAG    " 1 use a certain spot as a landing [in hauling]" ; !Rand key:n58fa1bd5c3a04410aaea23320a01dd02n
-pagnidza    VAI_TAG    " 1 throw oneself down" ; !Rand key:n58fa1bd5023448ea80e023320a01dd02n
-pagndendam    VAI_TAG    " 1 be laid low by despair" ; !Rand key:n58fa1bd5686c4f2f87ed23320a01dd02n
-pagndaashi    VAI_TAG    " 1 [something blown by wind] come to rest in a certain spot" ; !Rand key:n58fa1bd52a5046ebba1423320a01dd02n
-pagndaasge    VAI_TAG    " 1 [the sun] shine down on a certain spot, [sunbeam] fall on a certain spot" ; !Rand key:n58fa1bd46f884cc2a04e23320a01dd02n
-pagndaasa    VAI_TAG    " 1 be laid low by the sun’s heat, be prostrated by the sun's heat" ; !Rand key:n58fa1bd460bc420dbc0c23320a01dd02n
 paamdaabii    VAI_TAG    " 1 take a baby out in the stroller; go about pulling a load" ; !Rand key:n58fa1bd45df446aa933023320a01dd02n
 paakmiigzi    VAI_TAG    " 1 wake others from one’s activities, keep people awake with one's activities" ; !Rand key:n58fa1bd44d78465c968823320a01dd02n
 paakmigzi    VAI_TAG    " 1 wake others from one’s activities, keep people awake with one's activities" ; !Rand key:n58fa1bd4645c43d8a2d423320a01dd02n
@@ -3463,7 +3451,6 @@ piizhnanaa:piizhnan   VTA_TAG    " 1 scold smb. " ; !Rand key:n103004167391n
 piizgaakzige'aa:piizgaakzige'   VTA_TAG    " 1 curl smb.’s hair, give smb. a perm" ; !Rand key:n103004167363n
 piitnawaa:piitnaw   VTA_TAG    " 1 be ahead of smb. by a certain score, beat smb. by a certain score" ; !Rand key:n103004167294n
 paktejiishmaa:paktejiishm   VTA_TAG    " 1 throw smb. forcefully to the ground repeatedly in beating him, slam smb. down onto the ground" ; !Rand key:n103004166899n
-pagnzikwaa:pagnzikw   VTA_TAG    " 1 knock smb. over [with one’s weight]" ; !Rand key:n103004166865n
 onendmaagnaamaa:onendmaagnaam   VTA_TAG    " 1 knock smb. out, knock smb. unconscious" ; !Rand key:n103004166564n
 nshinaajiikwaa:nshinaajiikw   VTA_TAG    " 1 pester smb. awfully, pester smb. terribly" ; !Rand key:n103004166109n
 nshikewshimaa:nshikewshim   VTA_TAG    " 1 place sth. (an.) so it’s by itself, put sth. (an.) somewhere by itself" ; !Rand key:n103004165865n
@@ -4073,7 +4060,6 @@ pogzamaa:pogzam   VTA_TAG    " 1 tease smb. [verbally]" ; !Rand key:n58fa1bd5aa0
 pogji'aa:pogji'   VTA_TAG    " 1 tease smb. [through actions]" ; !Rand key:n58fa1bd5800c46f9870523320a01dd02n
 pizoo'aa:pizoo'   VTA_TAG    " 1 drive sth. (an.) to a certain place, drive sth. (an.) in a certain way" ; !Rand key:n58fa1bd5aa484ae2854923320a01dd02n
 piitenmaa:piitenm   VTA_TAG    " 1 hold smb. in a certain regard" ; !Rand key:n58fa1bd51d7041abb74723320a01dd02n
-pagnjiwnaa:pagnjiwn   VTA_TAG    " 1 carry sth. (an.) to a certain spot" ; !Rand key:n58fa1bd5c41848de81dc23320a01dd02n
 giitaaksnaa:giitaaksn   VTA_TAG    " 1 cut a circle around sth. (an.)" ; !Rand key:n201622515-52-45n
 ggaanjgidemaa:ggaanjgidem   VTA_TAG    " 1 get smb. riled up, incite smb., provoke smb." ; !Rand key:n20162237-42-36n
 !chargemi'aa    VTA_TAG    " 1 charge sth. (an.) (a battery)" ; !Rand key:n103004115181n
@@ -4627,8 +4613,6 @@ shkaasdoon:shkaasd   VTI_OO_THEME    " 1 throw sth. so it curves in flight (i.e.
 shigzaan:shigz   VTI_AM_THEME    " 1 cook sth. to mush, cook sth. until it turns mushy" ; !Rand key:n58fa1bd5c4ac4a38873823320a01dd02n
 shaweksidoon:shaweksid   VTI_OO_THEME    " 1 erect sth. crookedly, stand sth. crookedly" ; !Rand key:n58fa1bd588a04725a35f23320a01dd02n
 piitendaan:piitend   VTI_AM_THEME    " 1 hold sth. in a certain regard" ; !Rand key:n58fa1bd5c9284cc3b81323320a01dd02n
-pagnjiwdoon:pagnjiwd   VTI_OO_THEME    " 1 carry sth. to a certain spot, deliver sth. to a certain spot [in hauling]" ; !Rand key:n58fa1bd50d20405ba16023320a01dd02n
-pagdoon:pagd   VTI_OO_THEME    " 1 throw sth., toss sth., pitch sth. (as in baseball)" ; !Rand key:n58fa1bd410b44f7b9dc823320a01dd02n
 !migndibebnidza	vti-refl	 1 give oneself scabs on the head from scratching	n58fa1bdf67484c3d8f0923320a01dd02n
 !magndibebnidza	vti-refl	 1 give oneself scabs on the head from scratching	n58fa1bde1184447dbe7423320a01dd02n
 !niibneksidoonan	vtip	 1 arrange sth. [sticklike] erect in a row, place sth. [sticklike] erect in a row	n103000711847n

@@ -2195,6 +2195,18 @@ ddakwaakgaadewji:dadakwaakogaadewaji    VAI_TAG    " 1 have cold legs, one’s l
 zaagbii:zaagibii                        VAI_TAG "stick out of the water" ; !Rand has this as VAI and VII, can also be found in MacGregor's dictionary
 gnawendaagzi:gonawendaagozi             VAI_TAG "be looked after" ; !from Al story
 mbaazmaagzi:ombaazBv1maagozi    VAI_TAG    " 1 smell really bad, stink" ; !Rand key:n58fa1bde5cfc4957962c23320a01dd02n from new MC words
+pagndendam:apaganden    VAI_ENDAM_CONTINUATION " 1 be laid low by despair" ; !Rand key:n58fa1bd5686c4f2f87ed23320a01dd02n from new MC words
+pagndaashi:apagandaashi    VAI_TAG    " 1 [something blown by wind] come to rest in a certain spot" ; !Rand key:n58fa1bd52a5046ebba1423320a01dd02n from new MC words
+pagndaasge:apagandaasige    VAI_TAG    " 1 [the sun] shine down on a certain spot, [sunbeam] fall on a certain spot" ; !Rand key:n58fa1bd46f884cc2a04e23320a01dd02n from new MC words
+pagndaasa:apagandaaso    VAI_TAG    " 1 be laid low by the sun’s heat, be prostrated by the sun's heat" ; !Rand key:n58fa1bd460bc420dbc0c23320a01dd02n from new MC words
+pagnzikooza:apaganzikoozo    VAI_TAG    " 1 be knocked down [from being struck by a heavy object]" ; !Rand key:n103004166857n
+pagnjishkne:apaganjishkine    VAI_TAG    " 1 collapse from how much one has eaten (fig.)" ; !Rand key:n103004166849n
+pagndanaandam:apagandanaandam    VAI_TAG    " 1 drop from hunger" ; !Rand key:n103004166840n
+pagndan'kii:apagandanokii    VAI_TAG    " 1 work to point of collapsing, work until one drops" ; !Rand key:n103004166832n
+pagndagoojin:apagandagoojin    VAI_TAG    " 1 fall over" ; !Rand key:n103004166823n
+pagndademo:apagandademo    VAI_TAG    " 1 collapse crying, fall down in sobbing" ; !Rand key:n103004166811n
+pagnjidaabii:apaganjidaabii    VAI_TAG    " 1 use a certain spot as a landing [in hauling]" ; !Rand key:n58fa1bd5c3a04410aaea23320a01dd02n
+pagnidza:apagan  VAI_MANDATORY_RECIPROCAL    " 1 throw oneself down" ; !Rand key:n58fa1bd5023448ea80e023320a01dd02n
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
@@ -7209,6 +7221,8 @@ nigiizhgwe:wanigiizhigwe    VAI_TAG    " 1 get days mixed up, lose track of what
 nishenmaa:onizhishenim   VTA_TAG    " 1 think sth. (an.) efficacious; think sth. (an.) works well" ; !Rand key:n58fa1bdbbe144446b34123320a01dd02n (from post-2016 data), UR informed by OPD
 gshkowaadenmaa:goshkowaadenim   VTA_TAG    " 1 be surprised at smb." ; !Rand key:n103000641781n (from post-2016 data), UR informed by OPD
 gshkonwemaa:goshkonwem   VTA_TAG    " 1 surprise smb. with unexpected news" ; !Rand key:n103000641733n (from post-2016 data), UR informed by OPD
+pagnzikwaa:apaganzikw   VTA_TAG    " 1 knock smb. over [with one’s weight]" ; !Rand key:n103004166865n
+pagnjiwnaa:apaganjiwin   VTA_TAG    " 1 carry sth. (an.) to a certain spot" ; !Rand key:n58fa1bd5c41848de81dc23320a01dd02n
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
@@ -10918,6 +10932,8 @@ piitganaandaan:apiitiganaand            VTI_AM_THEME                "hit sth. wi
 disaan:adis                             VTI_AM_THEME                "paint sth."    ; !from AM sentences, looks like d/t variability in OPD
 gwekwendaan:gwayakwend    VTI_AM_THEME    " 1 be certain about sth., be sure about sth." ; !UNREDUCED UR for gwekwendaan (reduced UR in originals: Rand key:n65663965417n)
 nboobiikaanaa:niboobiikaan  VTA_TAG " 1 make soup with sth (an.)" ;  !from AK sentences, this looks like a verb with a relational suffix
+pagnjiwdoon:apaganjiwid   VTI_OO_THEME    " 1 carry sth. to a certain spot, deliver sth. to a certain spot [in hauling]" ; !Rand key:n58fa1bd50d20405ba16023320a01dd02n
+pagdoon:apagad   VTI_OO_THEME    " 1 throw sth., toss sth., pitch sth. (as in baseball)" ; !Rand key:n58fa1bd410b44f7b9dc823320a01dd02n
 
 LEXICON VTI
 baapiiw'aan:baapiiwih    VTI_AM_THEME    " 1 brush dust or crumbs from sth. [with an instrument]" ; !Rand key:n65306382067n
