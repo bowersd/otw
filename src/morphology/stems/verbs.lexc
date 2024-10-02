@@ -2213,6 +2213,8 @@ zhigaadetaa:izhigaadetaa    VAI_TAG    " 1 move one’s leg a certain way, posit
 zhigaadese:izhigaadese    VAI_TAG    " 1 one’s leg move involuntarily in a certain way, jerk one’s leg towards or from a certain object, kick one’s leg in a certain direction" ; !Rand key:n103000780153n
 zhigaadeni:izhigaadeni    VAI_TAG    " 1 move one’s leg a certain way, position one’s leg a certain way, put one’s leg on a certain object" ; !Rand key:n103000780144n
 nimkogwewebi:Bv1nimikogwewebi    VAI_TAG    " 1 sit facing away" ; !Rand key:n103000712582n
+noondeyaakza:noondeyaakizo      VAI_TAG " 1 cook or burn part-way" ; !from MC example
+naanzge:inaanzige    VAI_TAG    " 1 paint things a certain colour" ; !Rand key:n103000695941n
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
