@@ -7231,6 +7231,7 @@ gshkowaadenmaa:goshkowaadenim   VTA_TAG    " 1 be surprised at smb." ; !Rand key
 gshkonwemaa:goshkonwem   VTA_TAG    " 1 surprise smb. with unexpected news" ; !Rand key:n103000641733n (from post-2016 data), UR informed by OPD
 pagnzikwaa:apaganzikw   VTA_TAG    " 1 knock smb. over [with one’s weight]" ; !Rand key:n103004166865n
 pagnjiwnaa:apaganjiwin   VTA_TAG    " 1 carry sth. (an.) to a certain spot" ; !Rand key:n58fa1bd5c41848de81dc23320a01dd02n
+zhenaa:azhen   VTA_TAG    " 1 turn sth. (an.) back [rejecting it]" ; !Rand key:n103000779677n [a] sourced from OPD
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
@@ -10942,6 +10943,7 @@ gwekwendaan:gwayakwend    VTI_AM_THEME    " 1 be certain about sth., be sure abo
 nboobiikaanaa:niboobiikaan  VTA_TAG " 1 make soup with sth (an.)" ;  !from AK sentences, this looks like a verb with a relational suffix
 pagnjiwdoon:apaganjiwid   VTI_OO_THEME    " 1 carry sth. to a certain spot, deliver sth. to a certain spot [in hauling]" ; !Rand key:n58fa1bd50d20405ba16023320a01dd02n
 pagdoon:apagad   VTI_OO_THEME    " 1 throw sth., toss sth., pitch sth. (as in baseball)" ; !Rand key:n58fa1bd410b44f7b9dc823320a01dd02n
+zhenaan:azhen   VTI_AM_THEME    " 1 turn sth. back [rejecting it]" ; !Rand key:n103000779688n the [a] has been sourced from the OPD.
 
 LEXICON VTI
 baapiiw'aan:baapiiwih    VTI_AM_THEME    " 1 brush dust or crumbs from sth. [with an instrument]" ; !Rand key:n65306382067n
