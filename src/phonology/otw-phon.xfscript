@@ -17,6 +17,7 @@ define sigma [
                 i2| !i2 -> i (PA *i, trigger for palatalization)
                 e1| !e1n[h|s|y] -> en[h|s|y], else: i (PA short *e, short for purposes of coalescence rule)
                 o1| !behaves exactly like o is expected to act... where does it appear in morph output? -> not in nouns!
+                o3| !used for nouns that end in <o>
                 w1| !w1[i|e1] -> o, (Odawa) w1a -> o, w1a -> wa, else: 0 (abstract w for PA labiovelars gw, kw, found in noun plurals) must be special char because velar-w clusters exist that do not undergo these rules (agwinde) (possibly could enforce morpheme boundary sensitivity if we wanted to get rid of w1 distinction)
                 w2| !w2[n|#] -> 0, else: w (appears in nouns that synchronically end in i, form wag plurals)
                 w3| !w3 -> 0 / C _, _C, _# (only surfaces in hiatus appears in negation)
@@ -43,6 +44,7 @@ define sigma [
                 Vi1| !Valen special char, instant remap: a that in other dialects is i
                 Vv1| !Valen special char, instant remap: unknown short vowel
                 Vo1| !Valen special char, instant remap: o/wa variation
+                Vo2| !Valen special char, instant remap: a that in other dialects is o, but is [e] in initial change (/o/ is [we] in initial change, /a/ is [e] in initial change)
                 Vo2| !Valen special char, instant remap: a that in other dialects is o, but is [e] in initial change (/o/ is [we] in initial change, /a/ is [e] in initial change)
                 Bv1| !Bowers special char, instant remap: vowel to supply missing vowel at beginning of lexrep (fixes oversyncopation for the moment)
                 "PV/CCNJ+"| !marks changed conjunct form
@@ -94,11 +96,11 @@ define codaseqs [
                 w1|w5|y1|y2|m1|n1|n2|n3|n4|s1|b1|d1|d2
                 ]; 
 define longv [a a|e|i i|o o];
-define shortv [a|i|o|e1]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
+define shortv [a|i|o|e1|o3]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
 !define trushortv [a \[a]|i \[i]|o \[o]|e1]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
 define shortvsurface [a|i|o]; 
-define absv [a1|i1|i2|o1|e1];
-define vowel [a (a)|i (i)|o (o)|e|a1|i1|i2|o1|e1];
+define absv [a1|i1|i2|o1|e1|o3];
+define vowel [a (a)|i (i)|o (o)|e|a1|i1|i2|o1|o3|e1];
 define nastrig [n [h|y|s]];
 
 define nas [n|n2|m|m1];  !should the other nasals be here (n4?, m2?)
@@ -361,7 +363,11 @@ define w1Del [w1 -> 0];
 !will need to apply vowel deletion over nasal
 !giigoonhe1ns -> giigoons
 !but not giigoonhag -> *giigoonhg (giigoonyag)
-define vCoal [shortv -> o || [o|o1] _,, shortv -> i || [i|i1] _ ,,  shortv -> a || [a|a1] _ ];
+define vCoal [shortv -> o || [o|o1|o3] _ ,, shortv -> i || [i|i1] _ ,,  shortv -> a || [a|a1] _ ];
+define weirdStr [ [..] -> %& || shortv _ cseqs o3 %> %> ]; !hoping this helps with the wiingash problem. we'll see though
+define delo3 [o3 -> 0 || _ .#.,, o3 -> 0 || _ %> %>];
+define o3o [o3 -> o];
+
 
 !these handle contemptive/diminutive allomorphy
 !define lenPreNas [ e1 -> e || _ nastrig];
@@ -471,7 +477,6 @@ read regex [
     complen     .o.
     m2pseudoV   .o.
     m2Del       .o.
-    m2Assim     .o.
     w6Coal      .o.
     w6ToW       .o.
     m1n         .o.
@@ -493,6 +498,9 @@ read regex [
     w1Del       .o.
     !wiCoal      .o. !Might should include this rule (Medler, might be more general)
     vCoal       .o.
+    weirdStr    .o.
+    delo3       .o.
+    o3o         .o.
     lenPreNas   .o.
     Ei          .o.
     apocope     .o.
