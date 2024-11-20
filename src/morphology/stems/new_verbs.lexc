@@ -139,12 +139,7 @@ zhiibaatkoge    VAI_TAG    " 1 set a net under the ice" ; !Rand key:n10300078033
 zhiibaasgosbii    VAI_TAG    " 1 set a net under the ice" ; !Rand key:n103000780328n
 zhiibaasga'ge    VAI_TAG    " 1 set a net under the ice" ; !Rand key:n103000780319n
 zhiibaak'oge    VAI_TAG    " 1 stretch animal hide on a frame to dry it" ; !Rand key:n103000780282n
-zhigdigwese    VAI_TAG    " 1 twist one’s knee a certain way, injure one’s knee in some way by twisting it" ; !Rand key:n103000780210n
 zhig'age    VAI_TAG    " 1 drill holes into trees for spiles" ; !Rand key:n103000780201n
-zhigaadewse    VAI_TAG    " 1 walk in a certain direction, walk to a certain place" ; !Rand key:n103000780188n
-zhigaadetaa    VAI_TAG    " 1 move one’s leg a certain way, position one’s leg a certain way, put one’s leg on a certain object" ; !Rand key:n103000780179n
-zhigaadese    VAI_TAG    " 1 one’s leg move involuntarily in a certain way, jerk one’s leg towards or from a certain object, kick one’s leg in a certain direction" ; !Rand key:n103000780153n
-zhigaadeni    VAI_TAG    " 1 move one’s leg a certain way, position one’s leg a certain way, put one’s leg on a certain object" ; !Rand key:n103000780144n
 zhi-mkowi    VAI_TAG    " 1 find one’s way through trial and error" ; !Rand key:n103000780055n
 zhi-maajiiyaan'gidoon    VAI_TAG    " 1 start talking on a certain topic" ; !Rand key:n103000780042n
 zhi-bmibza    VAI_TAG    " 1 drive by without stopping" ; !Rand key:n103000780021n
@@ -680,7 +675,6 @@ ningzo    VAI_TAG    " 1 be elected" ; !Rand key:n103000712670n
 ningkwese    VAI_TAG    " 1 one’s head shake (as from Parkinson’s for instance)" ; !Rand key:n103000712661n
 ninaabi    VAI_TAG    " 1 look around" ; !Rand key:n103000712641n
 nimweweshin    VAI_TAG    " 1 one’s footfalls be heard as he’s walking away" ; !Rand key:n103000712633n
-nimkogwewebi    VAI_TAG    " 1 sit facing away" ; !Rand key:n103000712582n
 nimaambgo    VAI_TAG    " 1 float away" ; !Rand key:n103000712539n
 nikwe'ge    VAI_TAG    " 1 steer a certain way, steer in a certain direction" ; !Rand key:n103000712521n
 niknowe    VAI_TAG    " 1 dress in a certain way, wear a certain costume" ; !Rand key:n103000712508n
@@ -793,7 +787,6 @@ naaskonenjge    VAI_TAG    " 1 shine a light in a certain direction, shine a lig
 naashjiise    VAI_TAG    " 1 digest food, one’s meal settle after he/she eaten" ; !Rand key:n103000696011n
 naasaawkiise    VAI_TAG    " 1 lose one’s footing" ; !Rand key:n103000696002n
 naapwe    VAI_TAG    " 1 get a message in a dream, have a prophetic dream" ; !Rand key:n103000695954n
-naanzge    VAI_TAG    " 1 paint things a certain colour" ; !Rand key:n103000695941n
 naanshkine    VAI_TAG    " 1 digest food, one’s meal settle after he/she has eaten" ; !Rand key:n103000695932n
 naaniibwikiise    VAI_TAG    " 1 land in a standing position, land upright" ; !Rand key:n103000695849n
 naaniibjiime    VAI_TAG    " 1 pole a boat standing up, punt" ; !Rand key:n103000695840n
@@ -3294,7 +3287,6 @@ zhgajtawaa:zhgajtaw   VTA_TAG    " 1 tire of hearing smb., tire of listening to 
 zhgajiikwaa:zhgajiikw   VTA_TAG    " 1 tire of working on sth. (an.)" ; !Rand key:n103000779931n
 zheyaabkibnaa:zheyaabkibn   VTA_TAG    " 1 put a car in reverse" ; !Rand key:n103000779806n
 zhewebshkawaa:zhewebshkaw   VTA_TAG    " 1 push sth. (an.) back [with one’s weight]" ; !Rand key:n103000779760n
-zhenaa:zhen   VTA_TAG    " 1 turn sth. (an.) back [rejecting it]" ; !Rand key:n103000779677n
 zhekaan'gwaanaa:zhekaan'gwaan   VTA_TAG    " 1 sew border trim on sth. (an.)" ; !Rand key:n103000779666n
 zhegiiwenaa:zhegiiwen   VTA_TAG    " 1 take sth. (an.) back home" ; !Rand key:n103000779551n
 zhegiiwed'amwaa:zhegiiwed'amw   VTA_TAG    " 1 take something back to smb." ; !Rand key:n103000779531n
@@ -4129,7 +4121,6 @@ zhgajtaan:zhgajt   VTI_AM_THEME    " 1 tire of hearing sth., tire of listening t
 zhgajiitaan:zhgajiit   VTI_AM_THEME    " 1 tire of sth." ; !Rand key:n103000779942n
 zhgajiikaan:zhgajiik   VTI_AM_THEME    " 1 tire of working on sth." ; !Rand key:n103000779922n
 zhewebshkaan:zhewebshk   VTI_AM_THEME    " 1 push sth. back [with one’s weight]" ; !Rand key:n103000779751n
-zhenaan:zhen   VTI_AM_THEME    " 1 turn sth. back [rejecting it]" ; !Rand key:n103000779688n
 zhekaan'gwaadaan:zhekaan'gwaad   VTI_AM_THEME    " 1 sew border trim on sth." ; !Rand key:n103000779657n
 zhegiiwezh'aan:zhegiiwezh'   VTI_AM_THEME    " 1 send sth. back that one ordered, return sth. that one ordered" ; !Rand key:n103000779566n
 zhegiiwedoon:zhegiiwed   VTI_OO_THEME    " 1 take sth. back home" ; !Rand key:n103000779542n

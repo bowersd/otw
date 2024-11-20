@@ -2207,6 +2207,14 @@ pagndagoojin:apagandagoojin    VAI_TAG    " 1 fall over" ; !Rand key:n1030041668
 pagndademo:apagandademo    VAI_TAG    " 1 collapse crying, fall down in sobbing" ; !Rand key:n103004166811n
 pagnjidaabii:apaganjidaabii    VAI_TAG    " 1 use a certain spot as a landing [in hauling]" ; !Rand key:n58fa1bd5c3a04410aaea23320a01dd02n
 pagnidza:apagan  VAI_MANDATORY_RECIPROCAL    " 1 throw oneself down" ; !Rand key:n58fa1bd5023448ea80e023320a01dd02n
+zhigdigwese:izhigidigwese    VAI_TAG    " 1 twist one’s knee a certain way, injure one’s knee in some way by twisting it" ; !Rand key:n103000780210n
+zhigaadewse:izhigaadewBv1se    VAI_TAG    " 1 walk in a certain direction, walk to a certain place" ; !Rand key:n103000780188n
+zhigaadetaa:izhigaadetaa    VAI_TAG    " 1 move one’s leg a certain way, position one’s leg a certain way, put one’s leg on a certain object" ; !Rand key:n103000780179n
+zhigaadese:izhigaadese    VAI_TAG    " 1 one’s leg move involuntarily in a certain way, jerk one’s leg towards or from a certain object, kick one’s leg in a certain direction" ; !Rand key:n103000780153n
+zhigaadeni:izhigaadeni    VAI_TAG    " 1 move one’s leg a certain way, position one’s leg a certain way, put one’s leg on a certain object" ; !Rand key:n103000780144n
+nimkogwewebi:Bv1nimikogwewebi    VAI_TAG    " 1 sit facing away" ; !Rand key:n103000712582n
+noondeyaakza:noondeyaakizo      VAI_TAG " 1 cook or burn part-way" ; !from MC example
+naanzge:inaanzige    VAI_TAG    " 1 paint things a certain colour" ; !Rand key:n103000695941n
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
@@ -7223,6 +7231,7 @@ gshkowaadenmaa:goshkowaadenim   VTA_TAG    " 1 be surprised at smb." ; !Rand key
 gshkonwemaa:goshkonwem   VTA_TAG    " 1 surprise smb. with unexpected news" ; !Rand key:n103000641733n (from post-2016 data), UR informed by OPD
 pagnzikwaa:apaganzikw   VTA_TAG    " 1 knock smb. over [with one’s weight]" ; !Rand key:n103004166865n
 pagnjiwnaa:apaganjiwin   VTA_TAG    " 1 carry sth. (an.) to a certain spot" ; !Rand key:n58fa1bd5c41848de81dc23320a01dd02n
+zhenaa:azhen   VTA_TAG    " 1 turn sth. (an.) back [rejecting it]" ; !Rand key:n103000779677n [a] sourced from OPD
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
@@ -10934,6 +10943,7 @@ gwekwendaan:gwayakwend    VTI_AM_THEME    " 1 be certain about sth., be sure abo
 nboobiikaanaa:niboobiikaan  VTA_TAG " 1 make soup with sth (an.)" ;  !from AK sentences, this looks like a verb with a relational suffix
 pagnjiwdoon:apaganjiwid   VTI_OO_THEME    " 1 carry sth. to a certain spot, deliver sth. to a certain spot [in hauling]" ; !Rand key:n58fa1bd50d20405ba16023320a01dd02n
 pagdoon:apagad   VTI_OO_THEME    " 1 throw sth., toss sth., pitch sth. (as in baseball)" ; !Rand key:n58fa1bd410b44f7b9dc823320a01dd02n
+zhenaan:azhen   VTI_AM_THEME    " 1 turn sth. back [rejecting it]" ; !Rand key:n103000779688n the [a] has been sourced from the OPD.
 
 LEXICON VTI
 baapiiw'aan:baapiiwih    VTI_AM_THEME    " 1 brush dust or crumbs from sth. [with an instrument]" ; !Rand key:n65306382067n
