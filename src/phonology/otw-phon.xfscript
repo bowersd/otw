@@ -477,6 +477,7 @@ read regex [
     complen     .o.
     m2pseudoV   .o.
     m2Del       .o.
+    m2Assim     .o.
     w6Coal      .o.
     w6ToW       .o.
     m1n         .o.
