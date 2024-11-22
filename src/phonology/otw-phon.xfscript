@@ -365,7 +365,7 @@ define w1Del [w1 -> 0];
 !but not giigoonhag -> *giigoonhg (giigoonyag)
 define vCoal [shortv -> o || [o|o1|o3] _ ,, shortv -> i || [i|i1] _ ,,  shortv -> a || [a|a1] _ ];
 define weirdStr [ [..] -> %& || shortv _ cseqs o3 %> %> ]; !hoping this helps with the wiingash problem. we'll see though
-define delo3 [o3 -> 0 || _ .#.,, o3 -> 0 || _ %> %>];
+define delo3 [o3 -> 0 || _ [.#.|%> %>] ];
 define o3o [o3 -> o];
 
 
