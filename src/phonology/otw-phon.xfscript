@@ -342,6 +342,7 @@ define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
 define y2y  [y2 -> y ];
 
+define n2del2 [ n2 -> 0 || _ %>ban2]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
 define n2del  [ n2 (->) 0 || _ .#. ]; !deleting n2s are strictly Odawa, variable in Medler
 define n2def  [ n2 -> n];
 define vvvDel [ shortv -> 0 // _ longv, longv _ ]; 
@@ -509,6 +510,7 @@ read regex [
     glidedel    .o.
     y2y         .o.
     n2del       .o.
+    n2del2      .o.
     n2def       .o.
     str1        .o.
     str2        .o.
