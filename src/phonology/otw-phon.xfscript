@@ -181,6 +181,9 @@ define noomagad     [[..] -> o o || nas _ %> %> m a g a d2] ; !bleed ccEpen
 define vLenmagad    [[..] -> i || \[i] i _ %> %> m a g a d2 ,, 
                     [..] -> o || \[o] o _ %> %> m a g a d2 ,,
                     [..] -> a || \[a] a _ %> %> m a g a d2 ] ;
+
+define y1del [y1 -> 0 || _ %> b a n2 ];
+define n2del2 [ n2 -> 0 || _ %> b a n2 ]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
 define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization -> not in noun stems, so can't put i2 here and then trigger td palatalization
                             nas c1 _ %> nas .o.
                 [..] -> i2 || cons  %> %> _ cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
@@ -340,8 +343,6 @@ define hw2w [ [h w -> h, h w -> [w::1] || _ .#.] .o. !this could probably be tri
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
 define y2y  [y2 -> y ];
-define y1del [y1 -> 0 || _ %> b a n2 ];
-define n2del2 [ n2 -> 0 || _ %> b a n2 ]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
 define n2del  [ n2 (->) 0 || _ .#. ]; !deleting n2s are strictly Odawa, variable in Medler
 define n2def  [ n2 -> n];
 define vvvDel [ shortv -> 0 // _ longv, longv _ ]; 
@@ -445,6 +446,8 @@ read regex [
     noomagad    .o.
     vLenmagad   .o.
     mgAssim     .o.
+    y1del       .o.
+    n2del2      .o.
     ccEpen      .o.
     awiCoalescence .o. !this is fed by ccEpen
     rmBound     .o. !rules at or above this line reference morpheme boundaries
@@ -508,8 +511,6 @@ read regex [
     hw2w        .o. !historical behavior would have glidedel bleed hw2w, but there are clear innovations that motivate making hw2w be counterbled by glidedel
     glidedel    .o.
     y2y         .o.
-    y1del       .o.
-    n2del2      .o.
     n2del       .o.
     n2def       .o.
     str1        .o.
