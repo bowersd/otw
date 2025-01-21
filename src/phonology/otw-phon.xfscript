@@ -339,10 +339,9 @@ define hw2w [ [h w -> h, h w -> [w::1] || _ .#.] .o. !this could probably be tri
 
 define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
-
 define y2y  [y2 -> y ];
-
-define n2del2 [ n2 -> 0 || _ %>ban2]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
+define y1del [y1 -> 0 || _ %> b a n2 ];
+define n2del2 [ n2 -> 0 || _ %> b a n2 ]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
 define n2del  [ n2 (->) 0 || _ .#. ]; !deleting n2s are strictly Odawa, variable in Medler
 define n2def  [ n2 -> n];
 define vvvDel [ shortv -> 0 // _ longv, longv _ ]; 
@@ -509,8 +508,9 @@ read regex [
     hw2w        .o. !historical behavior would have glidedel bleed hw2w, but there are clear innovations that motivate making hw2w be counterbled by glidedel
     glidedel    .o.
     y2y         .o.
-    n2del       .o.
+    y1del       .o.
     n2del2      .o.
+    n2del       .o.
     n2def       .o.
     str1        .o.
     str2        .o.
