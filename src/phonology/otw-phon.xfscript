@@ -182,8 +182,10 @@ define vLenmagad    [[..] -> i || \[i] i _ %> %> m a g a d2 ,,
                     [..] -> o || \[o] o _ %> %> m a g a d2 ,,
                     [..] -> a || \[a] a _ %> %> m a g a d2 ] ;
 
-define y1del [y1 -> 0 || _ %> b a n2 ];
-define n2del2 [ n2 -> 0 || _ %> b a n2 ]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
+define n2y1del [ n2 y1 -> 0 || _ %> b a n2 ]; !has to bleed n2del
+
+!define y1del [y1 -> 0 || _ %> b a n2 ];
+!define n2del2 [ n2 -> 0 || _ %> b a n2 ]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
 define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization -> not in noun stems, so can't put i2 here and then trigger td palatalization
                             nas c1 _ %> nas .o.
                 [..] -> i2 || cons  %> %> _ cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
@@ -446,8 +448,7 @@ read regex [
     noomagad    .o.
     vLenmagad   .o.
     mgAssim     .o.
-    y1del       .o.
-    n2del2      .o.
+    n2y1del     .o.
     ccEpen      .o.
     awiCoalescence .o. !this is fed by ccEpen
     rmBound     .o. !rules at or above this line reference morpheme boundaries
