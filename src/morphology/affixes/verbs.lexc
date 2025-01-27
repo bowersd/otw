@@ -477,7 +477,7 @@ LEXICON VAI_INDEP_NUMBER
 LEXICON VAI_INDEP_3_OR_X_GATEWAY
 +3Obv:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
 +3+2Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;!(should translate to +3Pl)
-+3:w5       VAI_INDEP_3 ;
++3:w5       VAI_INDEP_3 ;!this is popping up before -bany, when I think it ought not based on Valentine grammar
 +X:m        VAI_INDEP_X_GATEWAY ;
 
 LEXICON VAI_INDEP_X_GATEWAY 
