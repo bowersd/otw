@@ -172,7 +172,7 @@ define cnjaepen     [[..] -> a || nas c1 _ w4 , !a epen for nas-final
                                   d2 c1 %> _ g %> b !DAB 2023 added d2 bc shkwaakmigd_a_gba, a preterite form
                                   ] ; 
 define w5o          [w5 -> o || cons _ %> a [n|g]] ; !feed oa->oo ... expanded to cons _ from nas _ to accomodate VII Cwan->Coon
-define w5del          [w5 -> 0 || _ %> [[g o b a]|[n o o n]]  ] ; !bleed ccEpen
+define w5del          [w5 -> 0 || _ %> [ [g o b a]|[n o o n]|[b a n2] ] ] ; !bleed ccEpen
 define w5w          [w5 -> w] ; !doesn't require morph bound, but kept it here for contiguity with other w5 rules
 define mgAssim      [m %> %> g -> n g,,
                      [n|m] %> %> d -> n d
