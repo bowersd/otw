@@ -512,6 +512,7 @@ read regex [
     glidedel    .o.
     y2y         .o.
     n2del       .o.
+    nasVowel    .o.
     n2def       .o.
     str1        .o.
     str2        .o.
