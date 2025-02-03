@@ -172,7 +172,7 @@ define cnjaepen     [[..] -> a || nas c1 _ w4 , !a epen for nas-final
                                   d2 c1 %> _ g %> b !DAB 2023 added d2 bc shkwaakmigd_a_gba, a preterite form
                                   ] ; 
 define w5o          [w5 -> o || cons _ %> a [n|g]] ; !feed oa->oo ... expanded to cons _ from nas _ to accomodate VII Cwan->Coon
-define w5del          [w5 -> 0 || _ %> [ [g o b a]|[n o o n]|[b a n2]|[d i g] ] ] ; !bleed ccEpen
+define w5del          [w5 -> 0 || _ %> [ [g o b a]|[n o o n]| ] ] ; !bleed ccEpen
 define w5w          [w5 -> w] ; !doesn't require morph bound, but kept it here for contiguity with other w5 rules
 define mgAssim      [m %> %> g -> n g,,
                      [n|m] %> %> d -> n d
@@ -184,8 +184,6 @@ define vLenmagad    [[..] -> i || \[i] i _ %> %> m a g a d2 ,,
 
 define n2y1del [ n2 y1 -> 0 || _ %> b a n2 ]; !has to bleed n2del
 
-!define y1del [y1 -> 0 || _ %> b a n2 ];
-!define n2del2 [ n2 -> 0 || _ %> b a n2 ]; !literally just supposed to delete n2 before ban2i1 morpheme, which is how valentine has it. can be commented out for Western dialect
 define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization -> not in noun stems, so can't put i2 here and then trigger td palatalization
                             nas c1 _ %> nas .o.
                 [..] -> i2 || cons  %> %> _ cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
@@ -346,6 +344,7 @@ define glidedel [[w|y|w1|w2|y1] -> 0 || cons _ .#. ];
 
 define y2y  [y2 -> y ];
 define n2del  [ n2 (->) 0 || _ .#. ]; !deleting n2s are strictly Odawa, variable in Medler
+define nasVowel [ [..] (->) h || n2 _ .#.];
 define n2def  [ n2 -> n];
 define vvvDel [ shortv -> 0 // _ longv, longv _ ]; 
 
