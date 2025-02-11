@@ -1787,14 +1787,14 @@ LEXICON THMDIR_NEG
             THMDIR_POS_3 ;
 
 LEXICON THMDIR_NEG_SIW_LOCAL
-+1Pl:angi           VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++1Pl:ang           VTA_CNJ_3C_PRE_PRT ; !i epenthetic
 +1:ag             VTA_CNJ_3B_PRE_PRT ;
 +21Pl:ang            VTA_CNJ_3B_PRE_PRT ;
 +2Pl:egw4           VTA_CNJ_3B_PRE_PRT ; !w4w -> w (egwaa, not egowaa), w4C -> o (egoban, not egiban), w4 -> 0 (eg, not egw/o)
-+2:a              VTA_CNJ_3C_PRE_PRT ; 
++2:a              vTA_CNJ_3C_PRE_PRT ; 
 
 LEXICON THMDIR_NEG_SIIW_LOCAL
-+1Pl:angi       VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i certainly epenthetic
++1Pl:ang       VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i certainly epenthetic
 +2:a          VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ;
 +1:ag         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
 +21Pl:ang        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
@@ -1859,6 +1859,9 @@ LEXICON THMDIR_POS_3_MODE
 !can below be shunted into DUB_OR_PRT_DUB?
 !+Dub:w4en2  VTA_CNJ_PCP_GET ; !Medler
 !+Prt+Dub:w4b1an2en2  VTA_CNJ_PCP_GET ; !Medler
+!EF: could you just set w4 to take you to VTA_CNJ_DUB_OR_PRT_DUB:
+!0:w4     VTA_CNJ_DUB_OR_PRT_DUB
+!EF: that is also where empty ultimately sends you
 +Dub:w4eny1  VTA_CNJ_PCP_GET ;
 +Prt+Dub:w4b1an2eny1  VTA_CNJ_PCP_GET ;
 !}
