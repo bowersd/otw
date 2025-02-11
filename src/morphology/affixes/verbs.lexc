@@ -1549,7 +1549,7 @@ LEXICON THM1_NEG_SIIG_3B_PRE_DUB
 0:w4   VTA_CNJ_DUB_OR_PRT_DUB  ;
 
 LEXICON THM1_NEG_SIIW_LOC !dub or prt dub
-+1Pl:angi   VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
++1Pl:ang   VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
 +1Pl:aang   VTA_CNJ_DUB_OR_PRT_DUB ; !aangenh, aangibanenh (hypo) 2pl v 1pl, 2sg v 1pl
 +2Pl:egw4   VTA_CNJ_DUB_OR_PRT_DUB ; !egwenh, egobanenh (hypo)
 +2:an     VTA_CNJ_DUB_OR_PRT_DUB ; !anenh, ambanenh (hypo)
@@ -1558,7 +1558,7 @@ LEXICON THM1_NEG_LOC !end or prt
 +1Pl:aang         VTA_CNJ_PRT_OR_END ; !aang, aangiban
 +2Pl:egw4         VTA_CNJ_PRT_OR_END ; !eg, (book has siwegiban, egoban, regularizing to egoban)
 +2:an           VTA_CNJ_PRT_OR_END ; !an, amban
-+1Pl:angi         VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++1Pl:ang         VTA_CNJ_3C_PRE_PRT ; !i epenthetic
 
 !}thm1
 !{thminv cont
@@ -1757,7 +1757,7 @@ LEXICON THM2A_POS_LOC_PRT
 !{thmnul cont
 !{actual nulls
 LEXICON THMNUL_LOC
-+1Pl:angi     VTA_CNJ_3C_PRE_PRT ; !i epenthetic
++1Pl:ang     VTA_CNJ_3C_PRE_PRT ; !i epenthetic
 +2:a        VTA_CNJ_3C_PRE_PRT ; 
 +1:agw4       VTA_CNJ_3B_PRE_PRT ; !w4w -> w, w4b -> o, w4 -> 0
 +21Pl:ang        VTA_CNJ_3B_PRE_PRT ; !epenthetic i before b1
@@ -1769,7 +1769,7 @@ LEXICON THMNUL_LOC
 !nearly identical to actual null forms, but must end in +Dub
 !phon difference too! agoban (Prt, o from w4) vs agenh (Dub, *agwenh)
 LEXICON THMNUL_AA_LOC
-+1Pl:angi     VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
++1Pl:ang     VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i epenthetic
 +2:a        VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; 
 +1:ag        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; 
 +21Pl:angw4       VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ; !w4V -> wV, w4w -> w
