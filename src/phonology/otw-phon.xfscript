@@ -184,7 +184,15 @@ define vLenmagad    [[..] -> i || \[i] i _ %> %> m a g a d2 ,,
 
 define n2y1del [ n2 y1 -> 0 || _ %> b a n2 ]; !has to bleed n2del
 
-define iEpen  [[..] -> i || cons cons _ cons ]; !I'll keep this bleeding ccEpen, until it hopefully just becomes a modification of it; problem with this is it wants to insert [i] between both stuff like <ng> and between the <ng> and <d> in <ngd>, so that it wants to make an SR [nigid] from /ngd/ rather than the correct [ngid]
+!EF: proposal for iEpen: we only want [i] inserted between underlyingly illegal consonant clusters
+!so create mark to mark okay clusters
+!define markClus [[..] -> %$ || [s (h)|z (h)] _ cons ,
+!                               cons _ w];
+!make this rule more general to insert between cons
+define iEpen  [[..] -> i || nas cons _ cons ]; !I'll keep this bleeding ccEpen, until it hopefully just becomes a modification of it; problem with this is it wants to insert [i] between both stuff like <ng> and between the <ng> and <d> in <ngd>, so that it wants to make an SR [nigid] from /ngd/ rather than the correct [ngid]
+!clean out the clusters
+!define cleanClus [%$ -> 0]
+
 define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization -> not in noun stems, so can't put i2 here and then trigger td palatalization, EF: seems like you could just remove the suffix boundary and this would work for a bunch of Cnj order [ang]s, though maybe it should be cseqs rather than cons so as to avoid insertion between [n] and [g], or maybe you make n (g) a consonant, but I don't know how the optionality works there 
                             nas c1 _ %> nas .o.
                 [..] -> i2 || cons  %> %> _ cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
