@@ -305,16 +305,6 @@ define cnjW4w       [w4 -> w || _ vowel]; !w4 non-o realization
 define cnjw4Del     [w4 -> 0]; !elsewhere
 define cnjb1b       [b1 -> b]; !assimilator b now b
 
-
-
-!EF: proposal for iEpen inserted between underlyingly illegal consonant clusters
-!insert [i] between non-strident non-nasals and a consonant that isn't [h] or [w]
-!we don't insert before h because the postalveolar(?) fricatives are spelled <sh> and <zh>
-!this could be a problem if we do insert [i] between a consonant and a glottal stop, which is spelled <h>
-!leaving w4 here for now rather than just moving iEpen after it in cascade after w4 deletion, in case current position is currently important
-!alternative to all this is to just add a suffix boundary after [ang], so that ccEpen takes care of it
-define iEpen  [[..] -> i || \[nas|s (h)|z (h)|vowel] _ \[w|h|vowel] ];
-
 !other rules
 define m2pseudoV [[..] -> a || .#. _ m2 ] ; 
 define m2Del   [m2 (->) 0 ] ; 
@@ -343,6 +333,13 @@ define ny [[y|y1] -> h || n _ [%-|.#.]] ;
 define apocope [ [shortv] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] cseqs _ .#. ,, !cons specified because 'i' in 'ii' shouldn't delete
                  [L1|w|y|absv|w1|w2|y1] -> 0 || [[shortv cseqs shortv ]|[longv (cseqs shortv)]] (cseqs) _ .#.]; !these rules apply "at the same time"
 
+!EF: proposal for iEpen inserted between underlyingly illegal consonant clusters
+!insert [i] between non-strident non-nasals and a consonant that isn't [h] or [w]
+!we don't insert before h because the postalveolar(?) fricatives are spelled <sh> and <zh>
+!this could be a problem if we do insert [i] between a consonant and a glottal stop, which is spelled <h>
+!leaving w4 here for now rather than just moving iEpen after it in cascade after w4 deletion, in case current position is currently important
+!alternative to all this is to just add a suffix boundary after [ang], so that ccEpen takes care of it
+define iEpen  [[..] -> i || \[nas|s (h)|z (h)|vowel] _ \[w|h|vowel] ];
 define hw2w [ [h w -> h, h w -> [w::1] || _ .#.] .o. !this could probably be trimmed to just word-finally (there should not be any word final shw by this point of the derivation)
             [w i -> o || \[s|c|n|z] h _ ] .o. !reinstating a specific version of wiCoal here because there are ho sequences from hwi in Medler, but the next rule ensures that "correct" surface forms have wi (and wiCoalescence in error modelwould not apply to make it o, because that would make Vo)
             [h w -> w || \[s|z|c|n] _ ]] ; !afaik, in all other environments glottal-w clusters are reduced to w. see note immediately below
@@ -482,7 +479,6 @@ read regex [
     !cnjW4nas    .o. !Medler didn't have this rule
     cnjW4w      .o.
     cnjw4Del    .o.
-    iEpen       .o.
     cnjb1b      .o.
     vtiVoi      .o.
     complen     .o.
@@ -516,6 +512,7 @@ read regex [
     lenPreNas   .o.
     Ei          .o.
     apocope     .o.
+    iEpen       .o.
     hw2w        .o. !historical behavior would have glidedel bleed hw2w, but there are clear innovations that motivate making hw2w be counterbled by glidedel
     glidedel    .o.
     y2y         .o.
