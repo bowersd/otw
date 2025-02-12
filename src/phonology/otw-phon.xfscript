@@ -184,15 +184,6 @@ define vLenmagad    [[..] -> i || \[i] i _ %> %> m a g a d2 ,,
 
 define n2y1del [ n2 y1 -> 0 || _ %> b a n2 ]; !has to bleed n2del
 
-!EF: proposal for iEpen: we only want [i] inserted between underlyingly illegal consonant clusters
-!so create mark to mark okay clusters
-!define markClus [[..] -> %$ || [s (h)|z (h)] _ cons ,
-!                               cons _ w];
-!make this rule more general to insert between cons
-define iEpen  [[..] -> i || nas cons _ cons ]; !I'll keep this bleeding ccEpen, until it hopefully just becomes a modification of it; problem with this is it wants to insert [i] between both stuff like <ng> and between the <ng> and <d> in <ngd>, so that it wants to make an SR [nigid] from /ngd/ rather than the correct [ngid]
-!clean out the clusters
-!define cleanClus [%$ -> 0]
-
 define ccEpen [[..] -> i || cons _ %> cons , !these [i's] probably condition palatalization -> not in noun stems, so can't put i2 here and then trigger td palatalization, EF: seems like you could just remove the suffix boundary and this would work for a bunch of Cnj order [ang]s, though maybe it should be cseqs rather than cons so as to avoid insertion between [n] and [g], or maybe you make n (g) a consonant, but I don't know how the optionality works there 
                             nas c1 _ %> nas .o.
                 [..] -> i2 || cons  %> %> _ cons !palatalization conditioned w/ deriv suffixes like gaazo, so restrict i2 to occur with these suffixes ... not sure if N or S palatalize with all of these
@@ -315,6 +306,14 @@ define cnjw4Del     [w4 -> 0]; !elsewhere
 define cnjb1b       [b1 -> b]; !assimilator b now b
 
 
+
+!EF: proposal for iEpen inserted between underlyingly illegal consonant clusters
+!insert [i] between non-strident non-nasals and a consonant that isn't [h] or [w]
+!we don't insert before h because the postalveolar(?) fricatives are spelled <sh> and <zh>
+!this could be a problem if we do insert [i] between a consonant and a glottal stop, which is spelled <h>
+!leaving w4 here for now rather than just moving iEpen after it in cascade after w4 deletion, in case current position is currently important
+!alternative to all this is to just add a suffix boundary after [ang], so that ccEpen takes care of it
+define iEpen  [[..] -> i || \[nas|s (h)|z (h)|vowel] _ \[w|h|vowel] ];
 
 !other rules
 define m2pseudoV [[..] -> a || .#. _ m2 ] ; 
@@ -456,7 +455,6 @@ read regex [
     vLenmagad   .o.
     mgAssim     .o.
     n2y1del     .o.
-    iEpen       .o.
     ccEpen      .o.
     awiCoalescence .o. !this is fed by ccEpen
     rmBound     .o. !rules at or above this line reference morpheme boundaries
@@ -484,6 +482,7 @@ read regex [
     !cnjW4nas    .o. !Medler didn't have this rule
     cnjW4w      .o.
     cnjw4Del    .o.
+    iEpen       .o.
     cnjb1b      .o.
     vtiVoi      .o.
     complen     .o.
