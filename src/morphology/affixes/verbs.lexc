@@ -1791,7 +1791,7 @@ LEXICON THMDIR_NEG_SIW_LOCAL
 +1:ag             VTA_CNJ_3B_PRE_PRT ;
 +21Pl:ang            VTA_CNJ_3B_PRE_PRT ;
 +2Pl:egw4           VTA_CNJ_3B_PRE_PRT ; !w4w -> w (egwaa, not egowaa), w4C -> o (egoban, not egiban), w4 -> 0 (eg, not egw/o)
-+2:a              VTA_CNJ_3C_PRE_PRT ; 
++2:a              vTA_CNJ_3C_PRE_PRT ; 
 
 LEXICON THMDIR_NEG_SIIW_LOCAL
 +1Pl:ang       VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ; !i certainly epenthetic
