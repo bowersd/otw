@@ -1786,6 +1786,9 @@ LEXICON THMDIR_NEG
 +Neg:sii    THMDIR_NEG_3 ; 
             THMDIR_POS_3 ;
 
+LEXICON THMDIR_NEG_GET_DUB
+@P.Mode.Dub@    THMDIR_NEG_SIW_LOCAL;
+
 LEXICON THMDIR_NEG_SIW_LOCAL
 +1Pl:ang           VTA_CNJ_3C_PRE_PRT ; !i epenthetic
 +1:ag             VTA_CNJ_3B_PRE_PRT ;
