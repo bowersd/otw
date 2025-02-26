@@ -1786,8 +1786,9 @@ LEXICON THMDIR_NEG
 +Neg:sii    THMDIR_NEG_3 ; 
             THMDIR_POS_3 ;
 
+!gives dub to siiw
 LEXICON THMDIR_NEG_GET_DUB
-@P.Mode.Dub@    THMDIR_NEG_SIW_LOCAL;
+@P.Mode.Dub@    THMDIR_NEG_SIW_LOCAL ;
 
 LEXICON THMDIR_NEG_SIW_LOCAL
 +1Pl:ang           VTA_CNJ_3C_PRE_PRT ; !i epenthetic
@@ -1802,6 +1803,11 @@ LEXICON THMDIR_NEG_SIIW_LOCAL
 +1:ag         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
 +21Pl:ang        VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
 +2Pl:eg         VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
+
+!check to see whether we got dub from siiw
+LEXICON VTA_CNJ_3C_PRT_OR_DUB
+@R.Mode.Dub@    VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ;
+                VTA_CNJ_3C_PRE_PRT ;
 
 !{third person negatives
 !a lot of irregularity:sig, sigwaa, siiwaapan, siipan, siigwaawenh, siigwenh, hypo: siiwaagobanenh, siigobanenh
