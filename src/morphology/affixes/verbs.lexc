@@ -1809,6 +1809,10 @@ LEXICON VTA_CNJ_3C_PRT_OR_DUB
 @R.Mode.Dub@    VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ;
                 VTA_CNJ_3C_PRE_PRT ;
 
+LEXICON VTA_CNJ_3B_PRT_OR_DUB
+@R.Mode.Dub@    VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
+                VTA_CNJ_3B_PRE_PRT ;
+
 !{third person negatives
 !a lot of irregularity:sig, sigwaa, siiwaapan, siipan, siigwaawenh, siigwenh, hypo: siiwaagobanenh, siigobanenh
 LEXICON THMDIR_NEG_3_NO_MODE
