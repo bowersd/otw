@@ -1907,7 +1907,7 @@ LEXICON VTA_CNJ_3C_PRE_PRT_PCP_SET
 
 LEXICON VTA_CNJ_3B_PRE_PRT
 +3Pl:waa   VTA_CNJ_PRT_OR_END ;
-+3:w4        VTA_CNJ_3B_PRE_PRT_PCP_SET ; !seems very odd that +3 and not +3Pl would pick up possibility for 3Pl Pcp
++3:0        VTA_CNJ_3B_PRE_PRT_PCP_SET ; !seems very odd that +3 and not +3Pl would pick up possibility for 3Pl Pcp
 
 LEXICON VTA_CNJ_3B_PRE_PRT_PCP_SET
 @P.3Num.Pl@ VTA_CNJ_PRT_OR_END ;
