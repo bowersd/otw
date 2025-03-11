@@ -302,6 +302,7 @@ define cnjD1Gnas    [d1 -> g || nas _ ]; !oft-duplicated d1->g change (envi mild
 define d1pal    [[d|d1] -> j || _ y1 vowel ]; !palatalization in participles, targets d now because -d `+3' in VTA 3C pattern does not fuse like d1 does, but it does palatalize
 define cnjD1d       [d1 -> d]; !elsewhere d1
 !define cnjW4nas     [[..] -> h || w4 e n2 _ ]; !third person dub nasalization, Medler didn't do this MOVE TO ERROR MODEL
+define dubw4Del     [w4 -> 0 || i3 cseqs vowel codaseqs _ ];
 define cnjW4w       [w4 -> w || _ vowel]; !w4 non-o realization
 define cnjw4Del     [w4 -> 0]; !elsewhere
 define cnjb1b       [b1 -> b]; !assimilator b now b
@@ -478,6 +479,7 @@ read regex [
     d1pal       .o.
     cnjD1d      .o.
     !cnjW4nas    .o. !Medler didn't have this rule
+    dubw4Del    .o.
     cnjW4w      .o.
     cnjw4Del    .o.
     cnjb1b      .o.
