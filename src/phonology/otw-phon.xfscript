@@ -15,6 +15,7 @@ define sigma [
                 a1| !a1>C -> a>C, a1>e1 -> >e, a1>a -> aa>, else: 0 (pl/obv not lengthened, dim quality not affected, otherwise, long a appears before suffixes, else: delete)
                 i1| !i1> -> ii>, else: 0 (long i before all suffixes, else: delete) 
                 i2| !i2 -> i (PA *i, trigger for palatalization)
+                i3| !triggers w4 deletion: w4 -> 0 / i3 C V C _
                 e1| !e1n[h|s|y] -> en[h|s|y], else: i (PA short *e, short for purposes of coalescence rule)
                 o1| !behaves exactly like o is expected to act... where does it appear in morph output? -> not in nouns!
                 o3| !used for nouns that end in <o>
@@ -99,8 +100,8 @@ define longv [a a|e|i i|o o];
 define shortv [a|i|o|e1|o3]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
 !define trushortv [a \[a]|i \[i]|o \[o]|e1]; !all other abstract vowels to [aio] by time relevant? should this bar following vowel, otherwise will match first grapheme of long vowel.
 define shortvsurface [a|i|o]; 
-define absv [a1|i1|i2|o1|e1|o3];
-define vowel [a (a)|i (i)|o (o)|e|a1|i1|i2|o1|o3|e1];
+define absv [a1|i1|i2|i3|o1|e1|o3];
+define vowel [a (a)|i (i)|o (o)|e|a1|i1|i2|i3|o1|o3|e1];
 define nastrig [n [h|y|s]];
 
 define nas [n|n2|m|m1];  !should the other nasals be here (n4?, m2?)
