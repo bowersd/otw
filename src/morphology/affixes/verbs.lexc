@@ -1778,10 +1778,12 @@ LEXICON THMNUL_AA_LOC
 !}
 !}thmnul end
 
+!EF: I made a multicharacter symbol i3, but making a multichararacter w might
+!be better
 !{thmdir cont
 LEXICON THMDIR_NEG
 +Neg:siw    THMDIR_NEG_SIW_LOCAL ;
-+Neg:siiw   THMDIR_NEG_SET_DUB ;
++Neg:sii3w   THMDIR_NEG_SET_DUB ;
 +Neg:sig    THMDIR_NEG_3_NO_MODE ;
 +Neg:sii    THMDIR_NEG_3 ; 
             THMDIR_POS_3 ;
