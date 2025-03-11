@@ -1781,28 +1781,28 @@ LEXICON THMNUL_AA_LOC
 !{thmdir cont
 LEXICON THMDIR_NEG
 +Neg:siw    THMDIR_NEG_SIW_LOCAL ;
-+Neg:siiw   THMDIR_NEG_GET_DUB ;
++Neg:siiw   THMDIR_NEG_SET_DUB ;
 +Neg:sig    THMDIR_NEG_3_NO_MODE ;
 +Neg:sii    THMDIR_NEG_3 ; 
             THMDIR_POS_3 ;
 
 !gives dub to siiw
-LEXICON THMDIR_NEG_GET_DUB
+LEXICON THMDIR_NEG_SET_DUB
 @P.Mode.Dub@    THMDIR_NEG_SIW_LOCAL ;
 
 LEXICON THMDIR_NEG_SIW_LOCAL
-+1Pl:ang             VTA_CNJ_3C_PRT_OR_DUB ; !i epenthetic
-+1:ag              VTA_CNJ_3B_PRT_OR_DUB ;
-+21Pl:ang             VTA_CNJ_3B_PRT_OR_DUB ;
-+2Pl:egw4            VTA_CNJ_3B_PRT_OR_DUB ; !w4w -> w (egwaa, not egowaa), w4C -> o (egoban, not egiban), w4 -> 0 (eg, not egw/o)
-+2:a                VTA_CNJ_3C_PRT_OR_DUB ; 
++1Pl:ang             VTA_CNJ_3C_GET_PRT_OR_DUB ; !i epenthetic
++1:ag               VTA_CNJ_3B_GET_PRT_OR_DUB ;
++21Pl:ang              VTA_CNJ_3B_GET_PRT_OR_DUB ;
++2Pl:eg             VTA_CNJ_3B_GET_PRT_OR_DUB ; !w4w -> w (egwaa, not egowaa), w4C -> o (egoban, not egiban), w4 -> 0 (eg, not egw/o)
++2:a                 VTA_CNJ_3C_GET_PRT_OR_DUB ; 
 
 !check to see whether we got dub from siiw
-LEXICON VTA_CNJ_3C_PRT_OR_DUB
+LEXICON VTA_CNJ_3C_GET_PRT_OR_DUB
 @R.Mode.Dub@    VTA_CNJ_3C_PRE_DUB_OR_PRT_DUB ;
 @D.Mode@                VTA_CNJ_3C_PRE_PRT ;
 
-LEXICON VTA_CNJ_3B_PRT_OR_DUB
+LEXICON VTA_CNJ_3B_GET_PRT_OR_DUB
 @R.Mode.Dub@    VTA_CNJ_3B_PRE_DUB_OR_PRT_DUB ;
 @D.Mode@                VTA_CNJ_3B_PRE_PRT ;
 
