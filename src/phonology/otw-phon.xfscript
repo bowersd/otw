@@ -303,6 +303,7 @@ define d1pal    [[d|d1] -> j || _ y1 vowel ]; !palatalization in participles, ta
 define cnjD1d       [d1 -> d]; !elsewhere d1
 !define cnjW4nas     [[..] -> h || w4 e n2 _ ]; !third person dub nasalization, Medler didn't do this MOVE TO ERROR MODEL
 define dubw4Del     [w4 -> 0 || i3 cseqs vowel codaseqs _ ];
+define i3toi        [i3 -> i];
 define cnjW4w       [w4 -> w || _ vowel]; !w4 non-o realization
 define cnjw4Del     [w4 -> 0]; !elsewhere
 define cnjb1b       [b1 -> b]; !assimilator b now b
@@ -480,6 +481,7 @@ read regex [
     cnjD1d      .o.
     !cnjW4nas    .o. !Medler didn't have this rule
     dubw4Del    .o.
+    i3toi       .o.
     cnjW4w      .o.
     cnjw4Del    .o.
     cnjb1b      .o.
