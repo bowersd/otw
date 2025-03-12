@@ -1783,7 +1783,7 @@ LEXICON THMNUL_AA_LOC
 !{thmdir cont
 LEXICON THMDIR_NEG
 +Neg:siw    THMDIR_NEG_SIW_LOCAL ;
-+Neg:sii3w   THMDIR_NEG_SET_DUB ;
++Neg:si3w   THMDIR_NEG_SET_DUB ;
 +Neg:sig    THMDIR_NEG_3_NO_MODE ;
 +Neg:sii    THMDIR_NEG_3 ; 
             THMDIR_POS_3 ;
