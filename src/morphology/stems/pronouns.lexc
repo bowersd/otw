@@ -3,6 +3,10 @@ LEXICON PR
     PR_NI ;
     PR_NA ;
     PR_NA_DAB_ADDITIONS ;
+    PR_NI_DAB_ADDITIONS ;
+
+LEXICON PR_NI_DAB_ADDITIONS
+wegwendik:awegwendig PR_NI_TAG  " 1 anything what-so-ever" ; !From Al story
 
 LEXICON PR_NI
 dnow:danow    PR_NI_TAG    " 1 [see dnawa]" ; !Rand key:n72989352282n
