@@ -1489,8 +1489,8 @@ LEXICON VTA_IMPER_TAG
 LEXICON VTA_CNJ_THM
 +ThmDir:aa      THMDIR_NEG ; !1pl v 3pl
 +Thm2b:%>ik          THM2B_3 ; 
-+ThmNul:0        THMDIR_NEG_SIW_LOCAL ; 
-+ThmNul:aaw       THMDIR_NEG_SET_DUB ; !w likely epenthetic
++ThmNul:0         THMNUL_LOC ; 
++ThmNul:aaw        THMNUL_AA_LOC ; !w likely epenthetic
 +Thm2a+Neg:isin  THM2A_NEG_FRAG ; 
 +Thm2a:%>inin  THM2A_POS_LOC ; 
 +Thm1Pl2:%>igoo     THM1PL_NEG ;
