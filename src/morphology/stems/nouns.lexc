@@ -52,6 +52,7 @@ baasaabik:baasaabik      NA_SET   "coins, change" ; !this looks like it has CCNJ
 bewaateshiins:bewaateshie1ns    NA_SET    " 1 firefly" ; !like bemaateshiich
 nini:inini          NA_SET  "1 man" ; !anini is listed in NOD, but GM also uses inini
 zazaak:Bv1zazaakw1    NA_SET    " 1 horse fly" ; !Rand key:n103000769733n w1 from zazaakon, maybe o would work?
+Boodwewaadmii:boodawewaadamii   NA_SET " 1 Potawatomi"; !tribe name
 
 LEXICON NA
 !{oddballs
@@ -1210,6 +1211,7 @@ mnjimnigan:minjiminigan     NI_SET  " 1 handle, holder " ; !found in sentence by
 mooshwaan:mooshwaan             NI_SET " 1 shawl" ; !found in sentence by RS
 shkode:ishkode              NI_SET  ; !ishkode is attested in GM (ashkode, entry below is attested in AW)
 zhebwaanaagan:azhebwaanaagan    NI_SET " 1 paddle"; !from Al story
+moodyaabik:moodayaabiko     NI_SET "1 glass bottle"; !from Al story 'moodaabkoons' = piece of glass
 
 LEXICON NI_PLACE_NAMES_TAG
 +NI:0   # ; 

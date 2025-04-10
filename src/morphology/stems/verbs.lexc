@@ -126,6 +126,16 @@ booniise:booniise       VII_TAG "land" ; !from Al story
 naabkaa:inaabikaa      VII_TAG "be shaped in such a way [of rock]" ; !from Al story
 biissiniiskaa:biisasiniiskaa    VII_TAG "be gravel" ; !from Al story
 bekaadendaaagot:bekaadendaagod2     VII_TAG    " 1 be at peace, be content" ; !from Al story
+wewebjiwan:wewebajiwan      VII_TAG "roil (of a current of water)"; !from Al story
+bkise:bakise      VII_TAG "break apart"; !from Al story
+niibde'aabiigmot:niibdehaabiigamod2 VII_TAG "be in a line (of strings)" ; !from Al story
+gidaakiiwan:ogidaakiiwan    VII_TAG "be the summit of a hill" ; !from Al story (sentence is "gchi-gidaakiiwang oodi gii-yaawag is glossed", free translation: "they were on top of a big hill there" ... I'd hazard it "was a big summit where they were" though it isn't very idiomatic English
+bgojgin:bagojigin           VII_TAG " 1 grow in the wild" ; !from Al story
+piitaande:apiitaande        VII_TAG " 1 be colored to a degree" ; !from Al story
+boozaande:boozaande    VII_TAG    " 1 be a deep colour" ; !VII version of Rand key:n72981560557n
+bgamshkaa:bagamashkaa   VII_TAG    " 1 be adopted [as policy], come into effect, come into practice;  2 something come to mind (Wp)" ; !From Al story. base of bgamshkaamgat 
+giitaawaaksin:giitaawaakosin    VII_TAG " 1 be a sticklike wheel" ; !from Al story
+naabgaade:naabigaade    VII_TAG " 1 be tied" ; !from Al story, should be a derivative (this is a passive, but we don't have the base in the dictionary)
 
 LEXICON VII_DEF
 dso-dba'gne:n5daso-dVi1bahigane    VII_TAG    " 1 be a certain hour, be a certain time" ; !Rand2key:n73039845535n
@@ -2215,6 +2225,13 @@ zhigaadeni:izhigaadeni    VAI_TAG    " 1 move one’s leg a certain way, positio
 nimkogwewebi:Bv1nimikogwewebi    VAI_TAG    " 1 sit facing away" ; !Rand key:n103000712582n
 noondeyaakza:noondeyaakizo      VAI_TAG " 1 cook or burn part-way" ; !from MC example
 naanzge:inaanzige    VAI_TAG    " 1 paint things a certain colour" ; !Rand key:n103000695941n
+dkamba'we:dakamibahiwe  VAI_TAG " 1 cross as a group"; !FROM AL TEXT debaasge gii-bi-dnokiid Mchigiing
+debaasge:debaasige  VAI_TAG " 1 shine through (of light)"; !FROM AL TEXT debaasge gii-bi-dnokiid Mchigiing
+naadge:inaadage     VAI_TAG " 1 swim in such a way"; !FROM AL TEXT gchi-ogaa
+giishkgaadeshkaa:giishkigaadeshkaa VAI_TAG " 1 scratch one's legs" ; !FROM AL TEXT
+zginnjiindi:zagininjiinidi    VAI_TAG    " 1 hold each other's hands" ; !from Al text, note that there is already zginnjiinaa 'shake hands' with n1
+zhitwaa:izhitwaa        VAI_TAG     " 1 have such a culture/tradition" ; !from Al text
+niisaakiiwe:niisaakiiwe        VAI_TAG     " go downhill" ; !from Al text, found in OPD
 
 LEXICON VAI
 aadskaso:aadiskaso    VAI_TAG    " 1 be stranded out of water (of fish)" ; !Rand key:n72972577160n
@@ -6997,6 +7014,8 @@ LEXICON VAI_TAG
 LEXICON VAIO_DAB_ADDITIONS
 mnezin:manezi  VAIO_TAG "1 need sth., be short of something"; !menezyin is in texts manezi can be found in OPD
 znag'iinan:zanagihiin    VAIO_TAG    " 1 struggle with something [manipulable by hand]" ; !Rand key:n103000789306n from post 2016 entries, UR informed by OPD
+gkendmawkaazon:gikendamawikaazo  VAIO_TAG " 1 pretend to know about something" ; !from Al story ... need -kaazo suffixation (and flexibility of VAI's to become VAIOs)
+naanzon:inaanzo  VAIO_TAG " 1 dye something" ; !from Al story 
 
 LEXICON VAIO
 aagoo'on:aagooho    VAIO_TAG    "1 cover up [one's nakedness] with sth." ; !Rand key:n72972747273n
@@ -7232,6 +7251,15 @@ gshkonwemaa:goshkonwem   VTA_TAG    " 1 surprise smb. with unexpected news" ; !R
 pagnzikwaa:apaganzikw   VTA_TAG    " 1 knock smb. over [with one’s weight]" ; !Rand key:n103004166865n
 pagnjiwnaa:apaganjiwin   VTA_TAG    " 1 carry sth. (an.) to a certain spot" ; !Rand key:n58fa1bd5c41848de81dc23320a01dd02n
 zhenaa:azhen   VTA_TAG    " 1 turn sth. (an.) back [rejecting it]" ; !Rand key:n103000779677n [a] sourced from OPD
+giishkjaanegnaamaa:giishkijaaneganaam   VTA_TAG " 1 split s.o.'s nose" ; !From Al story
+njignaamaa:onjigonaam   VTA_TAG " 1 strike s.o. somewhere with great force" ; !From Al story. The form in the story (gaa-nji-ganaamaad) is a bit problematic
+baapchi'aa:baapichih VTA_TAG " 1 play tricks on s.o., make fun of s.o." ; !From Al story
+ggwejmaamaa:gagwejimaam VTA_TAG " 1 test the smell of s.o." ; !From Al story
+maajiibtwaanaa:maajiibatwaan1  VTA_TAG " 1 run away with s.o." ; !Inferred from Al story
+giiwebtwaanaa:giiwebatwaan1  VTA_TAG " 1 run home with s.o." ; !Inferred from Al story
+gobnaa:agobin1  VTA_TAG " 1 bandage s.o., put a poultice on s.o." ; !from Al story, present in Baraga
+noozwinkaanaa:noozowinikaan1    VTA_TAG " 1 give s.o. a name" ; !from Al story, Rand suspects this is a cobbled together on the spot form
+ngwaawaa:nagwaahw   VTA_TAG " 1 trap with something" ;  !from Al story
 
 LEXICON VTA_INVERSE_ONLY_SET
 @P.Theme.Inv@   VTA_TAG ; 
@@ -10944,6 +10972,15 @@ nboobiikaanaa:niboobiikaan  VTA_TAG " 1 make soup with sth (an.)" ;  !from AK se
 pagnjiwdoon:apaganjiwid   VTI_OO_THEME    " 1 carry sth. to a certain spot, deliver sth. to a certain spot [in hauling]" ; !Rand key:n58fa1bd50d20405ba16023320a01dd02n
 pagdoon:apagad   VTI_OO_THEME    " 1 throw sth., toss sth., pitch sth. (as in baseball)" ; !Rand key:n58fa1bd410b44f7b9dc823320a01dd02n
 zhenaan:azhen   VTI_AM_THEME    " 1 turn sth. back [rejecting it]" ; !Rand key:n103000779688n the [a] has been sourced from the OPD.
+btaakbidoon:bitaakibid  VTI_OO_THEME " 1 tie sth. up" ; !From Al story
+njinaazhkaan:onjinaazhik VTI_AM_THEME " 1 remove sth. from a place" ; !From Al story
+zhiwebnaan:izhiwebin    VTI_AM_THEME " 1 throw sth. in such a way" ; !From Al story
+giishkkwegdaan:giishkikwegid VTI_AM_THEME " 1 cut the throat of sth." ; !From Al story .. this was passivized, and the notional object is animate, so there should probably be a way to synthesize VTI's from VTA's.
+giishkjaanegdaan:giishkijaanegid VTI_AM_THEME " 1 cut the nose of sth." ; !From Al story .. this was passivized, and the notional object is animate, so there should probably be a way to synthesize VTI's from VTA's.
+maajiibtwaadaan:maajiibatwaad   VTI_AM_THEME " 1 run away with sth." ; !From Al story
+giiwebtwaadaan:giiwebatwaad  VTI_AM_THEME " 1 run home with sth." ; !From Al story
+pagdoon:apagid  VTI_OO_THEME " 1 throw sth." ; !From Al story
+maamnwendaan:maaminwend      VTI_AM_THEME " 1 remember something fondly"; !from Al story
 
 LEXICON VTI
 baapiiw'aan:baapiiwih    VTI_AM_THEME    " 1 brush dust or crumbs from sth. [with an instrument]" ; !Rand key:n65306382067n
