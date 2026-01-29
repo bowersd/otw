@@ -221,19 +221,3 @@ LEXICON N_GENERAL_PERIPH
 
 LEXICON N_OBVIATIVE
 +Obv:%>an1  # ; 
-
-
-LEXICON N_NUM_GET 
-@R.Animate.1@@D.Person.3@   NA_NUM ; !3-possessed animates may not be pl 
-@R.Animate.%0@   NI_NUM ;
-+Obv:%>an1              # ;
-+Loc:%>ng             # ;
-+DistLoc:%>kaang             # ;
-                # ;
-!intended: take one or none  of obv, loc, pl suffs, but no more
-LEXICON NA_NUM 
-+Pl:%>ag # ;
-
-LEXICON NI_NUM 
-+Pl:%>an1 # ;
-
