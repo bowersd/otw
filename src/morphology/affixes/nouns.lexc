@@ -186,16 +186,42 @@ LEXICON N_POS_NUM_3
 !style note: terminal symbols only introduced when no further morphemes can possibly follow
 
 LEXICON N_MOOD_GET 
-+Prt:%>ban2i1  N_NUM_GET ;
++Prt:%>ban2i1  N_ANIM_GET ;
 @R.Animate.1@@D.Person.3@   NA_VOCPL ; !3-possessed animates may not be pl
 !there might not be inanimate vocative plurals 
 !if there are, they are -idig, not *-idin
 @R.Animate.%0@   NA_VOCPL ;
-            N_NUM_GET ;
+            N_ANIM_GET ;
 
 LEXICON NA_VOCPL !Long feat name
 +Voc+Pl:%>dig # ; !odawa specific variant (included because we are gearing towards Nish now)
 !+Voc+Pl:%>dog # ; !general oji variant
+
+LEXICON N_ANIM_GET
+@R.Animate.1@   NA_POSSESSOR_GET ; 
+@R.Animate.%0@   NI_PL_PERIPH ; 
+
+LEXICON NA_POSSESSOR_GET
+@D.Person.3@ NA_PL_PERIPH ; 
+            N_OBVIATIVE ;
+
+LEXICON NA_PL_PERIPH
++Pl:%>ag            # ; 
+        N_GENERAL_PERIPH ; 
+
+LEXICON NI_PL_PERIPH
++Pl:%>an1            # ; 
+        N_OBVIATIVE ; 
+        N_GENERAL_PERIPH ;
+
+LEXICON N_GENERAL_PERIPH
++Loc:%>ng           # ;
++DistLoc:%>kaang    # ;
+                    # ;
+
+LEXICON N_OBVIATIVE
++Obv:%>an1  # ; 
+
 
 LEXICON N_NUM_GET 
 @R.Animate.1@@D.Person.3@   NA_NUM ; !3-possessed animates may not be pl 
