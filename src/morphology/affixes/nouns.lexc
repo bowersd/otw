@@ -187,7 +187,7 @@ LEXICON N_POS_NUM_3
 
 LEXICON N_MOOD_GET 
 +Prt:%>ban2i1  N_ANIM_GET ;
-@R.Animate.1@@D.Person.3@   NA_VOCPL ; !3-possessed animates may not be pl
+@R.Animate.1@@D.Person.3@   NA_VOCPL ; !3-possessed animates must be obv, and so cannot be pl
 !there might not be inanimate vocative plurals 
 !if there are, they are -idig, not *-idin
 @R.Animate.%0@   NA_VOCPL ;
